@@ -1,5 +1,6 @@
 import json
 import re
+import os
 from collections import OrderedDict
 from urllib.request import urlopen
 
@@ -101,6 +102,9 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
 
 
 includes = []
+
+if not os.path.exists(new_repository_subfolder_path):
+    os.mkdir(new_repository_subfolder_path)
 
 for letter in names:
     include_path = '%s%s.json' % (new_repository_subfolder_path, letter)
