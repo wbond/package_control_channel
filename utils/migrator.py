@@ -60,6 +60,14 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 old_name = name
                 name = old_data['package_name_map'][name]
 
+            # Fixes for bitbucket repos that are using a package_name_map
+            if name == 'pythonpep8autoformat':
+                old_name = name
+                name = 'Python PEP8 Autoformat'
+            if name == 'sublimesourcetree':
+                old_name = name
+                name = 'SourceTree'
+
             # Skip duplicate sources for packages
             if name in master_list:
                 continue
