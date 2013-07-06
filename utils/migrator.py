@@ -67,6 +67,12 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
             if name == 'sublimesourcetree':
                 old_name = name
                 name = 'SourceTree'
+            if name == 'sublime-http-response-headers-snippets':
+                old_name = name
+                name = 'HTTP Response Headers Snippets'
+            if name == 'symfonytools-for-sublimetext-2':
+                old_name = name
+                name = 'SymfonyTools'
 
             # Skip duplicate sources for packages
             if name in master_list:
