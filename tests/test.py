@@ -22,7 +22,7 @@ repo_file = "repositories.json"
 #         json.load(fp)
 
 
-class TestOrder(unittest.TestCase):
+class TestContents(unittest.TestCase):
     # Do not limit the list comparison to 600 chars (for more detailed debugging)
     maxDiff = None
 
@@ -43,6 +43,16 @@ class TestOrder(unittest.TestCase):
     def test_renamed_packages_in_order(self):
         ren_packages = list(self.j['renamed_packages'].keys())
         self.assertEqual(ren_packages, sorted(ren_packages, key=str.lower))
+
+    def test_name_map_redundancy(self):
+        for k, v in self.j['package_name_map'].items():
+            if k == v:
+                raise ValueError("Package '%s' maps to itself" % k)
+
+    def test_rename_map_redundancy(self):
+        for k, v in self.j['renamed_packages'].items():
+            if k == v:
+                raise ValueError("Package '%s' renames to itself" % k)
 
 
 if __name__ == '__main__':
