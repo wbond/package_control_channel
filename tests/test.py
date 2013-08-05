@@ -1,8 +1,18 @@
+#!/usr/bin/env python
+
+"""Tests for the validity of the channel file
+
+You can run this file directly or with `notetests` (or `python -m unittest`)
+from the root directory.
+"""
+
+import os
 import json
 import unittest
 from collections import OrderedDict
 
-# Only run these using `notetests` (or `python -m unittest`) from the root directory
+
+repo_file = "repositories.json"
 
 
 # No need to check for this because all the other tests would fail anyway
@@ -17,7 +27,8 @@ class TestOrder(unittest.TestCase):
     maxDiff = None
 
     def setUp(self):
-        self.j = json.load(open("repositories.json"), object_pairs_hook=OrderedDict)
+        with open(repo_file) as f:
+            self.j = json.load(f, object_pairs_hook=OrderedDict)
 
     def test_repositories_in_order(self):
         repos = self.j['repositories']
@@ -32,3 +43,11 @@ class TestOrder(unittest.TestCase):
     def test_renamed_packages_in_order(self):
         ren_packages = list(self.j['renamed_packages'].keys())
         self.assertEqual(ren_packages, sorted(ren_packages, key=str.lower))
+
+
+if __name__ == '__main__':
+    # Manually go up one directory if this file is run explicitly
+    if not os.path.exists(repo_file):
+        repo_file = os.path.join("..", repo_file)
+
+    unittest.main()
