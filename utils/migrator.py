@@ -191,7 +191,6 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'SublimeGit',
                 'SublimeInsertDatetime',
                 'SublimeREPL',
-                'Sublimerge',
                 'SublimeSBT',
                 'SublimeTmpl',
                 'Surround',
@@ -241,7 +240,10 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'Diagram',
                 'Japanize',
                 'SimpleClone',
-                'MacTerminal'
+                'MacTerminal',
+                'rsub',
+                'Pman',
+                'Gist'
             ]
 
             # These packages have a separate branch for ST3
@@ -274,7 +276,8 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'SublimeXiki': 'st3',
                 'Tag': 'st3',
                 'WordCount': 'st3',
-                'Code Runner': 'SublimeText3'
+                'Code Runner': 'SublimeText3',
+                'Sublimerge': 'sublime-text-3'
             }
 
             no_python = [
@@ -657,7 +660,8 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'Zenoss',
                 'Zissou Color Schemes',
                 'Zurb Foundation 4 Snippets',
-                'Mustang Color Scheme'
+                'Mustang Color Scheme',
+                'Kimbie Color Scheme'
             ]
 
             st3_only = [
@@ -679,7 +683,8 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'Package Bundler',
                 'Koan',
                 'StickySearch',
-                'CodeSearch'
+                'CodeSearch',
+                'Anaconda'
             ]
 
 
