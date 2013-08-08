@@ -7,6 +7,5 @@ list of repositories and packages for use with
 The `channel.json` file is published at https://sublime.wbond.net/channel.json
 and is included with Package Control as the default channel.
 
-Please be sure to follow the instructions at
-https://sublime.wbond.net/docs/developers to help the process of adding your
+Please be sure to [follow the instructions](http://wbond.net/sublime_packages/package_control/package_developers) to help the process of adding your
 package or repository go smoothly.
