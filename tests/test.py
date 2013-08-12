@@ -80,6 +80,8 @@ def get_package_name(data):
 ################################################################################
 
 class ChannelTests(unittest.TestCase):
+    maxDiff = None
+
     with _open('channel.json') as f:
         j = json.load(f)
 
@@ -92,6 +94,10 @@ class ChannelTests(unittest.TestCase):
 
         for repo in self.j['repositories']:
             self.assertIsInstance(repo, str)
+
+    def test_channel_repo_order(self):
+        repos = self.j['repositories']
+        self.assertEqual(repos, sorted(repos, key=str.lower))
 
 
 @generator_class
