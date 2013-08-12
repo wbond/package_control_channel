@@ -104,6 +104,7 @@ class RepositoryTests(unittest.TestCase):
     key_types_map = {
         'name': str,
         'details': str,
+        'description': str,
         'releases': list,
         'homepage': str,
         'author': str,
@@ -175,9 +176,7 @@ class RepositoryTests(unittest.TestCase):
 
     def _test_package(self, include, data):
         for key in data.keys():
-            self.assertIn(key, ('name', 'details', 'releases', 'homepage',
-                                'author', 'readme', 'issues', 'donate', 'buy',
-                                'previous_names', 'labels'))
+            self.assertIn(key, self.key_types_map)
             self.assertIsInstance(data[key], self.key_types_map[key])
 
             if key in ('details', 'homepage', 'readme', 'issues', 'donate',
