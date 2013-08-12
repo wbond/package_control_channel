@@ -96,6 +96,8 @@ class ChannelTests(unittest.TestCase):
 
 @generator_class
 class RepositoryTests(unittest.TestCase):
+    maxDiff = None
+
     with _open('repository.json') as f:
         j = json.load(f, object_pairs_hook=OrderedDict)
 
@@ -138,6 +140,7 @@ class RepositoryTests(unittest.TestCase):
 
             # `include` is for output during tests only
             yield cls._test_include_keys, (include, data)
+            yield cls._test_include_package_order, (include, data)
 
             for package in data['packages']:
                 yield cls._test_package, (include, package)
@@ -153,6 +156,22 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(keys, ['packages', 'schema_version'])
         self.assertEqual(data['schema_version'], '2.0')
         self.assertIsInstance(data['packages'], list)
+
+    def _test_include_package_order(self, include, data):
+        letter = include[-6]  # Hacky but better than regex
+
+        packages = [get_package_name(pdata) for pdata in data['packages']]
+
+        # Check if in the correct file
+        for package_name in packages:
+            if letter == '9':
+                self.assertTrue(package_name[0].isdigit())
+            else:
+                self.assertEqual(package_name[0].lower(), letter,
+                                 "Package inserted in wrong file")
+
+        # Check actual order
+        self.assertEqual(packages, sorted(packages, key=str.lower))
 
     def _test_package(self, include, data):
         for key in data.keys():
