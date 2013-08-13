@@ -544,11 +544,17 @@
 		{
 			"name": "Codeivate",
 			"details": "https://github.com/codeivate/codeivate-st",
+			"issues": "http://codeivate.userecho.com/",
+			"labels": ["code sharing", "analytics"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/codeivate/codeivate-st/tree/master"
-				}
+				},
+        			{
+           				"sublime_text": ">=3000",
+           				"details": "https://github.com/codeivate/codeivate-st/tree/sublime3"
+         			}
 			]
 		},
 		{
