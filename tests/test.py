@@ -149,13 +149,20 @@ class TestContainer(object):
         self.assertEqual(packages, sorted(packages, key=str.lower))
 
     def _test_package(self, include, data):
-        for key in data.keys():
-            self.assertIn(key, self.package_key_types_map)
-            self.assertIsInstance(data[key], self.package_key_types_map[key])
+        for k, v in data.items():
+            self.assertIn(k, self.package_key_types_map)
+            self.assertIsInstance(v, self.package_key_types_map[k])
 
-            if key in ('details', 'homepage', 'readme', 'issues', 'donate',
+            if k in ('details', 'homepage', 'readme', 'issues', 'donate',
                        'buy'):
-                self.assertRegex(data[key], '^https?://')
+                self.assertRegex(v, '^https?://')
+
+            # Test for invalid characters (on file systems)
+            if k == 'name':
+                # Invalid on Windows (and sometimes problematic on UNIX)
+                self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
+                # Invalid on OS X (or more precisely: hidden)
+                self.assertFalse(v.startswith('.'))
 
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
@@ -341,7 +348,8 @@ class RepositoryTests(TestContainer, unittest.TestCase):
 
                 if 'releases' in package:
                     for release in package['releases']:
-                        yield cls._test_release, (package_name, release)
+                        (yield cls._test_release,
+                              ("%s (%s)" % (package_name, include), release))
 
 
 ################################################################################
