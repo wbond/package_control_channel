@@ -212,7 +212,7 @@
 			"labels": ["theme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/allanhortle/Centurion/tree/master"
 				}
 			]
@@ -800,6 +800,15 @@
 			]
 		},
 		{
+			"name": "Tully Color Schemes",
+			"details": "https://github.com/swartzrock/tully-sublime-schemes",
+			"releases": [
+				{
+					"details": "https://github.com/swartzrock/tully-sublime-schemes/tags"
+				}
+			]
+		},
+		{
 			"name": "Twee",
 			"details": "https://github.com/monospaced/sublime-twee",
 			"releases": [
@@ -892,11 +901,27 @@
 		},
 		{
 			"details": "https://bitbucket.org/DanielSiepmann/typo3-fluid-snippets",
+			"issues": "https://danielsiepmann.atlassian.net/browse/FS",
+			"homepage": "http://daniel-siepmann.de/projects/sublime-text/fluid-snippets/",
+			"author": "Daniel Siepmann",
 			"labels": ["snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://bitbucket.org/DanielSiepmann/typo3-fluid-snippets/src/default"
+				}
+			]
+		},
+		{
+			"name": "TypoScript",
+			"details": "https://bitbucket.org/danielsiepmann-team/sublime-text-typoscript",
+			"issues": "https://danielsiepmann.atlassian.net/browse/TS",
+			"author": "Daniel Siepmann",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/danielsiepmann-team/sublime-text-typoscript/src/default"
 				}
 			]
 		}

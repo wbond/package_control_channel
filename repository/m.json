@@ -311,10 +311,24 @@
 		},
 		{
 			"details": "https://bitbucket.org/DanielSiepmann/mercurial-for-sublime",
+			"homepage": "http://daniel-siepmann.de/projects/sublime-text/mercurial-for-sublime/",
+			"issues": "https://danielsiepmann.atlassian.net/browse/MFS",
+			"author": "Daniel Siepmann",
+			"labels": ["vcs"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://bitbucket.org/DanielSiepmann/mercurial-for-sublime/src/default"
+				}
+			]
+		},
+		{
+			"name": "Meteor Snippets",
+			"details": "https://github.com/mrtnbroder/meteor-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mrtnbroder/meteor-snippets/tags"
 				}
 			]
 		},
@@ -335,6 +349,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/bistory/Sublime-Minifier/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Minify JS To Clipboard",
+			"details": "https://github.com/vicapow/sublime-minify-js-to-clipboard",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/vicapow/sublime-minify-js-to-clipboard/tree/master"
 				}
 			]
 		},
@@ -639,11 +663,11 @@
 			]
 		},
 		{
-			"name": "MultiFill", 
+			"name": "MultiFill",
 			"details": "https://github.com/Lellansin/MultiFill",
 			"releases": [
 				{
-					"sublime_text": "*", 
+					"sublime_text": "*",
 					"details": "https://github.com/Lellansin/MultiFill/tree/master"
 				}
 			]
@@ -694,8 +718,8 @@
 			"details": "https://github.com/erikgassler/My-Snippets",
 			"releases": [
 				{
-					"details": "https://github.com/erikgassler/My-Snippets/tree/master"
-				}	
+					"details": "https://github.com/erikgassler/My-Snippets/tags"
+				}
 			]
 		}
 	]

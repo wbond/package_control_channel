@@ -544,11 +544,17 @@
 		{
 			"name": "Codeivate",
 			"details": "https://github.com/codeivate/codeivate-st",
+			"issues": "http://codeivate.userecho.com/",
+			"labels": ["code sharing", "analytics"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/codeivate/codeivate-st/tree/master"
-				}
+				},
+        			{
+           				"sublime_text": ">=3000",
+           				"details": "https://github.com/codeivate/codeivate-st/tree/sublime3"
+         			}
 			]
 		},
 		{
@@ -661,6 +667,17 @@
 			]
 		},
 		{
+			"name": "Color Scheme - AmyCable",
+			"details": "https://github.com/jolleyjoe/sublime-amycable-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jolleyjoe/sublime-amycable-theme/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - Eggplant Parm",
 			"details": "https://github.com/mimshwright/sublime-eggplant-parm",
 			"labels": ["color scheme"],
@@ -686,6 +703,20 @@
 			],
 			"previous_names": [
 				"Frontend Delight Theme"
+			]
+		},
+		{
+			"name": "Color Scheme - Nice Blue Soda",
+			"details": "https://bitbucket.org/DanielSiepmann/color-scheme-nice-blue-soda",
+			"issues": "https://danielsiepmann.atlassian.net/browse/CSNBS",
+			"homepage": "http://daniel-siepmann.de/projects/sublime-text/nice-blue-color-scheme/",
+			"author": "Daniel Siepmann",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/DanielSiepmann/color-scheme-nice-blue-soda/src/default"
+				}
 			]
 		},
 		{
@@ -785,7 +816,7 @@
 			"details": "https://github.com/Suor/CommentsAwareEnter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/Suor/CommentsAwareEnter/tree/master"
 				}
 			]
