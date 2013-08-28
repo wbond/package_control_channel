@@ -317,17 +317,20 @@
 			]
 		},
 		{
+			"name": "Mercurial",
 			"details": "https://github.com/guillermooo/mercurial",
-			"homepage": "https://github.com/guillermooo/mercurial",
-			"issues": "https://github.com/guillermooo/mercurial/issues",
-			"author": "Guillermo López-Anglada",
-			"labels": ["vcs"],
+			"labels": ["vcs", "hg"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/guillermooo/mercurial/tags"
+					"details": "https://github.com/guillermooo/mercurial/tags" 
+				},
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/SublimeText/SublimeHg/tree/master"
 				}
-			]
+			],
+			"previous_names": ["SublimeHg"]
 		},
 		{
 			"details": "https://bitbucket.org/DanielSiepmann/mercurial-for-sublime",
