@@ -318,6 +318,22 @@
 			]
 		},
 		{
+			"name": "Mercurial",
+			"details": "https://github.com/guillermooo/mercurial",
+			"labels": ["vcs", "hg"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/guillermooo/mercurial/tags" 
+				},
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/SublimeText/SublimeHg/tree/master"
+				}
+			],
+			"previous_names": ["SublimeHg"]
+		},
+		{
 			"details": "https://bitbucket.org/DanielSiepmann/mercurial-for-sublime",
 			"homepage": "http://daniel-siepmann.de/projects/sublime-text/mercurial-for-sublime/",
 			"issues": "https://danielsiepmann.atlassian.net/browse/MFS",
