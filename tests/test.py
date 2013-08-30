@@ -148,6 +148,11 @@ class TestContainer(object):
         # Check package order
         self.assertEqual(packages, sorted(packages, key=str.lower))
 
+    def _test_repository_indents(self, include, contents):
+        for i, line in enumerate(contents.splitlines()):
+            self.assertRegex(line, r"^\t*\S",
+                             "Indent must be tabs in line %d" % i)
+
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
@@ -332,12 +337,14 @@ class RepositoryTests(TestContainer, unittest.TestCase):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
-                    data = json.load(f, object_pairs_hook=OrderedDict)
+                    contents = f.read()
+                data = json.loads(contents, object_pairs_hook=OrderedDict)
             except Exception as e:
                 yield cls._test_error, ("Error while reading %r" % include, e)
                 continue
 
             # `include` is for output during tests only
+            yield cls._test_repository_indents, (include, contents)
             yield cls._test_repository_keys, (include, data)
             yield cls._test_repository_package_order, (include, data)
 
