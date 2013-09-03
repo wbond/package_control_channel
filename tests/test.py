@@ -135,7 +135,15 @@ class TestContainer(object):
 
         # letter = include[-6]
         letter = m.group(1)
-        packages = [get_package_name(pdata) for pdata in data['packages']]
+        packages = []
+        for pdata in data['packages']:
+            pname = get_package_name(pdata)
+            if pname in packages:
+                self.fail("Package names must be unique: " + pname)
+            else:
+                packages.append(pname)
+
+            # TODO: Test for *all* "previous_names"
 
         # Check if in the correct file
         for package_name in packages:
