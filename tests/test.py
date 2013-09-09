@@ -195,6 +195,8 @@ class TestContainer(object):
                               'A release must provide "url", "version" and '
                               '"date" keys if it does not specify "details"')
 
+        self.assertIn('sublime_text', data,
+                      'A sublime text version selector is required')
 
         for k, v in data.items():
             self.assertIn(k, ('details', 'sublime_text', 'platforms',
@@ -205,6 +207,7 @@ class TestContainer(object):
                                  'The version, date and url keys should not be '
                                  'used in the main repository since a pull '
                                  'request would be necessary for every release')
+
             else:
                 if k == 'date':
                     self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
