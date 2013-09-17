@@ -84,7 +84,7 @@
 			"details": "https://github.com/waynemoore/sublime-gherkin-formatter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/waynemoore/sublime-gherkin-formatter/tree/master"
 				}
 			]
@@ -110,15 +110,15 @@
 		},
 		{
 			"name": "Git",
-			"details": "https://github.com/kemayo/sublime-text-2-git",
+			"details": "https://github.com/kemayo/sublime-git",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/kemayo/sublime-text-2-git/tree/master"
+					"details": "https://github.com/kemayo/sublime-git/tree/master"
 				},
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/kemayo/sublime-text-2-git/tree/python3"
+					"details": "https://github.com/kemayo/sublime-git/tree/python3"
 				}
 			]
 		},
@@ -189,8 +189,18 @@
 			"details": "https://github.com/ehamiter/ST2-GitHubinator",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/ehamiter/ST2-GitHubinator/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Gitignore",
+			"details": "https://github.com/kevinxucs/Sublime-Gitignore",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kevinxucs/Sublime-Gitignore/tree/master"
 				}
 			]
 		},
@@ -201,6 +211,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/WebGLTools/GL-Shader-Validator/tree/master"
+				}
+			]
+		},
+		{
+			"name": "GM Syntax",
+			"details": "https://github.com/andyp123/GMSyntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/andyp123/GMSyntax/tree/master"
 				}
 			]
 		},
@@ -241,7 +261,7 @@
 			"details": "https://github.com/frou/GoFeather",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/frou/GoFeather/tree/master"
 				}
 			]
@@ -298,6 +318,17 @@
 			]
 		},
 		{
+			"name": "Google Search",
+			"details": "https://github.com/nwjlyons/google-search",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/nwjlyons/google-search/tree/master"
+				}
+			],
+			"previous_names": ["google-search"]
+		},
+		{
 			"name": "Google Spell Check",
 			"details": "https://github.com/noahcoad/google-spell-check",
 			"releases": [
@@ -308,21 +339,22 @@
 			]
 		},
 		{
+			"name": "Google Stylesheets Syntax",
+			"details": "https://github.com/rhysbrettbowen/gss.sublime-package",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/rhysbrettbowen/gss.sublime-package/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Google Translate",
 			"details": "https://github.com/lfont/Sublime-Text-2-GoogleTranslate-Plugin",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/lfont/Sublime-Text-2-GoogleTranslate-Plugin/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/nwjlyons/google-search",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://bitbucket.org/nwjlyons/google-search/src/default"
 				}
 			]
 		},
@@ -349,7 +381,7 @@
 			"details": "https://github.com/kemayo/sublime-text-2-goto-documentation",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/kemayo/sublime-text-2-goto-documentation/tree/master"
 				}
 			]
@@ -366,10 +398,11 @@
 		},
 		{
 			"name": "Goto-CSS-Declaration",
+			"author": "Razumenko Maksim",
 			"details": "https://github.com/rmaksim/Sublime-Text-2-Goto-CSS-Declaration",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/rmaksim/Sublime-Text-2-Goto-CSS-Declaration/tree/master"
 				}
 			]
@@ -434,10 +467,11 @@
 			]
 		},
 		{
+			"name": "GotoTab",
 			"details": "https://github.com/SublimeText/GotoTab",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/GotoTab/tree/master"
 				}
 			]

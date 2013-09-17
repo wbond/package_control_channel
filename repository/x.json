@@ -26,7 +26,7 @@
 			"details": "https://github.com/Kindari/SublimeXdebug",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"details": "https://github.com/Kindari/SublimeXdebug/tree/master"
 				}
 			]
@@ -34,6 +34,7 @@
 		{
 			"name": "Xdebug Client",
 			"details": "https://github.com/martomo/SublimeTextXdebug",
+			"labels": ["php", "xdebug"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -58,6 +59,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/CrypticTemple/sublime-xml-guesser/tree/master"
+				}
+			]
+		},
+		{
+			"name": "xml2json",
+			"details": "https://github.com/vontio/sublime-xml2json",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vontio/sublime-xml2json/tree/master"
 				}
 			]
 		},

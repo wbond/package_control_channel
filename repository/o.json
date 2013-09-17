@@ -2,16 +2,6 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"name": "oauthlib",
-			"details": "https://github.com/Chris---/SublimeText-OAuthlib",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Chris---/SublimeText-OAuthlib/tree/master"
-				}
-			]
-		},
-		{
 			"name": "objc .strings syntax language",
 			"details": "https://github.com/PaNaVTEC/Objc-Strings-Syntax-Language",
 			"labels": ["language syntax"],
@@ -40,6 +30,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/hussani/Oblivion/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OCaml Autocompletion",
+			"details": "https://github.com/whitequark/sublime-ocp-index",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/whitequark/sublime-ocp-index/tree/master"
 				}
 			]
 		},
@@ -195,11 +195,47 @@
 			]
 		},
 		{
+			"name": "OpenInBrowser",
+			"homepage": "http://idevelopsolutions.com/OpenInBrowser",
+			"labels": ["browser", "open in browser", "refresh", "preview", "browser preview"],
+			"details": "https://bitbucket.org/bteryek/openinbrowser",
+			"releases": [
+				{
+					"platforms": [
+						"*"
+					],
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/bteryek/openinbrowser/#tags"
+				}
+			]
+		},
+		{
+			"name": "Oracle PL SQL",
+			"details": "https://github.com/mulander/oracle.tmbundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mulander/oracle.tmbundle/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Origami/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Outroot Color Schemes",
+			"details": "https://github.com/kdar/color-schemes",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kdar/color-schemes/tree/master"
 				}
 			]
 		}

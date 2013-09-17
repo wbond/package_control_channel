@@ -73,6 +73,16 @@
 			]
 		},
 		{
+			"name": "BBEdit Indent",
+			"details": "https://github.com/dnicolson/BBEdit-Indent",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/dnicolson/BBEdit-Indent/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Beanstalk Tools",
 			"details": "https://github.com/temochka/sublime-text-2-beanstalk",
 			"releases": [
@@ -99,6 +109,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/omissis/sublime-behat-syntax/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Behat Completions",
+			"details": "https://github.com/jadu/sublime-behat-completions",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jadu/sublime-behat-completions/tags"
 				}
 			]
 		},
@@ -158,14 +178,15 @@
 		{
 			"name": "Better CoffeeScript",
 			"details": "https://github.com/aponxi/sublime-better-coffeescript",
+			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/aponxi/sublime-better-coffeescript/tree/st2"
-				},
 				{
 					"sublime_text": ">2999",
 					"details": "https://github.com/aponxi/sublime-better-coffeescript/tree/master"
+				},
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/aponxi/sublime-better-coffeescript/tree/st2"
 				}
 			]
 		},
@@ -176,6 +197,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/int3h/sublime-better-javascript/tags"
+				}
+			]
+		},
+		{
+			"name": "Better TypeScript",
+			"details": "https://github.com/lavrton/sublime-better-typescript",
+			"labels": ["language syntax", "snippets", "linting", "watch", "typescript"],
+			"releases": [
+				{
+					"sublime_text": ">2999",
+					"details": "https://github.com/lavrton/sublime-better-typescript/tree/master"
 				}
 			]
 		},
@@ -282,6 +314,7 @@
 		{
 			"name": "Blusted Scheme",
 			"details": "https://github.com/Mendor/sublime-blusted/tree/publish",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",

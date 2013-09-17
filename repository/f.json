@@ -67,7 +67,7 @@
 			"details": "https://github.com/papaDoc/FastSwitch",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/papaDoc/FastSwitch/tree/master"
 				}
 			]
@@ -136,6 +136,17 @@
 			]
 		},
 		{
+			"name": "FileBinder",
+			"details": "https://github.com/JeroenVdb/FileBinder",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/JeroenVdb/FileBinder/tags"
+				}
+			]
+		},
+		{
 			"name": "FileCleanup",
 			"details": "https://github.com/GerjanOnline/SublimeFileCleanup",
 			"releases": [
@@ -152,6 +163,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/lowerworld/SublimeFileClose/tree/master"
+				}
+			]
+		},
+		{
+			"name": "FileOpTabContextMenu",
+			"details": "https://github.com/sigsergv/SublimeFileOpTabContextMenu",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sigsergv/SublimeFileOpTabContextMenu/tags"
 				}
 			]
 		},
@@ -261,10 +282,14 @@
 		{
 			"name": "Find++",
 			"details": "https://github.com/twolfson/FindPlusPlus",
+			"labels": [
+				"file navigation",
+				"search"
+			],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/twolfson/FindPlusPlus/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/twolfson/FindPlusPlus/tags"
 				}
 			]
 		},
@@ -283,6 +308,18 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/CodeEffect/FindSelected/tree/master"
+				}
+			]
+		},
+		{
+			"name": "FireCode Theme",
+			"author": "Mark Michos",
+			"labels": ["color scheme"],
+			"details": "https://github.com/MarkMichos/firecode-theme",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/MarkMichos/firecode-theme"
 				}
 			]
 		},
@@ -416,11 +453,22 @@
 			]
 		},
 		{
+			"name": "Frontend Light Color Scheme",
+			"details": "https://github.com/fman7/frontend-light",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/fman7/frontend-light/tree/master"
+				}
+			]
+		},
+		{
 			"name": "FTPSync",
 			"details": "https://github.com/NoxArt/SublimeText2-FTPSync",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/NoxArt/SublimeText2-FTPSync/tree/master"
 				}
 			]

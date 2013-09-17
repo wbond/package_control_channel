@@ -146,6 +146,27 @@
 			]
 		},
 		{
+			"name": "Scold",
+			"details": "https://github.com/Xion/SublimeScold",
+			"labels": ["code_sharing", "email", "remote_collaboration"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/Xion/SublimeScold/tags"
+				}
+			]
+		},
+		{
+			"name": "ScopeAlways",
+			"details": "https://github.com/yaworsw/Sublime-ScopeAlways",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/yaworsw/Sublime-ScopeAlways/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/ScopeHunter",
 			"releases": [
 				{
@@ -228,6 +249,17 @@
 			]
 		},
 		{
+			"name": "ScummC",
+			"details": "https://github.com/idleberg/ScummC-Sublime-Text",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/ScummC-Sublime-Text/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Search Anywhere",
 			"details": "https://github.com/ericmartel/Sublime-Text-2-Search-Anywhere-Plugin",
 			"releases": [
@@ -254,6 +286,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/ericmartel/Sublime-Text-2-Stackoverflow-Plugin/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Search Valve Wiki",
+			"details": "https://github.com/yogensia/SublimeValveWiki",
+			"donate": "https://www.gittip.com/yogensia/",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/yogensia/SublimeValveWiki/tags"
 				}
 			]
 		},
@@ -368,11 +411,11 @@
 		},
 		{
 			"name": "SendToPasteBin",
-			"details": "https://github.com/Xaro/SublimeSendToPasteBin",
+			"details": "https://github.com/Xaro/SendToPasteBin",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Xaro/SublimeSendToPasteBin/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/Xaro/SendToPasteBin/tree/master"
 				}
 			]
 		},
@@ -383,6 +426,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://bitbucket.org/pjv/setdjangosyntax/src/default"
+				}
+			]
+		},
+		{
+			"name": "SfCommand",
+			"details": "https://github.com/jtwebb/sfcommand",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/jtwebb/sfcommand/tree/master"
 				}
 			]
 		},
@@ -534,6 +587,16 @@
 			]
 		},
 		{
+			"name": "SimplePHPUnit",
+			"details": "https://github.com/m0nah/SimplePHPUnit-for-Sublime-Text",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/m0nah/SimplePHPUnit-for-Sublime-Text/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/tnhu/SimpleSync",
 			"releases": [
 				{
@@ -609,6 +672,16 @@
 			]
 		},
 		{
+			"name": "SlideShow(S9)",
+			"details": "https://github.com/Seasons7/sublime-slideshow",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/Seasons7/sublime-slideshow/tags"
+				}
+			]
+		},
+		{
 			"name": "Slug",
 			"details": "https://github.com/madeingnecca/sublime-slug",
 			"releases": [
@@ -664,8 +737,8 @@
 			"details": "https://github.com/mattstevens/sublime-titlecase",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/mattstevens/sublime-titlecase/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/mattstevens/sublime-titlecase/tags"
 				}
 			]
 		},
@@ -853,10 +926,11 @@
 		{
 			"name": "SourceTalk",
 			"details": "https://github.com/malroc/sourcetalk_st2",
+			"labels": ["code sharing", "remote collaboration"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/malroc/sourcetalk_st2/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/malroc/sourcetalk_st2/tags"
 				}
 			],
 			"previous_names": [
@@ -1058,7 +1132,7 @@
 			"details": "https://github.com/bit101/STProjectMaker",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/bit101/STProjectMaker/tree/master"
 				}
 			]
@@ -1074,6 +1148,18 @@
 			],
 			"previous_names": [
 				"Strapdown.js Markdown Preview"
+			]
+		},
+		{
+			"name": "StringUtilities",
+			"details": "https://github.com/akalongman/sublimetext-stringutilities",
+			"author": "Avtandil Kikabidze",
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": "*",
+					"details": "https://github.com/akalongman/sublimetext-stringutilities/tags"
+				}
 			]
 		},
 		{
@@ -1133,10 +1219,20 @@
 			]
 		},
 		{
+			"name": "Subhub",
+			"details": "https://github.com/mechio/subhub",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/mechio/subhub/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/grundprinzip/sublemacspro",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/grundprinzip/sublemacspro/tree/master"
 				}
 			]
@@ -1156,16 +1252,6 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/NorthIsUp/Sublimation/tree/master"
-				}
-			]
-		},
-		{
-			"name": "Sublime File Navigator",
-			"details": "https://github.com/belike81/Sublime-File-Navigator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/belike81/Sublime-File-Navigator/tree/master"
 				}
 			]
 		},
@@ -1414,17 +1500,8 @@
 			"details": "https://github.com/SublimeHaskell/SublimeHaskell",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/SublimeHaskell/SublimeHaskell/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeText/SublimeHg",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/SublimeHg/tree/master"
 				}
 			]
 		},
@@ -1446,7 +1523,7 @@
 			"details": "https://github.com/yrammos/SublimeLog",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/yrammos/SublimeLog/tree/master"
 				}
 			]
@@ -1473,7 +1550,7 @@
 			"details": "https://github.com/alexnj/SublimeOnSaveBuild",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/alexnj/SublimeOnSaveBuild/tree/master"
 				}
 			]
@@ -1531,19 +1608,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/borysf/Sublimerge",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/borysf/Sublimerge/tree/master"
-				},
-				{
-					"sublime_text": ">=3000",
-					"details": "https://github.com/borysf/Sublimerge/tree/sublime-text-3"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/ostinelli/SublimErl",
 			"releases": [
 				{
@@ -1563,6 +1627,7 @@
 		},
 		{
 			"details": "https://github.com/jarhart/SublimeSBT",
+			"labels": ["repl", "scala", "testing"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1619,7 +1684,7 @@
 			"details": "https://github.com/jbrooksuk/SublimeWebColors",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jbrooksuk/SublimeWebColors/tree/master"
 				}
 			]
@@ -1680,6 +1745,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/dnstbr/sublpress/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Subway Color Schemes",
+			"details": "https://github.com/idleberg/Subway.tmTheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/Subway.tmTheme/tree/master"
 				}
 			]
 		},
@@ -1792,7 +1868,7 @@
 			"details": "https://github.com/jturcotte/SublimeSwitchFileDeluxe",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jturcotte/SublimeSwitchFileDeluxe/tree/master"
 				}
 			]
@@ -1921,7 +1997,7 @@
 			"details": "https://bitbucket.org/Clams/sublimesystemverilog",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://bitbucket.org/Clams/sublimesystemverilog/src/default"
 				}
 			]
