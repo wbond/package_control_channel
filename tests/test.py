@@ -6,20 +6,29 @@ You can run this script directly or with `python -m unittest` from this or the
 root directory. For some reason `nosetests` does not pick up the generated tests
 even though they are generated at load time.
 
-However, only running the script directly will generate tests for all
-repositories in channel.json. This is to reduce the load time for every test run
-by travis (and reduces unnecessary failures).
+Arguments:
+    --test-repositories
+        Also generates tests for all repositories in `channel.json` (the http
+        ones).
 """
 
 import os
 import re
 import json
+import sys
 import unittest
 
 from collections import OrderedDict
 from functools import wraps
 from urllib.request import urlopen
 from urllib.error import HTTPError
+
+arglist = ['--test-repositories']
+# Exctract used arguments form the commandline an strip them for unittest.main
+userargs = [arg for arg in sys.argv if arg in arglist]
+for arg in userargs:
+    if arg in sys.argv:
+        sys.argv.remove(arg)
 
 
 ################################################################################
@@ -164,7 +173,7 @@ class TestContainer(object):
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
-            self.assertIsInstance(v, self.package_key_types_map[k])
+            self.assertIsInstance(v, self.package_key_types_map[k], k)
 
             if k in ('details', 'homepage', 'readme', 'issues', 'donate',
                        'buy'):
@@ -263,9 +272,9 @@ class ChannelTests(TestContainer, unittest.TestCase):
 
     @classmethod
     def generate_repository_tests(cls):
-        if __name__ != '__main__':
-            # Do not generate tests for all repositories (those hosted online)
-            # when testing with unittest's crawler; only when run directly.
+        if not "--test-repositories" in userargs:
+            # Only generate tests for all repositories (those hosted online)
+            # when run with "--test-repositories" parameter.
             return
 
         for repository in cls.j['repositories']:
