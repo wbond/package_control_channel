@@ -402,9 +402,10 @@
 		},
 		{
 			"details": "https://github.com/wch/SendText",
+			"labels": ["terminal"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/wch/SendText/tree/master"
 				}
 			]
@@ -456,6 +457,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/samizdatco/sublime-text-shebang/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Shell Command",
+			"details": "https://github.com/markbirbeck/sublime-text-shell-command",
+			"labels": ["shell", "emacs"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/markbirbeck/sublime-text-shell-command/tags"
 				}
 			]
 		},
@@ -1281,6 +1293,16 @@
 			]
 		},
 		{
+			"name": "Sublime Text API Helper",
+			"details": "https://github.com/jugyo/SublimeTextAPIHelper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jugyo/SublimeTextAPIHelper/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Sublime TFS",
 			"details": "https://bitbucket.org/CDuke/sublime-tfs",
 			"releases": [
@@ -1463,6 +1485,20 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/Ky6uk/SublimeDancer/tree/master"
+				}
+			]
+		},
+		{
+			"name": "SublimeERB",
+			"details": "https://github.com/eddorre/SublimeERB",
+			"readme": "https://github.com/eddorre/SublimeERB/blob/master/README.markdown",
+			"issues": "https://github.com/eddorre/SublimeERB/issues",
+			"previous_names": ["ERB Insert and Toggle Commands"],
+			"labels": ["text_manipulation", "formatting", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/eddorre/SublimeERB/tree/master"
 				}
 			]
 		},
