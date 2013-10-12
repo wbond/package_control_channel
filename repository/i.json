@@ -222,9 +222,13 @@
 			"details": "https://github.com/maximsch2/SublimeIPythonNotebook",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/maximsch2/SublimeIPythonNotebook/tags"
-				}
+				},
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/maximsch2/SublimeIPythonNotebook/tree/st2"
+				}				
 			]
 		},
 		{
