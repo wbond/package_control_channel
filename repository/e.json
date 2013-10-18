@@ -17,6 +17,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/tednaleid/sublime-EasyMotion/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/tednaleid/sublime-EasyMotion/tree/st3"
 				}
 			]
 		},
@@ -69,6 +73,16 @@
 			]
 		},
 		{
+			"name": "Edit Preferences",
+			"details": "https://github.com/sublimator/EditPreferences",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sublimator/EditPreferences/tree/master"
+				}
+			]
+		},
+		{
 			"name": "EditorConfig",
 			"details": "https://github.com/sindresorhus/editorconfig-sublime",
 			"homepage": "https://github.com/sindresorhus/editorconfig-sublime",
@@ -83,10 +97,10 @@
 					"sublime_text": "<3000",
 					"details": "https://github.com/sindresorhus/editorconfig-sublime/tree/master"
 				},
-        {
-          "sublime_text": ">=3000",
-          "details": "https://github.com/sindresorhus/editorconfig-sublime/tree/st3"
-        }
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sindresorhus/editorconfig-sublime/tree/st3"
+				}
 			]
 		},
 		{
@@ -155,6 +169,22 @@
 			]
 		},
 		{
+			"name": "EmberScript",
+			"details": "https://github.com/asux/sublime-ember-script",
+			"labels": [
+				"language syntax",
+				"javascript",
+				"coffeescript",
+				"emberjs"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/asux/sublime-ember-script/tags"
+				}
+			]
+		},
+		{
 			"name": "Emmet",
 			"details": "https://github.com/sergeche/emmet-sublime",
 			"releases": [
@@ -183,6 +213,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/tdheff/EmoKid/tree/master"
+				}
+			]
+		},
+		{
+			"name": "EmotiCODE",
+			"details": "https://github.com/evilsocket/Sublime-Text-2-EmotiCODE-Plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/evilsocket/Sublime-Text-2-EmotiCODE-Plugin/tree/master"
 				}
 			]
 		},
@@ -253,12 +293,13 @@
 			]
 		},
 		{
-			"name": "ERB Insert and Toggle Commands",
-			"details": "https://github.com/eddorre/SublimeERB",
+			"name": "Entypo Completions",
+			"details": "https://github.com/jbrooksuk/SublimeEntypoCompletions",
+			"labels": ["auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/eddorre/SublimeERB/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/jbrooksuk/SublimeEntypoCompletions/tree/master"
 				}
 			]
 		},
@@ -284,11 +325,11 @@
 		},
 		{
 			"name": "EsFormatter",
-			"details": "https://github.com/ariatemplates/sublime-esformatter",
+			"details": "https://github.com/piuccio/sublime-esformatter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/ariatemplates/sublime-esformatter/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/piuccio/sublime-esformatter/tree/master"
 				}
 			]
 		},
@@ -441,6 +482,21 @@
 					"sublime_text": "<3000",
 					"details": "https://github.com/kek/sublime-expand-selection-to-quotes/tree/master"
 				}
+			]
+		},
+		{
+			"name": "Expand Selection to Whitespace",
+			"details": "https://github.com/bits/ExpandSelectionToWhitespace-SublimeText",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/bits/ExpandSelectionToWhitespace-SublimeText/tags"
+				}
+			],
+			"labels": [
+				"text selection",
+				"text navigation",
+				"editor emulation"
 			]
 		},
 		{

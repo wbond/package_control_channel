@@ -6,20 +6,29 @@ You can run this script directly or with `python -m unittest` from this or the
 root directory. For some reason `nosetests` does not pick up the generated tests
 even though they are generated at load time.
 
-However, only running the script directly will generate tests for all
-repositories in channel.json. This is to reduce the load time for every test run
-by travis (and reduces unnecessary failures).
+Arguments:
+    --test-repositories
+        Also generates tests for all repositories in `channel.json` (the http
+        ones).
 """
 
 import os
 import re
 import json
+import sys
 import unittest
 
 from collections import OrderedDict
 from functools import wraps
 from urllib.request import urlopen
 from urllib.error import HTTPError
+
+arglist = ['--test-repositories']
+# Exctract used arguments form the commandline an strip them for unittest.main
+userargs = [arg for arg in sys.argv if arg in arglist]
+for arg in userargs:
+    if arg in sys.argv:
+        sys.argv.remove(arg)
 
 
 ################################################################################
@@ -135,7 +144,15 @@ class TestContainer(object):
 
         # letter = include[-6]
         letter = m.group(1)
-        packages = [get_package_name(pdata) for pdata in data['packages']]
+        packages = []
+        for pdata in data['packages']:
+            pname = get_package_name(pdata)
+            if pname in packages:
+                self.fail("Package names must be unique: " + pname)
+            else:
+                packages.append(pname)
+
+            # TODO: Test for *all* "previous_names"
 
         # Check if in the correct file
         for package_name in packages:
@@ -148,14 +165,26 @@ class TestContainer(object):
         # Check package order
         self.assertEqual(packages, sorted(packages, key=str.lower))
 
-    def _test_package(self, include, data):
-        for key in data.keys():
-            self.assertIn(key, self.package_key_types_map)
-            self.assertIsInstance(data[key], self.package_key_types_map[key])
+    def _test_repository_indents(self, include, contents):
+        for i, line in enumerate(contents.splitlines()):
+            self.assertRegex(line, r"^\t*\S",
+                             "Indent must be tabs in line %d" % i)
 
-            if key in ('details', 'homepage', 'readme', 'issues', 'donate',
+    def _test_package(self, include, data):
+        for k, v in data.items():
+            self.assertIn(k, self.package_key_types_map)
+            self.assertIsInstance(v, self.package_key_types_map[k], k)
+
+            if k in ('details', 'homepage', 'readme', 'issues', 'donate',
                        'buy'):
-                self.assertRegex(data[key], '^https?://')
+                self.assertRegex(v, '^https?://')
+
+            # Test for invalid characters (on file systems)
+            if k == 'name':
+                # Invalid on Windows (and sometimes problematic on UNIX)
+                self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
+                # Invalid on OS X (or more precisely: hidden)
+                self.assertFalse(v.startswith('.'))
 
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
@@ -175,6 +204,8 @@ class TestContainer(object):
                               'A release must provide "url", "version" and '
                               '"date" keys if it does not specify "details"')
 
+        self.assertIn('sublime_text', data,
+                      'A sublime text version selector is required')
 
         for k, v in data.items():
             self.assertIn(k, ('details', 'sublime_text', 'platforms',
@@ -185,6 +216,7 @@ class TestContainer(object):
                                  'The version, date and url keys should not be '
                                  'used in the main repository since a pull '
                                  'request would be necessary for every release')
+
             else:
                 if k == 'date':
                     self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
@@ -240,9 +272,9 @@ class ChannelTests(TestContainer, unittest.TestCase):
 
     @classmethod
     def generate_repository_tests(cls):
-        if __name__ != '__main__':
-            # Do not generate tests for all repositories (those hosted online)
-            # when testing with unittest's crawler; only when run directly.
+        if not "--test-repositories" in userargs:
+            # Only generate tests for all repositories (those hosted online)
+            # when run with "--test-repositories" parameter.
             return
 
         for repository in cls.j['repositories']:
@@ -325,12 +357,14 @@ class RepositoryTests(TestContainer, unittest.TestCase):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
-                    data = json.load(f, object_pairs_hook=OrderedDict)
+                    contents = f.read()
+                data = json.loads(contents, object_pairs_hook=OrderedDict)
             except Exception as e:
                 yield cls._test_error, ("Error while reading %r" % include, e)
                 continue
 
             # `include` is for output during tests only
+            yield cls._test_repository_indents, (include, contents)
             yield cls._test_repository_keys, (include, data)
             yield cls._test_repository_package_order, (include, data)
 
@@ -341,7 +375,8 @@ class RepositoryTests(TestContainer, unittest.TestCase):
 
                 if 'releases' in package:
                     for release in package['releases']:
-                        yield cls._test_release, (package_name, release)
+                        (yield cls._test_release,
+                              ("%s (%s)" % (package_name, include), release))
 
 
 ################################################################################
