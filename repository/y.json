@@ -2,12 +2,13 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"name": "Yandex Translate",
+			"name": "YandexTranslate",
+			"previous_names": ["Yandex Translate"],
 			"details": "https://github.com/pafnuty/sublime-yandex-translate",
-			"labels": ["translate"],
+			"labels": ["translate", "yandex"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/pafnuty/sublime-yandex-translate/tree/master"
 				}
 			]
@@ -70,6 +71,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/leon/YUI-Compressor/tree/master"
+				}
+			]
+		},
+		{
+			"name": "yUML",
+			"details": "https://github.com/cluther/sublime-yuml",
+			"labels": ["language syntax", "preview"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/cluther/sublime-yuml/tags"
 				}
 			]
 		}

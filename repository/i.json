@@ -71,6 +71,15 @@
 			]
 		},
 		{
+			"details": "https://github.com/jbrooksuk/ImprovedSQL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jbrooksuk/ImprovedSQL/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/InactivePanes",
 			"releases": [
 				{
@@ -81,10 +90,11 @@
 		},
 		{
 			"name": "Inc-Dec-Value",
+			"author": "Razumenko Maksim",
 			"details": "https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value/tree/master"
 				}
 			],
@@ -97,7 +107,7 @@
 			"details": "https://github.com/yulanggong/IncrementSelection",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/yulanggong/IncrementSelection/tree/master"
 				}
 			]
@@ -131,6 +141,16 @@
 			]
 		},
 		{
+			"name": "Infinidat Plugin",
+			"details": "https://github.com/Infinidat/sublime-infinidat",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/Infinidat/sublime-infinidat/tags"
+				}
+			]
+		},
+		{
 			"name": "INI",
 			"details": "https://github.com/clintberry/sublime-text-2-ini",
 			"releases": [
@@ -151,21 +171,84 @@
 			]
 		},
 		{
-			"name": "Insert Sequences",
+			"name": "InnoSetup",
+			"details": "https://github.com/idleberg/InnoSetup-Sublime-Text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/InnoSetup-Sublime-Text/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Insert Nums",
 			"details": "https://github.com/jbrooksuk/InsertNums",
+			"labels": ["automation", "utils"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/jbrooksuk/InsertNums/tree/master"
 				}
+			],
+			"previous_names": [
+				"Insert Sequences",
+				"InsertNums"
 			]
 		},
 		{
-			"details": "https://bitbucket.org/markstahler/insert-nums",
+			"name": "Internet Search",
+			"details": "https://github.com/krasun/SublimeInternetSearch",
 			"releases": [
 				{
+					"sublime_text": "*",
+					"details": "https://github.com/krasun/SublimeInternetSearch/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Invert Selection",
+			"details": "https://github.com/vontio/sublime-invert-selection",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vontio/sublime-invert-selection/tree/master"
+				}
+			]
+		},
+		{
+			"name": "IPython Notebook",
+			"details": "https://github.com/maximsch2/SublimeIPythonNotebook",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/maximsch2/SublimeIPythonNotebook/tags"
+				},
+				{
 					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/markstahler/insert-nums/src/default"
+					"details": "https://github.com/maximsch2/SublimeIPythonNotebook/tree/st2"
+				}				
+			]
+		},
+		{
+			"name": "IRC",
+			"details": "https://github.com/markbirbeck/sublime-text-irc",
+			"labels": ["irc"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/markbirbeck/sublime-text-irc/tags"
+				}
+			]
+		},
+		{
+			"name": "isort",
+			"details": "https://github.com/thijsdezoete/sublime-text-isort-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/thijsdezoete/sublime-text-isort-plugin/tree/master"
 				}
 			]
 		},
