@@ -71,6 +71,17 @@
 			]
 		},
 		{
+			"name": "Generic Config",
+			"details": "https://github.com/skozlovf/Sublime-GenericConfig",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/skozlovf/Sublime-GenericConfig/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/jtallant/Genesis",
 			"releases": [
 				{
@@ -80,11 +91,32 @@
 			]
 		},
 		{
+			"name":"GenExpr",
+			"details": "https://github.com/emmanueljourdan/GenExprForSublime",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/emmanueljourdan/GenExprForSublime/tags"
+				}
+			]
+		},
+		{
+			"name": "Ggu",
+			"details": "https://github.com/hardikj/GGU-SL",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/hardikj/GGU-SL/tree/master"
+				}
+				]
+		},
+		{
 			"name": "Gherkin (Cucumber) Formatter",
 			"details": "https://github.com/waynemoore/sublime-gherkin-formatter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/waynemoore/sublime-gherkin-formatter/tree/master"
 				}
 			]
@@ -110,15 +142,15 @@
 		},
 		{
 			"name": "Git",
-			"details": "https://github.com/kemayo/sublime-text-2-git",
+			"details": "https://github.com/kemayo/sublime-text-git",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/kemayo/sublime-text-2-git/tree/master"
+					"details": "https://github.com/kemayo/sublime-text-git/tree/master"
 				},
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/kemayo/sublime-text-2-git/tree/python3"
+					"details": "https://github.com/kemayo/sublime-text-git/tree/python3"
 				}
 			]
 		},
@@ -189,8 +221,18 @@
 			"details": "https://github.com/ehamiter/ST2-GitHubinator",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/ehamiter/ST2-GitHubinator/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Gitignore",
+			"details": "https://github.com/kevinxucs/Sublime-Gitignore",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kevinxucs/Sublime-Gitignore/tree/master"
 				}
 			]
 		},
@@ -201,6 +243,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/WebGLTools/GL-Shader-Validator/tree/master"
+				}
+			]
+		},
+		{
+			"name": "GM Syntax",
+			"details": "https://github.com/andyp123/GMSyntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/andyp123/GMSyntax/tree/master"
 				}
 			]
 		},
@@ -226,6 +278,16 @@
 			]
 		},
 		{
+			"name": "Go To Node Module Homepage",
+			"details": "https://github.com/jfromaniello/sublime-goto-node-module",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/jfromaniello/sublime-goto-node-module/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Gocc BNF Syntax",
 			"details": "https://github.com/awalterschulze/sublime-gocc-syntax",
 			"labels": ["language syntax"],
@@ -241,7 +303,7 @@
 			"details": "https://github.com/frou/GoFeather",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/frou/GoFeather/tree/master"
 				}
 			]
@@ -298,12 +360,37 @@
 			]
 		},
 		{
+			"name": "Google Search",
+			"details": "https://github.com/nwjlyons/google-search",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/nwjlyons/google-search/tree/master"
+				}
+			],
+			"previous_names": ["google-search"]
+		},
+		{
 			"name": "Google Spell Check",
 			"details": "https://github.com/noahcoad/google-spell-check",
 			"releases": [
 				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/noahcoad/google-spell-check/tree/st3"
+				},
+				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/noahcoad/google-spell-check/tree/master"
+					"details": "https://github.com/noahcoad/google-spell-check/tree/st2"
+				}
+			]
+		},
+		{
+			"name": "Google Stylesheets Syntax",
+			"details": "https://github.com/rhysbrettbowen/gss.sublime-package",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/rhysbrettbowen/gss.sublime-package/tree/master"
 				}
 			]
 		},
@@ -314,15 +401,6 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/lfont/Sublime-Text-2-GoogleTranslate-Plugin/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/nwjlyons/google-search",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://bitbucket.org/nwjlyons/google-search/src/default"
 				}
 			]
 		},
@@ -349,7 +427,7 @@
 			"details": "https://github.com/kemayo/sublime-text-2-goto-documentation",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/kemayo/sublime-text-2-goto-documentation/tree/master"
 				}
 			]
@@ -366,10 +444,11 @@
 		},
 		{
 			"name": "Goto-CSS-Declaration",
+			"author": "Razumenko Maksim",
 			"details": "https://github.com/rmaksim/Sublime-Text-2-Goto-CSS-Declaration",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/rmaksim/Sublime-Text-2-Goto-CSS-Declaration/tree/master"
 				}
 			]
@@ -419,7 +498,7 @@
 			"details": "https://github.com/phildopus/sublime-goto-open-file",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/phildopus/sublime-goto-open-file/tree/master"
 				}
 			]
@@ -434,30 +513,32 @@
 			]
 		},
 		{
+			"name": "GotoTab",
 			"details": "https://github.com/SublimeText/GotoTab",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/GotoTab/tree/master"
 				}
 			]
 		},
 		{
-			"details": "https://github.com/Gimped/GPD",
+			"details": "https://github.com/giampierod/GPD",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/Gimped/GPD/tree/master"
+					"details": "https://github.com/giampierod/GPD/tree/master"
 				}
 			]
 		},
 		{
 			"name": "Grails",
 			"details": "https://github.com/osoco/sublimetext-grails",
+			"labels": ["framework support", "language syntax", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/osoco/sublimetext-grails/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/osoco/sublimetext-grails/tags"
 				}
 			]
 		},
@@ -505,7 +586,7 @@
 			"details": "https://github.com/tvooo/sublime-grunt",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/tvooo/sublime-grunt/tree/master"
 				}
 			]
