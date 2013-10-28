@@ -1647,6 +1647,21 @@
 			]
 		},
 		{
+			"name": "SublimeLinter",
+			"details": "https://github.com/SublimeLinter/SublimeLinter",
+			"labels": ["sublimelinter", "linter"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/SublimeLinter/SublimeLinter/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeLinter/SublimeLinter/tree/sublime-text-3"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/yrammos/SublimeLog",
 			"releases": [
 				{
