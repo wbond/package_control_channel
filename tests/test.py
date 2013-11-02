@@ -163,7 +163,8 @@ class TestContainer(object):
                                  "Package inserted in wrong file")
 
         # Check package order
-        self.assertEqual(packages, sorted(packages, key=str.lower))
+        self.assertEqual(packages, sorted(packages, key=str.lower),
+                         "Packages must be sorted alphabetically (by name)")
 
     def _test_repository_indents(self, include, contents):
         for i, line in enumerate(contents.splitlines()):
@@ -268,7 +269,8 @@ class ChannelTests(TestContainer, unittest.TestCase):
 
     def test_channel_repo_order(self):
         repos = self.j['repositories']
-        self.assertEqual(repos, sorted(repos, key=str.lower))
+        self.assertEqual(repos, sorted(repos, key=str.lower),
+                         "Repositories must be sorted alphabetically")
 
     @classmethod
     def generate_repository_tests(cls):
