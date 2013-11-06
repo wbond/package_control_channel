@@ -64,23 +64,6 @@
 			]
 		},
 		{
-			"name": "Rails Go To Spec",
-			"details": "https://github.com/sporto/rails_go_to_spec",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/sporto/rails_go_to_spec/tree/st2"
-				},
-				{
-					"sublime_text": ">=3000",
-					"details": "https://github.com/sporto/rails_go_to_spec/tree/master"
-				}
-			],
-			"previous_names": [
-				"rails_go_to_spec"
-			]
-		},
-		{
 			"name": "Rails I18n Helper",
 			"details": "https://github.com/Adeptus/rails-i18n-helper",
 			"releases": [
@@ -146,10 +129,28 @@
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/Rake",
+			"name": "RailsGoToSpec",
+			"details": "https://github.com/sporto/rails_go_to_spec",
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"details": "https://github.com/sporto/rails_go_to_spec/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sporto/rails_go_to_spec/tree/master"
+				}
+			],
+			"previous_names": [
+				"rails_go_to_spec",
+				"Rails Go To Spec"
+			]
+		},
+		{
+			"details": "https://github.com/SublimeText/Rake",
+			"releases": [
+				{
+					"sublime_text":"*",
 					"details": "https://github.com/SublimeText/Rake/tree/master"
 				}
 			]
@@ -224,6 +225,17 @@
 					}
 				]
 			},
+		{
+			"name": "rbenv",
+			"details": "https://github.com/felipeelias/sublime-text-2-rbenv",
+			"labels": ["rbenv ruby"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/felipeelias/sublime-text-2-rbenv/tree/master"
+				}
+			]
+		},		
 		{
 			"name": "Read Only Buffer",
 			"details": "https://github.com/crazybyte/SublimeReadOnlyBuffer",
