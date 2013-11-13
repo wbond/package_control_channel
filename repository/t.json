@@ -126,6 +126,16 @@
 			]
 		},
 		{
+			"name": "Tcsh and Csh Mode",
+			"details": "https://github.com/supergra/tcsh-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/supergra/tcsh-sublime/tree/master"
+				}
+			]
+		},
+		{
 			"name": "TemplateNinja",
 			"details": "https://github.com/xamado/sublime-templateninja",
 			"releases": [
@@ -149,7 +159,7 @@
 			"details": "https://github.com/emmetio/sublime-tern",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/emmetio/sublime-tern/tree/master"
 				}
 			]
@@ -327,6 +337,17 @@
 			]
 		},
 		{
+			"name": "Theme - Piatto",
+			"details": "https://github.com/samuelrafo/piatto",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/samuelrafo/piatto/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Theme - Pseudo OSX",
 			"details": "https://github.com/raik/st2-pseudo-osx-theme",
 			"labels": ["theme"],
@@ -398,8 +419,18 @@
 			"labels": ["theme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/oliverseal/tech49-theme/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/oliverseal/tech49-theme/tags"
+				}
+			]
+		},
+		{
+			"name": "ThemeAutomator",
+			"details": "https://github.com/vitto/sublime-theme-automator",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vitto/sublime-theme-automator"
 				}
 			]
 		},
@@ -426,8 +457,12 @@
 			"details": "https://github.com/yangweijie/SublimeThinkPHP",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"details": "https://github.com/yangweijie/SublimeThinkPHP/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/yangweijie/SublimeThinkPHP/tree/ST3"
 				}
 			],
 			"previous_names": [
@@ -632,7 +667,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Harurow/sublime_togglefile/tree/master"
+					"details": "https://github.com/Harurow/sublime_togglefile/tags"
 				}
 			]
 		},
@@ -752,7 +787,7 @@
 			"labels": ["CVS", "SVN"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"platforms": "windows",
 					"details": "https://github.com/dexbol/sublime-TortoiseSVN/tags"
 				}

@@ -376,6 +376,17 @@
 			]
 		},
 		{
+			"name": "PHP Completions Kit",
+			"details": "https://github.com/gerardroche/sublime-phpck",
+			"labels": ["php", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/gerardroche/sublime-phpck/tags"
+				}
+			]
+		},
+		{
 			"name": "PHP Haml",
 			"details": "https://github.com/xt99/sublimetext-php-haml",
 			"releases": [
@@ -508,6 +519,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/gl3n/sublime-php-namespace/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/gl3n/sublime-php-namespace/tree/ST3"
 				}
 			]
 		},
@@ -681,16 +696,6 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/maethu/SublimePloneReload/tags"
-				}
-			]
-		},
-		{
-			"name": "Plugin Debugger",
-			"details": "https://bitbucket.org/klorenz/plugindebugger",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://bitbucket.org/klorenz/plugindebugger/src/default"
 				}
 			]
 		},
@@ -884,15 +889,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/GentlemanJ/devsync/tags"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/klorenz/projectspecific",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/klorenz/projectspecific/src/default"
 				}
 			]
 		},
@@ -1098,7 +1094,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/MattDMo/PythonImproved/tree/master"
+					"details": "https://github.com/MattDMo/PythonImproved/tags"
 				}
 			]
 		},
