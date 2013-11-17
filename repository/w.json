@@ -69,8 +69,8 @@
 			"details": "https://github.com/WebFont/webfont",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/WebFont/webfont/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/WebFont/webfont/tags"
 				}
 			]
 		},
@@ -100,6 +100,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/ffesseler/sublimetext-websequencediagrams/tree/master"
+				}
+			]
+		},
+		{
+			"name": "WebSuite",
+			"details": "https://github.com/bthorben/WebSuite",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/bthorben/WebSuite/tree/master"
 				}
 			]
 		},
@@ -138,7 +148,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/rablador/whocalled/src/master"
+					"details": "https://bitbucket.org/rablador/whocalled/src/develop"
 				}
 			],
 			"previous_names": [
@@ -256,14 +266,17 @@
 			]
 		},
 		{
-			"name": "Wordpress",
+			"name": "WordPress",
 			"details": "https://github.com/purplefish32/sublime-text-2-wordpress",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/purplefish32/sublime-text-2-wordpress/tree/master"
 				}
-			]
+			],
+			"previous_names": [
+				"Wordpress"
+				]
 		},
 		{
 			"name": "WordPress Generate Salts",
@@ -363,15 +376,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/ehuss/Sublime-Wrap-Plus/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/klorenz/wrapcommand",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/klorenz/wrapcommand/src/default"
 				}
 			]
 		},

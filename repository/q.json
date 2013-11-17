@@ -2,6 +2,16 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Qiita for Sublime",
+			"details": "https://github.com/blueplanet/sublime-qiita",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/blueplanet/sublime-qiita/tags"
+				}
+			]
+		},
+		{
 			"name": "QML",
 			"details": "https://github.com/skozlovf/Sublime-QML",
 			"labels": ["language syntax", "snippets"],
@@ -38,7 +48,7 @@
 			"details": "https://github.com/noklesta/SublimeQuickFileCreator",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/noklesta/SublimeQuickFileCreator/tree/master"
 				}
 			]
@@ -103,7 +113,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/rablador/quickref/src/master"
+					"details": "https://bitbucket.org/rablador/quickref/src/develop"
 				}
 			],
 			"previous_names": [
@@ -116,6 +126,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/chrislongo/QuickThemes/tree/master"
+				}
+			]
+		},
+		{
+			"name": "QuickXDev",
+			"details": "https://github.com/leitwolf/QuickXDev",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/leitwolf/QuickXDev/tree/master"
 				}
 			]
 		},

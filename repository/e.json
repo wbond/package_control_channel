@@ -11,6 +11,15 @@
 			]
 		},
 		{
+			"details": "https://github.com/facelessuser/EasyDiff",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/facelessuser/EasyDiff/tree/master"
+				}
+			]
+		},
+		{
 			"name": "EasyMotion",
 			"details": "https://github.com/tednaleid/sublime-EasyMotion",
 			"releases": [
@@ -28,7 +37,7 @@
 			"details": "https://github.com/Zinggi/EasySettings",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/Zinggi/EasySettings/tree/master"
 				}
 			]
@@ -109,7 +118,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/samholmes/EJS.tmLanguage/tree/master"
 				}
 			]
@@ -232,6 +241,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/SublimeText/EncodingHelper/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeText/EncodingHelper/tree/st3"
 				}
 			]
 		},
@@ -260,7 +273,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/randy3k/Enhanced-R/tree/master"
+					"details": "https://github.com/randy3k/Enhanced-R/tags"
 				}
 			],
 			"previous_names": [
@@ -553,6 +566,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/seblavoie/sublime-extendscript/tags"
+				}
+			]
+		},
+		{
+			"name": "Extract Sublime Package",
+			"details": "https://github.com/SublimeText/ExtractSublimePackage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/SublimeText/ExtractSublimePackage"
 				}
 			]
 		},

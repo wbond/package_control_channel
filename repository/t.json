@@ -13,11 +13,15 @@
 		},
 		{
 			"name": "Table Cleaner",
-			"details": "https://github.com/mishu91/Sublime-Text-2-Table-Cleaner",
+			"details": "https://github.com/amisarca/Sublime-Text-Table-Cleaner",
 			"releases": [
 				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/amisarca/Sublime-Text-Table-Cleaner/tags"
+				},
+				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/mishu91/Sublime-Text-2-Table-Cleaner/tree/master"
+					"details": "https://github.com/amisarca/Sublime-Text-2-Table-Cleaner/tags"
 				}
 			]
 		},
@@ -126,6 +130,16 @@
 			]
 		},
 		{
+			"name": "Tcsh and Csh Mode",
+			"details": "https://github.com/supergra/tcsh-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/supergra/tcsh-sublime/tree/master"
+				}
+			]
+		},
+		{
 			"name": "TemplateNinja",
 			"details": "https://github.com/xamado/sublime-templateninja",
 			"releases": [
@@ -149,7 +163,7 @@
 			"details": "https://github.com/emmetio/sublime-tern",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/emmetio/sublime-tern/tree/master"
 				}
 			]
@@ -217,6 +231,17 @@
 			]
 		},
 		{
+			"name": "Theme - Argonaut",
+			"details": "https://github.com/pwaleczek/Argonaut",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pwaleczek/Argonaut/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Theme - Brackets",
 			"details": "https://github.com/leszekr/Theme-Brackets",
 			"labels": ["theme"],
@@ -255,7 +280,7 @@
 			"labels": ["theme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/farzher/Sublime-Text-Themes/tree/master"
 				}
 			]
@@ -323,6 +348,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/netatoo/phoenix-theme/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Theme - Piatto",
+			"details": "https://github.com/samuelrafo/piatto",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/samuelrafo/piatto/tree/master"
 				}
 			]
 		},
@@ -398,8 +434,36 @@
 			"labels": ["theme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/oliverseal/tech49-theme/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/oliverseal/tech49-theme/tags"
+				}
+			]
+		},
+		{
+			"name": "ThemeAutomator",
+			"details": "https://github.com/vitto/sublime-theme-automator",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vitto/sublime-theme-automator"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/facelessuser/ThemeScheduler",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/facelessuser/ThemeScheduler/tree/master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/facelessuser/ThemeTweaker",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/facelessuser/ThemeTweaker/tree/master"
 				}
 			]
 		},
@@ -426,8 +490,12 @@
 			"details": "https://github.com/yangweijie/SublimeThinkPHP",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"details": "https://github.com/yangweijie/SublimeThinkPHP/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/yangweijie/SublimeThinkPHP/tree/ST3"
 				}
 			],
 			"previous_names": [
@@ -632,7 +700,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Harurow/sublime_togglefile/tree/master"
+					"details": "https://github.com/Harurow/sublime_togglefile/tags"
 				}
 			]
 		},
@@ -641,7 +709,7 @@
 			"details": "https://github.com/reflog/toggle-readonly",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/reflog/toggle-readonly/tree/master"
 				}
 			]
@@ -753,6 +821,18 @@
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/gsingh93/sublime-topcoder-helper/tags"
+				}
+			]
+		},
+		{
+			"name": "TortoiseSVN",
+			"details": "https://github.com/dexbol/sublime-TortoiseSVN",
+			"labels": ["CVS", "SVN"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": "windows",
+					"details": "https://github.com/dexbol/sublime-TortoiseSVN/tags"
 				}
 			]
 		},

@@ -147,6 +147,16 @@
 			]
 		},
 		{
+			"name": "Paste Anywhere",
+			"details": "https://github.com/FMCorz/PasteAnywhere",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/FMCorz/PasteAnywhere/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Paste as Column",
 			"details": "https://bitbucket.org/Clams/sublimepastecolumn",
 			"releases": [
@@ -366,6 +376,17 @@
 			]
 		},
 		{
+			"name": "PHP Completions Kit",
+			"details": "https://github.com/gerardroche/sublime-phpck",
+			"labels": ["php", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/gerardroche/sublime-phpck/tags"
+				}
+			]
+		},
+		{
 			"name": "PHP Haml",
 			"details": "https://github.com/xt99/sublimetext-php-haml",
 			"releases": [
@@ -392,6 +413,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/alexandresalome/sublime-alom/tree/master"
+				}
+			]
+		},
+		{
+			"name": "PHP Syntax Checker",
+			"details": "https://github.com/naomichi-y/php_syntax_checker",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/naomichi-y/php_syntax_checker/tree/master"
 				}
 			]
 		},
@@ -488,6 +519,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/gl3n/sublime-php-namespace/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/gl3n/sublime-php-namespace/tree/ST3"
 				}
 			]
 		},
@@ -655,12 +690,12 @@
 			]
 		},
 		{
-			"name": "Plugin Debugger",
-			"details": "https://bitbucket.org/klorenz/plugindebugger",
+			"name": "PloneReload",
+			"details": "https://github.com/maethu/SublimePloneReload",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"details": "https://bitbucket.org/klorenz/plugindebugger/src/default"
+					"sublime_text": "<3000",
+					"details": "https://github.com/maethu/SublimePloneReload/tags"
 				}
 			]
 		},
@@ -677,9 +712,10 @@
 		{
 			"name": "Pomodoro",
 			"details": "https://github.com/fbird/Sublime-Pomodoro",
+			"labels": ["timer"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/fbird/Sublime-Pomodoro/tree/master"
 				}
 			]
@@ -847,11 +883,12 @@
 			]
 		},
 		{
-			"details": "https://bitbucket.org/klorenz/projectspecific",
+			"name": "Project Sync",
+			"details": "https://github.com/GentlemanJ/devsync",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/klorenz/projectspecific/src/default"
+					"sublime_text": "*",
+					"details": "https://github.com/GentlemanJ/devsync/tags"
 				}
 			]
 		},
@@ -1047,6 +1084,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/vi4m/sublime_python_imports/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Python Improved",
+			"details": "https://github.com/MattDMo/PythonImproved",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/MattDMo/PythonImproved/tags"
 				}
 			]
 		},

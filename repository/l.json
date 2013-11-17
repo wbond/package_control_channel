@@ -2,6 +2,16 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Lambda Substitution",
+			"details": "https://github.com/dariusf/LambdaSubstitution",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/dariusf/LambdaSubstitution/tags"
+				}
+			]
+		},
+		{
 			"name": "Language - Up-Goer-5",
 			"details": "https://github.com/serialhex/Language---Up-Goer-5",
 			"releases": [
@@ -18,6 +28,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/m0nah/Laravel-4-Artisan/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Laravel 4 Facades",
+			"details": "https://github.com/stidges/Laravel-Facades-for-ST",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/stidges/Laravel-Facades-for-ST/tags"
 				}
 			]
 		},
@@ -136,12 +156,23 @@
 			]
 		},
 		{
+			"name": "LaTeX-IPA",
+			"details": "https://github.com/jvcasill/LaTeX-IPA",
+			"labels": ["LaTeX", "IPA", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jvcasill/LaTeX-IPA/tree/master"
+				}
+			]
+		},
+		{
 			"name": "LaTeXSq",
 			"details": "https://github.com/randy3k/LaTeXSq",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/randy3k/LaTeXSq/tree/master"
+					"details": "https://github.com/randy3k/LaTeXSq/tags"
 				}
 			]
 		},
@@ -151,7 +182,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/randy3k/LaTeXTab/tree/master"
+					"details": "https://github.com/randy3k/LaTeXTab/tags"
 				}
 			]
 		},
@@ -434,6 +465,16 @@
 			]
 		},
 		{
+			"name": "ListOpenFiles",
+			"details": "https://github.com/rrg/ListOpenFiles",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/rrg/ListOpenFiles/tags"
+				}
+			]
+		},
+		{
 			"name": "Lithium Snippets",
 			"details": "https://github.com/fitzagard/li3_sublime",
 			"labels": ["snippets"],
@@ -459,7 +500,7 @@
 			"details": "https://github.com/paulmillr/LiveScript.tmbundle",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/paulmillr/LiveScript.tmbundle/tree/master"
 				}
 			]
@@ -499,15 +540,17 @@
 			]
 		},
 		{
+			"name": "Load file to REPL",
 			"details": "https://github.com/laughedelic/LoadFileToRepl",
+			"labels": ["repl"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/laughedelic/LoadFileToRepl/tree/master"
 				}
 			],
 			"previous_names": [
-				"Load file to REPL"
+				"LoadFileToRepl"
 			]
 		},
 		{
@@ -570,6 +613,17 @@
 			]
 		},
 		{
+			"name": "LSL",
+			"details": "https://github.com/Makopo/sublime-text-lsl",
+			"labels": ["auto-complete", "color scheme", "language syntax", "linting", "theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Makopo/sublime-text-lsl/tags"
+				}
+			]
+		},
+		{
 			"name": "Lua Dev",
 			"details": "https://github.com/rorydriscoll/LuaSublime",
 			"labels": ["lua"],
@@ -577,6 +631,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/rorydriscoll/LuaSublime/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Lua Love",
+			"details": "https://github.com/szensk/subllualove",
+			"labels": ["lua"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/szensk/subllualove/tree/master"
 				}
 			]
 		},

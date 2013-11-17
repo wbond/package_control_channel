@@ -36,7 +36,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://bitbucket.org/esquivias/sublime-aml/src/master"
 				}
 			]
@@ -137,7 +137,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/randy3k/AlignTab/tree/master"
+					"details": "https://github.com/randy3k/AlignTab/tags"
 				}
 			]
 		},
@@ -388,6 +388,16 @@
 			]
 		},
 		{
+			"name": "ANTLR syntax highlight",
+			"details": "https://github.com/iuliux/SublimeText2-Antlr-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/iuliux/SublimeText2-Antlr-syntax/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/PhilippSchaffrath/Anypreter",
 			"releases": [
 				{
@@ -522,6 +532,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/TenSoja/arff-syntax/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Argument Noun",
+			"details": "https://github.com/nliberg/argument-noun",
+			"labels": ["editor emulation", "text manipulation", "text navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/nliberg/argument-noun/tree/master"
 				}
 			]
 		},
@@ -765,7 +786,7 @@
 					"details": "https://github.com/chrisparnin/autogit-st/tree/master"
 				}
 			]
-		},		
+		},
 		{
 			"name": "Automatic Backups",
 			"details": "https://github.com/joelpt/sublimetext-automatic-backups",
@@ -842,11 +863,21 @@
 			]
 		},
 		{
+			"name": "AutoUpdateSourceHeader",
+			"details": "https://github.com/Harurow/sublime_autoupdatesourceheader",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Harurow/sublime_autoupdatesourceheader/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/randy3k/AutoWrap",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/randy3k/AutoWrap/tree/master"
+					"details": "https://github.com/randy3k/AutoWrap/tags"
 				}
 			]
 		},
