@@ -226,7 +226,11 @@ class TestContainer(object):
                 self.assertRegex(v, '^https?://')
 
             if k == 'sublime_text':
-                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$')
+                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
+                                 'sublime_text must be `*` or of the form '
+                                 '<relation><version> '
+                                 'where <relation> is one of {<, <=, >, >=} '
+                                 'and <version> is a 4 digit number')
 
             if k == 'platforms':
                 self.assertIsInstance(v, (str, list))
