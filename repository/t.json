@@ -13,11 +13,15 @@
 		},
 		{
 			"name": "Table Cleaner",
-			"details": "https://github.com/mishu91/Sublime-Text-2-Table-Cleaner",
+			"details": "https://github.com/amisarca/Sublime-Text-Table-Cleaner",
 			"releases": [
 				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/amisarca/Sublime-Text-Table-Cleaner/tags"
+				},
+				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/mishu91/Sublime-Text-2-Table-Cleaner/tree/master"
+					"details": "https://github.com/amisarca/Sublime-Text-2-Table-Cleaner/tags"
 				}
 			]
 		},
@@ -227,6 +231,17 @@
 			]
 		},
 		{
+			"name": "Theme - Argonaut",
+			"details": "https://github.com/pwaleczek/Argonaut",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pwaleczek/Argonaut/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Theme - Brackets",
 			"details": "https://github.com/leszekr/Theme-Brackets",
 			"labels": ["theme"],
@@ -431,6 +446,24 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/vitto/sublime-theme-automator"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/facelessuser/ThemeScheduler",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/facelessuser/ThemeScheduler/tree/master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/facelessuser/ThemeTweaker",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/facelessuser/ThemeTweaker/tree/master"
 				}
 			]
 		},
@@ -688,6 +721,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/zoomix/SublimeToggleSymbol/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Toggle the View Read-Only",
+			"details": "https://github.com/AxxL/sublime-toggle-readonly",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/AxxL/sublime-toggle-readonly/tags"
 				}
 			]
 		},

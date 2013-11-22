@@ -2,6 +2,17 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "C Improved",
+			"details": "https://github.com/abusalimov/SublimeCImproved",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/abusalimov/SublimeCImproved/tags"
+				}
+			]
+		},
+		{
 			"name": "C# Compile & Run",
 			"details": "https://github.com/chrokh/csharp-build-singlefile-sublime-text-2",
 			"releases": [
@@ -1026,7 +1037,7 @@
 			"details": "https://github.com/francodacosta/composer-sublime",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/francodacosta/composer-sublime/tree/master"
 				}
 			]
@@ -1456,6 +1467,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/icylace/CursorRuler/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Custom Insert",
+			"details": "https://github.com/yanni4night/sublime-custominsert",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/yanni4night/sublime-custominsert/tree/master"
 				}
 			]
 		},
