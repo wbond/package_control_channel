@@ -571,6 +571,23 @@
 				}
 			]
 		},
+                {
+                        "name": "DXL",
+                        "details": "https://github.com/Adarma/DXL",
+                        "labels": ["build system", "color scheme", "language syntax", "linting"],
+                        "releases": [
+                                {
+                                        "sublime_text": "<3000",
+                                        "details": "https://github.com/Adarma/DXL/tree/ST2",
+                                        "platforms": "windows"
+                                },
+                                {
+                                        "sublime_text": ">=3000",
+                                        "details": "https://github.com/Adarma/DXL/tree/ST3",
+                                        "platforms": "windows"
+                                }
+                        ]
+                },
 		{
 			"name": "Dylan",
 			"details": "https://github.com/dylan-lang/dylan.tmbundle",
