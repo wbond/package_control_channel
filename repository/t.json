@@ -658,17 +658,6 @@
 			]
 		},
 		{
-			"name": "To-Done",
-			"details": "https://github.com/tiffon/sublime-to-done",
-			"labels": ["todo", "productivity", "tasks"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/tiffon/sublime-to-done/tags"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/rodrigoflores/today",
 			"releases": [
 				{
@@ -705,6 +694,18 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/knagy/sublimetext2-todotxt/tree/master"
+				}
+			]
+		},
+		{
+			"name": "ToDone",
+			"previous_names": ["To-Done"],
+			"details": "https://github.com/tiffon/sublime-to-done",
+			"labels": ["todo", "productivity", "tasks"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/tiffon/sublime-to-done/tags"
 				}
 			]
 		},
