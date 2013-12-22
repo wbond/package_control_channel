@@ -187,6 +187,11 @@ class TestContainer(object):
                 # Invalid on OS X (or more precisely: hidden)
                 self.assertFalse(v.startswith('.'))
 
+        self.assertFalse(
+            '.' in data['name'],
+            'Package names should not contain .: %r' % data['name']
+        )
+
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
                 self.assertIn(key, data, '%r is required if no "details" URL '
