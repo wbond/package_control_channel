@@ -2,6 +2,17 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "W3CValidators",
+			"details": "https://github.com/dubharmonic/Sublime-W3CValidators",
+			"labels": ["html", "svg", "validator"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/dubharmonic/Sublime-W3CValidators/tags"
+				}
+			]
+		},
+		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
 			"labels": ["time tracking"],
@@ -134,7 +145,7 @@
 					"details": "https://github.com/lysisius/WhiteNight.tmTheme/tree/master"
 				}
 			]
-		},	
+		},
 		{
 			"name": "Whitespace Diff Trim",
 			"details": "https://github.com/swenson/sublime_whitespace",
