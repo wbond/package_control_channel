@@ -2,16 +2,6 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"name": "Castling",
-			"details": "https://github.com/unknownuser88/sublimecastling",
-			"labels": ["replace"],
-			"releases": [
-				{
-					"details": "https://github.com/unknownuser88/sublimecastling"
-				}
-			]
-		},
-		{
 			"name": "C Improved",
 			"details": "https://github.com/abusalimov/SublimeCImproved",
 			"labels": ["language syntax"],
@@ -167,6 +157,16 @@
 					"details": "https://github.com/n1k0/SublimeText-CasperJS/tree/master"
 				}
 			]
+		},
+		{
+			"name": "Castling",
+			"details": "https://github.com/unknownuser88/sublimecastling",
+			"author": "David Bekoyan",
+			"labels": ["replace"],
+			"releases": [{
+				"sublime_text": "*",
+				"details": "https://github.com/unknownuser88/sublimecastling/tags"
+			}]
 		},
 		{
 			"name": "cdnjs",
