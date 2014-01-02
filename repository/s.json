@@ -1833,7 +1833,7 @@
 		{
 			"name": "SublimeLinter",
 			"details": "https://github.com/SublimeLinter/SublimeLinter3",
-			"homepage": "https://github.com/SublimeLinter/SublimeLinter.github.io/wiki",
+			"homepage": "http://sublimelinter.readthedocs.org",
 			"donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
 			"labels": ["linting", "SublimeLinter"],
 			"previous_names": ["SublimeLinter Beta"],
@@ -1936,9 +1936,19 @@
 			]
 		},
 		{
+			"details": "https://github.com/SublimeLinter/SublimeLinter-hlint",
+			"labels": ["linting", "SublimeLinter", "haskell"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeLinter/SublimeLinter-hlint/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeLinter/SublimeLinter-html-tidy",
 			"donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
-			"labels": ["linting", "SublimeLinter"],
+			"labels": ["linting", "SublimeLinter", "html"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2128,6 +2138,17 @@
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/attenzione/SublimeLinter-scss-lint/tags"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/SublimeLinter/SublimeLinter-xmllint",
+			"donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+			"labels": ["linting", "SublimeLinter", "xml"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeLinter/SublimeLinter-xmllint/tags"
 				}
 			]
 		},
