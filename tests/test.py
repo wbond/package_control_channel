@@ -169,7 +169,7 @@ class TestContainer(object):
     def _test_repository_indents(self, include, contents):
         for i, line in enumerate(contents.splitlines()):
             self.assertRegex(line, r"^\t*\S",
-                             "Indent must be tabs in line %d" % i)
+                             "Indent must be tabs in line %d" % (i + 1))
 
     def _test_package(self, include, data):
         for k, v in data.items():
@@ -177,7 +177,7 @@ class TestContainer(object):
             self.assertIsInstance(v, self.package_key_types_map[k], k)
 
             if k in ('details', 'homepage', 'readme', 'issues', 'donate',
-                       'buy'):
+                     'buy'):
                 self.assertRegex(v, '^https?://')
 
             # Test for invalid characters (on file systems)
@@ -190,7 +190,7 @@ class TestContainer(object):
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
                 self.assertIn(key, data, '%r is required if no "details" URL '
-                                          'provided' % key)
+                                         'provided' % key)
 
     def _test_release(self, package_name, data, main_repo=True):
         # Fail early
@@ -307,7 +307,7 @@ class ChannelTests(TestContainer, unittest.TestCase):
             try:
                 data = json.loads(source)
             except Exception as e:
-                yield cls._fail("Could not parse %s" % repository ,e)
+                yield cls._fail("Could not parse %s" % repository, e)
                 continue
 
             # Check for the schema version first (and generator failures it's
@@ -336,8 +336,10 @@ class ChannelTests(TestContainer, unittest.TestCase):
                 if 'releases' in package:
                     for release in package['releases']:
                         (yield cls._test_release,
-                              ("%s (%s)" % (package_name, repository),
-                               release, False))
+                            ("%s (%s)" % (package_name, repository),
+                             release, False))
+
+            # TODO: test includes
 
 
 @generator_class
@@ -382,7 +384,7 @@ class RepositoryTests(TestContainer, unittest.TestCase):
                 if 'releases' in package:
                     for release in package['releases']:
                         (yield cls._test_release,
-                              ("%s (%s)" % (package_name, include), release))
+                            ("%s (%s)" % (package_name, include), release))
 
 
 ################################################################################
