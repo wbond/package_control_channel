@@ -199,11 +199,23 @@ class TestContainer(object):
                           'A release must have a "details" key if it is in the '
                           'main repository. For custom releases, a custom '
                           'repository.json file must be hosted elsewhere.')
+            for req in ('url', 'version', 'date'):
+                self.assertNotIn(req, data,
+                                 'The version, date and url keys should not be '
+                                 'used in the main repository since a pull '
+                                 'request would be necessary for every release')
+
         elif not 'details' in data:
             for req in ('url', 'version', 'date'):
                 self.assertIn(req, data,
                               'A release must provide "url", "version" and '
                               '"date" keys if it does not specify "details"')
+
+        else:
+            for req in ('url', 'version', 'date'):
+                self.assertNotIn(req, data,
+                                 'The key "%s" is redundant when "details" is '
+                                 'specified' % req)
 
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
@@ -212,17 +224,10 @@ class TestContainer(object):
             self.assertIn(k, ('details', 'sublime_text', 'platforms',
                               'version', 'date', 'url'))
 
-            if main_repo:
-                self.assertNotIn(k, ('version', 'date', 'url'),
-                                 'The version, date and url keys should not be '
-                                 'used in the main repository since a pull '
-                                 'request would be necessary for every release')
+            if k == 'date':
+                self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
 
-            else:
-                if k == 'date':
-                    self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
-
-            if k == 'details':
+            if k in ('details', 'url'):
                 self.assertRegex(v, '^https?://')
 
             if k == 'sublime_text':
