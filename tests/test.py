@@ -22,6 +22,7 @@ from collections import OrderedDict
 from functools import wraps
 from urllib.request import urlopen
 from urllib.error import HTTPError
+from urllib.parse import urljoin
 
 arglist = ['--test-repositories']
 # Exctract used arguments form the commandline an strip them for unittest.main
@@ -88,6 +89,7 @@ def generator_class(cls):
             elif not mname.startswith("test_"):
                 mname = "test_" + mname
 
+            # Include parameters in attribute name
             name = "%s(%s)" % (mname, ", ".join(args))
             setattr(cls, name, wrapper)
 
@@ -132,10 +134,14 @@ class TestContainer(object):
     }
 
     def _test_repository_keys(self, include, data):
-        keys = sorted(data.keys())
-        self.assertEqual(keys, ['packages', 'schema_version'])
+        self.assertTrue(2 <= len(data) <= 3, "Unexpected number of keys")
+        self.assertIn('schema_version', data)
         self.assertEqual(data['schema_version'], '2.0')
-        self.assertIsInstance(data['packages'], list)
+
+        listkeys = [k for k in ('packages', 'includes') if k in data]
+        self.assertGreater(len(listkeys), 0)
+        for k in listkeys:
+            self.assertIsInstance(data[k], list)
 
     def _test_repository_package_order(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z])\.json$", include)
@@ -152,7 +158,7 @@ class TestContainer(object):
             else:
                 packages.append(pname)
 
-            # TODO: Test for *all* "previous_names"
+            # TODO?: Test for *all* "previous_names"
 
         # Check if in the correct file
         for package_name in packages:
@@ -292,59 +298,66 @@ class ChannelTests(TestContainer, unittest.TestCase):
             if repository.startswith('.'):
                 continue
             if not repository.startswith("http"):
-                raise
+                cls._fail("Unexcpected repository url: %s" % repository)
 
-            print("fetching %s" % repository)
+            yield from cls._include_tests(repository)
 
-            # Download the repository
-            try:
-                with urlopen(repository) as f:
-                    source = f.read().decode("utf-8")
-            except Exception as e:
-                yield cls._fail("Downloading %s failed" % repository, e)
-                continue
+    @classmethod
+    def _include_tests(cls, url):
+        print("fetching %s" % url)
 
-            if not source:
-                yield cls._fail("%s is empty" % repository)
-                continue
+        # Download the repository
+        try:
+            with urlopen(url) as f:
+                source = f.read().decode("utf-8")
+        except Exception as e:
+            yield cls._fail("Downloading %s failed" % url, e)
+            return
 
-            # Parse the repository (do not consider their includes)
-            try:
-                data = json.loads(source)
-            except Exception as e:
-                yield cls._fail("Could not parse %s" % repository, e)
-                continue
+        if not source:
+            yield cls._fail("%s is empty" % url)
+            return
 
-            # Check for the schema version first (and generator failures it's
-            # badly formatted)
-            if 'schema_version' not in data:
-                yield cls._fail("No schema_version found in %s" % repository)
-                continue
-            schema = float(data['schema_version'])
-            if schema not in (1.0, 1.1, 1.2, 2.0):
-                yield cls._fail("Unrecognized schema version %s in %s"
-                                % (schema, repository))
-                continue
-            # Do not generate 1000 failing tests for not yet updated repos
-            if schema != 2.0:
-                print("schema version %s, skipping" % data['schema_version'])
-                continue
+        # Parse the repository
+        try:
+            data = json.loads(source)
+        except Exception as e:
+            yield cls._fail("Could not parse %s" % url, e)
+            return
 
-            # `repository` is for output during tests only
-            yield cls._test_repository_keys, (repository, data)
+        # Check for the schema version first (and generator failures it's
+        # badly formatted)
+        if 'schema_version' not in data:
+            yield cls._fail("No schema_version found in %s" % url)
+            return
+        schema = float(data['schema_version'])
+        if schema not in (1.0, 1.1, 1.2, 2.0):
+            yield cls._fail("Unrecognized schema version %s in %s"
+                            % (schema, url))
+            return
+        # Do not generate 1000 failing tests for not yet updated repos
+        if schema != 2.0:
+            print("schema version %s, skipping" % data['schema_version'])
+            return
 
+        # `url` is for output during tests only
+        yield cls._test_repository_keys, (url, data)
+
+        if 'packages' in data:
             for package in data['packages']:
-                yield cls._test_package, (repository, package)
+                yield cls._test_package, (url, package)
 
                 package_name = get_package_name(package)
 
                 if 'releases' in package:
                     for release in package['releases']:
                         (yield cls._test_release,
-                            ("%s (%s)" % (package_name, repository),
+                            ("%s (%s)" % (package_name, url),
                              release, False))
-
-            # TODO: test includes
+        if 'includes' in data:
+            for include in data['includes']:
+                i_url = urljoin(url, include)
+                yield from cls._include_tests(i_url)
 
 
 @generator_class
