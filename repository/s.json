@@ -1902,6 +1902,39 @@
 			]
 		},
 		{
+			"schema_version": "1.1",
+			"packages": [
+			{
+				"name": "SublimeLinter",
+				"description": "Inline lint highlighting for the Sublime Text 2 editor",
+				"author": "Kronuz, Aparajita Fishman, Jake Swartwood",
+				"homepage": "http://github.com/SublimeLinter/SublimeLinter",
+				"platforms": {
+					"*": [
+						{
+							"version": "1.7.2+4",
+							"url": "https://nodeload.github.com/SublimeLinter/SublimeLinter/zip/v1.7.2+4"
+						}
+					]
+				}
+			},
+			{
+				"name": "SublimeLinter Beta",
+				"description": "This version is considered unstable; only install this package if you plan on testing",
+				"author": "Kronuz, Aparajita Fishman, Jake Swartwood",
+				"homepage": "https://github.com/SublimeLinter/SublimeLinter/tree/beta",
+				"platforms": {
+					"*": [
+						{
+							"version": "1.7.3-beta.0",
+							"url": "https://nodeload.github.com/SublimeLinter/SublimeLinter/zip/beta"
+						}
+					]
+				}
+			}
+			]
+		},
+		{
 			"details": "https://github.com/yrammos/SublimeLog",
 			"releases": [
 				{
