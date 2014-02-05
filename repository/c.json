@@ -523,7 +523,7 @@
 			"details": "https://github.com/SublimeText/ClipboardCommands",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/ClipboardCommands/tree/master"
 				}
 			]
@@ -704,7 +704,7 @@
 			"details": "https://github.com/furikake/sublime-codec",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"details": "https://github.com/furikake/sublime-codec/tags"
 				}
 			]
@@ -1505,7 +1505,7 @@
 		},
 		{
 			"name": "CSScomb JS",
-			"details": "https://github.com/csscomb/csscomb.js-for-sublime",
+			"details": "https://github.com/csscomb/sublime-csscomb",
 			"previous_names": ["CSScomb.js"],
 			"releases": [
 				{
@@ -1746,6 +1746,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/NotSqrt/sublime-cython/tags"
+				}
+			]
+		},
+		{
+			"name": "Cython+",
+			"details": "https://github.com/petervaro/python",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/petervaro/python/tree/cython"
 				}
 			]
 		}
