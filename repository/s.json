@@ -660,22 +660,23 @@
 			"labels": ["sidebar","folder","directory","file","clipboard"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/titoBouzout/SideBarEnhancements/tree/master"
-				},
-				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
 				}
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/SideBarGit",
+			"details": "https://github.com/SublimeText/SideBarFolders",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/SideBarGit/tree/master"
-				},
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeText/SideBarFolders/tree/master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/SublimeText/SideBarGit",
+			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/SideBarGit/tree/st3"
@@ -762,6 +763,15 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/mikefowler/simple-clone/tree/master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/SublimeText/SimpleCSSFormat",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeText/SimpleCSSFormat/tree/master"
 				}
 			]
 		},
