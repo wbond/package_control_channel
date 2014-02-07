@@ -5,8 +5,8 @@
 			"details": "https://github.com/SublimeText/AAAPackageDev",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/AAAPackageDev/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/SublimeText/AAAPackageDev/tags"
 				}
 			]
 		},
@@ -32,12 +32,33 @@
 		},
 		{
 			"name": "Abstract Markup Language",
-			"details": "https://bitbucket.org/esquivias/sublime-aml",
-			"labels": ["language syntax"],
+			"details": "https://github.com/abstractmarkup/sublimetext",
+			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/esquivias/sublime-aml/src/master"
+					"details": "https://github.com/abstractmarkup/sublimetext/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Achievement",
+			"details": "https://github.com/airtoxin/Achievement",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/airtoxin/Achievement/tags"
+				}
+			]
+		},
+		{
+			"name": "Acme Plumbing",
+			"details": "https://github.com/lionicsheriff/SublimeAcmePlumbing",
+			"labels": ["text navigation", "editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/lionicsheriff/SublimeAcmePlumbing/tags"
 				}
 			]
 		},
@@ -89,7 +110,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/skuroda/Sublime-AdvancedNewFile/tree/master"
+					"details": "https://github.com/skuroda/Sublime-AdvancedNewFile/tags"
 				}
 			]
 		},
@@ -133,15 +154,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/randy3k/AlignTab",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/randy3k/AlignTab/tree/master"
-				}
-			]
-		},
-		{
 			"name": "All Autocomplete",
 			"details": "https://github.com/alienhard/SublimeAllAutocomplete",
 			"releases": [
@@ -176,7 +188,7 @@
 			"details": "https://github.com/atombender/sublime_text_alternative_autocompletion",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/atombender/sublime_text_alternative_autocompletion/tree/master"
 				}
 			],
@@ -188,7 +200,7 @@
 			"details": "https://github.com/wukkuan/AMD-Module-Editor",
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/wukkuan/AMD-Module-Editor/tree/master"
 				}
 			]
@@ -261,6 +273,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/ribot/SublimeAndroidImport/tags"
+				}
+			]
+		},
+		{
+			"name": "AndroidSnippets",
+			"details": "https://github.com/ribot/SublimeAndroidSnippets",
+			"labels": ["auto-complete", "android", "java", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ribot/SublimeAndroidSnippets/tags"
 				}
 			]
 		},
@@ -492,6 +515,17 @@
 			]
 		},
 		{
+			"name": "AppleScript Completions and Snippets",
+			"details": "https://github.com/idleberg/AppleScript-Sublime-Text",
+			"labels": ["auto-complete","build system","snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/ApplePips.tmTheme/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/ApplySyntax",
 			"releases": [
 				{
@@ -570,12 +604,12 @@
 		},
 		{
 			"name": "ARM Assembly",
-			"details": "https://github.com/tvirgl/Sublime-ARM-Assembly",
+			"details": "https://github.com/erggo/Sublime-ARM-Assembly",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/tvirgl/Sublime-ARM-Assembly/tree/master"
+					"details": "https://github.com/erggo/Sublime-ARM-Assembly/tree/master"
 				}
 			]
 		},
@@ -686,7 +720,7 @@
 			"details": "https://github.com/danielsd/ASPComment",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/danielsd/ASPComment/tree/master"
 				}
 			]
@@ -743,6 +777,15 @@
 			]
 		},
 		{
+			"details": "https://github.com/jamesfzhang/auto-save",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jamesfzhang/auto-save/tags"
+				}
+			]
+		},
+		{
 			"name": "AutoBackups",
 			"details": "https://github.com/akalongman/sublimetext-autobackups",
 			"author": "Avtandil Kikabidze",
@@ -772,7 +815,7 @@
 					"details": "https://github.com/BoundInCode/AutoFileName/tree/master"
 				},
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/BoundInCode/AutoFileName/tree/st3"
 				}
 			]
@@ -873,11 +916,21 @@
 			]
 		},
 		{
+			"name": "AutoWidth",
+			"details": "https://github.com/sjpfenninger/autowidth",
+			"releases": [
+					{
+							"sublime_text": ">=3000",
+							"details": "https://github.com/sjpfenninger/autowidth/tags"
+					}
+			]
+		},
+		{
 			"details": "https://github.com/randy3k/AutoWrap",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/randy3k/AutoWrap/tree/master"
+					"details": "https://github.com/randy3k/AutoWrap/tags"
 				}
 			]
 		},

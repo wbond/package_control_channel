@@ -2,12 +2,58 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "I18n Rails",
+			"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails/tree/master"
+				}
+			]
+		},
+		{
+			"name": "i3 wm",
+			"details": "https://github.com/skk/i3wm-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/skk/i3wm-sublime/tags"
+				}
+			]
+		},
+		{
+			"name": "iA Writer",
+			"details": "https://github.com/jbrooksuk/iawriter-markdown-sublime",
+			"labels": ["markup", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jbrooksuk/iawriter-markdown-sublime/tree/master"
+				}
+			]
+		},
+		{
 			"name": "IcedCoffeeScript",
 			"details": "https://github.com/dhoelzgen/iced-coffee-script-tmbundle",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/dhoelzgen/iced-coffee-script-tmbundle/tree/master"
+				}
+			]
+		},
+		{
+			"name": "IceWorld Color Scheme",
+			"details": "https://github.com/chemdemo/IceWorld",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/chemdemo/IceWorld/tree/master"
 				}
 			]
 		},
@@ -41,6 +87,22 @@
 			]
 		},
 		{
+			"name": "IJulia",
+			"details": "https://github.com/karbarcca/Sublime-IJulia",
+			"labels": [
+				"julia",
+				"ijulia",
+				"language syntax",
+				"snippets"
+						],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/karbarcca/Sublime-IJulia/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Image2Base64",
 			"details": "https://github.com/tm-minty/sublime-text-2-image2base64",
 			"releases": [
@@ -53,10 +115,11 @@
 		{
 			"name": "ImageMagick",
 			"details": "https://github.com/Kentzo/SublimeMagick",
+			"author": "Ilya Kulakov",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Kentzo/SublimeMagick/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/Kentzo/SublimeMagick/tags"
 				}
 			]
 		},
@@ -126,7 +189,7 @@
 			"details": "https://github.com/alek-sys/sublimetext_indentxml",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/alek-sys/sublimetext_indentxml/tree/master"
 				}
 			]
@@ -161,6 +224,17 @@
 			]
 		},
 		{
+			"name": "Initializr",
+			"details": "https://github.com/drinks/sublime-initializr",
+			"labels": ["automation", "utils"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/drinks/sublime-initializr/tags"
+				}
+			]
+		},
+		{
 			"name": "Inline Calculator",
 			"details": "https://github.com/sahibalejandro/inline-calculator",
 			"releases": [
@@ -169,6 +243,16 @@
 					"details": "https://github.com/sahibalejandro/inline-calculator/tree/master"
 				}
 			]
+		},
+		{
+			"name": "Inline Python",
+			"details": "https://github.com/apiad/Sublime-InlinePython",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/apiad/Sublime-InlinePython/tags"
+				}
+			]	
 		},
 		{
 			"name": "InnoSetup",
@@ -232,6 +316,28 @@
 			]
 		},
 		{
+			"name": "iOpener",
+			"details": "https://github.com/rosshemsley/iOpener",
+			"labels": ["emacs","file open", "open path"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/rosshemsley/iOpener/tags"
+				}
+			]
+		},
+		{
+			"name": "IPS Package Manifest Syntax",
+			"details": "https://github.com/carsonoid/IPS-Pkg-Syntax",
+			"labels": ["language syntax", "markup"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/carsonoid/IPS-Pkg-Syntax/tags"
+				}
+			]
+		},
+		{
 			"name": "IPython Notebook",
 			"details": "https://github.com/maximsch2/SublimeIPythonNotebook",
 			"releases": [
@@ -242,7 +348,7 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/maximsch2/SublimeIPythonNotebook/tree/st2"
-				}				
+				}
 			]
 		},
 		{
@@ -264,6 +370,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/firerishi/ironman-color-scheme/tree/master"
+				}
+			]
+		},
+		{
+			"name": "ISML",
+			"details": "https://github.com/aearly/isml-tmlanguage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/aearly/isml-tmlanguage/tree/master"
 				}
 			]
 		},

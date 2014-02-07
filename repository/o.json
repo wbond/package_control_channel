@@ -44,6 +44,18 @@
 			]
 		},
 		{
+			"name": "OCaml",
+			"description": "An improved version of default OCaml package",
+			"details": "https://github.com/whitequark/sublime-better-ocaml",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/whitequark/sublime-better-ocaml"
+				}
+			]
+		},
+		{
 			"name": "OCaml Autocompletion",
 			"details": "https://github.com/whitequark/sublime-ocp-index",
 			"releases": [
@@ -86,13 +98,35 @@
 			]
 		},
 		{
-			"name": "Ohdeung-eun", 
+			"name": "Ohdeung-eun",
 			"details": "http://github.com/luavis/Ohdeung-eun",
-			"labels": ["Lorem", "lorem", "hangul", "오등은"],
+			"labels": ["Lorem", "lorem", "hangul", "\\uc624\\ub4f1\\uc740"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "http://github.com/luavis/Ohdeung-eun/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OmniDocs",
+			"details": "https://github.com/bordaigorl/sublime-omnidocs",
+			"labels": ["search", "documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/bordaigorl/sublime-omnidocs/tags"
+				}
+			]
+		},
+		{
+			"name": "OOJS",
+			"details": "https://github.com/avenauche/OOJS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/avenauche/OOJS/tree/master"
 				}
 			]
 		},
@@ -109,9 +143,10 @@
 		{
 			"name": "Open Folder",
 			"details": "https://github.com/mikepfirrmann/openfolder",
+			"labels": ["file navigation"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/mikepfirrmann/openfolder/tree/master"
 				}
 			]
@@ -191,6 +226,16 @@
 			]
 		},
 		{
+			"name": "OpenCL",
+			"details": "https://github.com/kbenzie/Sublime-OpenCL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kbenzie/Sublime-OpenCL/tags"
+				}
+			]
+		},
+		{
 			"name": "OpenEdge ABL",
 			"details": "https://github.com/jfairbank/Sublime-Text-2-OpenEdge-ABL",
 			"releases": [
@@ -257,11 +302,35 @@
 			]
 		},
 		{
+			"name": "Orbit Color Scheme",
+			"details": "https://github.com/hawkw/Orbit",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/hawkw/Orbit/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Origami/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OSX Font Chooser",
+			"details": "https://github.com/jolleyjoe/OSX-Font-Chooser",
+			"releases": [
+				{
+					"platforms": [
+						"osx"
+					],
+					"sublime_text": "<3000",
+					"details": "https://github.com/jolleyjoe/OSX-Font-Chooser/tree/master"
 				}
 			]
 		},

@@ -2,6 +2,16 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Naetech - Pomodoro Timer Plug-in",
+			"details": "https://github.com/naetech/NaetechPomodoroSublimeText",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/naetech/NaetechPomodoroSublimeText/tags"
+				}
+			]
+		},
+		{
 			"name": "Named (Bind) Helpers",
 			"details": "https://github.com/Smerty/sublime-named",
 			"releases": [
@@ -29,7 +39,7 @@
 					"sublime_text": "*",
 					"details": "https://github.com/Nessphoro/sublimeassembly/tree/master"
 				}
-			]	
+			]
 		},
 		{
 			"details": "https://github.com/SublimeText/NaturalDocs",
@@ -47,6 +57,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/timjrobinson/SublimeNavigationHistory/tree/master"
+				}
+			]
+		},
+		{
+			"name": "NCL",
+			"details": "https://github.com/dongli/sublime-ncl",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/dongli/sublime-ncl/tags"
 				}
 			]
 		},
@@ -102,6 +122,16 @@
 			]
 		},
 		{
+			"name": "ngdoc snippets",
+			"details": "https://github.com/iamsebastian/sublime-ngdoc-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/iamsebastian/sublime-ngdoc-snippets/tree/master"
+				}
+			]
+		},
+		{
 			"name": "nginx",
 			"details": "https://github.com/kvs/ST2Nginx",
 			"releases": [
@@ -127,6 +157,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/leonardoce/nimrod-sublime/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Nocturnal Color Scheme",
+			"details": "https://github.com/noct/nocturnal-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/noct/nocturnal-color-scheme/tags"
 				}
 			]
 		},
@@ -164,6 +205,17 @@
 			]
 		},
 		{
+			"name": "Non Text Files",
+			"details": "https://github.com/bordaigorl/sublime-non-text-files",
+			"labels": ["file navigation", "preview", "file open"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/bordaigorl/sublime-non-text-files/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/NSIS",
 			"labels": ["language syntax"],
 			"releases": [
@@ -174,17 +226,7 @@
 			]
 		},
 		{
-			"name": "NSIS Autocomplete (Add-ons)",
-			"details": "https://github.com/idleberg/NSIS-Sublime-Text-Addons",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/idleberg/NSIS-Sublime-Text-Addons/tree/master"
-				}
-			]
-		},
-		{
-			"name": "NSIS Autocomplete and Snippets",
+			"name": "NSIS Completions & Snippets",
 			"details": "https://github.com/idleberg/NSIS-Sublime-Text",
 			"labels": ["snippets"],
 			"releases": [
@@ -192,6 +234,9 @@
 					"sublime_text": "*",
 					"details": "https://github.com/idleberg/NSIS-Sublime-Text/tree/master"
 				}
+			],
+			"previous_names": [
+				"NSIS Autocomplete and Snippets"
 			]
 		},
 		{
@@ -206,12 +251,47 @@
 			]
 		},
 		{
+			"name": "NSIS Plug-in Completions",
+			"details": "https://github.com/idleberg/NSIS-Sublime-Text-Addons",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/NSIS-Sublime-Text-Addons/tree/master"
+				}
+			],
+			"previous_names": [
+				"NSIS Autocomplete (Add-ons)"
+			]
+		},
+		{
+			"name": "NuGet",
+			"details": "https://github.com/idleberg/NuGet-Sublime-Text",
+			"labels": ["language syntax", "completions", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/NuGet-Sublime-Text/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Number Manipulation",
 			"details": "https://github.com/prongs/SublimeNumberManipulation",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/prongs/SublimeNumberManipulation/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Nunjucks Syntax",
+			"details": "https://github.com/mogga/sublime-nunjucks",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mogga/sublime-nunjucks/tags"
 				}
 			]
 		}

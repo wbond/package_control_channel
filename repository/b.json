@@ -2,6 +2,17 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Baan",
+			"details": "https://github.com/masal/SublimeBaan",
+			"labels": ["language syntax", "formatting", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/masal/SublimeBaan/tags"
+				}
+			]
+		},
+		{
 			"name": "Back There",
 			"details": "https://github.com/iuliux/SublimeText2-BackThere",
 			"releases": [
@@ -46,7 +57,7 @@
 			"details": "https://github.com/euphwes/base-encoder",
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/euphwes/base-encoder/tree/master"
 				}
 			]
@@ -67,7 +78,7 @@
 			"details": "https://github.com/DaQuirm/base64-fold",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/DaQuirm/base64-fold/tree/master"
 				}
 			]
@@ -80,6 +91,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/macite/sublimebashbuildsystem/tags"
+				}
+			]
+		},
+		{
+			"name": "Bats (Bash Automated Testing System)",
+			"details": "https://github.com/jverdeyen/sublime-bats",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jverdeyen/sublime-bats/tags"
 				}
 			]
 		},
@@ -170,7 +191,7 @@
 			"details": "https://github.com/s1ider/sublime-behave-step-finder",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/s1ider/sublime-behave-step-finder/tree/master"
 				}
 			]
@@ -213,7 +234,7 @@
 			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/aponxi/sublime-better-coffeescript/tree/master"
 				},
 				{
@@ -252,8 +273,19 @@
 			"labels": ["language syntax", "snippets", "linting", "watch", "typescript"],
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/lavrton/sublime-better-typescript/tree/master"
+				}
+			]
+		},
+		{
+			"name": "BetterFindBuffer",
+			"details": "https://github.com/aziz/BetterFindBuffer",
+			"labels": ["find results", "search"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/aziz/BetterFindBuffer/tags"
 				}
 			]
 		},
@@ -289,11 +321,32 @@
 			]
 		},
 		{
+			"name": "Bison",
+			"details": "https://bitbucket.org/artyom_smirnov/sublime-text-bison-highlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/artyom_smirnov/sublime-text-bison-highlighter#tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/pheuter/BitcoinTicker",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/pheuter/BitcoinTicker/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Bitly",
+			"details": "https://github.com/the0ther/Sublime-Bitly",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/the0ther/Sublime-Bitly/tags"
 				}
 			]
 		},
@@ -324,6 +377,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/dev4dev/blade-snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "BlameHighlighter",
+			"details": "https://github.com/skyronic/BlameHighlighter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/skyronic/BlameHighlighter/tree/master"
 				}
 			]
 		},
@@ -539,12 +602,19 @@
 			"details": "https://github.com/SublimeText/BufferScroll",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/BufferScroll/tree/master"
-				},
-				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/BufferScroll/tree/st3"
+				}
+			]
+		},
+		{
+			"name": "Build Next",
+			"details": "https://github.com/albertosantini/sublimetext-buildnext",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/albertosantini/sublimetext-buildnext/tags"
 				}
 			]
 		},

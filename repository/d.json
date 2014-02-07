@@ -2,12 +2,25 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"name": "Dafny",
-			"details": "https://github.com/tvirgl/sublime-dafny",
+			"name": "D Programming Language",
+			"details": "https://github.com/alexrp/st2-d",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/tvirgl/sublime-dafny/tree/master"
+					"details": "https://github.com/alexrp/st2-d/tree/master"
+				}
+			],
+			"previous_names": [
+				"D"
+			]
+		},
+		{
+			"name": "Dafny",
+			"details": "https://github.com/erggo/sublime-dafny",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/erggo/sublime-dafny/tree/master"
 				}
 			]
 		},
@@ -23,12 +36,33 @@
 			]
 		},
 		{
+			"name": "Darkula Color Scheme",
+			"details": "https://github.com/mattchanner/darkula",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mattchanner/darkula/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Dart",
 			"details": "https://github.com/dart-lang/dart-sublime-bundle",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/dart-lang/dart-sublime-bundle/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Darwin",
+			"details": "https://github.com/kgori/DarwinHighlight",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kgori/DarwinHighlight/tree/master"
 				}
 			]
 		},
@@ -47,7 +81,7 @@
 			"details": "https://github.com/fitnr/SublimeDataConverter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/fitnr/SublimeDataConverter/tree/master"
 				}
 			]
@@ -140,7 +174,7 @@
 			"details": "https://github.com/spadgos/sublime-DefaultFileType",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/spadgos/sublime-DefaultFileType/tree/master"
 				}
 			]
@@ -150,8 +184,19 @@
 			"details": "https://github.com/yaworsw/Sublime-DeleteCurrentFile",
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/yaworsw/Sublime-DeleteCurrentFile/tags"
+				}
+			]
+		},
+		{
+			"name": "Delete Lines",
+			"details": "https://github.com/harawata/sublime-delete-lines",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/harawata/sublime-delete-lines/tags"
 				}
 			]
 		},
@@ -185,6 +230,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/fgb/desert_night/tags"
+				}
+			]
+		},
+		{
+			"name": "Devastate",
+			"details": "https://github.com/vlakarados/devastate",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vlakarados/devastate"
 				}
 			]
 		},
@@ -231,7 +287,7 @@
 			"details": "https://github.com/Zinggi/DictionaryAutoComplete",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/Zinggi/DictionaryAutoComplete/tree/master"
 				}
 			]
@@ -258,12 +314,33 @@
 			]
 		},
 		{
+			"name": "dired",
+			"details": "https://github.com/mkleehammer/dired",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/mkleehammer/dired/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Display Functions (Java)",
 			"details": "https://github.com/BoundInCode/Display-Functions",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/BoundInCode/Display-Functions/tree/master"
+				}
+			]
+		},
+		{
+			"name": "DistractionFreeWindow",
+			"details": "https://github.com/aziz/DistractionFreeWindow",
+			"labels": ["fullscreen", "distractoin-free"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/aziz/DistractionFreeWindow/tags"
 				}
 			]
 		},
@@ -329,7 +406,7 @@
 			"details": "https://github.com/rcaldwel/DNS",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/rcaldwel/DNS/tree/master"
 				}
 			]
@@ -438,6 +515,17 @@
 			]
 		},
 		{
+			"name": "DoxyDoc",
+			"details": "https://github.com/Rapptz/doxydoc",
+			"labels": ["auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Rapptz/doxydoc/tags"
+				}
+			]
+		},
+		{
 			"name": "Dracula Color Scheme",
 			"details": "https://github.com/zenorocha/dracula-theme",
 			"labels": ["color scheme"],
@@ -477,6 +565,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/robballou/drupal-sublimetext/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Drupal Completions",
+			"details": "https://github.com/flashvnn/Drupal-Completion-ST",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/flashvnn/Drupal-Completion-ST/tree/master"
 				}
 			]
 		},
@@ -535,7 +633,7 @@
 			"details": "https://github.com/wjthomas9/duplicate-lines",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/wjthomas9/duplicate-lines/tree/master"
 				}
 			]
@@ -561,22 +659,29 @@
 			]
 		},
 		{
+			"name": "DXL",
+			"details": "https://github.com/Adarma/DXL",
+			"labels": ["build system", "color scheme", "language syntax", "linting"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/Adarma/DXL/tree/ST2",
+					"platforms": "windows"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/Adarma/DXL/tree/ST3",
+					"platforms": "windows"
+				}
+			]
+		},
+		{
 			"name": "Dylan",
 			"details": "https://github.com/dylan-lang/dylan.tmbundle",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/dylan-lang/dylan.tmbundle/tree/master"
-				}
-			]
-		},
-		{
-			"name": "Dynamic Commands",
-			"details": "https://bitbucket.org/klorenz/dynamicsublimecommands",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/klorenz/dynamicsublimecommands/src/default"
 				}
 			]
 		}

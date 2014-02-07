@@ -43,14 +43,12 @@
 			]
 		},
 		{
-			"name": "MakeCommands",
-			"author": "Kay-Uwe (Kiwi) Lorenz",
-			"labels": ["make", "command palette"],
-			"details": "https://bitbucket.org/klorenz/makecommands",
+			"name": "MagiclessQuotes",
+			"details": "https://github.com/daryltucker/MagiclessQuotes",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/klorenz/makecommands/src/default"
+					"details": "https://github.com/daryltucker/MagiclessQuotes/tree/master"
 				}
 			]
 		},
@@ -61,17 +59,6 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/cockscomb/SublimeMakeExecutable/tree/master"
-				}
-			]
-		},
-		{
-			"name": "Makefile Improved",
-			"details": "https://bitbucket.org/klorenz/sublimemakefileimproved",
-			"labels": ["language syntax", "code navigation"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://bitbucket.org/klorenz/sublimemakefileimproved/src/default"
 				}
 			]
 		},
@@ -93,6 +80,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/Anthodev/Sublime-ManiaScript/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Map Snippets",
+			"details": "https://github.com/geraldarthur/Map-Snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/geraldarthur/Map-Snippets"
 				}
 			]
 		},
@@ -187,22 +185,47 @@
 			]
 		},
 		{
+			"name": "MarkdownCodeBlockWrapper",
+			"details": "https://github.com/kenspirit/MarkdownCodeBlockWrapper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kenspirit/MarkdownCodeBlockWrapper/tags"
+				}
+			]
+		},
+		{
+			"name": "MarkdownEditing",
+			"details": "https://github.com/SublimeText-Markdown/MarkdownEditing",
+			"labels": ["markdown", "github flavored markdown", "github markdown", "gfm", "multimarkdown", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/SublimeText-Markdown/MarkdownEditing/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/naokazuterada/MarkdownTOC",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/naokazuterada/MarkdownTOC/tree/master"
 				}
 			]
 		},
 		{
-			"name": "Marked.app Menu",
+			"name": "Marked App Menu",
 			"details": "https://github.com/icio/sublime-text-marked",
+			"labels": ["markdown", "preview", "build", "marked.app"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/icio/sublime-text-marked/tree/master"
 				}
+			],
+			"previous_names": [
+				"Marked.app Menu"
 			]
 		},
 		{
@@ -289,7 +312,7 @@
 			"details": "https://github.com/justinfx/MayaSublime",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/justinfx/MayaSublime/tree/master"
 				}
 			]
@@ -540,6 +563,17 @@
 			]
 		},
 		{
+			"name": "Mocha Coffee Snippets",
+			"details": "https://github.com/brianstarke/sublime-coffee-mocha-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/brianstarke/sublime-coffee-mocha-snippets/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Mocha Runner",
 			"details": "https://github.com/matthiasg/sublime-mocha-runner",
 			"releases": [
@@ -683,6 +717,17 @@
 			]
 		},
 		{
+			"name": "Monokai Gray",
+			"details": "https://github.com/IanWold/MonokaiGray",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/IanWold/MonokaiGray/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/six519/MonoRun",
 			"releases": [
 				{
@@ -708,6 +753,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/ecornell/Sublime-MoonScript/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Moonscripty",
+			"details": "https://github.com/szensk/sublmoon",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/szensk/sublmoon/tree/master"
 				}
 			]
 		},
@@ -773,6 +828,17 @@
 			],
 			"previous_names": [
 				"Move Better"
+			]
+		},
+		{
+			"name": "Move By Symbols",
+			"details": "https://github.com/abusalimov/SublimeMoveBySymbols",
+			"labels": ["code navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/abusalimov/SublimeMoveBySymbols/tags"
+				}
 			]
 		},
 		{
@@ -903,6 +969,16 @@
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/ionutvmi/SublimeMybbTplEditor/tags"
+				}
+			]
+		},
+		{
+			"name": "MySublimeQL",
+			"details": "https://github.com/biannetta/MySublimeQL",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/biannetta/MySublimeQL/tree/master"
 				}
 			]
 		}

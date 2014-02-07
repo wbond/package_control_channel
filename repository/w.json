@@ -2,6 +2,17 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "W3CValidators",
+			"details": "https://github.com/dubharmonic/Sublime-W3CValidators",
+			"labels": ["html", "svg", "validator"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/dubharmonic/Sublime-W3CValidators/tags"
+				}
+			]
+		},
+		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
 			"labels": ["time tracking"],
@@ -20,6 +31,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/idleberg/WarpOS.tmTheme/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Waxeye",
+			"details": "https://github.com/tijn/sublime-waxeye",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/tijn/sublime-waxeye/tags"
 				}
 			]
 		},
@@ -94,16 +115,6 @@
 			]
 		},
 		{
-			"name": "WebSequenceDiagrams",
-			"details": "https://github.com/ffesseler/sublimetext-websequencediagrams",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/ffesseler/sublimetext-websequencediagrams/tree/master"
-				}
-			]
-		},
-		{
 			"name": "WebSuite",
 			"details": "https://github.com/bthorben/WebSuite",
 			"releases": [
@@ -119,6 +130,19 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/matiaspub/WheelChanger/tree/master"
+				}
+			]
+		},
+		{
+			"name": "White Night Color Scheme",
+			"previous_names": [
+				"White Night Theme"
+			],
+			"details": "https://github.com/lysisius/WhiteNight.tmTheme",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/lysisius/WhiteNight.tmTheme/tree/master"
 				}
 			]
 		},
@@ -236,10 +260,6 @@
 		{
 			"details": "https://github.com/SublimeText/WordCount",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/WordCount/tree/master"
-				},
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/WordCount/tree/st3"
@@ -376,15 +396,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/ehuss/Sublime-Wrap-Plus/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/klorenz/wrapcommand",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/klorenz/wrapcommand/src/default"
 				}
 			]
 		},
