@@ -316,6 +316,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/vaisaghvt/CheckTypos/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/vaisaghvt/CheckTypos3/tree/master"
 				}
 			]
 		},
@@ -1060,6 +1064,16 @@
 			]
 		},
 		{
+			"name": "Colorcoder",
+			"details": "https://github.com/vprimachenko/Sublime-Colorcoder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vprimachenko/Sublime-Colorcoder/tree/master"
+				}
+			]
+		},
+		{
 			"name": "ColorPick",
 			"details": "https://github.com/jnordberg/sublime-colorpick",
 			"releases": [
@@ -1212,6 +1226,16 @@
 					"details": "https://github.com/oliverseal/Conky.tmLanguage/tags"
 				}
 			]
+		},
+		{
+			"name": "Console Wrap for js",
+			"details": "https://github.com/unknownuser88/consolewrap",
+			"author": "David Bekoyan",
+			"labels": ["completion", "auto-complete"],
+			"releases": [{
+				"sublime_text": "*",
+				"details": "https://github.com/unknownuser88/consolewrap/tags"
+			}]
 		},
 		{
 			"name": "ContextBuild",
@@ -1510,7 +1534,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/csscomb/csscomb.js-for-sublime/tree/master"
+					"details": "https://github.com/csscomb/sublime-csscomb/tree/master"
 				}
 			]
 		},
@@ -1758,7 +1782,8 @@
 					"sublime_text": "*",
 					"details": "https://github.com/petervaro/python/tree/cython"
 				}
-			]
+			],
+			"previous_names": ["Modern Cython"]
 		}
 	]
 }

@@ -333,16 +333,6 @@
 			]
 		},
 		{
-			"name": "Search in Browser",
-			"details": "https://github.com/Grafikart/Open-Browser-SublimeText2-Plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Grafikart/Open-Browser-SublimeText2-Plugin/tree/master"
-				}
-			]
-		},
-		{
 			"name": "Search in Project",
 			"previous_names": ["SearchInProject"],
 			"details": "https://github.com/leonid-shevtsov/SearchInProject_SublimeText",
@@ -458,6 +448,7 @@
 		{
 			"name": "SelectUntil",
 			"details": "https://github.com/xavi-/sublime-selectuntil",
+			"labels": ["text manipulation", "text navigation", "text selection"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -767,15 +758,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/SimpleCSSFormat",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"details": "https://github.com/SublimeText/SimpleCSSFormat/tree/master"
-				}
-			]
-		},
-		{
 			"name": "SimpleMarker",
 			"details": "https://github.com/jugyo/SublimeSimpleMarker",
 			"releases": [
@@ -906,7 +888,7 @@
 			"details": "https://github.com/madeingnecca/sublime-slug",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/madeingnecca/sublime-slug/tree/master"
 				}
 			]
@@ -1316,6 +1298,16 @@
 			]
 		},
 		{
+			"name": "SQL (simple-db-migrate)",
+			"details": "https://github.com/caiogondim/simple-db-migrate-sublime-syntax-highlight",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/caiogondim/simple-db-migrate-sublime-syntax-highlight/tree/master"
+				}
+			]
+		},
+		{
 			"name": "SQLExec",
 			"details": "https://github.com/jum4/sublime-sqlexec",
 			"releases": [
@@ -1376,14 +1368,17 @@
 			]
 		},
 		{
-			"name": "Stata 13",
-			"details": "https://github.com/andrewheiss/SublimeStata13",
+			"name": "Stata Enhanced",
+			"previous_names": [
+				"Stata 13"
+			],
+			"details": "https://github.com/andrewheiss/SublimeStataEnhanced",
 			"labels": ["stata"],
 			"releases": [
 				{
 					"platforms": ["osx"],
 					"sublime_text": "*",
-					"details": "https://github.com/andrewheiss/SublimeStata13/tags"
+					"details": "https://github.com/andrewheiss/SublimeStataEnhanced/tags"
 				}
 			]
 		},
@@ -1466,6 +1461,16 @@
 			],
 			"previous_names": [
 				"Strapdown.js Markdown Preview"
+			]
+		},
+		{
+			"name": "String 2 Lower Hyphen",
+			"details": "https://github.com/jielimanyili/sublime_string2_lower_hyphen",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jielimanyili/sublime_string2_lower_hyphen/tree/master"
+				}
 			]
 		},
 		{
@@ -1585,6 +1590,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/yrammos/SubLilyPond/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Sublimall",
+			"details": "https://github.com/socketubs/sublimall",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/socketubs/sublimall/tags"
 				}
 			]
 		},
