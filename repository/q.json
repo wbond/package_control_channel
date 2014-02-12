@@ -2,6 +2,49 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Qiita for Sublime",
+			"details": "https://github.com/blueplanet/sublime-qiita",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/blueplanet/sublime-qiita/tags"
+				}
+			]
+		},
+		{
+			"name": "QlikView Tools",
+			"details": "https://github.com/vadimtsushko/sublime-qlikview",
+			"labels": ["language syntax","build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vadimtsushko/sublime-qlikview/tags"
+				}
+			]
+		},
+		{
+			"name": "QML",
+			"details": "https://github.com/skozlovf/Sublime-QML",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/skozlovf/Sublime-QML/tags"
+				}
+			]
+		},
+		{
+			"name": "qooxdoo Tools",
+			"details": "https://github.com/danielwagner/qooxdoo-sublime",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/danielwagner/qooxdoo-sublime/tags"
+				}
+			]
+		},
+		{
 			"name": "QuarkPHP",
 			"details": "https://github.com/sahibalejandro/quark-php-sublime",
 			"releases": [
@@ -16,8 +59,32 @@
 			"details": "https://github.com/noklesta/SublimeQuickFileCreator",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/noklesta/SublimeQuickFileCreator/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Quick File Move",
+			"details": "https://github.com/wulftone/sublime-text-quick-file-move",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/wulftone/sublime-text-quick-file-move/tree/master"
+				}
+			],
+			"previous_names": [
+				"Quick File Renamer",
+				"QuickFileMove"
+			]
+		},
+		{
+			"name": "Quick File Open",
+			"details": "https://github.com/gsingh93/sublime-quick-file-open",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/gsingh93/sublime-quick-file-open/tags"
 				}
 			]
 		},
@@ -31,16 +98,32 @@
 			]
 		},
 		{
-			"name": "QuickFileMove",
-			"details": "https://github.com/wulftone/sublime-text-2-quick-file-move",
+			"name": "QuickGotoAnything",
+			"details": "https://github.com/lite3/Sublime-QuickGotoAnything",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/wulftone/sublime-text-2-quick-file-move/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/lite3/Sublime-QuickGotoAnything/tags"
 				}
-			],
-			"previous_names": [
-				"Quick File Renamer"
+			]
+		},
+		{
+			"details": "https://github.com/jameshiew/QuickJava",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/jameshiew/QuickJava/tree/master"
+				}
+			]
+		},
+		{
+			"name": "QuickLinks",
+			"details": "https://bitbucket.org/sigzegv/quicklinks",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/sigzegv/quicklinks/src/master"
+				}
 			]
 		},
 		{
@@ -65,20 +148,44 @@
 			]
 		},
 		{
+			"name": "QuickRef Command Lookup",
 			"details": "https://bitbucket.org/rablador/quickref",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/rablador/quickref/src/master"
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/rablador/quickref/src/develop"
 				}
+			],
+			"previous_names": [
+				"QuickRef"
 			]
 		},
 		{
 			"details": "https://github.com/chrislongo/QuickThemes",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/chrislongo/QuickThemes/tree/master"
+				}
+			]
+		},
+		{
+			"name": "QuickXDev",
+			"details": "https://github.com/leitwolf/QuickXDev",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/leitwolf/QuickXDev/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Quijotipsum Snippet",
+			"details": "https://github.com/ArmandoMendoza/sublime-quijotipsum",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ArmandoMendoza/sublime-quijotipsum/tree/master"
 				}
 			]
 		}

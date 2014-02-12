@@ -2,12 +2,33 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Jack",
+			"details": "https://github.com/swarn/sublime-jack",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/swarn/sublime-jack/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Jade",
 			"details": "https://github.com/davidrios/jade-tmbundle",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/davidrios/jade-tmbundle/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Jade Build",
+			"details": "https://github.com/mutian/Jade-Build",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mutian/Jade-Build/tree/master"
 				}
 			]
 		},
@@ -23,6 +44,27 @@
 			]
 		},
 		{
+			"name": "Jaggery Snippets",
+			"details": "https://github.com/keheliya/jaggery-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/keheliya/jaggery-snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Jamon",
+			"details": "https://github.com/drhayes/SublimeJamon",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/drhayes/SublimeJamon/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Jasmine",
 			"details": "https://github.com/gja/sublime-text-2-jasmine",
 			"releases": [
@@ -33,12 +75,26 @@
 			]
 		},
 		{
+			"name": "Jasmine CoffeeScript",
+			"details": "https://github.com/integrum/sublime-text-jasmine-coffeescript",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/integrum/sublime-text-jasmine-coffeescript/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Java Property Cleaner",
 			"details": "https://github.com/sivakumar-kailasam/jprop-cleaner",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/sivakumar-kailasam/jprop-cleaner/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sivakumar-kailasam/jprop-cleaner-sb3/tree/master"
 				}
 			]
 		},
@@ -67,6 +123,35 @@
 			]
 		},
 		{
+			"name": "JavaScript & Coffeescript Build Systems",
+			"details": "https://github.com/IlanFrumer/sublime-js-coffee-build-systems",
+			"labels": [
+				"javascript",
+				"coffeescript",
+				"js2coffee",
+				"nodejs",
+				"compile",
+				"run"
+			],			
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/IlanFrumer/sublime-js-coffee-build-systems/tags"
+				}
+			]
+		},		
+		{
+			"name": "JavaScript & NodeJS Snippets",
+			"details": "https://github.com/zenorocha/sublime-snippets-js",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/zenorocha/sublime-snippets-js/tree/master"
+				}
+			]
+		},
+		{
 			"name": "JavaScript and jQuery API Completions",
 			"details": "https://github.com/Pleasurazy/Sublime-JavaScript-API-Completions",
 			"releases": [
@@ -81,7 +166,7 @@
 			"details": "https://github.com/enginespot/js-beautify-sublime",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/enginespot/js-beautify-sublime/tree/master"
 				}
 			]
@@ -94,6 +179,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/caiogondim/js-console-sublime-snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "JavaScript Multiline",
+			"details": "https://github.com/metatribal/sublime-jsmultiline",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/metatribal/sublime-jsmultiline/tree/master"
 				}
 			]
 		},
@@ -141,6 +236,7 @@
 			]
 		},
 		{
+			"name": "Javatar",
 			"details": "https://github.com/spywhere/Javatar",
 			"releases": [
 				{
@@ -158,6 +254,31 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/srusskih/SublimeJEDI/tags"
+				}
+			]
+		},
+		{
+			"name": "Jekyll",
+			"details": "https://github.com/23maverick23/sublime-jekyll",
+			"labels": [
+				"language syntax",
+				"snippets",
+				"auto-complete"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/23maverick23/sublime-jekyll/tags"
+				}
+			]
+		},
+		{
+			"name": "Jenkins Dashboard",
+			"details": "https://github.com/benmatselby/sublime-jenkins-dashboard",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/benmatselby/sublime-jenkins-dashboard/tags"
 				}
 			]
 		},
@@ -182,11 +303,37 @@
 			]
 		},
 		{
+			"name": "Jira",
+			"details": "https://github.com/mix86/SublimeJira",
+			"labels": [
+				"atlassian jira",
+				"jira integration",
+				"jira"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/mix86/SublimeJira/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/jQuery",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/jQuery/tree/master"
+				}
+			]
+		},
+		{
+			"name": "jQuery Mobile 1.4 Snippets",
+			"details": "https://github.com/MobPro/Sublime-jQuery-Mobile-Snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/MobPro/Sublime-jQuery-Mobile-Snippets"
 				}
 			]
 		},
@@ -234,6 +381,16 @@
 			]
 		},
 		{
+			"name": "JS Coverage",
+			"details": "https://github.com/genbit/SublimeJSCoverage",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/genbit/SublimeJSCoverage/tags"
+				}
+			]
+		},
+		{
 			"name": "JS Minify",
 			"details": "https://github.com/adampresley/sublime-js-minify",
 			"releases": [
@@ -261,6 +418,34 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/duereg/sublime-jsvalidate/tree/master"
+				}
+			]
+		},
+		{
+			"name": "JS Var Shortcuts",
+			"details": "https://github.com/twolfson/sublime-js-var-shortcuts",
+			"labels": [
+				"formatting",
+				"text manipulation",
+				"js",
+				"javascript",
+				"var",
+				"variable"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/twolfson/sublime-js-var-shortcuts/tags"
+				}
+			]
+		},
+		{
+			"name": "JS-firebug",
+			"details": "https://github.com/sebcl/JS-firebug",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/sebcl/JS-firebug/tags"
 				}
 			]
 		},
@@ -297,7 +482,7 @@
 			"details": "https://github.com/uipoet/sublime-jshint",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/uipoet/sublime-jshint/tree/master"
 				}
 			]
@@ -357,10 +542,13 @@
 		},
 		{
 			"details": "https://bitbucket.org/hmml/jsonlint",
-			"labels": ["linting"],
+			"labels": [
+				"linting",
+				"JSON"
+			],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://bitbucket.org/hmml/jsonlint/src/master"
 				}
 			]
@@ -390,6 +578,27 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/epitron/Julia-sublime/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Jump Along Indent",
+			"details": "https://github.com/mwean/sublime_jump_along_indent",
+			"labels": ["text navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/mwean/sublime_jump_along_indent/tags"
+				}
+			]
+		},
+		{
+			"name": "JumpTo",
+			"details": "https://github.com/JonasPf/JumpTo",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/JonasPf/JumpTo/tree/master"
 				}
 			]
 		},

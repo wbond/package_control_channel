@@ -3,11 +3,32 @@
 	"packages": [
 		{
 			"name": "R Tools",
-			"details": "https://github.com/karthikram/Rtools",
+			"details": "https://github.com/karthik/Rtools",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/karthikram/Rtools/tree/master"
+					"details": "https://github.com/karthik/Rtools/tree/master"
+				}
+			]
+		},
+		{
+			"name": "R-snippets",
+			"details": "https://github.com/jvcasill/R-snippets",
+			"labels": ["snippets", "R", "statistics"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jvcasill/R-snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RabbitVCS",
+			"details": "https://github.com/lerous/sublime-RabbitVCS",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/lerous/sublime-RabbitVCS/tree/master"
 				}
 			]
 		},
@@ -43,6 +64,16 @@
 			]
 		},
 		{
+			"name": "Rails I18n Helper",
+			"details": "https://github.com/Adeptus/rails-i18n-helper",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/Adeptus/rails-i18n-helper/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Rails Latest Migration",
 			"details": "https://github.com/alexpls/Rails-Latest-Migration",
 			"releases": [
@@ -69,6 +100,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/wesf90/rails-partial/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/wesf90/rails-partial/tree/st3"
 				}
 			]
 		},
@@ -79,15 +114,6 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/luqman/SublimeText2RailsRelatedFiles/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/sporto/rails_go_to_spec",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/sporto/rails_go_to_spec/tree/master"
 				}
 			]
 		},
@@ -103,11 +129,49 @@
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/Rake",
+			"name": "RailsGoToSpec",
+			"details": "https://github.com/sporto/rails_go_to_spec",
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"details": "https://github.com/sporto/rails_go_to_spec/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sporto/rails_go_to_spec/tree/master"
+				}
+			],
+			"previous_names": [
+				"rails_go_to_spec",
+				"Rails Go To Spec"
+			]
+		},
+		{
+			"details": "https://github.com/SublimeText/Rake",
+			"releases": [
+				{
+					"sublime_text":"*",
 					"details": "https://github.com/SublimeText/Rake/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RAML Syntax Highlighter",
+			"details": "https://github.com/restful-api-modeling-lang/raml-sublime-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/restful-api-modeling-lang/raml-sublime-plugin/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Random Everything",
+			"details": "https://github.com/kimpettersen/random-sublime-text-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kimpettersen/random-sublime-text-plugin/tree/master"
 				}
 			]
 		},
@@ -128,6 +192,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/kutu/RandomMessage/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Random Text",
+			"details": "https://github.com/dallbee/RandomText",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/dallbee/RandomText/tags"
 				}
 			]
 		},
@@ -161,6 +236,37 @@
 			]
 		},
 		{
+			"name": "Razor",
+				"details": "https://github.com/joseph-turner/Razor",
+				"releases": [
+					{
+						"sublime_text": "*",
+						"details": "https://github.com/joseph-turner/Razor/tree/master"
+					}
+				]
+			},
+		{
+			"name": "rbenv",
+			"details": "https://github.com/felipeelias/sublime-text-2-rbenv",
+			"labels": ["rbenv ruby"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/felipeelias/sublime-text-2-rbenv/tree/master"
+				}
+			]
+		},
+		{
+			"name": "ReactJS Snippets",
+			"details": "https://github.com/saada/reactjs-snippets.git",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/saada/reactjs-snippets/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Read Only Buffer",
 			"details": "https://github.com/crazybyte/SublimeReadOnlyBuffer",
 			"releases": [
@@ -171,11 +277,25 @@
 			]
 		},
 		{
+			"details": "https://github.com/idleberg/Readme-Helper",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/Readme-Helper/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/roadhump/ReadmePlease",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/roadhump/ReadmePlease/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/roadhump/ReadmePlease/tree/st3"
 				}
 			]
 		},
@@ -194,7 +314,7 @@
 			"details": "https://github.com/jugyo/SublimeRecentActiveFiles",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jugyo/SublimeRecentActiveFiles/tree/master"
 				}
 			]
@@ -220,6 +340,17 @@
 			]
 		},
 		{
+			"name": "RedBeanPHP ORM Snippets",
+			"details": "https://github.com/zewa666/RedBean_SublimeTextSnippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/zewa666/RedBean_SublimeTextSnippets/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/RegReplace",
 			"releases": [
 				{
@@ -238,7 +369,31 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/fabiokr/sublime-related-files/tree/master"
+					"details": "https://github.com/fabiokr/sublime-related-files/tree/sublime2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/fabiokr/sublime-related-files/tags"
+				}
+			]
+		},
+		{
+			"name": "REM PX",
+			"details": "https://github.com/BsWiM/REM-PX",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/BsWiM/REM-PX/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RemoteEdit",
+			"details": "https://github.com/sligodave/sublime_remote_edit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/sligodave/sublime_remote_edit/tree/master"
 				}
 			]
 		},
@@ -249,6 +404,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/sligodave/sublime_remote_open/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RemotePHPUnit",
+			"details": "https://github.com/paza/RemotePHPUnit-for-Sublime-Text",
+			"releases": [
+				{
+					"sublime_text": ">2999",
+					"details": "https://github.com/paza/RemotePHPUnit-for-Sublime-Text/tags"
 				}
 			]
 		},
@@ -266,8 +431,22 @@
 			"details": "https://github.com/sivakumar-kailasam/Repeat-Macro",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/sivakumar-kailasam/Repeat-Macro/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Request",
+			"details": "https://github.com/twolfson/sublime-request",
+			"labels": [
+				"http",
+				"url"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/twolfson/sublime-request/tags"
 				}
 			]
 		},
@@ -312,12 +491,34 @@
 			]
 		},
 		{
+			"name": "ResponsiveBoilerplate",
+			"details": "https://github.com/newaeonweb/ResponsiveBoilerplateSnippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/newaeonweb/ResponsiveBoilerplateSnippets"
+				}
+			]
+		},
+		{
 			"name": "Restart",
 			"details": "https://github.com/yedderson/SublimeRestart",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/yedderson/SublimeRestart/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RESTer HTTP Client",
+			"details": "https://github.com/pjdietz/rester-sublime-http-client",
+			"donate": "http://pjdietz.com/say-thanks/",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pjdietz/rester-sublime-http-client/tags"
 				}
 			]
 		},
@@ -329,6 +530,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/dbousamra/sublime-rst-completion/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Retro Computers Color Schemes",
+			"details": "https://github.com/idleberg/RetroComputers.tmTheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/RetroComputers.tmTheme/tree/master"
 				}
 			]
 		},
@@ -348,6 +560,18 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/SublimeText/RevertFontSize/tree/master"
+				}
+			]
+		},
+		{
+			"name": "REXX",
+			"details": "https://github.com/mblocker/rexx-sublime",
+			"previous_names": ["REXX Language Support"],
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mblocker/rexx-sublime/tags"
 				}
 			]
 		},
@@ -372,6 +596,16 @@
 			]
 		},
 		{
+			"name": "Robot Framework Assistant",
+			"details": "https://github.com/andriyko/sublime-robot-framework-assistant",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/andriyko/sublime-robot-framework-assistant/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Rosetta Code Snippets",
 			"details": "https://github.com/trishume/Sublime-Rosetta-Get",
 			"labels": ["snippets"],
@@ -387,7 +621,7 @@
 			"details": "https://github.com/joneshf/sublime-roy",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/joneshf/sublime-roy/tree/master"
 				}
 			],
@@ -412,7 +646,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/vuhonglinh/sublimetext-rsl/src/default"
+					"details": "https://bitbucket.org/vuhonglinh/sublimetext-rsl/src/master"
 				}
 			]
 		},
@@ -420,19 +654,8 @@
 			"details": "https://github.com/SublimeText/RSpec",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/RSpec/tree/master"
-				}
-			]
-		},
-		{
-			"name": "RSpec (snippets and syntax)",
-			"details": "https://github.com/rspec/rspec-tmbundle",
-			"labels": ["language syntax", "snippets"],
-			"releases": [
-				{
 					"sublime_text": "*",
-					"details": "https://github.com/rspec/rspec-tmbundle/tree/master"
+					"details": "https://github.com/SublimeText/RSpec/tree/master"
 				}
 			]
 		},
@@ -461,7 +684,7 @@
 			"details": "https://github.com/jugyo/SublimeRSpecNavigator",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jugyo/SublimeRSpecNavigator/tree/master"
 				}
 			]
@@ -485,11 +708,33 @@
 			]
 		},
 		{
+			"name": "RSync",
+			"details": "https://github.com/gcarvalho/RSync",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/gcarvalho/RSync/tags"
+				}
+			]
+		},
+		{
+			"name": "Rsync SSH",
+			"details": "https://github.com/davidolrik/sublime-rsync-ssh",
+			"labels": ["sync"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"details": "https://github.com/davidolrik/sublime-rsync-ssh/tags"
+				}
+			]
+		},
+		{
 			"name": "RuboCop",
 			"details": "https://github.com/pderichs/sublime_rubocop",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/pderichs/sublime_rubocop/tree/master"
 				}
 			]
@@ -499,7 +744,7 @@
 			"details": "https://github.com/iltempo/sublime-text-2-hash-syntax",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/iltempo/sublime-text-2-hash-syntax/tree/master"
 				}
 			]
@@ -507,10 +752,22 @@
 		{
 			"name": "Ruby Block Converter",
 			"details": "https://github.com/irohiroki/RubyBlockConverter",
+			"labels": ["formatting"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/irohiroki/RubyBlockConverter/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/irohiroki/RubyBlockConverter/tags"
+				}
+			]
+		},
+		{
+			"name": "Ruby Blue Color Scheme",
+			"details": "https://github.com/stil/rubyblue",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/stil/rubyblue/tree/master"
 				}
 			]
 		},
@@ -521,6 +778,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/integrum/SublimeRubyCoverage/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Ruby Debugger",
+			"details": "https://github.com/shuky19/sublime_debugger",
+			"labels": ["debug", "debugger", "rails", "ruby"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/shuky19/sublime_debugger/tags"
 				}
 			]
 		},
@@ -552,7 +820,7 @@
 			"details": "https://github.com/mmims/sublime-text-2-ruby-markers",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/mmims/sublime-text-2-ruby-markers/tree/master"
 				}
 			]
@@ -579,12 +847,17 @@
 			]
 		},
 		{
+			"name": "Ruby Slim",
 			"details": "https://github.com/slim-template/ruby-slim.tmbundle",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/slim-template/ruby-slim.tmbundle/tree/master"
 				}
+			],
+			"previous_names": [
+				"ruby-slim.tmbundle",
+				"ruby-slim"
 			]
 		},
 		{
@@ -601,7 +874,7 @@
 			"details": "https://github.com/jugyo/SublimeRubyEval",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jugyo/SublimeRubyEval/tree/master"
 				}
 			]
@@ -637,11 +910,22 @@
 		},
 		{
 			"name": "RubyMotionBuilder",
-			"details": "https://github.com/haraken3/SublimeRubyMotionBuilder",
+			"details": "https://github.com/RubyMotionJP/SublimeRubyMotionBuilder",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/haraken3/SublimeRubyMotionBuilder/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/RubyMotionJP/SublimeRubyMotionBuilder/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RubyMotionSpec",
+			"details": "https://github.com/neocsr/sublime-RubyMotionSpec",
+			"labels": ["rubymotion", "spec"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/neocsr/sublime-RubyMotionSpec/tags"
 				}
 			]
 		},
@@ -660,7 +944,7 @@
 			"details": "https://github.com/jugyo/SublimeRubyToggleString",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jugyo/SublimeRubyToggleString/tree/master"
 				}
 			]
@@ -670,7 +954,7 @@
 			"details": "https://github.com/TechMantra/Run",
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/TechMantra/Run/tree/master"
 				}
 			]
@@ -686,11 +970,11 @@
 		},
 		{
 			"name": "Rust",
-			"details": "https://github.com/dbp/sublime-rust",
+			"details": "https://github.com/jhasse/sublime-rust",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dbp/sublime-rust/tree/master"
+					"details": "https://github.com/jhasse/sublime-rust/tree/master"
 				}
 			]
 		},
