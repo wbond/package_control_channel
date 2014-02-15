@@ -622,6 +622,22 @@
 				}
 			]
 		},
+    {
+      "name": "External Command",
+      "details": "https://github.com/greneholt/SublimeExternalCommand/",
+      "previous_names": ["SublimeExternalCommand"],
+      "labels": ["text manipulation"],
+      "releases": [
+        {
+          "sublime_text": "<3000",
+          "details": "https://github.com/greneholt/SublimeExternalCommand/tree/st2"
+        },
+        {
+          "sublime_text": ">=3000",
+          "details": "https://github.com/greneholt/SublimeExternalCommand/tags"
+        }
+      ]
+    },
 		{
 			"name": "Extract Sublime Package",
 			"details": "https://github.com/SublimeText/ExtractSublimePackage",
