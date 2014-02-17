@@ -995,6 +995,17 @@
 			]
 		},
 		{
+			"name": "Color Scheme - Gray Matter",
+			"details": "https://github.com/philipbelesky/Gray-Matter",
+			"labels": ["color scheme", "markdown"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/philipbelesky/Gray-Matter/tags"
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - JustBeforeDawn",
 			"details": "https://github.com/jolleyjoe/sublime-justBeforeDawn-theme",
 			"labels": ["color scheme"],
@@ -1064,12 +1075,27 @@
 			]
 		},
 		{
+			"name": "Color Switch",
+			"details": "https://github.com/blopker/Color-Switch",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/blopker/Color-Switch/tags"
+				}
+			]
+		},
+		{
 			"name": "Colorcoder",
 			"details": "https://github.com/vprimachenko/Sublime-Colorcoder",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/vprimachenko/Sublime-Colorcoder/tree/master"
+				},
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/vprimachenko/Sublime-Colorcoder/tree/st2"
 				}
 			]
 		},
@@ -1447,6 +1473,7 @@
 		{
 			"name": "CSS Format",
 			"details": "https://github.com/mutian/CSS-Format",
+			"labels": ["css", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
