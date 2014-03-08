@@ -133,6 +133,16 @@ class TestContainer(object):
         'labels': list
     }
 
+    d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
+                                                      |/tags
+                                                      |/)?
+                  |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
+                                                         |\#tags
+                                                         |/)?
+                  ) $'''
+    # Strip multilines for better debug info on failures
+    details_regex = re.compile(' '.join(d_reg.split()), re.X)
+
     def _test_repository_keys(self, include, data):
         self.assertTrue(2 <= len(data) <= 3, "Unexpected number of keys")
         self.assertIn('schema_version', data)
@@ -182,9 +192,13 @@ class TestContainer(object):
             self.assertIn(k, self.package_key_types_map)
             self.assertIsInstance(v, self.package_key_types_map[k], k)
 
-            if k in ('details', 'homepage', 'readme', 'issues', 'donate',
-                     'buy'):
+            if k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
                 self.assertRegex(v, '^https?://')
+
+            if k == 'details':
+                self.assertRegex(v, self.details_regex,
+                                 'The details url is badly formatted or '
+                                 'invalid')
 
             # Test for invalid characters (on file systems)
             if k == 'name':
@@ -233,8 +247,13 @@ class TestContainer(object):
             if k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
 
-            if k in ('details', 'url'):
-                self.assertRegex(v, '^https?://')
+            if k == 'url':
+                self.assertRegex(v, r'^https?://')
+
+            if k == 'details':
+                self.assertRegex(v, self.details_regex,
+                                 'The details url is badly formatted or '
+                                 'invalid')
 
             if k == 'sublime_text':
                 self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
