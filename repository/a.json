@@ -748,8 +748,10 @@
 			"details": "https://github.com/viisual/ASCII-Decorator",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/viisual/ASCII-Decorator/tree/master"
+					"platforms": ["windows", "osx", "linux"],
+					"sublime_text": "*",
+					"details": "https://github.com/viisual/ASCII-Decorator/tree/master",
+					"labels": ["text manipulation", "formatting"]
 				}
 			]
 		},
