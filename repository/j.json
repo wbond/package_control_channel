@@ -455,16 +455,6 @@
 			]
 		},
 		{
-			"name": "JS Validation using Esprima",
-			"details": "https://github.com/duereg/sublime-jsvalidate",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/duereg/sublime-jsvalidate/tree/master"
-				}
-			]
-		},
-		{
 			"name": "JS Var Shortcuts",
 			"details": "https://github.com/twolfson/sublime-js-var-shortcuts",
 			"labels": [
@@ -638,6 +628,20 @@
 					"sublime_text": "*",
 					"details": "https://github.com/sindresorhus/sublime-jsrun/tree/master"
 				}
+			]
+		},
+		{
+			"name": "JsValidate",
+			"details": "https://github.com/duereg/sublime-jsvalidate",
+			"labels": ["javascript", "js", "linting", "validation", "validate", "esprima"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/duereg/sublime-jsvalidate/tags"
+				}
+			],
+			"previous_names": [
+				"JS Validate using Esprima"
 			]
 		},
 		{
