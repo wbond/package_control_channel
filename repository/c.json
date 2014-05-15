@@ -1946,12 +1946,16 @@
 		},
 		{
 			"name": "Cucumber",
-			"details": "https://github.com/drewda/cucumber-sublime2-bundle",
+			"details": "https://github.com/drewda/cucumber-sublime-bundle",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"details": "https://github.com/drewda/cucumber-sublime2-bundle/tree/master"
+					"sublime_text": "<3000",
+					"details": "https://github.com/drewda/cucumber-sublime-bundle/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/drewda/cucumber-sublime-bundle/tree/st3"
 				}
 			]
 		},
