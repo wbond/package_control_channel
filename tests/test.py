@@ -22,6 +22,7 @@ from collections import OrderedDict
 from functools import wraps
 from urllib.request import urlopen
 from urllib.error import HTTPError
+from urllib.parse import urljoin
 
 arglist = ['--test-repositories']
 # Exctract used arguments form the commandline an strip them for unittest.main
@@ -88,6 +89,7 @@ def generator_class(cls):
             elif not mname.startswith("test_"):
                 mname = "test_" + mname
 
+            # Include parameters in attribute name
             name = "%s(%s)" % (mname, ", ".join(args))
             setattr(cls, name, wrapper)
 
@@ -131,11 +133,25 @@ class TestContainer(object):
         'labels': list
     }
 
+    d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
+                                                      |/tags
+                                                      |/)?
+                  |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
+                                                         |\#tags
+                                                         |/)?
+                  ) $'''
+    # Strip multilines for better debug info on failures
+    details_regex = re.compile(' '.join(d_reg.split()), re.X)
+
     def _test_repository_keys(self, include, data):
-        keys = sorted(data.keys())
-        self.assertEqual(keys, ['packages', 'schema_version'])
+        self.assertTrue(2 <= len(data) <= 3, "Unexpected number of keys")
+        self.assertIn('schema_version', data)
         self.assertEqual(data['schema_version'], '2.0')
-        self.assertIsInstance(data['packages'], list)
+
+        listkeys = [k for k in ('packages', 'includes') if k in data]
+        self.assertGreater(len(listkeys), 0)
+        for k in listkeys:
+            self.assertIsInstance(data[k], list)
 
     def _test_repository_package_order(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z])\.json$", include)
@@ -152,7 +168,7 @@ class TestContainer(object):
             else:
                 packages.append(pname)
 
-            # TODO: Test for *all* "previous_names"
+            # TODO?: Test for *all* "previous_names"
 
         # Check if in the correct file
         for package_name in packages:
@@ -169,16 +185,20 @@ class TestContainer(object):
     def _test_repository_indents(self, include, contents):
         for i, line in enumerate(contents.splitlines()):
             self.assertRegex(line, r"^\t*\S",
-                             "Indent must be tabs in line %d" % i)
+                             "Indent must be tabs in line %d" % (i + 1))
 
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
             self.assertIsInstance(v, self.package_key_types_map[k], k)
 
-            if k in ('details', 'homepage', 'readme', 'issues', 'donate',
-                       'buy'):
+            if k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
                 self.assertRegex(v, '^https?://')
+
+            if k == 'details':
+                self.assertRegex(v, self.details_regex,
+                                 'The details url is badly formatted or '
+                                 'invalid')
 
             # Test for invalid characters (on file systems)
             if k == 'name':
@@ -190,7 +210,7 @@ class TestContainer(object):
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
                 self.assertIn(key, data, '%r is required if no "details" URL '
-                                          'provided' % key)
+                                         'provided' % key)
 
     def _test_release(self, package_name, data, main_repo=True):
         # Fail early
@@ -199,11 +219,23 @@ class TestContainer(object):
                           'A release must have a "details" key if it is in the '
                           'main repository. For custom releases, a custom '
                           'repository.json file must be hosted elsewhere.')
+            for req in ('url', 'version', 'date'):
+                self.assertNotIn(req, data,
+                                 'The version, date and url keys should not be '
+                                 'used in the main repository since a pull '
+                                 'request would be necessary for every release')
+
         elif not 'details' in data:
             for req in ('url', 'version', 'date'):
                 self.assertIn(req, data,
                               'A release must provide "url", "version" and '
                               '"date" keys if it does not specify "details"')
+
+        else:
+            for req in ('url', 'version', 'date'):
+                self.assertNotIn(req, data,
+                                 'The key "%s" is redundant when "details" is '
+                                 'specified' % req)
 
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
@@ -212,18 +244,16 @@ class TestContainer(object):
             self.assertIn(k, ('details', 'sublime_text', 'platforms',
                               'version', 'date', 'url'))
 
-            if main_repo:
-                self.assertNotIn(k, ('version', 'date', 'url'),
-                                 'The version, date and url keys should not be '
-                                 'used in the main repository since a pull '
-                                 'request would be necessary for every release')
+            if k == 'date':
+                self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
 
-            else:
-                if k == 'date':
-                    self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
+            if k == 'url':
+                self.assertRegex(v, r'^https?://')
 
             if k == 'details':
-                self.assertRegex(v, '^https?://')
+                self.assertRegex(v, self.details_regex,
+                                 'The details url is badly formatted or '
+                                 'invalid')
 
             if k == 'sublime_text':
                 self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
@@ -287,57 +317,66 @@ class ChannelTests(TestContainer, unittest.TestCase):
             if repository.startswith('.'):
                 continue
             if not repository.startswith("http"):
-                raise
+                cls._fail("Unexcpected repository url: %s" % repository)
 
-            print("fetching %s" % repository)
+            yield from cls._include_tests(repository)
 
-            # Download the repository
-            try:
-                with urlopen(repository) as f:
-                    source = f.read().decode("utf-8")
-            except Exception as e:
-                yield cls._fail("Downloading %s failed" % repository, e)
-                continue
+    @classmethod
+    def _include_tests(cls, url):
+        print("fetching %s" % url)
 
-            if not source:
-                yield cls._fail("%s is empty" % repository)
-                continue
+        # Download the repository
+        try:
+            with urlopen(url) as f:
+                source = f.read().decode("utf-8")
+        except Exception as e:
+            yield cls._fail("Downloading %s failed" % url, e)
+            return
 
-            # Parse the repository (do not consider their includes)
-            try:
-                data = json.loads(source)
-            except Exception as e:
-                yield cls._fail("Could not parse %s" % repository ,e)
-                continue
+        if not source:
+            yield cls._fail("%s is empty" % url)
+            return
 
-            # Check for the schema version first (and generator failures it's
-            # badly formatted)
-            if 'schema_version' not in data:
-                yield cls._fail("No schema_version found in %s" % repository)
-                continue
-            schema = float(data['schema_version'])
-            if schema not in (1.0, 1.1, 1.2, 2.0):
-                yield cls._fail("Unrecognized schema version %s in %s"
-                                % (schema, repository))
-                continue
-            # Do not generate 1000 failing tests for not yet updated repos
-            if schema != 2.0:
-                print("schema version %s, skipping" % data['schema_version'])
-                continue
+        # Parse the repository
+        try:
+            data = json.loads(source)
+        except Exception as e:
+            yield cls._fail("Could not parse %s" % url, e)
+            return
 
-            # `repository` is for output during tests only
-            yield cls._test_repository_keys, (repository, data)
+        # Check for the schema version first (and generator failures it's
+        # badly formatted)
+        if 'schema_version' not in data:
+            yield cls._fail("No schema_version found in %s" % url)
+            return
+        schema = float(data['schema_version'])
+        if schema not in (1.0, 1.1, 1.2, 2.0):
+            yield cls._fail("Unrecognized schema version %s in %s"
+                            % (schema, url))
+            return
+        # Do not generate 1000 failing tests for not yet updated repos
+        if schema != 2.0:
+            print("schema version %s, skipping" % data['schema_version'])
+            return
 
+        # `url` is for output during tests only
+        yield cls._test_repository_keys, (url, data)
+
+        if 'packages' in data:
             for package in data['packages']:
-                yield cls._test_package, (repository, package)
+                yield cls._test_package, (url, package)
 
                 package_name = get_package_name(package)
 
                 if 'releases' in package:
                     for release in package['releases']:
                         (yield cls._test_release,
-                              ("%s (%s)" % (package_name, repository),
-                               release, False))
+                            ("%s (%s)" % (package_name, url),
+                             release, False))
+        if 'includes' in data:
+            for include in data['includes']:
+                i_url = urljoin(url, include)
+                yield from cls._include_tests(i_url)
 
 
 @generator_class
@@ -382,7 +421,7 @@ class RepositoryTests(TestContainer, unittest.TestCase):
                 if 'releases' in package:
                     for release in package['releases']:
                         (yield cls._test_release,
-                              ("%s (%s)" % (package_name, include), release))
+                            ("%s (%s)" % (package_name, include), release))
 
 
 ################################################################################

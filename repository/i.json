@@ -6,6 +6,10 @@
 			"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails",
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails/tree/st2"
+				},
+				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails/tree/master"
 				}
@@ -120,6 +124,17 @@
 			]
 		},
 		{
+			"name": "imgHolder",
+			"details": "https://github.com/pafnuty/imgHolder",
+			"labels": ["completions", "css", "html"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pafnuty/imgHolder/tree/master"
+				}
+			]
+		},
+		{
 			"name": "ImpactJS",
 			"details": "https://github.com/drhayes/sublime-impactjs",
 			"releases": [
@@ -200,6 +215,16 @@
 			]
 		},
 		{
+			"name": "IndentX",
+			"details": "https://github.com/socsieng/IndentX",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/socsieng/IndentX/tags"
+				}
+			]
+		},
+		{
 			"name": "Infinidat Plugin",
 			"details": "https://github.com/Infinidat/sublime-infinidat",
 			"releases": [
@@ -220,6 +245,17 @@
 			]
 		},
 		{
+			"name": "Initializr",
+			"details": "https://github.com/drinks/sublime-initializr",
+			"labels": ["automation", "utils"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/drinks/sublime-initializr/tags"
+				}
+			]
+		},
+		{
 			"name": "Inline Calculator",
 			"details": "https://github.com/sahibalejandro/inline-calculator",
 			"releases": [
@@ -230,13 +266,59 @@
 			]
 		},
 		{
+			"name": "Inline Python",
+			"details": "https://github.com/apiad/Sublime-InlinePython",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/apiad/Sublime-InlinePython/tags"
+				}
+			]
+		},
+		{
 			"name": "InnoSetup",
 			"details": "https://github.com/idleberg/InnoSetup-Sublime-Text",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/idleberg/InnoSetup-Sublime-Text/tree/master"
+				}
+			]
+		},
+		{
+			"name": "InQlik-Tools",
+			"details": "https://github.com/inqlik/inqlik-tools",
+			"labels": ["language syntax","build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/inqlik/inqlik-tools/tags"
+				}
+			],
+			"previous_names": [
+				"QlikView Tools"
+			]
+		},
+		{
+			"name": "Insert Callback",
+			"labels": ["text manipulation","snippets","javascript"],
+			"details": "https://github.com/daguej/sublime-insertcallback",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/daguej/sublime-insertcallback/tags"
+				}
+			]
+		},
+		{
+			"name": "Insert Equation",
+			"labels": ["latex", "math", "markdown"],
+			"details": "https://github.com/bordaigorl/sublime-inserteq",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/bordaigorl/sublime-inserteq/tags"
 				}
 			]
 		},
@@ -247,7 +329,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jbrooksuk/InsertNums/tree/master"
+					"details": "https://github.com/jbrooksuk/InsertNums/tags"
 				}
 			],
 			"previous_names": [
@@ -270,12 +352,34 @@
 			]
 		},
 		{
+			"name": "IntelliDocs",
+			"details": "https://github.com/shortcutme/Sublime-IntelliDocs",
+			"issues": "https://github.com/shortcutme/Sublime-IntelliDocs/issues",
+			"labels": ["auto-complete", "completion", "help", "hint", "php", "python"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/shortcutme/Sublime-IntelliDocs/tags"
+				}
+			]
+		},
+		{
 			"name": "Internet Search",
 			"details": "https://github.com/krasun/SublimeInternetSearch",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/krasun/SublimeInternetSearch/tree/master"
+				}
+			]
+		},
+		{
+			"name": "InterSystems Cache",
+			"details": "https://github.com/brandonhorst/SublimeCache",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/brandonhorst/SublimeCache/tags"
 				}
 			]
 		},
@@ -287,6 +391,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/vontio/sublime-invert-selection/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Ionic Framework Snippets",
+			"details": "https://github.com/imsingh/ionic-sublime-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/imsingh/ionic-sublime-plugin/tags"
 				}
 			]
 		},
@@ -323,7 +437,7 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/maximsch2/SublimeIPythonNotebook/tree/st2"
-				}				
+				}
 			]
 		},
 		{
@@ -334,6 +448,28 @@
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/markbirbeck/sublime-text-irc/tags"
+				}
+			]
+		},
+		{
+			"name": "Iridis Colour Scheme",
+			"details": "https://github.com/gingerBill/iridis-colour-scheme",
+			"labels": ["color scheme", "colour scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/gingerBill/iridis-colour-scheme/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Iris Path",
+			"details": "https://github.com/angelsanchez/iris-path-sublime",
+			"labels": ["iris"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/angelsanchez/iris-path-sublime/tags"
 				}
 			]
 		},
@@ -374,6 +510,18 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Issues/tree/master"
+				}
+			]
+		},
+		{
+			"name": "ITDCHelper",
+			"details": "https://github.com/akalongman/sublimetext-itdchelper",
+			"author": "Avtandil Kikabidze",
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": "*",
+					"details": "https://github.com/akalongman/sublimetext-itdchelper/tags"
 				}
 			]
 		},

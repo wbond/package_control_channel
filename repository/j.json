@@ -23,6 +23,17 @@
 			]
 		},
 		{
+			"name": "Jade Build",
+			"details": "https://github.com/mutian/Sublime-Jade-Build",
+			"labels": ["jade", "build", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mutian/Sublime-Jade-Build/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Jade Snippets",
 			"details": "https://github.com/P233/Jade-Snippets-for-Sublime-Text-2",
 			"labels": ["snippets"],
@@ -62,6 +73,21 @@
 					"sublime_text": "<3000",
 					"details": "https://github.com/gja/sublime-text-2-jasmine/tree/master"
 				}
+			]
+		},
+		{
+			"name": "Jasmine BDD",
+			"details": "https://github.com/caiogondim/jasmine-sublime-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/caiogondim/jasmine-sublime-snippets/tree/master"
+				}
+			],
+			"labels": [
+				"javascript",
+				"jasmine",
+				"snippets"
 			]
 		},
 		{
@@ -109,6 +135,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/axel22/sublime-javap/tree/master"
+				},
+				{
+					"sublime_text": ">3000",
+					"details": "https://github.com/axel22/sublime-javap/tree/st3"
 				}
 			]
 		},
@@ -122,22 +152,22 @@
 				"nodejs",
 				"compile",
 				"run"
-			],			
+			],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/IlanFrumer/sublime-js-coffee-build-systems/tags"
 				}
 			]
-		},		
+		},
 		{
 			"name": "JavaScript & NodeJS Snippets",
-			"details": "https://github.com/zenorocha/sublime-snippets-js",
+			"details": "https://github.com/zenorocha/sublime-javascript-snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/zenorocha/sublime-snippets-js/tree/master"
+					"details": "https://github.com/zenorocha/sublime-javascript-snippets/tree/master"
 				}
 			]
 		},
@@ -156,7 +186,7 @@
 			"details": "https://github.com/enginespot/js-beautify-sublime",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/enginespot/js-beautify-sublime/tree/master"
 				}
 			]
@@ -236,6 +266,16 @@
 			]
 		},
 		{
+			"name": "Jdf - Tool",
+			"details": "https://github.com/wshxbqq/JdfSublime",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/wshxbqq/JdfSublime/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Jedi - Python autocompletion",
 			"previous_names": ["SublimeJEDI", "Jedi - Python autocompetion"],
 			"details": "https://github.com/srusskih/SublimeJEDI",
@@ -244,6 +284,21 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/srusskih/SublimeJEDI/tags"
+				}
+			]
+		},
+		{
+			"name": "Jekyll",
+			"details": "https://github.com/23maverick23/sublime-jekyll",
+			"labels": [
+				"language syntax",
+				"snippets",
+				"auto-complete"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/23maverick23/sublime-jekyll/tags"
 				}
 			]
 		},
@@ -346,6 +401,19 @@
 			]
 		},
 		{
+			"name": "jQueryDocs",
+			"details": "https://github.com/Miw0/jQueryDocs",
+			"labels": ["jquery", "docs"],
+			"author": "Miw0",
+			"homepage": "https://github.com/Miw0/jQueryDocs",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/Miw0/jQueryDocs/tags"
+				}
+			]
+		},
+		{
 			"name": "JRubyFX",
 			"details": "https://github.com/edubkendo/SublimeJRubyFXML",
 			"releases": [
@@ -383,16 +451,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/RadLikeWhoa/JS-Snippets/tree/master"
-				}
-			]
-		},
-		{
-			"name": "JS Validation using Esprima",
-			"details": "https://github.com/duereg/sublime-jsvalidate",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/duereg/sublime-jsvalidate/tree/master"
 				}
 			]
 		},
@@ -506,6 +564,16 @@
 			]
 		},
 		{
+			"name": "JSON Reindent",
+			"details": "https://github.com/ThomasKliszowski/json_reindent",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ThomasKliszowski/json_reindent/tags"
+				}
+			]
+		},
+		{
 			"name": "JSON to CSV Converter",
 			"details": "https://github.com/drugo76/sublime_json2csv",
 			"releases": [
@@ -529,6 +597,22 @@
 			]
 		},
 		{
+			"name": "JsonTree",
+			"details": "https://github.com/Flyclops/JsonTree",
+			"homepage": "https://github.com/Flyclops/JsonTree",
+			"labels": [
+				"json",
+				"tree",
+				"search"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/Flyclops/JsonTree/tags"
+				}
+			]
+		},
+		{
 			"name": "JsRun",
 			"details": "https://github.com/sindresorhus/sublime-jsrun",
 			"homepage": "https://github.com/sindresorhus/sublime-jsrun",
@@ -543,6 +627,31 @@
 					"platforms": ["osx"],
 					"sublime_text": "*",
 					"details": "https://github.com/sindresorhus/sublime-jsrun/tree/master"
+				}
+			]
+		},
+		{
+			"name": "JsValidate",
+			"details": "https://github.com/duereg/sublime-jsvalidate",
+			"labels": ["javascript", "js", "linting", "validation", "validate", "esprima"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/duereg/sublime-jsvalidate/tags"
+				}
+			],
+			"previous_names": [
+				"JS Validate using Esprima", "JS Validation using Esprima"
+			]
+		},
+		{
+			"name": "JSX",
+			"details": "https://github.com/allanhortle/JSX",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/allanhortle/JSX/tags"
 				}
 			]
 		},
