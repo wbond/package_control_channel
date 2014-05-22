@@ -165,11 +165,15 @@
 		{
 			"name": "Cappuccino",
 			"details": "https://github.com/aparajita/Cappuccino-Sublime",
-			"labels": ["language syntax"],
+			"labels": ["Cappuccino", "Objective-J", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/aparajita/Cappuccino-Sublime/tree/master"
+					"details": "https://github.com/aparajita/Cappuccino-Sublime/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/aparajita/Cappuccino-Sublime/tags"
 				}
 			]
 		},
