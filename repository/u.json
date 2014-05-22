@@ -40,13 +40,25 @@
 			]
 		},
 		{
-				"name": "UIkit class autocomplete",
-				"details": "https://github.com/easingthemes/UIkit-Sublime",
+			"name": "UFA Syntax",
+			"details": "https://github.com/msal/sublime-ufa",
+			"labels": ["text syntax", "syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/msal/sublime-ufa/tags"
+				}
+			]
+		},
+		{
+				"name": "UIkit autocomplete",
+				"details": "https://github.com/uikit/uikit-sublime",
 				"labels": ["auto-complete"],
+				"previous_names": ["UIkit class autocomplete"],
 				"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/easingthemes/UIkit-Sublime/tree/master"
+					"details": "https://github.com/uikit/uikit-sublime/tags"
 				}
 			]
 		},
@@ -71,7 +83,7 @@
 					"details": "https://github.com/garrettn/sublime-umd-snippets/tags"
 				}
 			]
-		},		
+		},
 		{
 			"name": "Underscore.js Snippets",
 			"details": "https://github.com/carlo/sublime-underscorejs-snippets",
@@ -120,6 +132,18 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/rchl/UnindentPreprocessor/tree/master"
+				}
+			]
+		},
+		{
+			"name": "UnitJS",
+			"details": "https://github.com/unitjs/sublime-unitjs",
+			"readme": "https://raw.github.com/unitjs/sublime-unitjs/master/README.md",
+			"labels": ["javascript", "nodejs", "testing", "snippets", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/unitjs/sublime-unitjs/tags"
 				}
 			]
 		},
@@ -242,6 +266,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/mastahyeti/URLEncode/tree/master"
+				}
+			]
+		},
+		{
+			"name": "UWSC",
+			"details": "https://github.com/stuncloud/Sublime_UWSC",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/stuncloud/Sublime_UWSC/tree/master"
 				}
 			]
 		}
