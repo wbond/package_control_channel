@@ -68,6 +68,16 @@
 			]
 		},
 		{
+			"name": "Echo Evaluator",
+			"details": "https://github.com/Monnoroch/EchoEvaluator",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Monnoroch/EchoEvaluator/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/phildopus/EclipseJavaFormatter",
 			"releases": [
 				{
@@ -182,7 +192,7 @@
 			"details": "https://github.com/kvs/STEmacsModelines",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/kvs/STEmacsModelines/tree/master"
 				}
 			]
@@ -232,6 +242,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Emmet Style Reflector",
+			"author": "Ermes Enea Colella",
+			"details": "https://github.com/eecolella/emmet-style-reflector",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/eecolella/emmet-style-reflector/tags"
 				}
 			]
 		},
@@ -286,18 +307,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/randy3k/Enhanced-R",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/randy3k/Enhanced-R/tags"
-				}
-			],
-			"previous_names": [
-				"Enhanced R"
-			]
-		},
-		{
 			"name": "Enlightened Color Scheme",
 			"details": "https://github.com/vincentmac/enlightened",
 			"labels": ["color scheme"],
@@ -305,6 +314,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/vincentmac/enlightened/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Enlister",
+			"details": "https://github.com/kaelspencer/sublime-enlister",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/kaelspencer/sublime-enlister/tags"
 				}
 			]
 		},
@@ -349,7 +368,7 @@
 			"labels": ["ERB", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"details": "https://github.com/CasperLaiTW/ERBAutocomplete/tree/master"
 				}
 			]
@@ -381,6 +400,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/piuccio/sublime-esformatter/tree/master"
+				}
+			]
+		},
+		{
+			"name": "ESOLua",
+			"details": "https://bitbucket.org/Cpsgames/sublime-3-esolua",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://bitbucket.org/Cpsgames/sublime-3-esolua#tags"
 				}
 			]
 		},
@@ -443,6 +472,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/EvercodeLab/evercodelab-sublime-snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Evernote",
+			"details": "https://github.com/bordaigorl/sublime-evernote",
+			"labels": ["evernote", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/bordaigorl/sublime-evernote/tags"
 				}
 			]
 		},
@@ -566,6 +606,38 @@
 			]
 		},
 		{
+			"name": "ExpandRegion",
+			"details": "https://github.com/aronwoost/sublime-expand-region",
+			"homepage": "https://github.com/aronwoost/sublime-expand-region",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/aronwoost/sublime-expand-region/tags"
+				}
+			],
+			"labels": [
+				"text selection",
+				"expand selection",
+				"snippets",
+				"code navigation"
+			]
+		},
+		{
+			"name": "Expect",
+			"details": "https://github.com/mokkabonna/sublime-expect",
+			"homepage": "https://github.com/mokkabonna/sublime-expect",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mokkabonna/sublime-expect/tags"
+				}
+			],
+			"labels": [
+				"expect.js",
+				"snippets"
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/ExportHtml",
 			"releases": [
 				{
@@ -619,6 +691,33 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/seblavoie/sublime-extendscript/tags"
+				}
+			]
+		},
+		{
+			"name": "External Command",
+			"details": "https://github.com/greneholt/SublimeExternalCommand/",
+			"previous_names": ["SublimeExternalCommand"],
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/greneholt/SublimeExternalCommand/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/greneholt/SublimeExternalCommand/tags"
+				}
+			]
+		},
+		{
+			"name": "External REPL",
+			"details": "https://github.com/fbehrens/sublime_ExternalREPL",
+			"labels": ["coding"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/fbehrens/sublime_ExternalREPL/tags"
 				}
 			]
 		},

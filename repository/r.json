@@ -129,6 +129,17 @@
 			]
 		},
 		{
+			"name": "Railscasts Extended",
+			"details": "https://github.com/jzelenkov/sublime-railscasts-extended",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jzelenkov/sublime-railscasts-extended/tree/master"
+				}
+			]
+		},
+		{
 			"name": "RailsGoToSpec",
 			"details": "https://github.com/sporto/rails_go_to_spec",
 			"releases": [
@@ -157,11 +168,11 @@
 		},
 		{
 			"name": "RAML Syntax Highlighter",
-			"details": "https://github.com/restful-api-modeling-lang/raml-sumblime-plugin/",
+			"details": "https://github.com/mulesoft/raml-sublime-plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/restful-api-modeling-lang/raml-sumblime-plugin/tree/master"
+					"details": "https://github.com/mulesoft/raml-sublime-plugin/tree/master"
 				}
 			]
 		},
@@ -257,6 +268,27 @@
 			]
 		},
 		{
+			"details": "https://github.com/jamesfzhang/rdio",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"details": "https://github.com/jamesfzhang/rdio/tags"
+				}
+			]
+		},
+		{
+			"name": "ReactJS",
+			"details": "https://github.com/reactjs/sublime-react",
+			"labels": ["language syntax", "snippets", "JSX"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/reactjs/sublime-react/tree/master"
+				}
+			]
+		},
+		{
 			"name": "ReactJS Snippets",
 			"details": "https://github.com/saada/reactjs-snippets.git",
 			"releases": [
@@ -300,12 +332,33 @@
 			]
 		},
 		{
+			"name": "ReadonlyProtect",
+			"details": "https://github.com/ivellioscolin/sublime-plugin-readonlyprotect",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ivellioscolin/sublime-plugin-readonlyprotect/tags"
+				}
+			]
+		},
+		{
 			"name": "ReadonlyWritable",
 			"details": "https://github.com/pyzhangxiang/sublimetext-2-readonly-writable",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/pyzhangxiang/sublimetext-2-readonly-writable/tree/master"
+				}
+			]
+		},
+		{
+			"name": "REBOL",
+			"details": "https://github.com/Oldes/Sublime-REBOL",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Oldes/Sublime-REBOL/tags"
 				}
 			]
 		},
@@ -325,6 +378,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/mburrows/RecenterTopBottom/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Red",
+			"details": "https://github.com/Oldes/Sublime-Red",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Oldes/Sublime-Red/tags"
 				}
 			]
 		},
@@ -384,6 +448,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/BsWiM/REM-PX/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RemoteCollab",
+			"details": "https://github.com/TeamRemote/remote-sublime",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"details": "https://github.com/TeamRemote/remote-sublime/tags"
 				}
 			]
 		},
@@ -465,7 +539,7 @@
 			"details": "https://github.com/jfromaniello/sublime-node-require",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jfromaniello/sublime-node-require/tree/master"
 				}
 			]
@@ -546,11 +620,11 @@
 		},
 		{
 			"name": "Revert All Files",
-			"details": "https://github.com/AllStruck/Sublime-Text-2-Revert-All-Files",
+			"details": "https://github.com/iwantdavid/Sublime-Text-2-Revert-All-Files",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/AllStruck/Sublime-Text-2-Revert-All-Files/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/iwantdavid/Sublime-Text-2-Revert-All-Files/tree/master"
 				}
 			]
 		},
@@ -558,14 +632,15 @@
 			"details": "https://github.com/SublimeText/RevertFontSize",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/RevertFontSize/tree/master"
 				}
 			]
 		},
 		{
-			"name": "REXX Language Support",
+			"name": "REXX",
 			"details": "https://github.com/mblocker/rexx-sublime",
+			"previous_names": ["REXX Language Support"],
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -739,16 +814,6 @@
 			]
 		},
 		{
-			"name": "Ruby 1.9 Hash Converter",
-			"details": "https://github.com/iltempo/sublime-text-2-hash-syntax",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/iltempo/sublime-text-2-hash-syntax/tree/master"
-				}
-			]
-		},
-		{
 			"name": "Ruby Block Converter",
 			"details": "https://github.com/irohiroki/RubyBlockConverter",
 			"labels": ["formatting"],
@@ -799,6 +864,19 @@
 					"sublime_text": "<3000",
 					"details": "https://github.com/pashamur/ruby-extract-method/tree/master"
 				}
+			]
+		},
+		{
+			"name": "Ruby Hash Converter",
+			"details": "https://github.com/iltempo/sublime-text-2-hash-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/iltempo/sublime-text-2-hash-syntax/tree/master"
+				}
+			],
+			"previous_names": [
+				"Ruby 1.9 Hash Converter"
 			]
 		},
 		{

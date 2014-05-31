@@ -2,6 +2,17 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Oasis Theme",
+			"details": "https://github.com/kodLite/Oasis-Theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kodLite/Oasis-Theme/tags"
+				}
+			]
+		},
+		{
 			"name": "objc .strings syntax language",
 			"details": "https://github.com/PaNaVTEC/Objc-Strings-Syntax-Language",
 			"labels": ["language syntax"],
@@ -27,7 +38,7 @@
 			"details": "https://github.com/oliverseal/objective-c-autocomplete-sublimetext",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/oliverseal/objective-c-autocomplete-sublimetext/tags"
 				}
 			]
@@ -99,12 +110,12 @@
 		},
 		{
 			"name": "Ohdeung-eun",
-			"details": "http://github.com/luavis/Ohdeung-eun",
+			"details": "https://github.com/luavis/Ohdeung-eun",
 			"labels": ["Lorem", "lorem", "hangul", "\\uc624\\ub4f1\\uc740"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "http://github.com/luavis/Ohdeung-eun/tree/master"
+					"details": "https://github.com/luavis/Ohdeung-eun/tree/master"
 				}
 			]
 		},
@@ -114,7 +125,7 @@
 			"labels": ["search", "documentation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"details": "https://github.com/bordaigorl/sublime-omnidocs/tags"
 				}
 			]
@@ -137,6 +148,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/MLstate/OpaSublimeText/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Open",
+			"details": "https://github.com/danielfrg/sublime-open",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/danielfrg/sublime-open/tags"
 				}
 			]
 		},
@@ -226,6 +248,17 @@
 			]
 		},
 		{
+			"name": "OpenBSD PF conf syntax highlight",
+			"details": "https://github.com/paukstis/sublimetext-packetfilter-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/paukstis/sublimetext-packetfilter-syntax/tags"
+				}
+			]
+		},
+		{
 			"name": "OpenCL",
 			"details": "https://github.com/kbenzie/Sublime-OpenCL",
 			"releases": [
@@ -286,7 +319,19 @@
 						"*"
 					],
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/bteryek/openinbrowser/#tags"
+					"details": "https://bitbucket.org/bteryek/openinbrowser#tags"
+				}
+			]
+		},
+		{
+			"name": "OpenScad",
+			"homepage": "https://github.com/tralamazza/Sublime-OpenScad",
+			"labels": ["language syntax"],
+			"details": "https://github.com/tralamazza/Sublime-OpenScad",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/tralamazza/Sublime-OpenScad/tree/master"
 				}
 			]
 		},
@@ -318,6 +363,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Origami/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OrigamiEmacs",
+			"details": "https://github.com/kevincobain2000/Origami-Emacs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kevincobain2000/Origami-Emacs/tree/master"
 				}
 			]
 		},

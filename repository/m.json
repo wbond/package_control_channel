@@ -2,6 +2,17 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "M3U Syntax",
+			"details": "https://github.com/msal/sublime-m3u",
+			"labels": ["text syntax", "syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/msal/sublime-m3u/tags"
+				}
+			]
+		},
+		{
 			"name": "M68k Assembly",
 			"details": "https://github.com/stevenjs/M68k-Assembly",
 			"releases": [
@@ -239,6 +250,16 @@
 			]
 		},
 		{
+			"name": "Markmon real-time markdown preview",
+			"details": "https://github.com/yyjhao/sublime-text-markmon",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/yyjhao/sublime-text-markmon/tags"
+				}
+			]
+		},
+		{
 			"name": "MarkPress",
 			"details": "https://github.com/rposbo/sublimemarkpress",
 			"releases": [
@@ -296,6 +317,10 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/nlloyd/SublimeMaven/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/nlloyd/SublimeMaven/tree/sublime3"
 				}
 			]
 		},
@@ -320,9 +345,10 @@
 		{
 			"name": "Maybs Quit",
 			"details": "https://github.com/xavi-/sublime-maybs-quit",
+			"labels": ["utilities", "file navigation", "window management"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/xavi-/sublime-maybs-quit/tree/master"
 				}
 			]
@@ -338,11 +364,32 @@
 			]
 		},
 		{
+			"name": "MediaPlayer",
+			"details": "https://github.com/Monnoroch/SublimePlayer",
+			"labels": ["media"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/Monnoroch/SublimePlayer/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/tosher/Mediawiker",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/tosher/Mediawiker/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Melbourne Ipsum",
+			"details": "https://github.com/timiyay/MelbourneIpsum",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/timiyay/MelbourneIpsum/tree/master"
 				}
 			]
 		},
@@ -410,6 +457,42 @@
 			]
 		},
 		{
+			"name": "Messages",
+			"details": "https://github.com/kristoformaynard/SublimeMessages",
+			"labels": ["linting", "tool execution"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"details": "https://github.com/kristoformaynard/SublimeMessages/tags"
+				}
+			]
+		},
+		{
+			"name": "MessagesPylint",
+			"details": "https://github.com/kristoformaynard/SublimeMessagesPylint",
+			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"details": "https://github.com/kristoformaynard/SublimeMessagesPylint/tags"
+				}
+			]
+		},
+		{
+			"name": "MessagesSublemake",
+			"details": "https://github.com/kristoformaynard/SublimeMessagesSublemake",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"details": "https://github.com/kristoformaynard/SublimeMessagesSublemake/tags"
+				}
+			]
+		},
+		{
 			"name": "MetaQuotes (MQL4) Compiler",
 			"details": "https://github.com/IlanFrumer/mql4compiler",
 			"releases": [
@@ -436,6 +519,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/mrtnbroder/meteor-snippets/tags"
+				}
+			]
+		},
+		{
+			"name": "MikrotikScript",
+			"details": "https://github.com/Kentzo/MikrotikScript",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Kentzo/MikrotikScript/tags"
 				}
 			]
 		},
@@ -634,6 +727,17 @@
 			]
 		},
 		{
+			"name": "Modula-2 Language Syntax",
+			"details": "https://github.com/harogaston/Sublime-Modula-2",
+			"labels": ["language syntax", "snippets", "auto complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/harogaston/Sublime-Modula-2/tree/master"
+				}
+			]
+		},
+		{
 			"name": "MODx Revolution Snippets",
 			"details": "https://github.com/silentworks/modx-sublimetext-2",
 			"labels": ["snippets"],
@@ -650,16 +754,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Mojolicious/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/Voaxeyr/Molokai-Pastel",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/Voaxeyr/Molokai-Pastel/tags"
 				}
 			]
 		},
@@ -767,11 +861,23 @@
 			]
 		},
 		{
+			"name": "More Layouts",
+			"details": "https://github.com/unknownuser88/morelayouts",
+			"author": "David Bekoyan",
+			"labels": ["layout"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/unknownuser88/morelayouts/tags"
+				}
+			]
+		},
+		{
 			"name": "Morse",
 			"details": "https://github.com/hippasus/SublimeMorse",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/hippasus/SublimeMorse/tree/master"
 				}
 			]
@@ -881,12 +987,34 @@
 			]
 		},
 		{
+			"name": "MrIgor",
+			"details": "https://github.com/tisto/MrIgor",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"details": "https://github.com/tisto/MrIgor/tree/master"
+				}
+			]
+		},
+		{
 			"name": "MTML Completions",
 			"details": "https://github.com/bit-part/MTML-ST2",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/bit-part/MTML-ST2/tree/master"
+				}
+			]
+		},
+		{
+			"name": "MultiEditUtils",
+			"details": "https://github.com/philippotto/Sublime-MultiEditUtils",
+			"labels": ["text manipulation", "code navigation", "text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/philippotto/Sublime-MultiEditUtils/tags"
 				}
 			]
 		},
@@ -943,6 +1071,16 @@
 			]
 		},
 		{
+			"name": "muukii",
+			"details": "https://github.com/muukii0803/muukii",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/muukii0803/muukii/tags"
+				}
+			]
+		},
+		{
 			"name": "MXUnit",
 			"details": "https://github.com/mxunit/sublime-text-2-mxunit",
 			"releases": [
@@ -971,6 +1109,16 @@
 					"details": "https://github.com/ionutvmi/SublimeMybbTplEditor/tags"
 				}
 			]
+		},
+		{
+			"name": "myPDDL",
+			"details": "https://github.com/Pold87/myPDDL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Pold87/myPDDL/tree/master"
+				}
+			]	
 		},
 		{
 			"name": "MySublimeQL",
