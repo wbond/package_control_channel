@@ -618,16 +618,6 @@
 			]
 		},
 		{
-			"name": "Goto Documentation",
-			"details": "https://github.com/kemayo/sublime-text-2-goto-documentation",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/kemayo/sublime-text-2-goto-documentation/tree/master"
-				}
-			]
-		},
-		{
 			"name": "Goto Drupal API",
 			"details": "https://github.com/BrianGilbert/Sublime-Text-2-Goto-Drupal-API",
 			"releases": [
@@ -680,6 +670,18 @@
 			"previous_names": [
 				"Goto Golang Document"
 			]
+		},
+		{
+			"name": "GotoDocumentation",
+			"details": "https://github.com/kemayo/sublime-text-2-goto-documentation",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kemayo/sublime-text-2-goto-documentation/tree/master"
+				}
+			],
+			"previous_names": ["Goto Documentation"],
+			"labels": ["search", "documentation"]
 		},
 		{
 			"name": "GoToFile",
