@@ -1331,8 +1331,13 @@
 			"details": "https://github.com/airtoxin/Sublime-Sound",
 			"releases": [
 				{
-					"platforms": ["osx", "windows"],
-					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"sublime_text": "<3000",
+					"details": "https://github.com/airtoxin/Sublime-Sound/tree/master"
+				},
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/airtoxin/Sublime-Sound/tree/master"
 				}
 			]
