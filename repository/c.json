@@ -1870,11 +1870,22 @@
 			"labels": ["build system","language syntax","css","preprocessor"]
 		},
 		{
+			"name": "CSS3",
+			"details": "https://github.com/y0ssar1an/CSS3",
+			"labels": ["language syntax", "completions", "auto-complete", "reset", "linting"]
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/y0ssar1an/CSS3/tags"
+				}
+			]
+		},
+		{
 			"name": "CSS3_Syntax",
 			"details": "https://github.com/y0ssar1an/CSS3_Syntax",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"details": "https://github.com/y0ssar1an/CSS3_Syntax/tags"
 				}
 			]
