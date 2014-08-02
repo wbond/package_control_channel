@@ -42,11 +42,57 @@
 			]
 		},
 		{
+			"name": "Hammer Color Scheme",
+			"details": "https://github.com/jared-christensen/sublime-2-color-scheme-hammer",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/jared-christensen/sublime-2-color-scheme-hammer/tags"
+				}
+			]
+		},
+		{
+			"name": "Hammer for Mac Snippets",
+			"details": "https://github.com/dpskvn/Hammer-Snippets",
+			"labels": ["snippets", "hammer", "mac"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/dpskvn/Hammer-Snippets/tags"
+				}
+			]
+		},
+		{
+			"name": "Handlebars",
 			"details": "https://github.com/daaain/Handlebars",
+			"labels": ["language syntax", "snippets", "templating"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/daaain/Handlebars/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Harmonious Color Schemes",
+			"details": "https://github.com/oferei/sublime-colors",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/oferei/sublime-colors/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Harper Color Scheme",
+			"details": "https://github.com/idleberg/Harper.tmTheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/Harper.tmTheme/tree/master"
 				}
 			]
 		},
@@ -65,7 +111,7 @@
 			"details": "https://github.com/dangelov/hasher",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/dangelov/hasher/tree/master"
 				}
 			]
@@ -84,7 +130,7 @@
 			"details": "https://github.com/clemos/haxe-sublime-bundle",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/clemos/haxe-sublime-bundle/tree/master"
 				}
 			],
@@ -98,7 +144,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/hayaku/hayaku/tree/master"
+					"details": "https://github.com/hayaku/hayaku/tags"
+				}
+			]
+		},
+		{
+			"name": "Header Creator",
+			"details": "https://github.com/Harryman/Arduino-header-keyword-creator",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Harryman/Arduino-header-keyword-creator/tree/master"
 				}
 			]
 		},
@@ -107,7 +163,7 @@
 			"details": "https://github.com/schnittchen/sublime-helios",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/schnittchen/sublime-helios/tree/master"
 				}
 			]
@@ -144,10 +200,11 @@
 		{
 			"name": "Hex-Bin System",
 			"details": "https://github.com/ALLZ/hex-bin_system",
+			"labels": ["text manipulation", "hexadecimal", "binary", "decimal", "base converter"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/ALLZ/hex-bin_system/tree/master"
+					"sublime_text": "*",
+					"details":"https://github.com/ALLZ/hex-bin_system/tree/master"
 				}
 			]
 		},
@@ -170,11 +227,13 @@
 			]
 		},
 		{
+			"name":"hextoASCII",
 			"details": "https://github.com/ALLZ/hextoASCII",
+			"labels": ["text manipulation", "hexadecimal", "ASCII", "converter"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/ALLZ/hextoASCII/tree/master"
+					"sublime_text": "*",
+					"details":"https://github.com/ALLZ/hextoASCII/tree/master"
 				}
 			]
 		},
@@ -183,7 +242,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/facelessuser/HexViewer/tree/master"
+					"details": "https://github.com/facelessuser/HexViewer/tree/ST2"
 				},
 				{
 					"sublime_text": ">=3000",
@@ -197,6 +256,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://bitbucket.org/thejeshgn/hg4subl/src/default"
+				}
+			]
+		},
+		{
+			"name": "Hide Files",
+			"details": "https://github.com/dunckr/hidefiles",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/dunckr/hidefiles"
 				}
 			]
 		},
@@ -227,19 +296,11 @@
 		{
 			"name": "Highlight Whitespaces",
 			"details": "https://github.com/disq/HighlightWhitespaces",
+			"labels": ["formatting", "language syntax", "linting"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/disq/HighlightWhitespaces/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/bluegray/Highlight-Mixed-Whitespace",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/bluegray/Highlight-Mixed-Whitespace/tree/master"
+					"sublime_text":"*",
+					"details": "https://github.com/disq/HighlightWhitespaces/tags"
 				}
 			]
 		},
@@ -251,6 +312,18 @@
 					"details": "https://github.com/qur2/HighlightDuplicates/tree/master"
 				}
 			]
+		},
+		{
+			"name": "Highlighter",
+			"details": "https://github.com/bluegray/Highlighter",
+			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/bluegray/Highlighter/tags"
+				}
+			],
+			"previous_names": ["Highlight-Mixed-Whitespace"	]
 		},
 		{
 			"details": "https://github.com/seanliang/HighlightWords",
@@ -277,6 +350,26 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/wpp1983/hlsl/tree/master"
+				}
+			]
+		},
+		{
+			"name": "HMMM",
+			"details": "https://github.com/shickey/HMMM",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shickey/HMMM/tags"
+				}
+			]
+		},
+		{
+			"name": "HOCON Syntax Highlighting",
+			"details": "https://github.com/NeQuissimus/Sublime-Hocon",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/NeQuissimus/Sublime-Hocon/tags"
 				}
 			]
 		},
@@ -311,12 +404,38 @@
 			]
 		},
 		{
+			"name": "Hooks",
+			"details": "https://github.com/twolfson/sublime-hooks",
+			"labels": [
+				"events",
+				"hooks"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/twolfson/sublime-hooks/tags"
+				}
+			]
+		},
+		{
+			"name": "Hope",
+			"details": "https://github.com/Kikobeats/Hope-Snippets",
+			"author": "Kiko Beats",
+			"labels": [ "coffeescript", "nodejs","promises","snippets","pattern"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Kikobeats/Hope-Snippets/tags"
+				}
+			]
+		},
+		{
 			"name": "Horizontal Scroll",
 			"details": "https://github.com/TheOnlyRew/sublime-horizontal-scroll",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/TheOnlyRew/sublime-horizontal-scroll/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/TheOnlyRew/sublime-horizontal-scroll/tags"
 				}
 			]
 		},
@@ -334,8 +453,18 @@
 			"details": "https://github.com/martinssipenko/SublimeHostsEdit",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/martinssipenko/SublimeHostsEdit/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/martinssipenko/SublimeHostsEdit/tags"
+				}
+			]
+		},
+		{
+			"name": "How Do I Code Search",
+			"details": "https://github.com/jlangston/SublimeHowDoI",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/jlangston/SublimeHowDoI/tags"
 				}
 			]
 		},
@@ -346,6 +475,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/surjikal/sublime-howdoi/tree/master"
+				}
+			]
+		},
+		{
+			"name": "HTML Boilerplate",
+			"details": "https://github.com/sloria/sublime-html5-boilerplate",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/sloria/sublime-html5-boilerplate/tree/master"
 				}
 			]
 		},
@@ -386,7 +525,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/adamchainz/SublimeHTMLMustache/tree/master"
+					"details": "https://github.com/adamchainz/SublimeHTMLMustache/tags"
+				}
+			]
+		},
+		{
+			"name": "HTML Page Snippets",
+			"details": "https://github.com/yesilfasulye/sublime_html_page_snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/yesilfasulye/sublime_html_page_snippets/tags"
 				}
 			]
 		},
@@ -398,6 +548,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/joshnh/HTML-Snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "HTML Underscore Syntax",
+			"details": "https://github.com/johnrork/ST3-HTML-Underscore-Syntax",
+			"releases": [
+				{
+					"sublime_text":"*",
+					"details": "https://github.com/johnrork/ST3-HTML-Underscore-Syntax/tags"
 				}
 			]
 		},
@@ -450,6 +610,16 @@
 			]
 		},
 		{
+			"name": "HTML2Text",
+			"details": "https://github.com/jaredmoody/sublime-html-to-text",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/jaredmoody/sublime-html-to-text/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/mrmartineau/HTML5",
 			"releases": [
 				{
@@ -482,7 +652,7 @@
 			"details": "https://github.com/rareyman/HTMLBeautify",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/rareyman/HTMLBeautify/tree/master"
 				}
 			]
@@ -523,12 +693,54 @@
 			]
 		},
 		{
+			"name": "HTTP Spec Syntax",
+			"details": "https://github.com/httpspec/sublime-highlighting",
+			"labels": ["syntax", "http", "spec"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/httpspec/sublime-highlighting/tags"
+				}
+			]
+		},
+		{
 			"name": "HttpStatusCode",
 			"details": "https://github.com/jugyo/SublimeHttpStatusCode",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jugyo/SublimeHttpStatusCode/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Hyle",
+			"details": "https://github.com/Hyle-Script/Hyle-Sublime-Plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Hyle-Script/Hyle-Sublime-Plugin/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Hyperion for gettext",
+			"previous_names": ["Hyperion"],
+			"details": "https://github.com/thie1210/hyperion",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/thie1210/hyperion/tags"
+				}
+			]
+		},
+		{
+			"name": "Hyperloop EJS",
+			"details": "https://github.com/yuchi/hyperloop-ejs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/yuchi/hyperloop-ejs/tree/master"
 				}
 			]
 		},

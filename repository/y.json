@@ -2,11 +2,54 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "YAML Nav",
+			"details": "https://github.com/ddiachkov/sublime-yaml-nav",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ddiachkov/sublime-yaml-nav/tags"
+				}
+			]
+		},
+		{
+			"name": "YandexTranslate",
+			"previous_names": ["Yandex Translate"],
+			"details": "https://github.com/pafnuty/sublime-yandex-translate",
+			"labels": ["translate", "yandex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pafnuty/sublime-yandex-translate/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Yang Syntax Highlighting",
+			"details": "https://github.com/apackeer/sublime-yang-syntax",
+			"labels": ["language syntax", "yang"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/apackeer/sublime-yang-syntax/tree/master"
+				}
+			]
+		},
+		{
+			"name": "yardgen",
+			"details": "https://bitbucket.org/fappelman/yardgen",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/fappelman/yardgen/src/default"
+				}
+			]
+		},
+		{
 			"name": "yardoc",
 			"details": "https://github.com/revathskumar/sublime-yardoc",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/revathskumar/sublime-yardoc/tree/master"
 				}
 			]
@@ -22,11 +65,21 @@
 			]
 		},
 		{
+			"name": "Yesod",
+			"details": "https://bitbucket.org/dpwiz/sublime-yesod",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/dpwiz/sublime-yesod/src/default"
+				}
+			]
+		},
+		{
 			"name": "Yii Framework Docs Search",
 			"details": "https://github.com/d3th/sublime-text2-yii-docs",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/d3th/sublime-text2-yii-docs/tree/master"
 				}
 			]
@@ -59,6 +112,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/leon/YUI-Compressor/tree/master"
+				}
+			]
+		},
+		{
+			"name": "yUML",
+			"details": "https://github.com/cluther/sublime-yuml",
+			"labels": ["language syntax", "preview"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/cluther/sublime-yuml/tags"
 				}
 			]
 		}

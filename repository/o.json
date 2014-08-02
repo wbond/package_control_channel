@@ -2,12 +2,13 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"name": "oauthlib",
-			"details": "https://github.com/Chris---/SublimeText-OAuthlib",
+			"name": "Oasis Theme",
+			"details": "https://github.com/kodLite/Oasis-Theme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Chris---/SublimeText-OAuthlib/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/kodLite/Oasis-Theme/tags"
 				}
 			]
 		},
@@ -33,13 +34,45 @@
 			]
 		},
 		{
+			"name": "Objective-C Autocompletion",
+			"details": "https://github.com/oliverseal/objective-c-autocomplete-sublimetext",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/oliverseal/objective-c-autocomplete-sublimetext/tags"
+				}
+			]
+		},
+		{
 			"name": "Oblivion Color Scheme",
-			"details": "https://github.com/hussani/Oblivion",
+			"details": "https://github.com/jbrooksuk/Oblivion",
 			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/hussani/Oblivion/tree/master"
+					"details": "https://github.com/jbrooksuk/Oblivion/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OCaml",
+			"description": "An improved version of default OCaml package",
+			"details": "https://github.com/whitequark/sublime-better-ocaml",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/whitequark/sublime-better-ocaml"
+				}
+			]
+		},
+		{
+			"name": "OCaml Autocompletion",
+			"details": "https://github.com/whitequark/sublime-ocp-index",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/whitequark/sublime-ocp-index/tree/master"
 				}
 			]
 		},
@@ -56,11 +89,78 @@
 		},
 		{
 			"name": "Oddly",
-			"details": "https://github.com/viyano/sublime-oddly",
+			"details": "https://github.com/laktak/sublime-oddly",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/viyano/sublime-oddly/tree/master"
+					"details": "https://github.com/laktak/sublime-oddly/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Ogre Scripts Highlighting",
+			"details": "https://github.com/TheSHEEEP/ST-OgreScripts",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/TheSHEEEP/ST-OgreScripts/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Ohdeung-eun",
+			"details": "https://github.com/luavis/Ohdeung-eun",
+			"labels": ["Lorem", "lorem", "hangul", "\\uc624\\ub4f1\\uc740"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/luavis/Ohdeung-eun/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OmniDocs",
+			"details": "https://github.com/bordaigorl/sublime-omnidocs",
+			"labels": ["search", "documentation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/bordaigorl/sublime-omnidocs/tags"
+				}
+			]
+		},
+		{
+			"name": "OmnisStudioHighlighter",
+			"details": "https://github.com/Frogli/OmnisStudioHighlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Frogli/OmnisStudioHighlighter/tags"
+				}
+			]
+		},
+		{
+			"name": "OnlineSearch",
+			"author": "Rajesh Vaya",
+			"details": "https://github.com/rajeshvaya/sublime-online-searcher",
+			"labels": ["search", "documentation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/rajeshvaya/sublime-online-searcher/tags"
+				}
+			]
+		},
+		{
+			"name": "OOJS",
+			"details": "https://github.com/avenauche/OOJS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/avenauche/OOJS/tree/master"
 				}
 			]
 		},
@@ -75,12 +175,37 @@
 			]
 		},
 		{
-			"name": "Open Folder",
-			"details": "https://github.com/mikepfirrmann/openfolder",
+			"name": "Open",
+			"details": "https://github.com/danielfrg/sublime-open",
+			"labels": ["file navigation"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
+					"details": "https://github.com/danielfrg/sublime-open/tags"
+				}
+			]
+		},
+		{
+			"name": "Open Folder",
+			"details": "https://github.com/mikepfirrmann/openfolder",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"details": "https://github.com/mikepfirrmann/openfolder/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Open in Thunar",
+			"details": "https://github.com/kernelp4nic/sublime-open-in-thunar",
+			"releases": [
+				{
+					"platforms": [
+						"linux"
+					],
+					"sublime_text": "*",
+					"details": "https://github.com/kernelp4nic/sublime-open-in-thunar/tree/master"
 				}
 			]
 		},
@@ -140,8 +265,12 @@
 			"details": "https://github.com/noahcoad/open-url",
 			"releases": [
 				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/noahcoad/open-url/tree/st3"
+				},
+				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/noahcoad/open-url/tree/master"
+					"details": "https://github.com/noahcoad/open-url/tree/st2"
 				}
 			]
 		},
@@ -151,6 +280,27 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Open-Include/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OpenBSD PF conf syntax highlight",
+			"details": "https://github.com/paukstis/sublimetext-packetfilter-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/paukstis/sublimetext-packetfilter-syntax/tags"
+				}
+			]
+		},
+		{
+			"name": "OpenCL",
+			"details": "https://github.com/kbenzie/Sublime-OpenCL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kbenzie/Sublime-OpenCL/tags"
 				}
 			]
 		},
@@ -165,10 +315,21 @@
 			]
 		},
 		{
+			"name": "OpenERP Snippets",
+			"details": "https://github.com/drdran/Sublime-OpenERP",
+			"labels": ["openerp", "odoo", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mikepfirrmann/openfolder/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/drikin/OpenFileList",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/drikin/OpenFileList/tree/master"
 				}
 			]
@@ -195,11 +356,93 @@
 			]
 		},
 		{
+			"name": "OpenInBrowser",
+			"homepage": "http://idevelopsolutions.com/OpenInBrowser",
+			"labels": ["browser", "open in browser", "refresh", "preview", "browser preview"],
+			"details": "https://bitbucket.org/bteryek/openinbrowser",
+			"releases": [
+				{
+					"platforms": [
+						"*"
+					],
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/bteryek/openinbrowser#tags"
+				}
+			]
+		},
+		{
+			"name": "OpenScad",
+			"homepage": "https://github.com/tralamazza/Sublime-OpenScad",
+			"labels": ["language syntax"],
+			"details": "https://github.com/tralamazza/Sublime-OpenScad",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/tralamazza/Sublime-OpenScad/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Oracle PL SQL",
+			"details": "https://github.com/mulander/oracle.tmbundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mulander/oracle.tmbundle/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Orbit Color Scheme",
+			"details": "https://github.com/hawkw/Orbit",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/hawkw/Orbit/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/SublimeText/Origami/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OrigamiEmacs",
+			"details": "https://github.com/kevincobain2000/Origami-Emacs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kevincobain2000/Origami-Emacs/tree/master"
+				}
+			]
+		},
+		{
+			"name": "OSX Font Chooser",
+			"details": "https://github.com/jolleyjoe/OSX-Font-Chooser",
+			"releases": [
+				{
+					"platforms": [
+						"osx"
+					],
+					"sublime_text": "<3000",
+					"details": "https://github.com/jolleyjoe/OSX-Font-Chooser/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Outroot Color Schemes",
+			"details": "https://github.com/kdar/color-schemes",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/kdar/color-schemes/tree/master"
 				}
 			]
 		}
