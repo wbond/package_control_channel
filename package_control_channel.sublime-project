@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "Run Tests",
+            "cmd": ["python", "-m", "unittest"],
+            "file_regex": "^\\s*File \"(.*?)\", line \\d+",
+            "working_dir": "${project_path:${folder}}",
+            "selector": "source.json, source.python"
+        }
+    ]
+}
