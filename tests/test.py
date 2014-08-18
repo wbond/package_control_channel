@@ -127,7 +127,7 @@ class TestContainer(object):
         'author': str,
         'readme': str,
         'issues': str,
-        'donate': str,
+        'donate': (str, type(None)),
         'buy': str,
         'previous_names': list,
         'labels': list
@@ -192,16 +192,19 @@ class TestContainer(object):
             self.assertIn(k, self.package_key_types_map)
             self.assertIsInstance(v, self.package_key_types_map[k], k)
 
-            if k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
+            if k == 'donate' and v is None:
+                # Allow "removing" the donate url that is added by "details"
+                continue
+            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
                 self.assertRegex(v, '^https?://')
 
-            if k == 'details':
+            elif k == 'details':
                 self.assertRegex(v, self.details_regex,
                                  'The details url is badly formatted or '
                                  'invalid')
 
             # Test for invalid characters (on file systems)
-            if k == 'name':
+            elif k == 'name':
                 # Invalid on Windows (and sometimes problematic on UNIX)
                 self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
                 # Invalid on OS X (or more precisely: hidden)
@@ -225,7 +228,7 @@ class TestContainer(object):
                                  'used in the main repository since a pull '
                                  'request would be necessary for every release')
 
-        elif not 'details' in data:
+        elif 'details' not in data:
             for req in ('url', 'version', 'date'):
                 self.assertIn(req, data,
                               'A release must provide "url", "version" and '
@@ -308,7 +311,7 @@ class ChannelTests(TestContainer, unittest.TestCase):
 
     @classmethod
     def generate_repository_tests(cls):
-        if not "--test-repositories" in userargs:
+        if "--test-repositories" not in userargs:
             # Only generate tests for all repositories (those hosted online)
             # when run with "--test-repositories" parameter.
             return
