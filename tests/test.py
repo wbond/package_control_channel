@@ -143,8 +143,14 @@ class TestContainer(object):
     rel_d_reg = ' '.join(map(str.strip, rel_d_reg.split()))
     release_details_regex = re.compile(rel_d_reg, re.X)
 
-    # Use the same as for releases, for now
-    package_details_regex = release_details_regex
+    pac_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
+                                                          |/)? (?<!\.git)
+                      |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
+                                                             |\#tags
+                                                             |/)?
+                      ) $'''
+    pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
+    package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
         self.assertTrue(2 <= len(data) <= 3, "Unexpected number of keys")
