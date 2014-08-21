@@ -37,9 +37,7 @@ for arg in userargs:
 
 
 def _open(filepath, *args, **kwargs):
-    """Wrapper function that can search one dir above if the desired file
-    does not exist.
-    """
+    """Wrapper function to search one dir above if a file does not exist."""
     if not os.path.exists(filepath):
         filepath = os.path.join("..", filepath)
 
@@ -100,7 +98,7 @@ def generator_class(cls):
 
 
 def get_package_name(data):
-    """Gets "name" from a package with a workaround when it's not defined.
+    """Get "name" from a package with a workaround when it's not defined.
 
     Use the last part of details url for the package's name otherwise since
     packages must define one of these two keys anyway.
@@ -113,6 +111,7 @@ def get_package_name(data):
 
 
 class TestContainer(object):
+
     """Contains tests that the generators can easily access (when subclassing).
 
     Does not contain tests itself, must be used as mixin with unittest.TestCase.
@@ -133,15 +132,19 @@ class TestContainer(object):
         'labels': list
     }
 
-    d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
-                                                      |/tags
-                                                      |/)?
-                  |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
-                                                         |\#tags
-                                                         |/)?
-                  ) $'''
+    rel_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
+                                                          |/tags
+                                                          |/)?
+                      |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
+                                                             |\#tags
+                                                             |/)?
+                      ) $'''
     # Strip multilines for better debug info on failures
-    details_regex = re.compile(' '.join(d_reg.split()), re.X)
+    rel_d_reg = ' '.join(map(str.strip, rel_d_reg.split()))
+    release_details_regex = re.compile(rel_d_reg, re.X)
+
+    # Use the same as for releases, for now
+    package_details_regex = release_details_regex
 
     def _test_repository_keys(self, include, data):
         self.assertTrue(2 <= len(data) <= 3, "Unexpected number of keys")
@@ -173,7 +176,8 @@ class TestContainer(object):
         # Check if in the correct file
         for package_name in packages:
             if letter == '0-9':
-                self.assertTrue(package_name[0].isdigit())
+                self.assertTrue(package_name[0].isdigit(),
+                                "Package inserted in wrong file")
             else:
                 self.assertEqual(package_name[0].lower(), letter,
                                  "Package inserted in wrong file")
@@ -199,7 +203,7 @@ class TestContainer(object):
                 self.assertRegex(v, '^https?://')
 
             elif k == 'details':
-                self.assertRegex(v, self.details_regex,
+                self.assertRegex(v, self.package_details_regex,
                                  'The details url is badly formatted or '
                                  'invalid')
 
@@ -254,7 +258,7 @@ class TestContainer(object):
                 self.assertRegex(v, r'^https?://')
 
             if k == 'details':
-                self.assertRegex(v, self.details_regex,
+                self.assertRegex(v, self.release_details_regex,
                                  'The details url is badly formatted or '
                                  'invalid')
 
