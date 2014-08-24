@@ -1,4 +1,4 @@
-# Sublime Package Control Default Channel
+#  Sublime Package Control Default Channel
 
 The `channel.json`, `repository.json` and `repository/*.json` files contain a
 list of repositories and packages for use with
