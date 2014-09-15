@@ -90,31 +90,6 @@
 			]
 		},
 		{
-			"name": "Jasmine",
-			"details": "https://github.com/gja/sublime-text-2-jasmine",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/gja/sublime-text-2-jasmine/tree/master"
-				}
-			]
-		},
-		{
-			"name": "Jasmine BDD",
-			"details": "https://github.com/caiogondim/jasmine-sublime-snippets",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/caiogondim/jasmine-sublime-snippets/tree/master"
-				}
-			],
-			"labels": [
-				"javascript",
-				"jasmine",
-				"snippets"
-			]
-		},
-		{
 			"name": "Jasmine CoffeeScript",
 			"details": "https://github.com/integrum/sublime-text-jasmine-coffeescript",
 			"releases": [
@@ -122,6 +97,24 @@
 					"sublime_text": "*",
 					"details": "https://github.com/integrum/sublime-text-jasmine-coffeescript/tree/master"
 				}
+			]
+		},
+		{
+			"name": "Jasmine JS",
+			"details": "https://github.com/NicoSantangelo/sublime-jasmine",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/NicoSantangelo/sublime-jasmine/tags"
+				}
+			],
+			"previous_names": [
+				"Jasmine",
+				"Jasmine BDD"
+			],
+			"labels": [
+				"snippets",
+				"language syntax"
 			]
 		},
 		{
