@@ -60,7 +60,7 @@
 		{
 			"name": "Icon Fonts",
 			"details": "https://github.com/idleberg/Icon-Fonts-Sublime-Text",
-			"labels": ["auto-complete","snippets","icon_fonts","fonts"],
+			"labels": ["snippets","icon_fonts","fonts"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -225,11 +225,16 @@
 			]
 		},
 		{
+			"name": "Incrementor",
 			"details": "https://github.com/eBookArchitects/Incrementor",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/eBookArchitects/Incrementor/tree/master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details":"https://github.com/born2c0de/Incrementor/tree/master"
 				}
 			]
 		},
@@ -570,15 +575,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/thijsdezoete/sublime-text-isort-plugin/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeText/Issues",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/Issues/tree/master"
 				}
 			]
 		},

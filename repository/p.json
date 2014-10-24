@@ -574,7 +574,7 @@
 		{
 			"name": "PHP Completions Kit",
 			"details": "https://github.com/gerardroche/sublime-phpck",
-			"labels": ["php", "auto-complete"],
+			"labels": ["php", "auto-complete", "completions"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -843,6 +843,17 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/billymoon/Sublime-Pipe-Dream/tree/master"
+				}
+			]
+		},
+		{
+			"name": "PKGBUILD",
+			"details": "https://github.com/git-commit/pkgbuild-st3",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "linux",
+					"details": "https://github.com/git-commit/pkgbuild-st3/tags"
 				}
 			]
 		},
@@ -1288,6 +1299,17 @@
 			]
 		},
 		{
+			"name": "Project Specific Syntax Settings",
+			"details": "https://github.com/reywood/sublime-project-specific-syntax",
+			"labels": ["language syntax", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/reywood/sublime-project-specific-syntax/tags"
+				}
+			]
+		},
+		{
 			"name": "Project Sync",
 			"details": "https://github.com/GentlemanJ/devsync",
 			"releases": [
@@ -1352,16 +1374,6 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/awalterschulze/sublime-protobuf-syntax/tags"
-				}
-			]
-		},
-		{
-			"name": "ProtoFeather",
-			"details": "https://github.com/frou/ProtoFeather",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/frou/ProtoFeather/tree/master"
 				}
 			]
 		},
@@ -1437,6 +1449,19 @@
 					"sublime_text": "*",
 					"details": "https://github.com/ningbit/sublime_pxtoem/tags"
 				}
+			]
+		},
+		{
+			"name": "PyCover",
+			"details": "https://github.com/perimosocordiae/PyCover",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/perimosocordiae/PyCover/tags"
+				}
+			],
+			"previous_names": [
+				"Python Coverage"
 			]
 		},
 		{
@@ -1581,16 +1606,6 @@
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/patrys/PythonChecker/tags"
-				}
-			]
-		},
-		{
-			"name": "Python Coverage",
-			"details": "https://github.com/davisagli/SublimePythonCoverage",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/davisagli/SublimePythonCoverage/tree/master"
 				}
 			]
 		},
@@ -1778,6 +1793,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/yyjhao/sublime-pyxl/tags"
+				}
+			]
+		},
+		{
+			"name": "PzFormat",
+			"details": "https://github.com/pandazki/pzformat",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pandazki/pzformat/tags"
 				}
 			]
 		}

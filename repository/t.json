@@ -38,13 +38,13 @@
 		},
 		{
 			"name": "Tabright",
-			"details": "https://github.com/stylishmedia/Tabright",
-			"homepage": "https://github.com/stylishmedia/Tabright",
+			"details": "https://github.com/mgussekloo/Tabright",
+			"homepage": "https://github.com/mgussekloo/Tabright",
 			"author": "Martijn Gussekloo",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/stylishmedia/Tabright/tree/master"
+					"details": "https://github.com/mgussekloo/Tabright/tree/master"
 				}
 			]
 		},
@@ -407,7 +407,7 @@
 			"labels": ["theme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/kenwheeler/brogrammer-theme/tree/master"
 				}
 			]
@@ -452,7 +452,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/lefoy/cyanide-theme/tree/master"
+					"details": "https://github.com/lefoy/cyanide-theme/tags"
 				}
 			]
 		},
@@ -535,6 +535,29 @@
 					"details": "https://github.com/joeyfigaro/glacier-theme/tree/master"
 				}
 			]
+		},
+		{
+			"name": "Theme - Gravity",
+			"details": "https://github.com/frankyonnetti/gravity-sublime-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/frankyonnetti/gravity-sublime-theme/tags"
+				}
+			]
+		},
+		{
+			"name": "Theme - Haft Lang",
+			"details": "https://github.com/amirrustam/haft-lang",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/amirrustam/haft-lang/tags"
+				}
+			],
+			"previous_names": ["Haft Lang - Theme"]
 		},
 		{
 			"name": "Theme - HueAccent",
@@ -1082,7 +1105,7 @@
 			"labels": ["todo", "search", "review", "comments", "tasks"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jonathandelgado/SublimeTodoReview/tags"
 				}
 			],
