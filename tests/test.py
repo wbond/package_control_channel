@@ -18,18 +18,28 @@ import json
 import sys
 import unittest
 
-from collections import OrderedDict
 from functools import wraps
-from urllib.request import urlopen
-from urllib.error import HTTPError
-from urllib.parse import urljoin
 
-arglist = ['--test-repositories']
-# Exctract used arguments form the commandline an strip them for unittest.main
-userargs = [arg for arg in sys.argv if arg in arglist]
-for arg in userargs:
-    if arg in sys.argv:
-        sys.argv.remove(arg)
+if sys.version_info >= (3,):
+    from collections import OrderedDict
+    from urllib.request import urlopen
+    from urllib.error import HTTPError
+    from urllib.parse import urljoin
+else:
+    from .ordereddict import OrderedDict
+    from urlparse import urljoin
+    from urllib2 import HTTPError, urlopen
+
+
+if hasattr(sys, 'argv'):
+    arglist = ['--test-repositories']
+    # Exctract used arguments form the commandline an strip them for unittest.main
+    userargs = [arg for arg in sys.argv if arg in arglist]
+    for arg in userargs:
+        if arg in sys.argv:
+            sys.argv.remove(arg)
+else:
+    userargs = []
 
 
 ################################################################################
@@ -41,10 +51,19 @@ def _open(filepath, *args, **kwargs):
     if not os.path.exists(filepath):
         filepath = os.path.join("..", filepath)
 
+    if sys.version_info >= (3,):
+        encoding = 'utf-8'
+        errors = 'replace'
+        if args and args[0] in ['rb', 'wb', 'ab']:
+            encoding = None
+            errors = None
+        kwargs['encoding'] = encoding
+        kwargs['errors'] = errors
+
     return open(filepath, *args, **kwargs)
 
 
-def generator_class(cls):
+def generate_test_methods(cls, stream):
     """Class decorator for classes that use test generating methods.
 
     A class that is decorated with this function will be searched for methods
@@ -64,7 +83,7 @@ def generator_class(cls):
             raise TypeError("Generator methods must be classmethods")
 
         # Create new methods for each `yield`
-        for sub_call in generator():
+        for sub_call in generator(stream):
             method, params = sub_call
 
             @wraps(method)
@@ -284,6 +303,17 @@ class TestContainer(object):
                                      r"^\*|(osx|linux|windows)(-x(32|64))?$")
 
     def _test_error(self, msg, e=None):
+        """
+        A generic error-returning function used the meta-programming features
+        of this class.
+
+        :param msg:
+            The error message to return
+
+        :param e:
+            An optional exception to include with the error message
+        """
+
         if e:
             if isinstance(e, HTTPError):
                 self.fail("%s: %s" % (msg, e))
@@ -293,12 +323,116 @@ class TestContainer(object):
             self.fail(msg)
 
     @classmethod
+    def _include_tests(cls, path, stream):
+        """
+        Return a tuple of (method, args) to add to a unittest TestCase class.
+        A meta-programming function to expand the definition of class at run
+        time, based on the contents of a file or URL.
+
+        :param cls:
+            The class to add the methods to
+
+        :param path:
+            The URL or file path to fetch the repository info from
+
+        :param stream:
+            A file-like object used for diagnostic output that provides .write()
+            and .flush()
+        """
+
+        cls._write(stream, "%s ... " % path)
+
+        if re.match('https?://', path, re.I) is not None:
+            # Download the repository
+            try:
+                with urlopen(path) as f:
+                    source = f.read().decode("utf-8")
+            except Exception as e:
+                cls._write(stream, 'failed (%s)\n' % str(e))
+                yield cls._fail("Downloading %s failed" % path, e)
+                return
+        else:
+            try:
+                with _open(path, 'rb') as f:
+                    source = f.read().decode('utf-8')
+            except Exception as e:
+                cls._write(stream, 'failed (%s)\n' % str(e))
+                yield cls._fail("Opening %s failed" % path, e)
+                return
+
+        if not source:
+            yield cls._fail("%s is empty" % path)
+            return
+
+        # Parse the repository
+        try:
+            data = json.loads(source)
+        except Exception as e:
+            yield cls._fail("Could not parse %s" % path, e)
+            return
+
+        # Check for the schema version first (and generator failures it's
+        # badly formatted)
+        if 'schema_version' not in data:
+            yield cls._fail("No schema_version found in %s" % path)
+            return
+        schema = float(data['schema_version'])
+        if schema not in (1.0, 1.1, 1.2, 2.0):
+            yield cls._fail("Unrecognized schema version %s in %s"
+                            % (schema, path))
+            return
+        # Do not generate 1000 failing tests for not yet updated repos
+        if schema != 2.0:
+            cls._write(stream, "skipping (schema version %s)\n" % data['schema_version'])
+            return
+
+        cls._write(stream, 'done\n')
+
+        # `path` is for output during tests only
+        yield cls._test_repository_keys, (path, data)
+
+        if 'packages' in data:
+            for package in data['packages']:
+                yield cls._test_package, (path, package)
+
+                package_name = get_package_name(package)
+
+                if 'releases' in package:
+                    for release in package['releases']:
+                        (yield cls._test_release,
+                            ("%s (%s)" % (package_name, path),
+                             release, False))
+        if 'includes' in data:
+            for include in data['includes']:
+                i_url = urljoin(path, include)
+                yield from cls._include_tests(i_url, stream)
+
+    @classmethod
     def _fail(cls, *args):
+        """
+        Generates a (method, args) tuple that returns an error when called.
+        Allows for defering an error until the tests are actually run.
+        """
+
         return cls._test_error, args
 
+    @classmethod
+    def _write(cls, stream, string):
+        """
+        Writes dianostic output to a file-like object.
 
-@generator_class
-class ChannelTests(TestContainer, unittest.TestCase):
+        :param stream:
+            Must have the methods .write() and .flush()
+
+        :param string:
+            The string to write - a newline will NOT be appended
+        """
+
+        stream.write(string)
+        stream.flush()
+
+
+class DefaultChannelTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
     with _open('channel.json') as f:
@@ -320,80 +454,26 @@ class ChannelTests(TestContainer, unittest.TestCase):
                          "Repositories must be sorted alphabetically")
 
     @classmethod
-    def generate_repository_tests(cls):
-        if "--test-repositories" not in userargs:
+    def generate_repository_tests(cls, stream):
+        if not "--test-repositories" in userargs:
             # Only generate tests for all repositories (those hosted online)
             # when run with "--test-repositories" parameter.
             return
+
+        cls._write(stream, "Fetching remote repositories:\n")
 
         for repository in cls.j['repositories']:
             if repository.startswith('.'):
                 continue
             if not repository.startswith("http"):
-                cls._fail("Unexcpected repository url: %s" % repository)
+                cls._fail("Unexpected repository url: %s" % repository)
 
-            yield from cls._include_tests(repository)
+            yield from cls._include_tests(repository, stream)
 
-    @classmethod
-    def _include_tests(cls, url):
-        print("fetching %s" % url)
-
-        # Download the repository
-        try:
-            with urlopen(url) as f:
-                source = f.read().decode("utf-8")
-        except Exception as e:
-            yield cls._fail("Downloading %s failed" % url, e)
-            return
-
-        if not source:
-            yield cls._fail("%s is empty" % url)
-            return
-
-        # Parse the repository
-        try:
-            data = json.loads(source)
-        except Exception as e:
-            yield cls._fail("Could not parse %s" % url, e)
-            return
-
-        # Check for the schema version first (and generator failures it's
-        # badly formatted)
-        if 'schema_version' not in data:
-            yield cls._fail("No schema_version found in %s" % url)
-            return
-        schema = float(data['schema_version'])
-        if schema not in (1.0, 1.1, 1.2, 2.0):
-            yield cls._fail("Unrecognized schema version %s in %s"
-                            % (schema, url))
-            return
-        # Do not generate 1000 failing tests for not yet updated repos
-        if schema != 2.0:
-            print("schema version %s, skipping" % data['schema_version'])
-            return
-
-        # `url` is for output during tests only
-        yield cls._test_repository_keys, (url, data)
-
-        if 'packages' in data:
-            for package in data['packages']:
-                yield cls._test_package, (url, package)
-
-                package_name = get_package_name(package)
-
-                if 'releases' in package:
-                    for release in package['releases']:
-                        (yield cls._test_release,
-                            ("%s (%s)" % (package_name, url),
-                             release, False))
-        if 'includes' in data:
-            for include in data['includes']:
-                i_url = urljoin(url, include)
-                yield from cls._include_tests(i_url)
+        cls._write(stream, '\n')
 
 
-@generator_class
-class RepositoryTests(TestContainer, unittest.TestCase):
+class DefaultRepositoryTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
     with _open('repository.json') as f:
@@ -411,7 +491,7 @@ class RepositoryTests(TestContainer, unittest.TestCase):
             self.assertIsInstance(include, str)
 
     @classmethod
-    def generate_include_tests(cls):
+    def generate_include_tests(cls, stream):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
@@ -437,9 +517,22 @@ class RepositoryTests(TestContainer, unittest.TestCase):
                             ("%s (%s)" % (package_name, include), release))
 
 
+def generate_default_test_methods(stream=None):
+    if not stream:
+        stream = sys.stdout
+    generate_test_methods(DefaultRepositoryTests, stream)
+    generate_test_methods(DefaultChannelTests, stream)
+
+
 ################################################################################
 # Main
 
+
+# When included to a Sublime package, sys.argv will not be set. We need to
+# generate the test methods differently in that context, so we only generate
+# them if sys.argv exists.
+if hasattr(sys, 'argv'):
+    generate_default_test_methods()
 
 if __name__ == '__main__':
     unittest.main()
