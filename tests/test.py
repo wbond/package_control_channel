@@ -21,14 +21,17 @@ import unittest
 from functools import wraps
 
 if sys.version_info >= (3,):
-    from collections import OrderedDict
     from urllib.request import urlopen
     from urllib.error import HTTPError
     from urllib.parse import urljoin
+    generator_method_type = 'method'
+    str_cls = str
 else:
-    from .ordereddict import OrderedDict
+    from . import unittest_compat
     from urlparse import urljoin
     from urllib2 import HTTPError, urlopen
+    generator_method_type = 'instancemethod'
+    str_cls = unicode
 
 
 if hasattr(sys, 'argv'):
@@ -51,16 +54,7 @@ def _open(filepath, *args, **kwargs):
     if not os.path.exists(filepath):
         filepath = os.path.join("..", filepath)
 
-    if sys.version_info >= (3,):
-        encoding = 'utf-8'
-        errors = 'replace'
-        if args and args[0] in ['rb', 'wb', 'ab']:
-            encoding = None
-            errors = None
-        kwargs['encoding'] = encoding
-        kwargs['errors'] = errors
-
-    return open(filepath, *args, **kwargs)
+    return open(filepath, 'rb', *args, **kwargs)
 
 
 def generate_test_methods(cls, stream):
@@ -79,7 +73,7 @@ def generate_test_methods(cls, stream):
         if not name.startswith("generate_") or not callable(generator):
             continue
 
-        if not generator.__class__.__name__ == 'method':
+        if not generator.__class__.__name__ == generator_method_type:
             raise TypeError("Generator methods must be classmethods")
 
         # Create new methods for each `yield`
@@ -137,16 +131,16 @@ class TestContainer(object):
     """
 
     package_key_types_map = {
-        'name': str,
-        'details': str,
-        'description': str,
+        'name': str_cls,
+        'details': str_cls,
+        'description': str_cls,
         'releases': list,
-        'homepage': str,
-        'author': str,
-        'readme': str,
-        'issues': str,
-        'donate': (str, type(None)),
-        'buy': str,
+        'homepage': str_cls,
+        'author': str_cls,
+        'readme': str_cls,
+        'issues': str_cls,
+        'donate': (str_cls, type(None)),
+        'buy': str_cls,
         'previous_names': list,
         'labels': list
     }
@@ -208,7 +202,7 @@ class TestContainer(object):
                                  "Package inserted in wrong file")
 
         # Check package order
-        self.assertEqual(packages, sorted(packages, key=str.lower),
+        self.assertEqual(packages, sorted(packages, key=str_cls.lower),
                          "Packages must be sorted alphabetically (by name)")
 
     def _test_repository_indents(self, include, contents):
@@ -295,8 +289,8 @@ class TestContainer(object):
                                  'and <version> is a 4 digit number')
 
             if k == 'platforms':
-                self.assertIsInstance(v, (str, list))
-                if isinstance(v, str):
+                self.assertIsInstance(v, (str_cls, list))
+                if isinstance(v, str_cls):
                     v = [v]
                 for plat in v:
                     self.assertRegex(plat,
@@ -345,18 +339,20 @@ class TestContainer(object):
         if re.match('https?://', path, re.I) is not None:
             # Download the repository
             try:
-                with urlopen(path) as f:
-                    source = f.read().decode("utf-8")
+                f = urlopen(path)
+                source = f.read().decode("utf-8", 'replace')
             except Exception as e:
-                cls._write(stream, 'failed (%s)\n' % str(e))
+                cls._write(stream, 'failed (%s)\n' % str_cls(e))
                 yield cls._fail("Downloading %s failed" % path, e)
                 return
+            finally:
+                f.close()
         else:
             try:
-                with _open(path, 'rb') as f:
-                    source = f.read().decode('utf-8')
+                with _open(path) as f:
+                    source = f.read().decode('utf-8', 'replace')
             except Exception as e:
-                cls._write(stream, 'failed (%s)\n' % str(e))
+                cls._write(stream, 'failed (%s)\n' % str_cls(e))
                 yield cls._fail("Opening %s failed" % path, e)
                 return
 
@@ -405,7 +401,8 @@ class TestContainer(object):
         if 'includes' in data:
             for include in data['includes']:
                 i_url = urljoin(path, include)
-                yield from cls._include_tests(i_url, stream)
+                for test in cls._include_tests(i_url, stream):
+                    yield test
 
     @classmethod
     def _fail(cls, *args):
@@ -436,7 +433,8 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
     with _open('channel.json') as f:
-        j = json.load(f)
+        source = f.read().decode('utf-8', 'replace')
+        j = json.loads(source)
 
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
@@ -446,11 +444,11 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
         self.assertIsInstance(self.j['repositories'], list)
 
         for repo in self.j['repositories']:
-            self.assertIsInstance(repo, str)
+            self.assertIsInstance(repo, str_cls)
 
     def test_channel_repo_order(self):
         repos = self.j['repositories']
-        self.assertEqual(repos, sorted(repos, key=str.lower),
+        self.assertEqual(repos, sorted(repos, key=str_cls.lower),
                          "Repositories must be sorted alphabetically")
 
     @classmethod
@@ -468,7 +466,8 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             if not repository.startswith("http"):
                 cls._fail("Unexpected repository url: %s" % repository)
 
-            yield from cls._include_tests(repository, stream)
+            for test in cls._include_tests(repository, stream):
+                yield test
 
         cls._write(stream, '\n')
 
@@ -477,7 +476,8 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
     with _open('repository.json') as f:
-        j = json.load(f, object_pairs_hook=OrderedDict)
+        source = f.read().decode('utf-8', 'replace')
+        j = json.loads(source)
 
     def test_repository_keys(self):
         keys = sorted(self.j.keys())
@@ -488,15 +488,15 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
         self.assertIsInstance(self.j['includes'], list)
 
         for include in self.j['includes']:
-            self.assertIsInstance(include, str)
+            self.assertIsInstance(include, str_cls)
 
     @classmethod
     def generate_include_tests(cls, stream):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
-                    contents = f.read()
-                data = json.loads(contents, object_pairs_hook=OrderedDict)
+                    contents = f.read().decode('utf-8', 'replace')
+                data = json.loads(contents)
             except Exception as e:
                 yield cls._test_error, ("Error while reading %r" % include, e)
                 continue
