@@ -2,11 +2,22 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Baan",
+			"details": "https://github.com/masal/SublimeBaan",
+			"labels": ["language syntax", "formatting", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/masal/SublimeBaan/tags"
+				}
+			]
+		},
+		{
 			"name": "Back There",
 			"details": "https://github.com/iuliux/SublimeText2-BackThere",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/iuliux/SublimeText2-BackThere/tree/master"
 				}
 			]
@@ -42,11 +53,21 @@
 			]
 		},
 		{
+			"name": "Baidu FE Code Style",
+			"details": "https://github.com/leeight/Baidu-FE-Code-Style",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/leeight/Baidu-FE-Code-Style/tags"
+				}
+			]
+		},
+		{
 			"name": "Base Encoder",
 			"details": "https://github.com/euphwes/base-encoder",
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/euphwes/base-encoder/tree/master"
 				}
 			]
@@ -67,7 +88,7 @@
 			"details": "https://github.com/DaQuirm/base64-fold",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/DaQuirm/base64-fold/tree/master"
 				}
 			]
@@ -94,12 +115,14 @@
 			]
 		},
 		{
+			"name": "BBCode Syntax",
+			"previous_names": ["BBCode"],
 			"details": "https://github.com/chipotle/BBCode",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/chipotle/BBCode/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/chipotle/BBCode/tags"
 				}
 			]
 		},
@@ -114,12 +137,22 @@
 			]
 		},
 		{
+			"name": "Beancount",
+			"details": "https://github.com/draug3n/sublime-beancount",
+			"releases": [
+				{
+				"sublime_text": ">=3000",
+				"details": "https://github.com/draug3n/sublime-beancount/tags"
+				}
+			]
+		},
+		{
 			"name": "Beanstalk Tools",
 			"details": "https://github.com/temochka/sublime-text-2-beanstalk",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/temochka/sublime-text-2-beanstalk/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/temochka/sublime-text-2-beanstalk/tags"
 				}
 			]
 		},
@@ -129,6 +162,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/CraigWilliams/BeautifyRuby/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Befunge-93",
+			"details": "https://github.com/johanasplund/sublime-befunge",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/johanasplund/sublime-befunge/tree/master"
 				}
 			]
 		},
@@ -148,7 +191,7 @@
 			"details": "https://github.com/jadu/sublime-behat-completions",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"details": "https://github.com/jadu/sublime-behat-completions/tags"
 				}
 			]
@@ -176,11 +219,22 @@
 			]
 		},
 		{
+			"name": "Behave Color Scheme",
+			"details": "https://github.com/fnky/behave-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/fnky/behave-theme/tags"
+				}
+			]
+		},
+		{
 			"name": "Behave Step Finder",
 			"details": "https://github.com/s1ider/sublime-behave-step-finder",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/s1ider/sublime-behave-step-finder/tree/master"
 				}
 			]
@@ -218,12 +272,23 @@
 			]
 		},
 		{
+			"name": "Better Close Window",
+			"details": "https://github.com/mreq/sublime-better-close-window",
+			"labels": ["commands"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mreq/sublime-better-close-window/tags"
+				}
+			]
+		},
+		{
 			"name": "Better CoffeeScript",
 			"details": "https://github.com/aponxi/sublime-better-coffeescript",
 			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/aponxi/sublime-better-coffeescript/tree/master"
 				},
 				{
@@ -257,13 +322,35 @@
 			]
 		},
 		{
+			"name": "Better RSpec",
+			"details": "https://github.com/fnando/better-rspec-for-sublime-text",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/fnando/better-rspec-for-sublime-text/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Better TypeScript",
 			"details": "https://github.com/lavrton/sublime-better-typescript",
 			"labels": ["language syntax", "snippets", "linting", "watch", "typescript"],
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/lavrton/sublime-better-typescript/tree/master"
+				}
+			]
+		},
+		{
+			"name": "BetterFindBuffer",
+			"details": "https://github.com/aziz/BetterFindBuffer",
+			"labels": ["find results", "search"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/aziz/BetterFindBuffer/tags"
 				}
 			]
 		},
@@ -289,12 +376,43 @@
 			]
 		},
 		{
+			"name": "Bind Zone files",
+			"details": "https://github.com/sixty4k/st2-zonefile",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/sixty4k/st2-zonefile/tags"
+				}
+			]
+		},
+		{
 			"name": "Bing Translator",
 			"details": "https://github.com/sys1yagi/SublimeBingTranslator",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/sys1yagi/SublimeBingTranslator/tree/master"
+				}
+			]
+		},
+		{
+			"name": "BioPythonUtils",
+			"details": "https://github.com/bosborne/BioPythonUtils",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/bosborne/BioPythonUtils/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Bison",
+			"details": "https://bitbucket.org/artyom_smirnov/sublime-text-bison-highlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/artyom_smirnov/sublime-text-bison-highlighter#tags"
 				}
 			]
 		},
@@ -348,12 +466,42 @@
 			]
 		},
 		{
+			"name": "Blade Spacer",
+			"details": "https://github.com/austenc/blade-spacer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/austenc/blade-spacer/tree/master"
+				}
+			]
+		},
+		{
 			"name": "BlameHighlighter",
 			"details": "https://github.com/skyronic/BlameHighlighter",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/skyronic/BlameHighlighter/tree/master"
+				}
+			]
+		},
+		{
+			"name" : "Blender Development",
+			"details": "https://github.com/svenfraeys/SublimeBlender",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"details": "https://github.com/svenfraeys/SublimeBlender/tree/master"
+				}
+			]
+		},
+		{
+			"name" : "BlessCss",
+			"details": "https://github.com/vlad-saling/bless-build-sublimetext2",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vlad-saling/bless-build-sublimetext2/tree/master"
 				}
 			]
 		},
@@ -382,7 +530,7 @@
 			"details": "https://github.com/jmm/Sublime-Text-Block-Nav/tree/package-control",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/jmm/Sublime-Text-Block-Nav/tree/package-control"
 				}
 			]
@@ -398,6 +546,17 @@
 			]
 		},
 		{
+			"name": "Blue Zen Color Scheme",
+			"details": "https://github.com/diegocastro/blue-zen-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/diegocastro/blue-zen-color-scheme/tags"
+				}
+			]
+		},
+		{
 			"name": "Blusted Scheme",
 			"details": "https://github.com/Mendor/sublime-blusted/tree/publish",
 			"labels": ["color scheme"],
@@ -405,6 +564,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/Mendor/sublime-blusted/tree/publish"
+				}
+			]
+		},
+		{
+			"name": "BoGo",
+			"details": "https://github.com/pirackr/Sublime-Bogo/",
+			"labels": ["input method", "vietnamese"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pirackr/Sublime-Bogo/tree/master"
 				}
 			]
 		},
@@ -463,6 +633,16 @@
 			]
 		},
 		{
+			"name": "Borat Ipsum",
+			"details": "https://github.com/Bakke/Borat-Ipsum",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Bakke/Borat-Ipsum/tags"
+				}
+			]
+		},
+		{
 			"name": "Boron Color Scheme",
 			"details": "https://github.com/mjio/boron.tmtheme",
 			"labels": ["color scheme"],
@@ -497,11 +677,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/facelessuser/BracketHighlighter/tree/master"
+					"details": "https://github.com/facelessuser/BracketHighlighter/tree/ST2"
 				},
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/facelessuser/BracketHighlighter/tree/BH2ST3"
+					"details": "https://github.com/facelessuser/BracketHighlighter/tree/ST3"
 				}
 			]
 		},
@@ -516,11 +696,53 @@
 			]
 		},
 		{
+			"name": "Brainfuck Interpreter",
+			"details": "https://github.com/dotzero/SublimeText-Brainfuck",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/dotzero/SublimeText-Brainfuck/tags"
+				}
+			]
+		},
+		{
+			"name": "BridleNSIS",
+			"details": "https://github.com/idleberg/BridleNSIS-Sublime-Text",
+			"labels": ["language syntax", "auto-complete","nsis"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/idleberg/BridleNSIS-Sublime-Text/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Broadcast Color Scheme",
+			"details": "https://github.com/vinkla/broadcast-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vinkla/broadcast-theme/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/hikaruworld/Browse",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/hikaruworld/Browse/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Browser Integration",
+			"details": "https://github.com/apiad/sublime-browser-integration",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/apiad/sublime-browser-integration/tags"
 				}
 			]
 		},
@@ -531,6 +753,16 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/gondo/browsersupport/tree/master"
+				}
+			]
+		},
+		{
+			"name": "BrowserBookmarks",
+			"details": "https://github.com/svenfraeys/BrowserBookmarks",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/svenfraeys/BrowserBookmarks/tree/master"
 				}
 			]
 		},
@@ -569,12 +801,19 @@
 			"details": "https://github.com/SublimeText/BufferScroll",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/BufferScroll/tree/master"
-				},
-				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/BufferScroll/tree/st3"
+				}
+			]
+		},
+		{
+			"name": "Build Ant Target",
+			"details": "https://github.com/ryanhefner/BuildAntTarget",
+			"labels": ["ant", "building", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ryanhefner/BuildAntTarget/tags"
 				}
 			]
 		},
@@ -584,7 +823,7 @@
 			"labels": ["build system"],
 			"releases": [
 				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/albertosantini/sublimetext-buildnext/tags"
 				}
 			]

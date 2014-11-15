@@ -40,13 +40,25 @@
 			]
 		},
 		{
-				"name": "UIkit class autocomplete",
-				"details": "https://github.com/easingthemes/UIkit-Sublime",
+			"name": "UFA Syntax",
+			"details": "https://github.com/msal/sublime-ufa",
+			"labels": ["text syntax", "syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/msal/sublime-ufa/tags"
+				}
+			]
+		},
+		{
+				"name": "UIkit autocomplete",
+				"details": "https://github.com/uikit/uikit-sublime",
 				"labels": ["auto-complete"],
+				"previous_names": ["UIkit class autocomplete"],
 				"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/easingthemes/UIkit-Sublime/tree/master"
+					"details": "https://github.com/uikit/uikit-sublime/tags"
 				}
 			]
 		},
@@ -71,7 +83,18 @@
 					"details": "https://github.com/garrettn/sublime-umd-snippets/tags"
 				}
 			]
-		},		
+		},
+		{
+			"name": "Underliner",
+			"details": "https://github.com/dfleury/underliner",
+			"labels": ["editor", "text selection", "testing", "utilities", "utils", "whitespace"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/dfleury/underliner/tags"
+				}
+			]
+		},
 		{
 			"name": "Underscore.js Snippets",
 			"details": "https://github.com/carlo/sublime-underscorejs-snippets",
@@ -124,6 +147,18 @@
 			]
 		},
 		{
+			"name": "UnitJS",
+			"details": "https://github.com/unitjs/sublime-unitjs",
+			"readme": "https://raw.githubusercontent.com/unitjs/sublime-unitjs/master/README.md",
+			"labels": ["javascript", "nodejs", "testing", "snippets", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/unitjs/sublime-unitjs/tags"
+				}
+			]
+		},
+		{
 			"name": "Unittest (python)",
 			"details": "https://github.com/martinsam/sublime-unittest",
 			"releases": [
@@ -156,6 +191,17 @@
 			]
 		},
 		{
+			"name": "Unity Completions Light",
+			"details": "https://github.com/oferei/sublime-unity-completions-light",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/oferei/sublime-unity-completions-light/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/UnicornForest/Unity3D",
 			"releases": [
 				{
@@ -182,6 +228,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/dentedpixel/Unity3d-LeanTween-Snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Unity3D Reference Search",
+			"details": "https://github.com/talitore/Unity3DReference",
+			"labels": ["search"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/talitore/Unity3DReference/tags"
 				}
 			]
 		},
@@ -227,6 +284,16 @@
 			]
 		},
 		{
+			"name": "Unquote",
+			"details": "https://github.com/mradamh/sublime-unquote",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mradamh/sublime-unquote/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/Zinggi/UnrealScriptIDE",
 			"labels": ["UDK", "UnrealScript", "auto-complete", "build system", "Debugger", "code navigation", "language syntax", "Snippets"],
 			"releases": [
@@ -237,11 +304,31 @@
 			]
 		},
 		{
+			"name": "Unsplash",
+			"details": "https://github.com/urre/Unsplash",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/urre/Unsplash/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/mastahyeti/URLEncode",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/mastahyeti/URLEncode/tree/master"
+				}
+			]
+		},
+		{
+			"name": "UWSC",
+			"details": "https://github.com/stuncloud/Sublime_UWSC",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/stuncloud/Sublime_UWSC/tree/master"
 				}
 			]
 		}

@@ -7,7 +7,7 @@
 			"labels": ["html", "svg", "validator"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/dubharmonic/Sublime-W3CValidators/tags"
 				}
 			]
@@ -61,6 +61,16 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/Houfeng/WebBuilder-ST/tree/master"
+				}
+			]
+		},
+		{
+			"name": "WebDavSync",
+			"details": "https://github.com/appconditioner/SublimeWebDavSync",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/appconditioner/SublimeWebDavSync/tags"
 				}
 			]
 		},
@@ -121,6 +131,27 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/bthorben/WebSuite/tree/master"
+				}
+			]
+		},
+		{
+			"name": "WeSnipp Add",
+			"details": "https://github.com/osternaudClem/Sublime-WeSnipp-Save",
+			"labels": ["wesnipp", "snippet"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/osternaudClem/Sublime-WeSnipp-Save/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Wget",
+			"details": "https://github.com/Oblongmana/Sublime-Wget",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/Oblongmana/Sublime-Wget/tags"
 				}
 			]
 		},
@@ -238,12 +269,42 @@
 			]
 		},
 		{
+			"name": "WLST",
+			"details": "https://github.com/Joelith/sublime-wlst",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Joelith/sublime-wlst/tags"
+				}
+			]
+		},
+		{
+			"name": "Wok",
+			"details": "https://github.com/abbgrade/sublime-wok",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/abbgrade/sublime-wok/tags"
+				}
+			]
+		},
+		{
 			"name": "Wombat Theme",
 			"details": "https://github.com/sheerun/sublime-wombat-theme",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/sheerun/sublime-wombat-theme/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Wombatish color scheme",
+			"details": "https://github.com/vlad-saling/wombatish",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/vlad-saling/wombatish/tree/master"
 				}
 			]
 		},
@@ -260,10 +321,6 @@
 		{
 			"details": "https://github.com/SublimeText/WordCount",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/WordCount/tree/master"
-				},
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/WordCount/tree/st3"
@@ -303,6 +360,17 @@
 				]
 		},
 		{
+			"name": "WordPress Developer Resources",
+			"details": "https://github.com/tripflex/sublime-wp-developer-resources",
+			"labels": ["st3", "st2", "wordpress", "developer", "codex", "search"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/tripflex/sublime-wp-developer-resources/tree/master"
+				}
+			]
+		},
+		{
 			"name": "WordPress Generate Salts",
 			"details": "https://github.com/tatemz/WordPress-Generate-Salts",
 			"releases": [
@@ -317,7 +385,7 @@
 			"details": "https://github.com/claudiosmweb/wordpress-readme-to-markdown",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/claudiosmweb/wordpress-readme-to-markdown/tree/master"
 				}
 			]
@@ -375,6 +443,16 @@
 			]
 		},
 		{
+			"name": "WP Keygen",
+			"details": "https://github.com/iamfredric/Wordpress-keygen-Sublime-Text-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/iamfredric/Wordpress-keygen-Sublime-Text-plugin/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/jtwebb/WPath",
 			"releases": [
 				{
@@ -384,11 +462,14 @@
 			]
 		},
 		{
-			"name": "wpseek.com WordPress Function Lookup",
+			"name": "wpseek.com WordPress Developer Assistant",
+			"previous_names": [
+				"wpseek.com WordPress Function Lookup"
+			],
 			"details": "https://github.com/AlphawolfWMP/sublime-text-2-wpseek",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/AlphawolfWMP/sublime-text-2-wpseek/tree/master"
 				}
 			]
@@ -404,11 +485,53 @@
 			]
 		},
 		{
+			"name": "Wrap U",
+			"details": "https://github.com/manoelneto/wrap-u",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/manoelneto/wrap-u/tree/master"
+				}
+			]
+		},
+		{
+			"name": "WrapStatement",
+			"details": "https://github.com/shagabutdinov/sublime-wrap-statement",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-wrap-statement/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/WrtApp/Writeapp",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/WrtApp/Writeapp/tree/master"
+				}
+			]
+		},
+		{
+			"name": "WriteGooder",
+			"details": "https://github.com/duereg/sublime-write-gooder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/duereg/sublime-write-gooder/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Writing Style",
+			"details": "https://github.com/thedataking/SublimeWritingStyle",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/thedataking/SublimeWritingStyle/tree/master"
 				}
 			]
 		}

@@ -12,11 +12,22 @@
 			]
 		},
 		{
+			"name": "Fabric Engine - KL Language Support",
+			"details": "https://github.com/fabric-engine/Sublime-KL",
+			"previous_names": ["Creation Platform - KL Language Support"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/fabric-engine/Sublime-KL/tags"
+				}
+			]
+		},
+		{
 			"name": "Fabric Tasks",
 			"details": "https://github.com/b3ni/Sublime-Fabric",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/b3ni/Sublime-Fabric/tree/master"
 				}
 			]
@@ -55,6 +66,18 @@
 			]
 		},
 		{
+			"name": "FakeDataGenerator",
+			"details": "https://github.com/SublimeText/FakeDataGenerator",
+			"labels": ["data"],
+			"author": "titoBouzout",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/SublimeText/FakeDataGenerator/tree/master"
+				}
+			]
+		},
+		{
 			"name": "FakeImg.pl Image Placeholder Snippet",
 			"details": "https://github.com/tinacious/fakeimg.sublime-snippet",
 			"labels": ["snippets"],
@@ -73,7 +96,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/alessandrofac93/FalconSublimeTools/releases/tags"
+					"details": "https://github.com/alessandrofac93/FalconSublimeTools/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Famous",
+			"author": "Alessandro Filippo Annini",
+			"details": "https://github.com/sun2rise/famousst",
+			"labels": ["famous"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/sun2rise/famousst/tree/master"
 				}
 			]
 		},
@@ -122,11 +157,41 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/facelessuser/FavoriteFiles/tree/master"
+					"details": "https://github.com/facelessuser/FavoriteFiles/tree/ST2"
 				},
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/facelessuser/FavoriteFiles/tree/ST3"
+				}
+			]
+		},
+		{
+			"name": "Fb-Flo",
+			"details": "https://github.com/reecer/sublime-fb-flo",
+			"releases":[
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/reecer/sublime-fb-flo/tags"
+				}
+			]
+		},
+		{
+			"name": "FBP",
+			"details": "https://github.com/paulyoung/FBP.tmbundle",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/paulyoung/FBP.tmbundle/tags"
+				}
+			]
+		},
+		{
+			"name": "Feature Presentation",
+			"details": "https://github.com/ctruett/FeaturePresentation",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ctruett/FeaturePresentation/tags"
 				}
 			]
 		},
@@ -146,7 +211,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jaabell/fei-syntax-n-snippets/master"
+					"details": "https://github.com/jaabell/fei-syntax-n-snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Fenom",
+			"details": "https://github.com/pafnuty/sublime-fenom",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/pafnuty/sublime-fenom/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Fex",
+			"details": "https://github.com/hwangzhiming/sublime-text-fex",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/hwangzhiming/sublime-text-fex/tags"
 				}
 			]
 		},
@@ -164,8 +250,20 @@
 			"details": "https://github.com/adamchainz/SublimeFiglet",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/adamchainz/SublimeFiglet/tree/master"
+				}
+			]
+		},
+		{
+			"name": "File Rename",
+			"details": "https://github.com/brianlow/FileRename",
+			"labels": ["rename","file rename"],
+			"previous_names": ["FileRename"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/brianlow/FileRename/tags"
 				}
 			]
 		},
@@ -191,6 +289,17 @@
 			]
 		},
 		{
+			"name": "FileBrowser",
+			"details": "https://github.com/aziz/SublimeFileBrowser",
+			"labels": ["file navigation","file creation", "file open"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/aziz/SublimeFileBrowser/tags"
+				}
+			]
+		},
+		{
 			"name": "FileCleanup",
 			"details": "https://github.com/GerjanOnline/SublimeFileCleanup",
 			"releases": [
@@ -211,13 +320,37 @@
 			]
 		},
 		{
+			"name": "FileDialog",
+			"details": "https://github.com/shagabutdinov/sublime-file-dialog",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "file navigation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-file-dialog/tree/master"
+				}
+			]
+		},
+		{
 			"name": "FileHeader",
 			"details": "https://github.com/shiyanhui/FileHeader",
 			"labels": ["file creation", "templating", "file header"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/shiyanhui/fileheader/tags"
+					"details": "https://github.com/shiyanhui/FileHeader/tags"
+				}
+			]
+		},
+		{
+			"name": "FileList",
+			"details": "https://github.com/shagabutdinov/sublime-file-list",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "file navigation", "file manipulation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-file-list/tree/master"
 				}
 			]
 		},
@@ -247,7 +380,7 @@
 			"details": "https://github.com/bcharbonnier/SublimeFileSync",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/bcharbonnier/SublimeFileSync/tree/master"
 				}
 			]
@@ -257,8 +390,8 @@
 			"details": "https://github.com/lingo/sublime-fscompletion",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/lingo/sublime-fscompletion/tree/master"
+					"sublime_text": "*",
+					"details": "https://github.com/lingo/sublime-fscompletion/tags"
 				}
 			]
 		},
@@ -267,7 +400,7 @@
 			"details": "https://github.com/mneuhaus/SublimeFileTemplates",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/mneuhaus/SublimeFileTemplates/tree/master"
 				}
 			]
@@ -277,7 +410,7 @@
 			"details": "https://github.com/ment4list/SublimeZilla",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/ment4list/SublimeZilla/tree/master"
 				}
 			]
@@ -297,7 +430,7 @@
 			"details": "https://github.com/adampresley/sublime-fillcfquery",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/adampresley/sublime-fillcfquery/tree/master"
 				}
 			]
@@ -340,7 +473,7 @@
 			"details": "https://github.com/madeingnecca/sublime-find-non-ascii",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/madeingnecca/sublime-find-non-ascii/tree/master"
 				}
 			]
@@ -360,11 +493,42 @@
 			]
 		},
 		{
+			"details": "https://github.com/facelessuser/FindCursor",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/facelessuser/FindCursor/tree/ST3"
+				}
+			]
+		},
+		{
+			"name": "FindDoc",
+			"details": "https://github.com/zckrs/sublime_findDoc",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/zckrs/sublime_findDoc/tree/master"
+				}
+			],
+			"previous_names": [
+				"Search in Browser"
+			]
+		},
+		{
 			"details": "https://github.com/skuroda/FindKeyConflicts",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/skuroda/FindKeyConflicts/tree/master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/SublimeText/FindResultsApplyChanges",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"details": "https://github.com/SublimeText/FindResultsApplyChanges/tree/master"
 				}
 			]
 		},
@@ -389,14 +553,27 @@
 			]
 		},
 		{
-			"name": "FireCode Theme",
+			"name": "FireCode Color Scheme",
 			"author": "Mark Michos",
 			"labels": ["color scheme"],
-			"details": "https://github.com/MarkMichos/firecode-theme",
+			"details": "https://github.com/MarkMichos/firecode-color-scheme",
+			"previous_names": ["FireCode Theme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/MarkMichos/firecode-theme"
+					"details": "https://github.com/MarkMichos/firecode-color-scheme"
+				}
+			]
+		},
+		{
+			"name": "Firelime",
+			"author": "Miroslav Gavrilov",
+			"labels": ["firebase", "utils"],
+			"details": "https://github.com/gavrilovmiroslav/Firelime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/gavrilovmiroslav/Firelime/tags"
 				}
 			]
 		},
@@ -405,7 +582,7 @@
 			"details": "https://github.com/yuanfang829/fis-sublime-command",
 			"releases": [
 				{
-					"sublime_text": "<=3000",
+					"sublime_text": "<3000",
 					"details": "https://github.com/yuanfang829/fis-sublime-command/tree/master"
 				}
 			]
@@ -417,6 +594,29 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/toru-hamaguchi/sublime-fish-shell/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Fix Mac Path",
+			"details": "https://github.com/int3h/SublimeFixMacPath",
+			"labels": ["terminal", "repl"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"details": "https://github.com/int3h/SublimeFixMacPath/tags"
+				}
+			]
+		},
+		{
+			"name": "FixMyJS",
+			"details": "https://github.com/addyosmani/sublime-fixmyjs",
+			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/addyosmani/sublime-fixmyjs/tags"
 				}
 			]
 		},
@@ -443,12 +643,38 @@
 			]
 		},
 		{
+			"name": "Flashback",
+			"details": "https://github.com/apiad/sublime-flashback"
+		},
+		{
+			"name": "Flatron",
+			"details": "https://github.com/NoahBuscher/Flatron",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/NoahBuscher/Flatron/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Flex",
 			"details": "https://github.com/itsgg/Flex-Sublimetext",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/itsgg/Flex-Sublimetext/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Flight JS Snippets",
+			"details": "https://github.com/cameronhunter/flight-js-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/cameronhunter/flight-js-snippets/tags"
 				}
 			]
 		},
@@ -469,12 +695,44 @@
 			]
 		},
 		{
+			"name": "Focus File on Sidebar",
+			"details": "https://github.com/miguelgraz/FocusFileOnSidebar",
+			"labels": ["focus", "sidebar"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/miguelgraz/FocusFileOnSidebar/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Focus Last Tab",
 			"details": "https://github.com/eproxus/focus_last_tab",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/eproxus/focus_last_tab/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Fold Comments",
+			"details": "https://github.com/oskarols/foldcomments",
+			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/oskarols/foldcomments/tags"
+				}
+			]
+		},
+		{
+			"name": "Fold Python",
+			"details": "https://github.com/svenfraeys/SublimeFoldPython",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/svenfraeys/SublimeFoldPython/tree/master"
 				}
 			]
 		},
@@ -509,6 +767,18 @@
 			]
 		},
 		{
+			"name": "FolderFiles",
+			"details": "https://github.com/shagabutdinov/sublime-folder-files",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-folder-files/tree/master"
+				}
+			]
+		},
+		{
 			"name": "FolderTouch",
 			"details": "https://github.com/ru-web-designer/sublime-foldertouch",
 			"releases": [
@@ -525,6 +795,26 @@
 				{
 					"sublime_text": "<3000",
 					"details": "https://github.com/draffter/FollowFunctionPHP/tree/master"
+				}
+			]
+		},
+		{
+			"name": "FontCycler",
+			"details": "https://github.com/akshaykumar90/sublime-font-cycler",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/akshaykumar90/sublime-font-cycler/tags"
+				}
+			]
+		},
+		{
+			"name": "FormatLua",
+			"details": "https://github.com/denglf/FormatLua",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/denglf/FormatLua/tags"
 				}
 			]
 		},
@@ -571,6 +861,16 @@
 			]
 		},
 		{
+			"name": "FramerCompletion",
+			"details": "https://github.com/awt2542/SublimeCompletionFramerjs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/awt2542/SublimeCompletionFramerjs/tags"
+				}
+			]
+		},
+		{
 			"name": "FreeMarker",
 			"details": "https://github.com/briancavalier/textmate-freemarker-bundle",
 			"releases": [
@@ -605,10 +905,22 @@
 		{
 			"name": "FTPSync",
 			"details": "https://github.com/NoxArt/SublimeText2-FTPSync",
+			"labels": ["ftp", "sync"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/NoxArt/SublimeText2-FTPSync/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Full House Color Scheme",
+			"details": "https://github.com/gabrielizaias/fullhouse",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/gabrielizaias/fullhouse/tree/master"
 				}
 			]
 		},
@@ -624,6 +936,18 @@
 			]
 		},
 		{
+			"name": "FullUndo",
+			"details": "https://github.com/shagabutdinov/sublime-full-undo",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-full-undo/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Function Name Display",
 			"details": "https://github.com/akrabat/SublimeFunctionNameDisplay",
 			"releases": [
@@ -634,13 +958,24 @@
 			]
 		},
 		{
+			"name": "Future Funk - Codeception",
+			"details": "https://github.com/brandonferens/FutureFunk-CodeCeption",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/brandonferens/FutureFunk-CodeCeption/tags"
+				}
+			]
+		},
+		{
 			"name": "Future Funk - Color Scheme",
 			"details": "https://github.com/Twiebie/ST-FutureFunk",
 			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Twiebie/ST-FutureFunk/tree/master"
+					"details": "https://github.com/Twiebie/ST-FutureFunk/tags"
 				}
 			]
 		},
@@ -649,11 +984,26 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/facelessuser/FuzzyFileNav/tree/master"
+					"details": "https://github.com/facelessuser/FuzzyFileNav/tree/ST2"
 				},
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/facelessuser/FuzzyFileNav/tree/ST3"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/sagold/FuzzyFilePath",
+			"labels": ["filename", "filepath", "auto-complete"],
+			"issues": "https://github.com/sagold/FuzzyFilePath/issues",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/sagold/FuzzyFilePath/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/sagold/FuzzyFilePath/tree/master"
 				}
 			]
 		}
