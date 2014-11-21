@@ -541,16 +541,25 @@
 			],
 			"previous_names": ["Gocc BNF Buffer Syntax"]
 		},
-		{
-			"name": "Godef",
-			"details": "https://github.com/buaazp/Godef",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/buaazp/Godef/tree/master"
-				}
-			]
-		},
+        {
+            "name": "Godef",
+            "author": "招牌疯子",
+            "description": "Using godef to go to definitions accurately for golang",
+            "homepage": "https://github.com/buaazp/Godef",
+            "labels": ["code navigation", "golang"],
+            "releases" : [
+                {
+                    "sublime_text": ">=3000",
+                    "platforms": ["osx", "osx-x64", "linux", "linux-x64"],
+                    "details": "https://github.com/buaazp/Godef/tree/master"
+                },
+                {
+                    "sublime_text": "<3000",
+                    "platforms": ["osx", "osx-x64", "linux", "linux-x64"],
+                    "details": "https://github.com/buaazp/Godef/tree/st2"
+                }
+            ]
+        },
 		{
 			"details": "https://github.com/Manrich121/goFindCallers",
 			"releases": [
