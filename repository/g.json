@@ -543,11 +543,21 @@
 		},
 		{
 			"name": "Godef",
-			"details": "https://github.com/buaazp/Godef",
-			"releases": [
+			"author": "招牌疯子",
+			"description": "Using godef to go to definitions accurately for golang",
+			"homepage": "https://github.com/buaazp/Godef",
+			"labels": ["code navigation", "golang"],
+			"readme": "https://github.com/buaazp/Godef/blob/master/README.md",
+			"releases" : [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
 					"details": "https://github.com/buaazp/Godef/tree/master"
+				},
+				{
+					"sublime_text": "<3000",
+					"platforms": ["osx", "linux"],
+					"details": "https://github.com/buaazp/Godef/tree/st2"
 				}
 			]
 		},
