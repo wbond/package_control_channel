@@ -84,6 +84,16 @@
 			]
 		},
 		{
+			"name": "Rails Magic Clipboard",
+			"details": "https://github.com/nickdowse/RailsMagicClipboard",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/nickdowse/RailsMagicClipboard/tags"
+				}
+			]
+		},
+		{
 			"name": "Rails Migrations List",
 			"details": "https://github.com/KELiON/RailsMigrationsList",
 			"releases": [
@@ -355,11 +365,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/roadhump/ReadmePlease/tree/master"
+					"details": "https://github.com/roadhump/ReadmePlease/tree/st2"
 				},
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/roadhump/ReadmePlease/tree/st3"
+					"details": "https://github.com/roadhump/ReadmePlease/tree/master"
 				}
 			]
 		},
@@ -469,6 +479,17 @@
 			]
 		},
 		{
+			"name": "RegExLink",
+			"details": "https://github.com/antonioriva/RegExLink",
+			"labels": ["utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/antonioriva/RegExLink/tags"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/RegReplace",
 			"releases": [
 				{
@@ -556,6 +577,18 @@
 			]
 		},
 		{
+			"name": "RemoveSelection",
+			"details": "https://github.com/shagabutdinov/sublime-remove-selection",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "cursors manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-remove-selection/tree/master"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/frozenice-/RenameTab",
 			"releases": [
 				{
@@ -571,6 +604,18 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/sivakumar-kailasam/Repeat-Macro/tree/master"
+				}
+			]
+		},
+		{
+			"name": "RepeatCommand",
+			"details": "https://github.com/shagabutdinov/sublime-repeat-command",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-repeat-command/tree/master"
 				}
 			]
 		},
@@ -816,11 +861,17 @@
 			]
 		},
 		{
+			"name": "RSpec",
 			"details": "https://github.com/SublimeText/RSpec",
+			"labels": ["snippets", "build system", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/RSpec/tree/master"
+					"sublime_text": "<3000",
+					"details": "https://github.com/SublimeText/RSpec/tree/st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"details": "https://github.com/SublimeText/RSpec/tags"
 				}
 			]
 		},

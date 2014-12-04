@@ -73,7 +73,7 @@
 			"details": "https://github.com/larlequin/PandocAcademic",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/larlequin/PandocAcademic/tree/master"
 				}
 			]
@@ -530,6 +530,17 @@
 			]
 		},
 		{
+			"name": "PhalconPHP Completions",
+			"details": "https://github.com/james2doyle/phalconphp-completions",
+			"labels": ["phalcon", "php"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/james2doyle/phalconphp-completions/tags"
+				}
+			]
+		},
+		{
 			"name": "Phaser Snippets",
 			"details": "https://github.com/Arlefreak/Phaser-Snippets",
 			"labels": ["snippets"],
@@ -743,6 +754,7 @@
 		{
 			"name": "phpfmt",
 			"details": "https://github.com/dericofilho/sublime-phpfmt",
+			"donate": "http://cirello.org/",
 			"labels": ["language syntax","formatter","php","formatting","psr1","psr2"],
 			"releases": [
 				{
@@ -1289,6 +1301,16 @@
 			]
 		},
 		{
+			"name": "Project PHP ClassBrowser",
+			"details": "https://github.com/degami/ProjectPHPClassBrowser",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/degami/ProjectPHPClassBrowser/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Project Port",
 			"details": "https://github.com/mawiseman/Sublime-Project-Port",
 			"releases": [
@@ -1316,6 +1338,18 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/GentlemanJ/devsync/tags"
+				}
+			]
+		},
+		{
+			"name": "ProjectFiles",
+			"details": "https://github.com/shagabutdinov/sublime-project-files",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/shagabutdinov/sublime-project-files/tree/master"
 				}
 			]
 		},
@@ -1449,6 +1483,19 @@
 					"sublime_text": "*",
 					"details": "https://github.com/ningbit/sublime_pxtoem/tags"
 				}
+			]
+		},
+		{
+			"name": "PyCover",
+			"details": "https://github.com/perimosocordiae/PyCover",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/perimosocordiae/PyCover/tags"
+				}
+			],
+			"previous_names": [
+				"Python Coverage"
 			]
 		},
 		{
@@ -1593,16 +1640,6 @@
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/patrys/PythonChecker/tags"
-				}
-			]
-		},
-		{
-			"name": "Python Coverage",
-			"details": "https://github.com/davisagli/SublimePythonCoverage",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/davisagli/SublimePythonCoverage/tree/master"
 				}
 			]
 		},
