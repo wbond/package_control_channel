@@ -145,16 +145,21 @@ class TestContainer(object):
         'labels': list
     }
 
-    rel_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
-                                                          |/tags
-                                                          |/)?
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
-                                                             |\#tags
-                                                             |/)?
+    dependency_key_types_map = {
+        'name': str_cls,
+        'description': str_cls,
+        'releases': list,
+        'issues': str_cls,
+        'load_order': str_cls,
+        'author': str_cls
+    }
+
+    rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
+                      |https:// bitbucket\.org/ [^/]+/ [^/]+
                       ) $'''
     # Strip multilines for better debug info on failures
-    rel_d_reg = ' '.join(map(str.strip, rel_d_reg.split()))
-    release_details_regex = re.compile(rel_d_reg, re.X)
+    rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
+    release_base_regex = re.compile(rel_b_reg, re.X)
 
     pac_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
                                                           |/)? (?<!\.git)
@@ -166,17 +171,17 @@ class TestContainer(object):
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
-        self.assertTrue(2 <= len(data) <= 3, "Unexpected number of keys")
+        self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
         self.assertIn('schema_version', data)
-        self.assertEqual(data['schema_version'], '2.0')
+        self.assertEqual(data['schema_version'], '3.0.0')
 
-        listkeys = [k for k in ('packages', 'includes') if k in data]
+        listkeys = [k for k in ('packages', 'dependencies', 'includes') if k in data]
         self.assertGreater(len(listkeys), 0)
         for k in listkeys:
             self.assertIsInstance(data[k], list)
 
     def _test_repository_package_order(self, include, data):
-        m = re.search(r"(?:^|/)(0-9|[a-z])\.json$", include)
+        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
 
@@ -213,7 +218,10 @@ class TestContainer(object):
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
-            self.assertIsInstance(v, self.package_key_types_map[k], k)
+            if k == 'author':
+                self.assertIn(type(v), (str_cls, list))
+            else:
+                self.assertIsInstance(v, self.package_key_types_map[k], k)
 
             if k == 'donate' and v is None:
                 # Allow "removing" the donate url that is added by "details"
@@ -238,37 +246,60 @@ class TestContainer(object):
                 self.assertIn(key, data, '%r is required if no "details" URL '
                                          'provided' % key)
 
+    def _test_dependency(self, include, data):
+        for k, v in data.items():
+            self.assertIn(k, self.dependency_key_types_map)
+            if k == 'author':
+                self.assertIn(type(v), (str_cls, list))
+            else:
+                self.assertIsInstance(v, self.dependency_key_types_map[k], k)
+
+            if k == 'issues':
+                self.assertRegex(v, '^https?://')
+
+            # Test for invalid characters (on file systems)
+            elif k == 'name':
+                # Invalid on Windows (and sometimes problematic on UNIX)
+                self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
+                self.assertFalse(v.startswith('.'))
+
+            elif k == 'load_order':
+                self.assertRegex(v, '^\d\d$', '"load_order" must be a two '
+                    'digit string')
+
     def _test_release(self, package_name, data, main_repo=True):
         # Fail early
         if main_repo:
-            self.assertIn('details', data,
-                          'A release must have a "details" key if it is in the '
-                          'main repository. For custom releases, a custom '
-                          'repository.json file must be hosted elsewhere.')
+            self.assertEqual(True, ('tags' in data or 'branch' in data),
+                          'A release must have a "tags" key or "branch" key '
+                          'if it is in the main repository. For custom '
+                          'releases, a custom repository.json file must be '
+                          'hosted elsewhere.')
             for req in ('url', 'version', 'date'):
                 self.assertNotIn(req, data,
                                  'The version, date and url keys should not be '
                                  'used in the main repository since a pull '
                                  'request would be necessary for every release')
 
-        elif 'details' not in data:
+        elif 'tags' not in data and 'branch' not in data:
             for req in ('url', 'version', 'date'):
                 self.assertIn(req, data,
                               'A release must provide "url", "version" and '
-                              '"date" keys if it does not specify "details"')
+                              '"date" keys if it does not specify "tags" or'
+                              '"branch"')
 
         else:
             for req in ('url', 'version', 'date'):
                 self.assertNotIn(req, data,
-                                 'The key "%s" is redundant when "details" is '
-                                 'specified' % req)
+                                 'The key "%s" is redundant when "tags" or '
+                                 '"branch" is specified' % req)
 
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
 
         for k, v in data.items():
-            self.assertIn(k, ('details', 'sublime_text', 'platforms',
-                              'version', 'date', 'url'))
+            self.assertIn(k, ('base', 'tags', 'branch', 'sublime_text',
+                'platforms', 'version', 'date', 'url'))
 
             if k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
@@ -276,10 +307,88 @@ class TestContainer(object):
             if k == 'url':
                 self.assertRegex(v, r'^https?://')
 
-            if k == 'details':
-                self.assertRegex(v, self.release_details_regex,
-                                 'The details url is badly formatted or '
+            if k == 'base':
+                self.assertRegex(v, self.release_base_regex,
+                                 'The base url is badly formatted or '
                                  'invalid')
+
+            if k == 'tags':
+                self.assertIn(type(v), (str_cls, bool))
+
+            if k == 'branch':
+                self.assertEqual(type(v), str_cls)
+
+            if k == 'sublime_text':
+                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
+                                 'sublime_text must be `*` or of the form '
+                                 '<relation><version> '
+                                 'where <relation> is one of {<, <=, >, >=} '
+                                 'and <version> is a 4 digit number')
+
+            if k == 'platforms':
+                self.assertIsInstance(v, (str_cls, list))
+                if isinstance(v, str_cls):
+                    v = [v]
+                for plat in v:
+                    self.assertRegex(plat,
+                                     r"^\*|(osx|linux|windows)(-x(32|64))?$")
+
+    def _test_dependency_release(self, package_name, data, main_repo=True):
+        if main_repo:
+            self.assertEqual(True, ('tags' in data or 'branch' in data or (
+                'sha256' in data and 'version' in data and 'url' in data and
+                data['url'][0:7] == 'http://')),
+                          'A release must have a "tags" key or "branch" key '
+                          'if it is in the main repository. For custom '
+                          'releases, a custom repository.json file must be '
+                          'hosted elsewhere. The only exception to this rule '
+                          'is for packages that can not be served over HTTPS '
+                          'since they help bootstrap proper secure HTTP '
+                          'support for Sublime Text.')
+            if 'sha256' not in data:
+                for req in ('url', 'version'):
+                    self.assertNotIn(req, data,
+                                     'The version and url keys should not be '
+                                     'used in the main repository since a pull '
+                                     'request would be necessary for every release')
+
+        elif 'tags' not in data and 'branch' not in data:
+            for req in ('url', 'version'):
+                self.assertIn(req, data,
+                              'A release must provide "url" and "version" '
+                              'keys if it does not specify "tags" or "branch"')
+
+        else:
+            for req in ('url', 'version'):
+                self.assertNotIn(req, data,
+                                 'The key "%s" is redundant when "tags" or '
+                                 '"branch" is specified' % req)
+
+        self.assertIn('sublime_text', data,
+                      'A sublime text version selector is required')
+
+        for k, v in data.items():
+            self.assertIn(k, ('base', 'tags', 'branch', 'sublime_text',
+                'platforms', 'version', 'url', 'sha256'))
+
+            if k == 'url' and 'sha256' not in data:
+                self.assertRegex(v, r'^https://')
+            elif k == 'url':
+                self.assertRegex(v, r'^http://')
+
+            if k == 'base':
+                self.assertRegex(v, self.release_base_regex,
+                                 'The base url is badly formatted or '
+                                 'invalid')
+
+            if k == 'tags':
+                self.assertIn(type(v), (str_cls, bool))
+
+            if k == 'branch':
+                self.assertEqual(type(v), str_cls)
+
+            if k == 'sha256':
+                self.assertEqual(type(v), str_cls)
 
             if k == 'sublime_text':
                 self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
@@ -372,13 +481,13 @@ class TestContainer(object):
         if 'schema_version' not in data:
             yield cls._fail("No schema_version found in %s" % path)
             return
-        schema = float(data['schema_version'])
-        if schema not in (1.0, 1.1, 1.2, 2.0):
+        schema = data['schema_version']
+        if float(schema) not in (1.0, 1.1, 1.2, 2.0) and schema != '3.0.0':
             yield cls._fail("Unrecognized schema version %s in %s"
                             % (schema, path))
             return
         # Do not generate 1000 failing tests for not yet updated repos
-        if schema != 2.0:
+        if schema != '3.0.0':
             cls._write(stream, "skipping (schema version %s)\n" % data['schema_version'])
             return
 
@@ -440,7 +549,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
         keys = sorted(self.j.keys())
         self.assertEqual(keys, ['repositories', 'schema_version'])
 
-        self.assertEqual(self.j['schema_version'], '2.0')
+        self.assertEqual(self.j['schema_version'], '3.0.0')
         self.assertIsInstance(self.j['repositories'], list)
 
         for repo in self.j['repositories']:
@@ -481,10 +590,12 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
 
     def test_repository_keys(self):
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['includes', 'packages', 'schema_version'])
+        self.assertEqual(keys, ['dependencies', 'includes', 'packages',
+            'schema_version'])
 
-        self.assertEqual(self.j['schema_version'], '2.0')
+        self.assertEqual(self.j['schema_version'], '3.0.0')
         self.assertEqual(self.j['packages'], [])
+        self.assertEqual(self.j['dependencies'], [])
         self.assertIsInstance(self.j['includes'], list)
 
         for include in self.j['includes']:
@@ -515,6 +626,17 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                     for release in package['releases']:
                         (yield cls._test_release,
                             ("%s (%s)" % (package_name, include), release))
+
+            if 'dependencies' in data:
+                for dependency in data['dependencies']:
+                    yield cls._test_dependency, (include, dependency)
+
+                    dependency_name = get_package_name(dependency)
+
+                    if 'releases' in dependency:
+                        for release in dependency['releases']:
+                            (yield cls._test_dependency_release,
+                                ("%s (%s)" % (dependency_name, include), release))
 
 
 def generate_default_test_methods(stream=None):

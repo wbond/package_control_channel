@@ -1,5 +1,5 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "Qiita for Sublime",
@@ -7,7 +7,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/blueplanet/sublime-qiita/tags"
+					"tags": true
 				}
 			]
 		},
@@ -18,7 +18,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/skozlovf/Sublime-QML/tags"
+					"tags": true
 				}
 			]
 		},
@@ -29,7 +29,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/danielwagner/qooxdoo-sublime/tags"
+					"tags": true
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mintyPT/QSwitch/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -50,7 +50,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/QuantifiedDev/sublime-text-plugin/tags"
+					"tags": true
 				}
 			]
 		},
@@ -60,7 +60,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/sahibalejandro/quark-php-sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/contradictioned/quartz-syntax/tags"
+					"tags": true
 				}
 			]
 		},
@@ -82,7 +82,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/linkarys/QuickDocsLauncher/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -92,22 +92,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/noklesta/SublimeQuickFileCreator/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Quick File Move",
 			"details": "https://github.com/wulftone/sublime-text-quick-file-move",
+			"previous_names": ["Quick File Renamer", "QuickFileMove"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/wulftone/sublime-text-quick-file-move/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"Quick File Renamer",
-				"QuickFileMove"
 			]
 		},
 		{
@@ -116,7 +113,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/gsingh93/sublime-quick-file-open/tags"
+					"tags": true
 				}
 			]
 		},
@@ -125,7 +122,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/facelessuser/QuickCal/tree/ST3"
+					"branch": "ST3"
 				}
 			]
 		},
@@ -135,7 +132,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/lite3/Sublime-QuickGotoAnything/tags"
+					"tags": true
 				}
 			]
 		},
@@ -145,7 +142,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/sigzegv/quicklinks/src/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -154,33 +151,29 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/agibsonsw/QuickPrint/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"details": "https://github.com/danpe/QuickRails",
+			"previous_names": ["Quick Rails"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/danpe/QuickRails/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"Quick Rails"
 			]
 		},
 		{
 			"name": "QuickRef Command Lookup",
 			"details": "https://bitbucket.org/rablador/quickref",
+			"previous_names": ["QuickRef"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/rablador/quickref/src/develop"
+					"branch": "develop"
 				}
-			],
-			"previous_names": [
-				"QuickRef"
 			]
 		},
 		{
@@ -191,7 +184,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/shagabutdinov/sublime-quick-search-enhanced/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -202,7 +195,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/sickmartian/quick_simplenote/tags"
+					"tags": true
 				}
 			]
 		},
@@ -211,7 +204,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/chrislongo/QuickThemes/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -221,7 +214,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/leitwolf/QuickXDev/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -231,7 +224,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/ArmandoMendoza/sublime-quijotipsum/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -241,7 +234,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/maxhoffmann/qunit-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -252,7 +245,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mutian/Sublime-Quote-HTML/tree/master"
+					"branch": "master"
 				}
 			]
 		}
