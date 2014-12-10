@@ -382,16 +382,6 @@
 			]
 		},
 		{
-			"name": "GitHubLink",
-			"details": "https://github.com/rscherf/GithubLink",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Gitignore",
 			"details": "https://github.com/kevinxucs/Sublime-Gitignore",
 			"releases": [
@@ -415,6 +405,17 @@
 			"name": "GitlabIntegrate",
 			"details": "https://github.com/SnoringFrog/GitlabIntegrate",
 			"labels": ["gitlab", "issues"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GitLink",
+			"details": "https://github.com/rscherf/GitLink",
+			"previous_names": ["GitHubLink"],
 			"releases": [
 				{
 					"sublime_text": "*",
