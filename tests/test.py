@@ -297,6 +297,10 @@ class TestContainer(object):
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
 
+        self.assertFalse(('tags' in data and 'branch' in data),
+                         'A release must have a only one of the "tags" or '
+                         '"branch" keys.')
+
         for k, v in data.items():
             self.assertIn(k, ('base', 'tags', 'branch', 'sublime_text',
                               'platforms', 'version', 'date', 'url'))
