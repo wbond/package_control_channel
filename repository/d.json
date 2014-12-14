@@ -569,11 +569,13 @@
 		},
 		{
 			"name": "Docker Based Build Systems",
-			"details": "https://github.com/dockerparis/sublime-docker",
+			"details": "https://github.com/l0rd/sublime-docker",
 			"labels": ["build system","build"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"branch": "master",
 					"tags": true
 				}
 			]
