@@ -744,6 +744,22 @@
 			]
 		},
 		{
+			"name": "PHPIntel",
+			"details": "https://github.com/jotson/SublimePHPIntel",
+			"labels": ["php", "auto-complete", "autocomplete", "intellisense", "completion"],
+			"previous_names": ["MagentoIntel"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
 			"name": "PhpNamespace",
 			"details": "https://github.com/gl3n/sublime-php-namespace",
 			"releases": [
