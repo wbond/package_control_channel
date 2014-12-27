@@ -1,13 +1,91 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
+		{
+			"name": "K Framework",
+			"details": "https://github.com/Zhomart/kframework-Sublime-Plugin",
+			"labels": ["language syntax", "kframework"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kaneva API (KPI) Completions",
+			"details": "https://github.com/FracturedShader/kpiCompletions",
+			"labels": ["completions", "Kaneva", "Lua"],
+			"previous_names": ["Kaneva API (KPI) Snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "KCPS Theme",
+			"details": "https://github.com/KCPS/st3-theme-kcps",
+			"labels": ["KCPS", "text colour scheme", "user interface colour scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
 		{
 			"name": "Keep Open On Last Tab Close",
 			"details": "https://github.com/vprimachenko/Sublime2KeepOpen",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vprimachenko/Sublime2KeepOpen/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kellys Color Scheme",
+			"details": "https://github.com/maxhoffmann/Kellys",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kerbal Space Program Configuration Syntax",
+			"details": "https://github.com/NathanJang/KSP-tmLanguage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KeyboardSpellCheck",
+			"details": "https://github.com/jlknuth/KeyboardSpellCheck",
+			"labels": ["spell check", "vintage", "vi", "google"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KeymapEnhanced",
+			"details": "https://github.com/shagabutdinov/sublime-keymap-enhanced",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "keymap"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -16,17 +94,18 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/welefen/KeymapManager/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Keymaps",
 			"details": "https://github.com/MiroHibler/sublime-keymaps",
+			"labels": ["keymap", "cheat sheet"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/MiroHibler/sublime-keymaps/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -38,7 +117,17 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "windows"],
-					"details": "https://github.com/Swoffa/SublimeKickAssemblerC64/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Kickoff Snippets",
+			"details": "https://github.com/tmwagency/Kickoff-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -49,7 +138,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/idleberg/Kimbie.tmTheme/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -60,7 +149,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/andrewheiss/SublimeKnitr/tags"
+					"tags": true
 				}
 			]
 		},
@@ -69,7 +158,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/aziz/knockdown/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -78,7 +167,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/KnowledgeBase/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kodery",
+			"details": "https://github.com/phuu/sublime.kodery",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -88,7 +187,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Zeelot/sublime-kohana/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -99,7 +198,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/golf3gtiii/Kohana234-sublimeText2-plugin/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -109,7 +208,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/temperedvision/sublime-kohana3/src/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -119,7 +218,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/koken/koken-sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -129,7 +228,39 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vkostyukov/kotlin-sublime-package/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "KRL (Kinetic Rule Language) Syntax",
+			"details": "https://github.com/drautb/krl-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KRL (Kinetic Rule Language) Validator",
+			"details": "https://github.com/trevordixon/sublime-krl-validator",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kulture",
+			"details": "https://github.com/OmniSharp/Kulture",
+			"previous_names": ["vNext"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "release"
 				}
 			]
 		},
@@ -140,7 +271,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/daris/sublime-kwrite-color-scheme/tree/master"
+					"branch": "master"
 				}
 			]
 		}
