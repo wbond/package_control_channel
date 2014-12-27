@@ -448,10 +448,23 @@
 		{
 			"name": "Filter Lines",
 			"details": "https://github.com/davidpeckham/FilterLines",
+			"labels": ["search"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Filter Lines ST2",
+			"details": "https://github.com/davidpeckham/FilterLines_ST2",
+			"previous_names": ["Filter Lines"],
+			"labels": ["search"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": true
 				}
 			]
 		},
