@@ -40,17 +40,6 @@
 			]
 		},
 		{
-			"name": "UFA Syntax",
-			"details": "https://github.com/msal/sublime-ufa",
-			"labels": ["text syntax", "syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "UIkit autocomplete",
 			"details": "https://github.com/uikit/uikit-sublime",
 			"labels": ["auto-complete"],
@@ -134,6 +123,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UNIFA",
+			"previous_names": ["UFA Syntax"],
+			"details": "https://github.com/msal/sublime-unifa",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
