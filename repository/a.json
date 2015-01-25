@@ -1,12 +1,12 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"details": "https://github.com/SublimeText/AAAPackageDev",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/AAAPackageDev/tree/master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -15,7 +15,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/khiltd/Abacus/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -26,18 +26,82 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jimhawkridge/SublimeABC/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Abstract Markup Language",
-			"details": "https://bitbucket.org/esquivias/sublime-aml",
+			"details": "https://github.com/abstractmarkup/sublimetext",
+			"labels": ["build system", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AcademicMarkdown",
+			"details": "https://github.com/mangecoeur/AcademicMarkdown",
+			"labels": ["language syntax"],
+			"previous_names": ["Academic Markdown"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Accessibility",
+			"details": "https://github.com/Yago/ST3-Accessibility",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ACF Snippets",
+			"details": "https://github.com/iamhexcoder/acf_snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Achievement",
+			"details": "https://github.com/airtoxin/Achievement",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Acme Plumbing",
+			"details": "https://github.com/lionicsheriff/SublimeAcmePlumbing",
+			"labels": ["text navigation", "editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ACTG",
+			"details": "https://github.com/hackerfriendly/ACTG",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/esquivias/sublime-aml/src/master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -48,7 +112,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/skoch/Sublime-ActionScript-3/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -59,7 +123,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mulander/ada.tmbundle/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Adaptionary",
+			"details": "https://github.com/jamieshepherd/adaptionary",
+			"labels": ["snippets", "elearning"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -68,7 +143,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/quarnster/ADBView/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Add Folder To Project",
+			"details": "https://github.com/DavidGerva/AddFolderToProject-SublimePlugin",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -79,7 +164,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/stuartherbert/sublime-phpsnippets/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Advanced Aria Templates snippets pack",
+			"details": "https://github.com/dpreussner/advanced-at-snippets-pack",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Advanced CSV",
+			"details": "https://github.com/wadetb/Sublime-Text-Advanced-CSV",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -89,7 +195,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/skuroda/Sublime-AdvancedNewFile/tree/master"
+					"tags": true
 				}
 			]
 		},
@@ -99,7 +205,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/aery32/sublime-aery32/tags"
+					"tags": true
 				}
 			]
 		},
@@ -109,7 +215,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/jroundill/affixify/src/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -118,7 +224,27 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/stowns/Agile/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AGSBS Markdown Helper",
+			"details": "https://github.com/TUD-INF-IAI-MCI/AgsbsMarkdownPlugin",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Aheui",
+			"details": "https://github.com/aheui/sublime-aheui",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -128,16 +254,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/shibainurou/SublimeAizuOnlineJudge/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/randy3k/AlignTab",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/randy3k/AlignTab/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -147,7 +264,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/alienhard/SublimeAllAutocomplete/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -157,7 +274,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/foxxyz/sublime_alphpetize/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -167,29 +284,59 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/bohdon/sublimeAlternateVIMNavigation/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Alternative Autocompletion",
 			"details": "https://github.com/atombender/sublime_text_alternative_autocompletion",
+			"previous_names": ["alternative_autocompletion"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/atombender/sublime_text_alternative_autocompletion/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"alternative_autocompletion"
+			]
+		},
+		{
+			"name": "Amalgamate",
+			"details": "https://github.com/donteatyellowsnow/amalgamate",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AMD Butler",
+			"details": "https://github.com/agrc/AmdButler",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AMD Snippets",
+			"details": "https://github.com/pierceray/AMDsnippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
 			]
 		},
 		{
 			"details": "https://github.com/wukkuan/AMD-Module-Editor",
+			"previous_names": ["AMD Module Editor"],
 			"releases": [
 				{
-					"sublime_text": ">2999",
-					"details": "https://github.com/wukkuan/AMD-Module-Editor/tree/master"
+					"sublime_text": ">=3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -198,7 +345,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/jden/AMDtools/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -209,7 +356,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jackdunnnz/sublime-ampl/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -219,7 +366,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mmoriar1/AMPScript/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -230,17 +377,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/seanja/ampscript-st2/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Anaconda",
 			"details": "https://github.com/DamnWidget/anaconda",
+			"labels": ["linting", "auto-complete", "python"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/DamnWidget/anaconda/tree/master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/DamnWidget/anaconda_php",
+			"labels": ["linting", "language syntax", "php"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -249,7 +407,29 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Korcholis/Andrew/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AndroidImport",
+			"details": "https://github.com/ribot/SublimeAndroidImport",
+			"labels": ["auto-complete", "android", "java", "import", "imports"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AndroidSnippets",
+			"details": "https://github.com/ribot/SublimeAndroidSnippets",
+			"labels": ["auto-complete", "android", "java", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -258,20 +438,18 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/agibsonsw/AndyEdits/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"details": "https://github.com/agibsonsw/AndyJS2",
+			"previous_names": ["AndyJS"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/agibsonsw/AndyJS2/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"AndyJS"
 			]
 		},
 		{
@@ -279,7 +457,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/agibsonsw/AndyPHP/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -288,7 +466,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/agibsonsw/AndyPython/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -299,7 +477,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/wronex/sublime-angelscript/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -309,7 +487,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/ayamflow/AngularInject/tags"
+					"tags": true
 				}
 			]
 		},
@@ -320,7 +498,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/angular-ui/AngularJS-sublime-package/tags"
+					"tags": true
 				}
 			]
 		},
@@ -330,7 +508,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Iristyle/Sublime-AngularJS-Coffee-Completions/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -341,7 +519,40 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/maxhoffmann/angular-snippets/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AngularZen",
+			"details": "https://github.com/IlanFrumer/angular-zen",
+			"labels": ["javascript", "coffeescript", "angular.js", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Animate.css Snippets",
+			"details": "https://github.com/adeniszczyc/Animate.css-Snippets",
+			"labels": ["css", "animate", "animatecss", "animation", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ansible",
+			"details": "https://github.com/clifford-github/sublime-ansible",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -352,7 +563,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/xeno-by/sublime-ant/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -362,7 +573,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/alefragnani/Sublime-Ant-Buildfile/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Ant Color Scheme",
+			"details": "https://github.com/ant7/ant-sublime-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -372,7 +594,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/swdunlop/antiki/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ANTLR syntax highlight",
+			"details": "https://github.com/iuliux/SublimeText2-Antlr-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -381,7 +613,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/PhilippSchaffrath/Anypreter/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -391,7 +623,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/Shagabutdinov/sublime-anyword-completion/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -402,7 +634,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/glinmac/hive-sublime-text/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -413,7 +645,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/chrislongo/Pig/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -424,7 +656,38 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/RazerM/APDL-Syntax/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Apex Snippets",
+			"details": "https://github.com/dirajkumar/sublime-apex-snippets",
+			"labels": ["snippets", "apex", "salesforce"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "API Blueprint",
+			"details": "https://github.com/apiaryio/api-blueprint-sublime-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "API Checker",
+			"details": "https://github.com/ksgy/api-checker",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -434,7 +697,18 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/lkraider/sublimetext2-apiary-blueprint/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "apiDoc Autocompletion",
+			"details": "https://github.com/DWand/SublimeText_apiDoc_autocompletion",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -444,7 +718,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/artemk/Sublime-Apidock/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "APL Highlighting",
+			"details": "https://github.com/StoneCypher/sublime-apl",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -455,7 +739,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/manikrathee/appealr/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AppendSelection",
+			"details": "https://github.com/shagabutdinov/sublime-append-selection",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "cursors manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -466,7 +762,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/idleberg/ApplePips.tmTheme/tree/master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AppleScript",
+			"details": "https://github.com/idleberg/AppleScript-Sublime-Text",
+			"labels": ["auto-complete", "build system", "snippets"],
+			"previous_names": ["AppleScript Completions and Snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -475,11 +783,22 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/facelessuser/ApplySyntax/tree/master"
+					"branch": "ST2"
 				},
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/facelessuser/ApplySyntax/tree/ST3"
+					"branch": "ST3"
+				}
+			]
+		},
+		{
+			"name": "AppStormJS",
+			"details": "https://github.com/Deisss/appstormjs-sublime",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -489,7 +808,27 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/brynbellomy/Sublime-Aqueducts/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ArangoExec",
+			"details": "https://github.com/jjchiw/ArangoExec",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ArcticTypescript",
+			"details": "https://github.com/Phaiax/ArcticTypescript",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -498,8 +837,8 @@
 			"details": "https://github.com/Robot-Will/Stino",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Robot-Will/Stino/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -510,7 +849,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/TenSoja/arff-syntax/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Argument Noun",
+			"details": "https://github.com/nliberg/argument-noun",
+			"labels": ["editor emulation", "text manipulation", "text navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -521,7 +871,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/juliandescottes/sublime-ariatemplates-highlighter/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -532,18 +882,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/ariatemplates/sublime-ariatemplates-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "ARM Assembly",
-			"details": "https://github.com/tvirgl/Sublime-ARM-Assembly",
+			"details": "https://github.com/erggo/Sublime-ARM-Assembly",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/tvirgl/Sublime-ARM-Assembly/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -554,7 +904,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/arnoldclark/ac-ruby-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -564,7 +914,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/Narven/sublime-artisan/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -574,7 +924,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/spadgos/sublime-AsAbove/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -585,7 +935,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Mendor/sublime-asceticbw/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -596,7 +946,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dgrebb/ASCII-Comment-Snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -607,17 +957,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/idleberg/ASCII-Cowpletions/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "ASCII Decorator",
 			"details": "https://github.com/viisual/ASCII-Decorator",
+			"labels": ["text manipulation", "formatting"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/viisual/ASCII-Decorator/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -626,8 +977,19 @@
 			"details": "https://github.com/chrisbreiding/ASCIIPresentation",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/chrisbreiding/ASCIIPresentation/tags"
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ASCII Replacer",
+			"details": "https://github.com/pjlamb12/AsciiReplacerPlugin",
+			"previous_names": ["Replacer"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -636,7 +998,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/AsciiDoc/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ASP Snippets",
+			"details": "https://github.com/marcosisocram/asp-snippets",
+			"author": "Marcos Paulo",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -646,7 +1019,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/zhongxingdou/AspNetSwitch/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -654,8 +1027,30 @@
 			"details": "https://github.com/danielsd/ASPComment",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/danielsd/ASPComment/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Asterisk Config",
+			"details": "https://github.com/pnlarsson/SublimeAsteriskConfig",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Async Mindset Snippets",
+			"details": "https://github.com/punkave/sublime-async-mindset",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -666,7 +1061,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jleonard/Async-Snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -676,7 +1071,29 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/toin0u/Sublime-atoum/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ATS Syntax Highlight",
+			"details": "https://github.com/steinwaywhw/ats-mode-sublimetext",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Attribute Grammar",
+			"details": "https://github.com/TiborIntelSoft/SublimeUUAGC",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -686,7 +1103,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/simme--/Auto-Encoding-for-Python/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -696,17 +1113,36 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/elomarns/auto-encoding-for-ruby/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Auto Refresh",
+			"details": "https://github.com/Waterflames/AutoRefresh",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Auto Semi-Colon",
-			"details": "https://github.com/LewisW/SublimeAutoSemiColon",
+			"details": "https://github.com/vivait/SublimeAutoSemiColon",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/LewisW/SublimeAutoSemiColon/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/jamesfzhang/auto-save",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -716,9 +1152,8 @@
 			"author": "Avtandil Kikabidze",
 			"releases": [
 				{
-					"platforms": "*",
 					"sublime_text": "*",
-					"details": "https://github.com/akalongman/sublimetext-autobackups/tags"
+					"tags": true
 				}
 			]
 		},
@@ -727,8 +1162,30 @@
 			"details": "https://github.com/eladyarkoni/MySignaturePlugin",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/eladyarkoni/MySignaturePlugin/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutoCompleteJS",
+			"details": "https://github.com/titoBouzout/AutoCompleteJS",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutocompletionFuzzy",
+			"details": "https://github.com/shagabutdinov/sublime-autocompletion",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "text manipulation", "autocompletion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -737,7 +1194,33 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/BoundInCode/AutoFileName/tree/master"
+					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3000",
+					"branch": "st3"
+				}
+			]
+		},
+		{
+			"name": "autogit",
+			"details": "https://github.com/chrisparnin/autogit-st",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutoImport",
+			"details": "https://github.com/shagabutdinov/sublime-keyword",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -747,7 +1230,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/joelpt/sublimetext-automatic-backups/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutomaticFullscreen",
+			"details": "https://github.com/lefoy/AutomaticFullscreen",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -757,8 +1250,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": "*",
-					"details": "https://github.com/wistful/SublimeAutoPEP8/tags"
+					"tags": true
 				}
 			]
 		},
@@ -768,23 +1260,18 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/graarh/sublime-AutoPHPDollar/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Autoprefixer",
 			"details": "https://github.com/sindresorhus/sublime-autoprefixer",
-			"homepage": "https://github.com/sindresorhus/sublime-autoprefixer",
-			"labels": [
-				"text manipulation",
-				"prefix",
-				"css"
-			],
+			"labels": ["text manipulation", "prefix", "css"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/sindresorhus/sublime-autoprefixer/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -792,8 +1279,8 @@
 			"details": "https://github.com/SublimeText/AutoSelect",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/AutoSelect/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -802,7 +1289,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/TikiTDO/AutoSlim/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -812,16 +1299,58 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mandx/SublimeAutoSoftWrap/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
-			"details": "https://github.com/randy3k/AutoWrap",
+			"name": "AutoSpell",
+			"details": "https://github.com/wburningham/AutoSpell",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Autotools",
+			"details": "https://github.com/ptomato/sublime_autotools",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/randy3k/AutoWrap/tree/master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoUpdateSourceHeader",
+			"details": "https://github.com/Harurow/sublime_autoupdatesourceheader",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoWidth",
+			"details": "https://github.com/sjpfenninger/autowidth",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AVR",
+			"details": "https://github.com/kblomqvist/SublimeAVR",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -831,7 +1360,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/voventus/AVR-ASM-Sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -841,7 +1370,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/ivershuo/sublime-aweibo/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -852,7 +1381,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/JohnNilsson/awk-sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		}

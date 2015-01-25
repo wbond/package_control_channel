@@ -1,14 +1,46 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "Yandex Translate",
-			"details": "https://github.com/pafnuty/sublime-yandex-translate",
-			"labels": ["translate"],
+			"name": "YAML Nav",
+			"details": "https://github.com/ddiachkov/sublime-yaml-nav",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/pafnuty/sublime-yandex-translate/tree/master"
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YandexTranslate",
+			"details": "https://github.com/pafnuty/sublime-yandex-translate",
+			"labels": ["translate", "yandex"],
+			"previous_names": ["Yandex Translate"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Yang Syntax Highlighting",
+			"details": "https://github.com/apackeer/sublime-yang-syntax",
+			"labels": ["language syntax", "yang"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "yardgen",
+			"details": "https://bitbucket.org/fappelman/yardgen",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "default"
 				}
 			]
 		},
@@ -18,7 +50,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/revathskumar/sublime-yardoc/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -28,7 +60,39 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mctep/yate-textmate/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "YcmdCompletion",
+			"details": "https://github.com/LuckyGeck/YcmdCompletion",
+			"labels": ["auto-complete", "linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Yesod",
+			"details": "https://bitbucket.org/dpwiz/sublime-yesod",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "default"
+				}
+			]
+		},
+		{
+			"name": "YetAnotherCodeSearch",
+			"details": "https://github.com/pope/SublimeYetAnotherCodeSearch",
+			"labels": ["search"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -37,8 +101,8 @@
 			"details": "https://github.com/d3th/sublime-text2-yii-docs",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/d3th/sublime-text2-yii-docs/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -49,7 +113,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dexnode/sublime-yii-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -59,7 +123,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/friskfly/Youdao-Translate-For-Sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -69,7 +133,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/leon/YUI-Compressor/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -80,7 +144,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/cluther/sublime-yuml/tags"
+					"tags": true
 				}
 			]
 		}
