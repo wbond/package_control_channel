@@ -229,6 +229,7 @@
 		{
 			"name": "Terminal Notifier",
 			"details": "https://github.com/davidolrik/sublime-terminal-notifier",
+			"donate": "https://david.olrik.dk/donate/github",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -509,6 +510,17 @@
 			]
 		},
 		{
+			"name": "Theme - DC",
+			"details": "https://github.com/dubeg/theme-dc",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Eightlime",
 			"details": "https://github.com/HennerS/Eightlime",
 			"labels": ["theme"],
@@ -589,10 +601,10 @@
 		{
 			"name": "Theme - Glacier",
 			"details": "https://github.com/joeyfigaro/glacier-theme",
-			"labels": ["theme"],
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1819,7 +1831,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "default"
+					"tags": true
 				}
 			]
 		}

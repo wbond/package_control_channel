@@ -664,7 +664,7 @@
 		{
 			"name": "Flatron",
 			"details": "https://github.com/NoahBuscher/Flatron",
-			"labels": ["theme"],
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -695,12 +695,34 @@
 		},
 		{
 			"name": "Flow",
-			"details": "https://github.com/darrenderidder/Sublime-Flow",
+			"details": "https://github.com/73rhodes/Sublime-Flow",
 			"labels": ["linting"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Fluentd",
+			"details": "https://github.com/adamchainz/fluentd.tmLanguage",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Flux Snippets",
+			"details": "https://github.com/jansanchez/Flux_Snippets",
+			"labels": ["flux", "snippets", "stylus", "coffee", "jade"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -941,6 +963,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Fugly Syntax Highlight",
+			"details": "https://github.com/diogomoretti/fugly.tmLanguage",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
