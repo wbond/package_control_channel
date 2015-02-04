@@ -136,7 +136,7 @@ class TestContainer(object):
         'description': str_cls,
         'releases': list,
         'homepage': str_cls,
-        'author': str_cls,
+        'author': (str_cls, list),
         'readme': str_cls,
         'issues': str_cls,
         'donate': (str_cls, type(None)),
@@ -219,10 +219,7 @@ class TestContainer(object):
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
-            if k == 'author':
-                self.assertIn(type(v), (str_cls, list))
-            else:
-                self.assertIsInstance(v, self.package_key_types_map[k], k)
+            self.assertIsInstance(v, self.package_key_types_map[k], k)
 
             if k == 'donate' and v is None:
                 # Allow "removing" the donate url that is added by "details"
@@ -250,10 +247,7 @@ class TestContainer(object):
     def _test_dependency(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.dependency_key_types_map)
-            if k == 'author':
-                self.assertIn(type(v), (str_cls, list))
-            else:
-                self.assertIsInstance(v, self.dependency_key_types_map[k], k)
+            self.assertIsInstance(v, self.dependency_key_types_map[k], k)
 
             if k == 'issues':
                 self.assertRegex(v, '^https?://')
@@ -414,7 +408,7 @@ class TestContainer(object):
 
     def _test_error(self, msg, e=None):
         """
-        A generic error-returning function used the meta-programming features
+        A generic error-returning function used by the meta-programming features
         of this class.
 
         :param msg:
