@@ -181,6 +181,23 @@ class TestContainer(object):
         for k in listkeys:
             self.assertIsInstance(data[k], list)
 
+    def _test_dependency_order(self, include, data):
+        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
+        if not m:
+            self.fail("Include filename does not match")
+
+        dependencies = []
+        for pdata in data['dependencies']:
+            pname = get_package_name(pdata)
+            if pname in dependencies:
+                self.fail("Dependency names must be unique: " + pname)
+            else:
+                dependencies.append(pname)
+
+        # Check package order
+        self.assertEqual(dependencies, sorted(dependencies, key=str_cls.lower),
+                         "Dependencies must be sorted alphabetically")
+
     def _test_repository_package_order(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
         if not m:
@@ -360,6 +377,10 @@ class TestContainer(object):
                               'keys if it does not specify "tags" or "branch"')
 
         else:
+            if 'tags' in data and 'branch' in data:
+                self.fail('Only one of the keys "tags" and "branch" should '
+                          'be used')
+
             for req in ('url', 'version'):
                 self.assertNotIn(req, data,
                                  'The key "%s" is redundant when "tags" or '
@@ -630,6 +651,8 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                             ("%s (%s)" % (package_name, include), release))
 
             if 'dependencies' in data:
+                yield cls._test_dependency_order, (include, data)
+
                 for dependency in data['dependencies']:
                     yield cls._test_dependency, (include, dependency)
 
