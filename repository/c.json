@@ -77,6 +77,17 @@
 			]
 		},
 		{
+			"name": "C++YouCompleteMe",
+			"details": "https://github.com/glymehrvrd/CppYCM",
+			"labels": ["c++", "code completion", "syntax check"],
+			"releases": [
+			{
+				"sublime_text": ">=3000",
+				"tags": true
+			}
+			]
+		},
+		{
 			"name": "C0",
 			"details": "https://github.com/mahmoudalismail/SublimeC0",
 			"releases": [
@@ -324,6 +335,16 @@
 			"name": "cfengine_beautifier",
 			"details": "https://github.com/naksu/cfengine_beautifier",
 			"labels": ["formatting", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CFG Configuration Syntax Highlighting",
+			"details": "https://github.com/aronj/CFGGameConfigurationSyntax",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1927,6 +1948,16 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cortex",
+			"details": "https://github.com/Seldomberry/CortexIDE",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

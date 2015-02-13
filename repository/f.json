@@ -157,11 +157,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -302,7 +302,7 @@
 		{
 			"name": "FileBrowser",
 			"details": "https://github.com/aziz/SublimeFileBrowser",
-			"labels": ["file navigation", "file creation", "file open"],
+			"labels": ["file navigation", "file creation", "file open", "sidebar"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -327,6 +327,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FileCommands",
+			"details": "https://github.com/tuvistavie/sublime-file-commands",
+			"labels": ["file navigation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -508,7 +519,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -658,6 +669,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Flask Starter",
+			"details": "https://github.com/geekpradd/Sublime-Flask-Starter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1048,11 +1069,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
