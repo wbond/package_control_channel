@@ -465,55 +465,63 @@ class TestContainer(object):
             A file-like object used for diagnostic output that provides .write()
             and .flush()
         """
+        # TODO multi-threading
+        stream.write("%s ... " % path)
+        stream.flush()
 
-        cls._write(stream, "%s ... " % path)
-
-        if re.match('https?://', path, re.I) is not None:
-            # Download the repository
-            try:
-                with urlopen(path) as f:
-                    source = f.read().decode("utf-8", 'replace')
-            except Exception as e:
-                cls._write(stream, 'failed (%s)\n' % str_cls(e))
-                yield cls._fail("Downloading %s failed" % path, e)
-                return
-        else:
-            try:
-                with _open(path) as f:
-                    source = f.read().decode('utf-8', 'replace')
-            except Exception as e:
-                cls._write(stream, 'failed (%s)\n' % str_cls(e))
-                yield cls._fail("Opening %s failed" % path, e)
-                return
-
-        if not source:
-            yield cls._fail("%s is empty" % path)
-            return
-
-        # Parse the repository
+        success = False
         try:
-            data = json.loads(source)
-        except Exception as e:
-            yield cls._fail("Could not parse %s" % path, e)
-            return
+            if re.match('https?://', path, re.I) is not None:
+                # Download the repository
+                try:
+                    with urlopen(path) as f:
+                        source = f.read().decode("utf-8", 'replace')
+                except Exception as e:
+                    yield cls._fail("Downloading %s failed" % path, e)
+                    return
+            else:
+                try:
+                    with _open(path) as f:
+                        source = f.read().decode('utf-8', 'replace')
+                except Exception as e:
+                    yield cls._fail("Opening %s failed" % path, e)
+                    return
 
-        # Check for the schema version first (and generator failures it's
-        # badly formatted)
-        if 'schema_version' not in data:
-            yield cls._fail("No schema_version found in %s" % path)
-            return
-        schema = data['schema_version']
-        if schema != '3.0.0' and float(schema) not in (1.0, 1.1, 1.2, 2.0):
-            yield cls._fail("Unrecognized schema version %s in %s"
-                            % (schema, path))
-            return
-        # Do not generate 1000 failing tests for not yet updated repos
-        if schema != '3.0.0':
-            cls._write(stream, "skipping (schema version %s)\n"
-                               % data['schema_version'])
-            return
+            if not source:
+                yield cls._fail("%s is empty" % path)
+                return
 
-        cls._write(stream, 'done\n')
+            # Parse the repository
+            try:
+                data = json.loads(source)
+            except Exception as e:
+                yield cls._fail("Could not parse %s" % path, e)
+                return
+
+            # Check for the schema version first (and generator failures it's
+            # badly formatted)
+            if 'schema_version' not in data:
+                yield cls._fail("No schema_version found in %s" % path)
+                return
+            schema = data['schema_version']
+            if schema != '3.0.0' and float(schema) not in (1.0, 1.1, 1.2, 2.0):
+                yield cls._fail("Unrecognized schema version %s in %s"
+                                % (schema, path))
+                return
+
+            success = True
+
+            # Do not generate 1000 failing tests for not yet updated repos
+            if schema != '3.0.0':
+                stream.write("skipping (schema version %s)"
+                             % data['schema_version'])
+                return
+            else:
+                stream.write("done")
+        finally:
+            if not success:
+                stream.write("failed")
+            stream.write("\n")
 
         # `path` is for output during tests only
         yield cls._test_repository_keys, (path, data)
@@ -543,21 +551,6 @@ class TestContainer(object):
         """
 
         return cls._test_error, args
-
-    @classmethod
-    def _write(cls, stream, string):
-        """
-        Writes dianostic output to a file-like object.
-
-        :param stream:
-            Must have the methods .write() and .flush()
-
-        :param string:
-            The string to write - a newline will NOT be appended
-        """
-
-        stream.write(string)
-        stream.flush()
 
 
 class DefaultChannelTests(TestContainer, unittest.TestCase):
@@ -589,7 +582,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             # when run with "--test-repositories" parameter.
             return
 
-        cls._write(stream, "Fetching remote repositories:\n")
+        stream.write("Fetching remote repositories:\n")
 
         for repository in cls.j['repositories']:
             if repository.startswith('.'):
@@ -600,7 +593,8 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             for test in cls._include_tests(repository, stream):
                 yield test
 
-        cls._write(stream, '\n')
+        stream.write('\n')
+        stream.flush()
 
 
 class DefaultRepositoryTests(TestContainer, unittest.TestCase):
