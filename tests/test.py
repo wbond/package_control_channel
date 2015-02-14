@@ -552,6 +552,21 @@ class TestContainer(object):
 
         return cls._test_error, args
 
+    @classmethod
+    def _write(cls, stream, string):
+        """
+        Writes dianostic output to a file-like object.
+
+        :param stream:
+            Must have the methods .write() and .flush()
+
+        :param string:
+            The string to write - a newline will NOT be appended
+        """
+
+        stream.write(string)
+        stream.flush()
+
 
 class DefaultChannelTests(TestContainer, unittest.TestCase):
     maxDiff = None
