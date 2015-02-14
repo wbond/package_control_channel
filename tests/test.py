@@ -505,7 +505,7 @@ class TestContainer(object):
             yield cls._fail("No schema_version found in %s" % path)
             return
         schema = data['schema_version']
-        if float(schema) not in (1.0, 1.1, 1.2, 2.0) and schema != '3.0.0':
+        if schema != '3.0.0' and float(schema) not in (1.0, 1.1, 1.2, 2.0):
             yield cls._fail("Unrecognized schema version %s in %s"
                             % (schema, path))
             return
