@@ -1,12 +1,12 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"details": "https://bitbucket.org/abraly/zap-gremlins",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://bitbucket.org/abraly/zap-gremlins/src/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -17,7 +17,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vaanwd/Zeal/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -27,21 +27,20 @@
 			"labels": ["zeitgeist"],
 			"releases": [
 				{
-					"platforms": ["linux"],
-					"sublime_text": "<3000",
-					"details": "https://github.com/jolivares/sublime-zeitgeist-logger/tags"
+					"sublime_text": "*",
+					"platforms": "linux",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Zen Tabs",
 			"details": "https://github.com/travmik/ZenTabs",
-			"donate": "https://www.gittip.com/travmik/",
 			"labels": ["utils", "tab manipulation", "zen"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/travmik/ZenTabs/tags"
+					"tags": true
 				}
 			]
 		},
@@ -50,7 +49,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mimopo/ZenGarden/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -60,19 +59,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/cluther/SublimeZenoss/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Zephir",
-			"labels": ["language syntax"],
 			"details": "https://github.com/phalcon/zephir-sublime",
 			"author": "The Phalcon Team",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/phalcon/zephir-sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -83,7 +82,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/idleberg/Zissou.tmTheme/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "zmq",
+			"details": "https://github.com/reqshark/sublimezmq",
+			"labels": ["zeromq", "binding", "zmq"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"branch": "master"
 				}
 			]
 		},
@@ -94,7 +105,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/zucchini-src/zucchini.tmbundle/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -105,7 +116,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/liamr/Zurb-Foundation-Textmate-Bundle/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -116,7 +127,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/christianrojas/zurb-ink-sublime-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		}
