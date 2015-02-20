@@ -73,6 +73,20 @@
 			]
 		},
 		{
+			"name": "scandir",
+			"load_order": "50",
+			"description": "Better directory iterator that returns all file info the OS provides",
+			"author": "benhoyt",
+			"issues": "https://github.com/benhoyt/scandir/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/benhoyt/scandir",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "select-windows",
 			"load_order": "02",
 			"description": "Python select module for Sublime Text 2 on Windows",
