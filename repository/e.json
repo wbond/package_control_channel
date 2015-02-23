@@ -11,6 +11,16 @@
 			]
 		},
 		{
+			"name": "E100 Assembly",
+			"details": "https://github.com/ahouse101/SublimeE100Assembly",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Easy Digital Downloads",
 			"details": "https://github.com/cklosowski/EasyDigitalDownloadsSublimeText2",
 			"labels": ["auto-complete", "php", "wordpress"],
@@ -37,7 +47,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -423,6 +433,17 @@
 			]
 		},
 		{
+			"name": "Entheogen Color Scheme",
+			"details": "https://github.com/tomaash/entheogen",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Entypo Completions",
 			"details": "https://github.com/jbrooksuk/SublimeEntypoCompletions",
 			"labels": ["auto-complete"],
@@ -747,11 +768,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},

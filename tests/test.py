@@ -27,6 +27,7 @@ if sys.version_info >= (3,):
     generator_method_type = 'method'
     str_cls = str
 else:
+    from . import unittest_compat
     from urlparse import urljoin
     from urllib2 import HTTPError, urlopen
     generator_method_type = 'instancemethod'
@@ -136,7 +137,7 @@ class TestContainer(object):
         'description': str_cls,
         'releases': list,
         'homepage': str_cls,
-        'author': str_cls,
+        'author': (str_cls, list),
         'readme': str_cls,
         'issues': str_cls,
         'donate': (str_cls, type(None)),
@@ -181,6 +182,23 @@ class TestContainer(object):
         for k in listkeys:
             self.assertIsInstance(data[k], list)
 
+    def _test_dependency_order(self, include, data):
+        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
+        if not m:
+            self.fail("Include filename does not match")
+
+        dependencies = []
+        for pdata in data['dependencies']:
+            pname = get_package_name(pdata)
+            if pname in dependencies:
+                self.fail("Dependency names must be unique: " + pname)
+            else:
+                dependencies.append(pname)
+
+        # Check package order
+        self.assertEqual(dependencies, sorted(dependencies, key=str_cls.lower),
+                         "Dependencies must be sorted alphabetically")
+
     def _test_repository_package_order(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
         if not m:
@@ -219,10 +237,7 @@ class TestContainer(object):
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
-            if k == 'author':
-                self.assertIn(type(v), (str_cls, list))
-            else:
-                self.assertIsInstance(v, self.package_key_types_map[k], k)
+            self.assertIsInstance(v, self.package_key_types_map[k], k)
 
             if k == 'donate' and v is None:
                 # Allow "removing" the donate url that is added by "details"
@@ -250,10 +265,7 @@ class TestContainer(object):
     def _test_dependency(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.dependency_key_types_map)
-            if k == 'author':
-                self.assertIn(type(v), (str_cls, list))
-            else:
-                self.assertIsInstance(v, self.dependency_key_types_map[k], k)
+            self.assertIsInstance(v, self.dependency_key_types_map[k], k)
 
             if k == 'issues':
                 self.assertRegex(v, '^https?://')
@@ -366,6 +378,10 @@ class TestContainer(object):
                               'keys if it does not specify "tags" or "branch"')
 
         else:
+            if 'tags' in data and 'branch' in data:
+                self.fail('Only one of the keys "tags" and "branch" should '
+                          'be used')
+
             for req in ('url', 'version'):
                 self.assertNotIn(req, data,
                                  'The key "%s" is redundant when "tags" or '
@@ -414,7 +430,7 @@ class TestContainer(object):
 
     def _test_error(self, msg, e=None):
         """
-        A generic error-returning function used the meta-programming features
+        A generic error-returning function used by the meta-programming features
         of this class.
 
         :param msg:
@@ -449,57 +465,63 @@ class TestContainer(object):
             A file-like object used for diagnostic output that provides .write()
             and .flush()
         """
+        # TODO multi-threading
+        stream.write("%s ... " % path)
+        stream.flush()
 
-        cls._write(stream, "%s ... " % path)
-
-        if re.match('https?://', path, re.I) is not None:
-            # Download the repository
-            try:
-                f = urlopen(path)
-                source = f.read().decode("utf-8", 'replace')
-            except Exception as e:
-                cls._write(stream, 'failed (%s)\n' % str_cls(e))
-                yield cls._fail("Downloading %s failed" % path, e)
-                return
-            finally:
-                f.close()
-        else:
-            try:
-                with _open(path) as f:
-                    source = f.read().decode('utf-8', 'replace')
-            except Exception as e:
-                cls._write(stream, 'failed (%s)\n' % str_cls(e))
-                yield cls._fail("Opening %s failed" % path, e)
-                return
-
-        if not source:
-            yield cls._fail("%s is empty" % path)
-            return
-
-        # Parse the repository
+        success = False
         try:
-            data = json.loads(source)
-        except Exception as e:
-            yield cls._fail("Could not parse %s" % path, e)
-            return
+            if re.match('https?://', path, re.I) is not None:
+                # Download the repository
+                try:
+                    with urlopen(path) as f:
+                        source = f.read().decode("utf-8", 'replace')
+                except Exception as e:
+                    yield cls._fail("Downloading %s failed" % path, e)
+                    return
+            else:
+                try:
+                    with _open(path) as f:
+                        source = f.read().decode('utf-8', 'replace')
+                except Exception as e:
+                    yield cls._fail("Opening %s failed" % path, e)
+                    return
 
-        # Check for the schema version first (and generator failures it's
-        # badly formatted)
-        if 'schema_version' not in data:
-            yield cls._fail("No schema_version found in %s" % path)
-            return
-        schema = data['schema_version']
-        if float(schema) not in (1.0, 1.1, 1.2, 2.0) and schema != '3.0.0':
-            yield cls._fail("Unrecognized schema version %s in %s"
-                            % (schema, path))
-            return
-        # Do not generate 1000 failing tests for not yet updated repos
-        if schema != '3.0.0':
-            cls._write(stream, "skipping (schema version %s)\n"
-                               % data['schema_version'])
-            return
+            if not source:
+                yield cls._fail("%s is empty" % path)
+                return
 
-        cls._write(stream, 'done\n')
+            # Parse the repository
+            try:
+                data = json.loads(source)
+            except Exception as e:
+                yield cls._fail("Could not parse %s" % path, e)
+                return
+
+            # Check for the schema version first (and generator failures it's
+            # badly formatted)
+            if 'schema_version' not in data:
+                yield cls._fail("No schema_version found in %s" % path)
+                return
+            schema = data['schema_version']
+            if schema != '3.0.0' and float(schema) not in (1.0, 1.1, 1.2, 2.0):
+                yield cls._fail("Unrecognized schema version %s in %s"
+                                % (schema, path))
+                return
+
+            success = True
+
+            # Do not generate 1000 failing tests for not yet updated repos
+            if schema != '3.0.0':
+                stream.write("skipping (schema version %s)"
+                             % data['schema_version'])
+                return
+            else:
+                stream.write("done")
+        finally:
+            if not success:
+                stream.write("failed")
+            stream.write("\n")
 
         # `path` is for output during tests only
         yield cls._test_repository_keys, (path, data)
@@ -575,7 +597,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             # when run with "--test-repositories" parameter.
             return
 
-        cls._write(stream, "Fetching remote repositories:\n")
+        stream.write("Fetching remote repositories:\n")
 
         for repository in cls.j['repositories']:
             if repository.startswith('.'):
@@ -586,7 +608,8 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             for test in cls._include_tests(repository, stream):
                 yield test
 
-        cls._write(stream, '\n')
+        stream.write('\n')
+        stream.flush()
 
 
 class DefaultRepositoryTests(TestContainer, unittest.TestCase):
@@ -636,6 +659,8 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                             ("%s (%s)" % (package_name, include), release))
 
             if 'dependencies' in data:
+                yield cls._test_dependency_order, (include, data)
+
                 for dependency in data['dependencies']:
                     yield cls._test_dependency, (include, dependency)
 

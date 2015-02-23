@@ -12,6 +12,16 @@
 			]
 		},
 		{
+			"name": "QMakeProject",
+			"details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "QML",
 			"details": "https://github.com/skozlovf/Sublime-QML",
 			"labels": ["language syntax", "snippets"],
@@ -40,17 +50,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "QuantifiedDev",
-			"details": "https://github.com/QuantifiedDev/sublime-text-plugin",
-			"labels": ["time tracking", "activity"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -122,7 +121,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
