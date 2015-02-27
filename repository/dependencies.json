@@ -1,0 +1,122 @@
+{
+	"schema_version": "3.0.0",
+	"packages": [],
+	"dependencies": [
+		{
+			"name": "bz2",
+			"load_order": "02",
+			"description": "Python bz2 module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-bz2/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/codexns/sublime-bz2",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ordereddict",
+			"load_order": "50",
+			"description": "Python ordereddict module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/ordereddict/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/ordereddict",
+					"tags": true,
+					"sublime_text": "<3000"
+				}
+			]
+		},
+		{
+			"name": "pytz",
+			"load_order": "50",
+			"description": "Python pytz module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pytz/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pytz",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pyyaml",
+			"load_order": "50",
+			"description": "Python PyYAML module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pyyaml/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pyyaml",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "requests",
+			"load_order": "50",
+			"description": "Python requests module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/requests/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/requests",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "select-windows",
+			"load_order": "02",
+			"description": "Python select module for Sublime Text 2 on Windows",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-select-windows/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/codexns/sublime-select-windows",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ssl-linux",
+			"load_order": "01",
+			"description": "Python _ssl module for Linux",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-ssl-linux/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
+					"version": "1.0.1",
+					"url": "http://packagecontrol.io/ssl/1.0.1/ssl-linux.sublime-package",
+					"sha256": "862d061cbe666777cd1e9cd1cbc7c82f48ad8897dbb68332975f3edf5ce0f38d"
+				}
+			]
+		},
+		{
+			"name": "ssl-windows",
+			"load_order": "01",
+			"description": "Python _ssl module for Sublime Text 2 on Windows",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-ssl-windows/issues",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"platforms": ["windows"],
+					"version": "1.0.0",
+					"url": "http://packagecontrol.io/ssl/1.0.0/ssl-windows.sublime-package",
+					"sha256": "efe25e3bdf2e8f791d86327978aabe093c9597a6ceb8c2fb5438c1d810e02bea"
+				}
+			]
+		}
+	]
+}
