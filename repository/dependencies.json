@@ -17,20 +17,6 @@
 			]
 		},
 		{
-			"name": "ordereddict",
-			"load_order": "50",
-			"description": "Python ordereddict module",
-			"author": "FichteFoll",
-			"issues": "https://github.com/packagecontrol/ordereddict/issues",
-			"releases": [
-				{
-					"base": "https://github.com/packagecontrol/ordereddict",
-					"tags": true,
-					"sublime_text": "<3000"
-				}
-			]
-		},
-		{
 			"name": "oauthlib",
 			"load_order": "50",
 			"description": "Python oauthlib module",
@@ -41,6 +27,20 @@
 					"base": "https://github.com/csch0/SublimeText-oauthlib",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "ordereddict",
+			"load_order": "50",
+			"description": "Python ordereddict module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/ordereddict/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/ordereddict",
+					"tags": true,
+					"sublime_text": "<3000"
 				}
 			]
 		},
