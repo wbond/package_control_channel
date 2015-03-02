@@ -250,6 +250,7 @@
 		{
 			"name": "LDIF Syntax Highlighting",
 			"details": "https://github.com/FlashSystems/LDIF-Syntax",
+			"labels": ["language syntax", "syntax", "highlighting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -766,6 +767,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LogView",
+			"details": "https://github.com/FlashSystems/LogView",
+			"labels": ["highlighting", "logs"],
+			"releases": [
+				{
+					"sublime_text": ">=3065",
 					"tags": true
 				}
 			]
