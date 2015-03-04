@@ -17,6 +17,20 @@
 			]
 		},
 		{
+			"name": "oauthlib",
+			"load_order": "50",
+			"description": "Python oauthlib module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/oauthlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/oauthlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "ordereddict",
 			"load_order": "50",
 			"description": "Python ordereddict module",
@@ -67,6 +81,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "requests-oauthlib",
+			"load_order": "51",
+			"description": "Python requests-oauthlib module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/requests-oauthlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/requests-oauthlib",
 					"tags": true,
 					"sublime_text": "*"
 				}

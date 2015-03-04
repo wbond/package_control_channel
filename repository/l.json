@@ -250,6 +250,7 @@
 		{
 			"name": "LDIF Syntax Highlighting",
 			"details": "https://github.com/FlashSystems/LDIF-Syntax",
+			"labels": ["language syntax", "syntax", "highlighting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -771,6 +772,17 @@
 			]
 		},
 		{
+			"name": "LogView",
+			"details": "https://github.com/FlashSystems/LogView",
+			"labels": ["highlighting", "logs"],
+			"releases": [
+				{
+					"sublime_text": ">=3065",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "London Underground Status",
 			"details": "https://github.com/sabarasaba/sublimetext-LondonUnderground",
 			"labels": ["london", "tube", "underground"],
@@ -826,6 +838,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LPrint",
+			"details": "https://github.com/mbr/LPrint",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
