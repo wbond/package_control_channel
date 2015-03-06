@@ -250,12 +250,15 @@ class TestContainer(object):
                                  'The details url is badly formatted or '
                                  'invalid')
 
-            # Test for invalid characters (on file systems)
-            elif k == 'name':
-                # Invalid on Windows (and sometimes problematic on UNIX)
-                self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
-                # Invalid on OS X (or more precisely: hidden)
-                self.assertFalse(v.startswith('.'))
+        # Test for invalid characters (on file systems)
+        name = get_package_name(data)
+        # Invalid on Windows (and sometimes problematic on UNIX)
+        self.assertNotRegex(name, r'[/?<>\\:*|"\x00-\x19]',
+                            'Package names must be valid folder names on all '
+                            'operating systems')
+        # Invalid on OS X (or more precisely: hidden)
+        self.assertFalse(name.startswith('.'), 'Package names may not start '
+                                               'with a dot')
 
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
