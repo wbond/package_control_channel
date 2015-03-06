@@ -117,7 +117,7 @@ def get_package_name(data):
     Use the last part of details url for the package's name otherwise since
     packages must define one of these two keys anyway.
     """
-    return data.get('name') or data.get('details').rsplit('/', 1)[-1]
+    return data.get('name') or data.get('details').strip("/").rsplit("/", 1)[-1]
 
 
 ################################################################################
