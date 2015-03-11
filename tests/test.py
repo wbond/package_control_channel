@@ -283,8 +283,19 @@ class TestContainer(object):
                 self.assertRegex(v, '^\d\d$', '"load_order" must be a two '
                                               'digit string')
 
+    pck_release_key_types_map = {
+        'base': str_cls,
+        'tags': (bool, str_cls),
+        'branch': str_cls,
+        'sublime_text': str_cls,
+        'platforms': (list, str_cls),
+        'version': str_cls,
+        'date': str_cls,
+        'url': str_cls
+    }
+
     def _test_release(self, package_name, data, main_repo=True):
-        # Fail early
+        # Fail early and test for required keys
         if main_repo:
             self.assertTrue(('tags' in data or 'branch' in data),
                             'A release must have a "tags" key or "branch" key '
@@ -316,9 +327,10 @@ class TestContainer(object):
                          'A release must have a only one of the "tags" or '
                          '"branch" keys.')
 
+        # Test individual keys
         for k, v in data.items():
-            self.assertIn(k, ('base', 'tags', 'branch', 'sublime_text',
-                              'platforms', 'version', 'date', 'url'))
+            self.assertIn(k, self.pck_release_key_types_map)
+            self.assertIsInstance(v, self.pck_release_key_types_map[k], k)
 
             if k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
@@ -331,13 +343,8 @@ class TestContainer(object):
                                  'The base url is badly formatted or '
                                  'invalid')
 
-            if k == 'tags':
-                self.assertIn(type(v), (str_cls, bool))
-
-            if k == 'branch':
-                self.assertEqual(type(v), str_cls)
-
             if k == 'sublime_text':
+                # TODO ranges in the form "\d+ - \d+" are also supported
                 self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
                                  'sublime_text must be `*` or of the form '
                                  '<relation><version> '
@@ -345,7 +352,6 @@ class TestContainer(object):
                                  'and <version> is a 4 digit number')
 
             if k == 'platforms':
-                self.assertIsInstance(v, (str_cls, list))
                 if isinstance(v, str_cls):
                     v = [v]
                 for plat in v:
