@@ -295,7 +295,7 @@ class TestContainer(object):
     }
 
     def _test_release(self, package_name, data, main_repo=True):
-        # Fail early and test for required keys
+        # Test for required keys (and fail early)
         if main_repo:
             self.assertTrue(('tags' in data or 'branch' in data),
                             'A release must have a "tags" key or "branch" key '
@@ -357,8 +357,19 @@ class TestContainer(object):
                 for plat in v:
                     self.assertRegex(plat,
                                      r"^\*|(osx|linux|windows)(-x(32|64))?$")
+    dep_release_key_types_map = {
+        'base': str_cls,
+        'tags': (bool, str_cls),
+        'branch': str_cls,
+        'sublime_text': str_cls,
+        'platforms': (list, str_cls),
+        'version': str_cls,
+        'sha256': str_cls,
+        'url': str_cls
+    }
 
     def _test_dependency_release(self, package_name, data, main_repo=True):
+        # Test for required keys (and fail early)
         if main_repo:
             self.assertTrue(('tags' in data
                              or 'branch' in data
@@ -387,9 +398,9 @@ class TestContainer(object):
                               'keys if it does not specify "tags" or "branch"')
 
         else:
-            if 'tags' in data and 'branch' in data:
-                self.fail('Only one of the keys "tags" and "branch" should '
-                          'be used')
+            self.assertFalse(('tags' in data and 'branch' in data),
+                             'A release must have a only one of the "tags" or '
+                             '"branch" keys.')
 
             for req in ('url', 'version'):
                 self.assertNotIn(req, data,
@@ -399,9 +410,10 @@ class TestContainer(object):
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
 
+        # Test individual keys
         for k, v in data.items():
-            self.assertIn(k, ('base', 'tags', 'branch', 'sublime_text',
-                              'platforms', 'version', 'url', 'sha256'))
+            self.assertIn(k, self.dep_release_key_types_map)
+            self.assertIsInstance(v, self.dep_release_key_types_map[k], k)
 
             if k == 'url' and 'sha256' not in data:
                 self.assertRegex(v, r'^https://')
@@ -413,15 +425,6 @@ class TestContainer(object):
                                  'The base url is badly formatted or '
                                  'invalid')
 
-            if k == 'tags':
-                self.assertIn(type(v), (str_cls, bool))
-
-            if k == 'branch':
-                self.assertEqual(type(v), str_cls)
-
-            if k == 'sha256':
-                self.assertEqual(type(v), str_cls)
-
             if k == 'sublime_text':
                 self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
                                  'sublime_text must be `*` or of the form '
@@ -430,7 +433,6 @@ class TestContainer(object):
                                  'and <version> is a 4 digit number')
 
             if k == 'platforms':
-                self.assertIsInstance(v, (str_cls, list))
                 if isinstance(v, str_cls):
                     v = [v]
                 for plat in v:
