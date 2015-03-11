@@ -27,11 +27,11 @@ if sys.version_info >= (3,):
     generator_method_type = 'method'
     str_cls = str
 else:
-    from . import unittest_compat
+    from . import unittest_compat  # NOQA (monkeypatches the unittest module)
     from urlparse import urljoin
     from urllib2 import HTTPError, urlopen
     generator_method_type = 'instancemethod'
-    str_cls = unicode
+    str_cls = unicode  # NOQA (obviously undefined in Py3)
 
 
 if hasattr(sys, 'argv'):
