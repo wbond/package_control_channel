@@ -131,30 +131,6 @@ class TestContainer(object):
     Does not contain tests itself, must be used as mixin with unittest.TestCase.
     """
 
-    package_key_types_map = {
-        'name': str_cls,
-        'details': str_cls,
-        'description': str_cls,
-        'releases': list,
-        'homepage': str_cls,
-        'author': (str_cls, list),
-        'readme': str_cls,
-        'issues': str_cls,
-        'donate': (str_cls, type(None)),
-        'buy': str_cls,
-        'previous_names': list,
-        'labels': list
-    }
-
-    dependency_key_types_map = {
-        'name': str_cls,
-        'description': str_cls,
-        'releases': list,
-        'issues': str_cls,
-        'load_order': str_cls,
-        'author': str_cls
-    }
-
     rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
                       |https:// bitbucket\.org/ [^/]+/ [^/]+
                       ) $'''
@@ -234,6 +210,21 @@ class TestContainer(object):
             self.assertRegex(line, r"^\t*\S",
                              "Indent must be tabs in line %d" % (i + 1))
 
+    package_key_types_map = {
+        'name': str_cls,
+        'details': str_cls,
+        'description': str_cls,
+        'releases': list,
+        'homepage': str_cls,
+        'author': (str_cls, list),
+        'readme': str_cls,
+        'issues': str_cls,
+        'donate': (str_cls, type(None)),
+        'buy': str_cls,
+        'previous_names': list,
+        'labels': list
+    }
+
     def _test_package(self, include, data):
         for k, v in data.items():
             self.assertIn(k, self.package_key_types_map)
@@ -264,6 +255,15 @@ class TestContainer(object):
             for key in ('name', 'homepage', 'author', 'releases'):
                 self.assertIn(key, data, '%r is required if no "details" URL '
                                          'provided' % key)
+
+    dependency_key_types_map = {
+        'name': str_cls,
+        'description': str_cls,
+        'releases': list,
+        'issues': str_cls,
+        'load_order': str_cls,
+        'author': str_cls
+    }
 
     def _test_dependency(self, include, data):
         for k, v in data.items():
