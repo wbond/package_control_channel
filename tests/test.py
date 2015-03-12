@@ -409,6 +409,14 @@ class TestContainer(object):
                                  'The base url is badly formatted or '
                                  'invalid')
 
+            elif k == 'tags':
+                self.assertTrue(bool(v),
+                                '"tags" must be `true` or a string of length>0')
+                if isinstance(v, str_cls):
+                    self.assertFalse(v == "true",
+                                     'It is unlikely to specify the prefix '
+                                     '"true" use not the boolean `true`')
+
     def enforce_key_types_map(self, k, v, key_types_map):
         self.assertIn(k, key_types_map, 'Unknown key "%s"' % k)
         self.assertIsInstance(v, key_types_map[k], k)
