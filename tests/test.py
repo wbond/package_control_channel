@@ -289,6 +289,7 @@ class TestContainer(object):
         'branch': str_cls,
         'sublime_text': str_cls,
         'platforms': (list, str_cls),
+        'dependencies': (list, str_cls),
         'version': str_cls,
         'date': str_cls,
         'url': str_cls
