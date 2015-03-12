@@ -417,6 +417,9 @@ class TestContainer(object):
                                      'It is unlikely to specify the prefix '
                                      '"true" use not the boolean `true`')
 
+            elif k == 'sha256':
+                self.assertRegex(v, r'(?i)^[0-9a-f]{64}$')
+
     def enforce_key_types_map(self, k, v, key_types_map):
         self.assertIn(k, key_types_map, 'Unknown key "%s"' % k)
         self.assertIsInstance(v, key_types_map[k], k)
