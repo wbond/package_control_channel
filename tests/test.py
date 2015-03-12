@@ -227,8 +227,7 @@ class TestContainer(object):
 
     def _test_package(self, include, data):
         for k, v in data.items():
-            self.assertIn(k, self.package_key_types_map)
-            self.assertIsInstance(v, self.package_key_types_map[k], k)
+            self.enforce_key_types_map(k, v, self.package_key_types_map)
 
             if k == 'donate' and v is None:
                 # Allow "removing" the donate url that is added by "details"
@@ -267,8 +266,7 @@ class TestContainer(object):
 
     def _test_dependency(self, include, data):
         for k, v in data.items():
-            self.assertIn(k, self.dependency_key_types_map)
-            self.assertIsInstance(v, self.dependency_key_types_map[k], k)
+            self.enforce_key_types_map(k, v, self.dependency_key_types_map)
 
             if k == 'issues':
                 self.assertRegex(v, '^https?://')
@@ -370,8 +368,7 @@ class TestContainer(object):
         release_key_types_map = (self.dep_release_key_types_map if dependency
                                  else self.pck_release_key_types_map)
         for k, v in data.items():
-            self.assertIn(k, release_key_types_map, 'Unknown key "%s"' % k)
-            self.assertIsInstance(v, release_key_types_map[k], k)
+            self.enforce_key_types_map(k, v, release_key_types_map)
 
             if k == 'url':
                 if dependency:
@@ -411,6 +408,19 @@ class TestContainer(object):
                 self.assertRegex(v, self.release_base_regex,
                                  'The base url is badly formatted or '
                                  'invalid')
+
+    def enforce_key_types_map(self, k, v, key_types_map):
+        self.assertIn(k, key_types_map, 'Unknown key "%s"' % k)
+        self.assertIsInstance(v, key_types_map[k], k)
+
+        if (
+            isinstance(v, list) and key_types_map[k] != list
+            and len(key_types_map[k]) == 2
+        ):
+            # Test if all of the lists elements are of the other allowed types
+            other_types = tuple(filter(lambda t: t != list, key_types_map[k]))
+            for sub_value in v:
+                self.assertIsInstance(sub_value, other_types, k)
 
     def _test_error(self, msg, e=None):
         """
