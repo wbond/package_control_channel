@@ -435,7 +435,7 @@ class TestContainer(object):
     @classmethod
     def _include_tests(cls, path, stream):
         """
-        Return a tuple of (method, args) to add to a unittest TestCase class.
+        Yields tuples of (method, args) to add to a unittest TestCase class.
         A meta-programming function to expand the definition of class at run
         time, based on the contents of a file or URL.
 
@@ -455,7 +455,7 @@ class TestContainer(object):
 
         success = False
         try:
-            if re.match('https?://', path, re.I) is not None:
+            if re.match(r'https?://', path, re.I) is not None:
                 # Download the repository
                 try:
                     with urlopen(path) as f:
@@ -624,7 +624,7 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                     contents = f.read().decode('utf-8', 'replace')
                 data = json.loads(contents)
             except Exception as e:
-                yield cls._test_error, ("Error while reading %r" % include, e)
+                yield cls._fail("Error while reading %r" % include, e)
                 continue
 
             # `include` is for output during tests only
