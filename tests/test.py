@@ -294,69 +294,6 @@ class TestContainer(object):
         'url': str_cls
     }
 
-    def _test_release(self, package_name, data, main_repo=True):
-        # Test for required keys (and fail early)
-        if main_repo:
-            self.assertTrue(('tags' in data or 'branch' in data),
-                            'A release must have a "tags" key or "branch" key '
-                            'if it is in the main repository. For custom '
-                            'releases, a custom repository.json file must be '
-                            'hosted elsewhere.')
-            for req in ('url', 'version', 'date'):
-                self.assertNotIn(req, data,
-                                 'The version, date and url keys should not be '
-                                 'used in the main repository since a pull '
-                                 'request would be necessary for every release')
-
-        elif 'tags' not in data and 'branch' not in data:
-            self.assertTrue(all(k in data for k in ('url', 'version', 'date')),
-                            'A release must provide "url", "version" and '
-                            '"date" keys if it does not specify "tags" or'
-                            '"branch"')
-
-        else:
-            for req in ('url', 'version', 'date'):
-                self.assertNotIn(req, data,
-                                 'The key "%s" is redundant when "tags" or '
-                                 '"branch" is specified' % req)
-
-        self.assertIn('sublime_text', data,
-                      'A sublime text version selector is required')
-
-        self.assertFalse(('tags' in data and 'branch' in data),
-                         'A release must have a only one of the "tags" or '
-                         '"branch" keys.')
-
-        # Test individual keys
-        for k, v in data.items():
-            self.assertIn(k, self.pck_release_key_types_map)
-            self.assertIsInstance(v, self.pck_release_key_types_map[k], k)
-
-            if k == 'date':
-                self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
-
-            if k == 'url':
-                self.assertRegex(v, r'^https?://')
-
-            if k == 'base':
-                self.assertRegex(v, self.release_base_regex,
-                                 'The base url is badly formatted or '
-                                 'invalid')
-
-            if k == 'sublime_text':
-                # TODO ranges in the form "\d+ - \d+" are also supported
-                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
-                                 'sublime_text must be `*` or of the form '
-                                 '<relation><version> '
-                                 'where <relation> is one of {<, <=, >, >=} '
-                                 'and <version> is a 4 digit number')
-
-            if k == 'platforms':
-                if isinstance(v, str_cls):
-                    v = [v]
-                for plat in v:
-                    self.assertRegex(plat,
-                                     r"^\*|(osx|linux|windows)(-x(32|64))?$")
     dep_release_key_types_map = {
         'base': str_cls,
         'tags': (bool, str_cls),
@@ -368,76 +305,111 @@ class TestContainer(object):
         'url': str_cls
     }
 
-    def _test_dependency_release(self, package_name, data, main_repo=True):
+    def _test_release(self, package_name, data, dependency, main_repo=True):
         # Test for required keys (and fail early)
         if main_repo:
-            self.assertTrue(('tags' in data
-                             or 'branch' in data
-                             or ('sha256' in data and 'version' in data
-                                 and 'url' in data
-                                 and data['url'][0:7] == 'http://')),
-                            'A release must have a "tags" key or "branch" key '
-                            'if it is in the main repository. For custom '
-                            'releases, a custom repository.json file must be '
-                            'hosted elsewhere. The only exception to this rule '
-                            'is for packages that can not be served over HTTPS '
-                            'since they help bootstrap proper secure HTTP '
-                            'support for Sublime Text.')
-            if 'sha256' not in data:
-                for req in ('url', 'version'):
-                    self.assertNotIn(req, data,
-                                     'The version and url keys should not be '
+            if dependency:
+                condition = (
+                    'tags' in data or 'branch' in data
+                    or ('sha256' in data
+                        and ('url' not in data
+                             or data['url'].startswith('http://')))
+                )
+                self.assertTrue(condition,
+                                'A release must have a "tags" key or "branch" key '
+                                'if it is in the main repository. For custom '
+                                'releases, a custom repository.json file must be '
+                                'hosted elsewhere. The only exception to this rule '
+                                'is for packages that can not be served over HTTPS '
+                                'since they help bootstrap proper secure HTTP '
+                                'support for Sublime Text.')
+            else:
+                self.assertTrue(('tags' in data or 'branch' in data),
+                                'A release must have a "tags" key or "branch" key '
+                                'if it is in the main repository. For custom '
+                                'releases, a custom repository.json file must be '
+                                'hosted elsewhere.')
+                for key in ('url', 'version', 'date'):
+                    self.assertNotIn(key, data,
+                                     'The version, date and url keys should not be '
                                      'used in the main repository since a pull '
-                                     'request would be necessary for every '
-                                     'release.')
+                                     'request would be necessary for every release')
 
         elif 'tags' not in data and 'branch' not in data:
-            for req in ('url', 'version'):
-                self.assertIn(req, data,
-                              'A release must provide "url" and "version" '
-                              'keys if it does not specify "tags" or "branch"')
+            if dependency:
+                for key in ('url', 'version'):
+                    self.assertIn(key, data,
+                                  'A release must provide "url" and "version" '
+                                  'keys if it does not specify "tags" or "branch"')
+            else:
+                for key in ('url', 'version', 'date'):
+                    self.assertIn(key, data,
+                                  'A release must provide "url", "version" and '
+                                  '"date" keys if it does not specify "tags" or'
+                                  '"branch"')
 
         else:
-            self.assertFalse(('tags' in data and 'branch' in data),
-                             'A release must have a only one of the "tags" or '
-                             '"branch" keys.')
-
-            for req in ('url', 'version'):
-                self.assertNotIn(req, data,
+            for key in ('url', 'version', 'date'):
+                self.assertNotIn(key, data,
                                  'The key "%s" is redundant when "tags" or '
-                                 '"branch" is specified' % req)
+                                 '"branch" is specified' % key)
 
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
 
-        # Test individual keys
+        self.assertFalse(('tags' in data and 'branch' in data),
+                         'A release must have a only one of the "tags" or '
+                         '"branch" keys.')
+
+        # Test keys values
+        self.check_release_key_values(data, dependency)
+
+    def check_release_key_values(self, data, dependency):
+        """Check the key-value pairs of a release for validity."""
+        release_key_types_map = (self.dep_release_key_types_map if dependency
+                                 else self.pck_release_key_types_map)
         for k, v in data.items():
-            self.assertIn(k, self.dep_release_key_types_map)
-            self.assertIsInstance(v, self.dep_release_key_types_map[k], k)
+            self.assertIn(k, release_key_types_map, 'Unknown key "%s"' % k)
+            self.assertIsInstance(v, release_key_types_map[k], k)
 
-            if k == 'url' and 'sha256' not in data:
-                self.assertRegex(v, r'^https://')
-            elif k == 'url':
-                self.assertRegex(v, r'^http://')
+            if k == 'url':
+                if dependency:
+                    if 'sha256' not in data:
+                        self.assertRegex(v, r'^https://')
+                    else:
+                        self.assertRegex(v, r'^http://')
+                else:
+                    self.assertRegex(v, r'^https?://')
 
-            if k == 'base':
+            elif k == 'base':
                 self.assertRegex(v, self.release_base_regex,
                                  'The base url is badly formatted or '
                                  'invalid')
 
-            if k == 'sublime_text':
+            elif k == 'sublime_text':
                 self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
                                  'sublime_text must be `*` or of the form '
                                  '<relation><version> '
                                  'where <relation> is one of {<, <=, >, >=} '
                                  'and <version> is a 4 digit number')
 
-            if k == 'platforms':
+            elif k == 'platforms':
                 if isinstance(v, str_cls):
                     v = [v]
                 for plat in v:
                     self.assertRegex(plat,
                                      r"^\*|(osx|linux|windows)(-x(32|64))?$")
+
+            elif k == 'date':
+                self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
+
+            elif k == 'url':
+                self.assertRegex(v, r'^https?://')
+
+            elif k == 'base':
+                self.assertRegex(v, self.release_base_regex,
+                                 'The base url is badly formatted or '
+                                 'invalid')
 
     def _test_error(self, msg, e=None):
         """
@@ -547,7 +519,7 @@ class TestContainer(object):
                     for release in package['releases']:
                         (yield cls._test_release,
                             ("%s (%s)" % (package_name, path),
-                             release, False))
+                             release, False, False))
         if 'includes' in data:
             for include in data['includes']:
                 i_url = urljoin(path, include)
@@ -667,7 +639,9 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                 if 'releases' in package:
                     for release in package['releases']:
                         (yield cls._test_release,
-                            ("%s (%s)" % (package_name, include), release))
+                            ("%s (%s)" % (package_name, include),
+                             release,
+                             False))
 
             if 'dependencies' in data:
                 yield cls._test_dependency_order, (include, data)
@@ -679,9 +653,10 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
 
                     if 'releases' in dependency:
                         for release in dependency['releases']:
-                            (yield cls._test_dependency_release,
+                            (yield cls._test_release,
                                 ("%s (%s)" % (dependency_name, include),
-                                 release))
+                                 release,
+                                 True))
 
 
 def generate_default_test_methods(stream=None):
