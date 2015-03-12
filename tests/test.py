@@ -658,6 +658,8 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                                  release,
                                  True))
 
+        yield cls._fail("This won't be executed for some reason")
+
 
 def generate_default_test_methods(stream=None):
     if not stream:
