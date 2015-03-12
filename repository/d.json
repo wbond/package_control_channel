@@ -1,17 +1,15 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "D Programming Language",
 			"details": "https://github.com/alexrp/st2-d",
+			"previous_names": ["D"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/alexrp/st2-d/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"D"
 			]
 		},
 		{
@@ -21,7 +19,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/fabriciotav/d3-snippets-for-sublime-text-2/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -31,7 +29,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/erggo/sublime-dafny/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -42,7 +40,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/drakeirving/sublime-danmakufu/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -53,7 +51,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/RainyDayMedia/DarkNeon/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -64,7 +62,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jdiehl/dark-pastel/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DarkLime Color Scheme",
+			"details": "https://github.com/mmkjony/DarkLime-for-Sublime-Text",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -75,17 +84,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mattchanner/darkula/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Dart",
-			"details": "https://github.com/dart-lang/dart-sublime-bundle",
+			"details": "https://github.com/guillermooo/dart-sublime-bundle-releases",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"details": "https://github.com/dart-lang/dart-sublime-bundle/tree/master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -95,7 +104,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kgori/DarwinHighlight/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -105,7 +114,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/email2vimalraj/DashedComments/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -115,11 +124,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/fitnr/SublimeDataConverter/tree/sublimetwo"
+					"branch": "sublimetwo"
 				},
 				{
 					"sublime_text": ">2999",
-					"details": "https://github.com/fitnr/SublimeDataConverter/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -129,7 +138,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/paulollivier/sublimetext-date/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -140,7 +149,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/pjdietz/sublime-date-formatter/tags"
+					"tags": true
 				}
 			]
 		},
@@ -151,7 +160,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/daylerees/colour-schemes/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -161,7 +170,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/grundprinzip/sublime-dblp/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -170,7 +179,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mistydemeo/DBTextWorks/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -180,7 +189,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/adampresley/sublime-debugkiller/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -191,7 +200,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/samueljohn/decent/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -202,7 +211,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jisaacks/DeepBlueSee/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -212,7 +221,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/spadgos/sublime-DefaultFileType/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DelayedSaveAll",
+			"details": "https://github.com/shagabutdinov/sublime-delayed-save-all",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -222,7 +243,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/yaworsw/Sublime-DeleteCurrentFile/tags"
+					"tags": true
 				}
 			]
 		},
@@ -233,7 +254,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/harawata/sublime-delete-lines/tags"
+					"tags": true
 				}
 			]
 		},
@@ -244,7 +265,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/skat-delayed/subl-deleteOnError-cs/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -254,31 +275,40 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/artkorsun/DelphiStyleBookmarks/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Dependents",
-			"details": "https://github.com/mrjoelkemp/sublime-dependents",
+			"details": "https://github.com/mrjoelkemp/Dependents",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/mrjoelkemp/sublime-dependents/tags"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Derby - Bourbon & Neat Autocompletions",
 			"details": "https://github.com/redata425/derby",
+			"previous_names": ["Bourbon & Neat Autocompletions"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/redata425/derby/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"Bourbon & Neat Autocompletions"
+			]
+		},
+		{
+			"name": "Deselect",
+			"details": "https://github.com/glutanimate/sublime-deselect",
+			"labels": ["text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
 			]
 		},
 		{
@@ -287,7 +317,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/fgb/desert_night/tags"
+					"tags": true
 				}
 			]
 		},
@@ -298,7 +328,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vlakarados/devastate"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DevastateMini",
+			"details": "https://github.com/shagabutdinov/sublime-devastate-mini",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -308,7 +350,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vitorbritto/sublime-devdocs/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -318,7 +360,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/RobinMalfait/Devrabbit-Paste-Sublime-Text-2/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -328,16 +370,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/philipguin/dfml-sublime-package/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/Dictionaries",
+			"name": "Diction",
+			"details": "https://github.com/GeeF/SublimeDiction",
+			"labels": ["linting", "stylecheck"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/Dictionaries/tree/master"
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/titoBouzout/Dictionaries",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -346,7 +400,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Zinggi/DictionaryAutoComplete/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -357,18 +411,29 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/zsong/diffy/tags"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Dimmed Color Scheme",
 			"details": "https://github.com/uonick/dimmed",
-			"labels": ["color scheme"],
+			"labels": ["color scheme", "dimmed", "base16"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/uonick/dimmed/tree/master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Dimmed UI",
+			"details": "https://github.com/uonick/dimmed-ui",
+			"labels": ["theme", "dimmed ui"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -378,7 +443,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/davepeck/DirectorySettings/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -388,7 +453,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/mkleehammer/dired/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Direnv",
+			"details": "https://github.com/fainder/sublime-direnv",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -398,7 +473,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/BoundInCode/Display-Functions/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -409,7 +484,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/aziz/DistractionFreeWindow/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DistZilla Build",
+			"details": "https://github.com/tmueller/sublime-distzilla-build",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -418,17 +503,27 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/squ1b3r/Djaneiro/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Django",
+			"details": "https://github.com/mattseymour/sublime-django",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Django Click",
-			"details": "https://github.com/kahi/sublime-django-click",
+			"details": "https://github.com/Proyecto513/sublime-django-click",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kahi/sublime-django-click/tree/master"
+					"tags": true
 				}
 			]
 		},
@@ -438,7 +533,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vladimirnani/DjangoCommands/tree/master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Django Starter",
+			"details": "https://github.com/geekpradd/Sublime-Django-Starter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -448,7 +553,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/saippuakauppias/sublime-text-2-Django-DocsSearch/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -457,7 +562,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/rcaldwel/Django-Tools/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -466,7 +571,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dobarkod/DjangoNoseTestRunner/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -476,7 +581,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/rcaldwel/DNS/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -487,21 +592,33 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/charlesroper/DobDark-Theme/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "DocBlockr",
 			"details": "https://github.com/spadgos/sublime-jsdocs",
+			"donate": "http://pledgie.com/campaigns/16316",
+			"labels": ["documentation", "comments"],
+			"previous_names": ["JSDocs"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/spadgos/sublime-jsdocs/tree/master"
+					"tags": true
 				}
-			],
-			"previous_names": [
-				"JSDocs"
+			]
+		},
+		{
+			"name": "Docker Based Build Systems",
+			"details": "https://github.com/l0rd/sublime-docker",
+			"labels": ["build system","build"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
 			]
 		},
 		{
@@ -511,7 +628,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/asbjornenge/Dockerfile.tmLanguage/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DocPy",
+			"details": "https://github.com/RicherMans/Sublime3-pydoc",
+			"labels":["auto-complete","formatting","snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags":true
 				}
 			]
 		},
@@ -522,7 +650,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/npostulart/doctrine-sublime-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -532,7 +660,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/datevid/sublime-text-doctypes/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -542,11 +670,12 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/skyronic/DogEars/tree/master"
+					"branch": "master"
 				},
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/mulander/DogEars/tree/master"
+					"base": "https://github.com/mulander/DogEars",
+					"branch": "master"
 				}
 			]
 		},
@@ -557,17 +686,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/radiosilence/dogs-colour-scheme/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "doi2bibSublime",
-			"details": "https://github.com/monty5811/doi2bibSublime/",
+			"details": "https://github.com/monty5811/doi2bibSublime",
 			"releases": [
 				{
 					"sublime_text": ">2999",
-					"details": "https://github.com/monty5811/doi2bibSublime/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Dota KV",
+			"details": "https://github.com/bhargavrpatel/dota_kv",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -578,7 +718,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mattbanks/dotfiles-syntax-highlighting-st2/tags"
+					"tags": true
 				}
 			]
 		},
@@ -589,7 +729,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/ZombieHippie/dotjs.tmLanguage/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DotNetComments",
+			"details": "https://github.com/juzzbott/DotNetComments",
+			"labels": ["comments"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -600,7 +751,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dbaines/DotNetNuke-SublimeText-2-Snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -611,7 +762,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Rapptz/doxydoc/tags"
+					"tags": true
 				}
 			]
 		},
@@ -622,7 +773,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/H25/dpaste-sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -633,7 +784,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/zenorocha/dracula-theme/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DRAMA Syntax Highlighter",
+			"details": "https://github.com/woutdp/DRAMASyntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -644,7 +806,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/seiyria/sublime-dreams/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -655,7 +817,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/lsjroberts/drive-colour-scheme/tags"
+					"tags": true
 				}
 			]
 		},
@@ -666,18 +828,29 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dragon/dr_months_calendar/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Drunken NSIS",
 			"details": "https://github.com/idleberg/Drunken-NSIS",
-			"labels": ["auto-complete","nsis"],
+			"labels": ["auto-complete", "nsis"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/idleberg/Drunken-NSIS/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Drunken PHP",
+			"details": "https://github.com/idleberg/Drunken-PHP",
+			"labels": ["auto-complete", "php"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -687,7 +860,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/robballou/drupal-sublimetext/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -697,7 +870,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/flashvnn/Drupal-Completion-ST/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -708,7 +881,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/tanc/sublime-drupal-autocomplete/tags"
+					"tags": true
 				}
 			]
 		},
@@ -719,7 +892,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/juhasz/drupal_sublime-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -729,7 +902,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/seregatte/DrupalContribSearch/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -739,7 +912,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/vaanwd/sublime_drush/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -749,7 +922,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/SubZane/Sublime-Dummy-Image-Generator/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -759,7 +932,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/wjthomas9/duplicate-lines/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -769,17 +942,19 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/jcowgar/sublime-duplicate-same/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
-			"name": "Dust.js",
-			"details": "https://github.com/sntran/sublime-dustjs",
+			"name": "DustBuster",
+			"previous_names": ["Dust.js"],
+			"details": "https://github.com/zanuka/dust-buster",
+			"labels": ["dust", "language syntax", "auto-complete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/sntran/sublime-dustjs/tree/master"
+					"tags": true
 				}
 			]
 		},
@@ -789,14 +964,9 @@
 			"labels": ["build system", "color scheme", "language syntax", "linting"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Adarma/DXL/tree/ST2",
-					"platforms": "windows"
-				},
-				{
-					"sublime_text": ">=3000",
-					"details": "https://github.com/Adarma/DXL/tree/ST3",
-					"platforms": "windows"
+					"sublime_text": "*",
+					"platforms": "windows",
+					"tags": true
 				}
 			]
 		},
@@ -806,7 +976,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dylan-lang/dylan.tmbundle/tree/master"
+					"branch": "master"
 				}
 			]
 		}
