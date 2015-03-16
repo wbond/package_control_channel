@@ -45,6 +45,20 @@
 			]
 		},
 		{
+			"name": "pygments",
+			"load_order": "01",
+			"description": "Python pygments module",
+			"author": "AndreasBackx",
+			"issues": "https://github.com/packagecontrol/pygments/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pygments",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pytz",
 			"load_order": "50",
 			"description": "Python pytz module",
