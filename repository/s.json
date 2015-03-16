@@ -1651,13 +1651,29 @@
 			"details": "https://github.com/airtoxin/Sublime-Sound",
 			"releases": [
 				{
+					"platforms": "osx",
 					"sublime_text": "<3000",
-					"platforms": ["osx", "linux"],
-					"branch": "master"
+					"tags": "st2-osx-"
 				},
 				{
+					"platforms": "linux",
+					"sublime_text": "<3000",
+					"tags": "st2-linux-"
+				},
+				{
+					"platforms": "osx",
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"tags": "st3-osx-"
+				},
+				{
+					"platforms": "linux",
+					"sublime_text": ">=3000",
+					"tags": "st3-linux-"
+				},
+				{
+					"platforms": "windows",
+					"sublime_text": ">=3000",
+					"tags": "st3-windows-"
 				}
 			]
 		},
