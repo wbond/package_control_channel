@@ -417,6 +417,10 @@ class TestContainer(object):
                                      'It is unlikely to specify the prefix '
                                      '"true" use not the boolean `true`')
 
+            elif k == 'branch':
+                self.assertNotEqual(v, "",
+                                    '"branch" must be non-empty')
+
             elif k == 'sha256':
                 self.assertRegex(v, r'(?i)^[0-9a-f]{64}$')
 
