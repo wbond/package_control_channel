@@ -526,6 +526,21 @@
 					"tags": true
 				}
 			]
+		},	
+		{
+			"name": "Django Manage Commands",
+			"details": "https://github.com/vladimirnani/DjangoCommands",
+			"labels": ["Django", "python", "web", "management"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]	
 		},
 		{
 			"name": "Django Starter",
