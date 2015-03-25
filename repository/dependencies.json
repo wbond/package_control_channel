@@ -3,6 +3,20 @@
 	"packages": [],
 	"dependencies": [
 		{
+			"name": "arrow",
+			"load_order": "01",
+			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
+			"author": "douglas-vaz",
+			"issues": "https://github.com/douglas-vaz/arrow/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/douglas-vaz/arrow",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
