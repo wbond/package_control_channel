@@ -1,33 +1,67 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "Vagrant",
 			"details": "https://github.com/Stubbs/sublime-vagrant",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/Stubbs/sublime-vagrant/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Vala",
-			"details": "https://github.com/sepisoad/ValaForSublime",
+			"details": "https://github.com/Chipcius/ValaForSublime",
+			"labels": ["language syntax", "Vala"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/sepisoad/ValaForSublime/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vala-TMBundle",
+			"details": "https://github.com/technosophos/Vala-TMBundle",
+			"labels": ["language syntax", "Vala"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Valgrind",
+			"details": "https://github.com/oliverseal/sublime-text-valgrind",
+			"labels": ["language syntax", "valgrind", "c", "c++", "cpp"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "VAlign",
-			"details": "https://github.com/jlong64/sublime_valign",
+			"details": "https://github.com/jarod2d/sublime_valign",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jlong64/sublime_valign/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vanilla lodash Snippets",
+			"details": "https://github.com/uargh/lodash-sublime-snippets",
+			"labels": ["snippets", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -38,7 +72,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/marcelod/ipsums/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Varnish VCL",
+			"details": "https://github.com/brandonwamboldt/sublime-varnish",
+			"labels": ["vcl", "varnish", "language", "syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -48,7 +93,28 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/rcastagno/sublime_varscoper/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vash",
+			"details": "https://github.com/theoperatore/VashSyntaxDefinition",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VBDotNet",
+			"details": "https://github.com/angryant0007/VBDotNetSyntax",
+			"labels": ["language syntax", "vb", "visual basic"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -57,7 +123,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/VBScript/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -68,7 +134,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/bradsokol/VcsGutter/tags"
+					"tags": true
 				}
 			]
 		},
@@ -79,7 +145,27 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/bjorhn/Sublime-VDF-Languages/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Ver",
+			"details": "https://github.com/nyx-platform/ver-tmbundle",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Verbose",
+			"details": "https://github.com/Starli0n/Verbose",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -89,7 +175,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/pro711/sublime-verilog/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -99,7 +185,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Tian-Changsong/Verilog-Automatic/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VEX Syntax",
+			"details": "https://github.com/WhileRomeBurns/VEX_Syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -108,7 +205,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/splatzgud/VGR-Assistant/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VHDL",
+			"details": "https://github.com/yangsu/sublime-vhdl",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -118,7 +226,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/adampresley/sublime-view-in-browser/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -128,17 +236,39 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/danielhopkins/sublime-view-movement/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VIM Navigation",
+			"details": "https://github.com/demisx/sublime-vim-navigation",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VimL",
+			"details": "https://github.com/SalGnt/Sublime-VimL",
+			"author": "Salvatore Gentile",
+			"labels": ["language", "syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Vintage Escape",
-			"details": "https://github.com/krussell/VintageEscape",
+			"details": "https://github.com/tonymagro/VintageEscape",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/krussell/VintageEscape/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -148,7 +278,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/ignacysokolowski/SublimeVintageNumbers/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -158,7 +288,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jcartledge/vintage-sublime-surround/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -167,7 +297,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/garyc40/Vintage-Origami/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -176,7 +306,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/VintageEx/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -185,21 +315,99 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/guillermooo/Vintageous/tree/master"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "VintageousOrigami",
 			"details": "https://github.com/rodcloutier/Vintageous-Origami",
+			"previous_names": ["Vintageous Origami"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/rodcloutier/Vintageous-Origami/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"Vintageous Origami"
+			]
+		},
+		{
+			"name": "Virgil",
+			"details": "https://github.com/lpstein/sublime-virgil",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Virtual Host Snippet",
+			"details": "https://github.com/unknownuser88/virtualhost",
+			"author": "David Bekoyan",
+			"labels": ["snippets", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Virtualenv",
+			"details": "https://github.com/AdrianLC/sublime-text-virtualenv",
+			"author": "AdrianLC",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Visual Studio Bold Color Scheme",
+			"details": "https://github.com/Trismegistos84/visual-studio-bold",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Visual Studio Dark",
+			"details": "https://github.com/nikeee/visual-studio-dark",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Visualforce",
+			"details": "https://github.com/brucardoso2/sublime-visualforce",
+			"author": "Bruno Cardoso",
+			"labels": ["language syntax", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VisualforcePreview",
+			"details": "https://github.com/Lanceshi2/VisualforcePreview",
+			"author": "Lance Shi",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
 			]
 		},
 		{
@@ -208,7 +416,82 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/tomalec/Sublime-Text-2-Vlt-Plugin/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vn Ime",
+			"details": "https://github.com/yehnkay/VN_IME",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Volt",
+			"details": "https://github.com/phalcon/volt-sublime-textmate",
+			"author": "The Phalcon Team",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vorhees",
+			"details": "https://github.com/frankjonen/vorhees/",
+			"labels": ["color scheme", "formatting", "language syntax"],
+			"readme": "https://raw.githubusercontent.com/frankjonen/vorhees/master/README.md",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Vtex Snippets",
+			"details": "https://github.com/ricardodantas/Vtex-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vue Syntax Highlight",
+			"details": "https://github.com/vuejs/vue-syntax-highlight",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Vuejs Snippets",
+			"details": "https://github.com/filipelinhares/vuejs-snippets-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "VvPHPDollar",
+			"details": "https://github.com/ZhaonanLi/VvPhpDollar",
+			"author": "Zhaonan Li",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
