@@ -1932,11 +1932,13 @@
 		},
 		{
 			"name": "TypeScript",
-			"details": "https://github.com/ericclemmons/sublime-typescript",
+			"details": "https://github.com/Microsoft/TypeScript-Sublime-Plugin",
+			"homepage": "http://typescriptlang.org",
+			"labels": ["auto-complete", "code navigation", "formatting", "language syntax", "snippets", "typescript"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1955,18 +1957,6 @@
 			"details": "https://github.com/RonanDrouglazet/TypescriptCompletion",
 			"labels": ["typescript", "auto-complete", "text manipulation"],
 			"previous_names": ["TSCompletion"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "TypeScriptLang",
-			"details": "https://github.com/Microsoft/TypeScript-Sublime-Plugin",
-			"homepage": "http://typescriptlang.org",
-			"labels": ["auto-complete", "code navigation", "formatting", "language syntax", "snippets", "typescript"],
 			"releases": [
 				{
 					"sublime_text": "*",
