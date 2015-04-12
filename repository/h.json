@@ -24,14 +24,15 @@
 		{
 			"name": "Hackerlime",
 			"details": "https://github.com/kaushik94/hackerlime",
-			"labels": ["hackerrank", "linux"],
+			"labels": ["hackerrank"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"platforms":["linux"],
+					"tags":true
 				}
 			]
-		}
+		},
 		{
 			"name": "HackerTyper",
 			"details": "https://github.com/rexxars/sublime-hacker-typer",
