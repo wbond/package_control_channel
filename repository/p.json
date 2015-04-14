@@ -633,7 +633,7 @@
 			"details": "https://github.com/naomichi-y/php_syntax_checker",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -943,6 +943,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PlasticSCM",
+			"details": "https://github.com/ccll/sublime-plasticscm",
+			"labels": ["scm", "vcs"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1892,6 +1903,17 @@
 		{
 			"name": "Pyxl syntax",
 			"details": "https://github.com/yyjhao/sublime-pyxl",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PyYapf Python Formatter",
+			"details": "https://github.com/jason-kane/PyYapf",
+			"labels": ["python", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",

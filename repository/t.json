@@ -540,6 +540,28 @@
 			]
 		},
 		{
+			"name": "Theme - Cola",
+			"details": "https://github.com/nfour/Sublime-Theme-Cola",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Curiosity",
+			"details": "https://github.com/dmnplb/curiosity",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Cyanide",
 			"details": "https://github.com/lefoy/cyanide-theme",
 			"labels": ["theme"],
@@ -575,6 +597,17 @@
 		{
 			"name": "Theme - DC",
 			"details": "https://github.com/dubeg/theme-dc",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - DefaultPlus",
+			"details": "https://github.com/mediachicken/sublimetext-defaultplus-theme",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -691,6 +724,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Hero",
+			"details": "https://github.com/nickbalestra/hero",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1910,11 +1954,14 @@
 		},
 		{
 			"name": "TypeScript",
-			"details": "https://github.com/ericclemmons/sublime-typescript",
+			"details": "https://github.com/Microsoft/TypeScript-Sublime-Plugin",
+			"homepage": "http://typescriptlang.org",
+			"donate": null,
+			"labels": ["auto-complete", "code navigation", "formatting", "language syntax", "snippets", "typescript", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
