@@ -549,8 +549,12 @@
 			"description": "Chinese Translation for Sublime Text. Support MainMenu ContextMenu TabMenu ,etc. 中文翻译，主菜单，右键菜单，标签菜单。",
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": ">=3000",
-					"tags": true
+					"tags": "st3-"
 				}
 			]
 		},
