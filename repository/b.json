@@ -16,7 +16,18 @@
 			"name": "Babel",
 			"previous_names": ["6to5"],
 			"details": "https://github.com/babel/babel-sublime",
-			"labels": ["language syntax", "snippets", "javascript"],
+			"labels": ["language syntax", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Babel Snippets",
+			"details": "https://github.com/babel/babel-sublime-snippets",
+			"labels": ["snippets", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
