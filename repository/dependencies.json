@@ -59,6 +59,21 @@
 			]
 		},
 		{
+			"name": "PyCrypto",
+			"load_order": "50",
+			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-PyCrypto/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-PyCrypto",
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "pygments",
 			"load_order": "01",
 			"description": "Python pygments module",
