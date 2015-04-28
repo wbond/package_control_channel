@@ -59,6 +59,21 @@
 			]
 		},
 		{
+			"name": "paramiko",
+			"load_order": "51",
+			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-paramiko/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-paramiko",
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
