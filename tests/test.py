@@ -205,7 +205,7 @@ class TestContainer(object):
         self.assertEqual(packages, sorted(packages, key=str_cls.lower),
                          "Packages must be sorted alphabetically (by name)")
 
-    def _test_repository_indents(self, include, contents):
+    def _test_indentation(self, filename, contents):
         for i, line in enumerate(contents.splitlines()):
             self.assertRegex(line, r"^\t*\S",
                              "Indent must be tabs in line %d" % (i + 1))
@@ -594,6 +594,9 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
         for repo in self.j['repositories']:
             self.assertIsInstance(repo, str_cls)
 
+    def test_indentation(self):
+        return self._test_indentation(None, self.source)
+
     def test_channel_repo_order(self):
         repos = self.j['repositories']
         self.assertEqual(repos, sorted(repos, key=str_cls.lower),
@@ -653,7 +656,7 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                 continue
 
             # `include` is for output during tests only
-            yield cls._test_repository_indents, (include, contents)
+            yield cls._test_indentation, (include, contents)
             yield cls._test_repository_keys, (include, data)
             yield cls._test_repository_package_order, (include, data)
 
