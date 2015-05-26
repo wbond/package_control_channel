@@ -396,7 +396,7 @@ class TestContainer(object):
                     v = [v]
                 for plat in v:
                     self.assertRegex(plat,
-                                     r"^\*|(osx|linux|windows)(-x(32|64))?$")
+                                     r"^(\*|(osx|linux|windows)(-x(32|64))?)$")
 
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
