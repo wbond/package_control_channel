@@ -33,7 +33,16 @@
 			]
 		},
 		{
-			"name": "Package Sync",
+			"details": "https://github.com/skuroda/PackageResourceViewer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PackageSync",
 			"details": "https://github.com/utkarsh9891/PackageSync",
 			"labels": ["backup", "restore", "sync", "package"],
 			"releases": [
@@ -41,15 +50,6 @@
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "windows"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/skuroda/PackageResourceViewer",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
