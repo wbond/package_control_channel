@@ -65,7 +65,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -170,7 +170,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -227,6 +227,19 @@
 					"sublime_text": ">=3000",
 					"base": "https://github.com/born2c0de/Incrementor",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Indent and braces",
+			"description": "Indent selection and wrap it in braces.",
+			"author": "Simon Epskamp (Epskampie)",
+			"details": "https://github.com/Epskampie/sublime_indent_and_braces",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -314,7 +327,7 @@
 		},
 		{
 			"name": "Inline Google Translate",
-			"details": "https://github.com/MtimerCMS/SublimeText-Google-Translate-Plugin",
+			"details": "https://github.com/MTimer/SublimeText-Google-Translate-Plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -339,7 +352,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -400,6 +413,28 @@
 			]
 		},
 		{
+			"name": "Insert to Column",
+			"details": "https://github.com/abluescarab/sublime_insert-to-column",
+			"labels": ["formatting", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Inspired GitHub Color Scheme",
+			"details": "https://github.com/sethlopezme/InspiredGitHub.tmtheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Instacode",
 			"details": "https://github.com/Ndushi/InstacodeSublime",
 			"releases": [
@@ -425,12 +460,33 @@
 			]
 		},
 		{
+			"name": "Intellitip",
+			"details": "https://github.com/jbrooksuk/Intellitip",
+			"labels": ["auto-complete", "completion", "help", "hint", "php"],
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Internet Search",
 			"details": "https://github.com/krasun/SublimeInternetSearch",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Interpol",
+			"details": "https://github.com/kode4food/interpol-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -452,6 +508,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Ionic Framework Extended Autocomplete",
+			"details": "https://github.com/matheuscas/SublimeIonic",
+			"labels":["auto-complete", "completion", "ionic framework"],
+			"author":"Matheus Cardoso",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -556,6 +624,17 @@
 			]
 		},
 		{
+			"name": "Iron router snippets",
+			"details": "https://github.com/Ogamedia/Router",
+			"labels": ["snippets", "meteor", "router", "Iron router"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ironman Color Scheme",
 			"details": "https://github.com/firerishi/ironman-color-scheme",
 			"labels": ["color scheme"],
@@ -604,6 +683,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ixio",
+			"details": "https://github.com/jabyrd3/sublime-ixio",
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}

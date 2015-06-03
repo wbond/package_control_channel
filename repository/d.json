@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "Dart",
-			"details": "https://github.com/guillermooo/dart-sublime-bundle",
+			"details": "https://github.com/guillermooo/dart-sublime-bundle-releases",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -280,8 +280,19 @@
 			]
 		},
 		{
+			"name": "Demain Color Scheme",
+			"details": "https://github.com/appleton/demain",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dependents",
-			"details": "https://github.com/mrjoelkemp/sublime-dependents",
+			"details": "https://github.com/mrjoelkemp/Dependents",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -290,13 +301,14 @@
 			]
 		},
 		{
-			"name": "Derby - Bourbon & Neat Autocompletions",
-			"details": "https://github.com/redata425/derby",
-			"previous_names": ["Bourbon & Neat Autocompletions"],
+			"name": "Derby",
+			"details": "https://github.com/rossedman/derby",
+			"previous_names": ["Bourbon & Neat Autocompletions", "Derby - Bourbon & Neat Autocompletions"],
+			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -371,6 +383,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Diction",
+			"details": "https://github.com/GeeF/SublimeDiction",
+			"labels": ["linting", "stylecheck"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -456,6 +480,16 @@
 			]
 		},
 		{
+			"name": "DisableArrowKeys",
+			"details": "https://github.com/daytonn/DisableArrowKeys",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Display Functions (Java)",
 			"details": "https://github.com/BoundInCode/Display-Functions",
 			"releases": [
@@ -477,6 +511,16 @@
 			]
 		},
 		{
+			"name": "DistZilla Build",
+			"details": "https://github.com/tmueller/sublime-distzilla-build",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/squ1b3r/Djaneiro",
 			"releases": [
 				{
@@ -486,22 +530,47 @@
 			]
 		},
 		{
+			"name": "Django",
+			"details": "https://github.com/mattseymour/sublime-django",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Django Click",
 			"details": "https://github.com/Proyecto513/sublime-django-click",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Django Manage Commands",
 			"details": "https://github.com/vladimirnani/DjangoCommands",
+			"labels": ["Django", "python", "web", "management"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "Django Starter",
+			"details": "https://github.com/geekpradd/Sublime-Django-Starter",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -569,7 +638,7 @@
 		},
 		{
 			"name": "Docker Based Build Systems",
-			"details": "https://github.com/l0rd/sublime-docker",
+			"details": "https://github.com/domeide/sublime-docker",
 			"labels": ["build system","build"],
 			"releases": [
 				{
@@ -587,6 +656,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DocPy",
+			"details": "https://github.com/RicherMans/Sublime3-pydoc",
+			"labels":["auto-complete","formatting","snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags":true
 				}
 			]
 		},
@@ -673,6 +753,17 @@
 			"name": "doTjs Template Syntax Highlighting",
 			"details": "https://github.com/ZombieHippie/dotjs.tmLanguage",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DotNetComments",
+			"details": "https://github.com/juzzbott/DotNetComments",
+			"labels": ["comments"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -863,6 +954,16 @@
 			]
 		},
 		{
+			"name": "DummyData",
+			"details": "https://github.com/blcook223/DummyData",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Duplicate Lines",
 			"details": "https://github.com/wjthomas9/duplicate-lines",
 			"releases": [
@@ -883,12 +984,14 @@
 			]
 		},
 		{
-			"name": "Dust.js",
-			"details": "https://github.com/sntran/sublime-dustjs",
+			"name": "DustBuster",
+			"previous_names": ["Dust.js"],
+			"details": "https://github.com/zanuka/dust-buster",
+			"labels": ["dust", "language syntax", "auto-complete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},

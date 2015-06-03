@@ -2,6 +2,17 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "W2P",
+			"details": "https://bitbucket.org/kfog/w2p",
+			"labels": ["web2py"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "W3CValidators",
 			"details": "https://github.com/dubharmonic/Sublime-W3CValidators",
 			"labels": ["html", "svg", "validator"],
@@ -15,7 +26,7 @@
 		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
-			"labels": ["time tracking"],
+			"labels": ["time tracking", "coding", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -75,6 +86,17 @@
 			]
 		},
 		{
+			"name": "WebdriverIO",
+			"details": "https://github.com/webdriverio/sublime-bundle",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WebExPert - ColorScheme",
 			"details": "https://github.com/matiaspub/WebExPertColorScheme",
 			"labels": ["color scheme"],
@@ -98,6 +120,17 @@
 		{
 			"name": "WebFont",
 			"details": "https://github.com/WebFont/webfont",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WebGLCompletions",
+			"details": "https://github.com/katsew/WebGLCompletions",
+			"labels": ["auto-complete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -232,6 +265,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Wild Cherry",
+			"details": "https://github.com/mashaal/wild-cherry",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -386,10 +430,10 @@
 		},
 		{
 			"name": "WordpressDev",
-			"details": "https://github.com/huntlyc/Sublime2-Wordpress-Dev-Plugin",
+			"details": "https://github.com/huntlyc/Sublime-Wordpress-Dev-Plugin",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -457,7 +501,7 @@
 		},
 		{
 			"name": "wpseek.com WordPress Developer Assistant",
-			"details": "https://github.com/AlphawolfWMP/sublime-text-2-wpseek",
+			"details": "https://github.com/wpseek/sublime-text-2-wpseek",
 			"previous_names": ["wpseek.com WordPress Function Lookup"],
 			"releases": [
 				{
