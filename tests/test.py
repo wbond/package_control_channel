@@ -24,12 +24,15 @@ if sys.version_info >= (3,):
     from urllib.request import urlopen
     from urllib.error import HTTPError
     from urllib.parse import urljoin
+
     generator_method_type = 'method'
     str_cls = str
 else:
-    from . import unittest_compat  # NOQA (monkeypatches the unittest module)
+    from . import unittest_compat
     from urlparse import urljoin
     from urllib2 import HTTPError, urlopen
+
+    unittest_compat.inject_into_unittest()
     generator_method_type = 'instancemethod'
     str_cls = unicode  # NOQA (obviously undefined in Py3)
 
