@@ -40,17 +40,6 @@
 			]
 		},
 		{
-			"name": "UFA Syntax",
-			"details": "https://github.com/msal/sublime-ufa",
-			"labels": ["text syntax", "syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "UIkit autocomplete",
 			"details": "https://github.com/uikit/uikit-sublime",
 			"labels": ["auto-complete"],
@@ -76,7 +65,18 @@
 		{
 			"name": "UMD snippets",
 			"details": "https://github.com/garrettn/sublime-umd-snippets",
-			"labels": ["JavaScript", "snippets"],
+			"labels": ["javascript", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Uncrustify",
+			"details": "https://github.com/obxyann/Sublime-Uncrustify",
+			"labels": ["formatting", "c", "c++", "java", "formatter", "beautifier", "code style"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -110,7 +110,7 @@
 			"name": "Underscorejs snippets",
 			"details": "https://github.com/AntouanK/sublime-underscorejs-snippets",
 			"author": "@antouank",
-			"labels": ["snippets", "auto-complete", "JavaScript", "underscorejs", "underscore.js"],
+			"labels": ["snippets", "auto-complete", "javascript", "underscorejs", "underscore.js"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -138,11 +138,32 @@
 			]
 		},
 		{
+			"name": "UNIFA",
+			"previous_names": ["UFA Syntax"],
+			"details": "https://github.com/msal/sublime-unifa",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/rchl/UnindentPreprocessor",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UniqueWindow",
+			"details": "https://github.com/Julow/Sublime-UniqueWindow",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -258,7 +279,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
