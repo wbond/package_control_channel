@@ -583,9 +583,11 @@ class TestContainer(object):
 class DefaultChannelTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
-    with _open('channel.json') as f:
-        source = f.read().decode('utf-8', 'replace')
-        j = json.loads(source)
+    @classmethod
+    def setUpClass(cls):
+        with _open('channel.json') as f:
+            cls.source = f.read().decode('utf-8', 'replace')
+            cls.j = json.loads(cls.source)
 
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
