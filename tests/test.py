@@ -600,8 +600,12 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
     def test_indentation(self):
         return self._test_indentation(None, self.source)
 
-    def test_channel_repo_order(self):
+    def test_channel_repositories(self):
         repos = self.j['repositories']
+        for repo in repos:
+            self.assertRegex(repo, r"^(\.|https://)",
+                             "Repositories must be relative urls or use the "
+                             "HTTPS protocol")
         self.assertEqual(repos, sorted(repos, key=str_cls.lower),
                          "Repositories must be sorted alphabetically")
 
