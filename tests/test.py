@@ -151,15 +151,19 @@ class TestContainer(object):
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
+        keys = ('schema_version', 'packages', 'dependencies', 'includes')
         self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
         self.assertIn('schema_version', data)
         self.assertEqual(data['schema_version'], '3.0.0')
 
         listkeys = [k for k in ('packages', 'dependencies', 'includes')
                     if k in data]
-        self.assertGreater(len(listkeys), 0)
+        self.assertGreater(len(listkeys), 0, "Must contain something")
         for k in listkeys:
             self.assertIsInstance(data[k], list)
+
+        for k in data:
+            self.assertIn(k, keys, "Unexpected key")
 
     def _test_dependency_order(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
