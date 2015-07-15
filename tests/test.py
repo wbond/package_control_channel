@@ -628,11 +628,6 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             cls.source = f.read().decode('utf-8', 'replace')
             cls.j = json.loads(cls.source)
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.source = None
-        cls.j = None
-
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
         self.assertEqual(keys, ['repositories', 'schema_version'])
