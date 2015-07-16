@@ -2,6 +2,8 @@ import sys
 import re
 import unittest
 
+from functools import wraps
+
 
 def inject_into_unittest():
     if sys.version_info < (2, 7):
@@ -63,6 +65,20 @@ def inject_into_unittest():
                 self.fail(msg)
         unittest.TestCase.assertIsInstance = assertIsInstance
 
+        # Patch in setUpClass
+        original_setUp = unittest.TestCase.setUp
+
+        @wraps(original_setUp)
+        def setUp(self):
+            original_setUp(self)
+            cls = self.__class__
+            if not hasattr(self, '_class_set_up'):
+                self._class_set_up = True
+                if hasattr(cls, "setUpClass"):
+                    cls.setUpClass()
+        unittest.TestCase.setUp = setUp
+
+        # TODO tearDownClass
     else:
         unittest.TestCase.assertRegex = unittest.TestCase.assertRegexpMatches
         unittest.TestCase.assertNotRegex = unittest.TestCase.assertNotRegexpMatches
