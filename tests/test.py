@@ -536,11 +536,13 @@ class TestContainer(object):
             if re.match(r'https?://', path, re.I) is not None:
                 # Download the repository
                 try:
-                    with urlopen(path) as f:
-                        source = f.read().decode("utf-8", 'replace')
+                    f = urlopen(path)
+                    source = f.read()
+                    f.close()
                 except Exception as e:
                     yield cls._fail("Downloading %s failed" % path, e)
                     return
+                source = source.decode("utf-8", 'replace')
             else:
                 try:
                     with _open(path) as f:
