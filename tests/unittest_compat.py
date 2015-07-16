@@ -62,18 +62,32 @@ def inject_into_unittest():
                         msg = '%s is not an instance of %r' % (obj, cls)
                     self.fail(msg)
 
-            # Patch in setUpClass
-            @wraps(unittest.TestCase.setUp)  # no need to call, it's just `pass`
-            def setUp(self):
-                cls = self.__class__
-                if not hasattr(self, '_class_set_up'):
-                    self._class_set_up = True
-                    if hasattr(cls, "setUpClass"):
-                        cls.setUpClass()
-
-            # TODO tearDownClass
-
         unittest.TestCase = PatchedTestCase
+
+        # Patch setUpClass and tearDownClass into unittest.TestSuite
+        def run(self, result):
+            def run_if_attr(obj, attrname):
+                method = getattr(obj, attrname, None)
+                if method:
+                    method()
+
+            last_class = None
+            for test in self._tests:
+                if last_class.__class__ != test.__class__:
+                    if last_class is not None:
+                        run_if_attr(last_class, 'tearDownClass')
+                    last_class = test.__class__
+                    run_if_attr(last_class, 'setUpClass')
+
+                if result.shouldStop:
+                    break
+                test(result)
+
+            if last_class is not None:
+                run_if_attr(last_class, 'tearDownClass')
+
+            return result
+        unittest.TestSuite.run = run
 
     elif sys.version_info < (3, 2):
         unittest.TestCase.assertRegex = unittest.TestCase.assertRegexpMatches
