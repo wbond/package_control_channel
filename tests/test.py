@@ -666,7 +666,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             self.assertIsInstance(repo, str_cls)
 
     def test_indentation(self):
-        return self._test_indentation(None, self.source)
+        return self._test_indentation('channel.json', self.source)
 
     def test_channel_repositories(self):
         repos = self.j['repositories']
@@ -727,6 +727,9 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
 
         for include in self.j['includes']:
             self.assertIsInstance(include, str_cls)
+
+    def test_indentation(self):
+        return self._test_indentation('repository.json', self.source)
 
     @classmethod
     def generate_include_tests(cls, stream):
