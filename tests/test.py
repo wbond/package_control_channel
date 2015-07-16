@@ -69,9 +69,20 @@ def generate_test_methods(cls, stream):
     generator.
     Note: The generator function must be a classmethod!
 
+    If a "pre_generate" classmethod exists, it will be run before the generator
+    functions.
+
     Generate tests using the following statement:
         yield method, (arg1, arg2, arg3)  # ...
     """
+    attributes = list(cls.__dict__.keys())
+    if 'pre_generate' in attributes:
+        func = getattr(cls, 'pre_generate')
+        if not func.__class__.__name__ == generator_method_type:
+            raise TypeError("Pre-Generator method must be classmethod")
+
+        func()
+
     for name in list(cls.__dict__.keys()):
         generator = getattr(cls, name)
         if not name.startswith("generate_") or not callable(generator):
@@ -624,9 +635,16 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        with _open('channel.json') as f:
-            cls.source = f.read().decode('utf-8', 'replace')
-            cls.j = json.loads(cls.source)
+        super(DefaultChannelTests, cls).setUpClass()
+        cls.pre_generate()
+
+    # We need cls.j this for generating tests
+    @classmethod
+    def pre_generate(cls):
+        if not hasattr(cls, 'j'):
+            with _open('channel.json') as f:
+                cls.source = f.read().decode('utf-8', 'replace')
+                cls.j = json.loads(cls.source)
 
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
@@ -675,9 +693,18 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
 class DefaultRepositoryTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
-    with _open('repository.json') as f:
-        source = f.read().decode('utf-8', 'replace')
-        j = json.loads(source)
+    @classmethod
+    def setUpClass(cls):
+        super(DefaultRepositoryTests, cls).setUpClass()
+        cls.pre_generate()
+
+    # We need cls.j this for generating tests
+    @classmethod
+    def pre_generate(cls):
+        if not hasattr(cls, 'j'):
+            with _open('repository.json') as f:
+                cls.source = f.read().decode('utf-8', 'replace')
+                cls.j = json.loads(cls.source)
 
     def test_repository_keys(self):
         keys = sorted(self.j.keys())
