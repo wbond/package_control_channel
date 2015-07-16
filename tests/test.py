@@ -577,6 +577,7 @@ class TestContainer(object):
             if schema != '3.0.0':
                 stream.write("skipping (schema version %s)"
                              % data['schema_version'])
+                cls.skipped_repositories[schema] += 1
                 return
             else:
                 stream.write("done")
@@ -645,6 +646,14 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             with _open('channel.json') as f:
                 cls.source = f.read().decode('utf-8', 'replace')
                 cls.j = json.loads(cls.source)
+
+            from collections import defaultdict
+            cls.skipped_repositories = defaultdict(int)
+
+    @classmethod
+    def tearDownClass(cls):
+        if cls.skipped_repositories:
+            print("Repositories skipped: %s" % dict(cls.skipped_repositories))
 
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
