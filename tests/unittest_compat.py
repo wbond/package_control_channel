@@ -6,79 +6,75 @@ from functools import wraps
 
 
 def inject_into_unittest():
+    assert sys.version_info < (3,)
+
     if sys.version_info < (2, 7):
-        def assertIn(self, member, container, msg=None):
-            """Just like self.assertTrue(a in b), but with a nicer default message."""
-            if member not in container:
-                if not msg:
-                    msg = '%r not found in %r' % (member, container)
-                self.fail(msg)
-        unittest.TestCase.assertIn = assertIn
+        class PatchedTestCase(unittest.TestCase):
+            def assertIn(self, member, container, msg=None):
+                """Just like self.assertTrue(a in b), but with a nicer default message."""
+                if member not in container:
+                    if not msg:
+                        msg = '%r not found in %r' % (member, container)
+                    self.fail(msg)
 
-        def assertNotIn(self, member, container, msg=None):
-            """Just like self.assertTrue(a not in b), but with a nicer default message."""
-            if member in container:
-                if not msg:
-                    msg = '%s unexpectedly found in %s' % (member,
-                                                           container)
-                self.fail(msg)
-        unittest.TestCase.assertNotIn = assertNotIn
+            def assertNotIn(self, member, container, msg=None):
+                """Just like self.assertTrue(a not in b), but with a nicer default message."""
+                if member in container:
+                    if not msg:
+                        msg = '%s unexpectedly found in %s' % (member,
+                                                               container)
+                    self.fail(msg)
 
-        def assertGreater(self, a, b, msg=None):
-            """Just like self.assertTrue(a > b), but with a nicer default message."""
-            if not a > b:
-                if not msg:
-                    msg = '%s not greater than %s' % (a, b)
-                self.fail(msg)
-        unittest.TestCase.assertGreater = assertGreater
+            def assertGreater(self, a, b, msg=None):
+                """Just like self.assertTrue(a > b), but with a nicer default message."""
+                if not a > b:
+                    if not msg:
+                        msg = '%s not greater than %s' % (a, b)
+                    self.fail(msg)
 
-        def assertRegexpMatches(self, text, expected_regexp, msg=None):
-            """Fail the test unless the text matches the regular expression."""
-            if isinstance(expected_regexp, basestring):
-                expected_regexp = re.compile(expected_regexp)
-            if not expected_regexp.search(text):
-                msg = msg or "Regexp didn't match"
-                msg = '%s: %r not found in %r' % (msg, expected_regexp.pattern, text)
-                raise self.failureException(msg)
-        unittest.TestCase.assertRegex = assertRegexpMatches
+            def assertRegex(self, text, expected_regexp, msg=None):
+                """Fail the test unless the text matches the regular expression."""
+                if isinstance(expected_regexp, basestring):
+                    expected_regexp = re.compile(expected_regexp)
+                if not expected_regexp.search(text):
+                    msg = msg or "Regexp didn't match"
+                    msg = '%s: %r not found in %r' % (msg, expected_regexp.pattern, text)
+                    raise self.failureException(msg)
 
-        def assertNotRegexpMatches(self, text, unexpected_regexp, msg=None):
-            """Fail the test if the text matches the regular expression."""
-            if isinstance(unexpected_regexp, basestring):
-                unexpected_regexp = re.compile(unexpected_regexp)
-            match = unexpected_regexp.search(text)
-            if match:
-                msg = msg or "Regexp matched"
-                msg = '%s: %r matches %r in %r' % (msg,
-                                                   text[match.start():match.end()],
-                                                   unexpected_regexp.pattern,
-                                                   text)
-                raise self.failureException(msg)
-        unittest.TestCase.assertNotRegex = assertNotRegexpMatches
+            def assertNotRegex(self, text, unexpected_regexp, msg=None):
+                """Fail the test if the text matches the regular expression."""
+                if isinstance(unexpected_regexp, basestring):
+                    unexpected_regexp = re.compile(unexpected_regexp)
+                match = unexpected_regexp.search(text)
+                if match:
+                    msg = msg or "Regexp matched"
+                    msg = '%s: %r matches %r in %r' % (msg,
+                                                       text[match.start():match.end()],
+                                                       unexpected_regexp.pattern,
+                                                       text)
+                    raise self.failureException(msg)
 
-        def assertIsInstance(self, obj, cls, msg=None):
-            """Same as self.assertTrue(isinstance(obj, cls)), with a nicer
-            default message."""
-            if not isinstance(obj, cls):
-                if not msg:
-                    msg = '%s is not an instance of %r' % (obj, cls)
-                self.fail(msg)
-        unittest.TestCase.assertIsInstance = assertIsInstance
+            def assertIsInstance(self, obj, cls, msg=None):
+                """Same as self.assertTrue(isinstance(obj, cls)), with a nicer
+                default message."""
+                if not isinstance(obj, cls):
+                    if not msg:
+                        msg = '%s is not an instance of %r' % (obj, cls)
+                    self.fail(msg)
 
-        # Patch in setUpClass
-        original_setUp = unittest.TestCase.setUp
+            # Patch in setUpClass
+            @wraps(unittest.TestCase.setUp)  # no need to call, it's just `pass`
+            def setUp(self):
+                cls = self.__class__
+                if not hasattr(self, '_class_set_up'):
+                    self._class_set_up = True
+                    if hasattr(cls, "setUpClass"):
+                        cls.setUpClass()
 
-        @wraps(original_setUp)
-        def setUp(self):
-            original_setUp(self)
-            cls = self.__class__
-            if not hasattr(self, '_class_set_up'):
-                self._class_set_up = True
-                if hasattr(cls, "setUpClass"):
-                    cls.setUpClass()
-        unittest.TestCase.setUp = setUp
+            # TODO tearDownClass
 
-        # TODO tearDownClass
-    else:
+        unittest.TestCase = PatchedTestCase
+
+    elif sys.version_info < (3, 2):
         unittest.TestCase.assertRegex = unittest.TestCase.assertRegexpMatches
         unittest.TestCase.assertNotRegex = unittest.TestCase.assertNotRegexpMatches
