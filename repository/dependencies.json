@@ -31,6 +31,34 @@
 			]
 		},
 		{
+			"name": "jinja2",
+			"load_order": "51",
+			"description": "Python Jinja2 module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "markupsafe",
+			"load_order": "50",
+			"description": "Python MarkupSafe module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "oauthlib",
 			"load_order": "50",
 			"description": "Python oauthlib module",
