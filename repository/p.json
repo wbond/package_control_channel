@@ -47,7 +47,7 @@
 			"labels": ["backup", "restore", "sync", "package"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -702,6 +702,28 @@
 			]
 		},
 		{
+			"name": "php-grammar",
+			"details": "https://github.com/gerardroche/sublime-php-grammar",
+			"labels": ["php", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "php-snippets",
+			"details": "https://github.com/gerardroche/sublime-php-snippets",
+			"labels": ["php", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PHP-Twig",
 			"details": "https://github.com/Anomareh/PHP-Twig.tmbundle",
 			"releases": [
@@ -1130,6 +1152,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Postap",
+			"details": "https://github.com/LPGhatguy/Postap",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2039,7 +2072,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/facelessuser/Pywin32",
+			"details": "https://github.com/SublimeText/Pywin32",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
