@@ -1,20 +1,22 @@
-	"schema_version": "3.0.0",
+{
+    "schema_version": "3.0.0",
 
-	"packages": [
+    "packages": [
 
-		{
-			"name": "Wildlife",
-			"details": "https://github.com/tushortz/wildlife-sublime-theme",
-			"author": "Taiwo Kareem",
-			"labels": ["color schemes","syntax highlighter","text manipulation", 
+        {
+            "name": "Wildlife Theme",
+            "details": "https://github.com/tushortz/wildlife-sublime-theme",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "tags": true
+                }
+            ],
+            "labels": ["color schemes","syntax highlighter","text manipulation", 
 						"formatting", "sublime text color",
 						"sublime text colour schemes", "sublime text vibrant themes", 
 						"beautiful theme", "best theme", "syntax highlighter", "theme", 
-						"linting", "language syntax", "colour schemes"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true,
-				}
-			]
-		}
+						"linting", "language syntax", "colour schemes"]
+        }
+    ]
+}
