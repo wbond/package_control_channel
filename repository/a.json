@@ -64,6 +64,17 @@
 			]
 		},
 		{
+			"name": "AceJump",
+			"details": "https://github.com/ice9js/ace-jump-sublime",
+			"labels": ["code navigation", "text navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ACF Snippets",
 			"details": "https://github.com/iamhexcoder/acf_snippets",
 			"releases": [
@@ -196,6 +207,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Advanced Substation Alpha (ASS)",
+			"details": "https://github.com/jfcherng/Sublime-ASS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -967,11 +989,11 @@
 		},
 		{
 			"name": "ARIA attributes and roles",
-			"details": "https://github.com/indrekpaas/ARIA",
-			"labels": ["aria", "auto-complete", "html"],
+			"details": "https://github.com/indrekpaas/ARIA-attributes-and-roles",
+			"labels": ["a11y", "accessibility", "aria", "auto-complete", "html"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -1111,6 +1133,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Asciidoctor",
+			"details": "https://github.com/asciidoctor/sublimetext-asciidoc",
+			"author": "Jakub Jirutka",
+			"labels": ["language syntax", "snippets", "asciidoc"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

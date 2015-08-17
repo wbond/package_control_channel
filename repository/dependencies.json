@@ -31,6 +31,34 @@
 			]
 		},
 		{
+			"name": "jinja2",
+			"load_order": "51",
+			"description": "Python Jinja2 module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "markupsafe",
+			"load_order": "50",
+			"description": "Python MarkupSafe module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "oauthlib",
 			"load_order": "50",
 			"description": "Python oauthlib module",
@@ -201,6 +229,34 @@
 					"version": "1.0.0",
 					"url": "http://packagecontrol.io/ssl/1.0.0/ssl-windows.sublime-package",
 					"sha256": "efe25e3bdf2e8f791d86327978aabe093c9597a6ceb8c2fb5438c1d810e02bea"
+				}
+			]
+		},
+		{
+			"name": "StyledPopup",
+			"load_order": "50",
+			"description": "Pyton module for Sublime Text to automatically style popups based on active color scheme.",
+			"author": "huot25",
+			"issues": "https://github.com/huot25/StyledPopup/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"base": "https://github.com/huot25/StyledPopup",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "tabulate",
+			"load_order": "01",
+			"description": "Python tabulate module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/tabulate/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/tabulate",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		}

@@ -47,7 +47,7 @@
 			"labels": ["backup", "restore", "sync", "package"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -446,6 +446,17 @@
 			]
 		},
 		{
+			"name": "PEPE Assembly",
+			"details": "https://github.com/PatriqDesigns/Sublime-PEPE-Assembly",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Perforce",
 			"details": "https://github.com/ericmartel/Sublime-Text-2-Perforce-Plugin",
 			"releases": [
@@ -702,6 +713,28 @@
 			]
 		},
 		{
+			"name": "php-grammar",
+			"details": "https://github.com/gerardroche/sublime-php-grammar",
+			"labels": ["php", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "php-snippets",
+			"details": "https://github.com/gerardroche/sublime-php-snippets",
+			"labels": ["php", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PHP-Twig",
 			"details": "https://github.com/Anomareh/PHP-Twig.tmbundle",
 			"releases": [
@@ -796,7 +829,8 @@
 		},
 		{
 			"name": "phpfmt",
-			"details": "https://github.com/dericofilho/sublime-phpfmt",
+			"details": "https://github.com/phpfmt/sublime-phpfmt",
+			"issues": "https://github.com/phpfmt/php.tools/issues",
 			"donate": "http://cirello.org/",
 			"labels": ["language syntax", "formatter", "php", "formatting", "psr1", "psr2"],
 			"releases": [
@@ -1130,6 +1164,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Postap",
+			"details": "https://github.com/LPGhatguy/Postap",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1668,6 +1713,17 @@
 			]
 		},
 		{
+			"name": "Pushbullet",
+			"details": "https://github.com/xarnze/sublimepushbullet",
+			"labels": ["pushbullet"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PxToEm",
 			"details": "https://github.com/ningbit/sublime_pxtoem",
 			"releases": [
@@ -2039,7 +2095,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/facelessuser/Pywin32",
+			"details": "https://github.com/SublimeText/Pywin32",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
