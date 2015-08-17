@@ -446,12 +446,35 @@
 			]
 		},
 		{
+			"name": "Notes",
+			"details": "https://github.com/toxicblu/sublime-notes",
+			"labels": ["language syntax", "documentation", "notes"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Notifications",
 			"details": "https://github.com/thomscode/Notifications",
 			"releases": [
 				{
 					"sublime_text": ">3000",
 					"base": "https://github.com/thomscode/notifications",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NP-Complete",
+			"labels": ["completions"],
+			"details": "https://github.com/Nax/sublime-np-complete",
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]

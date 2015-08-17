@@ -73,11 +73,13 @@ def inject_into_unittest():
 
             last_class = None
             for test in self._tests:
-                if last_class.__class__ != test.__class__:
-                    if last_class is not None:
-                        run_if_attr(last_class, 'tearDownClass')
-                    last_class = test.__class__
-                    run_if_attr(last_class, 'setUpClass')
+                if isinstance(test, unittest.TestCase):
+                    cur_class = test.__class__
+                    if last_class.__class__ != cur_class:
+                        if last_class is not None:
+                            run_if_attr(last_class, 'tearDownClass')
+                        run_if_attr(cur_class, 'setUpClass')
+                        last_class = cur_class
 
                 if result.shouldStop:
                     break
