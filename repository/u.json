@@ -1,12 +1,12 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"details": "https://github.com/SublimeText/UberSelection",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/UberSelection/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -17,7 +17,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/imagentleman/ublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -26,7 +26,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/frankban/UbuntuPaste/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -35,32 +35,77 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/dave-f/udp-trace/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
-				"name": "UIkit class autocomplete",
-				"details": "https://github.com/easingthemes/UIkit-Sublime",
-				"labels": ["auto-complete"],
-				"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/easingthemes/UIkit-Sublime/tree/master"
-				}
-			]
-		},
-		{
-			"name":		"Ulysses Style Sheets",
-			"details": "https://github.com/soulmen/ulss-sublime-plugin",
-			"labels":	["auto-complete", "language syntax"],
+			"name": "UIkit autocomplete",
+			"details": "https://github.com/uikit/uikit-sublime",
+			"labels": ["auto-complete"],
+			"previous_names": ["UIkit class autocomplete"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/soulmen/ulss-sublime-plugin/tags"
+					"tags": true
 				}
 			]
-		},		
+		},
+		{
+			"name": "Ulysses Style Sheets",
+			"details": "https://github.com/soulmen/ulss-sublime-plugin",
+			"labels": ["auto-complete", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Umajin",
+			"details": "https://github.com/AdamHarte/SublimeText-Umajin",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "UMD snippets",
+			"details": "https://github.com/garrettn/sublime-umd-snippets",
+			"labels": ["javascript", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Uncrustify",
+			"details": "https://github.com/obxyann/Sublime-Uncrustify",
+			"labels": ["formatting", "c", "c++", "java", "formatter", "beautifier", "code style"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Underliner",
+			"details": "https://github.com/dfleury/underliner",
+			"labels": ["editor", "text selection", "testing", "utilities", "utils", "whitespace"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
 		{
 			"name": "Underscore.js Snippets",
 			"details": "https://github.com/carlo/sublime-underscorejs-snippets",
@@ -68,7 +113,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/carlo/sublime-underscorejs-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -76,11 +121,11 @@
 			"name": "Underscorejs snippets",
 			"details": "https://github.com/AntouanK/sublime-underscorejs-snippets",
 			"author": "@antouank",
-			"labels": ["snippets","auto-complete","JavaScript","underscorejs","underscore.js"],
+			"labels": ["snippets", "auto-complete", "javascript", "underscorejs", "underscore.js"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/AntouanK/sublime-underscorejs-snippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -90,7 +135,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/possan/sublime_unicode_nbsp/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -99,7 +144,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mvoidex/UnicodeMath/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UNIFA",
+			"previous_names": ["UFA Syntax"],
+			"details": "https://github.com/msal/sublime-unifa",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -108,7 +164,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/rchl/UnindentPreprocessor/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UniqueWindow",
+			"details": "https://github.com/Julow/Sublime-UniqueWindow",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "UnitJS",
+			"details": "https://github.com/unitjs/sublime-unitjs",
+			"labels": ["javascript", "nodejs", "testing", "snippets", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -118,7 +195,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/martinsam/sublime-unittest/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -129,17 +206,29 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/michelmcbride/UnitySublimeTextSnippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "Unity Completions",
 			"details": "https://github.com/oferei/sublime-unity-completions",
+			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/oferei/sublime-unity-completions/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unity Completions Light",
+			"details": "https://github.com/oferei/sublime-unity-completions-light",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -148,7 +237,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/UnicornForest/Unity3D/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -158,7 +247,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/fredpointzero/UnityBuild/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -169,7 +258,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/dentedpixel/Unity3d-LeanTween-Snippets/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Unity3D Reference Search",
+			"details": "https://github.com/talitore/Unity3DReference",
+			"labels": ["search"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -179,7 +279,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/UnicornForest/Unity3DScriptReference/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -190,7 +290,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/petereichinger/Unity3D-Shader/tree/master"
+					"tags": true
 				}
 			]
 		},
@@ -201,7 +301,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/UnicornForest/Unity3DSnippets/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -210,7 +310,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/UnofficialDocs/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Unquote",
+			"details": "https://github.com/mradamh/sublime-unquote",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -220,7 +330,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Zinggi/UnrealScriptIDE/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Unsplash",
+			"details": "https://github.com/urre/Unsplash",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -229,7 +349,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mastahyeti/URLEncode/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UWSC",
+			"details": "https://github.com/stuncloud/Sublime_UWSC",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		}

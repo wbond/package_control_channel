@@ -1,0 +1,264 @@
+{
+	"schema_version": "3.0.0",
+	"packages": [],
+	"dependencies": [
+		{
+			"name": "arrow",
+			"load_order": "01",
+			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
+			"author": "douglas-vaz",
+			"issues": "https://github.com/douglas-vaz/arrow/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/douglas-vaz/arrow",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "bz2",
+			"load_order": "02",
+			"description": "Python bz2 module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-bz2/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/codexns/sublime-bz2",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "jinja2",
+			"load_order": "51",
+			"description": "Python Jinja2 module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "markupsafe",
+			"load_order": "50",
+			"description": "Python MarkupSafe module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "oauthlib",
+			"load_order": "50",
+			"description": "Python oauthlib module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/oauthlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/oauthlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "ordereddict",
+			"load_order": "50",
+			"description": "Python ordereddict module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/ordereddict/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/ordereddict",
+					"tags": true,
+					"sublime_text": "<3000"
+				}
+			]
+		},
+		{
+			"name": "paramiko",
+			"load_order": "51",
+			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-paramiko/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-paramiko",
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PyCrypto",
+			"load_order": "50",
+			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-PyCrypto/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-PyCrypto",
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pygments",
+			"load_order": "01",
+			"description": "Python pygments module",
+			"author": "AndreasBackx",
+			"issues": "https://github.com/packagecontrol/pygments/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pygments",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pytz",
+			"load_order": "50",
+			"description": "Python pytz module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pytz/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pytz",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pyyaml",
+			"load_order": "50",
+			"description": "Python PyYAML module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pyyaml/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pyyaml",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "requests",
+			"load_order": "50",
+			"description": "Python requests module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/requests/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/requests",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "requests-oauthlib",
+			"load_order": "51",
+			"description": "Python requests-oauthlib module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/requests-oauthlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/requests-oauthlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "select-windows",
+			"load_order": "02",
+			"description": "Python select module for Sublime Text 2 on Windows",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-select-windows/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/codexns/sublime-select-windows",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ssl-linux",
+			"load_order": "01",
+			"description": "Python _ssl module for Linux",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-ssl-linux/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
+					"version": "1.0.1",
+					"url": "http://packagecontrol.io/ssl/1.0.1/ssl-linux.sublime-package",
+					"sha256": "862d061cbe666777cd1e9cd1cbc7c82f48ad8897dbb68332975f3edf5ce0f38d"
+				}
+			]
+		},
+		{
+			"name": "ssl-windows",
+			"load_order": "01",
+			"description": "Python _ssl module for Sublime Text 2 on Windows",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-ssl-windows/issues",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"platforms": ["windows"],
+					"version": "1.0.0",
+					"url": "http://packagecontrol.io/ssl/1.0.0/ssl-windows.sublime-package",
+					"sha256": "efe25e3bdf2e8f791d86327978aabe093c9597a6ceb8c2fb5438c1d810e02bea"
+				}
+			]
+		},
+		{
+			"name": "StyledPopup",
+			"load_order": "50",
+			"description": "Pyton module for Sublime Text to automatically style popups based on active color scheme.",
+			"author": "huot25",
+			"issues": "https://github.com/huot25/StyledPopup/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"base": "https://github.com/huot25/StyledPopup",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "tabulate",
+			"load_order": "01",
+			"description": "Python tabulate module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/tabulate/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/tabulate",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		}
+	]
+}
