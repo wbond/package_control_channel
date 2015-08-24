@@ -655,6 +655,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         if cls.skipped_repositories:
+            # TODO somehow pass stream here
             print("Repositories skipped: %s" % dict(cls.skipped_repositories))
 
     def test_channel_keys(self):
