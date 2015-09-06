@@ -498,10 +498,6 @@
 			"details": "https://github.com/ensime/ensime-sublime",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
 					"branch": "ST3"
 				}
@@ -745,6 +741,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Exalt",
+			"details": "https://github.com/eerohele/exalt",
+			"labels": ["xml", "html", "xslt", "validation", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64", "linux-x64"],
+					"tags": true
 				}
 			]
 		},

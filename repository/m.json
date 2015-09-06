@@ -450,17 +450,6 @@
 			]
 		},
 		{
-			"name": "Material Spacegray",
-			"details": "https://github.com/saadq/Material-Spacegray",
-			"labels": ["theme", "color scheme", "material"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Material Theme",
 			"details": "https://github.com/equinusocio/material-theme",
 			"labels": ["theme", "color scheme", "material"],
@@ -475,6 +464,18 @@
 			"name": "Material Theme - White Panels",
 			"details": "https://github.com/equinusocio/material-theme-white-panels",
 			"labels": ["theme", "color scheme", "material design"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Materialize",
+			"previous_names": ["Material Spacegray"],
+			"details": "https://github.com/saadq/Materialize",
+			"labels": ["theme", "color scheme", "material"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -757,6 +758,18 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Meta Substitution",
+			"details": "https://github.com/htch/SublimeMetaSubstitutionPlugin",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]
@@ -1677,6 +1690,17 @@
 			"name": "Myrkur Color Scheme",
 			"details": "https://github.com/superjan/myrkur",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MySQL Snippets",
+			"details": "https://github.com/ancor-dev/sublime-sql-snippets",
+			"labels": ["snippets", "mysql", "sql"],
 			"releases": [
 				{
 					"sublime_text": "*",
