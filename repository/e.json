@@ -32,6 +32,18 @@
 			]
 		},
 		{
+			"name": "Easy Open",
+			"details": "https://github.com/mjkaufer/Easy-Open",
+			"author": "mjkaufer",
+			"labels": ["utilities", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Easy Siebel",
 			"details": "https://github.com/ouzklcn/Easy-Siebel",
 			"labels": ["language syntax", "snippets"],
@@ -272,6 +284,16 @@
 			]
 		},
 		{
+			"name": "ElixirPlayground",
+			"details": "https://github.com/gmcabrita/SublimeElixirPlayground",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ElixirSublime",
 			"details": "https://github.com/vishnevskiy/ElixirSublime",
 			"releases": [
@@ -391,6 +413,16 @@
 			]
 		},
 		{
+			"name": "Emoji",
+			"details": "https://github.com/ethanal/SublimeEmoji",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EmoKid Color Scheme",
 			"details": "https://github.com/tdheff/EmoKid",
 			"labels": ["color scheme"],
@@ -473,15 +505,13 @@
 		},
 		{
 			"name": "Ensime",
-			"details": "https://github.com/sublimescala/sublime-ensime",
+			"author": "The Ensime committers",
+			"details": "https://github.com/ensime/ensime-sublime",
+			"labels": ["scala", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "v"
 				}
 			]
 		},
@@ -492,6 +522,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Entropy",
+			"details": "https://bitbucket.org/demandware/entropy",
+			"labels": ["demandware"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -580,6 +621,17 @@
 			]
 		},
 		{
+			"name": "escape & unescape tool",
+			"details": "https://github.com/iahu/escape",
+			"labels": ["escape", "unescape", "utf8"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EsFormatter",
 			"details": "https://github.com/piuccio/sublime-esformatter",
 			"releases": [
@@ -624,6 +676,17 @@
 			"name": "Ethereum",
 			"details": "https://github.com/davidhq/SublimeEthereum",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ETPL",
+			"details": "https://github.com/ecomfe/sublime-etpl",
+			"labels": ["snippets", "language", "syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -701,6 +764,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Exalt",
+			"details": "https://github.com/eerohele/exalt",
+			"labels": ["xml", "html", "xslt", "validation", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64", "linux-x64"],
+					"tags": true
 				}
 			]
 		},

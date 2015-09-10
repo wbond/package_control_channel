@@ -64,6 +64,17 @@
 			]
 		},
 		{
+			"name": "AceJump",
+			"details": "https://github.com/ice9js/ace-jump-sublime",
+			"labels": ["code navigation", "text navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ACF Snippets",
 			"details": "https://github.com/iamhexcoder/acf_snippets",
 			"releases": [
@@ -201,6 +212,17 @@
 			]
 		},
 		{
+			"name": "Advanced Substation Alpha (ASS)",
+			"details": "https://github.com/jfcherng/Sublime-ASS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AdvancedNewFile",
 			"details": "https://github.com/skuroda/Sublime-AdvancedNewFile",
 			"releases": [
@@ -236,6 +258,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Agola Color Schemes",
+			"details": "https://github.com/UnderlineWords/Agola-Color-Schemes",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -835,6 +868,17 @@
 			]
 		},
 		{
+			"name": "AppendSemiColon",
+			"details": "https://github.com/MauriceZ/AppendSemiColon",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Apple Pips Color Scheme",
 			"details": "https://github.com/idleberg/ApplePips.tmTheme",
 			"labels": ["color scheme"],
@@ -912,6 +956,17 @@
 			]
 		},
 		{
+			"name": "arduino-cli",
+			"details": "https://github.com/jacobrosenthal/arduino-cli",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true,
+					"platforms": ["osx"]
+				}
+			]
+		},
+		{
 			"name": "Arduino-like IDE",
 			"details": "https://github.com/Robot-Will/Stino",
 			"releases": [
@@ -945,11 +1000,11 @@
 		},
 		{
 			"name": "ARIA attributes and roles",
-			"details": "https://github.com/indrekpaas/ARIA",
-			"labels": ["aria", "auto-complete", "html"],
+			"details": "https://github.com/indrekpaas/ARIA-attributes-and-roles",
+			"labels": ["a11y", "accessibility", "aria", "auto-complete", "html"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -1093,6 +1148,18 @@
 			]
 		},
 		{
+			"name": "Asciidoctor",
+			"details": "https://github.com/asciidoctor/sublimetext-asciidoc",
+			"author": "Jakub Jirutka",
+			"labels": ["language syntax", "snippets", "asciidoc"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ASP Snippets",
 			"details": "https://github.com/marcosisocram/asp-snippets",
 			"author": "Marcos Paulo",
@@ -1123,9 +1190,31 @@
 			]
 		},
 		{
+			"name": "AspectJ",
+			"details": "https://github.com/pchaigno/sublime-aspectj",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Asterisk Config",
 			"details": "https://github.com/pnlarsson/SublimeAsteriskConfig",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Asterisk Extended Language",
+			"details": "https://github.com/shakvaal/AEL_syntax",
+			"labels": ["language syntax", "asterisk", "AEL"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1172,6 +1261,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ATS2 Build System",
+			"details": "https://github.com/ShengYun/ATS2-Build-SublimeText3",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -1480,6 +1581,16 @@
 			]
 		},
 		{
+			"name": "AVM2 Pcode Syntax Highlighting",
+			"details": "https://github.com/calculuswhiz/pcode-syntax-definition",
+			"releases":[
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AVR",
 			"details": "https://github.com/kblomqvist/SublimeAVR",
 			"releases": [
@@ -1517,6 +1628,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AzureResourceManager",
+			"details": "https://github.com/GillesZunino/Sublime-AzureResourceManager",
+			"issues": "https://github.com/GillesZunino/Sublime-AzureResourceManager/issues",
+			"labels": ["azure", "resource manager", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
