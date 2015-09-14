@@ -31,6 +31,36 @@
 			]
 		},
 		{
+			"name": "ctypes",
+			"load_order": "01",
+			"description": "Python _ctypes module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-ctypes/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-ctypes",
+					"tags": true,
+					"sublime_text": "<3000",
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "fileio",
+			"load_order": "01",
+			"description": "Python _fileio module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-fileio/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-fileio",
+					"tags": true,
+					"sublime_text": "<3000",
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
 			"name": "jinja2",
 			"load_order": "51",
 			"description": "Python Jinja2 module",
@@ -70,6 +100,33 @@
 					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "multiprocessing",
+			"load_order": "01",
+			"description": "Python _multiprocessing module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-multiprocessing/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-multiprocessing",
+					"tags": true,
+					"sublime_text": "<3000",
+					"platforms": ["windows"]
+				},
+				{
+					"base": "https://github.com/codexns/sublime-multiprocessing",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx"]
+				},
+				{
+					"base": "https://github.com/codexns/sublime-multiprocessing",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["linux"]
 				}
 			]
 		},
@@ -212,6 +269,27 @@
 					"sublime_text": "*",
 					"base": "https://github.com/codexns/sublime-select-windows",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "sqlite3",
+			"load_order": "01",
+			"description": "Python _sqlite3 module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-sqlite3/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-sqlite3",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["windows", "linux"]
+				},
+				{
+					"base": "https://github.com/codexns/sublime-sqlite3",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx"]
 				}
 			]
 		},
