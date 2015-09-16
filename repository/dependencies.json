@@ -31,6 +31,21 @@
 			]
 		},
 		{
+			"name": "coverage",
+			"load_order": "15",
+			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-coverage/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-coverage",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "ctypes",
 			"load_order": "01",
 			"description": "Python _ctypes module",
