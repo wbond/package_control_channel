@@ -288,6 +288,21 @@
 			]
 		},
 		{
+			"name": "shellenv",
+			"load_order": "10",
+			"description": "Access a user's environmental variables as defined in their shell",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/shellenv/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/shellenv",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "sqlite3",
 			"load_order": "01",
 			"description": "Python _sqlite3 module",
