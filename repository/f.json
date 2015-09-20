@@ -12,6 +12,17 @@
 			]
 		},
 		{
+			"name": "F2J - FCore to Java",
+			"details": "https://github.com/hkuplg/sublime-f2j",
+			"labels": ["F2J", "FCore", "FCore to Java", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fabric Engine - KL Language Support",
 			"details": "https://github.com/fabric-engine/Sublime-KL",
 			"previous_names": ["Creation Platform - KL Language Support"],
@@ -133,6 +144,16 @@
 			]
 		},
 		{
+			"name": "Fast Header",
+			"details": "https://github.com/olive007/FastHeader",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/papaDoc/FastSwitch",
 			"releases": [
 				{
@@ -157,11 +178,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -188,6 +209,17 @@
 		{
 			"name": "Feature Presentation",
 			"details": "https://github.com/ctruett/FeaturePresentation",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Fecoding",
+			"details": "https://github.com/pillys/sublime-fecoding",
+			"labels": ["fecoding", "css format", "js format", "html format", "node.js plugins", "file uploader", "svn"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -302,7 +334,7 @@
 		{
 			"name": "FileBrowser",
 			"details": "https://github.com/aziz/SublimeFileBrowser",
-			"labels": ["file navigation", "file creation", "file open"],
+			"labels": ["file navigation", "file creation", "file open", "sidebar"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -327,6 +359,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FileCommands",
+			"details": "https://github.com/tuvistavie/sublime-file-commands",
+			"labels": ["file navigation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -382,6 +425,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FileReloader",
+			"details": "https://github.com/petermac-/SublimeFileReloader",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -472,6 +525,17 @@
 			]
 		},
 		{
+			"name": "FilterPipes",
+			"details": "https://github.com/tylerl/FilterPipes",
+			"labels": ["text manipulation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Find Function Definition",
 			"details": "https://github.com/timdouglas/sublime-find-function-definition",
 			"previous_names": ["Find Function Definiton"],
@@ -493,6 +557,16 @@
 			]
 		},
 		{
+			"name": "Find Yaml Anchor",
+			"details": "https://bitbucket.org/talkerbox/findyamlanchor",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Find++",
 			"details": "https://github.com/twolfson/FindPlusPlus",
 			"labels": ["file navigation", "search"],
@@ -508,7 +582,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -662,6 +736,49 @@
 			]
 		},
 		{
+			"name": "Flask Completions",
+			"details": "https://github.com/geekpradd/Flask-Sublime",
+			"labels": ["auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Flask Starter",
+			"details": "https://github.com/geekpradd/Sublime-Flask-Starter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Flat Chameleon",
+			"details": "https://github.com/r3a1ay/flat-chameleon-sublime-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Flat Colors",
+			"details": "https://github.com/jbrooksuk/SublimeFlatColors",
+			"labels": ["autocomplete", "colour", "color", "suggestions"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Flatron",
 			"details": "https://github.com/NoahBuscher/Flatron",
 			"labels": ["theme", "color scheme"],
@@ -694,6 +811,17 @@
 			]
 		},
 		{
+			"name": "FloScript",
+			"details": "https://github.com/hadfieldn/sublime-floscript",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Flow",
 			"details": "https://github.com/73rhodes/Sublime-Flow",
 			"labels": ["linting"],
@@ -701,6 +829,26 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Flow Built-In Type Completion",
+			"details": "https://github.com/xinchaobeta/flow-builtin-type-completion",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "fluent-logger",
+			"details": "https://github.com/airtoxin/fluent-logger-sublimetext",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -743,7 +891,7 @@
 			"labels": ["focus", "sidebar"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]
@@ -846,7 +994,7 @@
 			"details": "https://github.com/akshaykumar90/sublime-font-cycler",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -857,6 +1005,26 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Fortify Highlighter",
+			"details": "https://github.com/pwntester/FortifyHighlighter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Fortran",
+			"details": "https://github.com/315234/SublimeFortran",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -956,6 +1124,27 @@
 			]
 		},
 		{
+			"name": "FSharp",
+			"details": "https://github.com/guillermooo/sublime-fsharp-package-releases",
+			"labels": ["f#", "fsharp", "autocomplete"],
+			"releases": [
+				{
+					"sublime_text": ">=3080",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FT Origami",
+			"details": "https://github.com/Financial-Times/FTOrigamiSublimeText",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FTPSync",
 			"details": "https://github.com/NoxArt/SublimeText2-FTPSync",
 			"labels": ["ftp", "sync"],
@@ -1022,6 +1211,16 @@
 			]
 		},
 		{
+			"name": "Fuse",
+			"details": "https://github.com/fusetools/Fuse.SublimePlugin",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Future Funk - Codeception",
 			"details": "https://github.com/brandonferens/FutureFunk-CodeCeption",
 			"labels": ["color scheme"],
@@ -1048,11 +1247,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},

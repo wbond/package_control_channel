@@ -37,6 +37,26 @@
 			]
 		},
 		{
+			"name": "IAS",
+			"details": "https://github.com/rmobis/sublime-ias",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "iCalendar",
+			"details": "https://github.com/kimsey0/iCalendar-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IcedCoffeeScript",
 			"details": "https://github.com/dhoelzgen/iced-coffee-script-tmbundle",
 			"releases": [
@@ -120,6 +140,17 @@
 			]
 		},
 		{
+			"name": "Iifefy",
+			"details": "https://github.com/erquhart/sublime-iifefy",
+			"labels": ["javascript", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IJulia",
 			"details": "https://github.com/quinnj/Sublime-IJulia",
 			"labels": ["julia", "ijulia", "language syntax", "snippets"],
@@ -164,13 +195,23 @@
 			]
 		},
 		{
+			"name": "Imba",
+			"details": "https://github.com/somebee/sublime-imba",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "imgHolder",
 			"details": "https://github.com/pafnuty/imgHolder",
 			"labels": ["completions", "css", "html"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -190,6 +231,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "IMSwitchForVintage",
+			"details": "https://github.com/zhongxingdou/IMSwitchForVintage-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
 				}
 			]
 		},
@@ -277,6 +329,7 @@
 		{
 			"name": "IndentX",
 			"details": "https://github.com/socsieng/IndentX",
+			"labels": ["convert", "converting", "formatting", "indent", "json", "xml", "yaml"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -327,7 +380,7 @@
 		},
 		{
 			"name": "Inline Google Translate",
-			"details": "https://github.com/MtimerCMS/SublimeText-Google-Translate-Plugin",
+			"details": "https://github.com/MTimer/SublimeText-Google-Translate-Plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -346,9 +399,10 @@
 			]
 		},
 		{
-			"name": "InnoSetup",
+			"name": "Inno Setup",
 			"details": "https://github.com/idleberg/InnoSetup-Sublime-Text",
 			"labels": ["language syntax", "build system"],
+			"previous_names": ["InnoSetup"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -413,6 +467,28 @@
 			]
 		},
 		{
+			"name": "Insert to Column",
+			"details": "https://github.com/abluescarab/sublime_insert-to-column",
+			"labels": ["formatting", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Inspired GitHub Color Scheme",
+			"details": "https://github.com/sethlopezme/InspiredGitHub.tmtheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Instacode",
 			"details": "https://github.com/Ndushi/InstacodeSublime",
 			"releases": [
@@ -438,12 +514,43 @@
 			]
 		},
 		{
+			"name": "Intellitip",
+			"details": "https://github.com/jbrooksuk/Intellitip",
+			"labels": ["auto-complete", "completion", "help", "hint", "php"],
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "IntelXDK",
+			"details": "https://github.com/gomobile/sublime-xdk-package",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Internet Search",
 			"details": "https://github.com/krasun/SublimeInternetSearch",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Interpol",
+			"details": "https://github.com/kode4food/interpol-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -465,6 +572,29 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "io Node Framework",
+			"details": "https://github.com/justind000/ionode_sublime_plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ionic Framework Extended Autocomplete",
+			"details": "https://github.com/matheuscas/SublimeIonic",
+			"labels":["auto-complete", "completion", "ionic framework"],
+			"author":"Matheus Cardoso",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -536,6 +666,16 @@
 			]
 		},
 		{
+			"name": "IPython Pick",
+			"details": "https://github.com/interlegis/sublime_ipython_pick",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IRC",
 			"details": "https://github.com/markbirbeck/sublime-text-irc",
 			"labels": ["irc"],
@@ -564,6 +704,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Iron router snippets",
+			"details": "https://github.com/Ogamedia/Router",
+			"labels": ["snippets", "meteor", "router", "Iron router"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -616,6 +767,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "iTunes",
+			"details": "https://github.com/airtoxin/Sublime-iTunes",
+			"releases": [
+				{
+					"platforms": "osx",
+					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]

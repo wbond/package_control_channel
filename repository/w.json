@@ -2,6 +2,17 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "W2P",
+			"details": "https://bitbucket.org/kfog/w2p",
+			"labels": ["web2py"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "W3CValidators",
 			"details": "https://github.com/dubharmonic/Sublime-W3CValidators",
 			"labels": ["html", "svg", "validator"],
@@ -15,7 +26,7 @@
 		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
-			"labels": ["time tracking"],
+			"labels": ["time tracking", "coding", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -37,6 +48,17 @@
 		{
 			"name": "Waxeye",
 			"details": "https://github.com/tijn/sublime-waxeye",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Web Audio API Autocomplete",
+			"details": "https://github.com/hoch/waa-autocomplete",
+			"labels": ["autocomplete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -67,6 +89,17 @@
 		{
 			"name": "WebDavSync",
 			"details": "https://github.com/appconditioner/SublimeWebDavSync",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WebdriverIO",
+			"details": "https://github.com/webdriverio/sublime-bundle",
+			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -258,13 +291,35 @@
 			]
 		},
 		{
+			"name": "Wildlife",
+			"details": "https://github.com/tushortz/wildlife",
+			"labels": ["color scheme","highlighting","linting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{ 
+			"name": "Wildlife gutter theme",
+			"details": "https://github.com/tushortz/Wildlife-gutter-theme",
+			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		}, 
+		{
 			"name": "Winamp Skin Developer",
 			"details": "https://github.com/idleberg/Winamp-Skin-Dev-Sublime-Text",
 			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -287,6 +342,16 @@
 			]
 		},
 		{
+			"name": "Wisedu TrunPage Snippets",
+			"details": "https://github.com/bywwcnll/wisedu",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WLST",
 			"details": "https://github.com/Joelith/sublime-wlst",
 			"releases": [
@@ -299,6 +364,16 @@
 		{
 			"name": "Wok",
 			"details": "https://github.com/abbgrade/sublime-wok",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Wollok",
+			"details": "https://github.com/uqbar-project/wollok-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -479,7 +554,7 @@
 		},
 		{
 			"name": "wpseek.com WordPress Developer Assistant",
-			"details": "https://github.com/AlphawolfWMP/sublime-text-2-wpseek",
+			"details": "https://github.com/wpseek/sublime-text-2-wpseek",
 			"previous_names": ["wpseek.com WordPress Function Lookup"],
 			"releases": [
 				{
@@ -517,6 +592,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Wren",
+			"details": "https://github.com/munificent/wren-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

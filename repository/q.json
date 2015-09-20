@@ -12,6 +12,16 @@
 			]
 		},
 		{
+			"name": "QMakeProject",
+			"details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "QML",
 			"details": "https://github.com/skozlovf/Sublime-QML",
 			"labels": ["language syntax", "snippets"],
@@ -44,17 +54,6 @@
 			]
 		},
 		{
-			"name": "QuantifiedDev",
-			"details": "https://github.com/QuantifiedDev/sublime-text-plugin",
-			"labels": ["time tracking", "activity"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "QuarkPHP",
 			"details": "https://github.com/sahibalejandro/quark-php-sublime",
 			"releases": [
@@ -68,6 +67,17 @@
 			"name": "Quartz-Syntax",
 			"details": "https://github.com/contradictioned/quartz-syntax",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Query Completions Silencer",
+			"details": "https://github.com/twolfson/sublime-query-completions-silencer",
+			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -122,7 +132,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -143,6 +153,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickOpen",
+			"details": "https://github.com/zsytssk/QuickOpen",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

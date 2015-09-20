@@ -12,6 +12,17 @@
 			]
 		},
 		{
+			"name": "X10Language",
+			"details": "https://github.com/ltronky/sublime-x10",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "X86 and X86_64 assembly",
 			"details": "https://github.com/13xforever/x86-assembly-textmate-bundle",
 			"labels": ["syntax", "at&t", "gas"],
@@ -50,6 +61,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Xkcd",
+			"details": "https://github.com/eivind88/xkcd",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -115,6 +136,21 @@
 			]
 		},
 		{
+			"name": "xpath",
+			"details": "https://github.com/rosshadden/sublime-xpath",
+			"labels": ["clipboard", "preview"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "v"
+				}
+			]
+		},
+		{
 			"name": "XpressEngine",
 			"details": "https://github.com/bnu/sublime-xpressengine",
 			"releases": [
@@ -157,8 +193,7 @@
 		},
 		{
 			"name": "Xtemplate",
-			"details": "https://github.com/noyobo/sublime-xtemplate-snippets",
-			"description": "KISSY Xtemplate syntax highlight & snippets",
+			"details": "https://github.com/noyobo/sublime-xtemplate",
 			"labels": ["snippets", "language syntax"],
 			"releases": [
 				{
