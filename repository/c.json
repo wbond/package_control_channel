@@ -1093,18 +1093,6 @@
 			]
 		},
 		{
-			"name": "Cmd",
-			"details": "https://github.com/kiliwalk/sublime_cmd",
-			"labels": ["conemu", "cmd", "windows"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "CMS Made Simple Snippets",
 			"details": "https://github.com/bbonora/SublimeCMSMadeSimple",
 			"labels": ["snippets"],
@@ -2049,6 +2037,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ConEmuOpen",
+			"details": "https://github.com/kiliwalk/Sublime_ConEmuOpen",
+			"labels": ["conemu", "cmd", "windows", "cmd here"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
 				}
 			]
 		},
