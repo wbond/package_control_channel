@@ -146,6 +146,21 @@
 			]
 		},
 		{
+			"name": "newterm",
+			"load_order": "20",
+			"description": "Open a terminal to a specific folder and optionally set environment variables",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/newterm/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/newterm",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "oauthlib",
 			"load_order": "50",
 			"description": "Python oauthlib module",
@@ -170,6 +185,21 @@
 					"base": "https://github.com/packagecontrol/ordereddict",
 					"tags": true,
 					"sublime_text": "<3000"
+				}
+			]
+		},
+		{
+			"name": "package_events",
+			"load_order": "20",
+			"description": "Allows Sublime Text packages to emit and listen for events",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/package_events/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/package_events",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
 				}
 			]
 		},
