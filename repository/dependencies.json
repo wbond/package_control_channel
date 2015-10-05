@@ -3,6 +3,20 @@
 	"packages": [],
 	"dependencies": [
 		{
+			"name": "arrow",
+			"load_order": "01",
+			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
+			"author": "douglas-vaz",
+			"issues": "https://github.com/douglas-vaz/arrow/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/douglas-vaz/arrow",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -13,6 +27,34 @@
 					"sublime_text": "*",
 					"base": "https://github.com/codexns/sublime-bz2",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "jinja2",
+			"load_order": "51",
+			"description": "Python Jinja2 module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "markupsafe",
+			"load_order": "50",
+			"description": "Python MarkupSafe module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -41,6 +83,36 @@
 					"base": "https://github.com/packagecontrol/ordereddict",
 					"tags": true,
 					"sublime_text": "<3000"
+				}
+			]
+		},
+		{
+			"name": "paramiko",
+			"load_order": "51",
+			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-paramiko/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-paramiko",
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PyCrypto",
+			"load_order": "50",
+			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-PyCrypto/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-PyCrypto",
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64"],
+					"tags": true
 				}
 			]
 		},
@@ -157,6 +229,20 @@
 					"version": "1.0.0",
 					"url": "http://packagecontrol.io/ssl/1.0.0/ssl-windows.sublime-package",
 					"sha256": "efe25e3bdf2e8f791d86327978aabe093c9597a6ceb8c2fb5438c1d810e02bea"
+				}
+			]
+		},
+		{
+			"name": "tabulate",
+			"load_order": "01",
+			"description": "Python tabulate module",
+			"author": "csch0",
+			"issues": "https://github.com/packagecontrol/tabulate/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/tabulate",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		}

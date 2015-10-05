@@ -16,7 +16,18 @@
 			"name": "Babel",
 			"previous_names": ["6to5"],
 			"details": "https://github.com/babel/babel-sublime",
-			"labels": ["language syntax", "snippets", "javascript"],
+			"labels": ["language syntax", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Babel Snippets",
+			"details": "https://github.com/babel/babel-sublime-snippets",
+			"labels": ["snippets", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -274,6 +285,17 @@
 			]
 		},
 		{
+			"name": "Behave Toolkit",
+			"details": "https://github.com/mixxorz/BehaveToolkit",
+			"labels": ["code navigation", "linting", "snippets", "testing", "bdd", "behave"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BEMHTML",
 			"details": "https://github.com/feugenix/BEMHTMLSublime",
 			"labels": ["language syntax"],
@@ -308,7 +330,7 @@
 		{
 			"name": "Better Build System",
 			"details": "https://bitbucket.org/ArtDesire/better-build-system",
-			"labels": ["build system", "building"],
+			"labels": ["build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -398,6 +420,17 @@
 			]
 		},
 		{
+			"name": "BGScript",
+			"details": "https://github.com/kalanda/Sublime-BGScript-Syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BHT-BASIC",
 			"details": "https://github.com/kriswema/Sublime-BHT-BASIC",
 			"labels": ["language syntax"],
@@ -415,6 +448,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "BinaryPlist",
+			"details": "https://github.com/tyrone-sudeium/st3-binaryplist",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -783,6 +827,17 @@
 			]
 		},
 		{
+			"name": "BrightScript",
+			"details": "https://github.com/hastinbe/brightscript-tmlanguage",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Broadcast Color Scheme",
 			"details": "https://github.com/vinkla/broadcast-theme",
 			"labels": ["color scheme"],
@@ -875,7 +930,7 @@
 		{
 			"name": "Build Ant Target",
 			"details": "https://github.com/ryanhefner/BuildAntTarget",
-			"labels": ["ant", "building", "build system"],
+			"labels": ["ant", "build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -927,6 +982,18 @@
 			"name": "Bunting Language",
 			"details": "https://github.com/xhacker/Bunting.tmLanguage",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Business Catalyst Liquid Snippets",
+			"details": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin",
+			"issues": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin/issues",
+			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",

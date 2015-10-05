@@ -35,9 +35,10 @@
 			]
 		},
 		{
-			"name": "Yara Rule",
-			"details": "https://github.com/nyx0/yara",
-			"previous_names": ["Yara syntax highlighting and snippet"],
+			"name": "Yara Rule Syntax",
+			"details": "https://github.com/nyx0/YaraSyntax",
+			"labels": ["Yara", "syntax", "snippets"],
+			"previous_names": ["Yara Rule"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -108,18 +109,9 @@
 			]
 		},
 		{
-			"name": "Yii Framework Docs Search",
-			"details": "https://github.com/d3th/sublime-text2-yii-docs",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Yii Framework Snippets",
-			"details": "https://github.com/dexnode/sublime-yii-snippets",
+			"name": "Yii Framework 1.1 Snippets",
+			"previous_names": ["Yii Framework Snippets"],
+			"details": "https://github.com/david-soyez/sublime-yii-snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -129,11 +121,11 @@
 			]
 		},
 		{
-			"name": "Youdao English-Chinese Translate",
-			"details": "https://github.com/friskfly/Youdao-Translate-For-Sublime",
+			"name": "Yii Framework Docs Search",
+			"details": "https://github.com/d3th/sublime-text2-yii-docs",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
