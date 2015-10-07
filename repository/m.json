@@ -121,6 +121,17 @@
 			]
 		},
 		{
+			"name": "makensis",
+			"details": "https://github.com/idleberg/sublime-makensis",
+			"labels": ["build", "nsis"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Mako",
 			"details": "https://github.com/marconi/mako-tmbundle",
 			"releases": [
@@ -357,6 +368,17 @@
 			]
 		},
 		{
+			"name": "Marko",
+			"details": "https://github.com/merwan7/sublime-marko",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MarkPress",
 			"details": "https://github.com/rposbo/sublimemarkpress",
 			"previous_names": ["sublimemarkpress"],
@@ -428,9 +450,53 @@
 			]
 		},
 		{
+			"name": "Material Theme",
+			"details": "https://github.com/equinusocio/material-theme",
+			"labels": ["theme", "color scheme", "material"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Material Theme - White Panels",
+			"details": "https://github.com/equinusocio/material-theme-white-panels",
+			"labels": ["theme", "color scheme", "material design"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Materialize",
+			"previous_names": ["Material Spacegray"],
+			"details": "https://github.com/saadq/Materialize",
+			"labels": ["theme", "color scheme", "material"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Materialized CSS Snippets",
 			"details": "https://github.com/ayinloya/materialized-css-snippets",
 			"labels": ["css", "Materialized", "Materialized CSS"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/joepmoritz/MatlabFilenameAutoComplete",
+			"labels": ["auto-complete", "matlab"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -502,6 +568,17 @@
 			]
 		},
 		{
+			"name": "Maze Syntax",
+			"details": "https://github.com/olls/sublime-maze",
+			"labels": ["auto-complete", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MB Warband API",
 			"details": "https://bitbucket.org/Shcherbyna/mb-warband-api",
 			"author": "Oleg Shcherbyna",
@@ -509,6 +586,29 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MCA Language",
+			"details": "https://github.com/toxic-spanner/MCA.tmLanguage",
+			"author": "mrfishie",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MDL Language",
+			"details": "https://github.com/ardenpm/sublime-mdl-language",
+			"labels" : ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -675,6 +775,18 @@
 			]
 		},
 		{
+			"name": "Meta Substitution",
+			"details": "https://github.com/htch/SublimeMetaSubstitutionPlugin",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MetaQuotes (MQL4) Compiler",
 			"details": "https://github.com/IlanFrumer/mql4compiler",
 			"releases": [
@@ -808,11 +920,13 @@
 			]
 		},
 		{
-			"details": "https://github.com/vim/MiniPy",
+			"name": "MiniPy",
+			"details": "https://github.com/vim-zz/MiniPy",
+			"labels": ["minipy", "inline", "engine", "parser"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1044,6 +1158,16 @@
 			]
 		},
 		{
+			"name": "ModoPluginBuilder",
+			"details" : "https://github.com/alexwidener/ModoPluginBuilder",
+			"releases":[
+			{
+				"sublime_text": "*",
+				"tags": true
+			}
+		]
+		},
+		{
 			"name": "Modula-2 Language Syntax",
 			"details": "https://github.com/harogaston/Sublime-Modula-2",
 			"labels": ["language syntax", "snippets", "auto complete"],
@@ -1153,6 +1277,17 @@
 			"name": "Monocyanide Colorscheme",
 			"details": "https://github.com/Centril/sublime-monocyanide-colorscheme",
 			"labels": ["monokai", "cyanide", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Monokai - Spacegray",
+			"details": "https://github.com/pyoio/monokai-spacegray",
+			"labels": ["monokai", "spacegray", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1408,6 +1543,17 @@
 			]
 		},
 		{
+			"name": "Mscgen",
+			"details": "https://github.com/r-stein/sublime-text-mscgen",
+			"labels": ["language syntax", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MTML Completions",
 			"details": "https://github.com/bit-part/MTML-ST2",
 			"releases": [
@@ -1549,6 +1695,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Myrkur Color Scheme",
+			"details": "https://github.com/superjan/myrkur",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MySQL Snippets",
+			"details": "https://github.com/ancor-dev/sublime-sql-snippets",
+			"labels": ["snippets", "mysql", "sql"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
