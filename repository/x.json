@@ -1,5 +1,5 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "X to Y",
@@ -7,7 +7,30 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/superguigui/xtoy/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "X10Language",
+			"details": "https://github.com/ltronky/sublime-x10",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "x86 and x86_64 Assembly",
+			"previous_names": ["X86 and X86_64 assembly"],
+			"details": "https://github.com/13xforever/x86-assembly-textmate-bundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -17,7 +40,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/maslbl4/sublime-xaml/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -27,7 +50,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/Kindari/SublimeXdebug/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -38,7 +61,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/martomo/SublimeTextXdebug/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Xkcd",
+			"details": "https://github.com/eivind88/xkcd",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -48,7 +81,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/apex2060/xli-templateize/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -58,7 +91,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/CrypticTemple/sublime-xml-guesser/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -68,7 +101,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vontio/sublime-xml2json/tree/master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XmlDocs",
+			"details": "https://github.com/irrationalistic/sublime-xmldocs",
+			"labels": ["documentation", "c-sharp"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -78,7 +122,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/Lunatrius/xmllint/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -88,7 +132,22 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kassi/sublime-text-2-xmpfilter/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xpath",
+			"details": "https://github.com/rosshadden/sublime-xpath",
+			"labels": ["clipboard", "preview"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "v"
 				}
 			]
 		},
@@ -98,7 +157,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/bnu/sublime-xpressengine/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -108,7 +167,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/PogiNate/XQuery-Sublime/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -119,7 +178,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/hoest/SublimeXSLT/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -129,7 +188,28 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/xsnippet/sublime-xsnippet/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Xtemplate",
+			"details": "https://github.com/noyobo/sublime-xtemplate",
+			"labels": ["snippets", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Xtend",
+			"details": "https://github.com/staltz/SublimeXtend",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
