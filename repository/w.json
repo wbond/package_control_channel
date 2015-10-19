@@ -301,7 +301,8 @@
 			]
 		},
 		{
-			"name": "Wildlife",
+			"name": "Wildlife Color Scheme",
+			"previous_names":["Wildlife"],
 			"details": "https://github.com/tushortz/wildlife",
 			"labels": ["color scheme","highlighting","linting"],
 			"releases": [
@@ -346,7 +347,8 @@
 			"details": "https://github.com/SublimeText/WinMerge",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"branch": "master"
 				}
 			]
@@ -365,6 +367,17 @@
 		{
 			"name": "Wisedu TrunPage Snippets",
 			"details": "https://github.com/bywwcnll/wisedu",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Witcher Script Syntax",
+			"details": "https://github.com/flo5581/sublime-WitcherScript",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -429,6 +442,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordCompletion",
+			"details": "https://github.com/schmave/Sublime-Word-Completion",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
