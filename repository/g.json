@@ -1375,24 +1375,24 @@
 			]
 		},
 		{
-			"name": "Grepmark",
-			"details": "https://github.com/dusk125/sublime-grepmark.git",
-			"labels": ["grep", "search", "bookmark"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["*"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Grep Code Search",
 			"details": "https://github.com/topikachu/sublime-text-2-GrepCodeSearch",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Grepmark",
+			"details": "https://github.com/dusk125/sublime-grepmark",
+			"labels": ["grep", "search", "bookmark"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
 				}
 			]
 		},
