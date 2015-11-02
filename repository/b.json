@@ -19,7 +19,7 @@
 			"labels": ["language syntax", "javascript"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -107,7 +107,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "BART",
 			"details": "https://github.com/ganemone/SublimeBart",
@@ -355,6 +355,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Better Bookmarks",
+			"details": "https://github.com/dusk125/sublime-betterbookmarks",
+			"labels": ["bookmark", "save", "layer"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
 				}
 			]
 		},
@@ -725,6 +737,17 @@
 			"name": "Bootstrap 3 Snippets",
 			"details": "https://github.com/JasonMortonNZ/bs3-sublime-plugin",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bootstrap 4 Snippets",
+			"details": "https://github.com/mdegoo/sublime-bootstrap4",
+			"labels": ["snippets","Bootstrap","Bootstrap4"],
 			"releases": [
 				{
 					"sublime_text": "*",
