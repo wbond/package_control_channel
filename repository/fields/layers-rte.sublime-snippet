@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/* RTE */
+echo \$form_elements->input( array(
+     'type' => 'rte',
+     'name' => \'${1:my_textarea_name}',
+     'id' => '${1:my-textarea-id}',
+     'placeholder' => __( '${2:Enter in your value}', '${3:layerswp}' ),
+     'value' => ( isset( \${1:my_textarea_name} ) ? \${1:my_textarea_name} : '' ),
+     'class' => '${4:layers-textarea layers-rte}'
+) );
+]]></content>
+    <description>Layers Field - RTE</description>
+    <tabTrigger>layers-rte-field</tabTrigger>
+</snippet>

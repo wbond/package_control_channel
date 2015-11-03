@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/* Color */
+echo \$form_elements->input( array(
+    'type' => 'color',
+    'name' => '${1:my_color_name}',
+    'id' => '${1:my-color-id}',
+    'value' => ( isset( \$${2:color} ) ? \$${2:color} : '' )
+) );
+]]></content>
+    <description>Layers Field - Color</description>
+    <tabTrigger>layers-color-field</tabTrigger>
+</snippet>

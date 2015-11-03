@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* Image */
+echo \$form_elements->input( array(
+    'type' => 'image',
+    'name' => '${1:my_image_name}',
+    'id' => '${1:my-image-id}',
+    'button_label' => __( '${2:Select or Upload an Image}', '${3:layerswp}' ),
+    'value' => ( isset( \$${1:my_image_name} ) ? \$${1:my_image_name} : '' )
+) );
+]]></content>
+    <description>Layers Field - Image</description>
+    <tabTrigger>layers-image-field</tabTrigger>
+</snippet>

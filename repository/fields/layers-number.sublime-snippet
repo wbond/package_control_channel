@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/* Number */
+echo \$form_elements->input( array(
+    'type' => 'number',
+	'name' => '${1:my_number_input}',
+	'id' => '${1:my-number-input}',
+    'placeholder' => __( '${2:20}', 'layerswp' ),
+    'value' => ( isset( ${1:my_number_input} ) ? (int) ${1:my_number_input} : '' ),
+    'min' => 0,
+    'max' => 100,
+    'step' => 10,
+    'class' => '${3:layers-text}'
+));
+
+]]></content>
+    <description>Layers Field - Number</description>
+    <tabTrigger>layers-number-field</tabTrigger>
+</snippet>

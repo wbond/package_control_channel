@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/* Range */
+echo \$form_elements->input( array(
+    'type' => 'range',
+    'name' => '${1:my_range_input}',
+    'id' => '${1:my-range-input}',
+    'placeholder' => __( '${2:20}', '${3:layerswp}' ),
+    'value' => ( isset( $${1:my_range_input} ) ? (int) $${1:my_range_input} : '' ),
+    'min' => 0,
+    'max' => 100,
+    'step' => 10,
+	'class' => '${4:layers-text}'
+));
+]]></content>
+    <description>Layers Field - Range</description>
+    <tabTrigger>layers-range-field</tabTrigger>
+</snippet>
