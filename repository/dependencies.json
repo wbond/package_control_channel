@@ -76,6 +76,21 @@
 			]
 		},
 		{
+			"name": "golangconfig",
+			"load_order": "10",
+			"description": "A library for Go environment configuration",
+			"author": "Go Authors",
+			"issues": "https://github.com/golang/sublime-config/issues",
+			"releases": [
+				{
+					"base": "https://github.com/golang/sublime-config",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "jinja2",
 			"load_order": "51",
 			"description": "Python Jinja2 module",
