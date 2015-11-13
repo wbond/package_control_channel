@@ -120,6 +120,20 @@
 			]
 		},
 		{
+			"name": "markdown",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Python Markdown module",
+			"issues": "https://github.com/facelessuser/sublime-markdown/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "markupsafe",
 			"load_order": "50",
 			"description": "Python MarkupSafe module",
@@ -130,6 +144,20 @@
 					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "mdpopups",
+			"author": "facelessuser",
+			"load_order": "55",
+			"description": "Markdown Popups for Sublime",
+			"issues": "https://github.com/facelessuser/sublime-markdown-popups/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown-popups",
+					"tags": true,
+					"sublime_text": ">=3080"
 				}
 			]
 		},
