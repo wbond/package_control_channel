@@ -17,6 +17,20 @@
 			]
 		},
 		{
+			"name": "backrefs",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Backrefs regular expression wrapper.",
+			"issues": "https://github.com/facelessuser/sublime-backrefs/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-backrefs",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -130,6 +144,20 @@
 					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "mdpopups",
+			"author": "facelessuser",
+			"load_order": "55",
+			"description": "Markdown Popups for Sublime",
+			"issues": "https://github.com/facelessuser/sublime-markdown-popups/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown-popups",
+					"tags": true,
+					"sublime_text": ">=3080"
 				}
 			]
 		},
@@ -259,6 +287,20 @@
 					"base": "https://github.com/packagecontrol/pygments",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "python-markdown",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Python Markdown module",
+			"issues": "https://github.com/facelessuser/sublime-markdown/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
