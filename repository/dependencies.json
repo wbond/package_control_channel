@@ -105,20 +105,6 @@
 			]
 		},
 		{
-			"name": "jinja2",
-			"load_order": "51",
-			"description": "Python Jinja2 module",
-			"author": "teddy_beer_maniac",
-			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
-			"releases": [
-				{
-					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
-					"tags": true,
-					"sublime_text": "*"
-				}
-			]
-		},
-		{
 			"name": "lxml",
 			"load_order": "10",
 			"description": "lxml",
@@ -285,6 +271,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pygments",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "python-jinja2",
+			"load_order": "51",
+			"description": "Python Jinja2 module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
 					"tags": true,
 					"sublime_text": "*"
 				}
