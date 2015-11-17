@@ -212,6 +212,10 @@ class TestContainer(object):
             else:
                 self.dependency_names[name] = include
                 repo_dependency_names.append(name)
+            if name in self.package_names:
+                self.fail("Dependency and package names must be unique: %s, "
+                          "previously occured in %s"
+                          % (name, self.package_names[name]))
 
         # Check package order
         self.assertEqual(repo_dependency_names,
@@ -244,6 +248,10 @@ class TestContainer(object):
                           "previous_name in %s: %s"
                           % (pname, self.previous_package_names[pname][1],
                              self.previous_package_names[pname][2]))
+            elif pname in self.dependency_names:
+                self.fail("Dependency and package names must be unique: %s, "
+                          "previously occured in %s"
+                          % (pname, self.dependency_names[pname]))
             else:
                 self.package_names[pname] = include
                 repo_package_names.append(pname)
