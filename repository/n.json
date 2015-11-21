@@ -425,14 +425,13 @@
 		{
 			"name": "Nodejs",
 			"details": "https://github.com/tanepiper/SublimeText-Nodejs",
+			"labels": ["auto-complete", "snippets"],
+			"author": ["tanepiper", "varp"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
-					"branch": "sublime-text-3"
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
 				}
 			]
 		},
