@@ -22,11 +22,45 @@
 			]
 		},
 		{
+			"name": "Hackerlime",
+			"details": "https://github.com/kaushik94/hackerlime",
+			"labels": ["hackerrank"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"platforms":["linux"],
+					"tags":true
+				}
+			]
+		},
+		{
+			"name": "HackerRankHelper",
+			"details": "https://github.com/dineshkumar-cse/SublimePluginHackerRank",
+			"author": "Dinesh Kumar",
+			"description": "Plugin To Compile, Check Status of Sample Test Case, and Submit Code to the HackerRank Server",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "HackerTyper",
 			"details": "https://github.com/rexxars/sublime-hacker-typer",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hacklang Typechecker and Autocompletion",
+			"details": "https://github.com/SiebelsTim/hack-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -38,6 +72,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Hamlbars",
+			"author": "Greplytix",
+			"details": "https://github.com/greplytix/Hamlbars",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -81,6 +127,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "HaoGist",
+			"details": "https://github.com/xjsender/HaoGist",
+			"labels": ["gist", "cache"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "haoide",
+			"previous_names": ["Salesforce IDE"],
+			"details": "https://github.com/xjsender/haoide",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -147,6 +215,17 @@
 			]
 		},
 		{
+			"name": "Hashids",
+			"details": "https://github.com/zergin/sublime-hashids",
+			"labels": ["hashid", "hashids", "ids", "unique"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/dotCypress/haskellbuddy",
 			"releases": [
 				{
@@ -163,6 +242,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "haxelang",
+			"details": "https://github.com/ix/sublime-haxelang",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -270,11 +359,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -299,7 +388,7 @@
 		},
 		{
 			"name": "Hide Menu",
-			"details": "https://github.com/pcorey/sublime-hide-menu",
+			"details": "https://github.com/p3lim/sublime-hide-menu",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -338,6 +427,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Highlight Dodgy Chars",
+			"details": "https://github.com/TuureKaunisto/highlight-dodgy-chars",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -404,12 +503,45 @@
 			]
 		},
 		{
+			"name": "HiveHint",
+			"details": "https://github.com/miusuncle/HiveHint",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows", "osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HiveOpener",
+			"details": "https://github.com/miusuncle/HiveOpener",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows", "osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hjson",
 			"details": "https://github.com/laktak/sublime-hjson",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "HL7",
+			"details": "https://github.com/craighurley/sublime-hl7-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -474,6 +606,18 @@
 			]
 		},
 		{
+			"name": "HoogleSearch",
+			"details": "https://github.com/s4wny/HoogleSearch",
+			"author": "Sawny",
+			"labels": ["haskell", "hoogle"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hookblime",
 			"details": "https://github.com/Pafsis/hookblime",
 			"releases": [
@@ -487,6 +631,17 @@
 			"name": "Hooks",
 			"details": "https://github.com/twolfson/sublime-hooks",
 			"labels": ["events", "hooks"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hoon Syntax Highlighting",
+			"details": "https://github.com/alexflint/SublimeHoon",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -528,11 +683,14 @@
 			]
 		},
 		{
-			"details": "https://github.com/rodrigoflores/hosts",
+			"name": "Hosts",
+			"details": "https://github.com/tijn/hosts.tmLanguage",
+			"labels": ["language syntax"],
+			"previous_names": ["hosts"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -542,6 +700,26 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hot Dog Stand",
+			"details": "https://github.com/SomeKittens/ST-Hot-Dog-Stand",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hound Search",
+			"details": "https://github.com/bgreenlee/SublimeHound",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -563,6 +741,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "HSP",
+			"details": "https://github.com/potato4d/sublime-HSP",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -604,6 +792,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "HTML Extended",
+			"details": "https://github.com/orizens/html-extended",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -718,6 +916,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "HTML2Slim",
+			"details": "https://github.com/parterburn/sublime-html-to-slim",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -851,12 +1059,43 @@
 			]
 		},
 		{
+			"name": "Hugofy",
+			"details": "https://github.com/akmittal/Hugofy",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hybris Impex Syntax",
+			"details": "https://github.com/Blumed/Impex_Highlighting",
+			"labels": ["syntax", "hybris", "impex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hyle",
 			"details": "https://github.com/Hyle-Script/Hyle-Sublime-Plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Hyojun.couch-bootstrap Snippets",
+			"details": "https://bitbucket.org/fbiz/hyojun.couch-bootstrap-st-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -883,11 +1122,21 @@
 		},
 		{
 			"name": "Hypertext Typographer",
-			"details": "https://github.com/geoffstokes/HypertextTypographer",
+			"details": "https://github.com/grapegravity/HypertextTypographer",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "HypnotoadSVN",
+			"details": "https://github.com/m-hall/HypnotoadSVN",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		}

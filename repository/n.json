@@ -46,10 +46,22 @@
 		{
 			"name": "NASM x86 Assembly",
 			"details": "https://github.com/Nessphoro/sublimeassembly",
+			"labels": ["language syntax", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NativeScript Snippets",
+			"details": "https://github.com/tsvetan-ganev/nativescript-sublime-snippets",
+			"labels": ["auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -73,6 +85,15 @@
 			]
 		},
 		{
+			"details": "https://github.com/ssddanbrown/Nbspr",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NCL",
 			"details": "https://github.com/dongli/sublime-ncl",
 			"releases": [
@@ -90,6 +111,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Neka Theme",
+			"details": "https://github.com/dempfi/Neka-Theme",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -127,6 +158,16 @@
 			]
 		},
 		{
+			"name": "Neopolitan",
+			"details": "https://github.com/daytonn/Neopolitan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NESASM",
 			"details": "https://github.com/klaussilveira/SublimeNESASM",
 			"releases": [
@@ -157,6 +198,26 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "NetLinx",
+			"details": "https://github.com/amclain/sublime-netlinx",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NetSuite Bundle",
+			"details": "https://github.com/ththev/NetSuite-Bundle-for-Sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -203,8 +264,40 @@
 			]
 		},
 		{
+			"name": "New Moon Color Scheme",
+			"details": "https://github.com/taniarascia/new-moon-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NFO",
 			"details": "https://github.com/liamja/sublime-nfo",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ng-annotate Buildsystem",
+			"details": "https://github.com/ctf0/ng-annotate_Buildsystem",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ng-snippets",
+			"details": "https://github.com/alsfurlan/ng-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -243,10 +336,32 @@
 			]
 		},
 		{
+			"name": "Nightwalker Color Scheme",
+			"details": "https://github.com/geekpradd/Sublime-Nightwalker-Color-Scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NimLime",
 			"details": "https://github.com/Varriount/NimLime",
 			"labels": ["nimrod", "language syntax", "completions"],
 			"previous_names": ["Nimrod"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ninja",
+			"details": "https://github.com/pope/SublimeNinja",
+			"labels": ["ninja", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -268,6 +383,17 @@
 			"name": "Nocturnal Color Scheme",
 			"details": "https://github.com/noct/nocturnal-color-scheme",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Node Assert Snippets",
+			"details": "https://github.com/jaymorrow/node-assert-snippets",
+			"labels": ["node", "assert", "snippets", "test", "assertions", "unit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -299,14 +425,13 @@
 		{
 			"name": "Nodejs",
 			"details": "https://github.com/tanepiper/SublimeText-Nodejs",
+			"labels": ["auto-complete", "snippets"],
+			"author": ["tanepiper", "varp"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
-					"branch": "sublime-text-3"
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
 				}
 			]
 		},
@@ -341,6 +466,17 @@
 			]
 		},
 		{
+			"name": "Normalize Indentation",
+			"details": "https://github.com/Ennosuke/Normalize-Indentation",
+			"labels": ["indentation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Not that useless project report",
 			"details": "https://github.com/pererinha/NotThatUselessProjectReport",
 			"labels": ["report"],
@@ -352,12 +488,46 @@
 			]
 		},
 		{
+			"name": "Notes",
+			"details": "https://github.com/toxicblu/sublime-notes",
+			"labels": ["language syntax", "documentation", "notes"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Notifications",
 			"details": "https://github.com/thomscode/Notifications",
 			"releases": [
 				{
 					"sublime_text": ">3000",
 					"base": "https://github.com/thomscode/notifications",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NoTutorial",
+			"details": "https://github.com/chadnewbry/NoTutorial",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NP-Complete",
+			"labels": ["completions"],
+			"details": "https://github.com/Nax/sublime-np-complete",
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]
@@ -434,7 +604,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -446,7 +616,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -506,7 +676,7 @@
 		},
 		{
 			"name": "Numix Theme",
-			"details": "https://github.com/Zetch/sublime-text-numix",
+			"details": "https://github.com/nauzethc/sublime-text-numix",
 			"labels": ["numix", "theme"],
 			"releases": [
 				{
@@ -522,6 +692,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NuSMV Syntax",
+			"details": "https://github.com/JDevlieghere/Sublime-NuSMV",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Nyan Cat",
+			"details": "https://github.com/wiggin15/SublimeNyan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]

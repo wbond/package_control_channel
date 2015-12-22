@@ -13,6 +13,29 @@
 			]
 		},
 		{
+			"name": "Babel",
+			"previous_names": ["6to5"],
+			"details": "https://github.com/babel/babel-sublime",
+			"labels": ["language syntax", "javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Babel Snippets",
+			"details": "https://github.com/babel/babel-sublime-snippets",
+			"labels": ["snippets", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Back There",
 			"details": "https://github.com/iuliux/SublimeText2-BackThere",
 			"releases": [
@@ -53,11 +76,44 @@
 			]
 		},
 		{
+			"name": "Badges",
+			"details": "https://github.com/idleberg/sublime-badges",
+			"labels": ["snippets", "badges", "markdown", "restructuredtext", "textile"],
+			"previous_names": ["Shields.io Badges"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Baidu FE Code Style",
 			"details": "https://github.com/leeight/Baidu-FE-Code-Style",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bang Search",
+			"details": "https://github.com/bsoun/bang-search",
+			"labels": ["search"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BART",
+			"details": "https://github.com/ganemone/SublimeBart",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -157,11 +213,31 @@
 			]
 		},
 		{
+			"details": "https://github.com/ketan/BeautifyLatex",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/CraigWilliams/BeautifyRuby",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "BeautifyRust",
+			"details": "https://github.com/vincenting/BeautifyRust",
+			"labels": ["formatting", "rust"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -209,7 +285,7 @@
 		},
 		{
 			"name": "Behat Snippets",
-			"details": "https://github.com/kwattro/sublime-behat-snippets",
+			"details": "https://github.com/ikwattro/sublime-behat-snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -240,6 +316,17 @@
 			]
 		},
 		{
+			"name": "Behave Toolkit",
+			"details": "https://github.com/mixxorz/BehaveToolkit",
+			"labels": ["code navigation", "linting", "snippets", "testing", "bdd", "behave"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BEMHTML",
 			"details": "https://github.com/feugenix/BEMHTMLSublime",
 			"labels": ["language syntax"],
@@ -247,6 +334,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "BEMJSON snippets",
+			"details": "https://github.com/1vank1n/sublime-bemjson-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bemmet",
+			"details": "https://github.com/tadatuta/sublime-bemmet",
+			"labels": ["text manipulation", "snippets", "bem", "bemjson", "emmet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -261,9 +370,21 @@
 			]
 		},
 		{
+			"name": "Better Bookmarks",
+			"details": "https://github.com/dusk125/sublime-betterbookmarks",
+			"labels": ["bookmark", "save", "layer"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Better Build System",
 			"details": "https://bitbucket.org/ArtDesire/better-build-system",
-			"labels": ["build system", "building"],
+			"labels": ["build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -331,23 +452,23 @@
 			]
 		},
 		{
-			"name": "Better TypeScript",
-			"details": "https://github.com/lavrton/sublime-better-typescript",
-			"labels": ["language syntax", "snippets", "linting", "watch", "typescript"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "BetterFindBuffer",
 			"details": "https://github.com/aziz/BetterFindBuffer",
 			"labels": ["find results", "search"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BGScript",
+			"details": "https://github.com/kalanda/Sublime-BGScript-Syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -370,6 +491,27 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Bigine",
+			"details": "https://github.com/dahaode/st3-bigine",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BinaryPlist",
+			"details": "https://github.com/tyrone-sudeium/st3-binaryplist",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -519,7 +661,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -624,6 +766,17 @@
 			]
 		},
 		{
+			"name": "Bootstrap 4 Snippets",
+			"details": "https://github.com/mdegoo/sublime-bootstrap4",
+			"labels": ["snippets","Bootstrap","Bootstrap4"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/Tumbo/bootstrap-jade",
 			"releases": [
 				{
@@ -673,6 +826,19 @@
 			]
 		},
 		{
+			"name": "BowerInjector",
+			"details": "https://github.com/ismnoiet/BowerInjector",
+			"issues": "https://github.com/ismnoiet/BowerInjector/issues",
+			"labels": ["bower injector","bower","inject","css","js"],
+			"releases": [
+				{
+					"sublime_text": ">=3010",
+					"platforms": ["linux","osx","windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BracketGuard",
 			"details": "https://github.com/philippotto/Sublime-BracketGuard",
 			"labels": ["brackets"],
@@ -688,11 +854,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "ST2"
+					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -738,6 +904,17 @@
 			]
 		},
 		{
+			"name": "BrightScript",
+			"details": "https://github.com/hastinbe/brightscript-tmlanguage",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Broadcast Color Scheme",
 			"details": "https://github.com/vinkla/broadcast-theme",
 			"labels": ["color scheme"],
@@ -774,6 +951,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Browser Sync",
+			"details": "https://github.com/iamdjones/sublime-text-browser-sync",
+			"releases":[
+				{
+					"sublime_text":">=3000",
+					"tags":true
 				}
 			]
 		},
@@ -830,7 +1017,7 @@
 		{
 			"name": "Build Ant Target",
 			"details": "https://github.com/ryanhefner/BuildAntTarget",
-			"labels": ["ant", "building", "build system"],
+			"labels": ["ant", "build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -875,6 +1062,29 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Bunting Language",
+			"details": "https://github.com/xhacker/Bunting.tmLanguage",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Business Catalyst Liquid Snippets",
+			"details": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin",
+			"issues": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin/issues",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}

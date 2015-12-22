@@ -12,6 +12,16 @@
 			]
 		},
 		{
+			"name": "QMakeProject",
+			"details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "QML",
 			"details": "https://github.com/skozlovf/Sublime-QML",
 			"labels": ["language syntax", "snippets"],
@@ -44,9 +54,20 @@
 			]
 		},
 		{
-			"name": "QuantifiedDev",
-			"details": "https://github.com/QuantifiedDev/sublime-text-plugin",
-			"labels": ["time tracking", "activity"],
+			"name": "Qt Completions for C++",
+			"details": "https://github.com/tushortz/Qt-Completions-for-Cpp",
+			"labels": ["c++","completions", "auto-complete", "completion", "autocomplete", "snippet", "Completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Quake3 Script",
+			"details": "https://github.com/isRyven/Sublime-Text-Q3Script",
+			"labels": ["quake3", "script", "shader", "language syntax", "snippet", "completion"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -68,6 +89,17 @@
 			"name": "Quartz-Syntax",
 			"details": "https://github.com/contradictioned/quartz-syntax",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Query Completions Silencer",
+			"details": "https://github.com/twolfson/sublime-query-completions-silencer",
+			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -122,7 +154,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "ST3"
+					"tags": "st3-"
 				}
 			]
 		},
@@ -143,6 +175,27 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickMail",
+			"previous_names": ["Oauth Mail"],
+			"details": "https://github.com/divinites/oauth-mail",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "QuickOpen",
+			"details": "https://github.com/zsytssk/QuickOpen",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -195,7 +248,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"tags": true
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},

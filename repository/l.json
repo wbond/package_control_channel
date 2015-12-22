@@ -2,6 +2,16 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "L2U AutoComplete",
+			"details": "https://github.com/sNaticY/L2U-AutoComplete",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Lambda Substitution",
 			"details": "https://github.com/dariusf/LambdaSubstitution",
 			"releases": [
@@ -18,6 +28,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Language 1C (BSL)",
+			"details": "https://github.com/xDrivenDevelopment/sublime-language-1c-bsl",
+			"labels": ["language syntax", "highlighting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -64,6 +85,28 @@
 			]
 		},
 		{
+			"name": "Laravel 5 Artisan",
+			"details": "https://github.com/dydx/Laravel-5-Artisan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel 5 Snippets",
+			"previous_names": ["Laravel Five Snippets"],
+			"details": "https://github.com/Lykegenes/laravel-5-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Laravel Bootstrapper Snippets",
 			"details": "https://github.com/patricktalmadge/Bootstrapper_snippets",
 			"labels": ["snippets"],
@@ -71,6 +114,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Laravel Cheat Sheet",
+			"details": "https://github.com/yepolite/laravel-cheat-sheet",
+			"labels": ["snippets"],
+			"author": "limao",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -86,8 +141,8 @@
 			]
 		},
 		{
-			"name": "Laravel Five Snippets",
-			"details": "https://github.com/brnlbs/laravel-five-snippets",
+			"name": "Laravel Forms Bootstrap Snippets",
+			"details": "https://github.com/redgluten/laravel_forms_boostrap_snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -148,7 +203,7 @@
 		},
 		{
 			"name": "LaTeX Snippets",
-			"details": "https://github.com/tknuth/latex_snippets",
+			"details": "https://github.com/tknuth/latex-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -188,11 +243,33 @@
 			]
 		},
 		{
+			"name": "LaTeXSmartQuotes",
+			"details": "https://github.com/r-stein/sublime-text-latex-smart-quotes",
+			"labels": ["latex"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/LaTeXTools",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "lay-out Syntax",
+			"details": "https://github.com/CREEATION/lay-out-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -217,6 +294,18 @@
 			]
 		},
 		{
+			"name": "LazyTimeTracker",
+			"details": "https://github.com/Bwata/LazyTimeTracker",
+			"labels": ["Time", "tracking"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LC3 Assembly",
 			"details": "https://github.com/wufufufu/Sublime-LC3",
 			"releases": [
@@ -227,8 +316,30 @@
 			]
 		},
 		{
+			"name": "LC4 Assembly Syntax",
+			"details": "https://github.com/meepzh/lc4-assembly-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LD library Path",
 			"details": "https://github.com/nicolas-cherel/LDLibPath",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LDIF Syntax Highlighting",
+			"details": "https://github.com/FlashSystems/LDIF-Syntax",
+			"labels": ["language syntax", "syntax", "highlighting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -273,6 +384,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Leiningen",
+			"details": "https://github.com/GreenLightning/sublime-leiningen",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -323,6 +444,27 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "lessy",
+			"details": "https://github.com/FabioFuschi-SNK/lessy-sublimeplugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "lestle",
+			"details": "https://github.com/lewislepton/lestle.tmTheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -504,9 +646,20 @@
 			]
 		},
 		{
-			"name": "lioshi Color Scheme",
+			"name": "Linux System Administration Snippets",
+			"details": "https://github.com/YuniorGlez/LinuxSystemAdministration",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags" : true
+				}
+			]
+		},
+		{
+			"name": "lioshiTheme",
+			"previous_names": ["lioshi Color Scheme"],
 			"details": "https://github.com/lioshi/lioshiScheme",
-			"labels": ["color scheme"],
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -576,6 +729,17 @@
 			]
 		},
 		{
+			"name": "ListOpenFiles",
+			"details": "https://github.com/rrg/ListOpenFiles",
+			"labels": ["File List"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Lithium Snippets",
 			"details": "https://github.com/fitzagard/li3_sublime",
 			"labels": ["snippets"],
@@ -587,12 +751,13 @@
 			]
 		},
 		{
-			"name": "LiveReload",
-			"details": "https://github.com/dz0ny/LiveReload-sublimetext2",
+			"name": "LiveReloadMake",
+			"details": "https://github.com/alessandro-pezzato/LiveReloadMake-sublimetext3",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -603,6 +768,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LiveStamps",
+			"details": "https://github.com/TundraTech/LiveStamps/",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -661,6 +836,16 @@
 			]
 		},
 		{
+			"name": "Local Packages",
+			"details": "https://github.com/spywhere/LocalPackages",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Locales",
 			"details": "https://github.com/AndorChen/sublime-locales",
 			"labels": ["i18n", "l10n"],
@@ -707,6 +892,29 @@
 			]
 		},
 		{
+			"name": "Lodash modules snippets",
+			"details": "https://github.com/oriSomething/lodash-modules-sublime",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Lodestone Color Scheme",
+			"details": "https://github.com/mattchanner/lodestone-theme",
+			"labels": ["color scheme"],
+			"previous_names": ["Ansible Color Scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Logger Snippets",
 			"details": "https://github.com/ssrihari/sublime-logger-snippets",
 			"labels": ["snippets"],
@@ -718,12 +926,45 @@
 			]
 		},
 		{
+			"name": "Logging Control",
+			"details": "https://github.com/scholer/sublime_logging_control",
+			"labels": ["logging", "logger", "logs", "debugging", "debug", "console", "output"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Logos Syntax Highlighting",
+			"details": "https://github.com/wolfposd/Sublime-Logos",
+			"labels": ["language syntax", "syntax", "highlighting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Logstash Syntax Highlighting",
 			"details": "https://github.com/nir0s/sublime-logstash-syntax-highlighter",
 			"labels": ["language syntax", "syntax", "highlighting"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LogView",
+			"details": "https://github.com/FlashSystems/LogView",
+			"labels": ["highlighting", "logs"],
+			"releases": [
+				{
+					"sublime_text": ">=3065",
 					"tags": true
 				}
 			]
@@ -763,7 +1004,7 @@
 			"details": "https://github.com/erdostom/LoremGibsonSublime",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -784,6 +1025,28 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LPC",
+			"details": "https://github.com/abathur/SublimeLPC",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LPrint",
+			"details": "https://github.com/mbr/LPrint",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -843,6 +1106,27 @@
 			]
 		},
 		{
+			"name": "LuaSimpleComplete",
+			"details": "https://github.com/iamfredng/LuaSimpleComplete",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms":["windows", "linux", "osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaSmartTips",
+			"details": "https://github.com/haoyue90/LuaSmartTips",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Lucario Color Scheme",
 			"details": "https://github.com/raphamorim/lucario",
 			"labels": ["color scheme"],
@@ -857,7 +1141,8 @@
 			"details": "https://github.com/jonny64/ludik",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"branch": "master"
 				}
 			]
@@ -880,6 +1165,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LyxMath",
+			"details": "https://github.com/rudvfaden/Sublime-LyxMath",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
