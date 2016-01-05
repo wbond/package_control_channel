@@ -264,6 +264,17 @@
 			]
 		},
 		{
+			"name": "New Moon Color Scheme",
+			"details": "https://github.com/taniarascia/new-moon-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NFO",
 			"details": "https://github.com/liamja/sublime-nfo",
 			"releases": [
@@ -359,6 +370,16 @@
 			]
 		},
 		{
+			"name": "NitSyntaxHighliter",
+			"details" : "https://github.com/itsWill/NitSyntaxHighlighter",
+			"releases" : [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nix",
 			"details": "https://github.com/wmertens/sublime-nix",
 			"releases": [
@@ -372,6 +393,17 @@
 			"name": "Nocturnal Color Scheme",
 			"details": "https://github.com/noct/nocturnal-color-scheme",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Node Assert Snippets",
+			"details": "https://github.com/jaymorrow/node-assert-snippets",
+			"labels": ["node", "assert", "snippets", "test", "assertions", "unit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -403,14 +435,13 @@
 		{
 			"name": "Nodejs",
 			"details": "https://github.com/tanepiper/SublimeText-Nodejs",
+			"labels": ["auto-complete", "snippets"],
+			"author": ["tanepiper", "varp"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
-					"branch": "sublime-text-3"
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
 				}
 			]
 		},
@@ -484,6 +515,17 @@
 				{
 					"sublime_text": ">3000",
 					"base": "https://github.com/thomscode/notifications",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NoTutorial",
+			"details": "https://github.com/chadnewbry/NoTutorial",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]
@@ -572,7 +614,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -644,7 +686,7 @@
 		},
 		{
 			"name": "Numix Theme",
-			"details": "https://github.com/Zetch/sublime-text-numix",
+			"details": "https://github.com/nauzethc/sublime-text-numix",
 			"labels": ["numix", "theme"],
 			"releases": [
 				{

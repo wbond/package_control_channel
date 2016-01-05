@@ -307,6 +307,16 @@
 			]
 		},
 		{
+			"name": "Alda",
+			"details": "https://github.com/archimedespi/sublime-alda",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Alfresco Snippets",
 			"details": "https://github.com/odtorres/Alfresco-Sublime-Snippets",
 			"releases": [
@@ -354,6 +364,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AltUp",
+			"details": "https://github.com/germtb/AltUp",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -804,6 +824,17 @@
 			]
 		},
 		{
+			"name": "APICloudPackage",
+			"details": "https://github.com/APICloud-com/Sublime-APICloud-Package",
+			"labels": ["android", "apicloud"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "APICloudSnippets",
 			"details": "https://github.com/APICloud-com/Sublime-APICloud-Snippet",
 			"labels": ["javascript", "snippets"],
@@ -1113,7 +1144,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1342,6 +1373,16 @@
 			]
 		},
 		{
+			"name": "Auto Fold",
+			"details": "https://github.com/fermads/sublime-autofold",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Auto Refresh",
 			"details": "https://github.com/Waterflames/AutoRefresh",
 			"releases": [
@@ -1488,7 +1529,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},

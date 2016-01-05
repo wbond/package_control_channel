@@ -229,6 +229,17 @@
 			]
 		},
 		{
+			"name": "Gherkin Auto-Complete Plus",
+			"details": "https://github.com/austincrft/sublime-gherkin-auto-complete-plus",
+			"labels": ["auto-complete", "language syntax", "testing", "gherkin", "cucumber"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/hypernovagama/Gherkin-highlight-sublimetext",
 			"labels": ["language syntax"],
 			"releases": [
@@ -465,6 +476,17 @@
 			]
 		},
 		{
+			"name": "GithubEmoji",
+			"details": "https://github.com/akatopo/GithubEmoji",
+			"labels": ["emoji", "github", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GitHubinator",
 			"details": "https://github.com/ehamiter/GitHubinator",
 			"releases": [
@@ -667,8 +689,9 @@
 			]
 		},
 		{
-			"name": "gmESSI-gmsh tools",
+			"name": "gmESSI-gmsh Tools",
 			"details": "https://github.com/SumeetSinha/gmESSI-SublimePlugin",
+			"previous_names": ["gmESSI-gmsh tools"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -700,6 +723,17 @@
 		{
 			"name": "GN",
 			"details": "https://github.com/eseidelGoogle/gn_sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GNU Octave Completions",
+			"details": "https://github.com/tushortz/GNU-Octave-Completions",
+			"labels": ["completion", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -818,6 +852,19 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Golang Build",
+			"author": "Go Authors",
+			"details": "https://github.com/golang/sublime-build",
+			"labels": ["go", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["*"],
+					"tags": true
 				}
 			]
 		},
@@ -1088,16 +1135,8 @@
 			]
 		},
 		{
-			"details": "https://github.com/khrizt/GotoLastEdit",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GoToLastEdit",
+			"previous_names": ["GotoLastEdit"],
 			"details": "https://github.com/khrizt/GotoLastEdit",
 			"releases": [
 				{
@@ -1362,6 +1401,18 @@
 			]
 		},
 		{
+			"name": "Grepmark",
+			"details": "https://github.com/dusk125/sublime-grepmark",
+			"labels": ["grep", "search", "bookmark"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "greybeard theme",
 			"details": "https://github.com/xero/greybeard-sublime",
 			"releases": [
@@ -1458,6 +1509,17 @@
 			"name": "Gruvbox Dark",
 			"details": "https://github.com/peaceant/gruvbox",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GSAP Snippets",
+			"details": "https://github.com/MandyMadeThis/gsap_snippets",
+			"labels": ["GSAP", "GreenSock", "snippets", "js", "JavaScript"],
 			"releases": [
 				{
 					"sublime_text": "*",

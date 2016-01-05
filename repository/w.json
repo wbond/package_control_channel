@@ -35,6 +35,16 @@
 			]
 		},
 		{
+			"name": "Wanderlei Color Scheme",
+			"details": "https://github.com/JeremySaks/wanderlei-color-scheme",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Warp-OS Color Scheme",
 			"details": "https://github.com/idleberg/WarpOS.tmTheme",
 			"labels": ["color scheme"],
@@ -42,6 +52,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WaveOC Apex Snippets",
+			"details": "https://github.com/adashko/WaveOC-Snippet",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -291,7 +312,8 @@
 			]
 		},
 		{
-			"name": "Wildlife",
+			"name": "Wildlife Color Scheme",
+			"previous_names":["Wildlife"],
 			"details": "https://github.com/tushortz/wildlife",
 			"labels": ["color scheme","highlighting","linting"],
 			"releases": [
@@ -301,7 +323,7 @@
 				}
 			]
 		},
-		{ 
+		{
 			"name": "Wildlife gutter theme",
 			"details": "https://github.com/tushortz/Wildlife-gutter-theme",
 			"labels": ["linting"],
@@ -311,7 +333,7 @@
 					"tags": true
 				}
 			]
-		}, 
+		},
 		{
 			"name": "Winamp Skin Developer",
 			"details": "https://github.com/idleberg/Winamp-Skin-Dev-Sublime-Text",
@@ -336,14 +358,37 @@
 			"details": "https://github.com/SublimeText/WinMerge",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WinSCP",
+			"details": "https://github.com/thecotne/sublime-WinSCP",
+			"previous_names": ["sublime WinSCP"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Wisedu TrunPage Snippets",
 			"details": "https://github.com/bywwcnll/wisedu",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Witcher Script Syntax",
+			"details": "https://github.com/flo5581/sublime-WitcherScript",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -412,7 +457,18 @@
 			]
 		},
 		{
+			"name": "WordCompletion",
+			"details": "https://github.com/schmave/Sublime-Word-Completion",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/titoBouzout/WordCount",
+			"readme": "https://raw.githubusercontent.com/titoBouzout/WordCount/st3/readme.md",
 			"releases": [
 				{
 					"sublime_text": ">=3000",

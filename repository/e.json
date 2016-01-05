@@ -55,6 +55,17 @@
 			]
 		},
 		{
+			"name": "EasyCatalog",
+			"details": "https://github.com/julux/EasyCatalog",
+			"labels": ["snippets", "language syntax", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/EasyDiff",
 			"releases": [
 				{
@@ -311,7 +322,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -413,6 +424,17 @@
 			]
 		},
 		{
+			"name": "EmmetOneLine",
+			"details": "https://github.com/kakRostropovich/EmmetOneLine",
+			"author": "Rostislav Nazmeev",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Emoji",
 			"details": "https://github.com/ethanal/SublimeEmoji",
 			"releases": [
@@ -449,6 +471,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "st3"
+				}
+			]
+		},
+		{
+			"name": "Energy Color Scheme",
+			"details": "https://github.com/sandralundgren/Energy-Sublime-Text-theme",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -545,6 +578,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "EPL",
+			"details": "https://github.com/StefanE/sublime-epl",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -774,7 +817,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64"],
+					"platforms": ["osx-x64", "linux-x64", "windows-x64"],
 					"tags": true
 				}
 			]
@@ -864,7 +907,7 @@
 			"details": "https://github.com/kek/sublime-expand-selection-to-quotes",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -977,7 +1020,23 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"branch": "st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Extend Selection",
+			"details": "https://github.com/anly2/sublime-extend-selection",
+			"author": "aanchev",
+			"labels": ["text selection", "cursors manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1025,6 +1084,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "External_Programs",
+			"details": "https://github.com/Hibou57/External-Programs-ST3",
+			"donate": "https://pledgie.com/campaigns/30727",
+			"labels": ["text manipulation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3083",
 					"tags": true
 				}
 			]

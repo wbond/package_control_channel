@@ -33,6 +33,17 @@
 			]
 		},
 		{
+			"name": "C++ Completions",
+			"details": "https://github.com/tushortz/CPP-Completions",
+			"labels": ["c++","completions", "auto-complete", "completion", "autocomplete", "snippet", "Completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "C++ Snippets",
 			"details": "https://github.com/Rapptz/cpp-sublime-snippet",
 			"labels": ["snippets"],
@@ -478,6 +489,16 @@
 			]
 		},
 		{
+			"name": "ChapelLang",
+			"details": "https://github.com/acrosby/sublimetext-chapel",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chaplin.js",
 			"details": "https://github.com/joneshf/sublime-chaplinjs",
 			"releases": [
@@ -498,6 +519,17 @@
 				}
 			]
 		},
+				{
+			"name": "Charcoal",
+			"details": "https://github.com/Dnld/charcoal-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
 		{
 			"name": "Chatscript Syntax",
 			"details": "https://github.com/joshuasnowball/chatscript-tmlanguage",
@@ -505,6 +537,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CHeaders",
+			"details": "https://github.com/leoxnidas/CHeaders",
+			"labels": ["C", "C++"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
 					"tags": true
 				}
 			]
@@ -536,6 +580,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ChecksumUPC",
+			"details": "https://github.com/Darimart/st3-checksumupc",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -702,6 +756,16 @@
 					"sublime_text": "<3000",
 					"base": "https://github.com/mangini/chrome-apis-sublime",
 					"branch": "published"
+				}
+			]
+		},
+		{
+			"name": "Chrome Snippets",
+			"details": "https://github.com/ismnoiet/ChromeSnippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1030,11 +1094,31 @@
 			]
 		},
 		{
+			"name": "CloseFolder",
+			"details": "https://github.com/aviaryan/CloseFolder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CloseOtherWindows",
 			"details": "https://github.com/werkzeugh/CloseOtherWindows_SublimePlugin",
 			"releases": [
 			{
 				"sublime_text": "*",
+				"tags": true
+			}
+			]
+		},
+		{
+			"name": "CloseTabsLeft",
+			"details":"https://github.com/deXterbed/CloseTabsLeft",
+			"releases": [
+			{
+				"sublime_text": "<3000",
 				"tags": true
 			}
 			]
@@ -1257,6 +1341,16 @@
 			]
 		},
 		{
+			"name": "CodeCells",
+			"details": "https://github.com/jesseengel/CodeCells",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Codechef",
 			"details": "https://github.com/prongs/SublimeCodechef",
 			"releases": [
@@ -1420,6 +1514,17 @@
 			]
 		},
 		{
+			"name": "Coffee Color Scheme",
+			"details": "https://github.com/watergear/sublime-coffee-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Coffee Formatter",
 			"details": "https://github.com/derekchiang/Sublime-CoffeeScript-Formatter",
 			"releases": [
@@ -1564,6 +1669,17 @@
 		{
 			"name": "Color Scheme - Baara Dark",
 			"details": "https://github.com/jobedom/sublime-baara-dark",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Chromodynamics",
+			"details": "https://github.com/MagicStack/Chromodynamics",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1756,11 +1872,20 @@
 			]
 		},
 		{
+			"details": "https://github.com/facelessuser/ColorHelper",
+			"releases": [
+				{
+					"sublime_text": ">=3080",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
 			"name": "ColorPick",
 			"details": "https://github.com/jnordberg/sublime-colorpick",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1978,6 +2103,17 @@
 			]
 		},
 		{
+			"name": "Competitive Programming",
+			"details": "https://github.com/egtoneyUK/CompetitiveProgramming/",
+			"author": "egtoneyUK",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Compile Selected ES6",
 			"details": "https://github.com/xinchaobeta/compile-selected-es6",
 			"releases": [
@@ -2016,6 +2152,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ConEmuOpen",
+			"details": "https://github.com/kiliwalk/Sublime_ConEmuOpen",
+			"labels": ["conemu", "cmd", "windows", "cmd here"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
 				}
 			]
 		},
@@ -2105,6 +2253,16 @@
 			]
 		},
 		{
+			"name": "ConvertChineseCharacters",
+			"details": "https://github.com/stormtea123/ConvertChineseCharacters",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ConvertJaZenHan",
 			"details": "https://github.com/Satoh-D/ConvertJaZenHan",
 			"releases": [
@@ -2159,6 +2317,17 @@
 			"name": "Copy Code Snippet",
 			"details": "https://github.com/socsieng/sublime-copy-code-snippet",
 			"labels": ["copy"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Copy Cut and Paste Lines",
+			"details": "https://github.com/alanlynn/sublime-copy-cut-paste-lines",
+			"labels": ["text manipulation", "clipboard", "copy", "cut", "paste", "duplicate"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2257,6 +2426,24 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/crash5/CopyWithLineNumbersReloaded",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/samsha1971/CopyWithQuotes",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2620,6 +2807,16 @@
 			]
 		},
 		{
+			"name": "CSS To SASS And Stylus Converter",
+			"details": "https://github.com/lnikell/css-converter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CSS Unminifier",
 			"details": "https://github.com/jonnypolite/cssunminifier",
 			"releases": [
@@ -2757,6 +2954,16 @@
 			]
 		},
 		{
+			"name": "Cssnext",
+			"details": "https://github.com/zhouwenbin/sublime-cssnext",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CSSOrder",
 			"details": "https://github.com/lightningtgc/sublime-cssorder",
 			"releases": [
@@ -2820,6 +3027,17 @@
 			]
 		},
 		{
+			"name": "Ctranslator tool",
+			"details": "https://github.com/lovesnow/ctranslator-sublime3-plugin",
+			"labels": ["utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Cube2Media Color Scheme",
 			"details": "https://github.com/electricgraffitti/sublime-theme-Cube2",
 			"releases": [
@@ -2857,7 +3075,7 @@
 		},
 		{
 			"name": "Cucumber Completion",
-			"details": "https://github.com/krockode/sublime-cucumber-completion",
+			"details": "https://github.com/kristianperkins/sublime-cucumber-completion",
 			"releases": [
 				{
 					"sublime_text": "*",
