@@ -266,6 +266,16 @@
 			]
 		},
 		{
+			"name": "HDLProject",
+			"details": "https://bitbucket.org/bootsiaz/sublime-hdlproject",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Header Creator",
 			"details": "https://github.com/Harryman/Arduino-header-keyword-creator",
 			"releases": [
@@ -427,6 +437,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Highlight Dodgy Chars",
+			"details": "https://github.com/TuureKaunisto/highlight-dodgy-chars",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -629,6 +649,17 @@
 			]
 		},
 		{
+			"name": "Hoon Syntax Highlighting",
+			"details": "https://github.com/alexflint/SublimeHoon",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hope",
 			"details": "https://github.com/Kikobeats/Hope-Snippets",
 			"author": "Kiko Beats",
@@ -662,11 +693,14 @@
 			]
 		},
 		{
-			"details": "https://github.com/rodrigoflores/hosts",
+			"name": "Hosts",
+			"details": "https://github.com/tijn/hosts.tmLanguage",
+			"labels": ["language syntax"],
+			"previous_names": ["hosts"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1030,6 +1064,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hugofy",
+			"details": "https://github.com/akmittal/Hugofy",
+			"releases": [
+				{
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]

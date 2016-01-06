@@ -731,6 +731,17 @@
 			]
 		},
 		{
+			"name": "GNU Octave Completions",
+			"details": "https://github.com/tushortz/GNU-Octave-Completions",
+			"labels": ["completion", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Gnuplot",
 			"details": "https://github.com/hesstobi/sublime_gnuplot",
 			"labels": ["language syntax"],
@@ -845,6 +856,19 @@
 			]
 		},
 		{
+			"name": "Golang Build",
+			"author": "Go Authors",
+			"details": "https://github.com/golang/sublime-build",
+			"labels": ["go", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Golden Dragon Color Scheme",
 			"details": "https://github.com/zaynali53/golden-dragon",
 			"labels": ["color scheme"],
@@ -894,6 +918,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Google Dictionary",
+			"details": "https://github.com/houcheng/GoogleDictionary",
+			"labels": ["dictionary", "google", "translator"],
+			"releases": [
+				{
+					"sublime_text": ">=3080",
+					"tags": true
 				}
 			]
 		},
@@ -1111,16 +1146,8 @@
 			]
 		},
 		{
-			"details": "https://github.com/khrizt/GotoLastEdit",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GoToLastEdit",
+			"previous_names": ["GotoLastEdit"],
 			"details": "https://github.com/khrizt/GotoLastEdit",
 			"releases": [
 				{
@@ -1385,6 +1412,18 @@
 			]
 		},
 		{
+			"name": "Grepmark",
+			"details": "https://github.com/dusk125/sublime-grepmark",
+			"labels": ["grep", "search", "bookmark"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "greybeard theme",
 			"details": "https://github.com/xero/greybeard-sublime",
 			"releases": [
@@ -1481,6 +1520,17 @@
 			"name": "Gruvbox Dark",
 			"details": "https://github.com/peaceant/gruvbox",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GSAP Snippets",
+			"details": "https://github.com/MandyMadeThis/gsap_snippets",
+			"labels": ["GSAP", "GreenSock", "snippets", "js", "JavaScript"],
 			"releases": [
 				{
 					"sublime_text": "*",

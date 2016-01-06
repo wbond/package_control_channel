@@ -291,6 +291,17 @@
 			]
 		},
 		{
+			"name": "Delphi Syntax Highlighting",
+			"details": "https://bitbucket.org/JeisonJHA/sublime-delphi-language",
+			"labels": ["theme", "language syntax", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Demain Color Scheme",
 			"details": "https://github.com/appleton/demain",
 			"labels": ["color scheme"],
@@ -450,6 +461,17 @@
 			]
 		},
 		{
+			"name": "DiffView",
+			"details": "https://github.com/CJTozer/SublimeDiffView",
+			"labels": ["Git", "git", "SVN", "svn", "diff", "difference"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Diffy",
 			"details": "https://github.com/zsong/diffy",
 			"labels": ["diff", "compare", "difference", "comparison"],
@@ -476,6 +498,16 @@
 			"name": "Dimmed Color Scheme",
 			"details": "https://github.com/uonick/dimmed",
 			"labels": ["color scheme", "dimmed", "base16"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Direct Edit",
+			"details": "https://github.com/UniFreak/SublimeDirectEdit",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -519,6 +551,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Disk Inventory X",
+			"details": "https://github.com/RShergold/sublime-disk-inventory",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]
@@ -671,6 +714,26 @@
 			]
 		},
 		{
+			"name": "DocBlockr_Python",
+			"details": "https://github.com/adambullmer/sublime_docblockr_python",
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			],
+			"labels": [
+				"python",
+				"docstring",
+				"automatic",
+				"formatter",
+				"generator",
+				"auto-complete",
+				"snippets"
+			]
+		},
+		{
 			"name": "Docker Based Build Systems",
 			"details": "https://github.com/domeide/sublime-docker",
 			"labels": ["build system","build"],
@@ -684,7 +747,7 @@
 		},
 		{
 			"name": "Dockerfile Syntax Highlighting",
-			"details": "https://github.com/asbjornenge/Dockerfile.tmLanguage",
+			"details": "https://github.com/asbjornenge/Docker.tmbundle",
 			"labels": ["language syntax"],
 			"releases": [
 				{
