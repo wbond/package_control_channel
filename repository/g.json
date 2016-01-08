@@ -645,7 +645,23 @@
 					"tags": true
 				}
 			]
-		},
+		}, 
+		{
+			"name": "GLSL Compiler", 
+			"details": "https://github.com/sindney/GLSLCompiler",
+			"releases": [
+				{
+					"platforms": "osx",
+					"sublime_text": "*",
+					"tags": "osx-"
+				},
+				{
+					"platforms": "windows",
+					"sublime_text": "*",
+					"tags": "win-"
+				}
+			]
+		}, 
 		{
 			"name": "GLSL Validator",
 			"details": "https://github.com/Mischa-Alff/ST-GLSL-Validator",
