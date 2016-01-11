@@ -303,14 +303,11 @@
 		{
 			"name": "Git",
 			"details": "https://github.com/kemayo/sublime-text-git",
+			"labels": ["git", "vcs"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
-					"branch": "python3"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
