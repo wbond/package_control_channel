@@ -296,16 +296,14 @@ class TestContainer(object):
         for k, v in data.items():
             self.enforce_key_types_map(k, v, self.package_key_types_map)
 
-            if k == 'donate' and v is None:
-                # Allow "removing" the donate url that is added by "details"
-                continue
-            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
-                self.assertRegex(v, '^https?://')
-
-            elif k == 'details':
+            if k == 'details':
                 self.assertRegex(v, self.package_details_regex,
                                  'The details url is badly formatted or '
                                  'invalid')
+
+            elif k == 'donate' and v is None:
+                # Allow "removing" the donate url that is added by "details"
+                continue
 
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
@@ -324,6 +322,9 @@ class TestContainer(object):
                         self.previous_package_names[prev_name] = (
                             (prev_name, include, name)
                         )
+
+            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
+                self.assertRegex(v, '^https?://')
 
         # Test for invalid characters (on file systems)
         # Invalid on Windows (and sometimes problematic on UNIX)
