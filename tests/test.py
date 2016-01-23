@@ -305,6 +305,12 @@ class TestContainer(object):
                 # Allow "removing" the donate url that is added by "details"
                 continue
 
+            elif k == 'labels':
+                for label in v:
+                    self.assertNotIn(",", label,
+                                     "Multiple labels should not be in the "
+                                     "same string")
+
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
                 for prev_name in v:
