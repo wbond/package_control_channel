@@ -2,20 +2,22 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"details": "https://github.com/SublimeText/AAAPackageDev",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/khiltd/Abacus",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Abaqus",
+			"details": "https://github.com/SenhorLucas/AbaqusSublimePackage",
+			"labels": ["abaqus", "language syntax", "snippets", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -180,6 +182,18 @@
 			]
 		},
 		{
+			"name": "AdDa Apex Snippets",
+			"details": "https://github.com/adashko/AdDa-Snippet",
+			"labels": ["snippets"],
+			"previous_names": ["WaveOC Apex Snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Additional PHP Snippets",
 			"details": "https://github.com/stuartherbert/sublime-phpsnippets",
 			"labels": ["snippets"],
@@ -307,11 +321,32 @@
 			]
 		},
 		{
+			"name": "Alda",
+			"details": "https://github.com/archimedespi/sublime-alda",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Alfresco Snippets",
 			"details": "https://github.com/odtorres/Alfresco-Sublime-Snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Align Arguments",
+			"details": "https://github.com/denniskempin/align-arguments",
+			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -354,6 +389,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AltUp",
+			"details": "https://github.com/germtb/AltUp",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -680,6 +725,16 @@
 			]
 		},
 		{
+			"name": "Antescofo",
+			"details": "https://github.com/arshiacont/antescofo-sublime-package",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Antiki",
 			"details": "https://github.com/swdunlop/antiki",
 			"releases": [
@@ -870,6 +925,17 @@
 			"name": "Appealr",
 			"details": "https://github.com/manikrathee/appealr",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AppendComma",
+			"details": "https://github.com/jeffhandley/AppendComma",
+			"labels": ["text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1193,6 +1259,18 @@
 			]
 		},
 		{
+			"name": "AsciiGraph",
+			"details": "https://github.com/divinites/AsciiGraph",
+			"author": "divinites",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": ["osx", "linux"]
+				}
+			]
+		},
+		{
 			"name": "ASP Snippets",
 			"details": "https://github.com/marcosisocram/asp-snippets",
 			"author": "Marcos Paulo",
@@ -1358,6 +1436,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Auto Hide Sidebar",
+			"details": "https://github.com/xunker/AutoHideSidebar",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

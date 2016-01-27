@@ -17,6 +17,20 @@
 			]
 		},
 		{
+			"name": "backrefs",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Backrefs regular expression wrapper.",
+			"issues": "https://github.com/facelessuser/sublime-backrefs/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-backrefs",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -76,16 +90,17 @@
 			]
 		},
 		{
-			"name": "jinja2",
-			"load_order": "51",
-			"description": "Python Jinja2 module",
-			"author": "teddy_beer_maniac",
-			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"name": "golangconfig",
+			"load_order": "10",
+			"description": "A library for Go environment configuration",
+			"author": "Go Authors",
+			"issues": "https://github.com/golang/sublime-config/issues",
 			"releases": [
 				{
-					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"base": "https://github.com/golang/sublime-config",
 					"tags": true,
-					"sublime_text": "*"
+					"sublime_text": "*",
+					"platforms": ["*"]
 				}
 			]
 		},
@@ -100,7 +115,7 @@
 							"base": "https://github.com/eerohele/sublime-lxml",
 							"tags": true,
 							"sublime_text": ">=3000",
-							"platforms": ["osx-x64", "linux-x64"]
+							"platforms": ["osx-x64", "linux-x64", "windows-x64"]
 					}
 			]
 		},
@@ -115,6 +130,20 @@
 					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "mdpopups",
+			"author": "facelessuser",
+			"load_order": "55",
+			"description": "Markdown Popups for Sublime",
+			"issues": "https://github.com/facelessuser/sublime-markdown-popups/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown-popups",
+					"tags": true,
+					"sublime_text": ">=3080"
 				}
 			]
 		},
@@ -244,6 +273,34 @@
 					"base": "https://github.com/packagecontrol/pygments",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "python-jinja2",
+			"load_order": "51",
+			"description": "Python Jinja2 module",
+			"author": "teddy_beer_maniac",
+			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"releases": [
+				{
+					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "python-markdown",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Python Markdown module",
+			"issues": "https://github.com/facelessuser/sublime-markdown/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
