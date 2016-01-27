@@ -2158,16 +2158,6 @@
 			]
 		},
 		{
-			"name": "Python Auto-Complete",
-			"details": "https://github.com/eliquious/Python-Auto-Complete",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Python Breakpoints",
 			"details": "https://github.com/obormot/PythonBreakpoints",
 			"releases": [
@@ -2185,6 +2175,18 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Python Completions",
+			"previous_names": ["Python Auto-Complete"],
+			"details": "https://github.com/eliquious/Python-Auto-Complete",
+			"labels": ["python", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
