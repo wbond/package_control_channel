@@ -60,6 +60,21 @@
 			]
 		},
 		{
+			"name": "cson",
+			"load_order": "50",
+			"description": "A Coffescript Object Notation (CSON) parser for Python - https://github.com/avakar/pycson",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-cson/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-cson",
+					"tags": true
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "ctypes",
 			"load_order": "01",
 			"description": "Python _ctypes module",
