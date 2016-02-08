@@ -420,6 +420,20 @@
 			]
 		},
 		{
+			"name": "speg",
+			"load_order": "50",
+			"description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-speg/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-speg",
+					"tags": true
+					"sublime_text": "*",
+				}
+			]
+		},
+		{
 			"name": "sqlite3",
 			"load_order": "01",
 			"description": "Python _sqlite3 module",
