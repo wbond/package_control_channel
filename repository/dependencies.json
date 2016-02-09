@@ -190,6 +190,21 @@
 			]
 		},
 		{
+			"name": "numpy",
+			"load_order": "01",
+			"description": "Python numpy module",
+			"author": "komsit37",
+			"issues": "https://github.com/komsit37/sublime-numpy/issues",
+			"releases": [
+				{
+					"base": "https://github.com/komsit37/sublime-numpy",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["windows-x64", "osx-x64"]
+				}
+			]
+		},
+		{
 			"name": "oauthlib",
 			"load_order": "50",
 			"description": "Python oauthlib module",

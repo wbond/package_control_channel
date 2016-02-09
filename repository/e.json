@@ -189,6 +189,17 @@
 			]
 		},
 		{
+			"name": "EdifactHighlighter",
+			"details": "https://github.com/Frogli/sublime-edifact",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Edit Command Palette",
 			"details": "https://github.com/twolfson/sublime-edit-command-palette",
 			"labels": ["commands", "file navigation"],
@@ -593,6 +604,17 @@
 			]
 		},
 		{
+			"name": "Environment Settings",
+			"details": "https://bitbucket.org/daniele-niero/environmentsettings",
+			"labels": ["environment", "variables", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EPL",
 			"details": "https://github.com/StefanE/sublime-epl",
 			"releases": [
@@ -701,6 +723,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ESpec",
+			"previous_names": ["ESpec syntax highlighting"],
+			"details": "https://github.com/retgoat/ESpec",
+			"labels":["snippets", "build system", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
