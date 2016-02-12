@@ -1,5 +1,5 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "K Framework",
@@ -8,7 +8,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Zhomart/kframework-Sublime-Plugin/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -16,14 +16,12 @@
 			"name": "Kaneva API (KPI) Completions",
 			"details": "https://github.com/FracturedShader/kpiCompletions",
 			"labels": ["completions", "Kaneva", "Lua"],
+			"previous_names": ["Kaneva API (KPI) Snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/FracturedShader/kpiCompletions/tree/master"
+					"branch": "master"
 				}
-			],
-			"previous_names": [
-				"Kaneva API (KPI) Snippets"
 			]
 		},
 		{
@@ -33,7 +31,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/KCPS/st3-theme-kcps/tags"
+					"tags": true
 				}
 			]
 		},
@@ -43,7 +41,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vprimachenko/Sublime2KeepOpen/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -54,7 +52,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/maxhoffmann/Kellys/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kerbal Space Program Configuration Syntax",
+			"details": "https://github.com/NathanJang/KSP-tmLanguage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -65,7 +73,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jlknuth/KeyboardSpellCheck/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KeymapEnhanced",
+			"details": "https://github.com/shagabutdinov/sublime-keymap-enhanced",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "keymap"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -74,7 +94,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/welefen/KeymapManager/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -85,7 +105,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/MiroHibler/sublime-keymaps/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -95,19 +115,19 @@
 			"labels": ["language syntax", "build system", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"platforms": ["osx", "windows"],
-					"details": "https://github.com/Swoffa/SublimeKickAssemblerC64/tags"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Kickoff Snippets",
-			"details": "https://github.com/tmwagency/Kickoff-snippets",
+			"details": "https://github.com/trykickoff/Kickoff-snippets",
+			"labels": ["completions", "html", "css", "sass", "js", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/tmwagency/Kickoff-snippets/tags"
+					"tags": true
 				}
 			]
 		},
@@ -118,7 +138,41 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/idleberg/Kimbie.tmTheme/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kirby2 CMS Snippets",
+			"details": "https://github.com/mauricerenck/sublime-kirby2",
+			"labels": ["completions", "php", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Kivy Language",
+			"details": "https://github.com/ivlevdenis/kivylng",
+			"labels": ["auto-complete","build system","language syntax","snippets"],
+			"author": "ivlevdenis",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KIXtart",
+			"details": "https://github.com/vipex/KIXtart.tmLanguage",
+			"labels": ["language syntax", "build system", "snippets", "kix"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -129,7 +183,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/andrewheiss/SublimeKnitr/tags"
+					"tags": true
 				}
 			]
 		},
@@ -138,7 +192,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/aziz/knockdown/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -147,7 +201,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/KnowledgeBase/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -157,7 +211,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/phuu/sublime.kodery/tags"
+					"tags": true
 				}
 			]
 		},
@@ -167,7 +221,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Zeelot/sublime-kohana/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -178,7 +232,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/golf3gtiii/Kohana234-sublimeText2-plugin/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -188,7 +242,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/temperedvision/sublime-kohana3/src/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -198,7 +252,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/koken/koken-sublime/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "KoLMafia ASH Syntax",
+			"details": "https://github.com/digitrev/KoLMafiaAshSyntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -208,7 +273,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/vkostyukov/kotlin-sublime-package/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -219,7 +284,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/drautb/krl-syntax/tags"
+					"tags": true
 				}
 			]
 		},
@@ -229,22 +294,29 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/trevordixon/sublime-krl-validator/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Kroman",
+			"details": "https://github.com/cheunghy/kroman-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Kulture",
-			"details": "https://github.com/ligershark/kulture",
+			"details": "https://github.com/OmniSharp/Kulture",
+			"previous_names": ["vNext"],
 			"releases": [
 				{
-					"platforms": ["osx", "windows"],
 					"sublime_text": ">=3000",
-					"details": "https://github.com/ligershark/kulture/tree/release"
+					"branch": "release"
 				}
-			],
-			"previous_names": [
-				"vNext"
 			]
 		},
 		{
@@ -254,7 +326,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/daris/sublime-kwrite-color-scheme/tree/master"
+					"branch": "master"
 				}
 			]
 		}
