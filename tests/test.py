@@ -476,11 +476,12 @@ class TestContainer(object):
                                  'invalid')
 
             elif k == 'sublime_text':
-                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
-                                 'sublime_text must be `*` or of the form '
-                                 '<relation><version> '
+                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4}|\d{4} - \d{4})$',
+                                 'sublime_text must be `*`, of the form '
+                                 '`<relation><version>` '
                                  'where <relation> is one of {<, <=, >, >=} '
-                                 'and <version> is a 4 digit number')
+                                 'and <version> is a 4 digit number, '
+                                 'or of the form `<version> - <version>`')
 
             elif k == 'platforms':
                 if isinstance(v, str_cls):
