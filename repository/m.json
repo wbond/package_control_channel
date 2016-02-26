@@ -362,6 +362,16 @@
 			]
 		},
 		{
+			"details": "https://github.com/braver/MarkdownHighlighting",
+			"labels": ["markdown", "language syntax", "gfm"],
+			"releases": [
+				{
+					"sublime_text": ">3100",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/sekogan/MarkdownLight",
 			"releases": [
 				{
@@ -506,14 +516,15 @@
 		{
 			"name": "Material Nil",
 			"details": "https://github.com/akalongman/sublimetext-material-nil",
-			"author": "Avtandil Kikabidze",
+			"labels": ["theme", "color scheme"],
+			"author": "Avtandil Kikabidze aka LONGMAN",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Material Theme",
 			"details": "https://github.com/equinusocio/material-theme",
@@ -1731,6 +1742,19 @@
 			]
 		},
 		{
+			"name": "MSBuild selector",
+			"details": "https://github.com/jbaltie/MSBuildSelector",
+			"author": "Johan Baltié",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Mscgen",
 			"details": "https://github.com/r-stein/sublime-text-mscgen",
 			"labels": ["language syntax", "build system"],
@@ -1748,6 +1772,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Multi Select Alphabetizer",
+			"details": "https://github.com/jasongornall/sublime-alphabetizer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

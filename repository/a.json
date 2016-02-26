@@ -267,6 +267,17 @@
 			]
 		},
 		{
+			"name": "Agila Theme",
+			"details": "https://github.com/arvi/Agila-Theme",
+			"labels": ["theme", "color scheme", "oceanic", "solarized"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/stowns/Agile",
 			"releases": [
 				{
@@ -1049,8 +1060,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true,
-					"platforms": ["osx"]
+					"tags": true
 				}
 			]
 		},
@@ -1099,7 +1109,7 @@
 		},
 		{
 			"name": "AriaTemplates Highlighter",
-			"details": "https://github.com/juliandescottes/sublime-ariatemplates-highlighter",
+			"details": "https://github.com/ariatemplates/sublime-ariatemplates-highlighter",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1411,6 +1421,17 @@
 			]
 		},
 		{
+			"name": "Auto Close HTML Tags",
+			"details": "https://github.com/sh4nks/auto_close",
+			"labels": ["auto-complete", "html"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Auto Encoding for Python",
 			"details": "https://github.com/simme--/Auto-Encoding-for-Python",
 			"releases": [
@@ -1494,7 +1515,8 @@
 		{
 			"name": "AutoBackups",
 			"details": "https://github.com/akalongman/sublimetext-autobackups",
-			"author": "Avtandil Kikabidze",
+			"labels": ["backup", "utilities", "versioning"],
+			"author": "Avtandil Kikabidze aka LONGMAN",
 			"releases": [
 				{
 					"sublime_text": "*",

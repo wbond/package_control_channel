@@ -503,7 +503,7 @@
 			"labels": ["auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -1565,6 +1565,17 @@
 				}
 			]
 		},
+		{
+			"name": "SlideNav",
+			"details": "https://github.com/Enteleform/ST_SlideNav",
+			"labels": ["presentation", "lightning talk", "slide", "slides", "slideshow", "navigation", "code navigation", "file manager", "launcher", "file launcher", "open files", "remote control"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},	
 		{
 			"name": "SlideShow(S9)",
 			"details": "https://github.com/Seasons7/sublime-slideshow",
@@ -2633,10 +2644,11 @@
 		{
 			"name": "StringUtilities",
 			"details": "https://github.com/akalongman/sublimetext-stringutilities",
-			"author": "Avtandil Kikabidze",
+			"labels": ["utilities"],
+			"author": "Avtandil Kikabidze aka LONGMAN",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
