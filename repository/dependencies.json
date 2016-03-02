@@ -60,6 +60,21 @@
 			]
 		},
 		{
+			"name": "cson",
+			"load_order": "50",
+			"description": "A Coffescript Object Notation (CSON) parser for Python - https://github.com/avakar/pycson",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-cson/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-cson",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "ctypes",
 			"load_order": "01",
 			"description": "Python _ctypes module",
@@ -412,6 +427,21 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/shellenv",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
+			"name": "speg",
+			"load_order": "50",
+			"description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-speg/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-speg",
 					"tags": true,
 					"sublime_text": "*",
 					"platforms": ["*"]
