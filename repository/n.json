@@ -657,8 +657,12 @@
 			"labels": ["language syntax", "build system", "auto-complete", "snippets", "nsis"],
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": ">=3103",
-					"tags": true
+					"tags": "st3-"
 				}
 			]
 		},
