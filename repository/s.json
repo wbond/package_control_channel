@@ -503,8 +503,12 @@
 			"labels": ["auto-complete"],
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": ">=3103",
-					"tags": true
+					"tags": "st3-"
 				}
 			]
 		},
@@ -1062,6 +1066,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ShellScriptImproved",
+			"details": "https://github.com/jfcherng/Sublime-ShellScriptImproved",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -3580,6 +3595,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},{
+			"name": "Sunrise Theme",
+			"details": "https://github.com/jgroac/Sunrise-theme",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

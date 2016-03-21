@@ -484,16 +484,6 @@
 			]
 		},
 		{
-			"name": "Markup Jira Confluence",
-			"details": "https://github.com/mlf4aiur/sublimetext-markup-jira-confluence",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Mask",
 			"details": "https://github.com/tenbits/sublime-mask",
 			"releases": [
@@ -582,6 +572,17 @@
 			"name": "Materialize",
 			"previous_names": ["Material Spacegray"],
 			"details": "https://github.com/saadq/Materialize",
+			"labels": ["theme", "color scheme", "material"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Materialize-Appbar",
+			"details": "https://github.com/saadq/Materialize-Appbar",
 			"labels": ["theme", "color scheme", "material"],
 			"releases": [
 				{
@@ -1490,7 +1491,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Monochrome Color Schemes",
 			"details": "https://github.com/kristopherjohnson/MonochromeSublimeText",
