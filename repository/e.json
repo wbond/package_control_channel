@@ -32,6 +32,17 @@
 			]
 		},
 		{
+			"name": "Easy Import",
+			"details": "https://github.com/tushortz/EasyImport",
+			"labels": ["java", "auto-complete", "utilities", "completion", "autocomplete", "code generation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Easy Open",
 			"details": "https://github.com/mjkaufer/Easy-Open",
 			"author": "mjkaufer",
@@ -189,6 +200,27 @@
 			]
 		},
 		{
+			"name": "EddyMalou LoremIpsum",
+			"details": "https://github.com/Metrakit/eddy-malou-lorem-ipsum",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},		
+		{
+			"name": "EdifactHighlighter",
+			"details": "https://github.com/Frogli/sublime-edifact",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Edit Command Palette",
 			"details": "https://github.com/twolfson/sublime-edit-command-palette",
 			"labels": ["commands", "file navigation"],
@@ -222,7 +254,7 @@
 		{
 			"name": "EditorConfig",
 			"details": "https://github.com/sindresorhus/editorconfig-sublime",
-			"labels": ["linting", "text manipulation", "formatting", "code style"],
+			"labels": ["linting", "text manipulation", "formatting", "code style", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -477,15 +509,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/titoBouzout/EncodingHelper",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "st3"
-				}
-			]
-		},
-		{
 			"name": "Energy Color Scheme",
 			"details": "https://github.com/sandralundgren/Energy-Sublime-Text-theme",
 			"labels": ["theme", "color scheme"],
@@ -593,6 +616,17 @@
 			]
 		},
 		{
+			"name": "Environment Settings",
+			"details": "https://bitbucket.org/daniele-niero/environmentsettings",
+			"labels": ["environment", "variables", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EPL",
 			"details": "https://github.com/StefanE/sublime-epl",
 			"releases": [
@@ -608,16 +642,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "ePub",
-			"details": "https://github.com/titoBouzout/ePub",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]
@@ -705,8 +729,10 @@
 			]
 		},
 		{
-			"name": "ESpec syntax highlighting",
+			"name": "ESpec",
+			"previous_names": ["ESpec syntax highlighting"],
 			"details": "https://github.com/retgoat/ESpec",
+			"labels":["snippets", "build system", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -828,7 +854,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64"],
+					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"],
 					"tags": true
 				}
 			]
@@ -1159,7 +1185,7 @@
 			"previous_names": ["WebSequenceDiagrams"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

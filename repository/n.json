@@ -232,6 +232,16 @@
 			]
 		},
 		{
+			"name": "Nette + Latte + Neon",
+			"details": "https://github.com/FilipStryk/Nette-Latte-Neon-for-Sublime-Text-3",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Neutron",
 			"details": "https://github.com/ale110/SublimeText-Neutron-Syntax",
 			"labels": ["color scheme"],
@@ -554,6 +564,17 @@
 			]
 		},
 		{
+			"name": "npc_sheets",
+			"details": "https://github.com/aurule/npc_sheets",
+			"labels": ["language syntax", "nwod", "npc"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "npm",
 			"details": "https://github.com/PixnBits/sublime-text-npm",
 			"labels": ["npm", "node", "javascript", "commands"],
@@ -613,8 +634,12 @@
 			"previous_names": ["NSIS Language File Syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -636,8 +661,12 @@
 			"labels": ["language syntax", "build system", "auto-complete", "snippets", "nsis"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -658,8 +687,12 @@
 			"labels": ["language syntax", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
 				}
 			]
 		},

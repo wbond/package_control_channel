@@ -109,6 +109,17 @@
 			]
 		},
 		{
+			"name": "C11",
+			"details": "https://github.com/petervaro/C11",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "C99",
 			"details": "https://github.com/noct/sublime-c99",
 			"labels": ["language syntax"],
@@ -141,11 +152,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/titoBouzout/Camaleon",
+			"name": "Calculate Relative Path",
+			"details": "https://github.com/TonyHYK/CalculateRelativePath",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -581,6 +593,20 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Cheatsheet",
+			"author": "Victor Rachieru",
+			"description" : "Quick reference for those pesky little details that just won't stay in your head.",
+			"details": "https://github.com/vrachieru/cheatsheet",
+			"issues": "https://github.com/vrachieru/cheatsheet/issues",
+			"labels": ["cheatsheet", "documentation", "snippets", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1034,15 +1060,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/titoBouzout/ClipboardCommands",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "CLIPS Rules",
 			"details": "https://github.com/psicomante/CLIPS-sublime",
 			"releases": [
@@ -1211,6 +1228,17 @@
 			]
 		},
 		{
+			"name": "coala",
+			"details": "https://github.com/coala-analyzer/coala-sublime",
+			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "COBOL Syntax",
 			"details": "https://bitbucket.org/bitlang/sublime_cobol",
 			"labels": ["language syntax", "completion"],
@@ -1244,6 +1272,17 @@
 			]
 		},
 		{
+			"name": "Coconut",
+			"details": "https://github.com/evhub/sublime-coconut",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "cocos2d lua api",
 			"details": "https://github.com/06wj/cocos2d_lua_snippets",
 			"labels": ["snippets"],
@@ -1269,6 +1308,18 @@
 			"name": "CocosRubyEditor",
 			"details": "https://github.com/tkyaji/CocosRubyEditor",
 			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Coda Redux",
+			"details": "https://github.com/ojbaeza/Coda-Redux",
+			"author": "ojbaeza",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1385,7 +1436,8 @@
 		{
 			"name": "CodeFormatter",
 			"details": "https://github.com/akalongman/sublimetext-codeformatter",
-			"author": "Avtandil Kikabidze",
+			"labels": ["formatting", "utilities", "php", "css", "javascript", "html", "python", "automation", "indent"],
+			"author": "Avtandil Kikabidze aka LONGMAN",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1971,6 +2023,17 @@
 			]
 		},
 		{
+			"name": "Columbus Syntax",
+			"details": "https://bitbucket.org/canlustenberger/brainwarecolumbus",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Column Select",
 			"details": "https://github.com/ehuss/Sublime-Column-Select",
 			"releases": [
@@ -2200,6 +2263,18 @@
 			]
 		},
 		{
+			"name": "Confluence",
+			"details": "https://github.com/mlf4aiur/SublimeConfluence",
+			"homepage": "https://github.com/mlf4aiur/SublimeConfluence",
+			"author": "Kevin Li",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Conky.tmLanguage",
 			"details": "https://github.com/oliverseal/Conky.tmLanguage",
 			"releases": [
@@ -2384,6 +2459,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Copy on Select",
+			"details": "https://github.com/chrifpa/CopyOnSelect",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
