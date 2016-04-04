@@ -189,22 +189,23 @@
 			]
 		},
 		{
-			"name": "Task Mill",
-			"details": "https://github.com/a7medkamel/sublime-taskmill",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Task Timer",
 			"details": "https://github.com/jcowgar/sublime-task-timer",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "TaskMill",
+			"details": "https://github.com/a7medkamel/taskmill-editor-sublime",
+			"previous_names": ["Task Mill"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
