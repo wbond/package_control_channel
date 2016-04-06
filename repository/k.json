@@ -78,6 +78,20 @@
 			]
 		},
 		{
+			"name": "KeybindingHelper",
+			"details": "https://github.com/r-stein/sublime-text-keybinding-helper",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
 			"name": "KeyboardSpellCheck",
 			"details": "https://github.com/jlknuth/KeyboardSpellCheck",
 			"labels": ["spell check", "vintage", "vi", "google"],
@@ -312,6 +326,16 @@
 		{
 			"name": "Kroman",
 			"details": "https://github.com/cheunghy/kroman-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KSP (Kontakt Script Processor)",
+			"details": "https://github.com/nojanath/SublimeKSP",
 			"releases": [
 				{
 					"sublime_text": ">=3000",

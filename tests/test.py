@@ -581,11 +581,11 @@ class TestContainer(object):
                 except Exception as e:
                     yield cls._fail("Downloading %s failed" % path, e)
                     return
-                source = source.decode("utf-8", 'replace')
+                source = source.decode("utf-8", 'strict')
             else:
                 try:
                     with _open(path) as f:
-                        source = f.read().decode('utf-8', 'replace')
+                        source = f.read().decode('utf-8', 'strict')
                 except Exception as e:
                     yield cls._fail("Opening %s failed" % path, e)
                     return
@@ -685,7 +685,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
     def pre_generate(cls):
         if not hasattr(cls, 'j'):
             with _open('channel.json') as f:
-                cls.source = f.read().decode('utf-8', 'replace')
+                cls.source = f.read().decode('utf-8', 'strict')
                 cls.j = json.loads(cls.source)
 
             from collections import defaultdict
@@ -754,7 +754,7 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
     def pre_generate(cls):
         if not hasattr(cls, 'j'):
             with _open('repository.json') as f:
-                cls.source = f.read().decode('utf-8', 'replace')
+                cls.source = f.read().decode('utf-8', 'strict')
                 cls.j = json.loads(cls.source)
 
     def test_repository_keys(self):
@@ -778,10 +778,10 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
-                    contents = f.read().decode('utf-8', 'replace')
+                    contents = f.read().decode('utf-8', 'strict')
                 data = json.loads(contents)
             except Exception as e:
-                yield cls._fail("Error while reading %r" % include, e)
+                yield cls._fail("strict while reading %r" % include, e)
                 continue
 
             # `include` is for output during tests only

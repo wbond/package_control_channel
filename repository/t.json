@@ -91,6 +91,16 @@
 			]
 		},
 		{
+			"name": "TabSnippets",
+			"details": "https://github.com/oleksiyk/SublimeTabSnippets",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TabsShortcuts",
 			"details": "https://github.com/ejoubaud/SublimeTabsShortcuts",
 			"releases": [
@@ -110,6 +120,18 @@
 			]
 		},
 		{
+			"name": "TabTeleport",
+			"details": "https://github.com/Farit/TabTeleport",
+			"author": "Farit Sadykov",
+			"labels": ["tab navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TADS3",
 			"details": "https://github.com/VoidPhantom/sublime-tads3",
 			"labels": ["language syntax"],
@@ -117,15 +139,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/titoBouzout/Tag",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "st3"
 				}
 			]
 		},
@@ -186,22 +199,23 @@
 			]
 		},
 		{
-			"name": "Task Mill",
-			"details": "https://github.com/a7medkamel/sublime-taskmill",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Task Timer",
 			"details": "https://github.com/jcowgar/sublime-task-timer",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "TaskMill",
+			"details": "https://github.com/a7medkamel/taskmill-editor-sublime",
+			"previous_names": ["Task Mill"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -407,6 +421,17 @@
 			"name": "Test Plier",
 			"details": "https://github.com/asfaltboy/Sublime-Test-Plier",
 			"labels": ["python", "testing", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Test RSpec",
+			"details": "https://github.com/astrauka/TestRSpec",
+			"labels": ["ruby", "testing", "rspec", "spec"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -888,6 +913,17 @@
 			]
 		},
 		{
+			"name": "Theme - GaganSoda",
+			"details": "https://github.com/gj1118/soda-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Glacier",
 			"details": "https://github.com/shovelandsandbox/glacier-theme",
 			"labels": ["theme", "color scheme"],
@@ -979,6 +1015,17 @@
 		{
 			"name": "Theme - Ksix",
 			"details": "https://github.com/matiasmoya/theme-ksix",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Lanzhou",
+			"details": "https://github.com/kliu/sublime-theme-lanzhou",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -1132,6 +1179,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Theme - Otto",
+			"details": "https://github.com/oivva/otto",
+			"author": "Ihor Oleksandrov aka Oivva",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3083",
+					"tags": true
 				}
 			]
 		},
@@ -1745,16 +1804,6 @@
 			]
 		},
 		{
-			"name": "Toggl Timer",
-			"details": "https://github.com/chadrien/sublime-toggl",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Toggle Css Format",
 			"details": "https://github.com/speilberg0/SublimeToggleCssFormat",
 			"releases": [
@@ -1932,7 +1981,7 @@
 		},
 		{
 			"name": "TOML",
-			"details": "https://github.com/Gakai/sublime_toml_highlighting",
+			"details": "https://github.com/Jayflux/sublime_toml_highlighting",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1947,17 +1996,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Toolbar",
-			"details": "https://github.com/titoBouzout/Toolbar",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["linux", "windows"],
 					"branch": "master"
 				}
 			]

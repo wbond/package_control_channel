@@ -213,6 +213,16 @@
 			]
 		},
 		{
+			"name": "Beautiful Soup Completion",
+			"details": "https://github.com/tushortz/Beautiful-Soup-Completion",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/ketan/BeautifyLatex",
 			"releases": [
 				{
@@ -688,6 +698,16 @@
 			]
 		},
 		{
+			"name": "Blogger",
+			"details": "https://github.com/wporter82/blogger-sublime-plugin",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Blogify",
 			"details": "https://github.com/adampresley/sublime-blogify",
 			"releases": [
@@ -920,8 +940,12 @@
 			"labels": ["language syntax", "auto-complete", "nsis"],
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": ">=3103",
-					"tags": true
+					"tags": "st3-"
 				}
 			]
 		},
@@ -1024,15 +1048,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "default"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/titoBouzout/BufferScroll",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "st3"
 				}
 			]
 		},

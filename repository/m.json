@@ -132,6 +132,16 @@
 			]
 		},
 		{
+			"name": "Make Bookmarklet",
+			"details": "https://github.com/gillibrand/MakeBookmarklet",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Make File Executable",
 			"details": "https://github.com/glutanimate/sublime-make-file-executable",
 			"labels": ["chmod", "permissions"],
@@ -246,6 +256,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MapfileSyntax",
+			"details": "https://github.com/szinggeler/SublimeMapfileSyntax",
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
 				}
 			]
 		},
@@ -464,16 +484,6 @@
 			]
 		},
 		{
-			"name": "Markup Jira Confluence",
-			"details": "https://github.com/mlf4aiur/sublimetext-markup-jira-confluence",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Mask",
 			"details": "https://github.com/tenbits/sublime-mask",
 			"releases": [
@@ -531,7 +541,7 @@
 			"labels": ["theme", "color scheme", "material"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -542,7 +552,7 @@
 			"labels": ["theme", "material design", "material theme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -562,6 +572,17 @@
 			"name": "Materialize",
 			"previous_names": ["Material Spacegray"],
 			"details": "https://github.com/saadq/Materialize",
+			"labels": ["theme", "color scheme", "material"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Materialize-Appbar",
+			"details": "https://github.com/saadq/Materialize-Appbar",
 			"labels": ["theme", "color scheme", "material"],
 			"releases": [
 				{
@@ -1221,6 +1242,17 @@
 			]
 		},
 		{
+			"name": "MJML-syntax",
+			"details": "https://github.com/mjmlio/mjml-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Moai Debugger",
 			"details": "https://github.com/DJHoltkamp/Sublime-Moai-Debugger",
 			"releases": [
@@ -1446,6 +1478,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Monkberry",
+			"details": "https://github.com/monkberry/language-monkberry",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1711,6 +1753,17 @@
 			]
 		},
 		{
+			"name": "Mp3Player",
+			"details": "https://github.com/RachitKansal/sublime-Mp3Player",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/bkeller2/Mplus",
 			"releases": [
 				{
@@ -1744,7 +1797,7 @@
 		{
 			"name": "MSBuild selector",
 			"details": "https://github.com/jbaltie/MSBuildSelector",
-			"author": "Johan Baltié",
+			"author": "Johan BaltiÃ©",
 			"labels": ["build system"],
 			"releases": [
 				{
@@ -1772,6 +1825,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Multi line paste",
+			"details": "https://github.com/shuky19/MultiLinePaste",
+			"labels": ["paste multiline edit clipboard"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

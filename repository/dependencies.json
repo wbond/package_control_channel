@@ -60,6 +60,36 @@
 			]
 		},
 		{
+			"name": "crypt",
+			"load_order": "02",
+			"description": "Python crypt module",
+			"author": "adnanyaqoobvirk",
+			"issues": "https://github.com/adnanyaqoobvirk/sublime-crypt/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/adnanyaqoobvirk/sublime-crypt",
+					"platforms": ["linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "cson",
+			"load_order": "50",
+			"description": "A Coffescript Object Notation (CSON) parser for Python - https://github.com/avakar/pycson",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-cson/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-cson",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "ctypes",
 			"load_order": "01",
 			"description": "Python _ctypes module",
@@ -115,7 +145,7 @@
 							"base": "https://github.com/eerohele/sublime-lxml",
 							"tags": true,
 							"sublime_text": ">=3000",
-							"platforms": ["osx-x64", "linux-x64", "windows-x64"]
+							"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"]
 					}
 			]
 		},
@@ -412,6 +442,21 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/shellenv",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
+			"name": "speg",
+			"load_order": "50",
+			"description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-speg/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-speg",
 					"tags": true,
 					"sublime_text": "*",
 					"platforms": ["*"]
