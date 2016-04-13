@@ -2,18 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "C Complete",
-			"details": "https://github.com/ibensw/CComplete",
-			"labels": ["auto-complete"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["linux"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "C Improved",
 			"details": "https://github.com/abusalimov/SublimeCImproved",
 			"labels": ["language syntax"],
@@ -333,6 +321,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CComplete",
+			"details": "https://github.com/ibensw/CComplete",
+			"labels": ["auto-complete"],
+			"previous_names": ["C Complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
 					"tags": true
 				}
 			]
