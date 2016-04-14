@@ -873,8 +873,12 @@
 			"details": "https://github.com/einomi/sublime-text-typographer",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": ">=3000",
+					"branch": "master"
+				},
+				{
+					"sublime_text": "<3000",
+					"branch": "st2"
 				}
 			]
 		},
