@@ -232,6 +232,16 @@
 			]
 		},
 		{
+			"name": "Nette + Latte + Neon",
+			"details": "https://github.com/FilipStryk/Nette-Latte-Neon-for-Sublime-Text-3",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Neutron",
 			"details": "https://github.com/ale110/SublimeText-Neutron-Syntax",
 			"labels": ["color scheme"],
@@ -298,6 +308,16 @@
 		{
 			"name": "ng-snippets",
 			"details": "https://github.com/alsfurlan/ng-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NgAnnotate",
+			"details": "https://github.com/kamilkp/Sublime-Text-NgAnnotate",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -544,8 +564,19 @@
 		},
 		{
 			"name": "Npackd",
-			"details": "https://github.com/idleberg/Npackd-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-npackd",
 			"labels": ["completions", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "npc_sheets",
+			"details": "https://github.com/aurule/npc_sheets",
+			"labels": ["language syntax", "nwod", "npc"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -596,21 +627,9 @@
 		},
 		{
 			"name": "NSIS Completions & Snippets",
-			"details": "https://github.com/idleberg/NSIS-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-nsis",
 			"labels": ["snippets", "auto-complete", "nsis"],
 			"previous_names": ["NSIS Autocomplete and Snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "NSIS for Translators",
-			"details": "https://github.com/idleberg/NSIS-Language-File-Sublime-Text",
-			"labels": ["language syntax", "nsis"],
-			"previous_names": ["NSIS Language File Syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -619,8 +638,24 @@
 			]
 		},
 		{
+			"name": "NSIS for Translators",
+			"details": "https://github.com/idleberg/sublime-nlf",
+			"labels": ["language syntax", "nsis"],
+			"previous_names": ["NSIS Language File Syntax"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
 			"name": "NSIS Plug-in Completions",
-			"details": "https://github.com/idleberg/NSIS-Sublime-Text-Addons",
+			"details": "https://github.com/idleberg/sublime-nsis-plugins",
 			"labels": ["auto-complete", "nsis"],
 			"previous_names": ["NSIS Autocomplete (Add-ons)"],
 			"releases": [
@@ -632,12 +667,16 @@
 		},
 		{
 			"name": "nsL Assembler",
-			"details": "https://github.com/idleberg/nsL-Assembler-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-nsl-assembler",
 			"labels": ["language syntax", "build system", "auto-complete", "snippets", "nsis"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -654,12 +693,16 @@
 		},
 		{
 			"name": "NuGet",
-			"details": "https://github.com/idleberg/NuGet-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-nuget",
 			"labels": ["language syntax", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
 				}
 			]
 		},

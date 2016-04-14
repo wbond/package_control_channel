@@ -283,7 +283,7 @@
 		},
 		{
 			"name": "GhostText",
-			"details": "https://github.com/Cacodaimon/GhostText-for-SublimeText",
+			"details": "https://github.com/GhostText/GhostText-for-SublimeText",
 			"previous_names": ["ChromeTextArea"],
 			"releases": [
 				{
@@ -653,9 +653,9 @@
 					"tags": true
 				}
 			]
-		}, 
+		},
 		{
-			"name": "GLSL Compiler", 
+			"name": "GLSL Compiler",
 			"details": "https://github.com/sindney/GLSLCompiler",
 			"releases": [
 				{
@@ -669,7 +669,7 @@
 					"tags": "win-"
 				}
 			]
-		}, 
+		},
 		{
 			"name": "GLSL Validator",
 			"details": "https://github.com/Mischa-Alff/ST-GLSL-Validator",
@@ -893,6 +893,18 @@
 			]
 		},
 		{
+			"name": "Golang Tools Integration",
+			"previous_names": ["GoTools Ex"],
+			"details": "https://github.com/liuhewei/gotools-sublime",
+			"labels": ["go", "golang", "gocode", "oracle", "golint", "gorename"],
+			"releases": [
+				{
+					"sublime_text": ">=3067",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Golden Dragon Color Scheme",
 			"details": "https://github.com/zaynali53/golden-dragon",
 			"labels": ["color scheme"],
@@ -1074,6 +1086,17 @@
 			]
 		},
 		{
+			"name": "GoTests",
+			"details": "https://github.com/cweill/GoTests-Sublime",
+			"labels": ["go","testing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Goto Bootstrap",
 			"details": "https://github.com/austenc/goto-bootstrap",
 			"releases": [
@@ -1090,6 +1113,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Goto Related",
+			"details": "https://github.com/schreifels/sublime-goto-related",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1156,6 +1189,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "GotoEndOfLineOrScope",
+			"details": "https://github.com/SublimeText/GoToEndOfLineOrScope",
+			"labels": ["text navigation"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
 				}
 			]
 		},
@@ -1510,6 +1554,16 @@
 			]
 		},
 		{
+			"name": "Groupie",
+			"details": "https://github.com/noct/sublime-groupie",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/pluckee/grumby-sublime-snippets",
 			"labels": ["snippets"],
 			"releases": [
@@ -1536,6 +1590,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gruvbox",
+			"details": "https://github.com/briles/gruvbox",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

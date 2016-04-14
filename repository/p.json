@@ -426,6 +426,18 @@
 			]
 		},
 		{
+			"name": "Patch Apply",
+			"details": "https://github.com/kkujawinski/sublime-text-3-patch-apply",
+			"labels": ["text manipulation", "clipboard", "code sharing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Path to File",
 			"details": "https://github.com/eonlepapillon/PathToFile",
 			"releases": [
@@ -588,6 +600,17 @@
 					"sublime_text": ">=3000",
 					"base": "https://github.com/ericmartel/Sublime-Text-3-Perforce-Plugin",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Perl Completions",
+			"details": "https://github.com/tushortz/Perl-Completions",
+			"labels": ["perl", "completions", "completion", "Completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1004,7 +1027,7 @@
 		{
 			"name": "phpfmt",
 			"details": "https://github.com/phpfmt/sublime-phpfmt",
-			"issues": "https://github.com/phpfmt/sublime-phpfmt/issues",
+			"issues": "https://github.com/phpfmt/fmt/issues",
 			"donate": "http://cirello.org/",
 			"labels": ["language syntax", "formatter", "php", "formatting", "psr1", "psr2"],
 			"releases": [
@@ -1585,6 +1608,17 @@
 			]
 		},
 		{
+			"name": "PreferenceSync",
+			"details": "https://github.com/dineshkumar-cse/PreferenceSync",
+			"labels": ["sync", "preferences"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Premake",
 			"details": "https://github.com/tynril/sublime-premake",
 			"releases": [
@@ -1631,16 +1665,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "PreventFakeClones",
-			"details": "https://github.com/titoBouzout/PreventFakeClones",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -2036,6 +2060,17 @@
 		{
 			"name": "PyDOC",
 			"details": "https://github.com/chrissimpkins/PyDOC",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pygame Completions",
+			"details": "https://github.com/tushortz/Pygame-Completions",
+			"labels": ["completions", "completion", "Completion", "python"],
 			"releases": [
 				{
 					"sublime_text": "*",

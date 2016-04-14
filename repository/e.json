@@ -32,6 +32,17 @@
 			]
 		},
 		{
+			"name": "Easy Import",
+			"details": "https://github.com/tushortz/EasyImport",
+			"labels": ["java", "auto-complete", "utilities", "completion", "autocomplete", "code generation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Easy Open",
 			"details": "https://github.com/mjkaufer/Easy-Open",
 			"author": "mjkaufer",
@@ -189,6 +200,16 @@
 			]
 		},
 		{
+			"name": "EddyMalou LoremIpsum",
+			"details": "https://github.com/Metrakit/eddy-malou-lorem-ipsum",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},		
+		{
 			"name": "EdifactHighlighter",
 			"details": "https://github.com/Frogli/sublime-edifact",
 			"labels": ["language syntax"],
@@ -233,7 +254,7 @@
 		{
 			"name": "EditorConfig",
 			"details": "https://github.com/sindresorhus/editorconfig-sublime",
-			"labels": ["linting", "text manipulation", "formatting", "code style"],
+			"labels": ["linting", "text manipulation", "formatting", "code style", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -349,6 +370,17 @@
 			]
 		},
 		{
+			"name": "Eloquent Snippets",
+			"details": "https://github.com/m2quared/Sublime-Eloquent-Snippets",
+			"labels": ["snippets", "laravel", "eloquent"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Emacs Tabstops",
 			"details": "https://github.com/KristoforMaynard/EmacsTabstops",
 			"labels": ["emacs", "formatting", "text manipulation"],
@@ -373,6 +405,17 @@
 			"name": "Ember CLI Snippets",
 			"details": "https://github.com/terminalvelocity/ember-cli-sublime-snippets",
 			"labels": ["snippets", "ember", "cli", "seeds"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ember Template Component Split View",
+			"details": "https://github.com/mmitchellgarcia/ember-component-template-split-view",
+			"labels": ["ember", "cli"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -488,15 +531,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/titoBouzout/EncodingHelper",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "st3"
-				}
-			]
-		},
-		{
 			"name": "Energy Color Scheme",
 			"details": "https://github.com/sandralundgren/Energy-Sublime-Text-theme",
 			"labels": ["theme", "color scheme"],
@@ -604,6 +638,28 @@
 			]
 		},
 		{
+			"name": "Environment Settings",
+			"details": "https://bitbucket.org/daniele-niero/environmentsettings",
+			"labels": ["environment", "variables", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EON JS snippets",
+			"details": "https://github.com/jaymie-timperley/EON-JS-Snippets",
+			"labels": ["EON", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EPL",
 			"details": "https://github.com/StefanE/sublime-epl",
 			"releases": [
@@ -619,16 +675,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "ePub",
-			"details": "https://github.com/titoBouzout/ePub",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]
@@ -688,6 +734,17 @@
 		{
 			"name": "EsFormatter",
 			"details": "https://github.com/piuccio/sublime-esformatter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ESLint",
+			"details": "https://github.com/polygonplanet/sublime-text-eslint",
+			"labels": ["javascript", "linting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -841,7 +898,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64"],
+					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"],
 					"tags": true
 				}
 			]
@@ -1172,7 +1229,7 @@
 			"previous_names": ["WebSequenceDiagrams"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

@@ -2,6 +2,18 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "q KDB",
+			"details": "https://github.com/komsit37/sublime-q",
+			"labels": ["repl", "language syntax", "completion", "build system", "docs", "q", "kdb"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": ["osx-x64", "windows-x64"]
+				}
+			]
+		},
+		{
 			"name": "Qiita for Sublime",
 			"details": "https://github.com/blueplanet/sublime-qiita",
 			"releases": [
@@ -192,6 +204,16 @@
 		{
 			"name": "QuickOpen",
 			"details": "https://github.com/zsytssk/QuickOpen",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "QuickPanelEnhanced",
+			"details": "https://github.com/jaytiar/SublimeQuickPanelEnhanced",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
