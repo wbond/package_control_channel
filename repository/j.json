@@ -68,6 +68,27 @@
 			]
 		},
 		{
+			"name": "Jai",
+			"details": "https://github.com/GreenLightning/sublime-jai",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jam Language",
+			"details": "https://github.com/BenjaminSchaaf/jam-sublime-syntax",
+			"labels": ["jam", "language syntax", "build"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jamon",
 			"details": "https://github.com/drhayes/SublimeJamon",
 			"releases": [
@@ -110,9 +131,42 @@
 			]
 		},
 		{
+			"name": "Jasmine Matchers ES6 Snippets",
+			"details": "https://github.com/JamieMason/Jasmine-Matchers-ES6-Snippets",
+			"labels": ["snippets", "javascript", "testing", "Jasmine", "es6", "es2015"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmine Matchers Snippets",
 			"details": "https://github.com/JamieMason/Jasmine-Matchers-Snippets",
-			"labels": ["snippets", "JavaScript", "testing", "Jasmine"],
+			"labels": ["snippets", "javascript", "testing", "Jasmine"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jasmine Overview",
+			"details": "https://github.com/csudcy/sublime-jasmine-overview",
+			"labels": ["jasmine", "javascript", "testing", "Jasmine", "overview", "outline", "structure"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jasmine Promise Matchers",
+			"details": "https://github.com/Hyzual/jasmine-promise-matchers-snippets",
+			"labels": ["snippets", "Jasmine", "angular", "javascript", "testing"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -123,7 +177,18 @@
 		{
 			"name": "Jasmine Scaffold",
 			"details": "https://github.com/swirlycheetah/jasmine-scaffold-sublime-text",
-			"labels": ["Jasmine", "JavaScript", "testing", "unit test"],
+			"labels": ["Jasmine", "javascript", "testing", "unit test"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Java Bytecode",
+			"details": "https://github.com/xdrop/Java-Bytecode",
+			"labels": ["java","bytecode","syntax","highlighting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -155,6 +220,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JavaIME",
+			"details": "https://github.com/tushortz/JavaIME",
+			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet", "completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -200,16 +276,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "JavaScript and jQuery API Completions",
-			"details": "https://github.com/Pleasurazy/Sublime-JavaScript-API-Completions",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -289,9 +355,31 @@
 			]
 		},
 		{
+			"name": "JavaScript Snippets for IMWeb",
+			"details": "https://github.com/imweb/sublime-js-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JavaScript Ultimate",
+			"details": "https://github.com/JoshuaWise/javascript-ultimate",
+			"labels": ["language syntax", "snippets", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JavaScriptFunctionDefinition",
 			"details": "https://github.com/asdf23/JavaScriptFunctionDefinition",
-			"labels": ["JavaScript", "autocomplete"],
+			"labels": ["javascript", "autocomplete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -313,7 +401,7 @@
 		{
 			"name": "Javatar",
 			"details": "https://github.com/spywhere/Javatar",
-			"labels": ["build system", "development", "java"],
+			"labels": ["build system", "java"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -326,6 +414,18 @@
 			"details": "https://github.com/zanuka/jcommander",
 			"labels": ["snippets","auto-complete","utilities"],
 			"previous_names": ["JunoCommander"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JCShell Tools",
+			"details": "https://github.com/nxp/jcshell-tools",
+			"author": "Michael Roy",
+			"labels": ["language syntax", "completion", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -431,11 +531,11 @@
 		},
 		{
 			"name": "Jinja2",
-			"details": "https://github.com/mitsuhiko/jinja2-tmbundle",
+			"details": "https://github.com/kudago/jinja2-tmbundle",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -530,6 +630,17 @@
 			]
 		},
 		{
+			"name": "jQuery Mobile Demos",
+			"details": "https://github.com/coderyang/jQueryMobileDemos",
+			"labels": ["jquery mobile"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "jQuery Mobile Snippets",
 			"details": "https://github.com/devtellect/sublime-jquery-mobile-snippets",
 			"labels": ["snippets"],
@@ -570,6 +681,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "jrnl",
+			"details": "https://github.com/fk128/sublime-jrnl",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -652,6 +773,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JSCS-Formatter",
+			"details": "https://github.com/TheSavior/SublimeJSCSFormatter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -739,10 +870,21 @@
 		{
 			"name": "JSML Formatter",
 			"details": "https://github.com/mjkaufer/JSML-Formatter",
-			"labels": ["development", "JSML"],
+			"labels": ["JSML"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSON L18n Resources Editor",
+			"details": "https://github.com/alex18881/JsonL18nResourcesEditor",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
 					"tags": true
 				}
 			]
@@ -764,6 +906,21 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JSON-Template",
+			"details": "https://github.com/stormwarning/jsont-tmbundle",
+			"labels": [
+				"language syntax",
+				"jsont",
+				"squarespace"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -797,6 +954,28 @@
 					"sublime_text": "*",
 					"platforms": "osx",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JSTL autocomplete",
+			"details": "https://github.com/eparisio/st3-jstl-snippet-autocomplete",
+			"labels": ["snippets", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSTL syntax",
+			"details": "https://github.com/eparisio/st3-jstl-syntax-highlight",
+			"labels": ["language syntax", "jstl", "jsp"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -865,9 +1044,31 @@
 			]
 		},
 		{
+			"name": "JUnit Completions",
+			"details": "https://github.com/tushortz/JUnit-Completions",
+			"labels": ["Java", "completions", "completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Junos",
 			"details": "https://github.com/nprintz/junos-sublime-pkg",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Junos Snippets",
+			"details": "https://github.com/pewpewp3w/sublime-juniper-snippets",
+			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -882,6 +1083,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Justify",
+			"details": "https://github.com/teared/sublime-justify",
+			"labels": ["text manipulation", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
