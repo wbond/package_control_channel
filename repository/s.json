@@ -1,6 +1,18 @@
 {
 	"schema_version": "3.0.0",
 	"packages": [
+			{
+			"name": "SnipLime",
+			"details": "https://github.com/yasintoy/SnipLime",
+			"labels": ["language snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
 		{
 			"details": "https://github.com/ayonix/sablecc-syntax",
 			"releases": [
