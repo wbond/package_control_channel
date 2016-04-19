@@ -58,6 +58,7 @@
 		{
 			"name": "Hacklang Typechecker and Autocompletion",
 			"details": "https://github.com/SiebelsTim/hack-sublime",
+			"labels": ["language syntax", "linting", "auto-complete", "language", "hacklang"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -872,8 +873,12 @@
 			"details": "https://github.com/einomi/sublime-text-typographer",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -1081,6 +1086,17 @@
 		{
 			"name": "Hugofy",
 			"details": "https://github.com/akmittal/Hugofy",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hungry Backspace",
+			"details": "https://github.com/xdrop/Hungry-Backspace",
+			"labels" : ["hungry","backspace","indentation","spacing","delete","line"],
 			"releases": [
 				{
 					"sublime_text": ">3000",

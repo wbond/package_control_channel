@@ -326,6 +326,19 @@
 			]
 		},
 		{
+			"name": "CComplete",
+			"details": "https://github.com/ibensw/CComplete",
+			"labels": ["auto-complete"],
+			"previous_names": ["C Complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "cdnjs",
 			"details": "https://github.com/dafrancis/Sublime-Text--cdnjs",
 			"releases": [
@@ -729,6 +742,17 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "ChineseTranslator",
+			"details": "https://github.com/toaol/sublime-translate",
+			"labels": ["中文", "翻译", "translate"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1331,6 +1355,17 @@
 			"name": "Code Cast",
 			"details": "https://github.com/mraiur/CodeCast",
 			"labels": ["code", "cast", "share", "codecast"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Code Champion",
+			"details": "https://github.com/Atbox/CodeChampion",
+			"labels": ["utilities", "utils", "utility"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3014,17 +3049,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "CSSfmt",
-			"details": "https://github.com/dmnsgn/sublime-cssfmt",
-			"labels": ["css", "formatting"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},

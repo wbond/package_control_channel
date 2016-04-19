@@ -283,7 +283,7 @@
 		},
 		{
 			"name": "GhostText",
-			"details": "https://github.com/Cacodaimon/GhostText-for-SublimeText",
+			"details": "https://github.com/GhostText/GhostText-for-SublimeText",
 			"previous_names": ["ChromeTextArea"],
 			"releases": [
 				{
@@ -315,6 +315,17 @@
 			"name": "Git",
 			"details": "https://github.com/kemayo/sublime-text-git",
 			"labels": ["git", "vcs"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Git Commit Message Auto Save",
+			"details": "https://github.com/aristidesfl/sublime-git-commit-message-auto-save",
+			"labels": ["git", "vcs", "commit", "save", "auto", "message", "close", "exit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -888,6 +899,18 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Golang Tools Integration",
+			"previous_names": ["GoTools Ex"],
+			"details": "https://github.com/liuhewei/gotools-sublime",
+			"labels": ["go", "golang", "gocode", "oracle", "golint", "gorename"],
+			"releases": [
+				{
+					"sublime_text": ">=3067",
 					"tags": true
 				}
 			]
@@ -1534,6 +1557,16 @@
 			"name": "Groovy Snippets",
 			"details": "https://github.com/mathifonseca/sublime-groovy-snippets",
 			"labels": ["groovy", "grails", "snippets", "gsp"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Groupie",
+			"details": "https://github.com/noct/sublime-groupie",
 			"releases": [
 				{
 					"sublime_text": "*",
