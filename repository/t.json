@@ -429,17 +429,6 @@
 			]
 		},
 		{
-			"name": "Test RSpec",
-			"details": "https://github.com/astrauka/TestRSpec",
-			"labels": ["ruby", "testing", "rspec", "spec"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/CraigWilliams/TestChooser",
 			"releases": [
 				{
@@ -462,6 +451,18 @@
 		{
 			"name": "testNameGenerator",
 			"details": "https://github.com/testNameGenerator/SublimeText-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TestRSpec",
+			"details": "https://github.com/astrauka/TestRSpec",
+			"previous_names": ["Test RSpec"],
+			"labels": ["ruby", "testing", "rspec", "spec"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1506,7 +1507,7 @@
 		},
 		{
 			"name": "Themes Menu Switcher",
-			"details": "https://github.com/geekpradd/Theme-Switcher",
+			"details": "https://github.com/chmln/sublime-text-theme-switcher-menu",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -2306,6 +2307,19 @@
 					"sublime_text": "*",
 					"platforms": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Troubleshooting",
+			"details": "https://github.com/guillermooo/sublime-troubleshooting",
+			"labels": ["troubleshooting", "debugging"],
+			"author": ["FichteFoll", "guillermooo"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": "*"
 				}
 			]
 		},

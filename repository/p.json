@@ -2,6 +2,16 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "P4 Syntax Highlighter",
+			"details": "https://github.com/c3m3gyanesh/p4-syntax-highlighter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "P4Gutter",
 			"details": "https://github.com/daumiller/P4Gutter",
 			"releases": [
@@ -1032,7 +1042,14 @@
 			"labels": ["language syntax", "formatter", "php", "formatting", "psr1", "psr2"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				},
+				{
+					"base": "https://github.com/phpfmt/sublime-phpfmt-for-windows",
+					"sublime_text": ">=3000",
+					"platforms": "windows",
 					"tags": true
 				}
 			]

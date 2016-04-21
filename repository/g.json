@@ -283,7 +283,7 @@
 		},
 		{
 			"name": "GhostText",
-			"details": "https://github.com/Cacodaimon/GhostText-for-SublimeText",
+			"details": "https://github.com/GhostText/GhostText-for-SublimeText",
 			"previous_names": ["ChromeTextArea"],
 			"releases": [
 				{
@@ -315,6 +315,17 @@
 			"name": "Git",
 			"details": "https://github.com/kemayo/sublime-text-git",
 			"labels": ["git", "vcs"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Git Commit Message Auto Save",
+			"details": "https://github.com/aristidesfl/sublime-git-commit-message-auto-save",
+			"labels": ["git", "vcs", "commit", "save", "auto", "message", "close", "exit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -893,6 +904,18 @@
 			]
 		},
 		{
+			"name": "Golang Tools Integration",
+			"previous_names": ["GoTools Ex"],
+			"details": "https://github.com/liuhewei/gotools-sublime",
+			"labels": ["go", "golang", "gocode", "oracle", "golint", "gorename"],
+			"releases": [
+				{
+					"sublime_text": ">=3067",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Golden Dragon Color Scheme",
 			"details": "https://github.com/zaynali53/golden-dragon",
 			"labels": ["color scheme"],
@@ -1249,17 +1272,6 @@
 		{
 			"details": "https://github.com/ironcladlou/GoTools",
 			"labels": ["go", "golang", "gocode", "oracle", "godef", "gofmt"],
-			"releases": [
-				{
-					"sublime_text": ">=3067",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "GoTools Ex",
-			"details": "https://github.com/liuhewei/gotools-sublime",
-			"labels": ["go", "golang", "gocode", "oracle", "golint", "gofmt", "goimports", "govet"],
 			"releases": [
 				{
 					"sublime_text": ">=3067",
