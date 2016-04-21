@@ -1043,6 +1043,13 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				},
+				{
+					"base": "https://github.com/phpfmt/sublime-phpfmt-for-windows",
+					"sublime_text": ">=3000",
+					"platforms": "windows",
 					"tags": true
 				}
 			]
