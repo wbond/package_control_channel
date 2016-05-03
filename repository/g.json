@@ -323,17 +323,6 @@
 			]
 		},
 		{
-			"name": "Git Commit Message Auto Save",
-			"details": "https://github.com/aristidesfl/sublime-git-commit-message-auto-save",
-			"labels": ["git", "vcs", "commit", "save", "auto", "message", "close", "exit"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Git Commit Message Syntax",
 			"details": "https://github.com/adambullmer/sublime_git_commit_syntax",
 			"labels": [
@@ -365,6 +354,18 @@
 		{
 			"name": "Git Conflict Resolver",
 			"details": "https://github.com/Zeeker/sublime-GitConflictResolver",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Git Message Auto Save",
+			"previous_names": ["Git Commit Message Auto Save"],
+			"details": "https://github.com/aristidesfl/sublime-git-message-auto-save",
+			"labels": ["git", "vcs", "commit", "save", "auto", "message", "close", "exit", "rebase"],
 			"releases": [
 				{
 					"sublime_text": "*",
