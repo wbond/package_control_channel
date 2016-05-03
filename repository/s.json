@@ -3087,6 +3087,36 @@
 			]
 		},
 		{
+			"name": "SublimeAnarchy",
+			"details": "https://github.com/AnarchyTools/SublimeAnarchy",
+			"issues": "https://github.com/AnarchyTools/SublimeAnarchy/issues",
+			"homepage": "http://anarchytools.org",
+			"author": ["drewcrawford", "dunkelstern"],
+			"labels": ["build-system", "auto-complete", "language-syntax"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeAnarchyDebug",
+			"details": "https://github.com/AnarchyTools/SublimeAnarchyDebug",
+			"issues": "https://github.com/AnarchyTools/SublimeAnarchyDebug/issues",
+			"homepage": "http://anarchytools.org",
+			"author": "dunkelstern",
+			"labels": ["debugger"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/ckaznocha/SublimeAxosoft/",
 			"homepage": "http://ckaznocha.github.io/SublimeAxosoft/",
 			"labels": ["axosoft", "ontime", "issue tracker"],
