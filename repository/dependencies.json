@@ -392,6 +392,20 @@
 			]
 		},
 		{
+			"name": "pyzmq",
+			"load_order": "50",
+			"description": "Python ZMQ module",
+			"author": "randy3k",
+			"issues": "https://github.com/randy3k/sublime-pyzmq/issues",
+			"releases": [
+				{
+					"base": "https://github.com/randy3k/sublime-pyzmq",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "requests",
 			"load_order": "50",
 			"description": "Python requests module",
