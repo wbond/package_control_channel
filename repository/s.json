@@ -967,6 +967,16 @@
 			]
 		},
 		{
+			"name": "SetlX Helper",
+			"details": "https://github.com/LucaVazz/SetlXHelper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SexySnippets",
 			"details": "https://github.com/felquis/SexySnippets",
 			"homepage": "https://github.com/felquis/SexySnippets",
@@ -1017,6 +1027,17 @@
 			"name": "SHARC or Blackfin DSP assembly highlighting",
 			"details": "https://github.com/calculuswhiz/SHARC-assembly-Sublime-Syntax",
 			"labels": ["language syntax", "SHARC", "Blackfin", "VisualDSP"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Share File",
+			"details": "https://github.com/dineshkumar-cse/ShareFile",
+			"labels": ["share", "file", "code", "upload"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2592,6 +2613,17 @@
 			]
 		},
 		{
+			"name": "Stencil",
+			"details": "https://github.com/kgston/stencil-syntax-sublime",
+			"labels": ["language", "syntax", "stencil"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/dhodges/StepList",
 			"releases": [
 				{
@@ -2933,6 +2965,27 @@
 			]
 		},
 		{
+			"name": "Sublime Tutor",
+			"details": "https://github.com/jaipandya/SublimeTutor",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "osx",
+					"tags": "osx-"
+				},
+				{
+					"sublime_text": ">=3065",
+					"platforms": "windows",
+					"tags": "win-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"platforms": "linux",
+					"tags": "linux-"
+				}
+			]
+		},
+		{
 			"name": "Sublime Tweet",
 			"details": "https://github.com/rozboris/Sublime-Tweet",
 			"releases": [
@@ -3051,6 +3104,36 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SublimeAnarchy",
+			"details": "https://github.com/AnarchyTools/SublimeAnarchy",
+			"issues": "https://github.com/AnarchyTools/SublimeAnarchy/issues",
+			"homepage": "http://anarchytools.org",
+			"author": ["drewcrawford", "dunkelstern"],
+			"labels": ["build-system", "auto-complete", "language-syntax"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeAnarchyDebug",
+			"details": "https://github.com/AnarchyTools/SublimeAnarchyDebug",
+			"issues": "https://github.com/AnarchyTools/SublimeAnarchyDebug/issues",
+			"homepage": "http://anarchytools.org",
+			"author": "dunkelstern",
+			"labels": ["debugger"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3103",
+					"tags": true
 				}
 			]
 		},

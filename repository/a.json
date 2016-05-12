@@ -424,6 +424,18 @@
 			]
 		},
 		{
+			"name": "AmbientTalk 2",
+			"author": "iTitou",
+			"labels": ["auto-complete", "language syntax"],
+			"details": "https://github.com/titouanc/sublime-ambienttalk",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AMD Butler",
 			"details": "https://github.com/agrc/AmdButler",
 			"releases": [
@@ -509,6 +521,16 @@
 		{
 			"details": "https://github.com/DamnWidget/anaconda_php",
 			"labels": ["linting", "language syntax", "php"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/DamnWidget/anaconda_rust",
+			"labels": ["linting", "language syntax", "auto-complete", "rust"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -698,6 +720,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ansible Vault",
+			"details": "https://github.com/adambullmer/sublime_ansible_vault",
+			"labels": ["ansible", "vault", "encryption"],
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

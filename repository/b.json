@@ -129,6 +129,17 @@
 			]
 		},
 		{
+			"name": "Base Snippets",
+			"details": "https://github.com/node-base/sublime-text-base-snippets",
+			"labels": ["snippets", "JavaScript", "base", "node", "node-base"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Base16 Color Schemes",
 			"details": "https://github.com/chriskempson/base16-textmate",
 			"labels": ["color scheme"],
@@ -473,13 +484,23 @@
 			]
 		},
 		{
-			"name": "BeyondCompare",
-			"details": "https://github.com/npadley/BeyondCompare",
-			"labels": ["diff", "difference"],
+			"name": "BetterTabCycling",
+			"details": "https://github.com/ahuff44/sublime-better-tab-cycling",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BeyondCompare",
+			"details": "https://github.com/npadley/BeyondCompare",
+			"labels": ["diff", "difference", "diff/merge", "file comparison"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["*"],
 					"tags": true
 				}
 			]
@@ -888,6 +909,17 @@
 				{
 					"sublime_text": ">=3010",
 					"platforms": ["linux","osx","windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BracketFlasher",
+			"details": "https://github.com/jaytiar/SublimeBracketFlasher",
+			"labels": ["brackets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
