@@ -1036,20 +1036,13 @@
 		},
 		{
 			"name": "phpfmt",
-			"details": "https://github.com/phpfmt/sublime-phpfmt",
-			"issues": "https://github.com/phpfmt/issues/issues",
-			"donate": "http://cirello.org/",
+			"details": "https://github.com/nanch/phpfmt_stable",
+			"issues": "https://github.com/nanch/phpfmt_stable/issues",
 			"labels": ["language syntax", "formatter", "php", "formatting"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
-					"tags": true
-				},
-				{
-					"base": "https://github.com/phpfmt/sublime-phpfmt-for-windows",
-					"sublime_text": ">=3000",
-					"platforms": "windows",
+					"platforms": ["osx", "linux", "windows"],
 					"tags": true
 				}
 			]
