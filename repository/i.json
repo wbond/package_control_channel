@@ -276,7 +276,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
+					"platforms": ["osx", "linux", "windows"],
 					"tags": true
 				}
 			]
@@ -907,6 +907,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "iTimeTrack",
+			"details": "https://github.com/itimetrack/itimetrack-sublime",
+			"labels": ["time tracking", "coding", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "itt"
 				}
 			]
 		},

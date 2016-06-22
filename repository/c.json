@@ -131,6 +131,16 @@
 			]
 		},
 		{
+			"name": "Cadence Skill",
+			"details": "https://github.com/leoheck/sublime-cadence-skill",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CakePHP (Native)",
 			"details": "https://github.com/josegonzalez/sublimetext-cakephp",
 			"releases": [
@@ -731,8 +741,9 @@
 			]
 		},
 		{
-			"name": "ChineseLocalization",
-			"details": "https://github.com/rexdf/Chinese-Localization",
+			"name": "ChineseLocalizations",
+			"previous_names": ["ChineseLocalization"],
+			"details": "https://github.com/rexdf/ChineseLocalization",
 			"labels": ["localization", "chinese", "中文", "japanese", "日本語"],
 			"releases": [
 				{
@@ -869,6 +880,21 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Chunks",
+			"author": "Tony Ennis",
+			"description" : "Send text to an API & insert a snippet in it's place.",
+			"details": "https://github.com/tonyennis145/chunks-sublime",
+			"issues": "https://github.com/tonyennis145/chunks-sublime/issues",
+			"labels": ["snippets", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
 				}
 			]
 		},
@@ -1286,6 +1312,16 @@
 			"name": "coala",
 			"details": "https://github.com/coala-analyzer/coala-sublime",
 			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CoberturaCoverage",
+			"details": "https://github.com/jeffrand/CoberturaCoverage",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2698,6 +2734,17 @@
 			]
 		},
 		{
+			"name": "Core dna snippets",
+			"details": "https://github.com/bwiredagency/core_dna_snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CoreBuilder",
 			"details": "https://github.com/digoangeline/CoreBuilder_SublimeText",
 			"labels": ["language syntax"],
@@ -2747,6 +2794,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "cp2k-syntax",
+			"details": "https://github.com/nholmber/cp2k-syntax",
+			"labels": ["language syntax", "linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": "st3-"
 				}
 			]
 		},
