@@ -392,7 +392,8 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
+					"tags": true,
+					"dependencies": ["package_events", "pathtools", "watchdog"]
 				}
 			]
 		},

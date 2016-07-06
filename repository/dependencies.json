@@ -307,6 +307,20 @@
 			]
 		},
 		{
+			"name": "pathtools",
+			"load_order": "50",
+			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
+			"issues": "https://github.com/vovkkk/sublime-pathtools/issues",
+			"releases": [
+				{
+					"base": "https://github.com/vovkkk/sublime-pathtools",
+					"sublime_text": "*",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
@@ -581,6 +595,19 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/tabulate",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "watchdog",
+			"load_order": "20",
+			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
+			"issues": "https://github.com/vovkkk/sublime-watchdog/issues",
+			"releases": [
+				{
+					"base": "https://github.com/vovkkk/sublime-watchdog",
 					"tags": true,
 					"sublime_text": "*"
 				}
