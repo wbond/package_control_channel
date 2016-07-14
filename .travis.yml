@@ -1,0 +1,7 @@
+sudo: false
+language: python
+python:
+  - "3.3"
+
+#command to run tests
+script: python -m unittest
