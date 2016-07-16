@@ -364,6 +364,21 @@
 			]
 		},
 		{
+			"name": "python-pywin32",
+			"author": "randy3k",
+			"load_order": "50",
+			"description": "Pywin32 module",
+			"issues": "https://github.com/randy3k/sublime-pywin32/issues",
+			"releases": [
+				{
+					"base": "https://github.com/randy3k/sublime-pywin32",
+					"platforms": ["windows"],
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "pytz",
 			"load_order": "50",
 			"description": "Python pytz module",
