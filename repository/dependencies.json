@@ -614,6 +614,21 @@
 			]
 		},
 		{
+			"name": "xdotool",
+			"load_order": "50",
+			"description": "Automation tool on Linux",
+			"author": "randy3k",
+			"issues": "https://github.com/randy3k/sublime-xdotool/issues",
+			"releases": [
+				{
+					"base": "https://github.com/randy3k/sublime-xdotool",
+					"platforms": ["linux"],
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "xmltodict",
 			"load_order": "50",
 			"description": "Makes working with XML feel like you are working with JSON - https://github.com/martinblech/xmltodict",
