@@ -421,6 +421,17 @@
 			]
 		},
 		{
+			"name": "lebab",
+			"details": "https://github.com/inkless/lebab-sublime",
+			"labels": ["lebab", "es5", "es6", "convert"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ledger syntax highlighting",
 			"details": "https://github.com/moeffju/sublime-ledger-syntax",
 			"releases": [
@@ -1223,17 +1234,6 @@
 			]
 		},
 		{
-			"name": "Lua Jump Definition",
-			"details": "https://github.com/RuiZhuo/LuaJumpDefinition",
-			"labels": ["lua"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Lua Love",
 			"details": "https://github.com/szensk/subllualove",
 			"labels": ["lua"],
@@ -1264,6 +1264,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaJumpDefinition",
+			"details": "https://github.com/RuiZhuo/LuaJumpDefinition",
+			"previous_names": ["Lua Jump Definition"],
+			"labels": ["lua"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

@@ -45,6 +45,21 @@
 			]
 		},
 		{
+			"name": "bs4",
+			"load_order": "51",
+			"description": "Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/",
+			"author": "jlegewie",
+			"issues": "https://github.com/jlegewie/sublime-beautifulsoup4/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jlegewie/sublime-beautifulsoup4",
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -155,12 +170,12 @@
 			"author": "eerohele",
 			"issues": "https://github.com/eerohele/sublime-lxml/issues",
 			"releases": [
-					{
-							"base": "https://github.com/eerohele/sublime-lxml",
-							"tags": true,
-							"sublime_text": ">=3000",
-							"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"]
-					}
+				{
+					"base": "https://github.com/eerohele/sublime-lxml",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"]
+				}
 			]
 		},
 		{
@@ -244,7 +259,7 @@
 					"base": "https://github.com/komsit37/sublime-numpy",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["windows-x64", "osx-x64"]
+					"platforms": ["windows-x64", "osx-x64", "linux-x64"]
 				}
 			]
 		},
@@ -307,6 +322,20 @@
 			]
 		},
 		{
+			"name": "pathtools",
+			"load_order": "50",
+			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
+			"issues": "https://github.com/vovkkk/sublime-pathtools/issues",
+			"releases": [
+				{
+					"base": "https://github.com/vovkkk/sublime-pathtools",
+					"sublime_text": "*",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
@@ -358,6 +387,21 @@
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "python-pywin32",
+			"author": "randy3k",
+			"load_order": "50",
+			"description": "Pywin32 module",
+			"issues": "https://github.com/randy3k/sublime-pywin32/issues",
+			"releases": [
+				{
+					"base": "https://github.com/randy3k/sublime-pywin32",
+					"platforms": ["windows"],
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -581,6 +625,34 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/tabulate",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "watchdog",
+			"load_order": "20",
+			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
+			"issues": "https://github.com/vovkkk/sublime-watchdog/issues",
+			"releases": [
+				{
+					"base": "https://github.com/vovkkk/sublime-watchdog",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "xdotool",
+			"load_order": "50",
+			"description": "Automation tool on Linux",
+			"author": "randy3k",
+			"issues": "https://github.com/randy3k/sublime-xdotool/issues",
+			"releases": [
+				{
+					"base": "https://github.com/randy3k/sublime-xdotool",
+					"platforms": ["linux"],
 					"tags": true,
 					"sublime_text": "*"
 				}

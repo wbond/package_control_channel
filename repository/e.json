@@ -82,9 +82,9 @@
 			"labels": ["auto-complete", "linting", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3070",
 					"platforms": ["osx", "linux", "windows"],
-					"tags": "st3-"
+					"tags": true
 				}
 			]
 		},
@@ -217,6 +217,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Edge Theme Addon - Linter Theme",
+			"details": "https://github.com/tricinel/edge-theme-addon-linter-theme",
+			"author": "Bogdan Lazar",
+			"labels": ["theme", "addon"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
