@@ -920,6 +920,16 @@
 			]
 		},
 		{
+			"name": "LLVM TableGen",
+			"details": "https://github.com/whitequark/LLVM-TableGen.tmbundle",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Lo-Dash Snippets for CoffeeScript",
 			"details": "https://github.com/z0rch/CoffeeScript-Lodash-snippets-for-Sublime-Text-2",
 			"labels": ["snippets"],
@@ -970,6 +980,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LocalizedMenu",
+			"details": "https://github.com/zam1024t/LocalizedMenu",
+			"labels": ["localize", "tool", "menu"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1234,17 +1255,6 @@
 			]
 		},
 		{
-			"name": "Lua Jump Definition",
-			"details": "https://github.com/RuiZhuo/LuaJumpDefinition",
-			"labels": ["lua"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Lua Love",
 			"details": "https://github.com/szensk/subllualove",
 			"labels": ["lua"],
@@ -1275,6 +1285,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaJumpDefinition",
+			"details": "https://github.com/RuiZhuo/LuaJumpDefinition",
+			"previous_names": ["Lua Jump Definition"],
+			"labels": ["lua"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

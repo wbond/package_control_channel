@@ -23,6 +23,17 @@
 			]
 		},
 		{
+			"name": "F5 iRules",
+			"details": "https://github.com/ArtiomL/sublime-f5-irules",
+			"labels": ["language syntax", "snippets", "color scheme", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fabric Engine - KL Language Support",
 			"details": "https://github.com/fabric-engine/Sublime-KL",
 			"previous_names": ["Creation Platform - KL Language Support"],
@@ -392,7 +403,8 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
+					"tags": true,
+					"dependencies": ["package_events", "pathtools", "watchdog"]
 				}
 			]
 		},
