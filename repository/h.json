@@ -58,6 +58,7 @@
 		{
 			"name": "Hacklang Typechecker and Autocompletion",
 			"details": "https://github.com/SiebelsTim/hack-sublime",
+			"labels": ["language syntax", "linting", "auto-complete", "language", "hacklang"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -383,6 +384,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "default"
+				}
+			]
+		},
+		{
+			"name": "HgCommitMsg",
+			"details": "https://github.com/tylorr/HgCommitMsg",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -745,6 +757,16 @@
 			]
 		},
 		{
+			"name": "How2",
+			"details": "https://github.com/0nkery/how2-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "howdoi",
 			"details": "https://github.com/surjikal/sublime-howdoi",
 			"releases": [
@@ -760,6 +782,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HTML (C#)",
+			"details": "https://github.com/michaelblyons/SublimeText-HTML-CSharp",
+			"issues": "https://github.com/michaelblyons/SublimeText-HTML-CSharp/issues",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -808,6 +842,16 @@
 		{
 			"name": "HTML Extended",
 			"details": "https://github.com/orizens/html-extended",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HTML Head Snippets",
+			"details": "https://github.com/marcobiedermann/sublime-head-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -869,11 +913,15 @@
 		},
 		{
 			"name": "HTML Typographer",
-			"details": "https://github.com/einomi/sublime-text-3-typographer",
+			"details": "https://github.com/einomi/sublime-text-typographer",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -1081,6 +1129,17 @@
 		{
 			"name": "Hugofy",
 			"details": "https://github.com/akmittal/Hugofy",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hungry Backspace",
+			"details": "https://github.com/xdrop/Hungry-Backspace",
+			"labels" : ["hungry","backspace","indentation","spacing","delete","line"],
 			"releases": [
 				{
 					"sublime_text": ">3000",

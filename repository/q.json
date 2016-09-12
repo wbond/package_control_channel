@@ -9,7 +9,7 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true,
-					"platforms": ["osx-x64", "windows-x64"]
+					"platforms": ["osx-x64", "windows-x64", "linux-x64"]
 				}
 			]
 		},
@@ -84,16 +84,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "QuarkPHP",
-			"details": "https://github.com/sahibalejandro/quark-php-sublime",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -204,6 +194,16 @@
 		{
 			"name": "QuickOpen",
 			"details": "https://github.com/zsytssk/QuickOpen",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "QuickPanelEnhanced",
+			"details": "https://github.com/jaytiar/SublimeQuickPanelEnhanced",
 			"releases": [
 				{
 					"sublime_text": ">=3000",

@@ -23,6 +23,17 @@
 			]
 		},
 		{
+			"name": "R_comments",
+			"details": "https://github.com/anasrana/R_Comments",
+			"labels": ["comment", "R", "statistics"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RabbitVCS",
 			"details": "https://github.com/lerous/sublime-RabbitVCS",
 			"releases": [
@@ -207,6 +218,17 @@
 			]
 		},
 		{
+			"name": "RainbowDrops Inspired - Color Scheme",
+			"details": "https://github.com/AhanM/RainbowDropsInspired-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Rainbowth",
 			"details": "https://github.com/whitequark/rainbowth",
 			"labels": ["lisp", "Scheme", "Clojure", "Racket", "parentheses"],
@@ -373,6 +395,17 @@
 		{
 			"name": "React and React Router Snippets",
 			"details": "https://github.com/joemaddalone/ReactSublimeSnippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "React Development Snippets",
+			"details": "https://github.com/jeantimex/react-sublime-snippet",
+			"labels": ["snippets", "jsx", "es6", "react", "test case", "redux", "action"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -672,6 +705,16 @@
 			]
 		},
 		{
+			"name": "ReIndent",
+			"details": "https://github.com/kamilkp/Sublime-Text-ReIndent",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Reindent on save",
 			"details": "https://github.com/mac2000/sublime-reindent-on-save",
 			"releases": [
@@ -702,6 +745,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "rem-unit",
+			"details": "https://github.com/fisker/rem-unit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -761,6 +814,16 @@
 			"releases": [
 				{
 					"sublime_text": ">2999",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RemoveDuplicateCharacters",
+			"details": "https://github.com/xianghongai/RemoveDuplicateCharacters",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1024,6 +1087,17 @@
 			]
 		},
 		{
+			"name": "Riot Syntax",
+			"details": "https://github.com/ilearnio/sublime-riot-syntax",
+			"labels": ["language syntax", "javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Riot Tag",
 			"details": "https://github.com/crisward/sublime-tag",
 			"labels": ["language syntax"],
@@ -1069,8 +1143,12 @@
 			"details": "https://github.com/andriyko/sublime-robot-framework-assistant",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},

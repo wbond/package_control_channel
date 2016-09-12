@@ -108,6 +108,17 @@
 			]
 		},
 		{
+			"name": "Acme Color Scheme",
+			"details": "https://github.com/zaynali53/acme-color-scheme",
+			"labels": ["color scheme", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Acme Plumbing",
 			"details": "https://github.com/lionicsheriff/SublimeAcmePlumbing",
 			"labels": ["text navigation", "editor emulation"],
@@ -424,6 +435,18 @@
 			]
 		},
 		{
+			"name": "AmbientTalk 2",
+			"author": "iTitou",
+			"labels": ["auto-complete", "language syntax"],
+			"details": "https://github.com/titouanc/sublime-ambienttalk",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AMD Butler",
 			"details": "https://github.com/agrc/AmdButler",
 			"releases": [
@@ -517,6 +540,27 @@
 			]
 		},
 		{
+			"details": "https://github.com/DamnWidget/anaconda_rust",
+			"labels": ["linting", "language syntax", "auto-complete", "rust"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AnB (Alice and Bob Notation)",
+			"details": "https://github.com/futek/sublime-anb",
+			"labels": ["build system", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/Korcholis/Andrew",
 			"releases": [
 				{
@@ -596,9 +640,31 @@
 			]
 		},
 		{
+			"name": "Angular 2 Snippets (John Papa)",
+			"details": "https://github.com/pjlamb12/st3-ng2-snippets",
+			"labels": ["snippets", "angular2"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Angular Material Snippets",
 			"details": "https://github.com/devotis/sublime-angular-material-snippets",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Angular-io-Code",
+			"details": "https://github.com/Angular-io-Code/Angular-io-Code",
+			"labels": ["color scheme", "angular"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -634,6 +700,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AngularJS Jasmine Boilerplate",
+			"details": "https://github.com/namoscato/angular-jasmine-boilerplate-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -677,6 +753,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ansible Vault",
+			"details": "https://github.com/adambullmer/sublime_ansible_vault",
+			"labels": ["ansible", "vault", "encryption"],
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -898,6 +986,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "APICloudWifiSync",
+			"details": "https://github.com/apicloudcom/Sublime-APICloud-WifiSync",
+			"labels": ["android", "apicloud"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1388,6 +1487,17 @@
 			]
 		},
 		{
+			"name": "Atomic Color Scheme",
+			"details": "https://github.com/gerardbm/Sublime-Atomic-Scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Atomizr",
 			"details": "https://github.com/idleberg/sublime-atomizr",
 			"releases": [
@@ -1567,16 +1677,6 @@
 			]
 		},
 		{
-			"name": "AutoCompleteJS",
-			"details": "https://github.com/titoBouzout/AutoCompleteJS",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "AutocompletionFuzzy",
 			"details": "https://github.com/shagabutdinov/sublime-autocompletion",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -1692,7 +1792,7 @@
 		{
 			"name": "Autoprefixer",
 			"details": "https://github.com/sindresorhus/sublime-autoprefixer",
-			"labels": ["text manipulation", "prefix", "css"],
+			"labels": ["text manipulation", "prefix", "css", "scss", "sass", "postcss"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1706,6 +1806,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutoSetSyntax",
+			"details": "https://github.com/jfcherng/Sublime-AutoSetSyntax",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1781,6 +1891,17 @@
 			]
 		},
 		{
+			"name": "AVA Standard",
+			"details": "https://github.com/sotojuan/sublime-ava-standard",
+			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AVM2 Pcode Syntax Highlighting",
 			"details": "https://github.com/calculuswhiz/pcode-syntax-definition",
 			"releases":[
@@ -1828,6 +1949,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AWS Lambda",
+			"details": "https://github.com/revmischa/sublime-awslambda",
+			"labels": ["aws", "lambda", "amazon"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

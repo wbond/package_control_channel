@@ -24,6 +24,17 @@
 			]
 		},
 		{
+			"name": "KanaKana",
+			"details": "https://github.com/mitsu-ksgr/KanaKana",
+			"labels": ["japanese", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Kaneva API (KPI) Completions",
 			"details": "https://github.com/FracturedShader/kpiCompletions",
 			"labels": ["completions", "Kaneva", "Lua"],
@@ -70,6 +81,30 @@
 		{
 			"name": "Kerbal Space Program Configuration Syntax",
 			"details": "https://github.com/NathanJang/KSP-tmLanguage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KeybindingHelper",
+			"details": "https://github.com/r-stein/sublime-text-keybinding-helper",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "KeyboardSelection",
+			"details": "https://github.com/robertcollier4/keyboardSelectionSublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -222,6 +257,20 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KodiDevKit",
+			"details": "https://github.com/phil65/kodidevkit",
+			"author": "phil65",
+			"donate": "https://blockchain.info/de/address/1KzWm7XtW42gyZQqg5CqW6k9fb3zWinM15",
+			"labels": ["completions", "language syntax", "snippets", "auto-complete"],
+			"previous_names": ["SublimeKodi"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
