@@ -802,9 +802,9 @@
 			]
 		},
 		{
-			"name": "gmESSI-gmsh Tools",
-			"details": "https://github.com/SumeetSinha/gmESSI-SublimePlugin",
-			"previous_names": ["gmESSI-gmsh tools"],
+			"name": "gmESSI-Tools",
+			"details": "https://github.com/SumeetSinha/gmESSI-Tools",
+			"labels": ["completion", "auto-complete","language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -829,6 +829,17 @@
 			"releases": [
 				{
 					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gmsh-Tools",
+			"details": "https://github.com/SumeetSinha/gmsh-Tools",
+			"labels": ["completion", "auto-complete","language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
