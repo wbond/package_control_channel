@@ -558,11 +558,15 @@
 		},
 		{
 			"name": "Hjson",
-			"details": "https://github.com/laktak/sublime-hjson",
+			"details": "https://github.com/hjson/sublime-hjson",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "sl2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "sl3-"
 				}
 			]
 		},
