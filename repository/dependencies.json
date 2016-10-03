@@ -134,6 +134,20 @@
 			]
 		},
 		{
+			"name": "dicttoxml",
+			"load_order": "50",
+			"description": "Converts a Python dictionary or other native data type into a valid XML string - https://github.com/idleberg/sublime-dicttoxml",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-dicttoxml/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-dicttoxml",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "fileio",
 			"load_order": "01",
 			"description": "Python _fileio module",
