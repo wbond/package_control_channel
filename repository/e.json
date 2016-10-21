@@ -844,12 +844,23 @@
 			]
 		},
 		{
-			"name": "ESLint-Formatter",
-			"details": "https://github.com/TheSavior/ESLint-Formatter",
+			"name": "ESLintAutoFix",
+			"details": "https://github.com/a324539017/eslintAutoFix",
+			"labels": ["javascript", "eslint", "autoFix", "formatter"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ESLint-Formatter",
+			"details": "https://github.com/TheSavior/ESLint-Formatter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
 				}
 			]
 		},
