@@ -1131,7 +1131,7 @@
 		},
 		{
 			"name": "Riot Tag",
-			"details": "https://github.com/crisward/sublime-tag",
+			"details": "https://github.com/riot/syntax-highlight",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1287,11 +1287,11 @@
 		},
 		{
 			"name": "RSL",
-			"details": "https://bitbucket.org/vuhonglinh/sublimetext-rsl",
+			"details": "https://github.com/li-vu/st-rsl",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1680,12 +1680,13 @@
 			]
 		},
 		{
-			"name": "Rust",
+			"name": "Rust Enhanced",
 			"details": "https://github.com/rust-lang/sublime-rust",
+			"previous_names": ["Rust"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

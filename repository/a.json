@@ -1143,7 +1143,7 @@
 		},
 		{
 			"name": "AppleScript Extensions",
-			"details": "https://github.com/idleberg/AppleScript-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-applescriot",
 			"labels": ["auto-complete", "build system", "snippets"],
 			"previous_names": ["AppleScript Completions and Snippets"],
 			"releases": [
@@ -1972,10 +1972,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/voventus/AVR-ASM-Sublime",
+			"name": "AvrAssembler",
+			"details": "https://github.com/vyivanov/AVR-ASM-Sublime",
 			"labels": ["language syntax"],
 			"releases": [
 				{
+					"platforms": ["osx", "linux", "windows"],
 					"sublime_text": "*",
 					"branch": "master"
 				}
