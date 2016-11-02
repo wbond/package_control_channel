@@ -419,6 +419,16 @@
 			]
 		},
 		{
+			"name": "Hide Sidebar When Not Focussed",
+			"details": "https://github.com/akrabat/HideSidebarWhenNotFocussed",
+			"releases": [
+				{
+					"sublime_text": ">=3098",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hide Tabs",
 			"details": "https://github.com/croach/SublimeHideTabs",
 			"releases": [
@@ -548,11 +558,15 @@
 		},
 		{
 			"name": "Hjson",
-			"details": "https://github.com/laktak/sublime-hjson",
+			"details": "https://github.com/hjson/sublime-hjson",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "sl2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "sl3-"
 				}
 			]
 		},

@@ -23,6 +23,17 @@
 			]
 		},
 		{
+			"name": "F5 iRules",
+			"details": "https://github.com/ArtiomL/sublime-f5-irules",
+			"labels": ["language syntax", "snippets", "color scheme", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fabric Engine - KL Language Support",
 			"details": "https://github.com/fabric-engine/Sublime-KL",
 			"previous_names": ["Creation Platform - KL Language Support"],
@@ -291,6 +302,17 @@
 			]
 		},
 		{
+			"name": "Felix",
+			"details": "https://github.com/fuzzthink/sublime-felix",
+			"labels": ["language syntax", "felix"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fenom",
 			"details": "https://github.com/pafnuty/sublime-fenom",
 			"labels": ["language syntax"],
@@ -392,7 +414,8 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
+					"tags": true,
+					"dependencies": ["package_events", "pathtools", "watchdog"]
 				}
 			]
 		},
@@ -1200,6 +1223,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Foundation 6 Autocomplete",
+			"details": "https://github.com/webchun/foundation-6-sublime-autocomplete",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
