@@ -2641,6 +2641,18 @@
 			]
 		},
 		{
+			"name": " Converter",
+			"details": "https://github.com/idleberg/sublime-converter",
+			"labels": ["converter", "cson", "json", "xml"],
+			"previous_names": ["CSON Converter"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ConvertChineseCharacters",
 			"details": "https://github.com/stormtea123/ConvertChineseCharacters",
 			"releases": [
@@ -3106,17 +3118,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "CSON Converter",
-			"details": "https://github.com/idleberg/sublime-cson-converter",
-			"labels": ["converter", "cson", "json"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
