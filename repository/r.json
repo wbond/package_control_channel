@@ -245,6 +245,12 @@
 			"labels": ["rainmeter"],
 			"releases": [
 				{
+					"base": "https://github.com/merlinthered/sublime-rainmeter",
+					"sublime_text": "<3000",
+					"platforms": ["windows"],
+					"tags": true
+				},
+				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows"],
 					"tags": true
