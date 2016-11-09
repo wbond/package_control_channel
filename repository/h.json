@@ -388,6 +388,17 @@
 			]
 		},
 		{
+			"name": "HgCommitMsg",
+			"details": "https://github.com/tylorr/HgCommitMsg",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hide Files",
 			"details": "https://github.com/dunckr/hidefiles",
 			"releases": [
@@ -403,6 +414,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hide Sidebar When Not Focussed",
+			"details": "https://github.com/akrabat/HideSidebarWhenNotFocussed",
+			"releases": [
+				{
+					"sublime_text": ">=3098",
 					"tags": true
 				}
 			]
@@ -537,11 +558,15 @@
 		},
 		{
 			"name": "Hjson",
-			"details": "https://github.com/laktak/sublime-hjson",
+			"details": "https://github.com/hjson/sublime-hjson",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "sl2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "sl3-"
 				}
 			]
 		},
@@ -746,6 +771,16 @@
 			]
 		},
 		{
+			"name": "How2",
+			"details": "https://github.com/0nkery/how2-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "howdoi",
 			"details": "https://github.com/surjikal/sublime-howdoi",
 			"releases": [
@@ -761,6 +796,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HTML (C#)",
+			"details": "https://github.com/michaelblyons/SublimeText-HTML-CSharp",
+			"issues": "https://github.com/michaelblyons/SublimeText-HTML-CSharp/issues",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -809,6 +856,16 @@
 		{
 			"name": "HTML Extended",
 			"details": "https://github.com/orizens/html-extended",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HTML Head Snippets",
+			"details": "https://github.com/marcobiedermann/sublime-head-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",

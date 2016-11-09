@@ -77,6 +77,20 @@
 			]
 		},
 		{
+			"name": "EasyClangComplete",
+			"details": "https://github.com/niosus/EasyClangComplete",
+			"readme": "https://raw.githubusercontent.com/niosus/EasyClangComplete/master/docs/pc_readme.md",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QLY7J4Q944HS",
+			"labels": ["auto-complete", "linting", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/EasyDiff",
 			"releases": [
 				{
@@ -205,6 +219,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Edge Theme Addon - Linter Theme",
+			"details": "https://github.com/tricinel/edge-theme-addon-linter-theme",
+			"author": "Bogdan Lazar",
+			"labels": ["theme", "addon"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -370,9 +396,20 @@
 		},
 		{
 			"name": "Elm Language Support",
-			"details": "https://github.com/deadfoxygrandpa/Elm.tmLanguage",
+			"details": "https://github.com/elm-community/Elm.tmLanguage",
 			"labels": ["language syntax"],
 			"previous_names": ["Elm Syntax Highlighting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Elm Snippets",
+			"details": "https://github.com/rudolfb/elm_snippets",
+			"labels": ["snippets", "elm"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -460,6 +497,19 @@
 			"name": "Emblem.js Syntax Highlighting",
 			"details": "https://github.com/johanobergman/sublime-emblem-syntax",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EML (E-Mail)",
+			"labels": ["eml", "email", "mail", "mime", "e-mail", "RFC2045", "RFC2046", "RFC2047", "RFC4288", "RFC4289", "RFC2049"],
+			"details": "https://github.com/mariozaizar/eml-tmLanguage",
+			"author": "Mario Zaizar",
+			"donate": "https://gratipay.com/mariozaizar/",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -594,6 +644,17 @@
 			]
 		},
 		{
+			"name": "Enki Theme",
+			"details": "https://github.com/enkia/enki-theme",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Enlightened Color Scheme",
 			"details": "https://github.com/vincentmac/enlightened",
 			"labels": ["color scheme"],
@@ -698,6 +759,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Equalize",
+			"details": "https://github.com/mycelo1/equalize",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -843,6 +914,16 @@
 			"name": "ETPL",
 			"details": "https://github.com/ecomfe/sublime-etpl",
 			"labels": ["snippets", "language", "syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Eval",
+			"details": "https://github.com/ViktorQvarfordt/Sublime-Eval",
 			"releases": [
 				{
 					"sublime_text": "*",

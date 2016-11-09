@@ -371,6 +371,8 @@ class TestContainer(object):
             elif k == 'load_order':
                 self.assertRegex(v, '^\d\d$', '"load_order" must be a two '
                                               'digit string')
+        for key in ('author', 'releases', 'issues', 'description', 'load_order'):
+                self.assertIn(key, data, '%r is required for dependencies' % key)
 
     pck_release_key_types_map = {
         'base': str_cls,

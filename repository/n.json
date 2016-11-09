@@ -86,6 +86,16 @@
 			]
 		},
 		{
+			"name": "Nav Panel",
+			"details": "https://github.com/sahibalejandro/sublime-nav-panel",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Navigation History",
 			"details": "https://github.com/timjrobinson/SublimeNavigationHistory",
 			"releases": [
@@ -127,10 +137,22 @@
 		},
 		{
 			"name": "Neka Theme",
-			"details": "https://github.com/dempfi/Neka-Theme",
+			"details": "https://github.com/dempfi/neka-sublime",
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "neko nml syntax",
+			"details": "https://github.com/R32/sublime-nekoml",
+			"labels": ["nekoml", "language syntax", "snippets", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -223,6 +245,16 @@
 			]
 		},
 		{
+			"name": "NetLogo Syntax",
+			"details": "https://github.com/japborst/sublime-netlogo-syntax",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NetSuite Bundle",
 			"details": "https://github.com/ththev/NetSuite-Bundle-for-Sublime",
 			"releases": [
@@ -269,8 +301,8 @@
 			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -401,6 +433,17 @@
 			]
 		},
 		{
+			"name": "Nirum",
+			"details" : "https://github.com/spoqa/sublime-nirum",
+			"labels": ["language syntax", "nirum"],
+			"releases" : [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NitSyntaxHighliter",
 			"details" : "https://github.com/itsWill/NitSyntaxHighlighter",
 			"releases" : [
@@ -496,9 +539,31 @@
 			]
 		},
 		{
+			"name": "NoDialogs",
+			"details": "https://github.com/maximsmol/NoDialogs",
+			"labels": ["dialog"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Non Text Files",
 			"details": "https://github.com/bordaigorl/sublime-non-text-files",
 			"labels": ["file navigation", "preview", "file open"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Norber Theme",
+			"details": "https://github.com/mortalis13/Norber-Theme-Sublime",
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -628,11 +693,15 @@
 		},
 		{
 			"details": "https://github.com/SublimeText/NSIS",
-			"labels": ["language syntax", "nsis"],
+			"labels": ["language syntax", "nsis", "build system"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3103",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -655,7 +724,7 @@
 			"previous_names": ["NSIS Language File Syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "<3103",
 					"tags": "st2-"
 				},
 				{
@@ -682,7 +751,7 @@
 			"labels": ["language syntax", "build system", "auto-complete", "snippets", "nsis"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "<3103",
 					"tags": "st2-"
 				},
 				{

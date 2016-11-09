@@ -108,6 +108,17 @@
 			]
 		},
 		{
+			"name": "Acme Color Scheme",
+			"details": "https://github.com/zaynali53/acme-color-scheme",
+			"labels": ["color scheme", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Acme Plumbing",
 			"details": "https://github.com/lionicsheriff/SublimeAcmePlumbing",
 			"labels": ["text navigation", "editor emulation"],
@@ -267,6 +278,17 @@
 			]
 		},
 		{
+			"name": "AGC Assembly",
+			"details": "https://github.com/jimlawton/AGC-Assembly",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Agila Theme",
 			"details": "https://github.com/arvi/Agila-Theme",
 			"labels": ["theme", "color scheme", "oceanic", "solarized"],
@@ -352,12 +374,34 @@
 			]
 		},
 		{
+			"name": "AlgoLang",
+			"details": "https://bitbucket.org/lsystems/algo-lang-sublime",
+			"labels": ["language syntax"],
+			"issues": "https://bitbucket.org/lsystems/algo-lang-sublime/issues?status=new&status=open",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Align Arguments",
 			"details": "https://github.com/denniskempin/align-arguments",
 			"labels": ["formatting"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AlignComment",
+			"details": "https://github.com/ccornish/AlignComment",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -476,6 +520,16 @@
 			]
 		},
 		{
+			"name": "AmpersandJS Snippets",
+			"details": "https://github.com/HSH/AmpersandJS-Sublime-Text-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AMPL language",
 			"details": "https://github.com/jackdunnnz/sublime-ampl",
 			"labels": ["language syntax"],
@@ -511,6 +565,16 @@
 			"name": "Anaconda",
 			"details": "https://github.com/DamnWidget/anaconda",
 			"labels": ["linting", "auto-complete", "python"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/DamnWidget/anaconda_go",
+			"labels": ["go", "golang", "linting", "auto-complete", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -629,12 +693,45 @@
 			]
 		},
 		{
+			"name": "Angular 2 Snippets (John Papa)",
+			"details": "https://github.com/pjlamb12/st3-ng2-snippets",
+			"labels": ["snippets", "angular2"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Angular Material Snippets",
 			"details": "https://github.com/devotis/sublime-angular-material-snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Angular-io-Code",
+			"details": "https://github.com/Angular-io-Code/Angular-io-Code",
+			"labels": ["color scheme", "angular"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Angular2 HTML Syntax",
+			"details": "https://github.com/princemaple/angular2-html-syntax",
+			"labels": ["language syntax", "angular"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -958,6 +1055,17 @@
 			]
 		},
 		{
+			"name": "APICloudWifiSync",
+			"details": "https://github.com/apicloudcom/Sublime-APICloud-WifiSync",
+			"labels": ["android", "apicloud"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "apiDoc Autocompletion",
 			"details": "https://github.com/DWand/SublimeText_apiDoc_autocompletion",
 			"labels": ["auto-complete"],
@@ -1067,7 +1175,7 @@
 		},
 		{
 			"name": "AppleScript Extensions",
-			"details": "https://github.com/idleberg/AppleScript-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-applescript",
 			"labels": ["auto-complete", "build system", "snippets"],
 			"previous_names": ["AppleScript Completions and Snippets"],
 			"releases": [
@@ -1309,7 +1417,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1352,8 +1460,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true,
-					"platforms": ["osx", "linux"]
+					"tags": true
 				}
 			]
 		},
@@ -1443,11 +1550,22 @@
 			]
 		},
 		{
+			"name": "Atomic Color Scheme",
+			"details": "https://github.com/gerardbm/Sublime-Atomic-Scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Atomizr",
 			"details": "https://github.com/idleberg/sublime-atomizr",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1588,6 +1706,16 @@
 			]
 		},
 		{
+			"name": "Auto-Spacing",
+			"details": "https://github.com/xwartz/Auto-Spacing",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AutoAligner",
 			"details": "https://github.com/generall/aligner",
 			"author": "Andrey Vasnetsov aka generall",
@@ -1673,7 +1801,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -1687,6 +1814,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutoItScript",
+			"details": "https://github.com/AutoIt/SublimeAutoItScript",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1737,7 +1874,7 @@
 		{
 			"name": "Autoprefixer",
 			"details": "https://github.com/sindresorhus/sublime-autoprefixer",
-			"labels": ["text manipulation", "prefix", "css"],
+			"labels": ["text manipulation", "prefix", "css", "scss", "sass", "postcss"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1836,6 +1973,17 @@
 			]
 		},
 		{
+			"name": "AVA Standard",
+			"details": "https://github.com/sotojuan/sublime-ava-standard",
+			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AVM2 Pcode Syntax Highlighting",
 			"details": "https://github.com/calculuswhiz/pcode-syntax-definition",
 			"releases":[
@@ -1856,10 +2004,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/voventus/AVR-ASM-Sublime",
+			"name": "AvrAssembler",
+			"details": "https://github.com/vyivanov/AVR-ASM-Sublime",
 			"labels": ["language syntax"],
 			"releases": [
 				{
+					"platforms": ["osx", "linux", "windows"],
 					"sublime_text": "*",
 					"branch": "master"
 				}
@@ -1883,6 +2033,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AWS Lambda",
+			"details": "https://github.com/revmischa/sublime-awslambda",
+			"labels": ["aws", "lambda", "amazon"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ayu",
+			"details": "https://github.com/dempfi/ayu",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

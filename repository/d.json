@@ -155,6 +155,16 @@
 			]
 		},
 		{
+			"name": "Dataiku",
+			"details": "https://github.com/jereze/DataikuSublimeText",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Date",
 			"details": "https://github.com/paulollivier/sublimetext-date",
 			"releases": [
@@ -183,6 +193,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DBLP",
+			"details": "https://github.com/bordaigorl/sublime-dblp",
+			"labels": ["search", "bibliography", "citations", "bibtex"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -340,7 +361,7 @@
 			"details": "https://github.com/mrjoelkemp/Dependents",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -427,10 +448,10 @@
 			"details": "https://github.com/gepd/Deviot",
 			"issues": "https://github.com/gepd/Deviot/issues",
 			"donate": "https://gratipay.com/~gepd/",
-			"labels": ["build system", "ide", "arduino", "iot"],
+			"labels": ["build system", "ide", "arduino", "iot", "platformio"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -499,9 +520,19 @@
 			]
 		},
 		{
+			"name": "DiffTabs",
+			"details": "https://github.com/soandrew/DiffTabs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "DiffView",
 			"details": "https://github.com/CJTozer/SublimeDiffView",
-			"labels": ["Git", "git", "SVN", "svn", "diff", "difference"],
+			"labels": ["Git", "git", "SVN", "svn", "bzr", "bazaar", "diff", "difference"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -618,10 +649,22 @@
 		{
 			"name": "DistractionFreeWindow",
 			"details": "https://github.com/aziz/DistractionFreeWindow",
-			"labels": ["fullscreen", "distractoin-free"],
+			"labels": ["fullscreen", "distraction-free"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "distractionless",
+			"details": "https://github.com/jrappen/sublime-distractionless",
+			"donate": "https://www.paypal.me/jrappen",
+			"labels": ["automation", "distraction-free", "fullscreen"],
+			"releases": [
+				{
+					"sublime_text": ">=3116",
 					"tags": true
 				}
 			]
@@ -817,7 +860,7 @@
 		},
 		{
 			"name": "DocPHPManualer",
-			"details": "https://github.com/acabin/docphp",
+			"details": "https://github.com/garveen/docphp",
 			"labels":["document","php","manual"],
 			"releases": [
 				{
@@ -1017,7 +1060,7 @@
 		},
 		{
 			"name": "Dracula Color Scheme",
-			"details": "https://github.com/zenorocha/dracula-theme",
+			"details": "https://github.com/dracula/sublime",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1175,6 +1218,26 @@
 			]
 		},
 		{
+			"name": "Duotone Dark Red",
+			"details": "https://github.com/DJgamer98/Duotone-Dark-Red-Sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Duotones Colorschemes",
+			"details": "https://github.com/atelierbram/duotones-sublime-colorschemes",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Duplicate Lines",
 			"details": "https://github.com/wjthomas9/duplicate-lines",
 			"releases": [
@@ -1199,6 +1262,16 @@
 			"previous_names": ["Dust.js"],
 			"details": "https://github.com/zanuka/dust-buster",
 			"labels": ["dust", "language syntax", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DW Site Tools",
+			"details": "https://github.com/Tardog/dw-site-tools",
 			"releases": [
 				{
 					"sublime_text": "*",
