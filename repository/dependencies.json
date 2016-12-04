@@ -508,6 +508,21 @@
 			]
 		},
 		{
+			"name": "regex",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Regex Module",
+			"issues": "https://github.com/facelessuser/sublime-regex/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-regex",
+					"branch": "master",
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "windows"]
+				}
+			]
+		},
+		{
 			"name": "requests",
 			"load_order": "50",
 			"description": "Python requests module",
