@@ -45,17 +45,6 @@
 			]
 		},
 		{
-		    "name": "NativeBase Snippets Sublime",
-		    "details": "https://github.com/GeekyAnts/native-base-sublime-package",
-		    "releases": [
-		        {
-		            "sublime_text": "*",
-		            "platforms": ["osx", "linux"],
-		            "tags": true
-		        }
-		    ]
-		},
-		{
 			"name": "Nasl",
 			"details": "https://github.com/mr6r4y/Nasl",
 			"releases": [
@@ -72,6 +61,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NativeBase Snippets Sublime",
+			"details": "https://github.com/GeekyAnts/native-base-sublime-package",
+			"labels": ["language syntax", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
