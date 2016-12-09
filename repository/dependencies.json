@@ -661,6 +661,21 @@
 			]
 		},
 		{
+			"name": "SublimeP4Python",
+			"load_order": "51",
+			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
+			"author": "mrelusive",
+			"issues": "https://github.com/MrElusive/SublimeP4Python/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true,
+					"base": "https://github.com/MrElusive/SublimeP4Python"
+				}
+			]
+		},
+		{
 			"name": "tabulate",
 			"load_order": "01",
 			"description": "Python tabulate module",
@@ -716,20 +731,6 @@
 					"sublime_text": "*"
 				}
 			]
-		},
-		{
-			"name": "SublimeP4Python",
-			"load_order": "51",
-			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
-			"author": "mrelusive",
-			"issues": "https://github.com/MrElusive/SublimeP4Python/issues",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["windows"],
-					"tags": true,
-					"base": "https://github.com/MrElusive/SublimeP4Python"
-				}
 		}
 	]
 }
