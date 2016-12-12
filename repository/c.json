@@ -92,10 +92,10 @@
 			"details": "https://github.com/glymehrvrd/CppYCM",
 			"labels": ["c++", "code completion", "syntax check"],
 			"releases": [
-			{
-				"sublime_text": ">=3000",
-				"tags": true
-			}
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
 			]
 		},
 		{
@@ -177,15 +177,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeGit/CanISwitchToSublimeText3",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -586,7 +577,7 @@
 				}
 			]
 		},
-				{
+		{
 			"name": "Charcoal",
 			"details": "https://github.com/Dnld/charcoal-color-scheme",
 			"labels": ["color scheme"],
@@ -598,9 +589,10 @@
 			]
 		},
 		{
-			"name": "Chatscript Syntax",
-			"details": "https://github.com/joshuasnowball/chatscript-tmlanguage",
+			"name": "ChatScript Syntax",
+			"details": "https://github.com/kuzyn/chatscript-tmlanguage",
 			"labels": ["language syntax"],
+			"previous_names": ["Chatscript Syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1081,6 +1073,16 @@
 			]
 		},
 		{
+			"name": "Clickability Velocity",
+			"details": "https://bitbucket.org/jwetmore/clickability-velocity",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Clickable URLs",
 			"details": "https://github.com/leonid-shevtsov/ClickableUrls_SublimeText",
 			"releases": [
@@ -1205,20 +1207,20 @@
 			"name": "CloseOtherWindows",
 			"details": "https://github.com/werkzeugh/CloseOtherWindows_SublimePlugin",
 			"releases": [
-			{
-				"sublime_text": "*",
-				"tags": true
-			}
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
 			]
 		},
 		{
 			"name": "CloseTabsLeft",
 			"details":"https://github.com/deXterbed/CloseTabsLeft",
 			"releases": [
-			{
-				"sublime_text": "<3000",
-				"tags": true
-			}
+				{
+					"sublime_text": "<3000",
+					"tags": true
+				}
 			]
 		},
 		{
@@ -1287,9 +1289,20 @@
 			]
 		},
 		{
+			"name": "CNC BoschRexroth MTX",
+			"details": "https://github.com/deathaxe/sublime-mtx",
+			"labels": ["language syntax", "snippets", "completion"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CNC SINUMERIK 840D language support",
 			"details": "https://github.com/deathaxe/sublime-s840d",
-			"labels": ["language syntax", "snippets", "completion", "auto-complete"],
+			"labels": ["language syntax", "snippets", "completion"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1312,6 +1325,16 @@
 			"name": "coala",
 			"details": "https://github.com/coala-analyzer/coala-sublime",
 			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cobalt2 Flat Theme",
+			"details": "https://github.com/r3volution11/cobalt2-flat-theme",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1833,6 +1856,16 @@
 			]
 		},
 		{
+			"name": "Collider Snippets",
+			"details": "https://github.com/simonsinclair/collider-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Highlighter",
 			"details": "https://github.com/Monnoroch/ColorHighlighter",
 			"releases": [
@@ -2041,6 +2074,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "color_scheme_unit",
+			"details": "https://github.com/gerardroche/sublime_color_scheme_unit",
+			"labels": ["test", "framework", "assert", "unit test", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2435,6 +2479,17 @@
 			"details": "https://github.com/unknownuser88/consolewrap",
 			"author": "David Bekoyan",
 			"labels": ["completion", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Contao Front-End Snippets",
+			"details": "https://github.com/marcobiedermann/sublime-contao-front-end-snippets",
+			"labels": ["cms", "contao", "snippets", "css", "less", "sass", "scss", "stylus"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2881,6 +2936,16 @@
 			]
 		},
 		{
+			"name": "CreativeCrocodile",
+			"details": "https://github.com/Abban/CreativeCrocodile",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/Siddley/Creole",
 			"labels": ["language syntax"],
 			"releases": [
@@ -2939,6 +3004,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CSON Converter",
+			"details": "https://github.com/idleberg/sublime-cson-converter",
+			"labels": ["converter", "cson", "json"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
