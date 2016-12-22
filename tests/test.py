@@ -69,9 +69,20 @@ def generate_test_methods(cls, stream):
     generator.
     Note: The generator function must be a classmethod!
 
+    If a "pre_generate" classmethod exists, it will be run before the generator
+    functions.
+
     Generate tests using the following statement:
         yield method, (arg1, arg2, arg3)  # ...
     """
+    attributes = list(cls.__dict__.keys())
+    if 'pre_generate' in attributes:
+        func = getattr(cls, 'pre_generate')
+        if not func.__class__.__name__ == generator_method_type:
+            raise TypeError("Pre-Generator method must be classmethod")
+
+        func()
+
     for name in list(cls.__dict__.keys()):
         generator = getattr(cls, name)
         if not name.startswith("generate_") or not callable(generator):
@@ -114,6 +125,22 @@ def generate_test_methods(cls, stream):
     return cls
 
 
+# Very limited subclassing of dict class, which just suits our needs
+class CaseInsensitiveDict(dict):
+    @classmethod
+    def _k(cls, key):
+        return key.lower() if isinstance(key, str_cls) else key
+
+    def __getitem__(self, key):
+        return super(CaseInsensitiveDict, self).__getitem__(self._k(key))
+
+    def __setitem__(self, key, value):
+        super(CaseInsensitiveDict, self).__setitem__(self._k(key), value)
+
+    def __contains__(self, key):
+        return super(CaseInsensitiveDict, self).__contains__(self._k(key))
+
+
 def get_package_name(data):
     """Get "name" from a package with a workaround when it's not defined.
 
@@ -134,6 +161,13 @@ class TestContainer(object):
     Does not contain tests itself, must be used as mixin with unittest.TestCase.
     """
 
+    @classmethod
+    def setUpClass(cls):
+        cls.package_names = CaseInsensitiveDict()
+        cls.dependency_names = CaseInsensitiveDict()
+        # tuple of (prev_name, include, name); prev_name for case sensitivity
+        cls.previous_package_names = CaseInsensitiveDict()
+
     rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
                       |https:// bitbucket\.org/ [^/]+/ [^/]+
                       ) $'''
@@ -151,52 +185,79 @@ class TestContainer(object):
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
+        keys = ('schema_version', 'packages', 'dependencies', 'includes')
         self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
         self.assertIn('schema_version', data)
         self.assertEqual(data['schema_version'], '3.0.0')
 
         listkeys = [k for k in ('packages', 'dependencies', 'includes')
                     if k in data]
-        self.assertGreater(len(listkeys), 0)
+        self.assertGreater(len(listkeys), 0, "Must contain something")
         for k in listkeys:
             self.assertIsInstance(data[k], list)
 
-    def _test_dependency_order(self, include, data):
+        for k in data:
+            self.assertIn(k, keys, "Unexpected key")
+
+    def _test_dependency_names(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
 
-        dependencies = []
+        repo_dependency_names = []
         for pdata in data['dependencies']:
-            pname = get_package_name(pdata)
-            if pname in dependencies:
-                self.fail("Dependency names must be unique: " + pname)
+            name = get_package_name(pdata)
+            if name in self.dependency_names:
+                self.fail("Dependency names must be unique: " + name)
             else:
-                dependencies.append(pname)
+                self.dependency_names[name] = include
+                repo_dependency_names.append(name)
+            if name in self.package_names:
+                self.fail("Dependency and package names must be unique: %s, "
+                          "previously occured in %s"
+                          % (name, self.package_names[name]))
 
         # Check package order
-        self.assertEqual(dependencies, sorted(dependencies, key=str_cls.lower),
+        self.assertEqual(repo_dependency_names,
+                         sorted(repo_dependency_names, key=str_cls.lower),
                          "Dependencies must be sorted alphabetically")
 
-    def _test_repository_package_order(self, include, data):
+    def _test_repository_package_names(self, include, data):
         m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
-
-        # letter = include[-6]
         letter = m.group(1)
-        packages = []
+
+        repo_package_names = []
+        # Collect package names and check if they are unique,
+        # including occurences in previous_names.
         for pdata in data['packages']:
             pname = get_package_name(pdata)
-            if pname in packages:
-                self.fail("Package names must be unique: " + pname)
+            if pname in self.package_names:
+                self.fail("Package names must be unique: %s, previously "
+                          "occured in %s"
+                          % (pname, self.package_names[pname]))
+            elif (
+                pname in self.previous_package_names
+                # check casing
+                and pname == self.previous_package_names[pname][0]
+            ):
+                print(pname, self.previous_package_names[pname][0])
+                self.fail("Package names can not occur as a name and as a "
+                          "previous_name: %s, previously occured as "
+                          "previous_name in %s: %s"
+                          % (pname, self.previous_package_names[pname][1],
+                             self.previous_package_names[pname][2]))
+            elif pname in self.dependency_names:
+                self.fail("Dependency and package names must be unique: %s, "
+                          "previously occured in %s"
+                          % (pname, self.dependency_names[pname]))
             else:
-                packages.append(pname)
-
-            # TODO?: Test for *all* "previous_names"
+                self.package_names[pname] = include
+                repo_package_names.append(pname)
 
         # Check if in the correct file
-        for package_name in packages:
+        for package_name in repo_package_names:
             if letter == '0-9':
                 self.assertTrue(package_name[0].isdigit(),
                                 "Package inserted in wrong file")
@@ -205,7 +266,8 @@ class TestContainer(object):
                                  "Package inserted in wrong file")
 
         # Check package order
-        self.assertEqual(packages, sorted(packages, key=str_cls.lower),
+        self.assertEqual(repo_package_names,
+                         sorted(repo_package_names, key=str_cls.lower),
                          "Packages must be sorted alphabetically (by name)")
 
     def _test_indentation(self, filename, contents):
@@ -229,22 +291,48 @@ class TestContainer(object):
     }
 
     def _test_package(self, include, data):
+        name = get_package_name(data)
+
         for k, v in data.items():
             self.enforce_key_types_map(k, v, self.package_key_types_map)
 
-            if k == 'donate' and v is None:
-                # Allow "removing" the donate url that is added by "details"
-                continue
-            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
-                self.assertRegex(v, '^https?://')
-
-            elif k == 'details':
+            if k == 'details':
                 self.assertRegex(v, self.package_details_regex,
                                  'The details url is badly formatted or '
                                  'invalid')
 
+            elif k == 'donate' and v is None:
+                # Allow "removing" the donate url that is added by "details"
+                continue
+
+            elif k == 'labels':
+                for label in v:
+                    self.assertNotIn(",", label,
+                                     "Multiple labels should not be in the "
+                                     "same string")
+
+            elif k == 'previous_names':
+                # Test if name is unique, against names and previous_names.
+                for prev_name in v:
+                    if prev_name in self.previous_package_names:
+                        self.fail("Previous package names must be unique: %s, "
+                                  "previously occured in %s"
+                                  % (prev_name,
+                                     self.previous_package_names[prev_name]))
+                    elif prev_name in self.package_names:
+                        self.fail("Package names can not occur as a name and "
+                                  "as a previous_name: %s, previously occured "
+                                  "as name in %s"
+                                  % (prev_name, self.package_names[prev_name]))
+                    else:
+                        self.previous_package_names[prev_name] = (
+                            (prev_name, include, name)
+                        )
+
+            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
+                self.assertRegex(v, '^https?://')
+
         # Test for invalid characters (on file systems)
-        name = get_package_name(data)
         # Invalid on Windows (and sometimes problematic on UNIX)
         self.assertNotRegex(name, r'[/?<>\\:*|"\x00-\x19]',
                             'Package names must be valid folder names on all '
@@ -283,6 +371,8 @@ class TestContainer(object):
             elif k == 'load_order':
                 self.assertRegex(v, '^\d\d$', '"load_order" must be a two '
                                               'digit string')
+        for key in ('author', 'releases', 'issues', 'description', 'load_order'):
+                self.assertIn(key, data, '%r is required for dependencies' % key)
 
     pck_release_key_types_map = {
         'base': str_cls,
@@ -388,11 +478,12 @@ class TestContainer(object):
                                  'invalid')
 
             elif k == 'sublime_text':
-                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
-                                 'sublime_text must be `*` or of the form '
-                                 '<relation><version> '
+                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4}|\d{4} - \d{4})$',
+                                 'sublime_text must be `*`, of the form '
+                                 '`<relation><version>` '
                                  'where <relation> is one of {<, <=, >, >=} '
-                                 'and <version> is a 4 digit number')
+                                 'and <version> is a 4 digit number, '
+                                 'or of the form `<version> - <version>`')
 
             elif k == 'platforms':
                 if isinstance(v, str_cls):
@@ -486,15 +577,17 @@ class TestContainer(object):
             if re.match(r'https?://', path, re.I) is not None:
                 # Download the repository
                 try:
-                    with urlopen(path) as f:
-                        source = f.read().decode("utf-8", 'replace')
+                    f = urlopen(path)
+                    source = f.read()
+                    f.close()
                 except Exception as e:
                     yield cls._fail("Downloading %s failed" % path, e)
                     return
+                source = source.decode("utf-8", 'strict')
             else:
                 try:
                     with _open(path) as f:
-                        source = f.read().decode('utf-8', 'replace')
+                        source = f.read().decode('utf-8', 'strict')
                 except Exception as e:
                     yield cls._fail("Opening %s failed" % path, e)
                     return
@@ -527,6 +620,7 @@ class TestContainer(object):
             if schema != '3.0.0':
                 stream.write("skipping (schema version %s)"
                              % data['schema_version'])
+                cls.skipped_repositories[schema] += 1
                 return
             else:
                 stream.write("done")
@@ -583,9 +677,27 @@ class TestContainer(object):
 class DefaultChannelTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
-    with _open('channel.json') as f:
-        source = f.read().decode('utf-8', 'replace')
-        j = json.loads(source)
+    @classmethod
+    def setUpClass(cls):
+        super(DefaultChannelTests, cls).setUpClass()
+        cls.pre_generate()
+
+    # We need cls.j this for generating tests
+    @classmethod
+    def pre_generate(cls):
+        if not hasattr(cls, 'j'):
+            with _open('channel.json') as f:
+                cls.source = f.read().decode('utf-8', 'strict')
+                cls.j = json.loads(cls.source)
+
+            from collections import defaultdict
+            cls.skipped_repositories = defaultdict(int)
+
+    @classmethod
+    def tearDownClass(cls):
+        if cls.skipped_repositories:
+            # TODO somehow pass stream here
+            print("Repositories skipped: %s" % dict(cls.skipped_repositories))
 
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
@@ -598,10 +710,14 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             self.assertIsInstance(repo, str_cls)
 
     def test_indentation(self):
-        return self._test_indentation(None, self.source)
+        return self._test_indentation('channel.json', self.source)
 
-    def test_channel_repo_order(self):
+    def test_channel_repositories(self):
         repos = self.j['repositories']
+        for repo in repos:
+            self.assertRegex(repo, r"^(\.|https://)",
+                             "Repositories must be relative urls or use the "
+                             "HTTPS protocol")
         self.assertEqual(repos, sorted(repos, key=str_cls.lower),
                          "Repositories must be sorted alphabetically")
 
@@ -630,9 +746,18 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
 class DefaultRepositoryTests(TestContainer, unittest.TestCase):
     maxDiff = None
 
-    with _open('repository.json') as f:
-        source = f.read().decode('utf-8', 'replace')
-        j = json.loads(source)
+    @classmethod
+    def setUpClass(cls):
+        super(DefaultRepositoryTests, cls).setUpClass()
+        cls.pre_generate()
+
+    # We need cls.j this for generating tests
+    @classmethod
+    def pre_generate(cls):
+        if not hasattr(cls, 'j'):
+            with _open('repository.json') as f:
+                cls.source = f.read().decode('utf-8', 'strict')
+                cls.j = json.loads(cls.source)
 
     def test_repository_keys(self):
         keys = sorted(self.j.keys())
@@ -647,21 +772,24 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
         for include in self.j['includes']:
             self.assertIsInstance(include, str_cls)
 
+    def test_indentation(self):
+        return self._test_indentation('repository.json', self.source)
+
     @classmethod
     def generate_include_tests(cls, stream):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
-                    contents = f.read().decode('utf-8', 'replace')
+                    contents = f.read().decode('utf-8', 'strict')
                 data = json.loads(contents)
             except Exception as e:
-                yield cls._fail("Error while reading %r" % include, e)
+                yield cls._fail("strict while reading %r" % include, e)
                 continue
 
             # `include` is for output during tests only
             yield cls._test_indentation, (include, contents)
             yield cls._test_repository_keys, (include, data)
-            yield cls._test_repository_package_order, (include, data)
+            yield cls._test_repository_package_names, (include, data)
 
             for package in data['packages']:
                 yield cls._test_package, (include, package)
@@ -676,7 +804,7 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                              False))
 
             if 'dependencies' in data:
-                yield cls._test_dependency_order, (include, data)
+                yield cls._test_dependency_names, (include, data)
 
                 for dependency in data['dependencies']:
                     yield cls._test_dependency, (include, dependency)

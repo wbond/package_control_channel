@@ -13,16 +13,6 @@
 			]
 		},
 		{
-			"name": "Oauth Mail",
-			"details": "https://github.com/divinites/oauth-mail",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "objc .strings syntax language",
 			"details": "https://github.com/PaNaVTEC/Objc-Strings-Syntax-Language",
 			"labels": ["language syntax"],
@@ -119,12 +109,56 @@
 			]
 		},
 		{
+			"name": "Oceanic Next Italic Color Scheme",
+			"details": "https://github.com/SintrumIT/oceanic-next-italic",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Octo",
+			"details": "https://github.com/mattmikolay/octo-sublime",
+			"labels": ["language syntax", "chip8"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Octopress Snippets",
+			"details": "https://github.com/yangsu/sublime-octopress",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Oddly",
 			"details": "https://github.com/laktak/sublime-oddly",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Odoo Snippets",
+			"details": "https://github.com/odoo-jarsa/Sublime-Odoo",
+			"labels": ["odoo", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -195,8 +229,63 @@
 			]
 		},
 		{
+			"name": "OmnisStudioIndenter",
+			"details": "https://github.com/Frogli/OmnisStudioIndenter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "On Save",
+			"details": "https://github.com/wl879/SublimeOnSave/",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Command Syntax Highlighter",
+			"details": "https://github.com/yrsegal/OneCommandSublimeSyntax",
+			"labels": ["minecraft", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "One Dark Color Scheme",
 			"details": "https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Dark Material - Theme",
+			"details": "https://github.com/rafamds/OneDarkMaterial",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Half Color Schemes",
+			"details": "https://github.com/sonph/onehalf-tmtheme",
+			"readme": "https://raw.githubusercontent.com/sonph/onehalf/master/README.md",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -253,6 +342,17 @@
 			"name": "Open",
 			"details": "https://github.com/danielfrg/sublime-open",
 			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open File in Current Folder",
+			"details": "https://github.com/SublimeText/OpenFileInCurrentFolder",
+			"labels": ["file navigation", "current folder"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -350,8 +450,18 @@
 			"details": "https://github.com/vojtajina/sublime-OpenRelated",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Open Search in a New Tab",
+			"details": "https://github.com/everyonesdesign/OpenSearchInNewTab",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -401,11 +511,25 @@
 			]
 		},
 		{
-			"details": "https://github.com/titoBouzout/Open-Include",
+			"name": "Open With",
+			"details": "https://github.com/j-martin/open-with-sublime",
+			"labels": ["file management", "open files", "external editor", "power user"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "open-sesame",
+			"details": "https://github.com/gerardroche/sublime-open-sesame",
+			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -485,6 +609,17 @@
 			]
 		},
 		{
+			"name": "OpenLastRPT",
+			"details": "https://github.com/jonpas/Sublime-OpenLastRPT/",
+			"labels": ["logs", "file open"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "OpenPath",
 			"details": "https://github.com/shagabutdinov/sublime-open-path",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -493,6 +628,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OpenResty lua snippets",
+			"details": "https://github.com/membphis/openresty_lua_snippets",
+			"labels": ["openresty lua", "nginx", "ngx"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -572,6 +718,28 @@
 			]
 		},
 		{
+			"name": "Orchid Color Scheme",
+			"details": "https://github.com/patrickfatrick/orchid-theme-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "org_agenda",
+			"details": "https://github.com/robinchenyu/org_calendar",
+			"author": "robinchenyu",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
@@ -598,6 +766,16 @@
 					"sublime_text": "<3000",
 					"platforms": "osx",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Outline",
+			"details": "https://github.com/warmdev/SublimeOutline",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

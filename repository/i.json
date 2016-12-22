@@ -37,6 +37,26 @@
 			]
 		},
 		{
+			"name": "IAS",
+			"details": "https://github.com/rmobis/sublime-ias",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "iCalendar",
+			"details": "https://github.com/kimsey0/iCalendar-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IcedCoffeeScript",
 			"details": "https://github.com/dhoelzgen/iced-coffee-script-tmbundle",
 			"releases": [
@@ -59,9 +79,30 @@
 		},
 		{
 			"name": "Icon Fonts",
-			"details": "https://github.com/idleberg/Icon-Fonts-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-icon-fonts",
 			"labels": ["snippets", "icon_fonts", "fonts"],
 			"previous_names": ["Font Awesome"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Icon Fonts (Legacy)",
+			"details": "https://github.com/idleberg/sublime-icon-fonts-legacy",
+			"labels": ["snippets", "icon_fonts", "fonts"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "iconfont snippets",
+			"details": "https://github.com/badprint/ST-iconFont-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -142,6 +183,18 @@
 			]
 		},
 		{
+			"name": "iLorem",
+			"details": "https://github.com/imasood/iLorem",
+			"labels": ["lorem", "ilorem", "loremipsum", "farsi(persian)", "english", "italian", "spanish", "polski"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Image2Base64",
 			"details": "https://github.com/tm-minty/sublime-text-2-image2base64",
 			"labels": ["image manipulation", "base64", "image", "converting"],
@@ -175,6 +228,28 @@
 			]
 		},
 		{
+			"name": "ImagePaste",
+			"details": "https://github.com/robinchenyu/imagepaste",
+			"author": "robinchenyu",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms":"windows",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Imba",
+			"details": "https://github.com/somebee/sublime-imba",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "imgHolder",
 			"details": "https://github.com/pafnuty/imgHolder",
 			"labels": ["completions", "css", "html"],
@@ -196,11 +271,43 @@
 			]
 		},
 		{
+			"name": "ImportJS",
+			"details": "https://github.com/Galooshi/sublime-import-js",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/jbrooksuk/ImprovedSQL",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ImsiEncoder",
+			"details": "https://bitbucket.org/luisillo/imsiencoder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "IMSwitchForVintage",
+			"details": "https://github.com/zhongxingdou/IMSwitchForVintage-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
 				}
 			]
 		},
@@ -255,12 +362,46 @@
 			]
 		},
 		{
+			"name": "Indent Respectful Sort",
+			"author": "Mustafa Nural",
+			"details": "https://github.com/mvnural/sublime-indent-respectful-sort",
+			"labels": ["sort", "indent"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Indent Size",
+			"details": "https://github.com/socsieng/sublime-indent-size",
+			"labels": ["indent", "tab", "size"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Indent XML",
 			"details": "https://github.com/alek-sys/sublimetext_indentxml",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Indentation Size Setting",
+			"details": "https://github.com/Kronuz/IndentSize",
+			"labels": ["indent", "tab", "size", "settings"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -282,6 +423,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "IndentTips",
+			"details": "https://github.com/QS20199/IndentTips_sublime_plugin",
+			"author": "QSqiu",
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -358,9 +511,25 @@
 			]
 		},
 		{
-			"name": "InnoSetup",
-			"details": "https://github.com/idleberg/InnoSetup-Sublime-Text",
+			"name": "Inno Setup",
+			"details": "https://github.com/idleberg/sublime-innosetup",
 			"labels": ["language syntax", "build system"],
+			"previous_names": ["InnoSetup"],
+			"releases": [
+				{
+					"sublime_text": "<3103",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "InputArgs",
+			"details": "https://github.com/bilalba/InputArgs",
+			"labels": ["input", "arguments", "build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -414,8 +583,9 @@
 		},
 		{
 			"name": "Insert Nums",
+			"author": ["jbrooksuk", "FichteFoll"],
 			"details": "https://github.com/jbrooksuk/InsertNums",
-			"labels": ["automation", "utils"],
+			"labels": ["automation", "utils", "text manipulation"],
 			"previous_names": ["Insert Sequences", "InsertNums"],
 			"releases": [
 				{
@@ -461,6 +631,28 @@
 			]
 		},
 		{
+			"name": "InstaGoogling",
+			"details": "https://github.com/Ivanca/InstaGoogling",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Intel HEX",
+			"details": "https://github.com/seppestas/intel-hex-syntax",
+			"labels": ["language syntax", "hexadecimal"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IntelliDocs",
 			"details": "https://github.com/shortcutme/Sublime-IntelliDocs",
 			"labels": ["auto-complete", "completion", "help", "hint", "php", "python"],
@@ -483,11 +675,11 @@
 			]
 		},
 		{
-			"name": "IntelXDK",
-			"details": "https://github.com/gomobile/sublime-xdk-package",
+			"name": "Interactive Data Language (IDL)",
+			"details": "https://github.com/cschreib/sublime-idl",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3114",
 					"tags": true
 				}
 			]
@@ -530,6 +722,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Io Language",
+			"details": "https://github.com/yangsu/sublime-io",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -645,6 +848,18 @@
 			]
 		},
 		{
+			"name": "iReset",
+			"details": "https://github.com/imasood/iReset",
+			"labels": ["css reset", "css", "ireset", "normalize", "html5doctor"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Iridis Colour Scheme",
 			"details": "https://github.com/gingerBill/iridis-colour-scheme",
 			"labels": ["color scheme", "colour scheme"],
@@ -689,6 +904,17 @@
 			]
 		},
 		{
+			"name": "iRules",
+			"details": "https://github.com/billchurch/sublime-iRules",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ISML",
 			"details": "https://github.com/aearly/isml-tmlanguage",
 			"releases": [
@@ -720,11 +946,33 @@
 			]
 		},
 		{
+			"name": "iTimeTrack",
+			"details": "https://github.com/itimetrack/itimetrack-sublime",
+			"labels": ["time tracking", "coding", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "itt"
+				}
+			]
+		},
+		{
 			"name": "iTodo",
 			"details": "https://github.com/chagel/itodo",
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "iTunes",
+			"details": "https://github.com/airtoxin/Sublime-iTunes",
+			"releases": [
+				{
+					"platforms": "osx",
+					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]
