@@ -192,6 +192,20 @@
 			]
 		},
 		{
+			"name": "gntp",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Growl Notification Transport Protocol library.",
+			"issues": "https://github.com/facelessuser/sublime-gntp/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-gntp",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "golangconfig",
 			"load_order": "10",
 			"description": "A library for Go environment configuration",
@@ -488,6 +502,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/randy3k/sublime-pyzmq",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "regex",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Regex Module",
+			"issues": "https://github.com/facelessuser/sublime-regex/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-regex",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
