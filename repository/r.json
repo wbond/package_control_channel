@@ -240,6 +240,29 @@
 			]
 		},
 		{
+			"name": "Rainmeter",
+			"details": "https://github.com/thatsIch/sublime-rainmeter",
+			"labels": ["rainmeter"],
+			"releases": [
+				{
+					"base": "https://github.com/merlinthered/sublime-rainmeter",
+					"sublime_text": "<3000",
+					"platforms": ["windows"],
+					"tags": true
+				},
+				{
+					"sublime_text": "<3092",
+					"platforms": ["windows"],
+					"tags": "st3092-"
+				},
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Rake",
 			"releases": [
 				{
@@ -543,6 +566,17 @@
 			]
 		},
 		{
+			"name": "RealityCheck",
+			"details": "https://github.com/bollu/SublimeRealityCheck",
+			"labels": ["python", "interpreter", "interactive"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ReaSyntax",
 			"details": "https://github.com/Breeder/ReaSyntax",
 			"labels": ["reaper", "cockos", "reascript", "eel", "jesusonic", "js", "walter"],
@@ -683,6 +717,17 @@
 			"name": "Reform",
 			"details": "https://github.com/Suor/sublime-reform",
 			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Refresh File and Folders",
+			"details": "https://github.com/codebicycle/refresh-file-and-folders",
+			"labels": ["remote"],
 			"releases": [
 				{
 					"sublime_text": "*",

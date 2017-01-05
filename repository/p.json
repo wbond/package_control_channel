@@ -59,11 +59,16 @@
 			]
 		},
 		{
+			"name": "PackageResourceViewer",
 			"details": "https://github.com/skuroda/PackageResourceViewer",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -1762,7 +1767,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
