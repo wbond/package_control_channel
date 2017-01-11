@@ -441,6 +441,21 @@
 			]
 		},
 		{
+			"name": "Emacs Pro Essentials",
+			"previous_names": ["sublemacspro"],
+			"details": "https://github.com/sublime-emacs/sublemacspro",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Emacs Tabstops",
 			"details": "https://github.com/KristoforMaynard/EmacsTabstops",
 			"labels": ["emacs", "formatting", "text manipulation"],
