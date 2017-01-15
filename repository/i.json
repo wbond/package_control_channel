@@ -250,6 +250,16 @@
 			]
 		},
 		{
+			"name": "img-placeholder",
+			"details": "https://github.com/fisker/img-placeholder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "imgHolder",
 			"details": "https://github.com/pafnuty/imgHolder",
 			"labels": ["completions", "css", "html"],
@@ -271,12 +281,32 @@
 			]
 		},
 		{
-			"name": "ImportJS",
-			"details": "https://github.com/trotzig/import-js",
+			"name": "ImportHelper",
+			"details": "https://github.com/unlight/sublime-import-helper",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ImportJS",
+			"details": "https://github.com/Galooshi/sublime-import-js",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ImprovedMacros",
+			"details": "https://github.com/skuroda/ImprovedMacros",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -517,12 +547,23 @@
 			"previous_names": ["InnoSetup"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "<3103",
 					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3103",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "InputArgs",
+			"details": "https://github.com/bilalba/InputArgs",
+			"labels": ["input", "arguments", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -572,8 +613,9 @@
 		},
 		{
 			"name": "Insert Nums",
+			"author": ["jbrooksuk", "FichteFoll"],
 			"details": "https://github.com/jbrooksuk/InsertNums",
-			"labels": ["automation", "utils"],
+			"labels": ["automation", "utils", "text manipulation"],
 			"previous_names": ["Insert Sequences", "InsertNums"],
 			"releases": [
 				{
@@ -619,6 +661,28 @@
 			]
 		},
 		{
+			"name": "InstaGoogling",
+			"details": "https://github.com/Ivanca/InstaGoogling",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Intel HEX",
+			"details": "https://github.com/seppestas/intel-hex-syntax",
+			"labels": ["language syntax", "hexadecimal"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IntelliDocs",
 			"details": "https://github.com/shortcutme/Sublime-IntelliDocs",
 			"labels": ["auto-complete", "completion", "help", "hint", "php", "python"],
@@ -641,11 +705,11 @@
 			]
 		},
 		{
-			"name": "IntelXDK",
-			"details": "https://github.com/gomobile/sublime-xdk-package",
+			"name": "Interactive Data Language (IDL)",
+			"details": "https://github.com/cschreib/sublime-idl",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3114",
 					"tags": true
 				}
 			]
@@ -688,6 +752,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Io Language",
+			"details": "https://github.com/yangsu/sublime-io",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -858,7 +933,7 @@
 				}
 			]
 		},
-		{	
+		{
 			"name": "iRules",
 			"details": "https://github.com/billchurch/sublime-iRules",
 			"labels": ["language syntax"],
@@ -897,6 +972,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "iTimeTrack",
+			"details": "https://github.com/itimetrack/itimetrack-sublime",
+			"labels": ["time tracking", "coding", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "itt"
 				}
 			]
 		},

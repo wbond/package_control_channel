@@ -24,6 +24,17 @@
 			]
 		},
 		{
+			"name": "d4m",
+			"details": "https://github.com/yvess/sublime_d4m",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dafny",
 			"details": "https://github.com/erggo/sublime-dafny",
 			"releases": [
@@ -155,6 +166,16 @@
 			]
 		},
 		{
+			"name": "Dataiku",
+			"details": "https://github.com/jereze/DataikuSublimeText",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Date",
 			"details": "https://github.com/paulollivier/sublimetext-date",
 			"releases": [
@@ -183,6 +204,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DBLP",
+			"details": "https://github.com/bordaigorl/sublime-dblp",
+			"labels": ["search", "bibliography", "citations", "bibtex"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -340,7 +372,7 @@
 			"details": "https://github.com/mrjoelkemp/Dependents",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -427,10 +459,10 @@
 			"details": "https://github.com/gepd/Deviot",
 			"issues": "https://github.com/gepd/Deviot/issues",
 			"donate": "https://gratipay.com/~gepd/",
-			"labels": ["build system", "ide", "arduino", "iot"],
+			"labels": ["build system", "ide", "arduino", "iot", "platformio"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -467,6 +499,17 @@
 			]
 		},
 		{
+			"name": "DIBOL Programming Language",
+			"details": "https://github.com/ilyakharlamov/DIBOL.tmLanguage",
+			"labels": ["language syntax", "dibol", "dbl", "cif", "synergex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Diction",
 			"details": "https://github.com/GeeF/SublimeDiction",
 			"labels": ["linting", "stylecheck"],
@@ -488,9 +531,19 @@
 			]
 		},
 		{
+			"name": "DiffTabs",
+			"details": "https://github.com/soandrew/DiffTabs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "DiffView",
 			"details": "https://github.com/CJTozer/SublimeDiffView",
-			"labels": ["Git", "git", "SVN", "svn", "diff", "difference"],
+			"labels": ["Git", "git", "SVN", "svn", "bzr", "bazaar", "diff", "difference"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -607,10 +660,22 @@
 		{
 			"name": "DistractionFreeWindow",
 			"details": "https://github.com/aziz/DistractionFreeWindow",
-			"labels": ["fullscreen", "distractoin-free"],
+			"labels": ["fullscreen", "distraction-free"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "distractionless",
+			"details": "https://github.com/jrappen/sublime-distractionless",
+			"donate": "https://www.paypal.me/jrappen",
+			"labels": ["automation", "distraction-free", "fullscreen"],
+			"releases": [
+				{
+					"sublime_text": ">=3116",
 					"tags": true
 				}
 			]
@@ -706,6 +771,30 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Django-Model-Converter",
+			"details": "https://github.com/Bernardoow/Django-Model-Converter",
+			"labels": ["text manipulation", "django", "rest"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Django-Rest-Snippets",
+			"details": "https://github.com/Bernardoow/Django-Rest-Snippets",
+			"labels": ["text manipulation", "snippets", "django", "rest"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
 				}
 			]
 		},
@@ -806,7 +895,7 @@
 		},
 		{
 			"name": "DocPHPManualer",
-			"details": "https://github.com/acabin/docphp",
+			"details": "https://github.com/garveen/docphp",
 			"labels":["document","php","manual"],
 			"releases": [
 				{
@@ -879,6 +968,17 @@
 			"releases": [
 				{
 					"sublime_text": ">2999",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DokuWiki Syntax",
+			"details": "https://github.com/bgx4k3p/DokuWikiSyntax",
+			"labels": ["auto-complete", "language syntax", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]
@@ -1006,7 +1106,7 @@
 		},
 		{
 			"name": "Dracula Color Scheme",
-			"details": "https://github.com/zenorocha/dracula-theme",
+			"details": "https://github.com/dracula/sublime",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1144,6 +1244,18 @@
 			]
 		},
 		{
+			"name": "Dumbest Ipsum",
+			"details": "https://github.com/victorlaerte/dumbest-ipsum",
+			"author": "Victor Laerte",
+			"labels": ["text", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dummy Image Generator",
 			"details": "https://github.com/SubZane/Sublime-Dummy-Image-Generator",
 			"releases": [
@@ -1156,6 +1268,26 @@
 		{
 			"name": "DummyData",
 			"details": "https://github.com/blcook223/DummyData",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Duotone Dark Red",
+			"details": "https://github.com/DJgamer98/Duotone-Dark-Red-Sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Duotones Colorschemes",
+			"details": "https://github.com/atelierbram/duotones-sublime-colorschemes",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1188,6 +1320,16 @@
 			"previous_names": ["Dust.js"],
 			"details": "https://github.com/zanuka/dust-buster",
 			"labels": ["dust", "language syntax", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DW Site Tools",
+			"details": "https://github.com/Tardog/dw-site-tools",
 			"releases": [
 				{
 					"sublime_text": "*",
