@@ -108,6 +108,16 @@
 			]
 		},
 		{
+			"name": "GBK Support",
+			"details": "https://github.com/chengsu/sublime-gbk-support",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GCC Assembly Listing",
 			"details": "https://github.com/abcminiuser/sublimetext-gnu-gas",
 			"labels": ["language syntax"],
@@ -121,6 +131,7 @@
 		{
 			"name": "GDL",
 			"details": "https://github.com/runxel/GDL-sublime",
+			"labels": ["language syntax", "color scheme", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -326,6 +337,16 @@
 			]
 		},
 		{
+			"name": "GISDK",
+			"details": "https://github.com/Caliper-Corporation/GISDK-SublimeText",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/condemil/Gist",
 			"releases": [
 				{
@@ -509,6 +530,16 @@
 			]
 		},
 		{
+			"name": "Github Search",
+			"details": "https://github.com/kanghj/sublime-text-github-search-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Github Tools",
 			"details": "https://github.com/temochka/sublime-text-2-github-tools",
 			"releases": [
@@ -536,6 +567,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "GitHubIssue",
+			"details": "https://github.com/divinites/gissues",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
 				}
 			]
 		},
@@ -662,6 +703,18 @@
 			]
 		},
 		{
+			"name": "GitUp",
+			"details": "https://github.com/braver/SublimeGitUp",
+			"labels": ["git"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "osx",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GL Shader Validator",
 			"details": "https://github.com/WebGLTools/GL-Shader-Validator",
 			"releases": [
@@ -759,9 +812,20 @@
 			]
 		},
 		{
-			"name": "gmESSI-gmsh Tools",
-			"details": "https://github.com/SumeetSinha/gmESSI-SublimePlugin",
-			"previous_names": ["gmESSI-gmsh tools"],
+			"name": "Gmail",
+			"previous_names": ["Oauth Mail", "QuickMail"],
+			"details": "https://github.com/divinites/oauth-mail",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gmESSI-Tools",
+			"details": "https://github.com/SumeetSinha/gmESSI-Tools",
+			"labels": ["completion", "auto-complete","language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -786,6 +850,17 @@
 			"releases": [
 				{
 					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gmsh-Tools",
+			"details": "https://github.com/SumeetSinha/gmsh-Tools",
+			"labels": ["completion", "auto-complete","language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -845,6 +920,17 @@
 			]
 		},
 		{
+			"name": "Go Playground",
+			"details": "https://github.com/0x4445565A/go-playground-sublime",
+			"labels": ["go"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Go To Node Module Homepage",
 			"details": "https://github.com/jfromaniello/sublime-goto-node-module",
 			"releases": [
@@ -885,6 +971,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "GoEscape",
+			"details": "https://bitbucket.org/shellzen/goescape",
+			"labels": ["go"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["linux"],
+					"tags": true
 				}
 			]
 		},
@@ -1172,6 +1270,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gotham Theme",
+			"details": "https://github.com/9sevendesign/Gotham-Theme",
+			"labels": ["theme", "color scheme", "dark"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

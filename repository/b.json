@@ -109,6 +109,17 @@
 			]
 		},
 		{
+			"name": "Baobab React ES6 Snippets",
+			"details": "https://github.com/luccitan/sublime-baobab-react-es6",
+			"labels": ["snippets", "jsx", "es6", "react", "baobab", "root", "branch"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BART",
 			"details": "https://github.com/ganemone/SublimeBart",
 			"releases": [
@@ -147,6 +158,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Base16 Eighties Dark Color Scheme",
+			"details": "https://github.com/pgaspar/base16-eighties-dark",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -600,6 +622,29 @@
 			]
 		},
 		{
+			"name": "Bitbake Syntax",
+			"details": "https://github.com/Driim/bitbake-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"details": "https://github.com/dtao/SublimeBucket",
+			"labels": ["bitbucket", "git", "mercurial"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/pheuter/BitcoinTicker",
 			"releases": [
 				{
@@ -634,6 +679,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "BlackBird-ColorScheme",
+			"details": "https://github.com/jonatasnardi/BlackBird-ColorScheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -785,6 +841,16 @@
 			]
 		},
 		{
+			"name": "Bonsucesso",
+			"details": "https://github.com/sergiovilar/bonsucesso",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Boo",
 			"details": "https://github.com/Shammah/boo-sublime",
 			"labels": ["language syntax"],
@@ -807,6 +873,18 @@
 			]
 		},
 		{
+			"name": "Bootstrap 3 Autocomplete",
+			"details": "https://github.com/webchun/bootstrap-3-sublime-autocomplete",
+			"author": "Webchun",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bootstrap 3 Jade Snippets",
 			"details": "https://github.com/rs459/bootstrap3-jade-sublime-plugin",
 			"author": "Fabrice Piedanna",
@@ -822,6 +900,18 @@
 			"name": "Bootstrap 3 Snippets",
 			"details": "https://github.com/JasonMortonNZ/bs3-sublime-plugin",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bootstrap 4 Autocomplete",
+			"details": "https://github.com/webchun/bootstrap-4-sublime-autocomplete",
+			"author": "Webchun",
+			"labels": ["auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -927,8 +1017,8 @@
 		{
 			"name": "Boxy Theme",
 			"previous_names": ["Theme - Otto"],
-			"details": "https://github.com/oivva/boxy",
-			"author": "Ihor Oleksandrov aka Oivva",
+			"details": "https://github.com/oivva/sublime-boxy",
+			"author": "oivva",
 			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
@@ -939,9 +1029,9 @@
 		},
 		{
 			"name": "Boxy Theme Addon - Font Face",
-			"details": "https://github.com/oivva/boxy-addon-font-face",
-			"author": "Ihor Oleksandrov aka Oivva",
-			"labels": ["theme", "addon"],
+			"details": "https://github.com/oivva/sublime-boxy-addon-font-face",
+			"author": "oivva",
+			"labels": ["theme", "addon", "font"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -950,10 +1040,11 @@
 			]
 		},
 		{
-			"name": "Boxy Theme Addon - Linter Theme",
-			"details": "https://github.com/oivva/boxy-addon-linter-theme",
-			"author": "Ihor Oleksandrov aka Oivva",
-			"labels": ["theme", "addon"],
+			"name": "Boxy Theme Addon - Mono File Icons",
+			"previous_names": ["Boxy Theme Addon - Mono File Icons - Dark UI"],
+			"details": "https://github.com/oivva/sublime-boxy-addon-mono-file-icons",
+			"author": "oivva",
+			"labels": ["theme", "addon", "icons"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -962,46 +1053,11 @@
 			]
 		},
 		{
-			"name": "Boxy Theme Addon - Widget Font LG",
-			"details": "https://github.com/oivva/boxy-addon-widget-font-lg",
-			"author": "Ihor Oleksandrov aka Oivva",
-			"labels": ["theme", "addon"],
-			"releases": [
-				{
-					"sublime_text": ">=3103",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Boxy Theme Addon - Widget Font MD",
-			"details": "https://github.com/oivva/boxy-addon-widget-font-md",
-			"author": "Ihor Oleksandrov aka Oivva",
-			"labels": ["theme", "addon"],
-			"releases": [
-				{
-					"sublime_text": ">=3103",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Boxy Theme Addon - Widget Font XL",
-			"details": "https://github.com/oivva/boxy-addon-widget-font-xl",
-			"author": "Ihor Oleksandrov aka Oivva",
-			"labels": ["theme", "addon"],
-			"releases": [
-				{
-					"sublime_text": ">=3103",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Boxy Theme Addon - Widget Font XS",
-			"details": "https://github.com/oivva/boxy-addon-widget-font-xs",
-			"author": "Ihor Oleksandrov aka Oivva",
-			"labels": ["theme", "addon"],
+			"name": "Boxy Theme Addon - Widget Font Size",
+			"previous_names": ["Boxy Theme Addon - Widget Font LG"],
+			"details": "https://github.com/oivva/sublime-boxy-addon-widget-font-size",
+			"author": "oivva",
+			"labels": ["theme", "addon", "font"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -1067,6 +1123,17 @@
 		{
 			"name": "Brainfuck Interpreter",
 			"details": "https://github.com/dotzero/SublimeText-Brainfuck",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Breadboard",
+			"details": "https://github.com/a7medkamel/taskmill-editor-sublime",
+			"previous_names": ["Task Mill", "TaskMill"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1239,6 +1306,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Bulma CSS Framework autocomplete",
+			"details": "https://github.com/leuchte/bulma-autocomplete",
+			"author": "Leuchte",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

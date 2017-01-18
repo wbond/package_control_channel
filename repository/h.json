@@ -164,6 +164,16 @@
 			]
 		},
 		{
+			"name": "Haproxy",
+			"details": "https://github.com/ramonfritsch/sublime-haproxy",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Harmonious Color Schemes",
 			"details": "https://github.com/oferei/sublime-colors",
 			"labels": ["color scheme"],
@@ -222,6 +232,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Haskell NSIS",
+			"details": "https://github.com/idleberg/sublime-haskell-nsis",
+			"labels": ["snippets", "auto-complete", "nsis"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -419,6 +440,16 @@
 			]
 		},
 		{
+			"name": "Hide Sidebar When Not Focussed",
+			"details": "https://github.com/akrabat/HideSidebarWhenNotFocussed",
+			"releases": [
+				{
+					"sublime_text": ">=3098",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hide Tabs",
 			"details": "https://github.com/croach/SublimeHideTabs",
 			"releases": [
@@ -548,11 +579,15 @@
 		},
 		{
 			"name": "Hjson",
-			"details": "https://github.com/laktak/sublime-hjson",
+			"details": "https://github.com/hjson/sublime-hjson",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "sl2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "sl3-"
 				}
 			]
 		},
@@ -579,6 +614,16 @@
 		{
 			"name": "HMMM",
 			"details": "https://github.com/shickey/HMMM",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HMpTy Snippets",
+			"details": "https://github.com/thespacedoctor/HMpTy-Sublime-Snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -739,6 +784,16 @@
 		{
 			"name": "Hound Search",
 			"details": "https://github.com/bgreenlee/SublimeHound",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hover Image Preview",
+			"details": "https://github.com/alvesjtiago/hover-preview",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1174,6 +1229,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HyperClick",
+			"details": "https://github.com/aziz/SublimeHyperClick",
+			"labels": ["file navigation", "code navigation", "file open"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
