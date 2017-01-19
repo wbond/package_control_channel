@@ -1757,6 +1757,17 @@
 			]
 		},
 		{
+			"name": "SKILL from Cadence",
+			"details": "https://github.com/leoheck/sublime-cadence-skill",
+			"previous_names": ["Cadence Skill"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Skins",
 			"details": "https://github.com/deathaxe/sublime-skins",
 			"labels": ["themes", "utilities"],
@@ -1859,6 +1870,16 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Slime",
+			"details": "https://github.com/hedgesky/slime.tmbundle",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2491,12 +2512,14 @@
 			]
 		},
 		{
-			"name": "Spice",
+			"name": "SPICE Circuit Simulator",
 			"details": "https://github.com/leoheck/sublime-spice",
+			"labels": ["circuit simulator"],
+			"previous_names": ["Spice"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2895,7 +2918,7 @@
 		{
 			"name": "Stata Improved Editor",
 			"details": "https://github.com/zizhongyan/StataImproved",
-			"labels": ["stata"], 
+			"labels": ["stata"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2903,7 +2926,7 @@
 					"tags": true
 				}
 			]
-		}, 
+		},
 		{
 			"name": "StataEditor",
 			"details": "https://github.com/mattiasnordin/StataEditor",
@@ -3254,19 +3277,6 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/grundprinzip/sublemacspro",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -4378,6 +4388,17 @@
 			]
 		},
 		{
+			"name": "Swift Completion",
+			"details": "https://github.com/tushortz/Swift-Completion",
+			"labels": ["completions", "snippets", "completion", "Completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},		
+		{
 			"name": "Swift Foundation Completions",
 			"details": "https://github.com/hatunike/Swift-Foundation-Sublime-Autocomplete-Package",
 			"labels": ["snippets"],
@@ -4653,6 +4674,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Syntax History",
+			"details": "https://github.com/malexer/SyntaxHistory",
+			"labels": ["syntax", "syntax highlight"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

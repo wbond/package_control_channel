@@ -1621,10 +1621,15 @@
 		},
 		{
 			"name": "GraphQL",
-			"details": "https://github.com/graphql-python/GraphQL-SublimeText",
+			"details": "https://github.com/dncrews/GraphQL-SublimeText3",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3092",
+					"base": "https://github.com/dncrews/GraphQL-SublimeText2",
 					"tags": true
 				}
 			]
