@@ -293,11 +293,11 @@
 		{
 			"name": "JavaScript Completions",
 			"details": "https://github.com/pichillilorenzo/JavaScript-Completions",
-			"labels": ["completions", "javascript"],
+			"labels": ["completions", "javascript", "javascript completions"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -371,7 +371,7 @@
 			"labels": ["language syntax", "snippets", "javascript"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -467,6 +467,17 @@
 			]
 		},
 		{
+			"name": "Jedi Syntax",
+			"details": "https://github.com/CyanSalt/Sublime-Jedi",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "jEdit Color Theme",
 			"details": "https://github.com/webtechnick/sublime_jedit_theme",
 			"releases": [
@@ -524,8 +535,8 @@
 			"details": "https://github.com/Jimbly/SublimeClipboardHistory",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -760,11 +771,11 @@
 		},
 		{
 			"name": "JS2Coffee",
-			"details": "https://github.com/nibblebot/sublime-js2coffee",
+			"details": "https://github.com/aziz/sublime-js2coffee",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -783,6 +794,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JsDebuggr",
+			"details": "https://github.com/rDr4g0n/JsDebuggr",
+			"issues": "https://github.com/rDr4g0n/JsDebuggr/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -926,6 +948,17 @@
 			]
 		},
 		{
+			"name": "JSONComma",
+			"details": "https://github.com/math2001/JSONComma",
+			"labels": ["JSON", "comma", "text manipulation", "formatting", "formatter", "trailing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/hmml/jsonlint",
 			"labels": ["linting", "JSON"],
 			"releases": [
@@ -942,6 +975,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JsPrettier",
+			"details": "https://github.com/jonlabelle/SublimeJsPrettier",
+			"labels": ["javascript", "formatting", "format"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1010,16 +1054,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "JuliaCompletions",
-			"details": "https://github.com/jakeconnor/JuliaCompletions",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},

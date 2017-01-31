@@ -49,17 +49,26 @@
 			"author": ["guillermooo", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3092",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
 		},
 		{
+			"name": "PackageResourceViewer",
 			"details": "https://github.com/skuroda/PackageResourceViewer",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -186,11 +195,31 @@
 			]
 		},
 		{
+			"name": "PanePane",
+			"details": "https://github.com/mjsmith1028/panepane",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Panezr",
 			"details": "https://github.com/jpellerin/Panezr",
 			"releases": [
 				{
 					"sublime_text": ">=3033",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "panstamps Snippets",
+			"details": "https://github.com/thespacedoctor/panstamps-Sublime-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -300,6 +329,19 @@
 			]
 		},
 		{
+			"name": "Parquet",
+			"details": "https://github.com/yuj/sublime-parquet",
+			"issues": "https://github.com/yuj/sublime-parquet/issues",
+			"labels": ["parquet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Parva Syntax",
 			"details" : "https://github.com/muskatel/Parva_Syntax",
 			"labels": ["language syntax"],
@@ -377,6 +419,20 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PasteAsString",
+			"details": "https://github.com/mom1/PasteAsString",
+			"readme": "https://raw.githubusercontent.com/mom1/PasteAsString/master/README.md",
+			"issues": "https://github.com/mom1/PasteAsString/issues",
+			"labels": ["text manipulation"],
+			"author": "MOM",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -689,6 +745,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PersistentPython",
+			"details": "https://github.com/mottosso/PersistentPython",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1422,6 +1488,16 @@
 			]
 		},
 		{
+			"name": "polyglot Snippets",
+			"details": "https://github.com/thespacedoctor/polyglot-Sublime-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Polymer & Web Component Snippets",
 			"details": "https://github.com/robdodson/PolymerSnippets",
 			"labels": ["snippets"],
@@ -1642,17 +1718,6 @@
 			]
 		},
 		{
-			"name": "Preap",
-			"details": "https://github.com/equinusocio/preap",
-			"labels": ["theme", "color scheme"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Predawn",
 			"details": "https://github.com/jamiewilson/predawn",
 			"labels": ["theme", "color scheme"],
@@ -1712,7 +1777,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2458,6 +2523,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "default"
+				}
+			]
+		},
+		{
+			"name": "Python PEP8 Indent",
+			"details": "https://github.com/bperriot/python_PEP8_indent",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": true
 				}
 			]
 		},

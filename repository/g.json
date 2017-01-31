@@ -530,6 +530,16 @@
 			]
 		},
 		{
+			"name": "Github Search",
+			"details": "https://github.com/kanghj/sublime-text-github-search-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Github Tools",
 			"details": "https://github.com/temochka/sublime-text-2-github-tools",
 			"releases": [
@@ -802,9 +812,20 @@
 			]
 		},
 		{
-			"name": "gmESSI-gmsh Tools",
-			"details": "https://github.com/SumeetSinha/gmESSI-SublimePlugin",
-			"previous_names": ["gmESSI-gmsh tools"],
+			"name": "Gmail",
+			"previous_names": ["Oauth Mail", "QuickMail"],
+			"details": "https://github.com/divinites/oauth-mail",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gmESSI-Tools",
+			"details": "https://github.com/SumeetSinha/gmESSI-Tools",
+			"labels": ["completion", "auto-complete","language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -829,6 +850,17 @@
 			"releases": [
 				{
 					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gmsh-Tools",
+			"details": "https://github.com/SumeetSinha/gmsh-Tools",
+			"labels": ["completion", "auto-complete","language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -884,6 +916,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Go Playground",
+			"details": "https://github.com/0x4445565A/go-playground-sublime",
+			"labels": ["go"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1232,6 +1275,17 @@
 			]
 		},
 		{
+			"name": "Gotham Theme",
+			"details": "https://github.com/9sevendesign/Gotham-Theme",
+			"labels": ["theme", "color scheme", "dark"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Goto Bootstrap",
 			"details": "https://github.com/austenc/goto-bootstrap",
 			"releases": [
@@ -1567,10 +1621,15 @@
 		},
 		{
 			"name": "GraphQL",
-			"details": "https://github.com/graphql-python/GraphQL-SublimeText",
+			"details": "https://github.com/dncrews/GraphQL-SublimeText3",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3092",
+					"base": "https://github.com/dncrews/GraphQL-SublimeText2",
 					"tags": true
 				}
 			]
