@@ -9,7 +9,18 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true,
-					"platforms": ["osx-x64", "windows-x64"]
+					"platforms": ["osx-x64", "windows-x64", "linux-x64"]
+				}
+			]
+		},
+		{
+			"name": "qasm_highlighting",
+			"details": "https://github.com/gtaifu/qasm_highlighting",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
 				}
 			]
 		},
@@ -19,6 +30,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "QLSyntax",
+			"details": "https://github.com/EdoDodo/QLSyntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -84,16 +106,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "QuarkPHP",
-			"details": "https://github.com/sahibalejandro/quark-php-sublime",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -187,17 +199,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "QuickMail",
-			"previous_names": ["Oauth Mail"],
-			"details": "https://github.com/divinites/oauth-mail",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
