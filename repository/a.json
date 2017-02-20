@@ -2,6 +2,19 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "A File Icon",
+			"previous_names": ["File Icons Extended", "zz File Icons"],
+			"details": "https://github.com/ihodev/a-file-icon",
+			"author": "ihodev",
+			"labels": ["theme", "file", "icons"],
+			"releases": [
+				{
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/khiltd/Abacus",
 			"releases": [
 				{
@@ -29,6 +42,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ABCSS",
+			"details": "https://github.com/tenforwardconsulting/abcss",
+			"author": "marknorman",
+			"labels": ["formatting", "sorting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -212,6 +237,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name" : "ADOdb library snippets for PHP",
+			"details": "https://github.com/madhs/ADOdb_snippets",
+			"labels": ["snippets", "php", "adodb", "database"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AdonisJs",
+			"details": "https://github.com/ctf0/adonis-sublime",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -423,6 +470,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Alrighty Snippets",
+			"details": "https://github.com/alrighty/alrighty-snippets-sublime",
+			"labels": ["snippets", "react", "jsx", "es6"],
+			"author": "r3nya",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -704,6 +763,20 @@
 			]
 		},
 		{
+			"name": "Angular CLI",
+			"details": "https://github.com/4ern/angular-cli-for-sublime-text",
+			"issues": "https://github.com/4ern/angular-cli-for-sublime-text/issues",
+			"homepage": "http://4ern.de",
+			"author": "4ern",
+			"labels": ["angular", "cli", "angular2"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Angular Material Snippets",
 			"details": "https://github.com/devotis/sublime-angular-material-snippets",
 			"labels": ["snippets"],
@@ -741,7 +814,7 @@
 			"details": "https://github.com/ayamflow/AngularInject",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -1282,17 +1355,6 @@
 			]
 		},
 		{
-			"name": "ARIA attributes and roles",
-			"details": "https://github.com/indrekpaas/ARIA-attributes-and-roles",
-			"labels": ["a11y", "accessibility", "aria", "auto-complete", "html"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "AriaTemplates Highlighter",
 			"details": "https://github.com/ariatemplates/sublime-ariatemplates-highlighter",
 			"labels": ["language syntax"],
@@ -1316,12 +1378,23 @@
 		},
 		{
 			"name": "ARM Assembly",
-			"details": "https://github.com/erggo/Sublime-ARM-Assembly",
+			"details": "https://github.com/tvi/Sublime-ARM-Assembly",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ArmaBuild",
+			"details": "https://github.com/jonpas/Sublime-ArmaBuild",
+			"labels": ["build", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1546,6 +1619,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ATG(CocoR C#) Syntax",
+			"details": "https://github.com/nolanar/ATG-Syntax-Sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
 				}
 			]
 		},
@@ -1828,6 +1912,17 @@
 			]
 		},
 		{
+			"name": "AutoLISP",
+			"details": "https://github.com/divtiply/autolisp-sublime",
+			"labels": ["language syntax", "lisp"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Automatic Backups",
 			"details": "https://github.com/joelpt/sublimetext-automatic-backups",
 			"releases": [
@@ -2012,6 +2107,19 @@
 					"platforms": ["osx", "linux", "windows"],
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Avro-reader",
+			"details": "https://github.com/IgorBerman/sublime-avro",
+			"issues": "https://github.com/IgorBerman/sublime-avro/issues",
+			"labels": ["avro"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
