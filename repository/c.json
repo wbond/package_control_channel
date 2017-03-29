@@ -931,6 +931,20 @@
 			]
 		},
 		{
+			"name": "Chromium X-Refs",
+			"author": "Josh Karlin",
+			"description": "Shows Chromium code cross-references from cs.chromium.org",
+			"details": "https://github.com/karlinjf/ChromiumXRefs",
+			"issues": "https://github.com/karlinjf/ChromiumXRefs/issues",
+			"labels": ["chrome", "chromium", "cross reference", "references", "code search", "call graph"],
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chuby Ninja Color Scheme",
 			"details": "https://github.com/jturcotte/SublimeChubyNinja",
 			"labels": ["color scheme"],
@@ -1717,6 +1731,19 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Codeforces Util",
+			"details": "https://github.com/shankhs/CodeforcesUtil",
+			"homepage": "http://www.shankhs.com",
+			"author": "shankhs",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux", "windows"],
 					"tags": true
 				}
 			]
@@ -3814,6 +3841,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Curry Syntax Highlighting",
+			"details": "https://github.com/jpsikorra/curry_syntax_highlight",
+			"labels": ["curry", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

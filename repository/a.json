@@ -177,6 +177,17 @@
 			]
 		},
 		{
+			"name": "ActualVim",
+			"details": "https://github.com/lunixbochs/actualvim",
+			"labels": ["input", "vim"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ada",
 			"details": "https://github.com/mulander/ada.tmbundle",
 			"labels": ["language syntax"],
@@ -331,6 +342,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AgentRansack",
+			"details": "https://github.com/Starli0n/SublimeAgentRansack",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -814,7 +836,7 @@
 			"details": "https://github.com/ayamflow/AngularInject",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
