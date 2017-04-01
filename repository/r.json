@@ -240,6 +240,29 @@
 			]
 		},
 		{
+			"name": "Rainmeter",
+			"details": "https://github.com/thatsIch/sublime-rainmeter",
+			"labels": ["rainmeter"],
+			"releases": [
+				{
+					"base": "https://github.com/merlinthered/sublime-rainmeter",
+					"sublime_text": "<3000",
+					"platforms": ["windows"],
+					"tags": true
+				},
+				{
+					"sublime_text": "<3092",
+					"platforms": ["windows"],
+					"tags": "st3092-"
+				},
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Rake",
 			"releases": [
 				{
@@ -403,6 +426,17 @@
 			]
 		},
 		{
+			"name": "React Coffee Snippets",
+			"details": "https://github.com/monstersintokyo/react-coffee-sublime-snippets",
+			"labels": ["snippets", "cjsx", "coffee", "coffeescript", "react"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "React Development Snippets",
 			"details": "https://github.com/jeantimex/react-sublime-snippet",
 			"labels": ["snippets", "jsx", "es6", "react", "test case", "redux", "action"],
@@ -417,6 +451,17 @@
 			"name": "React ES6 Snippets",
 			"details": "https://github.com/mboperator/sublime-react-es6",
 			"labels": ["snippets", "jsx", "es6", "react"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "React IDE",
+			"details": "https://github.com/turadg/sublime-react-ide",
+			"labels": ["react", "jest", "lazyspec", "ide"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -527,6 +572,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RealityCheck",
+			"details": "https://github.com/bollu/SublimeRealityCheck",
+			"labels": ["python", "interpreter", "interactive"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -672,6 +728,17 @@
 			"name": "Reform",
 			"details": "https://github.com/Suor/sublime-reform",
 			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Refresh File and Folders",
+			"details": "https://github.com/codebicycle/refresh-file-and-folders",
+			"labels": ["remote"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -861,6 +928,16 @@
 			]
 		},
 		{
+			"name": "RemoveNonAsciiChars",
+			"details": "https://github.com/Gabriel-p/RemoveNonAsciiChars",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RemoveSelection",
 			"details": "https://github.com/shagabutdinov/sublime-remove-selection",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -892,6 +969,16 @@
 			]
 		},
 		{
+			"name": "Renpy Script",
+			"details": "https://github.com/torrentails/RenPy-Script-Syntax-Sublime-Text-",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Repeat Macro",
 			"details": "https://github.com/sivakumar-kailasam/Repeat-Macro",
 			"releases": [
@@ -910,6 +997,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ReqsLang",
+			"details": "https://github.com/petarslovic/sublime-reqs-language",
+			"labels": ["requirements", "todo", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1131,7 +1229,7 @@
 		},
 		{
 			"name": "Riot Tag",
-			"details": "https://github.com/crisward/sublime-tag",
+			"details": "https://github.com/riot/syntax-highlight",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1200,6 +1298,19 @@
 			"releases": [
 				{
 					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Rocks",
+			"details": "https://github.com/jonesambrosi/rocks",
+			"readme": "https://raw.githubusercontent.com/jonesambrosi/rocks/master/README.md",
+			"issues": "https://github.com/jonesambrosi/rocks/issues",
+			"labels": ["testing", "continuous integration", "python", "auto-testing", "coverage"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1287,11 +1398,11 @@
 		},
 		{
 			"name": "RSL",
-			"details": "https://bitbucket.org/vuhonglinh/sublimetext-rsl",
+			"details": "https://github.com/li-vu/st-rsl",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1680,12 +1791,13 @@
 			]
 		},
 		{
-			"name": "Rust",
+			"name": "Rust Enhanced",
 			"details": "https://github.com/rust-lang/sublime-rust",
+			"previous_names": ["Rust"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1705,6 +1817,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RustFormat",
+			"details": "https://github.com/Rypac/sublime-rust-format",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
