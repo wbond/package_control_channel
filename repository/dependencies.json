@@ -364,6 +364,21 @@
 			]
 		},
 		{
+			"name": "package_setting_context",
+			"load_order": "01",
+			"description": "Allow final user to disable key bindings with very few changes needed from the dev",
+			"author": "math2001",
+			"issues": "https://github.com/math2001/PackageSettingContext/issues",
+			"releases": [
+				{
+					"base": "https://github.com/math2001/PackageSettingContext",
+					"sublime_text": "*",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "paramiko",
 			"load_order": "51",
 			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
