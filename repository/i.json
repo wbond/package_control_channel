@@ -250,6 +250,16 @@
 			]
 		},
 		{
+			"name": "img-placeholder",
+			"details": "https://github.com/fisker/img-placeholder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "imgHolder",
 			"details": "https://github.com/pafnuty/imgHolder",
 			"labels": ["completions", "css", "html"],
@@ -271,12 +281,32 @@
 			]
 		},
 		{
+			"name": "ImportHelper",
+			"details": "https://github.com/unlight/sublime-import-helper",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ImportJS",
 			"details": "https://github.com/Galooshi/sublime-import-js",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ImprovedMacros",
+			"details": "https://github.com/skuroda/ImprovedMacros",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -377,6 +407,17 @@
 			"name": "Indent Size",
 			"details": "https://github.com/socsieng/sublime-indent-size",
 			"labels": ["indent", "tab", "size"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Indent To Parenthesis",
+			"details": "https://github.com/rchl/IndentToParenthesis",
+			"labels": ["indent", "align", "parenthesis", "bracket"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -517,12 +558,23 @@
 			"previous_names": ["InnoSetup"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "<3103",
 					"tags": "st2-"
 				},
 				{
 					"sublime_text": ">=3103",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "InputArgs",
+			"details": "https://github.com/bilalba/InputArgs",
+			"labels": ["input", "arguments", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -572,8 +624,9 @@
 		},
 		{
 			"name": "Insert Nums",
+			"author": ["jbrooksuk", "FichteFoll"],
 			"details": "https://github.com/jbrooksuk/InsertNums",
-			"labels": ["automation", "utils"],
+			"labels": ["automation", "utils", "text manipulation"],
 			"previous_names": ["Insert Sequences", "InsertNums"],
 			"releases": [
 				{
@@ -605,6 +658,17 @@
 			]
 		},
 		{
+			"name": "Inspr",
+			"details": "https://github.com/wzhix/inspr",
+			"labels": ["translate", "chinese", "naming"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Instacode",
 			"details": "https://github.com/Ndushi/InstacodeSublime",
 			"releases": [
@@ -615,6 +679,28 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "st2"
+				}
+			]
+		},
+		{
+			"name": "InstaGoogling",
+			"details": "https://github.com/Ivanca/InstaGoogling",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Intel HEX",
+			"details": "https://github.com/seppestas/intel-hex-syntax",
+			"labels": ["language syntax", "hexadecimal"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -636,16 +722,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3070",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "IntelXDK",
-			"details": "https://github.com/gomobile/sublime-xdk-package",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -691,6 +767,16 @@
 			]
 		},
 		{
+			"name": "Invert Current Color Scheme",
+			"details": "https://github.com/CJEdgerton/sublime-invert-current-color-scheme",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Invert Selection",
 			"details": "https://github.com/vontio/sublime-invert-selection",
 			"labels": ["text manipulation"],
@@ -698,6 +784,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Io Language",
+			"details": "https://github.com/yangsu/sublime-io",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -907,6 +1004,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "iTimeTrack",
+			"details": "https://github.com/itimetrack/itimetrack-sublime",
+			"labels": ["time tracking", "coding", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "itt"
 				}
 			]
 		},
