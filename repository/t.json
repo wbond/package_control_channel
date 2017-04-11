@@ -219,6 +219,18 @@
 			]
 		},
 		{
+			"name": "TamarinAssist",
+			"details": "https://github.com/lordqwerty/TamarinAssist",
+			"labels": ["Tamarin Prover", "spthy", "Language Syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Task",
 			"details": "https://github.com/samsonw/SublimeTask",
 			"labels": ["todo", "GTD", "tasks"],
@@ -993,6 +1005,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Theme - foculor",
+			"details": "https://github.com/bluefirex/sublime-foculor",
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2291,7 +2314,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
