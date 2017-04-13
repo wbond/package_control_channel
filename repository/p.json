@@ -49,17 +49,26 @@
 			"author": ["guillermooo", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3092",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
 		},
 		{
+			"name": "PackageResourceViewer",
 			"details": "https://github.com/skuroda/PackageResourceViewer",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -186,11 +195,31 @@
 			]
 		},
 		{
+			"name": "PanePane",
+			"details": "https://github.com/mjsmith1028/panepane",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Panezr",
 			"details": "https://github.com/jpellerin/Panezr",
 			"releases": [
 				{
 					"sublime_text": ">=3033",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "panstamps Snippets",
+			"details": "https://github.com/thespacedoctor/panstamps-Sublime-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -300,6 +329,19 @@
 			]
 		},
 		{
+			"name": "Parquet",
+			"details": "https://github.com/yuj/sublime-parquet",
+			"issues": "https://github.com/yuj/sublime-parquet/issues",
+			"labels": ["parquet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Parva Syntax",
 			"details" : "https://github.com/muskatel/Parva_Syntax",
 			"labels": ["language syntax"],
@@ -377,6 +419,20 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PasteAsString",
+			"details": "https://github.com/mom1/PasteAsString",
+			"readme": "https://raw.githubusercontent.com/mom1/PasteAsString/master/README.md",
+			"issues": "https://github.com/mom1/PasteAsString/issues",
+			"labels": ["text manipulation"],
+			"author": "MOM",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -694,6 +750,16 @@
 			]
 		},
 		{
+			"name": "PersistentPython",
+			"details": "https://github.com/mottosso/PersistentPython",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/skuroda/PersistentRegexHighlight",
 			"releases": [
 				{
@@ -751,6 +817,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pharko",
+			"details": "https://github.com/marczhermo/Pharko",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1215,6 +1291,16 @@
 			]
 		},
 		{
+			"name": "picaxe Snippets",
+			"details": "https://github.com/thespacedoctor/picaxe-Sublime-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PICO-8",
 			"details": "https://github.com/Neko250/sublime-PICO-8",
 			"labels": ["color scheme", "editor emulation", "language syntax", "snippets", "build system"],
@@ -1369,6 +1455,16 @@
 			]
 		},
 		{
+			"name": "PlotGraph",
+			"details": "https://github.com/tibsel/PlotGraph",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PM2-Snippets",
 			"details": "https://github.com/riyadhalnur/PM2-Snippets",
 			"releases": [
@@ -1417,6 +1513,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3083",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "polyglot Snippets",
+			"details": "https://github.com/thespacedoctor/polyglot-Sublime-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1701,7 +1807,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2009,6 +2115,16 @@
 			]
 		},
 		{
+			"name": "Pue Syntax Highlight",
+			"details": "https://github.com/QingWei-Li/pue-syntax-highlight",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pug",
 			"details": "https://github.com/davidrios/pug-tmbundle",
 			"labels": ["language syntax"],
@@ -2267,6 +2383,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PyTest",
+			"details": "https://github.com/kaste/PyTest",
+			"labels": ["python", "pytest", "testing"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

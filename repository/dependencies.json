@@ -134,6 +134,20 @@
 			]
 		},
 		{
+			"name": "dateutil",
+			"load_order": "50",
+			"description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library",
+			"author": "vovkkk",
+			"issues": "https://github.com/vovkkk/sublime-dateutil/issues",
+			"releases": [
+				{
+					"base": "https://github.com/vovkkk/sublime-dateutil",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "dicttoxml",
 			"load_order": "50",
 			"description": "Converts a Python dictionary or other native data type into a valid XML string - https://github.com/idleberg/sublime-dicttoxml",
@@ -144,6 +158,21 @@
 					"base": "https://github.com/idleberg/sublime-dicttoxml",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "emojitations",
+			"load_order": "50",
+			"description": "A library for using Unicode emoji annotations - https://github.com/kcsaff/emojitations",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-emojitations/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-emojitations",
+					"tags": true,
+					"sublime_text": ">3000",
+					"platforms": ["*"]
 				}
 			]
 		},
@@ -159,6 +188,20 @@
 					"tags": true,
 					"sublime_text": "<3000",
 					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "gntp",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Growl Notification Transport Protocol library.",
+			"issues": "https://github.com/facelessuser/sublime-gntp/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-gntp",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -321,6 +364,21 @@
 			]
 		},
 		{
+			"name": "package_setting_context",
+			"load_order": "01",
+			"description": "Allow final user to disable key bindings with very few changes needed from the dev",
+			"author": "math2001",
+			"issues": "https://github.com/math2001/PackageSettingContext/issues",
+			"releases": [
+				{
+					"base": "https://github.com/math2001/PackageSettingContext",
+					"sublime_text": "*",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "paramiko",
 			"load_order": "51",
 			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
@@ -362,6 +420,20 @@
 					"sublime_text": ">=3000",
 					"platforms": ["osx-x64"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pyfispip",
+			"load_order": "50",
+			"description": " Python FIS MTM/PIP SQL/RPC Interface",
+			"author": "fopina",
+			"issues": "https://github.com/fopina/sublime-pyfispip/issues",
+			"releases": [
+				{
+					"base": "https://github.com/fopina/sublime-pyfispip",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -459,6 +531,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/randy3k/sublime-pyzmq",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "regex",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Regex Module",
+			"issues": "https://github.com/facelessuser/sublime-regex/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-regex",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -628,6 +714,21 @@
 					"sublime_text": ">=3070",
 					"base": "https://github.com/huot25/StyledPopup",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeP4Python",
+			"load_order": "51",
+			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
+			"author": "mrelusive",
+			"issues": "https://github.com/MrElusive/SublimeP4Python/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true,
+					"base": "https://github.com/MrElusive/SublimeP4Python"
 				}
 			]
 		},

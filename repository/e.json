@@ -79,6 +79,8 @@
 		{
 			"name": "EasyClangComplete",
 			"details": "https://github.com/niosus/EasyClangComplete",
+			"readme": "https://raw.githubusercontent.com/niosus/EasyClangComplete/master/docs/pc_readme.md",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QLY7J4Q944HS",
 			"labels": ["auto-complete", "linting", "language syntax"],
 			"releases": [
 				{
@@ -266,6 +268,17 @@
 			]
 		},
 		{
+			"name": "Edit in new tab",
+			"details": "https://github.com/borjacampina/sublimetext-edit_in_new_tab-plugin",
+			"author": "Borja Campina",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Edit Preferences",
 			"details": "https://github.com/sublimator/EditPreferences",
 			"releases": [
@@ -300,6 +313,29 @@
 		{
 			"name": "EDN",
 			"details": "https://github.com/kernelp4nic/sublime-edn",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EFML",
+			"details": "https://github.com/ClassicOldSong/SublimeEFMLHighlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Eiffel-Language",
+			"details": "https://github.com/Thomas-Boutin/Eiffel-Language",
+			"labels": ["language syntax", "snippets", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -345,6 +381,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Electron Color Scheme",
+			"details": "https://github.com/kcmr/electron-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -427,6 +474,21 @@
 			]
 		},
 		{
+			"name": "Emacs Pro Essentials",
+			"previous_names": ["sublemacspro"],
+			"details": "https://github.com/sublime-emacs/sublemacspro",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "st2"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Emacs Tabstops",
 			"details": "https://github.com/KristoforMaynard/EmacsTabstops",
 			"labels": ["emacs", "formatting", "text manipulation"],
@@ -444,6 +506,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Email Header",
+			"labels": ["eml", "msg", "email", "e-mail", "mail", "header", "headers", "RFC2045", "RFC2046", "RFC2047", "RFC4288", "RFC4289", "RFC2049"],
+			"author": "Richard Davis",
+			"details": "https://github.com/13Cubed/EmailHeader",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -484,6 +558,17 @@
 			"name": "EmberScript",
 			"details": "https://github.com/asux/sublime-ember-script",
 			"labels": ["language syntax", "javascript", "coffeescript", "emberjs"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EmberToolBox",
+			"details": "https://github.com/jackson-dean/ember-tool-box",
+			"labels": ["snippets", "javascript", "emberjs", "embercli", "ember"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -574,7 +659,7 @@
 			"labels": ["emoji", "auto-complete", "unicode", "css", "html"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]
@@ -823,6 +908,18 @@
 			]
 		},
 		{
+			"name": "Eschaton Color Scheme",
+			"details": "https://github.com/jeanmichelcote/eschaton",
+			"labels": ["color scheme"],
+			"author": "Jeanmichel Cote",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EsFormatter",
 			"details": "https://github.com/piuccio/sublime-esformatter",
 			"releases": [
@@ -846,6 +943,17 @@
 		{
 			"name": "ESLint-Formatter",
 			"details": "https://github.com/TheSavior/ESLint-Formatter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ESLintAutoFix",
+			"details": "https://github.com/a324539017/eslintAutoFix",
+			"labels": ["javascript", "eslint", "autoFix", "formatter"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1196,6 +1304,17 @@
 			]
 		},
 		{
+			"name": "Express Completion",
+			"details": "https://github.com/fakhrullah/sublime-expressjs-4-completion",
+			"labels": ["javascript","completions","express"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ExpressComplete",
 			"details": "https://github.com/Heedster/ExpressComplete",
 			"labels": ["auto-complete", "javascript","completions","nodejs"],
@@ -1311,6 +1430,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3083",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Extract Lines",
+			"details": "https://github.com/poma/sublime-extractlines",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
