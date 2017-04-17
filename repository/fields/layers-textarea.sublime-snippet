@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/* Textarea */
+echo \$form_elements->input( array(
+	'type' => 'textarea',
+	'name' => '${1:my_textarea_name}',
+	'id' => '${1:my-textarea-id}',
+	'placeholder' => __( '${2:Enter in your value}', '${3:layerswp}' ),
+	'value' => ( isset( \$${1:my_textarea_name} ) ? \$${1:my_textarea_name} : '' ),
+	'class' => '${4:layers-textarea}'
+) );
+]]></content>
+    <description>Layers Field - Textarea</description>
+    <tabTrigger>layers-textarea-field</tabTrigger>
+</snippet>

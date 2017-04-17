@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/* TRBL Fields */
+echo \$form_elements->input( array(
+    'type' => 'trbl-fields',
+    'name' => '${1:my_trbl_name}',
+    'id' => '${1:my-trbl-id}'
+    'value' => ( isset( \$${2:trbl} ) ? \$${2:trbl} : '' )
+) );
+]]></content>
+    <description>Layers Field - Trbl Fields</description>
+    <tabTrigger>layers-trbl-fields-field</tabTrigger>
+</snippet>

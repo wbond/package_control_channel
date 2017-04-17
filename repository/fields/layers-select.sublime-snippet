@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/* Select */
+echo \$form_elements->input( array(
+    'type' => 'select',
+    'name' => '${1:my_select_input}',
+    'id' => '${1:my-select-input}',
+    'placeholder' => __( '${2:Select an Option}', '${3:layerswp}' ),
+    'value' => ( isset( \$${1:my_select_input} ) ? \$${1:my_select_input} : '' ),
+    'options' => array(
+        '1' => '${:4One}',
+        '2' => '${:5Two}',
+        '3' => '${:6Three}',
+        '4' => '${:7Four}',
+    )
+));
+]]></content>
+    <description>Layers Field - Select</description>
+    <tabTrigger>layers-select-field</tabTrigger>
+</snippet>

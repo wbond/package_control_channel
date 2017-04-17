@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* Checkbox */
+echo \$form_elements->input( array(
+    'type' => 'checkbox',
+    'name' => '${1:my_checkbox_input}',
+    'id' => '${1:my-checkbox-input}',
+    'label' => __( '${2:My Checkbox}', '${3:layerswp}' ),
+    'value' => ( isset( \$${1:my_checkbox_input} ) ? TRUE : FALSE )
+));
+]]></content>
+    <description>Layers Field - Checkbox</description>
+    <tabTrigger>layers-checkbox-field</tabTrigger>
+</snippet>

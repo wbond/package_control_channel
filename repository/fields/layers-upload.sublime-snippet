@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* Upload */
+echo \$form_elements->input( array(
+    'type' => 'upload',
+    'name' => '${1:my_file_name}',
+    'id' => '${1:my-file-id}',
+    'button_label' => __( '${2:Select or Upload a File}', '${3:layerswp}' ),
+    'value' => ( isset( $${1:my_file_name} ) ? $${1:my_file_name} : '' )
+) );
+]]></content>
+    <description>Layers Field - Upload</description>
+    <tabTrigger>layers-upload-field</tabTrigger>
+</snippet>

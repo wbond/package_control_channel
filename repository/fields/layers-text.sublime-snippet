@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/* Text */
+echo \$form_elements->input( array(
+	'type' => 'text',
+	'name' => '${1:my_text_field}',
+	'id' => '${1:my-text-field}',
+	'placeholder' => __( '${2:Enter some text...}', '${3:layerswp}' ),
+	'value' => ( isset( \$${1:my_text_field} ) ? \$${1:my_text_field} : '' ),
+	'class' => '${4:layers-text}'
+));
+]]></content>
+    <description>Layers Field - Text</description>
+    <tabTrigger>layers-text-field</tabTrigger>
+</snippet>

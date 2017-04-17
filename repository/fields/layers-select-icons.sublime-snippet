@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/* Select Icon */
+echo \$form_elements->input( array(
+    'type' => 'select-icons',
+    'name' => '${1:my_select_input}',
+    'id' => '${1:my-select-input}',
+    'value' => ( isset( \$${1:my_select_input} ) ? \$${1:my_select_input} : '' ),
+    'options' => array(
+        '${2:full-width}' => '${3:Full Width}',
+        '${4:boxed}' => '${5:Boxed}'
+    )
+) );
+]]></content>
+    <description>Layers Field - Select Icons</description>
+    <tabTrigger>layers-select-icons-field</tabTrigger>
+</snippet>
