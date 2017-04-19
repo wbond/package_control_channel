@@ -131,16 +131,6 @@
 			]
 		},
 		{
-			"name": "Cadence Skill",
-			"details": "https://github.com/leoheck/sublime-cadence-skill",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Caffe Prototxt Syntax",
 			"details": "https://github.com/zironycho/sublime-caffe-prototxt-syntax",
 			"labels": ["language syntax"],
@@ -487,6 +477,18 @@
 			]
 		},
 		{
+			"name": "CFile",
+			"details": "https://github.com/leoxnidas/CFile",
+			"labels": ["C", "C++"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CFML",
 			"details": "https://github.com/jcberquist/sublimetext-cfml",
 			"labels": ["language syntax", "cfml", "coldfusion", "lucee"],
@@ -568,7 +570,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "ChaiScript",
 			"details": "https://github.com/ChaiScript/sublimetext-chaiscript",
@@ -909,6 +911,18 @@
 			]
 		},
 		{
+			"name": "Chrome Color Scheme",
+			"description" : "Syntax theme mimicking Chrome Developer Tools",
+			"details": "https://github.com/mapsiter/Chrome-Color-Scheme",
+			"labels": ["color scheme", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chrome Snippets",
 			"details": "https://github.com/ismnoiet/ChromeSnippets",
 			"releases": [
@@ -921,6 +935,30 @@
 		{
 			"name": "ChromeExtensionI18nHelper",
 			"details": "https://github.com/Harurow/sublime_chromeextensioni18nhelper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Chromium X-Refs",
+			"author": "Josh Karlin",
+			"description": "Shows Chromium code cross-references from cs.chromium.org",
+			"details": "https://github.com/karlinjf/ChromiumXRefs",
+			"issues": "https://github.com/karlinjf/ChromiumXRefs/issues",
+			"labels": ["chrome", "chromium", "cross reference", "references", "code search", "call graph"],
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChromiumTodoView",
+			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1180,6 +1218,16 @@
 			]
 		},
 		{
+			"name": "Click To Partial",
+			"details": "https://github.com/alvesjtiago/click-to-partial",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Clickability Velocity",
 			"details": "https://bitbucket.org/jwetmore/clickability-velocity",
 			"releases": [
@@ -1358,7 +1406,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -1699,6 +1746,30 @@
 			]
 		},
 		{
+			"name": "CodeDrafts",
+			"details": "https://github.com/subeeshb/codedrafts_sublime_plugin",
+			"labels": ["code sharing", "utilities", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Codeforces Util",
+			"details": "https://github.com/shankhs/CodeforcesUtil",
+			"homepage": "http://www.shankhs.com",
+			"author": "shankhs",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeFormatter",
 			"details": "https://github.com/akalongman/sublimetext-codeformatter",
 			"labels": ["formatting", "utilities", "php", "css", "javascript", "html", "python", "automation", "indent"],
@@ -1792,6 +1863,16 @@
 			]
 		},
 		{
+			"name": "CodeMap",
+			"details": "https://github.com/oleg-shilo/sublime-codemap",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Codepad.org Paste Plugin",
 			"details": "https://github.com/dangelov/Paste-Codepad.org",
 			"releases": [
@@ -1830,6 +1911,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CodeStats",
+			"details": "https://github.com/Nicd/code-stats-sublime",
+			"labels": ["analytics", "statistics"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2087,6 +2179,18 @@
 			"name": "Color Scheme - Dusk",
 			"details": "https://github.com/geekpradd/Dusk-Color-Scheme",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Eazy Light",
+			"details": "https://github.com/txdm/Eazy-Light",
+			"labels": ["color scheme"],
+			"previous_names": ["Eazy Light"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2673,10 +2777,11 @@
 			]
 		},
 		{
-			"name": "Console Wrap for js",
+			"name": "Console Wrap",
 			"details": "https://github.com/unknownuser88/consolewrap",
 			"author": "David Bekoyan",
-			"labels": ["completion", "auto-complete"],
+			"labels": ["logs", "debug", "console", "output", "javascript", "completion", "auto-complete"],
+			"previous_names": ["Console Wrap for js"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3175,6 +3280,17 @@
 			]
 		},
 		{
+			"name": "Crollow",
+			"details": "https://github.com/purefan/crollow",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true,
+					"platforms": ["osx", "windows", "linux"]
+				}
+			]
+		},
+		{
 			"name": "Crontab Syntax",
 			"details": "https://github.com/clarkewd/SublimeCrontab",
 			"labels": ["language syntax"],
@@ -3202,6 +3318,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CS-Script",
+			"details": "https://github.com/oleg-shilo/cs-script-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -3548,6 +3674,16 @@
 			]
 		},
 		{
+			"name": "CSSO",
+			"details": "https://github.com/1000ch/Sublime-csso",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CSSOrder",
 			"details": "https://github.com/lightningtgc/sublime-cssorder",
 			"releases": [
@@ -3737,6 +3873,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Curry Syntax Highlighting",
+			"details": "https://github.com/jpsikorra/curry_syntax_highlight",
+			"labels": ["curry", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

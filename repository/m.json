@@ -143,6 +143,18 @@
 			]
 		},
 		{
+			"name": "Mahou Caret Display Server",
+			"details": "https://github.com/BladeMight/MahouCaretDisplayServer",
+			"labels": ["language_display", "mahou"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Make Bookmarklet",
 			"details": "https://github.com/gillibrand/MakeBookmarklet",
 			"releases": [
@@ -603,6 +615,19 @@
 			]
 		},
 		{
+			"name": "Material Design Lite Snippets",
+			"details": "https://github.com/arindampradhan/material-lite-snippet",
+			"labels": ["snippets"],
+			"author": "Arindam Pradhan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Material Nil",
 			"details": "https://github.com/akalongman/sublimetext-material-nil",
 			"labels": ["theme", "color scheme"],
@@ -782,7 +807,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1066,6 +1091,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Meteor Reval",
+			"details": "https://github.com/qualialabs/reval-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1889,6 +1924,17 @@
 			]
 		},
 		{
+			"name": "MotionBuilder",
+			"details": "https://github.com/matthewkapfhammer/MotionBuilderSublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Mou Markdown App (OSX)",
 			"details": "https://github.com/rwoody/mou-markdown-sublime",
 			"previous_names": ["Mou.app Markdown"],
@@ -2116,6 +2162,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Murphi",
+			"details": "https://bitbucket.org/timlinsc/sublimemurphi",
+			"labels": ["text syntax", "syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

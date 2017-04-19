@@ -66,6 +66,17 @@
 			]
 		},
 		{
+			"name": "GameMaker Language (GML) Bundle",
+			"details": "https://github.com/Uduse/Sublime-GameMaker-Studio-Language-Bundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GAMS language",
 			"details": "https://github.com/lolow/sublime-gams",
 			"labels": ["language syntax"],
@@ -367,6 +378,17 @@
 			]
 		},
 		{
+			"name": "Git blame",
+			"details": "https://github.com/psykzz/st3-gitblame",
+			"labels": ["git", "blame"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Git Commit Message Syntax",
 			"details": "https://github.com/adambullmer/sublime_git_commit_syntax",
 			"labels": [
@@ -481,21 +503,11 @@
 		},
 		{
 			"details": "https://github.com/jisaacks/GitGutter",
-			"previous_names": ["Git Gutter"],
+			"previous_names": ["Git Gutter", "GitGutter-Edge"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "GitGutter-Edge",
-			"details": "https://github.com/jisaacks/GitGutter",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -993,6 +1005,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Gofmt",
+			"details": "https://github.com/noonat/sublime-gofmt",
+			"labels": ["go"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1549,7 +1572,7 @@
 		},
 		{
 			"name": "GPG",
-			"details": "https://github.com/crowsonkb/SublimeGPG",
+			"details": "https://github.com/dmitrievav/sublime_gpg",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1621,10 +1644,15 @@
 		},
 		{
 			"name": "GraphQL",
-			"details": "https://github.com/graphql-python/GraphQL-SublimeText",
+			"details": "https://github.com/dncrews/GraphQL-SublimeText3",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3092",
+					"base": "https://github.com/dncrews/GraphQL-SublimeText2",
 					"tags": true
 				}
 			]

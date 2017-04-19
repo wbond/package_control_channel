@@ -2,6 +2,19 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "A File Icon",
+			"previous_names": ["File Icons Extended", "zz File Icons"],
+			"details": "https://github.com/ihodev/a-file-icon",
+			"author": "ihodev",
+			"labels": ["theme", "file", "icons"],
+			"releases": [
+				{
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/khiltd/Abacus",
 			"releases": [
 				{
@@ -29,6 +42,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ABCSS",
+			"details": "https://github.com/tenforwardconsulting/abcss",
+			"author": "marknorman",
+			"labels": ["formatting", "sorting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -152,6 +177,17 @@
 			]
 		},
 		{
+			"name": "ActualVim",
+			"details": "https://github.com/lunixbochs/actualvim",
+			"labels": ["input", "vim"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ada",
 			"details": "https://github.com/mulander/ada.tmbundle",
 			"labels": ["language syntax"],
@@ -212,6 +248,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AddLibrary",
+			"author": "Caio Fernandes",
+			"details": "https://github.com/caiofsouza/AddLibrary",
+			"labels": ["javascript", "css", "library", "dev"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -306,6 +354,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AgentRansack",
+			"details": "https://github.com/Starli0n/SublimeAgentRansack",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -554,6 +613,16 @@
 			]
 		},
 		{
+			"name": "AmnesiaIO",
+			"details": "https://github.com/jolyongray/amnesia-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AmpersandJS Snippets",
 			"details": "https://github.com/HSH/AmpersandJS-Sublime-Text-Snippets",
 			"releases": [
@@ -738,6 +807,20 @@
 			]
 		},
 		{
+			"name": "Angular CLI",
+			"details": "https://github.com/4ern/angular-cli-for-sublime-text",
+			"issues": "https://github.com/4ern/angular-cli-for-sublime-text/issues",
+			"homepage": "http://4ern.de",
+			"author": "4ern",
+			"labels": ["angular", "cli", "angular2"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Angular Material Snippets",
 			"details": "https://github.com/devotis/sublime-angular-material-snippets",
 			"labels": ["snippets"],
@@ -775,7 +858,7 @@
 			"details": "https://github.com/ayamflow/AngularInject",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -1339,12 +1422,12 @@
 		},
 		{
 			"name": "ARM Assembly",
-			"details": "https://github.com/erggo/Sublime-ARM-Assembly",
+			"details": "https://github.com/tvi/Sublime-ARM-Assembly",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1865,6 +1948,17 @@
 		{
 			"name": "AutoItScript",
 			"details": "https://github.com/AutoIt/SublimeAutoItScript",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoLISP",
+			"details": "https://github.com/divtiply/autolisp-sublime",
+			"labels": ["language syntax", "lisp"],
 			"releases": [
 				{
 					"sublime_text": "*",

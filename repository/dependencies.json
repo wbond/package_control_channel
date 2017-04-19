@@ -364,6 +364,21 @@
 			]
 		},
 		{
+			"name": "package_setting_context",
+			"load_order": "01",
+			"description": "Allow final user to disable key bindings with very few changes needed from the dev",
+			"author": "math2001",
+			"issues": "https://github.com/math2001/PackageSettingContext/issues",
+			"releases": [
+				{
+					"base": "https://github.com/math2001/PackageSettingContext",
+					"sublime_text": "*",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "paramiko",
 			"load_order": "51",
 			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
@@ -405,6 +420,20 @@
 					"sublime_text": ">=3000",
 					"platforms": ["osx-x64"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pyfispip",
+			"load_order": "50",
+			"description": " Python FIS MTM/PIP SQL/RPC Interface",
+			"author": "fopina",
+			"issues": "https://github.com/fopina/sublime-pyfispip/issues",
+			"releases": [
+				{
+					"base": "https://github.com/fopina/sublime-pyfispip",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -685,6 +714,21 @@
 					"sublime_text": ">=3070",
 					"base": "https://github.com/huot25/StyledPopup",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeP4Python",
+			"load_order": "51",
+			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
+			"author": "mrelusive",
+			"issues": "https://github.com/MrElusive/SublimeP4Python/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true,
+					"base": "https://github.com/MrElusive/SublimeP4Python"
 				}
 			]
 		},
