@@ -1,5 +1,5 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "Oasis Theme",
@@ -8,7 +8,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kodLite/Oasis-Theme/tags"
+					"tags": true
 				}
 			]
 		},
@@ -19,7 +19,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/PaNaVTEC/Objc-Strings-Syntax-Language/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -29,7 +29,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kyamaguchi/SublimeObjC2RubyMotion/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/oliverseal/objective-c-autocomplete-sublimetext/tags"
+					"tags": true
 				}
 			]
 		},
@@ -50,19 +50,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jbrooksuk/Oblivion/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "OCaml",
-			"description": "An improved version of default OCaml package",
 			"details": "https://github.com/whitequark/sublime-better-ocaml",
+			"description": "An improved version of default OCaml package",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"details": "https://github.com/whitequark/sublime-better-ocaml"
+					"sublime_text": ">=3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -72,7 +72,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/whitequark/sublime-ocp-index/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Occur",
+			"details": "https://github.com/dreki/sublime-occur",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -83,7 +93,62 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/memco/Oceanic-tmTheme/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Oceanic Next Color Scheme",
+			"details": "https://github.com/voronianski/oceanic-next-color-scheme",
+			"labels": ["color scheme", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Oceanic Next Italic Color Scheme",
+			"details": "https://github.com/SintrumIT/oceanic-next-italic",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Octo",
+			"details": "https://github.com/mattmikolay/octo-sublime",
+			"labels": ["language syntax", "chip8"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "October Twig Highlighter",
+			"details": "https://github.com/daftspunk/october-twig",
+			"labels": ["php", "octobercms", "october", "cms", "twig", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Octopress Snippets",
+			"details": "https://github.com/yangsu/sublime-octopress",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -92,8 +157,19 @@
 			"details": "https://github.com/laktak/sublime-oddly",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/laktak/sublime-oddly/tree/master"
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Odoo Snippets",
+			"details": "https://github.com/odoo-jarsa/Sublime-Odoo",
+			"labels": ["odoo", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -104,7 +180,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/TheSHEEEP/ST-OgreScripts/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -115,7 +191,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/luavis/Ohdeung-eun/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OIL_TPL",
+			"details": "https://github.com/ahmedhassan-eng/OIL_TPL",
+			"labels": ["language syntax", "oil", "tpl", "osek", "automotive"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags" : true
 				}
 			]
 		},
@@ -126,19 +213,118 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/bordaigorl/sublime-omnidocs/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OmniSharp",
+			"details": "https://github.com/OmniSharp/omnisharp-sublime",
+			"labels": ["language syntax", "C#", ".net", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OmnisStudioHighlighter",
+			"details": "https://github.com/Frogli/OmnisStudioHighlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OmnisStudioIndenter",
+			"details": "https://github.com/Frogli/OmnisStudioIndenter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "On Save",
+			"details": "https://github.com/wl879/SublimeOnSave/",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Command Syntax Highlighter",
+			"details": "https://github.com/yrsegal/OneCommandSublimeSyntax",
+			"labels": ["minecraft", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Dark Color Scheme",
+			"details": "https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Dark Material - Theme",
+			"details": "https://github.com/rafamds/OneDarkMaterial",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "One Half Color Schemes",
+			"details": "https://github.com/sonph/onehalf-tmtheme",
+			"readme": "https://raw.githubusercontent.com/sonph/onehalf/master/README.md",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "OnlineSearch",
-			"author": "Rajesh Vaya",
 			"details": "https://github.com/rajeshvaya/sublime-online-searcher",
+			"author": "Rajesh Vaya",
 			"labels": ["search", "documentation"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/rajeshvaya/sublime-online-searcher/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OnlyCss Snippets",
+			"details": "https://github.com/brunomarcel/sublime-onlycss-snippets",
+			"author": "Bruno Marcel",
+			"labels": ["library", "CSS library", "CSS Components", "Snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -149,7 +335,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/avenauche/OOJS/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -159,7 +345,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/MLstate/OpaSublimeText/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -170,7 +356,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/danielfrg/sublime-open/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open File in Current Folder",
+			"details": "https://github.com/SublimeText/OpenFileInCurrentFolder",
+			"labels": ["file navigation", "current folder"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -181,7 +378,40 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mikepfirrmann/openfolder/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Open in Default Application",
+			"details": "https://github.com/SublimeText/OpenDefaultApplication",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open in Nautilus",
+			"details": "https://github.com/glutanimate/sublime-open-in-nautilus",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "linux",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open in Relevant Window",
+			"details": "https://github.com/dt/sublime-open-in-relevant-window",
+			"labels": ["file navigation", "window management"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -190,11 +420,9 @@
 			"details": "https://github.com/kernelp4nic/sublime-open-in-thunar",
 			"releases": [
 				{
-					"platforms": [
-						"linux"
-					],
 					"sublime_text": "*",
-					"details": "https://github.com/kernelp4nic/sublime-open-in-thunar/tree/master"
+					"platforms": "linux",
+					"branch": "master"
 				}
 			]
 		},
@@ -204,7 +432,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/HackerBaloo/SublimeOpenInTotalCommander/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -214,7 +442,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/Shagabutdinov/sublime-open-path/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -224,7 +452,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/spadgos/sublime-OpenRecentFiles/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -233,8 +461,28 @@
 			"details": "https://github.com/vojtajina/sublime-OpenRelated",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/vojtajina/sublime-OpenRelated/tree/master"
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Open Search in a New Tab",
+			"details": "https://github.com/everyonesdesign/OpenSearchInNewTab",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open Search Result",
+			"details": "https://github.com/abrookins/OpenSearchResult",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -245,7 +493,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/roesti77/Sublime-Open-Shading-Language/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Open TortoiseHg",
+			"details": "https://github.com/SublimeText/OpenTortoiseHg",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -255,20 +513,34 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/noahcoad/open-url/tree/st3"
+					"branch": "st3"
 				},
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/noahcoad/open-url/tree/st2"
+					"branch": "st2"
 				}
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/Open-Include",
+			"name": "Open With",
+			"details": "https://github.com/j-martin/open-with-sublime",
+			"labels": ["file management", "open files", "external editor", "power user"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/Open-Include/tree/master"
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "open-sesame",
+			"details": "https://github.com/gerardroche/sublime-open-sesame",
+			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -279,7 +551,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/paukstis/sublimetext-packetfilter-syntax/tags"
+					"tags": true
 				}
 			]
 		},
@@ -289,17 +561,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kbenzie/Sublime-OpenCL/tags"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "OpenEdge ABL",
-			"details": "https://github.com/jfairbank/Sublime-Text-2-OpenEdge-ABL",
+			"details": "https://github.com/fator7/OpenEdge-ABL",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/jfairbank/Sublime-Text-2-OpenEdge-ABL/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -310,16 +582,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mikepfirrmann/openfolder/tree/master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/drikin/OpenFileList",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"details": "https://github.com/drikin/OpenFileList/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -329,7 +592,7 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"details": "https://github.com/astronaughts/SublimeOpenFromPath/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -340,34 +603,106 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/euler0/sublime-glsl/tree/master"
+					"branch": "master"
 				}
 			]
 		},
 		{
 			"name": "OpenInBrowser",
+			"details": "https://bitbucket.org/bteryek/openinbrowser",
 			"homepage": "http://idevelopsolutions.com/OpenInBrowser",
 			"labels": ["browser", "open in browser", "refresh", "preview", "browser preview"],
-			"details": "https://bitbucket.org/bteryek/openinbrowser",
 			"releases": [
 				{
-					"platforms": [
-						"*"
-					],
 					"sublime_text": "*",
-					"details": "https://bitbucket.org/bteryek/openinbrowser#tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OpenLastRPT",
+			"details": "https://github.com/jonpas/Sublime-OpenLastRPT/",
+			"labels": ["logs", "file open"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OpenPath",
+			"details": "https://github.com/shagabutdinov/sublime-open-path",
+			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
+			"labels": ["sublime-enhanced", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OpenResty lua snippets",
+			"details": "https://github.com/membphis/openresty_lua_snippets",
+			"labels": ["openresty lua", "nginx", "ngx"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "OpenScad",
-			"homepage": "https://github.com/tralamazza/Sublime-OpenScad",
-			"labels": ["language syntax"],
 			"details": "https://github.com/tralamazza/Sublime-OpenScad",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/tralamazza/Sublime-OpenScad/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OpenSees",
+			"details": "https://github.com/bzarco/Sublime-OpenSees",
+			"labels": ["language syntax", "auto-complete", "build system", "structures", "finite element", "earthquake", "engineering"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OpenType Feature Bundle",
+			"details": "https://github.com/brew/opentype-feature-bundle",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OPM (Orbital Parameter Message) Syntax Highlighting",
+			"details": "https://github.com/RazerM/OPM-Syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OPUS",
+			"details": "https://github.com/spywhere/OPUS",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -378,7 +713,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/mulander/oracle.tmbundle/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -389,7 +724,29 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/hawkw/Orbit/tags"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Orchid Color Scheme",
+			"details": "https://github.com/patrickfatrick/orchid-theme-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "org_agenda",
+			"details": "https://github.com/robinchenyu/org_calendar",
+			"author": "robinchenyu",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -398,7 +755,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/SublimeText/Origami/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -408,7 +765,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kevincobain2000/Origami-Emacs/tree/master"
+					"branch": "master"
 				}
 			]
 		},
@@ -417,11 +774,19 @@
 			"details": "https://github.com/jolleyjoe/OSX-Font-Chooser",
 			"releases": [
 				{
-					"platforms": [
-						"osx"
-					],
 					"sublime_text": "<3000",
-					"details": "https://github.com/jolleyjoe/OSX-Font-Chooser/tree/master"
+					"platforms": "osx",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Outline",
+			"details": "https://github.com/warmdev/SublimeOutline",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -431,7 +796,27 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/kdar/color-schemes/tree/master"
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OverrideAudit",
+			"details": "https://github.com/OdatNurd/OverrideAudit",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Owl Color Scheme",
+			"details": "https://github.com/omnus/owl_color_scheme/",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
