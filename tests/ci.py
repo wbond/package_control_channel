@@ -61,7 +61,7 @@ test_mod.generate_default_test_methods()
 suite = unittest.TestLoader().loadTestsFromModule(test_mod)
 channel_results = unittest.TextTestRunner(stream=sys.stdout, verbosity=0).run(suite)
 if not channel_results.wasSuccessful():
-    exit(1)
+    exit(2)
 
 print()
 
@@ -377,6 +377,10 @@ try:
         else:
             print('Non-VCS package found in primary channel', file=sys.stderr)
             exit(4)
+
+    if errors:
+        exit(5)
+
 finally:
     if mod_path and os.path.exists(mod_path):
         shutil.rmtree(mod_path)
