@@ -148,7 +148,13 @@ if added_repositories:
         if not repo.startswith('http://') and not repo.startswith('https://'):
             print('Skipping repository since it is local: %s' % repo)
             continue
+
         print('Fetching repository: %s' % repo)
+        if repo.startswith('http://'):
+            errors = True
+            print('  ERROR: External repositories added to the default channel must be served over HTTPS')
+            # Continue with testing regardless
+
         raw_data = requests.get(repo).content
         try:
             raw_data = raw_data.decode('utf-8')
@@ -276,13 +282,13 @@ try:
 
             if not info['releases']:
                 errors = True
-                print('  ERROR: No releases found, check to ensure you have created a valid semver tag')
+                print('  ERROR: No releases found; check to ensure you have created a valid semver tag')
                 print('    https://packagecontrol.io/docs/submitting_a_package#Step_4')
             else:
                 for release_source in data['releases']:
                     if 'branch' in release_source:
                         errors = True
-                        print('  ERROR: Branch-based releases are not supported for new packages, please use "tags": true')
+                        print('  ERROR: Branch-based releases are not supported for new packages; please use "tags": true')
                         print('    https://packagecontrol.io/docs/submitting_a_package#Step_4')
                     if set(release_source.get('platforms', [])) == {'windows', 'osx', 'linux'}:
                         errors = True
@@ -319,7 +325,7 @@ try:
                 if last_path and len(root_level_paths) == 0:
                     root_level_paths.append(last_path[0:last_path.find('/') + 1])
 
-                # If there is only a single directory at the top leve, the file
+                # If there is only a single directory at the top level, the file
                 # is most likely a zip from BitBucket or GitHub and we need
                 # to skip the top-level dir when extracting
                 skip_root_dir = len(root_level_paths) == 1 and \
