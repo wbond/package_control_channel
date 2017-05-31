@@ -74,10 +74,10 @@ for line in files_changed.splitlines():
         raise ValueError('git diff-tree output included a line without status and filename\n\n%s' % files_changed)
     status, filename = parts
     if not filename.endswith('.json'):
-        print('Skipping %s since it is not a json file')
+        print('Skipping %s since it is not a json file' % filename)
         continue
     if not re.match(r'repository/(\w|0-9)\.json$', filename) and filename != 'channel.json':
-        print('Skipping %s since is not a json file that specifies packages or repositories')
+        print('Skipping %s since is not a json file that specifies packages or repositories' % filename)
     if status != 'M':
         raise ValueError('Unsure how to test a change that adds or removes a file, aborting')
     filenames.append(filename)
