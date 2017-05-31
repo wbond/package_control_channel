@@ -95,14 +95,16 @@ while not filenames:
     # existed when it was written
     if not filenames:
         if commit_offset == 1:
-            print('Skipping commits that contain no package changes:')
+            print('Skipping commits that contain no package changes: ', end='')
+        else:
+            print(', ', end='')
         short_commit_hash = run(['git', 'rev-parse', 'HEAD~%d' % (commit_offset - 1)])[0:8]
-        print('  - %s' % short_commit_hash)
+        print(short_commit_hash, end='')
         commit_offset += 1
         continue
 
 if commit_offset > 1:
-    print()
+    print('\n')
 
 def package_name(data):
     if 'name' in data:
