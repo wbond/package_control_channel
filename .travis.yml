@@ -3,4 +3,6 @@ language: python
 python:
   - "3.4"
 
-script: python tests/ci.py
+script:
+  - pip install --upgrade pip
+  - python tests/ci.py
