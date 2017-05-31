@@ -24,8 +24,8 @@ if pip_version < (8,):
 repo_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 print('Installing deps')
-pip.main(['install', '-q', '--user', '--upgrade', 'st-package-reviewer'])
-pip.main(['install', '-q', '--user', '--upgrade', 'requests'])
+pip.main(['install', '-q', '--upgrade', 'st-package-reviewer'])
+pip.main(['install', '-q', '--upgrade', 'requests'])
 print()
 
 
