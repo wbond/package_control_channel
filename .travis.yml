@@ -1,7 +1,6 @@
 sudo: false
 language: python
 python:
-  - "3.3"
+  - "3.4"
 
-#command to run tests
-script: python -m unittest
+script: python tests/ci.py
