@@ -23,14 +23,13 @@ if pip_version < (8,):
 
 repo_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-print('Installing deps')
 pip.main(['install', '-q', '--upgrade', 'st-package-reviewer'])
 pip.main(['install', '-q', '--upgrade', 'requests'])
-print()
 
 
 import st_package_reviewer.runner
 import st_package_reviewer.check.file
+from st_package_reviewer.check.report import Report
 import requests
 
 
@@ -65,46 +64,29 @@ if not channel_results.wasSuccessful():
 
 print()
 
+branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD'])
+if branch != 'master':
+    old_rev = run(['git', 'merge-base', 'master', branch])
+else:
+    old_rev = 'HEAD~1'
+
 filenames = []
-
-commit_offset = 1
-
-while not filenames:
-    command = ['git', 'diff', '--name-status', 'HEAD~%d' % commit_offset]
-    if commit_offset > 1:
-        command.append('HEAD~%d' % (commit_offset - 1))
-    files_changed = run(command)
-
-    for line in files_changed.splitlines():
-        parts = re.split(r'\s+', line, 1)
-        if len(parts) != 2:
-            print('git diff output included a line without status and filename\n\n%s' % files_changed, file=sys.stderr)
-            exit(3)
-        status, filename = parts
-        if not filename.endswith('.json'):
-            continue
-        if not re.match(r'repository/(\w|0-9)\.json$', filename) and filename != 'channel.json':
-            continue
-        if status != 'M':
-            print('Unsure how to test a change that adds or removes a file, aborting', file=sys.stderr)
-            exit(4)
-        filenames.append(filename)
-
-    # Keep looking back in history for a changeset with repo changes. This is primarily
-    # a tool to help with initially integrating this script with PRs that already
-    # existed when it was written
-    if not filenames:
-        if commit_offset == 1:
-            print('Skipping commits that contain no package changes: ', end='')
-        else:
-            print(', ', end='')
-        short_commit_hash = run(['git', 'rev-parse', 'HEAD~%d' % (commit_offset - 1)])[0:8]
-        print(short_commit_hash, end='')
-        commit_offset += 1
+files_changed = run(['git', 'diff', '--name-status', old_rev])
+for line in files_changed.splitlines():
+    parts = re.split(r'\s+', line, 1)
+    if len(parts) != 2:
+        print('git diff output included a line without status and filename\n\n%s' % files_changed, file=sys.stderr)
+        exit(3)
+    status, filename = parts
+    if not filename.endswith('.json'):
         continue
+    if not re.match(r'repository/(\w|0-9)\.json$', filename) and filename != 'channel.json':
+        continue
+    if status != 'M':
+        print('Unsure how to test a change that adds or removes a file, aborting', file=sys.stderr)
+        exit(4)
+    filenames.append(filename)
 
-if commit_offset > 1:
-    print('\n')
 
 def package_name(data):
     if 'name' in data:
@@ -123,8 +105,8 @@ added_repositories = set()
 removed_repositories = set()
 
 for filename in filenames:
-    old_version = run(['git', 'show', 'HEAD~%d:%s' % (commit_offset, filename)])
-    new_version = run(['git', 'show', 'HEAD~%d:%s' % (commit_offset - 1, filename)])
+    old_version = run(['git', 'show', '%s:%s' % (old_rev, filename)])
+    new_version = run(['git', 'show', 'HEAD:%s' % filename])
     old_json = json.loads(old_version)
     new_json = json.loads(new_version)
     if filename == 'channel.json':
@@ -286,6 +268,7 @@ try:
             )
             response_json = response.json()
             if response_json.get('result') != 'success':
+                errors = True
                 print('  ERROR: %s' % response_json.get('message', 'Unknown error'))
                 continue
 
@@ -301,6 +284,9 @@ try:
                         errors = True
                         print('  ERROR: Branch-based releases are not supported for new packages, please use "tags": true')
                         print('    https://packagecontrol.io/docs/submitting_a_package#Step_4')
+                    if set(release_source.get('platforms', [])) == {'windows', 'osx', 'linux'}:
+                        errors = True
+                        print('  ERROR: Omit the "platforms" instead of specifying "platforms": ["linux", "osx", "windows"]')
             if info['readme'] is None:
                 warnings = True
                 print('  WARNING: Please create a readme for your package')
@@ -366,32 +352,36 @@ try:
                 runner = st_package_reviewer.runner.CheckRunner(st_package_reviewer.check.file.get_checkers())
                 runner.run(pathlib.Path(tmp_package_dir))
 
-                if runner.failures:
-                    print("    {} failures:".format(len(runner.failures)))
+                failures = list(runner.failures)
+                warnings = []
+                for warning in runner.warnings:
+                    if 'added in build 3092' in warning.message:
+                        st_selector = info['releases'][0]['sublime_text']
+                        if st_build_match(st_selector, 3091) or st_build_match(st_selector, 2221):
+                            message = 'Set "sublime_text": ">=3092" in your "releases" since the package contains a .sublime-syntax file'
+                            failure = Report(message, warning.context, warning.exception, warning.exc_info)
+                            failures.append(failure)
+                    else:
+                        warnings.append(warning)
+
+                if failures:
+                    errors = True
+                    print("    {} failures:".format(len(failures)))
                 else:
                     print("    No failures")
-                for failure in runner.failures:
+                for failure in failures:
                     print("     - {}".format(failure.message))
                     for elem in failure.details:
                         print("       {}".format(elem))
                     if failure.exc_info:
                         traceback.print_exception(*failure.exc_info)
 
-                filtered_warnings = []
-                for warning in runner.warnings:
-                    if 'added in build 3092' in warning.message:
-                        st_selector = info['releases'][0]['sublime_text']
-                        if st_build_match(st_selector, 3091) or st_build_match(st_selector, 2221):
-                            filtered_warnings.append(warning)
-                    else:
-                        filtered_warnings.append(warning)
-
-                if filtered_warnings:
-                    print("    {} warnings:".format(len(filtered_warnings)))
+                if warnings:
+                    print("    {} warnings:".format(len(warnings)))
                 else:
                     print("    No warnings")
 
-                for warning in filtered_warnings:
+                for warning in warnings:
                     print("     - {}".format(warning.message))
                     for elem in warning.details:
                         print("       {}".format(elem))
