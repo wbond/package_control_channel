@@ -67,20 +67,42 @@ print()
 
 filenames = []
 
-files_changed = run(['git', 'diff', '--name-status', 'HEAD~1'])
-for line in files_changed.splitlines():
-    parts = re.split(r'\s+', line, 1)
-    if len(parts) != 2:
-        raise ValueError('git diff-tree output included a line without status and filename\n\n%s' % files_changed)
-    status, filename = parts
-    if not filename.endswith('.json'):
-        print('Skipping %s since it is not a json file' % filename)
+commit_offset = 1
+
+while not filenames:
+    command = ['git', 'diff', '--name-status', 'HEAD~%d' % commit_offset]
+    if commit_offset > 1:
+        command.append('HEAD~%d' % (commit_offset - 1))
+    files_changed = run(command)
+
+    for line in files_changed.splitlines():
+        parts = re.split(r'\s+', line, 1)
+        if len(parts) != 2:
+            print('git diff output included a line without status and filename\n\n%s' % files_changed, file=sys.stderr)
+            exit(3)
+        status, filename = parts
+        if not filename.endswith('.json'):
+            continue
+        if not re.match(r'repository/(\w|0-9)\.json$', filename) and filename != 'channel.json':
+            continue
+        if status != 'M':
+            print('Unsure how to test a change that adds or removes a file, aborting', file=sys.stderr)
+            exit(4)
+        filenames.append(filename)
+
+    # Keep looking back in history for a changeset with repo changes. This is primarily
+    # a tool to help with initially integrating this script with PRs that already
+    # existed when it was written
+    if not filenames:
+        if commit_offset == 1:
+            print('Skipping commits that contain no package changes:')
+        short_commit_hash = run(['git', 'rev-parse', 'HEAD~%d' % (commit_offset - 1)])[0:8]
+        print('  - %s' % short_commit_hash)
+        commit_offset += 1
         continue
-    if not re.match(r'repository/(\w|0-9)\.json$', filename) and filename != 'channel.json':
-        print('Skipping %s since is not a json file that specifies packages or repositories' % filename)
-    if status != 'M':
-        raise ValueError('Unsure how to test a change that adds or removes a file, aborting')
-    filenames.append(filename)
+
+if commit_offset > 1:
+    print()
 
 def package_name(data):
     if 'name' in data:
@@ -99,8 +121,8 @@ added_repositories = set()
 removed_repositories = set()
 
 for filename in filenames:
-    old_version = run(['git', 'show', 'HEAD~1:%s' % filename])
-    new_version = run(['git', 'show', 'HEAD:%s' % filename])
+    old_version = run(['git', 'show', 'HEAD~%d:%s' % (commit_offset, filename)])
+    new_version = run(['git', 'show', 'HEAD~%d:%s' % (commit_offset - 1, filename)])
     old_json = json.loads(old_version)
     new_json = json.loads(new_version)
     if filename == 'channel.json':
@@ -241,7 +263,7 @@ try:
     tmpdir = tempfile.mkdtemp()
     if not tmpdir:
         print('Could not create tempdir', file=sys.stderr)
-        exit(3)
+        exit(5)
 
     errors = False
     warnings = False
@@ -376,10 +398,10 @@ try:
 
         else:
             print('Non-VCS package found in primary channel', file=sys.stderr)
-            exit(4)
+            exit(6)
 
     if errors:
-        exit(5)
+        exit(7)
 
 finally:
     if mod_path and os.path.exists(mod_path):
