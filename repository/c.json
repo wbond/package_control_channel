@@ -3324,6 +3324,21 @@
 			]
 		},
 		{
+			"name": "CriticMarkup",
+			"description": "Plain text editing markup for humans",
+			"homepage": "http://criticmarkup.com/sublime-text.php",
+			"details": "https://github.com/Kristinita/CriticMarkup",
+			"author": ["Gabe Weatherhead", "Erik Hess"],
+			"labels": ["markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-",
+					"dependencies": ["MarkdownEditing","AcademicMarkdown", "Suricate"]
+				}
+			]
+		},
+		{
 			"name": "Crollow",
 			"details": "https://github.com/purefan/crollow",
 			"releases": [
