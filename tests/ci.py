@@ -260,6 +260,11 @@ try:
     for name in sorted(added_pkgs):
         print()
         print('Fetching package info for: %s' % name)
+
+        if "sublime" in name.lower():
+            errors = True
+            print('  ERROR: Package %r contains the word "Sublime"' % name)
+
         data = added_pkg_data[name]
         if 'details' in data:
 
