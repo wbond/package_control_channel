@@ -276,7 +276,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux"],
+					"platforms": ["osx", "linux", "windows"],
 					"tags": true
 				}
 			]
@@ -862,6 +862,16 @@
 			]
 		},
 		{
+			"name": "dle snippets sublime",
+			"details": "https://github.com/danlu-fed/dle-snippets-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "DNS Lookups",
 			"details": "https://github.com/rcaldwel/DNS",
 			"releases": [
@@ -1024,6 +1034,17 @@
 			"releases": [
 				{
 					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DOS-CGA Color Scheme",
+			"details": "https://github.com/fnkt/dos-cga-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

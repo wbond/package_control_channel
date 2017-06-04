@@ -477,6 +477,18 @@
 			]
 		},
 		{
+			"name": "CFile",
+			"details": "https://github.com/leoxnidas/CFile",
+			"labels": ["C", "C++"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CFML",
 			"details": "https://github.com/jcberquist/sublimetext-cfml",
 			"labels": ["language syntax", "cfml", "coldfusion", "lucee"],
@@ -945,6 +957,16 @@
 			]
 		},
 		{
+			"name": "ChromiumTodoView",
+			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chuby Ninja Color Scheme",
 			"details": "https://github.com/jturcotte/SublimeChubyNinja",
 			"labels": ["color scheme"],
@@ -1061,7 +1083,7 @@
 			"labels": ["CJSX", "syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -1136,7 +1158,18 @@
 		},
 		{
 			"name": "ClassName",
-			"details": "https://github.com/lite3/Sublime-ClassName",
+			"details": "https://github.com/litefeel/Sublime-ClassName",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Claudinho",
+			"details": "https://github.com/gkal19/claudinho",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1221,6 +1254,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ClickableRequires",
+			"details": "https://github.com/hajnalben/ClickableRequires",
+			"labels": ["require", "node", "javascript", "js"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1384,7 +1428,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -1736,6 +1779,19 @@
 			]
 		},
 		{
+			"name": "Codeforces Util",
+			"details": "https://github.com/shankhs/CodeforcesUtil",
+			"homepage": "http://www.shankhs.com",
+			"author": "shankhs",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeFormatter",
 			"details": "https://github.com/akalongman/sublimetext-codeformatter",
 			"labels": ["formatting", "utilities", "php", "css", "javascript", "html", "python", "automation", "indent"],
@@ -1833,7 +1889,7 @@
 			"details": "https://github.com/oleg-shilo/sublime-codemap",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2013,6 +2069,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CoffeeScript Ddry Snippets",
+			"details": "https://github.com/ddry/ddry-sublime-coffee-snippets",
+			"labels": [ "snippets" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2207,6 +2274,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Legacy",
+			"details": "https://github.com/packagecontrol/legacy_color_schemes",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">3131",
+					"tags": true
 				}
 			]
 		},
@@ -2743,10 +2821,11 @@
 			]
 		},
 		{
-			"name": "Console Wrap for js",
+			"name": "Console Wrap",
 			"details": "https://github.com/unknownuser88/consolewrap",
 			"author": "David Bekoyan",
-			"labels": ["completion", "auto-complete"],
+			"labels": ["logs", "debug", "console", "output", "javascript", "completion", "auto-complete"],
+			"previous_names": ["Console Wrap for js"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3288,6 +3367,16 @@
 			]
 		},
 		{
+			"name": "CS-Script",
+			"details": "https://github.com/oleg-shilo/cs-script-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Cscope",
 			"details": "https://github.com/ameyp/CscopeSublime",
 			"releases": [
@@ -3629,6 +3718,16 @@
 			]
 		},
 		{
+			"name": "CSSO",
+			"details": "https://github.com/1000ch/Sublime-csso",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CSSOrder",
 			"details": "https://github.com/lightningtgc/sublime-cssorder",
 			"releases": [
@@ -3818,6 +3917,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Curry Syntax Highlighting",
+			"details": "https://github.com/jpsikorra/curry_syntax_highlight",
+			"labels": ["curry", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
