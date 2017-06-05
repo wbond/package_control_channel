@@ -943,7 +943,18 @@
 			]
 		},
 		{
-			"name": "Chromium X-Refs",
+			"name": "ChromiumTodoView",
+			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChromiumXRefs",
+			"previous_names": ["Chromium X-Refs"],
 			"author": "Josh Karlin",
 			"description": "Shows Chromium code cross-references from cs.chromium.org",
 			"details": "https://github.com/karlinjf/ChromiumXRefs",
@@ -952,16 +963,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3118",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ChromiumTodoView",
-			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
