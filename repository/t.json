@@ -360,7 +360,6 @@
 		{
 			"name": "TemplateToolkit",
 			"details": "https://github.com/znuny/TemplateToolkit-sublime",
-			"issues": "https://github.com/znuny/TemplateToolkit-sublime/issues",
 			"author": "Znuny GmbH",
 			"labels": ["TemplateToolkit", "Template Toolkit", "syntax", "snippets"],
 			"releases": [
@@ -514,7 +513,6 @@
 			"name": "TestCafe Test Runner",
 			"details": "https://github.com/churkin/testcafe-sublimetext",
 			"readme": "https://github.com/churkin/testcafe-sublimetext/blob/master/README.md",
-			"issues": "https://github.com/churkin/testcafe-sublimetext/issues",
 			"labels": ["testing", "testcafe", "auto-testing", "test"],
 			"releases": [
 				{
@@ -645,21 +643,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - Aprosopo",
-			"details": "https://github.com/facelessuser/Aprosopo",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3000",
-					"tags": "st3-"
 				}
 			]
 		},
@@ -920,6 +903,17 @@
 			]
 		},
 		{
+			"name": "Theme - Delta",
+			"details": "https://github.com/TimmyDax/Sublime-Theme-Delta",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Eightlime",
 			"details": "https://github.com/hrsetyono/eightlime",
 			"labels": ["theme"],
@@ -1109,6 +1103,18 @@
 			]
 		},
 		{
+			"name": "Theme - Honeykoa",
+			"details": "https://github.com/radioreve/Honeykoa-theme",
+			"author": "Radioreve",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Hsiang",
 			"details": "https://github.com/xianghongai/Theme-Hsiang",
 			"labels": ["theme", "color scheme"],
@@ -1220,6 +1226,17 @@
 			]
 		},
 		{
+			"name": "Theme - Manzhou",
+			"details": "https://github.com/manse/sublime-theme-manzhou",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Mersi",
 			"details": "https://github.com/grandsilence/mersi",
 			"labels": ["theme", "color scheme"],
@@ -1270,6 +1287,18 @@
 			"name": "Theme - Monokai",
 			"details": "https://github.com/joshuahiggins/sublime-text-monokai",
 			"author": "Joshua Higgins",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Monokai+",
+			"details": "https://github.com/wilon/Theme-MonokaiPlus",
+			"author": "Weilong Wang",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -1830,6 +1859,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "ST3"
+				}
+			]
+		},
+		{
+			"name": "ThreatConnect Python Snippets",
+			"details": "https://github.com/fhightower/threatconnect-python-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2591,6 +2631,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Travis CI Statusbar",
+			"details": "https://github.com/seripap/sublime-travis-ci-status",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

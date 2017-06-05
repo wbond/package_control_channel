@@ -1269,6 +1269,19 @@
 			]
 		},
 		{
+			"name": "Shen",
+			"details": "https://github.com/rkoeninger/sublime-shen",
+			"readme": "https://raw.githubusercontent.com/rkoeninger/sublime-shen/master/README.md",
+			"author": "Robert Koeninger",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ShenMa",
 			"details": "https://github.com/molee1905/ShenMa",
 			"releases": [
@@ -1991,6 +2004,17 @@
 			]
 		},
 		{
+			"name": "Smart Backspace",
+			"details": "https://github.com/awhite/sublime-smart-backspace",
+			"labels": ["text navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Smart Delete",
 			"details": "https://github.com/mac2000/sublime-smart-delete",
 			"releases": [
@@ -2438,7 +2462,6 @@
 			"details": "https://github.com/ppalex7/SourcePawnCompletions",
 			"description": "SourcePawn auto-completion and build-system",
 			"readme": "https://raw.githubusercontent.com/ppalex7/SourcePawnCompletions/master/README.md",
-			"issues": "https://github.com/ppalex7/SourcePawnCompletions/issues",
 			"labels": ["auto-complete", "build system"],
 			"releases": [
 				{
@@ -2473,6 +2496,18 @@
 			"details": "https://github.com/malroc/sourcetalk_st2",
 			"labels": ["code sharing", "remote collaboration"],
 			"previous_names": ["SoucreTalk (real time code discussions)"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Sourcetrail",
+			"previous_names": ["coati"],
+			"details": "https://github.com/CoatiSoftware/sublime-sourcetrail",
+			"labels": ["utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2693,7 +2728,6 @@
 		{
 			"name": "Splunk Conf File Syntax Highlighting",
 			"details": "https://github.com/shakeelmohamed/sublime-splunk-conf-highlighting",
-			"issues": "https://github.com/shakeelmohamed/sublime-splunk-conf-highlighting/issues",
 			"author": "Shakeel Mohamed",
 			"labels": ["language", "syntax"],
 			"releases": [
@@ -3204,7 +3238,6 @@
 			"name": "StrapdownJS Boilerplate",
 			"details": "https://github.com/sonokamome/StrapdownJS-Boilerplate",
 			"homepage": "https://github.com/sonokamome/StrapdownJS-Boilerplate",
-			"issues" : "https://github.com/sonokamome/StrapdownJS-Boilerplate/issues",
 			"readme" : "https://raw.githubusercontent.com/sonokamome/StrapdownJS-Boilerplate/master/README.md",
 			"labels" : ["Markdown", "StrapdownJS", "boilerplate", "snippet", "snippets"],
 			"releases": [
@@ -3650,7 +3683,6 @@
 		{
 			"name": "SublimeAnarchy",
 			"details": "https://github.com/AnarchyTools/SublimeAnarchy",
-			"issues": "https://github.com/AnarchyTools/SublimeAnarchy/issues",
 			"homepage": "http://anarchytools.org",
 			"author": ["drewcrawford", "dunkelstern"],
 			"labels": ["build-system", "auto-complete", "language-syntax"],
@@ -3665,7 +3697,6 @@
 		{
 			"name": "SublimeAnarchyDebug",
 			"details": "https://github.com/AnarchyTools/SublimeAnarchyDebug",
-			"issues": "https://github.com/AnarchyTools/SublimeAnarchyDebug/issues",
 			"homepage": "http://anarchytools.org",
 			"author": "dunkelstern",
 			"labels": ["debugger"],
@@ -4268,7 +4299,8 @@
 					"branch": "master"
 				}
 			]
-		},{
+		},
+		{
 			"name": "Sunrise Theme",
 			"details": "https://github.com/jgroac/Sunrise-theme",
 			"labels": ["theme", "color scheme"],
@@ -4328,6 +4360,19 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SuperElixir",
+			"details": "https://github.com/edelvalle/SuperElixir",
+			"author": ["edelvalle"],
+			"labels": ["auto-complete", "code navigation", "linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3126",
+					"tags": true,
+					"platforms": ["osx", "linux"]
 				}
 			]
 		},
