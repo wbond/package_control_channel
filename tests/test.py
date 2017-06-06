@@ -450,7 +450,7 @@ class TestContainer(object):
                       'A sublime text version selector is required')
 
         self.assertFalse(('tags' in data and 'branch' in data),
-                         'A release must have only one of the "tags" or '
+                         'A release must have a only one of the "tags" or '
                          '"branch" keys.')
 
         # Test keys values
