@@ -156,7 +156,6 @@
 		{
 			"name": "Znuny4OTRS",
 			"details": "https://github.com/znuny/Znuny4OTRS-Sublime",
-			"issues": "https://github.com/znuny/Znuny4OTRS-Sublime/issues",
 			"author": "Znuny GmbH",
 			"labels": ["znuny4otrs", "znuny", "otrs", "snippets"],
 			"releases": [
@@ -194,6 +193,19 @@
 			"description": "ZBrush ZScript syntax highlighter for Sublime Text",
 			"labels": ["auto-complete", "language syntax", "snippets"],
 			"author": "Siew Yi Liang",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ZSH",
+			"details": "https://github.com/molovo/sublime-zsh",
+			"description": "Native ZSH autocompletion and snippets for sublime text",
+			"labels": ["auto-complete", "snippets"],
+			"author": "James Dinsdale",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -242,6 +254,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Zxx",
+			"details": "https://github.com/ZxxLang/ZxxSublime",
+			"labels": ["zxx"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		}
