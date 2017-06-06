@@ -341,8 +341,16 @@
 			"details": "https://github.com/SublimeText/LaTeXTools",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3000 - 3124",
+					"tags": "st3until3125-"
+				},
+				{
+					"sublime_text": ">=3125",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -751,6 +759,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LimitTabs",
+			"details": "https://github.com/max0d41/LimitTabs",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1404,6 +1422,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaFormat",
+			"details": "https://github.com/FloydaGithub/LuaFormat",
+			"labels": ["lua", "format"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
