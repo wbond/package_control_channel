@@ -360,7 +360,6 @@
 		{
 			"name": "TemplateToolkit",
 			"details": "https://github.com/znuny/TemplateToolkit-sublime",
-			"issues": "https://github.com/znuny/TemplateToolkit-sublime/issues",
 			"author": "Znuny GmbH",
 			"labels": ["TemplateToolkit", "Template Toolkit", "syntax", "snippets"],
 			"releases": [
@@ -432,6 +431,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/Wramberg/TerminalView",
+			"labels": ["terminal", "console", "shell", "bash"],
+			"name": "TerminalView",
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -514,7 +525,6 @@
 			"name": "TestCafe Test Runner",
 			"details": "https://github.com/churkin/testcafe-sublimetext",
 			"readme": "https://github.com/churkin/testcafe-sublimetext/blob/master/README.md",
-			"issues": "https://github.com/churkin/testcafe-sublimetext/issues",
 			"labels": ["testing", "testcafe", "auto-testing", "test"],
 			"releases": [
 				{
@@ -645,21 +655,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - Aprosopo",
-			"details": "https://github.com/facelessuser/Aprosopo",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3000",
-					"tags": "st3-"
 				}
 			]
 		},
@@ -920,6 +915,17 @@
 			]
 		},
 		{
+			"name": "Theme - Delta",
+			"details": "https://github.com/TimmyDax/Sublime-Theme-Delta",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Eightlime",
 			"details": "https://github.com/hrsetyono/eightlime",
 			"labels": ["theme"],
@@ -982,6 +988,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Fits",
+			"details": "https://github.com/xxxzc/themefits",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1090,6 +1107,18 @@
 			"name": "Theme - Hero",
 			"details": "https://github.com/nickbalestra/hero",
 			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Honeykoa",
+			"details": "https://github.com/radioreve/Honeykoa-theme",
+			"author": "Radioreve",
+			"labels": ["theme"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1209,6 +1238,17 @@
 			]
 		},
 		{
+			"name": "Theme - Manzhou",
+			"details": "https://github.com/manse/sublime-theme-manzhou",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Mersi",
 			"details": "https://github.com/grandsilence/mersi",
 			"labels": ["theme", "color scheme"],
@@ -1259,6 +1299,18 @@
 			"name": "Theme - Monokai",
 			"details": "https://github.com/joshuahiggins/sublime-text-monokai",
 			"author": "Joshua Higgins",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Monokai+",
+			"details": "https://github.com/wilon/Theme-MonokaiPlus",
+			"author": "Weilong Wang",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -1823,6 +1875,17 @@
 			]
 		},
 		{
+			"name": "ThreatConnect Python Snippets",
+			"details": "https://github.com/fhightower/threatconnect-python-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ThreatConnect Share Comments",
 			"details": "https://github.com/fhightower/threatconnect-share-comment-snippets",
 			"labels": ["snippets"],
@@ -1891,6 +1954,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Timenow",
+			"details": "https://github.com/filipelinhares/timenow-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2188,6 +2261,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ToggleNeoVintageous",
+			"description": "A command to toggle NeoVintageous (a Vintageous fork)",
+			"details": "https://github.com/NeoVintageous/ToggleNeoVintageous",
+			"labels": ["toggle", "vim", "vi", "vintage", "vintageous", "neovintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2580,6 +2665,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Travis CI Statusbar",
+			"details": "https://github.com/seripap/sublime-travis-ci-status",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

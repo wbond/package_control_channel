@@ -221,6 +221,20 @@
 			]
 		},
 		{
+			"name": "jsonschema",
+			"load_order": "55",
+			"description": "An(other) implementation of JSON Schema for Python",
+			"author": "kylebebak",
+			"issues": "https://github.com/kylebebak/sublime-jsonschema/issues",
+			"releases": [
+				{
+					"base": "https://github.com/kylebebak/sublime-jsonschema",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "lxml",
 			"load_order": "10",
 			"description": "lxml",
@@ -259,7 +273,7 @@
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
 					"tags": true,
-					"sublime_text": ">=3080"
+					"sublime_text": ">=3124"
 				}
 			]
 		},
@@ -448,6 +462,20 @@
 					"base": "https://github.com/packagecontrol/pygments",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pymdownx",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "PyMdown Extensions for Python Markdown",
+			"issues": "https://github.com/facelessuser/sublime-pymdownx/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-pymdownx",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
