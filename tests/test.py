@@ -296,16 +296,20 @@ class TestContainer(object):
         for k, v in data.items():
             self.enforce_key_types_map(k, v, self.package_key_types_map)
 
-            if k == 'donate' and v is None:
-                # Allow "removing" the donate url that is added by "details"
-                continue
-            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
-                self.assertRegex(v, '^https?://')
-
-            elif k == 'details':
+            if k == 'details':
                 self.assertRegex(v, self.package_details_regex,
                                  'The details url is badly formatted or '
                                  'invalid')
+
+            elif k == 'donate' and v is None:
+                # Allow "removing" the donate url that is added by "details"
+                continue
+
+            elif k == 'labels':
+                for label in v:
+                    self.assertNotIn(",", label,
+                                     "Multiple labels should not be in the "
+                                     "same string")
 
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
@@ -324,6 +328,9 @@ class TestContainer(object):
                         self.previous_package_names[prev_name] = (
                             (prev_name, include, name)
                         )
+
+            elif k in ('homepage', 'readme', 'issues', 'donate', 'buy'):
+                self.assertRegex(v, '^https?://')
 
         # Test for invalid characters (on file systems)
         # Invalid on Windows (and sometimes problematic on UNIX)
@@ -364,6 +371,8 @@ class TestContainer(object):
             elif k == 'load_order':
                 self.assertRegex(v, '^\d\d$', '"load_order" must be a two '
                                               'digit string')
+        for key in ('author', 'releases', 'issues', 'description', 'load_order'):
+                self.assertIn(key, data, '%r is required for dependencies' % key)
 
     pck_release_key_types_map = {
         'base': str_cls,
@@ -441,7 +450,7 @@ class TestContainer(object):
                       'A sublime text version selector is required')
 
         self.assertFalse(('tags' in data and 'branch' in data),
-                         'A release must have a only one of the "tags" or '
+                         'A release must have only one of the "tags" or '
                          '"branch" keys.')
 
         # Test keys values
@@ -469,11 +478,12 @@ class TestContainer(object):
                                  'invalid')
 
             elif k == 'sublime_text':
-                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4})$',
-                                 'sublime_text must be `*` or of the form '
-                                 '<relation><version> '
+                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4}|\d{4} - \d{4})$',
+                                 'sublime_text must be `*`, of the form '
+                                 '`<relation><version>` '
                                  'where <relation> is one of {<, <=, >, >=} '
-                                 'and <version> is a 4 digit number')
+                                 'and <version> is a 4 digit number, '
+                                 'or of the form `<version> - <version>`')
 
             elif k == 'platforms':
                 if isinstance(v, str_cls):
@@ -573,11 +583,11 @@ class TestContainer(object):
                 except Exception as e:
                     yield cls._fail("Downloading %s failed" % path, e)
                     return
-                source = source.decode("utf-8", 'replace')
+                source = source.decode("utf-8", 'strict')
             else:
                 try:
                     with _open(path) as f:
-                        source = f.read().decode('utf-8', 'replace')
+                        source = f.read().decode('utf-8', 'strict')
                 except Exception as e:
                     yield cls._fail("Opening %s failed" % path, e)
                     return
@@ -677,7 +687,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
     def pre_generate(cls):
         if not hasattr(cls, 'j'):
             with _open('channel.json') as f:
-                cls.source = f.read().decode('utf-8', 'replace')
+                cls.source = f.read().decode('utf-8', 'strict')
                 cls.j = json.loads(cls.source)
 
             from collections import defaultdict
@@ -746,7 +756,7 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
     def pre_generate(cls):
         if not hasattr(cls, 'j'):
             with _open('repository.json') as f:
-                cls.source = f.read().decode('utf-8', 'replace')
+                cls.source = f.read().decode('utf-8', 'strict')
                 cls.j = json.loads(cls.source)
 
     def test_repository_keys(self):
@@ -770,10 +780,10 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
         for include in cls.j['includes']:
             try:
                 with _open(include) as f:
-                    contents = f.read().decode('utf-8', 'replace')
+                    contents = f.read().decode('utf-8', 'strict')
                 data = json.loads(contents)
             except Exception as e:
-                yield cls._fail("Error while reading %r" % include, e)
+                yield cls._fail("strict while reading %r" % include, e)
                 continue
 
             # `include` is for output during tests only
