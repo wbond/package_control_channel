@@ -642,9 +642,9 @@
 			]
 		},
 		{
-			"name": "DirectEdit",
-			"details": "https://github.com/UniFreak/SublimeDirectEdit",
-			"previous_names": ["Direct Edit"],
+			"name": "Direct Open",
+			"details": "https://github.com/UniFreak/SublimeDirectOpen",
+			"previous_names": ["Direct Edit", "DirectEdit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -978,6 +978,17 @@
 				{
 					"sublime_text": ">=3000",
 					"tags":true
+				}
+			]
+		},
+		{
+			"name": "DocReflow",
+			"details": "https://github.com/phaiax/DocReflow",
+			"labels": ["formatting", "documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3126",
+					"tags": true
 				}
 			]
 		},
