@@ -537,6 +537,21 @@
 			]
 		},
 		{
+			"name": "pywinauto",
+			"load_order": "50",
+			"description": "Python pywinauto module",
+			"author": "randy3k",
+			"issues": "https://github.com/randy3k/sublime-pywinauto/issues",
+			"releases": [
+				{
+					"base": "https://github.com/randy3k/sublime-pywinauto",
+					"platforms": ["windows"],
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pyyaml",
 			"load_order": "50",
 			"description": "Python PyYAML module",
