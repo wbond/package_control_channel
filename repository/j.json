@@ -99,6 +99,16 @@
 			]
 		},
 		{
+			"name": "Japanese Word Jump",
+			"details": "https://github.com/ngr-t/SublimeJapaneseWordJump",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmin JVM Assembler",
 			"details": "https://github.com/atmarksharp/jasmin-sublime",
 			"releases": [
@@ -131,9 +141,31 @@
 			]
 		},
 		{
+			"name": "Jasmine Matchers ES6 Snippets",
+			"details": "https://github.com/JamieMason/Jasmine-Matchers-ES6-Snippets",
+			"labels": ["snippets", "javascript", "testing", "Jasmine", "es6", "es2015"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmine Matchers Snippets",
 			"details": "https://github.com/JamieMason/Jasmine-Matchers-Snippets",
 			"labels": ["snippets", "javascript", "testing", "Jasmine"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jasmine Overview",
+			"details": "https://github.com/csudcy/sublime-jasmine-overview",
+			"labels": ["jasmine", "javascript", "testing", "Jasmine", "overview", "outline", "structure"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -271,11 +303,11 @@
 		{
 			"name": "JavaScript Completions",
 			"details": "https://github.com/pichillilorenzo/JavaScript-Completions",
-			"labels": ["completions", "javascript"],
+			"labels": ["completions", "javascript", "javascript completions"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -301,6 +333,17 @@
 			]
 		},
 		{
+			"name": "JavaScript Next Snippets",
+			"details": "https://github.com/AlexKvazos/javascript-next-snippets",
+			"labels": ["javascript", "react", "es6", "es7", "snippets", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JavaScript Patterns",
 			"details": "https://github.com/caiogondim/js-patterns-sublime-snippets",
 			"labels": ["snippets"],
@@ -318,6 +361,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JavaScript Scratch Pad",
+			"author": "Bijoy Thomas",
+			"details": "https://github.com/bijoythomas/sublime-jsscratchpad",
+			"labels": ["javascript", "scratch pad"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -349,7 +404,7 @@
 			"labels": ["language syntax", "snippets", "javascript"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -400,6 +455,18 @@
 			]
 		},
 		{
+			"name": "JCShell Tools",
+			"details": "https://github.com/nxp/jcshell-tools",
+			"author": "Michael Roy",
+			"labels": ["language syntax", "completion", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JDebug",
 			"details": "https://github.com/jdebug/JDebug",
 			"labels": ["debugger", "Java debugger", "java", "JDB"],
@@ -428,6 +495,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jedi Syntax",
+			"details": "https://github.com/CyanSalt/Sublime-Jedi",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -486,12 +564,24 @@
 			]
 		},
 		{
+			"name": "JetJet Color Scheme",
+			"details": "https://github.com/JetJet13/jetjet_theme_sublime",
+			"labels": [ "color scheme" ],
+			"author": "Johny Georges",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jimbly's Clipboard History",
 			"details": "https://github.com/Jimbly/SublimeClipboardHistory",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -565,9 +655,10 @@
 			]
 		},
 		{
-			"name": "Jolie Language",
+			"name": "jolie",
 			"details": "https://github.com/thesave/sublime-Jolie",
 			"labels": ["language syntax", "snippets"],
+			"previous_names" : ["Jolie Language"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -725,11 +816,11 @@
 		},
 		{
 			"name": "JS2Coffee",
-			"details": "https://github.com/nibblebot/sublime-js2coffee",
+			"details": "https://github.com/aziz/sublime-js2coffee",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -748,6 +839,27 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSDebug",
+			"details": "https://github.com/mbladel/JSDebug",
+			"labels": ["javascript", "debug"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JsDebuggr",
+			"details": "https://github.com/rDr4g0n/JsDebuggr",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -845,6 +957,17 @@
 			]
 		},
 		{
+			"name": "JSON Key-Value",
+			"details": "https://github.com/aurule/json-kv",
+			"labels": ["language syntax", "json"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSON L18n Resources Editor",
 			"details": "https://github.com/alex18881/JsonL18nResourcesEditor",
 			"releases": [
@@ -891,6 +1014,46 @@
 			]
 		},
 		{
+			"name": "JSON2Apex",
+			"details": "https://github.com/nchursin/json2apex",
+			"labels": [
+				"JSON",
+				"Apex",
+				"Salesforce",
+				"code generation",
+				"JSON to Apex"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSON2Go",
+			"details": "https://github.com/everCyan/JSON2Go",
+			"labels": ["json", "urllib.parse"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSONComma",
+			"details": "https://github.com/math2001/JSONComma",
+			"labels": ["JSON", "comma", "text manipulation", "formatting", "formatter", "trailing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/hmml/jsonlint",
 			"labels": ["linting", "JSON"],
 			"releases": [
@@ -901,12 +1064,34 @@
 			]
 		},
 		{
+			"name": "jsonnet syntax",
+			"details": "https://github.com/gburiola/sublime-jsonnet-syntax",
+			"labels": ["jsonnet", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JsonTree",
 			"details": "https://github.com/Flyclops/JsonTree",
 			"labels": ["json", "tree", "search"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JsPrettier",
+			"details": "https://github.com/jonlabelle/SublimeJsPrettier",
+			"labels": ["javascript", "formatting", "format"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -937,6 +1122,7 @@
 		{
 			"name": "JSTL syntax",
 			"details": "https://github.com/eparisio/st3-jstl-syntax-highlight",
+			"labels": ["language syntax", "jstl", "jsp"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -978,16 +1164,6 @@
 			]
 		},
 		{
-			"name": "JuliaCompletions",
-			"details": "https://github.com/jakeconnor/JuliaCompletions",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Jump Along Indent",
 			"details": "https://github.com/mwean/sublime_jump_along_indent",
 			"labels": ["text navigation"],
@@ -1005,6 +1181,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JUnit Completions",
+			"details": "https://github.com/tushortz/JUnit-Completions",
+			"labels": ["Java", "completions", "completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
