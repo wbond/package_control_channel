@@ -859,7 +859,7 @@
 			"details": "https://github.com/simonrad/sublime-selection-tools",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -2295,10 +2295,11 @@
 		{
 			"name": "SnippetMaker",
 			"details": "https://github.com/jugyo/SublimeSnippetMaker",
+			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2652,6 +2653,16 @@
 			]
 		},
 		{
+			"name": "Spandoc",
+			"details": "https://github.com/geniusupgrader/Spandoc/",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SPARC Assembly",
 			"details": "https://github.com/ProtractorNinja/SPARC-sublime",
 			"labels": ["language syntax"],
@@ -2863,6 +2874,18 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SpotifyWeb",
+			"details": "https://github.com/DevInsideYou/SpotifyWeb",
+			"labels": ["spotify", "music"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -3988,6 +4011,16 @@
 			]
 		},
 		{
+			"name": "SublimeLinter Inline Errors",
+			"details": "https://github.com/alexkuz/SublimeLinter-inline-errors",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SublimeLinter_CatGutterTheme",
 			"details": "https://github.com/m10l/SublimeLinter-CatGutterTheme",
 			"labels": ["linting"],
@@ -4247,6 +4280,16 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Sublundo",
+			"details": "https://github.com/libundo/Sublundo",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -4987,6 +5030,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Syntax Highlighting for SSS SugarSS",
+			"details": "https://github.com/aazcast/Syntax-SugarSS-SublimeText",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
