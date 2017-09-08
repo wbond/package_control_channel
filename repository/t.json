@@ -500,6 +500,17 @@
 			]
 		},
 		{
+			"name": "Test",
+			"details": "https://github.com/gerardroche/sublime-test",
+			"labels": ["testing", "tdd"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Test Double",
 			"details": "https://github.com/testdouble/sublime-test-double",
 			"releases": [
@@ -1700,6 +1711,16 @@
 			]
 		},
 		{
+			"name": "Theme - Superflat Adventures",
+			"details": "https://github.com/malyutinegor/superflat-adventures",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Superman",
 			"details": "https://github.com/cursivecode/superman-theme",
 			"labels": ["theme", "color scheme"],
@@ -1859,6 +1880,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "ST3"
+				}
+			]
+		},
+		{
+			"name": "ThreatConnect Exchange Snippets",
+			"details": "https://github.com/fhightower/tcex-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2254,7 +2286,6 @@
 		},
 		{
 			"name": "ToggleNeoVintageous",
-			"description": "A command to toggle NeoVintageous (a Vintageous fork)",
 			"details": "https://github.com/NeoVintageous/ToggleNeoVintageous",
 			"labels": ["toggle", "vim", "vi", "vintage", "vintageous", "neovintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
 			"releases": [
