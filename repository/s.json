@@ -859,7 +859,7 @@
 			"details": "https://github.com/simonrad/sublime-selection-tools",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -2295,10 +2295,11 @@
 		{
 			"name": "SnippetMaker",
 			"details": "https://github.com/jugyo/SublimeSnippetMaker",
+			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -4284,6 +4285,16 @@
 			]
 		},
 		{
+			"name": "Sublundo",
+			"details": "https://github.com/libundo/Sublundo",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/SubNotify",
 			"releases": [
 				{
@@ -5019,6 +5030,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Syntax Highlighting for SSS SugarSS",
+			"details": "https://github.com/aazcast/Syntax-SugarSS-SublimeText",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

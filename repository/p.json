@@ -60,11 +60,11 @@
 			"author": ["guillermooo", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "<3092",
+					"sublime_text": "<3118",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": ">=3118",
 					"tags": true
 				}
 			]
@@ -1324,7 +1324,7 @@
 		{
 			"name": "phpunitkit",
 			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["php", "phpunit", "test", "testing", "unit", "unit test"],
+			"labels": ["phpunit", "php", "testing", "tdd"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2276,6 +2276,17 @@
 			]
 		},
 		{
+			"name": "PureScript IDE",
+			"details": "https://github.com/b123400/purescript-ide-sublime",
+			"labels": ["ide"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PurpleHaze",
 			"details": "https://github.com/klomontes/purple-haze-color-scheme",
 			"labels": ["color scheme"],
@@ -2560,6 +2571,16 @@
 				}
 			]
 		},
+		{
+			"name": "Python Debugger",
+			"details": "https://github.com/wvlia5/SublimeDebugger",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},		
 		{
 			"name": "Python Fix Imports",
 			"details": "https://github.com/Stibbons/python-fiximports",
