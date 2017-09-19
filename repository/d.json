@@ -490,7 +490,8 @@
 			]
 		},
 		{
-			"name": "Deviot",
+			"name": "Deviot (Arduino IDE)",
+			"previous_names": ["Deviot"],
 			"details": "https://github.com/gepd/Deviot",
 			"donate": "https://gratipay.com/~gepd/",
 			"labels": ["build system", "ide", "arduino", "iot", "platformio"],
@@ -1443,6 +1444,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": "windows",
+					"tags": true
+				}
+			]
+		},
+				{
+			"name": "DXMate",
+			"details": "https://github.com/jtowers/dxmate",
+			"labels": ["salesforce", "dx", "salesforce1", "force.com", "ide", "apex", "visualforce"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

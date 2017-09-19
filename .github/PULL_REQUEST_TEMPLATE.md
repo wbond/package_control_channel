@@ -15,3 +15,9 @@ You may proceed with a short description of what the package does and,
 in case a similar package already exists, 
 why you believe it is needed
 below this line. -->
+
+Adds icon themes to Sublime Linter's gutter themes. This is my first ever pull request, please let me know if I did anything incorrectly -- apologies in advance if I did :) 
+
+Thanks!!
+Jared
+

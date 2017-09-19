@@ -500,6 +500,17 @@
 			]
 		},
 		{
+			"name": "Test",
+			"details": "https://github.com/gerardroche/sublime-test",
+			"labels": ["testing", "tdd"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Test Double",
 			"details": "https://github.com/testdouble/sublime-test-double",
 			"releases": [
@@ -549,6 +560,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "TestExUnit",
+			"details": "https://github.com/Dania02525/TestExUnit",
+			"author": "Dania02525 (Dania Simmons)",
+			"labels": ["elixir", "testing", "exunit"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -1544,6 +1568,17 @@
 			]
 		},
 		{
+			"name": "Theme - Retina",
+			"details": "https://github.com/SublimeText/LegacyTheme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">3100",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Seti Monokai",
 			"details": "https://github.com/poucotm/Theme-SetiMonokai",
 			"labels": ["theme"],
@@ -1692,6 +1727,16 @@
 			"name": "Theme - Spark",
 			"details": "https://github.com/Dustin-Lee/Theme-spark",
 			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Superflat Adventures",
+			"details": "https://github.com/malyutinegor/superflat-adventures",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1863,6 +1908,17 @@
 			]
 		},
 		{
+			"name": "ThreatConnect Exchange Snippets",
+			"details": "https://github.com/fhightower/tcex-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ThreatConnect Python Snippets",
 			"details": "https://github.com/fhightower/threatconnect-python-snippets",
 			"labels": ["snippets"],
@@ -2012,6 +2068,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Titanium Alloy Related",
+			"details": "https://github.com/Cyber-Duck/sublime-ti-alloy-related",
+			"labels": ["code navigation", "titanium", "alloy"],
+			"author": "Cyber-Duck Ltd",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2254,7 +2322,6 @@
 		},
 		{
 			"name": "ToggleNeoVintageous",
-			"description": "A command to toggle NeoVintageous (a Vintageous fork)",
 			"details": "https://github.com/NeoVintageous/ToggleNeoVintageous",
 			"labels": ["toggle", "vim", "vi", "vintage", "vintageous", "neovintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
 			"releases": [
@@ -2947,6 +3014,17 @@
 				}
 			]
 		},
+				{
+			"name": "TwoColumns",
+			"details": "https://github.com/pyking2/TwoColumns",
+			"labels": ["layout"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
 		{
 			"name": "TXL syntax highlighting",
 			"details": "https://github.com/MikeHoffert/Sublime-Text-TXL-syntax",
@@ -2989,6 +3067,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "TypeScript Syntax",
+			"details": "https://github.com/braver/TypeScriptSyntax",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
 				}
 			]
 		},

@@ -586,16 +586,6 @@
 			]
 		},
 		{
-			"name": "Marksy Convert",
-			"details": "https://github.com/thomscode/marksy-convert",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Mask",
 			"details": "https://github.com/tenbits/sublime-mask",
 			"releases": [
@@ -1093,6 +1083,17 @@
 			]
 		},
 		{
+			"name": "Mermaid",
+			"details": "https://github.com/hlfcoding/sublime-mermaid",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Meson",
 			"description": "Meson Build syntax",
 			"author": "Salamandar (Félix Piédallu)",
@@ -1497,10 +1498,11 @@
 			]
 		},
 		{
-			"name": "Miva Template Language (MVT)",
-			"details": "https://github.com/mghweb/Miva-Template-Language",
+			"name": "Miva IDE",
+			"previous_names": ["Miva Template Language (MVT)"],
+			"details": "https://github.com/mghweb/sublime-miva-ide",
 			"author": "Max Hegler",
-			"labels": ["miva", "mvt", "syntax", "language"],
+			"labels": ["miva", "mvt", "mivascript", "miva script", "language syntax", "snippets", "auto-complete", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1772,6 +1774,16 @@
 			]
 		},
 		{
+			"name": "Mongo Aggregate Snippets",
+			"details": "https://github.com/kioyong/Mongo-Aggregate-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MongoDB - PHP Completions",
 			"details": "https://github.com/Kristories/Sublime-Mongo-PHP",
 			"releases": [
@@ -1928,6 +1940,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Monokai++",
+			"details": "https://github.com/dcasella/monokai-plusplus",
+			"labels": ["monokai", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MonokaiFree",
+			"details": "https://github.com/gerardroche/sublime-monokai-free",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2283,6 +2317,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MUMPS",
+			"details": "https://github.com/ksherlock/MUMPS.tmbundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
