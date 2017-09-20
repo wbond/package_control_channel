@@ -2,6 +2,17 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "P3 Assembly",
+			"details": "https://github.com/rgcv/p3assembly-sublime-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "P4 Syntax Highlighter",
 			"details": "https://github.com/c3m3gyanesh/p4-syntax-highlighter",
 			"releases": [
@@ -49,11 +60,11 @@
 			"author": ["guillermooo", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "<3092",
+					"sublime_text": "<3118",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": ">=3118",
 					"tags": true
 				}
 			]
@@ -1313,7 +1324,7 @@
 		{
 			"name": "phpunitkit",
 			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["php", "phpunit", "test", "testing", "unit", "unit test"],
+			"labels": ["phpunit", "php", "testing", "tdd"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1578,6 +1589,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Polymer Syntax",
+			"details": "https://github.com/jaychsu/sublime-polymer-syntax",
+			"labels": ["syntax", "polymer", "web component"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -2254,6 +2276,17 @@
 			]
 		},
 		{
+			"name": "PureScript IDE",
+			"details": "https://github.com/b123400/purescript-ide-sublime",
+			"labels": ["ide"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PurpleHaze",
 			"details": "https://github.com/klomontes/purple-haze-color-scheme",
 			"labels": ["color scheme"],
@@ -2374,6 +2407,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pynsist",
+			"details": "https://github.com/idleberg/sublime-pynsist",
+			"labels": ["build-system", "language syntax", "nsis", "python"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -2527,6 +2571,16 @@
 				}
 			]
 		},
+		{
+			"name": "Python Debugger",
+			"details": "https://github.com/wvlia5/SublimeDebugger",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},		
 		{
 			"name": "Python Fix Imports",
 			"details": "https://github.com/Stibbons/python-fiximports",
