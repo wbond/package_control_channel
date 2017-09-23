@@ -2466,17 +2466,6 @@
 			]
 		},
 		{
-			"name": "color_scheme_unit",
-			"details": "https://github.com/gerardroche/sublime_color_scheme_unit",
-			"labels": ["color scheme", "testing"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Colorcoder",
 			"details": "https://github.com/vprimachenko/Sublime-Colorcoder",
 			"releases": [
@@ -2526,6 +2515,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ColorSchemeUnit",
+			"details": "https://github.com/gerardroche/sublime-color-scheme-unit",
+			"labels": ["color scheme", "testing"],
+			"previous_names": ["color_scheme_unit"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
