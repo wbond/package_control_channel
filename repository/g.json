@@ -145,7 +145,11 @@
 			"labels": ["language syntax", "color scheme", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3084",
+					"branch": "st2"
+				},
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
