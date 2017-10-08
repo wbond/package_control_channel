@@ -23,6 +23,17 @@
 			]
 		},
 		{
+			"name": "F5 iRules",
+			"details": "https://github.com/ArtiomL/sublime-f5-irules",
+			"labels": ["language syntax", "snippets", "color scheme", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fabric Engine - KL Language Support",
 			"details": "https://github.com/fabric-engine/Sublime-KL",
 			"previous_names": ["Creation Platform - KL Language Support"],
@@ -50,6 +61,30 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Factor",
+			"details": "https://github.com/rkoeninger/sublime-factor",
+			"readme": "https://raw.githubusercontent.com/rkoeninger/sublime-factor/master/README.md",
+			"author": "Robert Koeninger",
+			"labels": ["factor", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FactoryBoy",
+			"details": "https://github.com/mgaitan/sublime-factoryboy",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -134,6 +169,20 @@
 			]
 		},
 		{
+			"name": "FancyWord",
+			"details": "https://github.com/easton042/FancyWord",
+			"homepage": "https://eastonlee.com/blog/2017/03/31/fancyword-a-sublimetext-plugin-that-improves-your-word-choice-in-english-writing/",
+			"author": "Easton Lee",
+			"labels": ["dictionary", "English", "word2vec"],
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5FBKLLDUX9KKY&lc=US&item_name=EastonLee&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fantom",
 			"details": "https://github.com/mgiannini/sublime-fantom",
 			"author": "Matthew Giannini",
@@ -171,6 +220,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FASTBuild",
+			"details": "https://github.com/Manuzor/FASTBuild-Sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -215,6 +274,16 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "Favorites",
+			"details": "https://github.com/oleg-shilo/sublime-favorites",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -281,12 +350,34 @@
 			]
 		},
 		{
+			"name": "FEG Snippets",
+			"details": "https://github.com/w3cmark/feg-sublime-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FEI Syntax-n-Snippets",
 			"details": "https://github.com/jaabell/fei-syntax-n-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Felix",
+			"details": "https://github.com/fuzzthink/sublime-felix",
+			"labels": ["language syntax", "felix"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -392,7 +483,8 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
+					"tags": true,
+					"dependencies": ["package_events", "pathtools", "watchdog"]
 				}
 			]
 		},
@@ -470,6 +562,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FileManager",
+			"details": "https://github.com/math2001/FileManager",
+			"labels": ["sidebar", "folder", "file", "clipboard", "terminal", "file creation", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -685,11 +788,33 @@
 			]
 		},
 		{
+			"details": "https://github.com/Wramberg/FindInProject",
+			"labels": ["find", "search", "project"],
+			"name": "FindInProject",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/skuroda/FindKeyConflicts",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FindResultsBufferUtils",
+			"details": "https://github.com/mattst/SublimeFindResultsBufferUtils",
+			"labels": ["search", "find results"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -780,17 +905,6 @@
 			]
 		},
 		{
-			"name": "five_easy_color_schemes",
-			"details": "https://github.com/gerardroche/sublime_five_easy_color_schemes",
-			"labels": ["color scheme", "monokai", "solarized"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Fix Mac Path",
 			"details": "https://github.com/int3h/SublimeFixMacPath",
 			"labels": ["terminal", "repl"],
@@ -858,7 +972,7 @@
 		},
 		{
 			"name": "Flask Starter",
-			"details": "https://github.com/geekpradd/Sublime-Flask-Starter",
+			"details": "https://github.com/JoePriesto/Sublime-Flask-Starter",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -985,6 +1099,17 @@
 			]
 		},
 		{
+			"name": "FlowType",
+			"details": "https://github.com/Pegase745/sublime-flowtype",
+			"labels": ["formatting", "auto-complete", "linting", "coverage", "flow", "javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "fluent-logger",
 			"details": "https://github.com/airtoxin/fluent-logger-sublimetext",
 			"releases": [
@@ -1071,6 +1196,16 @@
 			]
 		},
 		{
+			"name": "Fold Javascript Functions",
+			"details": "https://github.com/LuckyKat/sublime-fold-functions",
+			"releases": [
+				{
+					"sublime_text": ">=3125",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fold Python",
 			"details": "https://github.com/svenfraeys/SublimeFoldPython",
 			"releases": [
@@ -1143,6 +1278,17 @@
 			]
 		},
 		{
+			"name": "FoldFunctions",
+			"previous_names": ["Fold Functions"],
+			"details": "https://github.com/math2001/FoldFunctions",
+			"releases": [
+				{
+					"sublime_text": ">=3126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Follow Function PHP",
 			"details": "https://github.com/draffter/FollowFunctionPHP",
 			"releases": [
@@ -1155,6 +1301,17 @@
 		{
 			"name": "FontCycler",
 			"details": "https://github.com/akshaykumar90/sublime-font-cycler",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Format JSDoc @params",
+			"details": "https://bitbucket.org/finitewisdom/sublime-jsdocparam",
+			"labels": ["jsdoc", "javascript", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1200,6 +1357,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Foundation 6 Autocomplete",
+			"details": "https://github.com/webchun/foundation-6-sublime-autocomplete",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1329,6 +1497,17 @@
 			]
 		},
 		{
+			"name": "FSL - Finite State Language",
+			"details": "https://github.com/StoneCypher/sublime-fsl",
+			"labels": ["fsl", "javascript", "state machine", "finite state machine", "fsm", "jssm", "language syntax", "flowchart"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FSP Syntax",
 			"details": "https://github.com/toboid/sublime-fsp-syntax",
 			"labels": ["syntax", "fsp", "ltsa"],
@@ -1412,6 +1591,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "fundamentals Snippets",
+			"details": "https://github.com/thespacedoctor/fundamentals-Sublime-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
