@@ -422,21 +422,7 @@
 				}
 			]
 		},
-		{
-			"name": "pexpect",
-			"load_order": "01",
-			"description": "Python pexpect module",
-			"author": "varp",
-			"issues": "https://github.com/varp/sublime-pexpect/issues",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"base": "https://github.com/varp/sublime-pexpect",
-					"tags": true
-				}
-			]
-		},
-    {
+                {
 			"name": "pathtools",
 			"load_order": "10",
 			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
@@ -447,6 +433,20 @@
 					"base": "https://github.com/vovkkk/sublime-pathtools",
 					"sublime_text": "*",
 					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pexpect",
+			"load_order": "01",
+			"description": "Python pexpect module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-pexpect/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/varp/sublime-pexpect",
 					"tags": true
 				}
 			]
