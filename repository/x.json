@@ -139,7 +139,7 @@
 		{
 			"name": "xpath",
 			"details": "https://github.com/rosshadden/sublime-xpath",
-			"labels": ["clipboard", "preview"],
+			"labels": ["xml", "xpath", "xquery", "clipboard", "preview"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -162,12 +162,33 @@
 			]
 		},
 		{
+			"name": "XPX",
+			"details": "https://github.com/infocosme/sublime_xpx",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "XQuery",
 			"details": "https://github.com/PogiNate/XQuery-Sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "XSL",
+			"details": "https://github.com/packagecontrol/XSL",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3083",
+					"tags": true
 				}
 			]
 		},
@@ -189,6 +210,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "XssEncode",
+			"description": "Converts characters from one encoding to another using a transformation.",
+			"details": "https://github.com/medicean/SublimeXssEncode",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

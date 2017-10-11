@@ -24,6 +24,18 @@
 			]
 		},
 		{
+			"name": "WAI-ARIA",
+			"previous_names": ["ARIA attributes and roles"],
+			"details": "https://github.com/indrekpaas/sublime-wai-aria",
+			"labels": ["a11y", "accessibility", "auto-complete", "html", "snippets", "wai-aria"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
 			"labels": ["time tracking", "coding", "utilities"],
@@ -37,6 +49,7 @@
 		{
 			"name": "Wanderlei Color Scheme",
 			"details": "https://github.com/JeremySaks/wanderlei-color-scheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -56,9 +69,19 @@
 			]
 		},
 		{
-			"name": "WaveOC Apex Snippets",
-			"details": "https://github.com/adashko/WaveOC-Snippet",
-			"labels": ["snippets"],
+			"name": "WarpScript",
+			"details": "https://github.com/cityzendata/sublime-warpscript",
+			"labels": ["syntax", "highlight", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Waxeye",
+			"details": "https://github.com/tijn/sublime-waxeye",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -67,8 +90,32 @@
 			]
 		},
 		{
-			"name": "Waxeye",
-			"details": "https://github.com/tijn/sublime-waxeye",
+			"name": "WD AngularJS Snippets",
+			"details": "https://github.com/k3v3n/wd-angular-js-snippets",
+			"labels": ["autocomplete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WDL Syntax",
+			"details": "https://github.com/broadinstitute/wdl-sublime-syntax-highlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Weave",
+			"details": "https://github.com/mailtoharshit/Weave",
+			"labels": ["autocomplete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -171,12 +218,44 @@
 			]
 		},
 		{
+			"name": "WebHare",
+			"details": "https://github.com/WebHare/sublime-package",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Webloader",
 			"details": "https://github.com/rozsahegyi/sublime-webloader",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Webloc-open",
+			"details": "https://github.com/russianidiot/Sublime-webloc-open",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WebOS",
+			"details": "https://github.com/Tenzer/WebOS",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -196,6 +275,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WeexTemplate",
+			"details": "https://github.com/devilthrone/WeexTemplate",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -261,6 +350,17 @@
 			]
 		},
 		{
+			"name": "WhizzML",
+			"details": "https://github.com/whizzml/whizzml-sublime",
+			"labels": ["st-3", "auto-complete", "language syntax", "machine learning"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WhoCalled Function Finder",
 			"details": "https://bitbucket.org/rablador/whocalled",
 			"previous_names": ["WhoCalled"],
@@ -268,6 +368,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "develop"
+				}
+			]
+		},
+		{
+			"name": "WhooshSearch",
+			"details": "https://github.com/rokartnaz/WhooshSearch",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -355,6 +465,17 @@
 			]
 		},
 		{
+			"name": "Window Mode",
+			"details": "https://github.com/rwols/WindowMode",
+			"labels": ["utilities", "window", "status bar"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/WinMerge",
 			"releases": [
 				{
@@ -397,6 +518,18 @@
 			]
 		},
 		{
+			"name": "wkhtmltopdf",
+			"details": "https://github.com/jrappen/sublime-wkhtmltopdf",
+			"donate": "https://www.paypal.me/jrappen",
+			"labels": ["html", "pdf", "utilities", "utils"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WLST",
 			"details": "https://github.com/Joelith/sublime-wlst",
 			"releases": [
@@ -412,6 +545,49 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Wolf Theme",
+			"details": "https://github.com/wolf-theme/sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Wolfram Mathematica Notebook Viewer",
+			"details": "https://github.com/chere005/Sublime-WolframMathematicaNotebookViewer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WolframAlpha Lookup",
+			"details": "https://github.com/PapaCharlie/WolframAlphaLookup/",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WolframLanguage",
+			"details": "https://github.com/ViktorQvarfordt/Sublime-WolframLanguage",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -467,12 +643,14 @@
 			]
 		},
 		{
-			"details": "https://github.com/titoBouzout/WordCount",
-			"readme": "https://raw.githubusercontent.com/titoBouzout/WordCount/st3/readme.md",
+			"name": "WordCount",
+			"details": "https://github.com/philipbelesky/WordCount",
+			"homepage": "https://github.com/titoBouzout/WordCount",
+			"author": "titoBouzout",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "st3"
+					"tags": true
 				}
 			]
 		},
@@ -503,6 +681,27 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordPress Completions",
+			"details": "https://github.com/kallookoo/sublime-text-wordpress",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WordPress Customizer",
+			"details": "https://github.com/ahmadawais/Sublime-WP-Customizer",
+			"labels": ["st3", "st2", "wordpress", "customizer", "wp customizer", "wordpress customizer", "wp customize", "wordpress customize", "developer", "codex", "search", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -538,6 +737,17 @@
 			]
 		},
 		{
+			"name": "WordPress Snippets",
+			"details": "https://github.com/Dartui/sublime-wordpress-snippets",
+			"labels": ["st3", "st2", "wordpress", "snippets", "development"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WordpressDev",
 			"details": "https://github.com/huntlyc/Sublime-Wordpress-Dev-Plugin",
 			"releases": [
@@ -553,6 +763,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "World of Warcraft Macro Syntax",
+			"details": "https://github.com/kigiri/wow-macro-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -609,6 +830,17 @@
 			]
 		},
 		{
+			"name": "WPCS Whitelist Flags",
+			"details": "https://github.com/barryceelen/sublime-wpcs-whitelist-flags",
+			"labels": ["wordpress", "wpcs", "wordpress coding standards"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "wpseek.com WordPress Developer Assistant",
 			"details": "https://github.com/wpseek/sublime-text-2-wpseek",
 			"previous_names": ["wpseek.com WordPress Function Lookup"],
@@ -616,6 +848,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WRAMPAssemblyLanguage",
+			"details": "https://github.com/ZeddSerjeant/WrampAssemblyLanguange",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -636,6 +878,19 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},		
+		{
+			"name": "WrapIt",
+			"description": "Wrap Contents With Specific Code",
+			"details": "https://github.com/pyking2/WrapIt",				
+			"previous_names": ["Wrapper"],
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -697,6 +952,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "wxapp",
+			"details": "https://github.com/FloydaGithub/wxapp",
+			"labels": ["wechat", "wxapp", "mini-program"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
