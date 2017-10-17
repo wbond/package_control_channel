@@ -76,6 +76,16 @@
 			]
 		},
 		{
+			"name": "BackgroundColorEdit",
+			"details": "https://github.com/gsboylan/Sublime-BackgroundColorEdit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Badges",
 			"details": "https://github.com/idleberg/sublime-badges",
 			"labels": ["snippets", "badges", "markdown", "restructuredtext", "textile"],
@@ -104,6 +114,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Baobab React ES6 Snippets",
+			"details": "https://github.com/luccitan/sublime-baobab-react-es6",
+			"labels": ["snippets", "jsx", "es6", "react", "baobab", "root", "branch"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -147,6 +168,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Base16 Eighties Dark Color Scheme",
+			"details": "https://github.com/pgaspar/base16-eighties-dark",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -404,7 +436,7 @@
 		},
 		{
 			"name": "Better Build System",
-			"details": "https://bitbucket.org/ArtDesire/better-build-system",
+			"details": "https://bitbucket.org/iamart/better-build-system",
 			"labels": ["build system"],
 			"releases": [
 				{
@@ -462,6 +494,17 @@
 			]
 		},
 		{
+			"name": "Better Less",
+			"details": "https://github.com/radium-v/better-less",
+			"labels": ["less", "language syntax", "css"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Better RSpec",
 			"details": "https://github.com/fnando/better-rspec-for-sublime-text",
 			"labels": ["language syntax", "snippets"],
@@ -479,6 +522,39 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BetterFindNext",
+			"details": "https://github.com/notbaab/BetterFindNext",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BetterSnippetManager",
+			"details": "https://github.com/math2001/BetterSnippetManager",
+			"labels": ["snippets", "utilities", "file open", "code navigation", "utils", "file creation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BetterSwitchHeaderImplementation",
+			"details": "https://github.com/rwols/BetterSwitchHeaderImplementation",
+			"labels": ["utilities", "file open", "code navigation", "c", "c++", "objective-c", "objective-c++"],
+			"releases":
+			[
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -548,6 +624,16 @@
 			]
 		},
 		{
+			"name": "Biml",
+			"details": "https://github.com/sorrell/subiml",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BinaryPlist",
 			"details": "https://github.com/tyrone-sudeium/st3-binaryplist",
 			"labels": ["language syntax"],
@@ -606,6 +692,18 @@
 			"releases": [
 				{
 					"sublime_text": ">3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"details": "https://github.com/dtao/SublimeBucket",
+			"labels": ["bitbucket", "git", "mercurial"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["*"],
 					"tags": true
 				}
 			]
@@ -682,16 +780,6 @@
 			]
 		},
 		{
-			"name": "Blade Spacer",
-			"details": "https://github.com/austenc/blade-spacer",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "BlameHighlighter",
 			"details": "https://github.com/skyronic/BlameHighlighter",
 			"releases": [
@@ -723,7 +811,7 @@
 		},
 		{
 			"name": "BlitzMax",
-			"details": "https://bitbucket.org/muttley/sublimetext.blitzmax",
+			"details": "https://github.com/Muttley/sublimetext-blitzmax",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -916,6 +1004,16 @@
 			]
 		},
 		{
+			"name": "BorkFilesSyntaxHighlighting",
+			"details": "https://github.com/frdmn/sublime-bork-files-syntax-highlighting",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Boron Color Scheme",
 			"details": "https://github.com/mjio/boron.tmtheme",
 			"labels": ["color scheme"],
@@ -970,7 +1068,6 @@
 		{
 			"name": "BowerInjector",
 			"details": "https://github.com/ismnoiet/BowerInjector",
-			"issues": "https://github.com/ismnoiet/BowerInjector/issues",
 			"labels": ["bower injector","bower","inject","css","js"],
 			"releases": [
 				{
@@ -983,8 +1080,8 @@
 		{
 			"name": "Boxy Theme",
 			"previous_names": ["Theme - Otto"],
-			"details": "https://github.com/oivva/sublime-boxy",
-			"author": "oivva",
+			"details": "https://github.com/ihodev/sublime-boxy",
+			"author": "ihodev",
 			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
@@ -995,8 +1092,8 @@
 		},
 		{
 			"name": "Boxy Theme Addon - Font Face",
-			"details": "https://github.com/oivva/sublime-boxy-addon-font-face",
-			"author": "oivva",
+			"details": "https://github.com/ihodev/sublime-boxy-addon-font-face",
+			"author": "ihodev",
 			"labels": ["theme", "addon", "font"],
 			"releases": [
 				{
@@ -1008,8 +1105,8 @@
 		{
 			"name": "Boxy Theme Addon - Mono File Icons",
 			"previous_names": ["Boxy Theme Addon - Mono File Icons - Dark UI"],
-			"details": "https://github.com/oivva/sublime-boxy-addon-mono-file-icons",
-			"author": "oivva",
+			"details": "https://github.com/ihodev/sublime-boxy-addon-mono-file-icons",
+			"author": "ihodev",
 			"labels": ["theme", "addon", "icons"],
 			"releases": [
 				{
@@ -1021,8 +1118,8 @@
 		{
 			"name": "Boxy Theme Addon - Widget Font Size",
 			"previous_names": ["Boxy Theme Addon - Widget Font LG"],
-			"details": "https://github.com/oivva/sublime-boxy-addon-widget-font-size",
-			"author": "oivva",
+			"details": "https://github.com/ihodev/sublime-boxy-addon-widget-font-size",
+			"author": "ihodev",
 			"labels": ["theme", "addon", "font"],
 			"releases": [
 				{
@@ -1077,6 +1174,17 @@
 			]
 		},
 		{
+			"name": "BracketSpacer",
+			"details": "https://github.com/mreq/BracketSpacer",
+			"labels": ["brackets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Brainfuck",
 			"details": "https://github.com/Drako/SublimeBrainfuck",
 			"releases": [
@@ -1103,6 +1211,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Breadcrumbs",
+			"details": "https://github.com/qbolec/Breadcrumbs",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1205,6 +1323,17 @@
 			]
 		},
 		{
+			"name": "BSScript",
+			"details": "https://github.com/rusiv/BSScript",
+			"labels": ["language syntax", "snippets", "build system", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bubububububad and Boneyfied Color Schemes",
 			"details": "https://github.com/eibbors/Bubububububad",
 			"labels": ["color scheme"],
@@ -1276,6 +1405,18 @@
 			]
 		},
 		{
+			"name": "Bulma CSS Framework autocomplete",
+			"details": "https://github.com/leuchte/bulma-autocomplete",
+			"author": "Leuchte",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bunting Language",
 			"details": "https://github.com/xhacker/Bunting.tmLanguage",
 			"labels": ["language syntax"],
@@ -1289,11 +1430,21 @@
 		{
 			"name": "Business Catalyst Liquid Snippets",
 			"details": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin",
-			"issues": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin/issues",
 			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BZW Language",
+			"details": "https://github.com/allejo/sublime-language-bzw",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

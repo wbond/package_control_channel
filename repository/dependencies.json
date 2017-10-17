@@ -60,6 +60,21 @@
 			]
 		},
 		{
+			"name": "bson",
+			"load_order": "50",
+			"description": "Independent BSON codec for Python that doesn’t depend on MongoDB - https://github.com/py-bson/bson",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-bson/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-bson",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -192,6 +207,20 @@
 			]
 		},
 		{
+			"name": "gntp",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Growl Notification Transport Protocol library.",
+			"issues": "https://github.com/facelessuser/sublime-gntp/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-gntp",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "golangconfig",
 			"load_order": "10",
 			"description": "A library for Go environment configuration",
@@ -203,6 +232,20 @@
 					"tags": true,
 					"sublime_text": "*",
 					"platforms": ["*"]
+				}
+			]
+		},
+		{
+			"name": "jsonschema",
+			"load_order": "55",
+			"description": "An(other) implementation of JSON Schema for Python",
+			"author": "kylebebak",
+			"issues": "https://github.com/kylebebak/sublime-jsonschema/issues",
+			"releases": [
+				{
+					"base": "https://github.com/kylebebak/sublime-jsonschema",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
@@ -245,7 +288,7 @@
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
 					"tags": true,
-					"sublime_text": ">=3080"
+					"sublime_text": ">=3124"
 				}
 			]
 		},
@@ -350,6 +393,21 @@
 			]
 		},
 		{
+			"name": "package_setting_context",
+			"load_order": "01",
+			"description": "Allow final user to disable key bindings with very few changes needed from the dev",
+			"author": "math2001",
+			"issues": "https://github.com/math2001/PackageSettingContext/issues",
+			"releases": [
+				{
+					"base": "https://github.com/math2001/PackageSettingContext",
+					"sublime_text": "*",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "paramiko",
 			"load_order": "51",
 			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
@@ -395,6 +453,20 @@
 			]
 		},
 		{
+			"name": "pyfispip",
+			"load_order": "50",
+			"description": " Python FIS MTM/PIP SQL/RPC Interface",
+			"author": "fopina",
+			"issues": "https://github.com/fopina/sublime-pyfispip/issues",
+			"releases": [
+				{
+					"base": "https://github.com/fopina/sublime-pyfispip",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pygments",
 			"load_order": "01",
 			"description": "Python pygments module",
@@ -405,6 +477,20 @@
 					"base": "https://github.com/packagecontrol/pygments",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pymdownx",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "PyMdown Extensions for Python Markdown",
+			"issues": "https://github.com/facelessuser/sublime-pymdownx/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-pymdownx",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
@@ -494,6 +580,20 @@
 			]
 		},
 		{
+			"name": "regex",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "Regex Module",
+			"issues": "https://github.com/facelessuser/sublime-regex/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-regex",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "requests",
 			"load_order": "50",
 			"description": "Python requests module",
@@ -518,6 +618,20 @@
 					"base": "https://github.com/packagecontrol/requests-oauthlib",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "ruamel-yaml",
+			"load_order": "01",
+			"description": "Python ruamel.yaml module",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/Thom1729/sublime-ruamel/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Thom1729/sublime-ruamel",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
@@ -657,6 +771,21 @@
 					"sublime_text": ">=3070",
 					"base": "https://github.com/huot25/StyledPopup",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeP4Python",
+			"load_order": "51",
+			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
+			"author": "mrelusive",
+			"issues": "https://github.com/MrElusive/SublimeP4Python/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true,
+					"base": "https://github.com/MrElusive/SublimeP4Python"
 				}
 			]
 		},

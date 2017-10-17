@@ -22,11 +22,15 @@
 			]
 		},
 		{
-			"details": "https://github.com/frankban/UbuntuPaste",
+			"details": "https://github.com/3v1n0/UbuntuPaste",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -141,6 +145,18 @@
 			]
 		},
 		{
+			"name": "Undo Close Tab",
+			"details": "https://github.com/scriptburn/sublimetext-undoclosetabs",
+			"author": "Rajneesh kumar ojha",
+			"labels": ["undo","tab"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Unicode Character Highlighter",
 			"details": "https://github.com/possan/sublime_unicode_nbsp",
 			"releases": [
@@ -222,6 +238,16 @@
 			]
 		},
 		{
+			"name": "Unit Test File Toggler",
+			"details": "https://github.com/mjj2000/SublimeUnitTestFileToggler",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UnitJS",
 			"details": "https://github.com/unitjs/sublime-unitjs",
 			"labels": ["javascript", "nodejs", "testing", "snippets", "auto-complete"],
@@ -271,6 +297,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unity Shader",
+			"details": "https://github.com/waqiju/unity_shader_st3",
+			"labels": ["language syntax", "auto-complete", "shader"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -332,7 +369,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -413,12 +450,31 @@
 			"name": "Unyson Snippets",
 			"details": "https://github.com/XeCreators/Unyson-Snippets-Sublime",
 			"homepage": "http://unyson.io/",
-			"issues": "https://github.com/XeCreators/Unyson-Snippets-Sublime/issues",
 			"labels": ["snippets"],
 			"author": "xecreators",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "url-utils",
+			"details": "https://github.com/ulasozguler/url-utils",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "UrlConverter",
+			"details": "https://github.com/gh640/SublimeUrlConverter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -433,12 +489,33 @@
 			]
 		},
 		{
+			"name": "uroboroSQL Formatter",
+			"details": "https://github.com/future-architect/Sublime-uroboroSQL-formatter",
+			"labels": ["sql", "formatting", "formatter"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UWSC",
 			"details": "https://github.com/stuncloud/Sublime_UWSC",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UXCore",
+			"details": "https://github.com/recore/uxcore-plugin-for-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
