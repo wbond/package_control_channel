@@ -2276,19 +2276,9 @@
 		},
 		{
 			"name": "PureScript",
-			"details": "https://github.com/joneshf/sublime-purescript",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "PureScript IDE",
 			"details": "https://github.com/b123400/purescript-ide-sublime",
-			"labels": ["ide"],
+			"labels": ["language syntax", "ide"],
+			"previous_names": ["PureScript IDE"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2590,7 +2580,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Python Fix Imports",
 			"details": "https://github.com/Stibbons/python-fiximports",
