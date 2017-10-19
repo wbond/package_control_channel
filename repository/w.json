@@ -102,6 +102,17 @@
 			]
 		},
 		{
+			"name": "WDL Syntax",
+			"details": "https://github.com/broadinstitute/wdl-sublime-syntax-highlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Weave",
 			"details": "https://github.com/mailtoharshit/Weave",
 			"labels": ["autocomplete", "snippets"],
@@ -207,6 +218,17 @@
 			]
 		},
 		{
+			"name": "WebHare",
+			"details": "https://github.com/WebHare/sublime-package",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Webloader",
 			"details": "https://github.com/rozsahegyi/sublime-webloader",
 			"releases": [
@@ -253,6 +275,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WeexTemplate",
+			"details": "https://github.com/devilthrone/WeexTemplate",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -518,6 +550,28 @@
 			]
 		},
 		{
+			"name": "Wolf Theme",
+			"details": "https://github.com/wolf-theme/sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Wolfram Mathematica Notebook Viewer",
+			"details": "https://github.com/chere005/Sublime-WolframMathematicaNotebookViewer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WolframAlpha Lookup",
 			"details": "https://github.com/PapaCharlie/WolframAlphaLookup/",
 			"releases": [
@@ -632,7 +686,7 @@
 		},
 		{
 			"name": "WordPress Completions",
-			"details": "https://github.com/23r9i0/sublime-text-wordpress",
+			"details": "https://github.com/kallookoo/sublime-text-wordpress",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -776,6 +830,17 @@
 			]
 		},
 		{
+			"name": "WPCS Whitelist Flags",
+			"details": "https://github.com/barryceelen/sublime-wpcs-whitelist-flags",
+			"labels": ["wordpress", "wpcs", "wordpress coding standards"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "wpseek.com WordPress Developer Assistant",
 			"details": "https://github.com/wpseek/sublime-text-2-wpseek",
 			"previous_names": ["wpseek.com WordPress Function Lookup"],
@@ -815,12 +880,13 @@
 					"branch": "master"
 				}
 			]
-		},
+		},		
 		{
-			"name": "Wrapper",
+			"name": "WrapIt",
 			"description": "Wrap Contents With Specific Code",
-			"details": "https://github.com/lattespirit/SublimeWrapper",
-			"author": "Lattespirit",
+			"details": "https://github.com/pyking2/WrapIt",				
+			"previous_names": ["Wrapper"],
+			"labels": ["text manipulation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

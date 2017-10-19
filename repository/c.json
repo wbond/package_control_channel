@@ -131,6 +131,17 @@
 			]
 		},
 		{
+			"name": "Caddyfile Syntax",
+			"details": "https://github.com/caddyserver/sublimetext",
+			"labels": ["language syntax", "syntax highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Caffe Prototxt Syntax",
 			"details": "https://github.com/zironycho/sublime-caffe-prototxt-syntax",
 			"labels": ["language syntax"],
@@ -682,7 +693,6 @@
 			"author": "Victor Rachieru",
 			"description" : "Quick reference for those pesky little details that just won't stay in your head.",
 			"details": "https://github.com/vrachieru/cheatsheet",
-			"issues": "https://github.com/vrachieru/cheatsheet/issues",
 			"labels": ["cheatsheet", "documentation", "snippets", "utilities"],
 			"releases": [
 				{
@@ -858,6 +868,17 @@
 			]
 		},
 		{
+			"name": "ChipseaAssembly",
+			"details": "https://github.com/junglefive/ChipseaAssembly",
+			"labels": ["chipsea", "csAssembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chmod",
 			"details": "https://github.com/kristoformaynard/SublimeChmod",
 			"releases": [
@@ -943,25 +964,25 @@
 			]
 		},
 		{
-			"name": "Chromium X-Refs",
-			"author": "Josh Karlin",
-			"description": "Shows Chromium code cross-references from cs.chromium.org",
-			"details": "https://github.com/karlinjf/ChromiumXRefs",
-			"issues": "https://github.com/karlinjf/ChromiumXRefs/issues",
-			"labels": ["chrome", "chromium", "cross reference", "references", "code search", "call graph"],
-			"releases": [
-				{
-					"sublime_text": ">=3118",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "ChromiumTodoView",
 			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChromiumXRefs",
+			"previous_names": ["Chromium X-Refs"],
+			"author": "Josh Karlin",
+			"description": "Shows Chromium code cross-references from cs.chromium.org",
+			"details": "https://github.com/karlinjf/ChromiumXRefs",
+			"labels": ["chrome", "chromium", "cross reference", "references", "code search", "call graph"],
+			"releases": [
+				{
+					"sublime_text": ">=3118",
 					"tags": true
 				}
 			]
@@ -993,7 +1014,6 @@
 			"author": "Tony Ennis",
 			"description" : "Send text to an API & insert a snippet in it's place.",
 			"details": "https://github.com/tonyennis145/chunks-sublime",
-			"issues": "https://github.com/tonyennis145/chunks-sublime/issues",
 			"labels": ["snippets", "utilities"],
 			"releases": [
 				{
@@ -1011,6 +1031,19 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Ciapre Mod",
+			"author": "Jztsaurabh",
+			"description" : "Started with Ciapre but it's gone a long way and hugely changed",
+			"details": "https://github.com/jztsaurabh/CiapreMod-Sublime-Text",
+			"labels": ["colorscheme", "ciapre", "dark colorscheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1083,7 +1116,7 @@
 			"labels": ["CJSX", "syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -1158,7 +1191,18 @@
 		},
 		{
 			"name": "ClassName",
-			"details": "https://github.com/lite3/Sublime-ClassName",
+			"details": "https://github.com/litefeel/Sublime-ClassName",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Claudinho",
+			"details": "https://github.com/gkal19/claudinho",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1243,6 +1287,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ClickableRequires",
+			"details": "https://github.com/hajnalben/ClickableRequires",
+			"labels": ["require", "node", "javascript", "js"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1359,6 +1414,17 @@
 			]
 		},
 		{
+			"name": "CloseMinimapOnMultiView",
+			"details": "https://github.com/alkuzad/CloseMinimapOnMultiView",
+			"labels": ["code navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CloseOtherWindows",
 			"details": "https://github.com/werkzeugh/CloseOtherWindows_SublimePlugin",
 			"releases": [
@@ -1405,7 +1471,7 @@
 			"labels": ["workflow", "build system"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1438,6 +1504,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "cmd-caller",
+			"details": "https://github.com/esphas/cmd-caller",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1493,17 +1569,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "coati",
-			"details": "https://github.com/CoatiSoftware/sublime-coati",
-			"labels": ["utilities"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1926,6 +1991,16 @@
 			]
 		},
 		{
+			"name": "CodeStory",
+			"details": "https://github.com/dperetti/sublime-codestory",
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeTestSwitcher",
 			"details": "https://github.com/maltize/sublime-text-code-test-switcher",
 			"releases": [
@@ -2051,6 +2126,17 @@
 			]
 		},
 		{
+			"name": "CoffeeScript Ddry Snippets",
+			"details": "https://github.com/ddry/ddry-sublime-coffee-snippets",
+			"labels": [ "snippets" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CoffeeScript Function Finder",
 			"details": "https://github.com/edubkendo/sublime-coffeescript-function-finder",
 			"releases": [
@@ -2101,6 +2187,17 @@
 			]
 		},
 		{
+			"name": "CollaBroText",
+			"details": "https://github.com/shantanu3637/CollaBroText",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"platforms": ["linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Collider Snippets",
 			"details": "https://github.com/simonsinclair/collider-snippets",
 			"releases": [
@@ -2127,7 +2224,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2245,6 +2342,17 @@
 			]
 		},
 		{
+			"name": "Color Scheme - Legacy",
+			"details": "https://github.com/SublimeText/LegacyColorSchemes",
+			"labels": ["color scheme", "legacy"],
+			"releases": [
+				{
+					"sublime_text": ">3131",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - Nice Blue Soda",
 			"details": "https://bitbucket.org/DanielSiepmann/color-scheme-nice-blue-soda",
 			"author": "Daniel Siepmann",
@@ -2253,6 +2361,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "default"
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Pastels UI",
+			"author": "E1ectroN",
+			"details": "https://github.com/e1ectron/sublime-pastels-ui",
+			"labels": [ "color scheme" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2357,17 +2477,6 @@
 			]
 		},
 		{
-			"name": "color_scheme_unit",
-			"details": "https://github.com/gerardroche/sublime_color_scheme_unit",
-			"labels": ["test", "framework", "assert", "unit test", "color scheme"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Colorcoder",
 			"details": "https://github.com/vprimachenko/Sublime-Colorcoder",
 			"releases": [
@@ -2421,6 +2530,18 @@
 			]
 		},
 		{
+			"name": "ColorSchemeUnit",
+			"details": "https://github.com/gerardroche/sublime-color-scheme-unit",
+			"labels": ["color scheme", "testing"],
+			"previous_names": ["color_scheme_unit"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Colorsublime",
 			"details": "https://github.com/Colorsublime/Colorsublime-Plugin",
 			"labels": ["color scheme"],
@@ -2428,6 +2549,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "colorToVal",
+			"details": "https://github.com/yh418807968/colorToVal",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2511,8 +2642,28 @@
 			]
 		},
 		{
+			"name": "Combiner",
+			"details": "https://github.com/bite-your-idols/Combiner",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Combyne",
 			"details": "https://github.com/kadamwhite/Sublime-Combyne",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ComicSansToggle",
+			"details": "https://github.com/seangoedecke/sublime-comic-sans-toggle/",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2678,12 +2829,48 @@
 			]
 		},
 		{
+			"name": "CompletePHP",
+			"details": "https://github.com/desean1625/CompletePHP",
+			"author": "Desean1625",
+			"labels": ["completions","php","documentation","auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ComplexBuild",
+			"details": "https://github.com/lucteo/ComplexBuild",
+			"author": "lucteo",
+			"labels": ["build system","workflow"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Composer",
 			"details": "https://github.com/francodacosta/composer-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ComposerPackageInfo",
+			"details": "https://github.com/gh640/SublimeComposerPackageInfo",
+			"author": "Goto Hayato",
+			"labels": ["php", "composer"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
 				}
 			]
 		},
@@ -2706,6 +2893,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Conda",
+			"details": "https://github.com/mandeep/sublime-text-conda",
+			"labels": ["snippets", "build system", "utilities", "python", "search", "anaconda", "miniconda", "conda"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2899,6 +3097,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Copy as HTML",
+			"details": "https://github.com/liulex/CopyAsHtml",
+			"labels": ["copy", "html", "clipboard"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -3156,11 +3366,32 @@
 			]
 		},
 		{
+			"name": "CPP Competitive Programming Snippets",
+			"details": "https://github.com/MeghaSharma21/CPP_Competitive_Programming_Sublime_Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CppBuilder",
 			"details": "https://github.com/Sharlock93/CppBuilder",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CppFastOlympicCoding",
+			"details": "https://github.com/Jatana/FastOlympicCoding",
+			"labels": ["cpp", "testing", "linting", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -3199,6 +3430,17 @@
 		{
 			"name": "Craft-Twig",
 			"details": "https://github.com/BarrelStrength/Craft-Twig.tmbundle",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CrafterSama Scheme",
+			"details": "https://github.com/CrafterSama/CrafterSama-Scheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3570,16 +3812,6 @@
 			]
 		},
 		{
-			"name": "CSS3_Syntax",
-			"details": "https://github.com/y0ssar1an/CSS3_Syntax",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "CSScomb",
 			"details": "https://github.com/csscomb/sublime-csscomb",
 			"previous_names": ["CSScomb.js", "CSScomb JS"],
@@ -3800,6 +4032,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Cucumber Snippets e Highlight em Inglês",
+			"details": "https://github.com/RobertoPegoraro/cucumber-snippets-highlight-english",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
