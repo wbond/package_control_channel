@@ -188,6 +188,22 @@
 			]
 		},
 		{
+			"name": "Active4D",
+			"details": "https://github.com/aparajita/active4d-st3",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3100",
+					"tags": true
+				},
+				{
+					"base": "https://github.com/aparajita/active4d-sublime",
+					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ActualVim",
 			"details": "https://github.com/lunixbochs/actualvim",
 			"labels": ["input", "vim"],
