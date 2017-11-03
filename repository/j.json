@@ -1148,7 +1148,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "v2.0.2"
+				},
+				{
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]
