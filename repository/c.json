@@ -131,6 +131,17 @@
 			]
 		},
 		{
+			"name": "Caddyfile Syntax",
+			"details": "https://github.com/caddyserver/sublimetext",
+			"labels": ["language syntax", "syntax highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Caffe Prototxt Syntax",
 			"details": "https://github.com/zironycho/sublime-caffe-prototxt-syntax",
 			"labels": ["language syntax"],
@@ -159,6 +170,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Calamity",
+			"details": "https://github.com/Pustur/calamity-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1024,6 +1045,19 @@
 			]
 		},
 		{
+			"name": "Ciapre Mod",
+			"author": "Jztsaurabh",
+			"description" : "Started with Ciapre but it's gone a long way and hugely changed",
+			"details": "https://github.com/jztsaurabh/CiapreMod-Sublime-Text",
+			"labels": ["colorscheme", "ciapre", "dark colorscheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CircleCi Status",
 			"details": "https://github.com/drazisil/sublime-circleci/",
 			"releases": [
@@ -1382,6 +1416,17 @@
 		{
 			"name": "CloseFolder",
 			"details": "https://github.com/aviaryan/CloseFolder",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CloseMinimapOnMultiView",
+			"details": "https://github.com/alkuzad/CloseMinimapOnMultiView",
+			"labels": ["code navigation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1806,7 +1851,11 @@
 			"author": "Avtandil Kikabidze aka LONGMAN",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2152,6 +2201,17 @@
 			]
 		},
 		{
+			"name": "CollaBroText",
+			"details": "https://github.com/shantanu3637/CollaBroText",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"platforms": ["linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Collider Snippets",
 			"details": "https://github.com/simonsinclair/collider-snippets",
 			"releases": [
@@ -2178,7 +2238,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2297,8 +2357,8 @@
 		},
 		{
 			"name": "Color Scheme - Legacy",
-			"details": "https://github.com/packagecontrol/legacy_color_schemes",
-			"labels": ["color scheme"],
+			"details": "https://github.com/SublimeText/LegacyColorSchemes",
+			"labels": ["color scheme", "legacy"],
 			"releases": [
 				{
 					"sublime_text": ">3131",
@@ -2431,17 +2491,6 @@
 			]
 		},
 		{
-			"name": "color_scheme_unit",
-			"details": "https://github.com/gerardroche/sublime_color_scheme_unit",
-			"labels": ["test", "framework", "assert", "unit test", "color scheme"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Colorcoder",
 			"details": "https://github.com/vprimachenko/Sublime-Colorcoder",
 			"releases": [
@@ -2491,6 +2540,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ColorSchemeUnit",
+			"details": "https://github.com/gerardroche/sublime-color-scheme-unit",
+			"labels": ["color scheme", "testing"],
+			"previous_names": ["color_scheme_unit"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2607,6 +2668,16 @@
 		{
 			"name": "Combyne",
 			"details": "https://github.com/kadamwhite/Sublime-Combyne",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ComicSansToggle",
+			"details": "https://github.com/seangoedecke/sublime-comic-sans-toggle/",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2802,6 +2873,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ComposerPackageInfo",
+			"details": "https://github.com/gh640/SublimeComposerPackageInfo",
+			"author": "Goto Hayato",
+			"labels": ["php", "composer"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
 				}
 			]
 		},
@@ -3297,6 +3380,16 @@
 			]
 		},
 		{
+			"name": "CPP Competitive Programming Snippets",
+			"details": "https://github.com/MeghaSharma21/CPP_Competitive_Programming_Sublime_Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CppBuilder",
 			"details": "https://github.com/Sharlock93/CppBuilder",
 			"releases": [
@@ -3407,6 +3500,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Creeper Reverse Polish Language",
+			"details": "https://github.com/KubeRoot/Sublime-CRPL",
+			"labels": ["language syntax", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

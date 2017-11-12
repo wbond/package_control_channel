@@ -90,6 +90,15 @@
 			]
 		},
 		{
+			"details": "https://github.com/hsarret/Waza",
+			"releases": [
+				{
+					"sublime_text": ">=3143",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WD AngularJS Snippets",
 			"details": "https://github.com/k3v3n/wd-angular-js-snippets",
 			"labels": ["autocomplete", "snippets"],
@@ -97,6 +106,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WDL Syntax",
+			"details": "https://github.com/broadinstitute/wdl-sublime-syntax-highlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -202,6 +222,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WebHare",
+			"details": "https://github.com/WebHare/sublime-package",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -663,6 +694,16 @@
 			]
 		},
 		{
+			"name": "WordPress Code Reference",
+			"details": "https://github.com/maheshwaghmare/sublime-wordpress-code-reference",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WordPress Completions",
 			"details": "https://github.com/kallookoo/sublime-text-wordpress",
 			"releases": [
@@ -858,12 +899,13 @@
 					"branch": "master"
 				}
 			]
-		},
+		},		
 		{
-			"name": "Wrapper",
+			"name": "WrapIt",
 			"description": "Wrap Contents With Specific Code",
-			"details": "https://github.com/lattespirit/SublimeWrapper",
-			"author": "Lattespirit",
+			"details": "https://github.com/pyking2/WrapIt",				
+			"previous_names": ["Wrapper"],
+			"labels": ["text manipulation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

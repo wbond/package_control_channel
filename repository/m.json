@@ -314,6 +314,16 @@
 			]
 		},
 		{
+			"name": "MapTool Syntax",
+			"details": "https://github.com/wwmoraes/Sublime-MapTool-Syntax",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Marc Mentat Proc Highlighting",
 			"details": "https://github.com/WesleyPeijnenburg/Marc_Syntax_Support",
 			"labels": ["language syntax"],
@@ -586,16 +596,6 @@
 			]
 		},
 		{
-			"name": "Marksy Convert",
-			"details": "https://github.com/thomscode/marksy-convert",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Mask",
 			"details": "https://github.com/tenbits/sublime-mask",
 			"releases": [
@@ -643,6 +643,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Material Design Lite Selectors Snippets",
+			"details": "https://github.com/rasy-js/material-design-lite-snippets",
+			"labels": ["snippets"],
+			"author": "Aliaksandr Radzevich",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -756,6 +768,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Math Notes",
+			"details": "https://github.com/LemonPi/math-notes",
+			"labels": ["language syntax", "documentation", "notes"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MathML",
+			"details": "https://github.com/Sensibility/MathML-Sublime-Plugin",
+			"labels": ["language syntax", "syntax", "MathML-syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1088,6 +1122,30 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Mermaid",
+			"details": "https://github.com/hlfcoding/sublime-mermaid",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Meson",
+			"description": "Meson Build syntax",
+			"author": "Salamandar (Félix Piédallu)",
+			"details": "https://github.com/salamandar/SublimeMeson",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1484,10 +1542,11 @@
 			]
 		},
 		{
-			"name": "Miva Template Language (MVT)",
-			"details": "https://github.com/mghweb/Miva-Template-Language",
+			"name": "Miva IDE",
+			"previous_names": ["Miva Template Language (MVT)"],
+			"details": "https://github.com/mghweb/sublime-miva-ide",
 			"author": "Max Hegler",
-			"labels": ["miva", "mvt", "syntax", "language"],
+			"labels": ["miva", "mvt", "mivascript", "miva script", "language syntax", "snippets", "auto-complete", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1759,6 +1818,16 @@
 			]
 		},
 		{
+			"name": "Mongo Aggregate Snippets",
+			"details": "https://github.com/kioyong/Mongo-Aggregate-Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MongoDB - PHP Completions",
 			"details": "https://github.com/Kristories/Sublime-Mongo-PHP",
 			"releases": [
@@ -1915,6 +1984,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Monokai++",
+			"details": "https://github.com/dcasella/monokai-plusplus",
+			"labels": ["monokai", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MonokaiFree",
+			"details": "https://github.com/gerardroche/sublime-monokai-free",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2270,6 +2361,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MUMPS",
+			"details": "https://github.com/ksherlock/MUMPS.tmbundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

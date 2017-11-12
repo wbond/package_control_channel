@@ -145,7 +145,11 @@
 			"labels": ["language syntax", "color scheme", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3084",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -166,6 +170,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gekko",
+			"details": "https://github.com/MartinBonde/gekko_sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -246,6 +262,17 @@
 			"name":"Gengojs",
 			"details":"https://github.com/iwatakeshi/gengojs-sublime-snippets",
 			"labels":["i18n","snippets", "l10n"],
+			"releases":[
+				{
+					"sublime_text":"*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name":"Georgify",
+			"details":"https://github.com/shividhar/Georgify",
+			"labels":["correctness proofs", "uwaterloo"],
 			"releases":[
 				{
 					"sublime_text":"*",
@@ -1126,6 +1153,17 @@
 			]
 		},
 		{
+			"name": "Golite",
+			"details": "https://github.com/wy-z/Golite",
+			"labels": ["golang", "go", "gocode", "godef", "linting", "gorename", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Google Apps Scripts",
 			"details": "https://github.com/revolunet/sublimetext-google-apps-scripts",
 			"labels": ["google", "scripts", "drive", "javascript"],
@@ -1262,6 +1300,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gopher sauce syntax and static completions",
+			"author": "Cheikh Seck",
+			"details": "https://github.com/cheikhshift/gopher-sauce-sublime",
+			"labels": ["go","language syntax","snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1733,6 +1783,16 @@
 			]
 		},
 		{
+			"name": "Graql Syntax",
+			"details": "https://github.com/graknlabs/graql_syntax_sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Grasp",
 			"details": "https://github.com/joneshf/sublime-grasp",
 			"releases": [
@@ -2022,6 +2082,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Guna",
+			"details": "https://github.com/poucotm/Guna",
+			"labels": ["theme", "color-scheme", "clock"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

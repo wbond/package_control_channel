@@ -2,6 +2,17 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "P3 Assembly",
+			"details": "https://github.com/rgcv/p3assembly-sublime-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "P4 Syntax Highlighter",
 			"details": "https://github.com/c3m3gyanesh/p4-syntax-highlighter",
 			"releases": [
@@ -49,11 +60,11 @@
 			"author": ["guillermooo", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "<3092",
+					"sublime_text": "<3118",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": ">=3118",
 					"tags": true
 				}
 			]
@@ -1313,7 +1324,7 @@
 		{
 			"name": "phpunitkit",
 			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["php", "phpunit", "test", "testing", "unit", "unit test"],
+			"labels": ["phpunit", "php", "testing", "tdd"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1349,6 +1360,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PixarUSD",
+			"details": "https://github.com/davidlatwe/PixarUSD-Sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1786,6 +1807,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pqmarkup",
+			"details": "https://bitbucket.org/pqmarkup/sublime_pqmarkup",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2255,12 +2286,13 @@
 		},
 		{
 			"name": "PureScript",
-			"details": "https://github.com/joneshf/sublime-purescript",
-			"labels": ["language syntax"],
+			"details": "https://github.com/b123400/purescript-ide-sublime",
+			"labels": ["language syntax", "ide"],
+			"previous_names": ["PureScript IDE"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2385,6 +2417,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pynsist",
+			"details": "https://github.com/idleberg/sublime-pynsist",
+			"labels": ["build-system", "language syntax", "nsis", "python"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -2534,6 +2577,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Python Debugger",
+			"details": "https://github.com/wvlia5/SublimeDebugger",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
