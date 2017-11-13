@@ -909,12 +909,14 @@
 			]
 		},
 		{
-			"name": "fish-shell",
-			"details": "https://github.com/toru-hamaguchi/sublime-fish-shell",
+			"name": "fish",
+			"previous_names": ["fish-shell"],
+			"details": "https://github.com/Phidica/sublime-fish",
+			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
