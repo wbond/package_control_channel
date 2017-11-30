@@ -84,6 +84,17 @@
 			]
 		},
 		{
+			"name": "San Syntax Highlight",
+			"details": "https://github.com/kekee000/san-sublime",
+			"labels": ["san syntax highlight", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Sandor's Glowfish Colour Scheme",
 			"details": "https://github.com/czettnersandor/st3-glowfish-theme",
 			"labels": ["color scheme"],
@@ -3375,6 +3386,17 @@
 			]
 		},
 		{
+			"name": "StGitlab",
+			"details": "https://github.com/tosher/StGitlab",
+			"labels": ["Gitlab", "project", "management"],
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "StickySearch",
 			"details": "https://github.com/vim-zz/StickySearch",
 			"releases": [
@@ -3975,7 +3997,7 @@
 			"details": "https://github.com/SublimeCodeIntel/SublimeCodeIntel",
 			"homepage": "https://sublimecodeintel.github.io/",
 			"donate": "https://sublimecodeintel.github.io/donate.html",
-			"labels": ["auto-complete", "code navigation", "snippets"],
+			"labels": ["codeintel", "intellisense", "autocomplete", "code-intel", "intelli-sense", "auto-complete", "code navigation", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -5124,8 +5146,12 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3103",
+					"branch": "ST2"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": true
 				}
 			]
 		},

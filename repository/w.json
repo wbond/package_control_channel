@@ -298,6 +298,17 @@
 			]
 		},
 		{
+			"name": "WEOML Syntax",
+			"details": "https://github.com/damky/WEOML",
+			"labels": ["weo", "keys", "syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WeSnipp Add",
 			"details": "https://github.com/osternaudClem/Sublime-WeSnipp-Save",
 			"labels": ["wesnipp", "snippet"],
@@ -527,18 +538,6 @@
 			]
 		},
 		{
-			"name": "wkhtmltopdf",
-			"details": "https://github.com/jrappen/sublime-wkhtmltopdf",
-			"donate": "https://www.paypal.me/jrappen",
-			"labels": ["html", "pdf", "utilities", "utils"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "WLST",
 			"details": "https://github.com/Joelith/sublime-wlst",
 			"releases": [
@@ -690,6 +689,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordPress Code Reference",
+			"details": "https://github.com/maheshwaghmare/sublime-wordpress-code-reference",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -876,7 +885,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -889,11 +898,11 @@
 					"branch": "master"
 				}
 			]
-		},		
+		},
 		{
 			"name": "WrapIt",
 			"description": "Wrap Contents With Specific Code",
-			"details": "https://github.com/pyking2/WrapIt",				
+			"details": "https://github.com/pyking2/WrapIt",
 			"previous_names": ["Wrapper"],
 			"labels": ["text manipulation"],
 			"releases": [

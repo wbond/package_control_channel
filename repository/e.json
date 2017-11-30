@@ -234,6 +234,18 @@
 			]
 		},
 		{
+			"name": "Edge Theme",
+			"details": "https://github.com/tricinel/edge-theme-sublime-text-3",
+			"author": "Bogdan Lazar",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Edge Theme Addon - Linter Theme",
 			"details": "https://github.com/tricinel/edge-theme-addon-linter-theme",
 			"author": "Bogdan Lazar",
@@ -472,12 +484,16 @@
 		},
 		{
 			"name": "Elm Language Support",
-			"details": "https://github.com/elm-community/Elm.tmLanguage",
+			"details": "https://github.com/elm-community/SublimeElmLanguageSupport",
 			"labels": ["language syntax"],
 			"previous_names": ["Elm Syntax Highlighting"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3092",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -885,6 +901,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Epitech Coding Style",
+			"details": "https://github.com/demaisj/epitech-sublime",
+			"author": ["demaisj", "lodi-g", "WhatNodyn"],
+			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1348,7 +1376,7 @@
 			"labels": ["text selection", "expand selection", "snippets", "code navigation"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1515,6 +1543,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3083",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ExternalTools",
+			"details": "https://github.com/FelixBoers/sublime-external-tools",
+			"labels": ["utilities", "utils", "utility", "commands"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

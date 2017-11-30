@@ -139,6 +139,16 @@
 			]
 		},
 		{
+			"name": "Laravel Blade AutoComplete",
+			"details": "https://github.com/ahmedash95/sublime-laravel-blade-autocomplete",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Laravel Blade Spacer",
 			"previous_names": ["Blade Spacer"],
 			"details": "https://github.com/austenc/blade-spacer",
@@ -477,16 +487,6 @@
 			]
 		},
 		{
-			"name": "LD library Path",
-			"details": "https://github.com/nicolas-cherel/LDLibPath",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "LDIF Syntax Highlighting",
 			"details": "https://github.com/FlashSystems/LDIF-Syntax",
 			"labels": ["language syntax", "syntax", "highlighting"],
@@ -582,10 +582,11 @@
 		{
 			"name": "LESS",
 			"details": "https://github.com/danro/LESS-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1320,6 +1321,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3065",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LOLCODE",
+			"details": "https://github.com/ofekih/lolcode-sublime",
+			"labels": ["lolcode"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
