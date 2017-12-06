@@ -818,6 +818,20 @@
 			]
 		},
 		{
+			"name": "TM1py",
+			"load_order": "99",
+			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
+			"author": "MariusWirtz",
+			"issues": "https://github.com/ajmyers/TM1py/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ajmyers/TM1py",
+					"tags": true,
+					"sublime_text": ">3092"
+				}
+			]
+		},
+		{
 			"name": "watchdog",
 			"load_order": "20",
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
