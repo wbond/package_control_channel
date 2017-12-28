@@ -64,6 +64,18 @@
 			]
 		},
 		{
+			"name": "LanguagePortuguese",
+			"details": "https://github.com/gusbemacbe/LanguagePortuguese",
+			"labels": ["spell check", "brasil", "brazil", "brazilian", "dicionário", "dictionnary", "português", "portuguese", "portugal"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LanguageTool",
 			"details": "https://github.com/gtarawneh/languagetool-sublime",
 			"releases": [
@@ -116,10 +128,42 @@
 			]
 		},
 		{
+			"name": "Laravel 5 Docs Light Color Scheme",
+			"details": "https://github.com/yos-virtus/laravel_docs_light_color_scheme",
+			"labels": ["color scheme", "light color scheme", "laravel docs", "laravel 5"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Laravel 5 Snippets",
 			"previous_names": ["Laravel Five Snippets"],
 			"details": "https://github.com/Lykegenes/laravel-5-snippets",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel Blade AutoComplete",
+			"details": "https://github.com/ahmedash95/sublime-laravel-blade-autocomplete",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel Blade Spacer",
+			"previous_names": ["Blade Spacer"],
+			"details": "https://github.com/austenc/blade-spacer",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -158,6 +202,20 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Laravel Colour Scheme",
+			"details": "https://github.com/michaeldyrynda/Laravel.tmTheme",
+			"issues": "https://github.com/michaeldyrynda/Laravel.tmTheme/issues",
+			"homepage": "https://dyrynda.com.au",
+			"author": "michaeldyrynda",
+			"labels": ["color scheme", "light color scheme", "laravel", "laravel docs", "laravel color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -215,6 +273,16 @@
 			]
 		},
 		{
+			"name": "Laroute",
+			"details": "https://github.com/Fenzland/Laroute.sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Lasso",
 			"details": "https://github.com/bfad/Sublime-Lasso",
 			"releases": [
@@ -251,6 +319,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LaTeX Equation Preview",
+			"details": "https://github.com/divinites/LatexEquationPreview",
+			"releases": [
+				{
+					"sublime_text": ">3118",
+					"tags": true
 				}
 			]
 		},
@@ -310,8 +388,16 @@
 			"details": "https://github.com/SublimeText/LaTeXTools",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3000 - 3124",
+					"tags": "st3until3125-"
+				},
+				{
+					"sublime_text": ">=3125",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -369,6 +455,29 @@
 			]
 		},
 		{
+			"name": "LBNF",
+			"details": "https://github.com/Centril/sublime-lbnf-syntax",
+			"labels": ["lbnf", "bnf", "bnfc"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LC-2K Assembly",
+			"details": "https://github.com/BGR360/lc2k-sublime-plugin",
+			"author": "Ben Reeves",
+			"labels": ["auto-complete", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LC3 Assembly",
 			"details": "https://github.com/wufufufu/Sublime-LC3",
 			"releases": [
@@ -390,8 +499,9 @@
 			]
 		},
 		{
-			"name": "LD library Path",
-			"details": "https://github.com/nicolas-cherel/LDLibPath",
+			"name": "LDIF Syntax Highlighting",
+			"details": "https://github.com/FlashSystems/LDIF-Syntax",
+			"labels": ["language syntax", "syntax", "highlighting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -400,9 +510,9 @@
 			]
 		},
 		{
-			"name": "LDIF Syntax Highlighting",
-			"details": "https://github.com/FlashSystems/LDIF-Syntax",
-			"labels": ["language syntax", "syntax", "highlighting"],
+			"name": "Leaf",
+			"details": "https://github.com/usagizmo/sublime-language-leaf",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -442,6 +552,16 @@
 			]
 		},
 		{
+			"name": "LeekScript Syntax",
+			"details": "https://github.com/GuimDev/LeekScript-Sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Legal Document Creator",
 			"details": "https://github.com/compleatang/Legal-Markdown-Sublime",
 			"releases": [
@@ -474,10 +594,11 @@
 		{
 			"name": "LESS",
 			"details": "https://github.com/danro/LESS-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -605,6 +726,17 @@
 			]
 		},
 		{
+			"name": "Libretto",
+			"details": "https://github.com/denis020611/Libretto",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Libsass Build",
 			"details": "https://github.com/blitzrk/sublime_libsass",
 			"labels": ["sass", "scss", "css"],
@@ -659,6 +791,16 @@
 			]
 		},
 		{
+			"name": "LightningComponentsCompletions",
+			"details": "https://github.com/amorek/LightningComponentsCompletions",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LightPaper Markdown",
 			"details": "https://github.com/ashokgelal/lightpaper-sublime",
 			"labels": ["markdown", "editor", "preview", "html"],
@@ -666,6 +808,27 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LightScript",
+			"details": "https://github.com/lightscript/lightscript-sublime",
+			"labels": ["language syntax", "javascript", "lightscript"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LimitTabs",
+			"details": "https://github.com/max0d41/LimitTabs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -718,6 +881,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LinkerScript",
+			"details": "https://github.com/jbw3/SublimeTextLinkerSyntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -855,6 +1029,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LiveCode",
+			"details": "https://github.com/trevordevore/livecode-sublimetext",
+			"labels": ["auto-complete", "code navigation", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1076,6 +1261,17 @@
 			]
 		},
 		{
+			"name": "Log4jView",
+			"details": "https://github.com/shivan/Log4jView",
+			"labels": ["log", "log4j", "logfiles"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Logger Snippets",
 			"details": "https://github.com/ssrihari/sublime-logger-snippets",
 			"labels": ["snippets"],
@@ -1137,6 +1333,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3065",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LOLCODE",
+			"details": "https://github.com/ofekih/lolcode-sublime",
+			"labels": ["lolcode"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1233,12 +1440,32 @@
 			]
 		},
 		{
+			"name": "LSCheckstyle",
+			"details": "https://github.com/kauboy26/LimeStyle",
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LSL",
 			"details": "https://github.com/Makopo/sublime-text-lsl",
 			"labels": ["auto-complete", "color scheme", "language syntax", "linting"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LSP",
+			"details": "https://github.com/tomv564/LSP",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1277,6 +1504,19 @@
 			]
 		},
 		{
+			"name": "LuaComplete",
+			"details": "https://github.com/FourierTransformer/LuaComplete-Sublime",
+			"labels": [
+				"auto-complete", "snippets", "lua"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LuaExtended",
 			"details": "https://github.com/viluon/LuaExtended",
 			"labels": [
@@ -1285,6 +1525,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaFormat",
+			"details": "https://github.com/FloydaGithub/LuaFormat",
+			"labels": ["lua", "format"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
