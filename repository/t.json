@@ -2244,17 +2244,6 @@
 			]
 		},
 		{
-			"name": "Todo.txt Syntax",
-			"details": "https://github.com/dertuxmalwieder/SublimeTodoTxt",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ToDone",
 			"details": "https://github.com/tiffon/sublime-to-done",
 			"labels": ["todo", "productivity", "tasks"],
@@ -2275,6 +2264,18 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TodoTxt Syntax",
+			"previous_names": ["Todo.txt Syntax"],
+			"details": "https://github.com/dertuxmalwieder/SublimeTodoTxt",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
