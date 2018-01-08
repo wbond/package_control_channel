@@ -64,6 +64,18 @@
 			]
 		},
 		{
+			"name": "LanguagePortuguese",
+			"details": "https://github.com/gusbemacbe/LanguagePortuguese",
+			"labels": ["spell check", "brasil", "brazil", "brazilian", "dicionário", "dictionnary", "português", "portuguese", "portugal"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LanguageTool",
 			"details": "https://github.com/gtarawneh/languagetool-sublime",
 			"releases": [
@@ -131,6 +143,16 @@
 			"previous_names": ["Laravel Five Snippets"],
 			"details": "https://github.com/Lykegenes/laravel-5-snippets",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel Blade AutoComplete",
+			"details": "https://github.com/ahmedash95/sublime-laravel-blade-autocomplete",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -477,16 +499,6 @@
 			]
 		},
 		{
-			"name": "LD library Path",
-			"details": "https://github.com/nicolas-cherel/LDLibPath",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "LDIF Syntax Highlighting",
 			"details": "https://github.com/FlashSystems/LDIF-Syntax",
 			"labels": ["language syntax", "syntax", "highlighting"],
@@ -582,10 +594,11 @@
 		{
 			"name": "LESS",
 			"details": "https://github.com/danro/LESS-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1325,6 +1338,17 @@
 			]
 		},
 		{
+			"name": "LOLCODE",
+			"details": "https://github.com/ofekih/lolcode-sublime",
+			"labels": ["lolcode"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "London Underground Status",
 			"details": "https://github.com/sabarasaba/sublimetext-LondonUnderground",
 			"labels": ["london", "tube", "underground"],
@@ -1475,6 +1499,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaComplete",
+			"details": "https://github.com/FourierTransformer/LuaComplete-Sublime",
+			"labels": [
+				"auto-complete", "snippets", "lua"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
