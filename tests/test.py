@@ -168,6 +168,20 @@ class TestContainer(object):
         # tuple of (prev_name, include, name); prev_name for case sensitivity
         cls.previous_package_names = CaseInsensitiveDict()
 
+    # Default packages for ST2 and ST3 are largely the same,
+    # except for Pascal and Rust
+    # which only ship in ST3
+    default_packages = (
+        'ActionScript', 'AppleScript', 'ASP', 'Batch File',
+        'C#', 'C++', 'Clojure', 'Color Scheme - Default', 'CSS', 'D', 'Default',
+        'Diff', 'Erlang', 'Go', 'Graphviz', 'Groovy', 'Haskell', 'HTML', 'Java',
+        'JavaScript', 'Language - English', 'LaTeX', 'Lisp', 'Lua', 'Makefile',
+        'Markdown', 'Matlab', 'Objective-C', 'OCaml', 'Pascal', 'Perl', 'PHP',
+        'Python', 'R', 'Rails', 'Regular Expressions', 'RestructuredText',
+        'Ruby', 'Rust', 'Scala', 'ShellScript', 'SQL', 'TCL', 'Text', 'Textile',
+        'Theme - Default', 'Vintage', 'XML', 'YAML'
+    )
+
     rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
                       |https:// bitbucket\.org/ [^/]+/ [^/]+
                       ) $'''
@@ -340,6 +354,8 @@ class TestContainer(object):
         # Invalid on OS X (or more precisely: hidden)
         self.assertFalse(name.startswith('.'), 'Package names may not start '
                                                'with a dot')
+
+        self.assertNotIn(name, self.default_packages)
 
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
