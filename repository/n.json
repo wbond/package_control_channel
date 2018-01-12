@@ -741,8 +741,12 @@
 			"labels": ["color scheme", "notepad++"],
 			"releases": [
 				{
-					"sublime_text": ">=3114",
+					"sublime_text": ">3144",
 					"tags": true
+				},
+				{
+					"sublime_text": "<=3144",
+					"tags": "build3144support-"
 				}
 			]
 		},
