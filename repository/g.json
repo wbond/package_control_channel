@@ -145,7 +145,11 @@
 			"labels": ["language syntax", "color scheme", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3084",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -229,7 +233,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3084",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -1145,6 +1153,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Golite",
+			"details": "https://github.com/wy-z/Golite",
+			"labels": ["golang", "go", "gocode", "godef", "linting", "gorename", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

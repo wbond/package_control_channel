@@ -34,6 +34,17 @@
 			]
 		},
 		{
+			"name": "NaNoWriMo Word Count Updater",
+			"details": "https://github.com/Nanofus/nanowrimo_word_count_updater",
+			"labels": ["workflow", "sync"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Naomi",
 			"details": "https://github.com/borela/naomi",
 			"labels": ["enhanced", "syntax", "highlight"],
@@ -144,6 +155,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "NegateSentence",
+			"details": "https://github.com/Bajena/SublimeNegateSentence",
+			"labels": ["testing", "natural language tools", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -466,6 +488,18 @@
 			]
 		},
 		{
+			"name": "Ngx HTML",
+			"previous_names": ["Angular2 HTML Syntax"],
+			"details": "https://github.com/princemaple/ngx-html-syntax",
+			"labels": ["language syntax", "angular"],
+			"releases": [
+				{
+					"sublime_text": ">=3156",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/forty-two/NightCycle",
 			"releases": [
 				{
@@ -501,6 +535,17 @@
 			"name": "Ninja",
 			"details": "https://github.com/pope/SublimeNinja",
 			"labels": ["ninja", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NinjaBuild",
+			"details": "https://github.com/JohanBaltie/NinjaBuild",
+			"labels": ["ninja", "build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -696,8 +741,12 @@
 			"labels": ["color scheme", "notepad++"],
 			"releases": [
 				{
-					"sublime_text": ">=3114",
+					"sublime_text": ">3144",
 					"tags": true
+				},
+				{
+					"sublime_text": "<=3144",
+					"tags": "build3144support-"
 				}
 			]
 		},
@@ -822,7 +871,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "NPMInfo",
 			"details": "https://github.com/dsteinbach/npm-info",

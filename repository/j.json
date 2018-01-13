@@ -667,6 +667,17 @@
 			]
 		},
 		{
+			"name": "JQ Syntax",
+			"details": "https://github.com/zogwarg/SublimeJQ",
+			"labels": ["language syntax", "jq", "stedolan"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/jQuery",
 			"releases": [
 				{
@@ -839,6 +850,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSCustom",
+			"details": "https://github.com/Thom1729/Sublime-JS-Custom",
+			"labels": ["javascript", "syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1148,7 +1170,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-v"
+				},
+				{
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]

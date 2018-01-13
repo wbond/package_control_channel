@@ -244,6 +244,17 @@
 			]
 		},
 		{
+			"name": "VEX",
+			"details": "https://github.com/teared/VEX",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "VEX Syntax",
 			"details": "https://github.com/WhileRomeBurns/VEX_Syntax",
 			"labels": ["language syntax"],
@@ -323,6 +334,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "VimModelines",
+			"details": "https://github.com/pestilence669/VimModelines",
+			"author": "Paul Chandler",
+			"labels": ["vim", "indentation", "modeline", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -506,6 +529,17 @@
 			]
 		},
 		{
+			"name": "VisualChanger",
+			"details": "https://github.com/kivS/sublime-text-visual-changer",
+			"author": "Vik Borges",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Visualforce",
 			"details": "https://github.com/brucardoso2/sublime-visualforce",
 			"author": "Bruno Cardoso",
@@ -628,8 +662,12 @@
 			"details": "https://github.com/vuejs/vue-syntax-highlight",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3153",
+					"tags": "oldsyntax-"
+				},
+				{
+					"sublime_text": ">=3153",
+					"tags": "newsyntax-"
 				}
 			]
 		},

@@ -363,6 +363,17 @@
 			]
 		},
 		{
+			"name": "Particle Reverse Polish Language",
+			"details": "https://github.com/KubeRoot/Sublime-PRPL",
+			"labels": ["language syntax", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Parva Syntax",
 			"details" : "https://github.com/muskatel/Parva_Syntax",
 			"labels": ["language syntax"],
@@ -1364,6 +1375,16 @@
 			]
 		},
 		{
+			"name": "PixarUSD",
+			"details": "https://github.com/davidlatwe/PixarUSD-Sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PKGBUILD",
 			"details": "https://github.com/git-commit/pkgbuild-st3",
 			"releases": [
@@ -1677,6 +1698,19 @@
 			]
 		},
 		{
+			"name": "Postfixer",
+			"details": "https://github.com/mbnuqw/sublime-postfixer",
+			"readme": "https://raw.githubusercontent.com/mbnuqw/sublime-postfixer/master/README.md",
+			"issues": "https://github.com/mbnuqw/sublime-postfixer/issues",
+			"labels": ["text manipulation", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Postgres PL pgSQL",
 			"details": "https://github.com/mulander/postgres.tmbundle",
 			"labels": ["language syntax"],
@@ -1797,6 +1831,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pqmarkup",
+			"details": "https://bitbucket.org/pqmarkup/sublime_pqmarkup",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2266,19 +2310,9 @@
 		},
 		{
 			"name": "PureScript",
-			"details": "https://github.com/joneshf/sublime-purescript",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "PureScript IDE",
 			"details": "https://github.com/b123400/purescript-ide-sublime",
-			"labels": ["ide"],
+			"labels": ["language syntax", "ide"],
+			"previous_names": ["PureScript IDE"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2580,7 +2614,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Python Fix Imports",
 			"details": "https://github.com/Stibbons/python-fiximports",

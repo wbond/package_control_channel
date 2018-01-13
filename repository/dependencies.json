@@ -438,6 +438,34 @@
 			]
 		},
 		{
+			"name": "pexpect",
+			"load_order": "01",
+			"description": "Python pexpect module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-pexpect/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/varp/sublime-pexpect",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "psutil",
+			"load_order": "01",
+			"description": "Python psutil module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-psutil/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/varp/sublime-psutil",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
@@ -800,6 +828,20 @@
 					"base": "https://github.com/packagecontrol/tabulate",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "TM1py",
+			"load_order": "99",
+			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
+			"author": "MariusWirtz",
+			"issues": "https://github.com/ajmyers/TM1py/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ajmyers/TM1py",
+					"tags": true,
+					"sublime_text": ">3092"
 				}
 			]
 		},

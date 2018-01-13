@@ -69,6 +69,17 @@
 			]
 		},
 		{
+			"name": "ABNF-sublime-syntax",
+			"details": "https://github.com/ZxxLang/ABNF-sublime-syntax",
+			"labels": ["abnf", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Abstract Markup Language",
 			"details": "https://github.com/abstractmarkup/sublimetext",
 			"labels": ["build system", "language syntax", "snippets"],
@@ -188,6 +199,22 @@
 			]
 		},
 		{
+			"name": "Active4D",
+			"details": "https://github.com/aparajita/active4d-st3",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3100",
+					"tags": true
+				},
+				{
+					"base": "https://github.com/aparajita/active4d-sublime",
+					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ActualVim",
 			"details": "https://github.com/lunixbochs/actualvim",
 			"labels": ["input", "vim"],
@@ -267,6 +294,16 @@
 			"author": "Caio Fernandes",
 			"details": "https://github.com/caiofsouza/AddLibrary",
 			"labels": ["javascript", "css", "library", "dev"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AddRemoveFolder",
+			"details": "https://github.com/fsaad/AddRemoveFolder",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -452,6 +489,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Alan",
+			"details": "https://github.com/M-industries/AlanForSublime",
+			"labels": ["language syntax"],
+			"previous_names": ["Fabric"],
+			"releases": [
+				{
+					"sublime_text": ">=3143",
+					"tags": true
 				}
 			]
 		},
@@ -906,17 +955,6 @@
 			]
 		},
 		{
-			"name": "Angular2 HTML Syntax",
-			"details": "https://github.com/princemaple/angular2-html-syntax",
-			"labels": ["language syntax", "angular"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "AngularInject",
 			"details": "https://github.com/ayamflow/AngularInject",
 			"releases": [
@@ -1314,6 +1352,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/mingyuanyun-open/appcloud_subl",
+			"name": "APPCloud",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1778,6 +1826,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Atlantis VIP Language",
+			"details": "https://github.com/dziaineka/Atlantis-VIP-sublime",
+			"labels": ["Atlantis", "VIP", "language syntax", "snippets", "galaktika"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

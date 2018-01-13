@@ -67,18 +67,6 @@
 			]
 		},
 		{
-			"name": "OCaml",
-			"details": "https://github.com/whitequark/sublime-better-ocaml",
-			"description": "An improved version of default OCaml package",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "OCaml Autocompletion",
 			"details": "https://github.com/whitequark/sublime-ocp-index",
 			"releases": [
@@ -427,6 +415,16 @@
 			]
 		},
 		{
+			"name": "Open In Browser",
+			"details": "https://github.com/vicke4/open_in_browser",
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Open in Default Application",
 			"details": "https://github.com/SublimeText/OpenDefaultApplication",
 			"releases": [
@@ -439,6 +437,18 @@
 		{
 			"name": "Open in Nautilus",
 			"details": "https://github.com/glutanimate/sublime-open-in-nautilus",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "linux",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open in Nemo",
+			"details": "https://github.com/maddouri/sublime-open-in-nemo",
 			"labels": ["file navigation"],
 			"releases": [
 				{
@@ -573,17 +583,6 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx"],
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "open-sesame",
-			"details": "https://github.com/gerardroche/sublime-open-sesame",
-			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -871,6 +870,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Oz",
+			"details": "https://github.com/rkoeninger/sublime-oz",
+			"readme": "https://raw.githubusercontent.com/rkoeninger/sublime-oz/master/README.md",
+			"author": "Robert Koeninger",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
