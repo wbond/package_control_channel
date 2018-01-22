@@ -107,7 +107,7 @@ def generate_test_methods(cls, stream):
                 if len(string) > 1000:
                     args.append('...')
                 else:
-                    args.append(repr(v))
+                    args.append(string)
 
             mname = method.__name__
             if mname.startswith("_test"):
