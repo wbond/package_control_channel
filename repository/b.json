@@ -46,8 +46,9 @@
 			]
 		},
 		{
-			"name": "Backbone Baguette",
-			"details": "https://github.com/spacenick/SublimeText2-BackboneBaguette-package",
+			"name": "Backbone",
+			"details": "https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package",
+			"previous_names": ["Backbone.js"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -56,8 +57,8 @@
 			]
 		},
 		{
-			"name": "Backbone.js",
-			"details": "https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package",
+			"name": "Backbone Baguette",
+			"details": "https://github.com/spacenick/SublimeText2-BackboneBaguette-package",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -516,6 +517,19 @@
 			]
 		},
 		{
+			"name": "Better OCaml",
+			"details": "https://github.com/whitequark/sublime-better-ocaml",
+			"description": "An improved version of default OCaml package",
+			"labels": ["language syntax"],
+			"previous_names": ["OCaml"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "Better RSpec",
 			"details": "https://github.com/fnando/better-rspec-for-sublime-text",
 			"labels": ["language syntax", "snippets"],
@@ -682,6 +696,20 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "bioSyntax",
+			"details": "https://github.com/bioSyntax/bioSyntax-sublime",
+			"homepage": "http://bioSyntax.org",
+			"readme": "https://raw.githubusercontent.com/bioSyntax/bioSyntax/master/README.md",
+			"issues": "https://github.com/bioSyntax/bioSyntax/issues",
+			"labels": [ "science", "bioinformatics", "biology", "language syntax" ],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

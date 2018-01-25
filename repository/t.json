@@ -849,6 +849,19 @@
 			]
 		},
 		{
+			"name": "Theme - City Lights",
+			"details": "https://github.com/Yummygum/city-lights-sublime",
+			"homepage": "http://citylights.xyz/",
+			"labels": ["theme", "color scheme", "City Lights", "syntax"],
+			"author": "Yummygum",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Cobalt2",
 			"details": "https://github.com/wesbos/cobalt2",
 			"labels": ["theme", "color scheme"],
@@ -2035,6 +2048,21 @@
 			]
 		},
 		{
+			"name": "Timestamp converter",
+			"details": "https://github.com/Zlitus/sublime-text-timestamp",
+			"labels": [
+				"utilities",
+				"productivity",
+				"text manipulation"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TimeTracker",
 			"details": "https://github.com/Schepotin/SublimeTimeTracker",
 			"releases": [
@@ -2170,19 +2198,8 @@
 			]
 		},
 		{
-			"name": "Tmux Syntax Highlight",
-			"previous_names": ["Tmux"],
-			"details": "https://github.com/keqh/sublime-tmux-syntax-highlight",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "tmux_open",
+			"name": "tmux",
+			"previous_names": ["tmux_open"],
 			"details": "https://github.com/huntie/sublime-tmux",
 			"labels": ["tmux", "terminal"],
 			"releases": [
@@ -2190,6 +2207,17 @@
 					"sublime_text": ">=3000",
 					"platforms": ["linux", "osx"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tmux Syntax Highlight",
+			"details": "https://github.com/keqh/sublime-tmux-syntax-highlight",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -2244,17 +2272,6 @@
 			]
 		},
 		{
-			"name": "Todo.txt Syntax",
-			"details": "https://github.com/dertuxmalwieder/SublimeTodoTxt",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ToDone",
 			"details": "https://github.com/tiffon/sublime-to-done",
 			"labels": ["todo", "productivity", "tasks"],
@@ -2275,6 +2292,18 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TodoTxt Syntax",
+			"previous_names": ["Todo.txt Syntax"],
+			"details": "https://github.com/dertuxmalwieder/SublimeTodoTxt",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},

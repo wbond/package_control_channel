@@ -107,7 +107,7 @@ def generate_test_methods(cls, stream):
                 if len(string) > 1000:
                     args.append('...')
                 else:
-                    args.append(repr(v))
+                    args.append(string)
 
             mname = method.__name__
             if mname.startswith("_test"):
@@ -167,6 +167,20 @@ class TestContainer(object):
         cls.dependency_names = CaseInsensitiveDict()
         # tuple of (prev_name, include, name); prev_name for case sensitivity
         cls.previous_package_names = CaseInsensitiveDict()
+
+    # Default packages for ST2 and ST3 are largely the same,
+    # except for Pascal and Rust
+    # which only ship in ST3
+    default_packages = (
+        'ActionScript', 'AppleScript', 'ASP', 'Batch File',
+        'C#', 'C++', 'Clojure', 'Color Scheme - Default', 'CSS', 'D', 'Default',
+        'Diff', 'Erlang', 'Go', 'Graphviz', 'Groovy', 'Haskell', 'HTML', 'Java',
+        'JavaScript', 'Language - English', 'LaTeX', 'Lisp', 'Lua', 'Makefile',
+        'Markdown', 'Matlab', 'Objective-C', 'OCaml', 'Pascal', 'Perl', 'PHP',
+        'Python', 'R', 'Rails', 'Regular Expressions', 'RestructuredText',
+        'Ruby', 'Rust', 'Scala', 'ShellScript', 'SQL', 'TCL', 'Text', 'Textile',
+        'Theme - Default', 'Vintage', 'XML', 'YAML'
+    )
 
     rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
                       |https:// bitbucket\.org/ [^/]+/ [^/]+
@@ -341,6 +355,8 @@ class TestContainer(object):
         self.assertFalse(name.startswith('.'), 'Package names may not start '
                                                'with a dot')
 
+        self.assertNotIn(name, self.default_packages)
+
         if 'details' not in data:
             for key in ('name', 'homepage', 'author', 'releases'):
                 self.assertIn(key, data, '%r is required if no "details" URL '
@@ -402,13 +418,14 @@ class TestContainer(object):
         if main_repo:
             if dependency:
                 condition = (
-                    'tags' in data or 'branch' in data
+                    'base' in data
+                    and ('tags' in data or 'branch' in data)
                     or ('sha256' in data
                         and ('url' not in data
                              or data['url'].startswith('http://')))
                 )
                 self.assertTrue(condition,
-                                'A release must have a "tags" key or "branch" key '
+                                'A release must have a "base" and a "tags" or "branch" key '
                                 'if it is in the main repository. For custom '
                                 'releases, a custom repository.json file must be '
                                 'hosted elsewhere. The only exception to this rule '

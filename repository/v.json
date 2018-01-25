@@ -662,8 +662,12 @@
 			"details": "https://github.com/vuejs/vue-syntax-highlight",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3153",
+					"tags": "oldsyntax-"
+				},
+				{
+					"sublime_text": ">=3153",
+					"tags": "newsyntax-"
 				}
 			]
 		},

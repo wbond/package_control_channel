@@ -811,6 +811,17 @@
 			]
 		},
 		{
+			"name": "PGN Support",
+			"details": "https://github.com/shreyasminocha/Sublime-PGN",
+			"description": "Portable Game Notation syntax and snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PgSQL",
 			"details": "https://github.com/jobywalker/PgSQL-Sublime",
 			"releases": [
@@ -1062,17 +1073,6 @@
 			]
 		},
 		{
-			"name": "php-grammar",
-			"details": "https://github.com/gerardroche/sublime-php-grammar",
-			"labels": ["php", "language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "php-snippets",
 			"details": "https://github.com/gerardroche/sublime-php-snippets",
 			"labels": ["php", "snippets"],
@@ -1196,6 +1196,18 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PHPGrammar",
+			"details": "https://github.com/gerardroche/sublime-php-grammar",
+			"labels": ["php", "auto-completion", "completions", "text manipulation", "formatting"],
+			"previous_names": ["php-grammar"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1682,8 +1694,12 @@
 			"details": "https://github.com/hudochenkov/sublime-postcss-sorting",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
