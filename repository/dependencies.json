@@ -192,6 +192,20 @@
 			]
 		},
 		{
+			"name": "enum",
+			"load_order": "50",
+			"description": "Python enum module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/enum/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/enum",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "fileio",
 			"load_order": "01",
 			"description": "Python _fileio module",
@@ -419,6 +433,20 @@
 					"sublime_text": ">=3000",
 					"platforms": ["osx"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pathlib",
+			"load_order": "50",
+			"description": "Python pathlib module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pathlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pathlib",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -856,6 +884,20 @@
 					"base": "https://github.com/ajmyers/TM1py",
 					"tags": true,
 					"sublime_text": ">3092"
+				}
+			]
+		},
+		{
+			"name": "typing",
+			"load_order": "50",
+			"description": "Python typing module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/typing/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/typing",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
