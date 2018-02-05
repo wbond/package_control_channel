@@ -480,6 +480,20 @@
 			]
 		},
 		{
+			"name": "PortalockerFiles",
+			"author": "evandroforks",
+			"load_order": "08",
+			"description": "An extended version of PortalockerFiles to lock files in Python using the with statement",
+			"issues": "https://github.com/evandroforks/PortalockerFiles/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/PortalockerFiles",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "psutil",
 			"load_order": "01",
 			"description": "Python psutil module",
