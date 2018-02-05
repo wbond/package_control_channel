@@ -89,6 +89,20 @@
 			]
 		},
 		{
+			"name": "ConcurrentLogHandler",
+			"author": "evandroforks",
+			"load_order": "09",
+			"description": "An additional concurrent file log handler for Python's standard logging package",
+			"issues": "https://github.com/evandroforks/ConcurrentLogHandler/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/ConcurrentLogHandler",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "coverage",
 			"load_order": "15",
 			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
