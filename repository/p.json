@@ -1073,17 +1073,6 @@
 			]
 		},
 		{
-			"name": "php-snippets",
-			"details": "https://github.com/gerardroche/sublime-php-snippets",
-			"labels": ["php", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "PHP-Twig",
 			"details": "https://github.com/Anomareh/PHP-Twig.tmbundle",
 			"releases": [
@@ -1266,6 +1255,18 @@
 		{
 			"name": "PhpSimpleRefactor",
 			"details": "https://github.com/lucacri/PhpSimpleRefactor",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PHPSnippets",
+			"details": "https://github.com/gerardroche/sublime-php-snippets",
+			"labels": ["php", "snippets"],
+			"previous_names": ["php-snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
