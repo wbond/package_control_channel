@@ -19,6 +19,9 @@ class FoldthiscodeCommand(sublime_plugin.TextCommand):
 						self.view.fold(sublime.Region(stacked[-1],ends[cure]+9))
 					else:
 						self.view.unfold(sublime.Region(stacked[-1],ends[cure]+9))
+					stacked.pop()
+					cure += 1
+				else:
 					cure += 1
 			else:
 				stacked.append(starts[curs])
