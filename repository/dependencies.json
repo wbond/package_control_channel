@@ -54,7 +54,9 @@
 				{
 					"base": "https://github.com/jlegewie/sublime-beautifulsoup4",
 					"sublime_text": ">=3000",
-					"platforms": ["*"],
+					"platforms": [
+						"*"
+					],
 					"tags": true
 				}
 			]
@@ -70,7 +72,9 @@
 					"base": "https://github.com/idleberg/sublime-bson",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -103,6 +107,20 @@
 			]
 		},
 		{
+			"name": "chardet",
+			"load_order": "50",
+			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
+			"author": "Umoxfo",
+			"issues": "https://github.com/Umoxfo/sublime-chardet/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Umoxfo/sublime-chardet",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "coverage",
 			"load_order": "15",
 			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
@@ -113,7 +131,9 @@
 					"base": "https://github.com/codexns/sublime-coverage",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -127,7 +147,9 @@
 				{
 					"sublime_text": "*",
 					"base": "https://github.com/adnanyaqoobvirk/sublime-crypt",
-					"platforms": ["linux"],
+					"platforms": [
+						"linux"
+					],
 					"tags": true
 				}
 			]
@@ -143,7 +165,9 @@
 					"base": "https://github.com/idleberg/sublime-cson",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -158,7 +182,9 @@
 					"base": "https://github.com/codexns/sublime-ctypes",
 					"tags": true,
 					"sublime_text": "<3000",
-					"platforms": ["linux"]
+					"platforms": [
+						"linux"
+					]
 				}
 			]
 		},
@@ -215,7 +241,9 @@
 					"base": "https://github.com/idleberg/sublime-emojitations",
 					"tags": true,
 					"sublime_text": ">3000",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -244,7 +272,9 @@
 					"base": "https://github.com/codexns/sublime-fileio",
 					"tags": true,
 					"sublime_text": "<3000",
-					"platforms": ["linux"]
+					"platforms": [
+						"linux"
+					]
 				}
 			]
 		},
@@ -273,7 +303,9 @@
 					"base": "https://github.com/golang/sublime-config",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -302,7 +334,12 @@
 					"base": "https://github.com/eerohele/sublime-lxml",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"]
+					"platforms": [
+						"osx-x64",
+						"linux-x64",
+						"windows-x64",
+						"windows-x32"
+					]
 				}
 			]
 		},
@@ -345,19 +382,25 @@
 					"base": "https://github.com/codexns/sublime-multiprocessing",
 					"tags": true,
 					"sublime_text": "<3000",
-					"platforms": ["windows"]
+					"platforms": [
+						"windows"
+					]
 				},
 				{
 					"base": "https://github.com/codexns/sublime-multiprocessing",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["osx"]
+					"platforms": [
+						"osx"
+					]
 				},
 				{
 					"base": "https://github.com/codexns/sublime-multiprocessing",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["linux"]
+					"platforms": [
+						"linux"
+					]
 				}
 			]
 		},
@@ -386,7 +429,9 @@
 					"base": "https://github.com/codexns/newterm",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -401,7 +446,11 @@
 					"base": "https://github.com/komsit37/sublime-numpy",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["windows-x64", "osx-x64", "linux-x64"]
+					"platforms": [
+						"windows-x64",
+						"osx-x64",
+						"linux-x64"
+					]
 				}
 			]
 		},
@@ -444,7 +493,9 @@
 					"base": "https://github.com/codexns/package_events",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -458,7 +509,9 @@
 				{
 					"base": "https://github.com/math2001/PackageSettingContext",
 					"sublime_text": "*",
-					"platforms": ["*"],
+					"platforms": [
+						"*"
+					],
 					"tags": true
 				}
 			]
@@ -473,7 +526,9 @@
 				{
 					"base": "https://github.com/jlegewie/sublime-paramiko",
 					"sublime_text": ">=3000",
-					"platforms": ["osx"],
+					"platforms": [
+						"osx"
+					],
 					"tags": true
 				}
 			]
@@ -502,7 +557,9 @@
 				{
 					"base": "https://github.com/vovkkk/sublime-pathtools",
 					"sublime_text": "*",
-					"platforms": ["*"],
+					"platforms": [
+						"*"
+					],
 					"tags": true
 				}
 			]
@@ -573,7 +630,9 @@
 				{
 					"base": "https://github.com/jlegewie/sublime-PyCrypto",
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64"],
+					"platforms": [
+						"osx-x64"
+					],
 					"tags": true
 				}
 			]
@@ -657,7 +716,9 @@
 			"releases": [
 				{
 					"base": "https://github.com/randy3k/sublime-pywin32",
-					"platforms": ["windows"],
+					"platforms": [
+						"windows"
+					],
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -814,7 +875,9 @@
 					"base": "https://github.com/codexns/shellenv",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -829,7 +892,9 @@
 					"base": "https://github.com/idleberg/sublime-speg",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["*"]
+					"platforms": [
+						"*"
+					]
 				}
 			]
 		},
@@ -844,13 +909,18 @@
 					"base": "https://github.com/codexns/sublime-sqlite3",
 					"tags": true,
 					"sublime_text": "*",
-					"platforms": ["windows", "linux"]
+					"platforms": [
+						"windows",
+						"linux"
+					]
 				},
 				{
 					"base": "https://github.com/codexns/sublime-sqlite3",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["osx"]
+					"platforms": [
+						"osx"
+					]
 				}
 			]
 		},
@@ -863,7 +933,9 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["linux"],
+					"platforms": [
+						"linux"
+					],
 					"version": "1.0.2",
 					"url": "http://packagecontrol.io/ssl/1.0.2/ssl-linux.sublime-package",
 					"sha256": "23f35f64458a0a14c99b1bb1bbc3cb04794c7361c4940e0a638d40f038acd377"
@@ -879,7 +951,9 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"platforms": ["windows"],
+					"platforms": [
+						"windows"
+					],
 					"version": "1.0.0",
 					"url": "http://packagecontrol.io/ssl/1.0.0/ssl-windows.sublime-package",
 					"sha256": "efe25e3bdf2e8f791d86327978aabe093c9597a6ceb8c2fb5438c1d810e02bea"
@@ -909,7 +983,9 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
+					"platforms": [
+						"windows"
+					],
 					"tags": true,
 					"base": "https://github.com/MrElusive/SublimeP4Python"
 				}
@@ -980,7 +1056,9 @@
 			"releases": [
 				{
 					"base": "https://github.com/randy3k/sublime-xdotool",
-					"platforms": ["linux"],
+					"platforms": [
+						"linux"
+					],
 					"tags": true,
 					"sublime_text": "*"
 				}
