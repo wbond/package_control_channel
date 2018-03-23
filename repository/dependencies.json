@@ -89,6 +89,20 @@
 			]
 		},
 		{
+			"name": "ConcurrentLogHandler",
+			"author": "evandroforks",
+			"load_order": "09",
+			"description": "An additional concurrent file log handler for Python's standard logging package",
+			"issues": "https://github.com/evandroforks/ConcurrentLogHandler/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/ConcurrentLogHandler",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "coverage",
 			"load_order": "15",
 			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
@@ -159,6 +173,20 @@
 					"base": "https://github.com/vovkkk/sublime-dateutil",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "DebugTools",
+			"author": "evandrocoan",
+			"load_order": "10",
+			"description": "Alternate simplified logging support and general utilities functions",
+			"issues": "https://github.com/evandrocoan/DebugTools/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/DebugTools",
+					"sublime_text": ">=3114",
+					"tags": true
 				}
 			]
 		},
@@ -334,6 +362,20 @@
 			]
 		},
 		{
+			"name": "natsort",
+			"load_order": "50",
+			"description": "Python natsort package",
+			"author": "alimony",
+			"issues": "https://github.com/alimony/sublime-natsort/issues",
+			"releases": [
+				{
+					"base": "https://github.com/alimony/sublime-natsort",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "newterm",
 			"load_order": "20",
 			"description": "Open a terminal to a specific folder and optionally set environment variables",
@@ -494,6 +536,20 @@
 			]
 		},
 		{
+			"name": "PortalockerFiles",
+			"author": "evandroforks",
+			"load_order": "08",
+			"description": "An extended version of PortalockerFiles to lock files in Python using the with statement",
+			"issues": "https://github.com/evandroforks/PortalockerFiles/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/PortalockerFiles",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "psutil",
 			"load_order": "01",
 			"description": "Python psutil module",
@@ -604,20 +660,6 @@
 					"platforms": ["windows"],
 					"tags": true,
 					"sublime_text": ">=3000"
-				}
-			]
-		},
-		{
-			"name": "PythonDebugTools",
-			"author": "evandrocoan",
-			"load_order": "10",
-			"description": "Alternate simplified logging support",
-			"issues": "https://github.com/evandrocoan/PythonDebugTools/issues",
-			"releases": [
-				{
-					"base": "https://github.com/evandrocoan/PythonDebugTools",
-					"sublime_text": ">=3114",
-					"tags": true
 				}
 			]
 		},

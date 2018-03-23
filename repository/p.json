@@ -1073,17 +1073,6 @@
 			]
 		},
 		{
-			"name": "php-snippets",
-			"details": "https://github.com/gerardroche/sublime-php-snippets",
-			"labels": ["php", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "PHP-Twig",
 			"details": "https://github.com/Anomareh/PHP-Twig.tmbundle",
 			"releases": [
@@ -1266,6 +1255,18 @@
 		{
 			"name": "PhpSimpleRefactor",
 			"details": "https://github.com/lucacri/PhpSimpleRefactor",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PHPSnippets",
+			"details": "https://github.com/gerardroche/sublime-php-snippets",
+			"labels": ["php", "snippets"],
+			"previous_names": ["php-snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1944,6 +1945,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PreTeXtual",
+			"previous_names": ["MBXTools"],
+			"details": "https://github.com/daverosoff/PreTeXtual",
+			"author": "Dave Rosoff",
+			"labels": ["mbx", "mathbook xml", "pretext", "ptx"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
