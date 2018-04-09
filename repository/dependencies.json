@@ -901,6 +901,20 @@
 			]
 		},
 		{
+			"name": "sublime_lib",
+			"load_order": "01",
+			"description": "Utility library for frequently used functionality in Sublime Text library and convenience functions or classes",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/SublimeText/sublime_lib/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/SublimeText/sublime_lib",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SublimeP4Python",
 			"load_order": "51",
 			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
