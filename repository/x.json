@@ -61,7 +61,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -82,6 +82,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xmake",
+			"details": "https://github.com/tboox/xmake-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -162,6 +172,16 @@
 			]
 		},
 		{
+			"name": "XPX",
+			"details": "https://github.com/infocosme/sublime_xpx",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "XQuery",
 			"details": "https://github.com/PogiNate/XQuery-Sublime",
 			"releases": [
@@ -204,6 +224,17 @@
 			]
 		},
 		{
+			"name": "XssEncode",
+			"description": "Converts characters from one encoding to another using a transformation.",
+			"details": "https://github.com/medicean/SublimeXssEncode",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xtemplate",
 			"details": "https://github.com/noyobo/sublime-xtemplate",
 			"labels": ["snippets", "language syntax"],
@@ -220,6 +251,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XUL and XBL",
+			"details": "https://github.com/thomcc/sublime-xul-xbl",
+			"labels": ["language syntax", "gecko"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
