@@ -1073,17 +1073,6 @@
 			]
 		},
 		{
-			"name": "php-snippets",
-			"details": "https://github.com/gerardroche/sublime-php-snippets",
-			"labels": ["php", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "PHP-Twig",
 			"details": "https://github.com/Anomareh/PHP-Twig.tmbundle",
 			"releases": [
@@ -1266,6 +1255,18 @@
 		{
 			"name": "PhpSimpleRefactor",
 			"details": "https://github.com/lucacri/PhpSimpleRefactor",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PHPSnippets",
+			"details": "https://github.com/gerardroche/sublime-php-snippets",
+			"labels": ["php", "snippets"],
+			"previous_names": ["php-snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1469,6 +1470,18 @@
 			]
 		},
 		{
+			"name": "PlantUmlDiagrams",
+			"details": "https://github.com/evandrocoan/PlantUmlDiagrams",
+			"labels": ["uml", "plantuml"],
+			"author": ["jvantuyl", "evandrocoan"],
+			"releases": [
+				{
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PlasticSCM",
 			"details": "https://github.com/ccll/sublime-plasticscm",
 			"labels": ["scm", "vcs"],
@@ -1600,6 +1613,19 @@
 			"releases": [
 				{
 					"sublime_text": ">=3083",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Polygen",
+			"author": "Tristano Ajmone",
+			"details": "https://github.com/tajmone/sublime-polygen",
+			"issues": "https://github.com/tajmone/sublime-polygen/issues",
+			"labels": [ "polygen", "language syntax" ],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
 					"tags": true
 				}
 			]
@@ -1932,6 +1958,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PreTeXtual",
+			"previous_names": ["MBXTools"],
+			"details": "https://github.com/daverosoff/PreTeXtual",
+			"author": "Dave Rosoff",
+			"labels": ["mbx", "mathbook xml", "pretext", "ptx"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2468,6 +2507,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PypiPackageInfo",
+			"details": "https://github.com/gh640/SublimePypiPackageInfo",
+			"author": "Goto Hayato",
+			"labels": ["python", "pypi", "pipfile", "pipenv"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
 					"tags": true
 				}
 			]

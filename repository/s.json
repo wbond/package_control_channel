@@ -2045,6 +2045,17 @@
 			]
 		},
 		{
+			"name": "SkoolkitZ80",
+			"details": "https://github.com/mrcook/SkoolkitZ80",
+			"labels": ["language syntax", "z80", "assembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SLAB",
 			"details": "https://github.com/increpare/slab-markup-sublime",
 			"labels": ["language syntax"],
@@ -2486,6 +2497,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Snowball Syntax",
+			"description": "Syntax Highlighting for Snowball framwork destinated to stemming",
+			"details": "https://github.com/assem-ch/snowball-sublime-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -3298,6 +3321,18 @@
 			"details": "https://github.com/UnknownX7/Sublime-Starbound-Lua-Syntax",
 			"labels": ["language syntax"],
 			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Startup Files",
+			"details": "https://github.com/voltavidTony/Startup-Files",
+			"labels": ["file", "open", "startup"],
+			"releases":
+			[
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -4935,6 +4970,18 @@
 			]
 		},
 		{
+			"name": "Swift Autocomplete",
+			"details": "https://github.com/Dan2552/SublimeTextSwiftAutocomplete",
+			"labels": ["auto-complete", "completions", "documentation", "swift"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Swift Completion",
 			"details": "https://github.com/tushortz/Swift-Completion",
 			"labels": ["completions", "snippets", "completion", "Completion"],
@@ -5191,6 +5238,21 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Syncrow",
+			"description": "Create and Sync Snippets.",
+			"details": "https://github.com/Afzal7/syncrow",
+			"issues": "https://github.com/Afzal7/syncrow/issues",
+			"homepage": "https://syncrow.herokuapp.com",
+			"author": "Afzal7",
+			"labels": ["syncrow", "create", "synchronize", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

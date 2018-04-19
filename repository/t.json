@@ -727,6 +727,17 @@
 			]
 		},
 		{
+			"name": "Theme - Arc",
+			"details": "https://github.com/aIRisius/sublime-arc-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]   
+		},
+		{
 			"name": "Theme - Argonaut",
 			"details": "https://github.com/pwaleczek/Argonaut",
 			"labels": ["theme"],
@@ -1207,18 +1218,6 @@
 			]
 		},
 		{
-			"name": "Theme - Hsiang",
-			"details": "https://github.com/xianghongai/Theme-Hsiang",
-			"labels": ["theme", "color scheme"],
-			"author": "xianghongai",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Theme - HueAccent",
 			"details": "https://github.com/Gliptal/Theme-HueAccent",
 			"labels": ["theme"],
@@ -1577,6 +1576,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Theme - Pure",
+			"previous_names": ["Theme - Hsiang"],
+			"details": "https://github.com/xianghongai/Theme-Pure",
+			"labels": ["theme", "color scheme"],
+			"author": "xianghongai",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2223,7 +2235,7 @@
 		},
 		{
 			"name": "Tmux Syntax Highlight",
-			"details": "https://github.com/keqh/sublime-tmux-syntax-highlight",
+			"details": "https://github.com/kei-q/sublime-tmux-syntax-highlight",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -2959,8 +2971,7 @@
 			"labels": ["SQL Server", "T-SQL", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["windows", "linux"],
+					"sublime_text": ">=3114",
 					"tags": true
 				}
 			]
