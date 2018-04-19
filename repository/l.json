@@ -580,7 +580,8 @@
 			"labels": ["lebab", "es5", "es6", "convert", "transform", "es2017"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
+					"platforms":["windows", "linux", "osx"],
 					"tags": true
 				}
 			]
