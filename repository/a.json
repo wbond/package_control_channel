@@ -124,6 +124,16 @@
 			]
 		},
 		{
+			"name": "ACF Programmatic Fields",
+			"details": "https://github.com/timlogemann/sublime-acf-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ACF Snippets",
 			"details": "https://github.com/iamhexcoder/acf_snippets",
 			"releases": [
@@ -1585,6 +1595,17 @@
 			]
 		},
 		{
+			"name": "ArmoryBlue",
+			"details": "https://github.com/armory-io/armory-blue",
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Arnold Clark Snippets for Ruby",
 			"details": "https://github.com/arnoldclark/ac-ruby-snippets",
 			"labels": ["snippets"],
@@ -2079,7 +2100,7 @@
 		},
 		{
 			"name": "AutoFoldCode",
-			"details": "https://github.com/callodacity/AutoFoldCode",
+			"details": "https://github.com/RIDE-2DAY/AutoFoldCode",
 			"labels": ["foldcode", "fold", "region", "persistent"],
 			"releases": [
 				{
@@ -2168,10 +2189,17 @@
 		{
 			"name": "AutoPEP8",
 			"details": "https://github.com/wistful/SublimeAutoPEP8",
+			"labels": ["linting", "formatting"],
+			"readme": "https://raw.githubusercontent.com/wistful/SublimeAutoPEP8/master/Readme.md",
+			"issues": "https://github.com/wistful/SublimeAutoPEP8/issues",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},

@@ -89,6 +89,34 @@
 			]
 		},
 		{
+			"name": "chardet",
+			"load_order": "50",
+			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
+			"author": "Umoxfo",
+			"issues": "https://github.com/Umoxfo/sublime-chardet/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Umoxfo/sublime-chardet",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "ConcurrentLogHandler",
+			"author": "evandroforks",
+			"load_order": "09",
+			"description": "An additional concurrent file log handler for Python's standard logging package",
+			"issues": "https://github.com/evandroforks/ConcurrentLogHandler/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/ConcurrentLogHandler",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "coverage",
 			"load_order": "15",
 			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
@@ -163,6 +191,20 @@
 			]
 		},
 		{
+			"name": "DebugTools",
+			"author": "evandrocoan",
+			"load_order": "10",
+			"description": "Alternate simplified logging support and general utilities functions",
+			"issues": "https://github.com/evandrocoan/DebugTools/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/DebugTools",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "dicttoxml",
 			"load_order": "50",
 			"description": "Converts a Python dictionary or other native data type into a valid XML string - https://github.com/idleberg/sublime-dicttoxml",
@@ -188,6 +230,20 @@
 					"tags": true,
 					"sublime_text": ">3000",
 					"platforms": ["*"]
+				}
+			]
+		},
+		{
+			"name": "enum",
+			"load_order": "50",
+			"description": "Python enum module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/enum/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/enum",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -320,6 +376,20 @@
 			]
 		},
 		{
+			"name": "natsort",
+			"load_order": "50",
+			"description": "Python natsort package",
+			"author": "alimony",
+			"issues": "https://github.com/alimony/sublime-natsort/issues",
+			"releases": [
+				{
+					"base": "https://github.com/alimony/sublime-natsort",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "newterm",
 			"load_order": "20",
 			"description": "Open a terminal to a specific folder and optionally set environment variables",
@@ -423,6 +493,20 @@
 			]
 		},
 		{
+			"name": "pathlib",
+			"load_order": "50",
+			"description": "Python pathlib module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pathlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pathlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pathtools",
 			"load_order": "10",
 			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
@@ -452,6 +536,34 @@
 			]
 		},
 		{
+			"name": "PlantUmlConnection",
+			"author": "evandrocoan",
+			"load_order": "50",
+			"description": "Python interface to a plantuml web service instead of having to run Java locally",
+			"issues": "https://github.com/evandrocoan/PlantUmlConnection/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/PlantUmlConnection",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PortalockerFiles",
+			"author": "evandroforks",
+			"load_order": "08",
+			"description": "An extended version of PortalockerFiles to lock files in Python using the with statement",
+			"issues": "https://github.com/evandroforks/PortalockerFiles/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/PortalockerFiles",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "psutil",
 			"load_order": "01",
 			"description": "Python psutil module",
@@ -459,7 +571,7 @@
 			"issues": "https://github.com/varp/sublime-psutil/issues",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"base": "https://github.com/varp/sublime-psutil",
 					"tags": true
 				}
@@ -562,20 +674,6 @@
 					"platforms": ["windows"],
 					"tags": true,
 					"sublime_text": ">=3000"
-				}
-			]
-		},
-		{
-			"name": "PythonDebugTools",
-			"author": "evandrocoan",
-			"load_order": "10",
-			"description": "Alternate simplified logging support",
-			"issues": "https://github.com/evandrocoan/PythonDebugTools/issues",
-			"releases": [
-				{
-					"base": "https://github.com/evandrocoan/PythonDebugTools",
-					"sublime_text": ">=3114",
-					"tags": true
 				}
 			]
 		},
@@ -860,6 +958,20 @@
 			]
 		},
 		{
+			"name": "typing",
+			"load_order": "50",
+			"description": "Python typing module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/typing/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/typing",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "watchdog",
 			"load_order": "20",
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
@@ -899,6 +1011,20 @@
 					"base": "https://github.com/idleberg/sublime-xmltodict",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "yaml_macros_engine",
+			"load_order": "50",
+			"description": "Engine for YAML Macros",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/Thom1729/yaml-macros-engine/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Thom1729/yaml-macros-engine",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		}

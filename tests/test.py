@@ -107,7 +107,7 @@ def generate_test_methods(cls, stream):
                 if len(string) > 1000:
                     args.append('...')
                 else:
-                    args.append(repr(v))
+                    args.append(string)
 
             mname = method.__name__
             if mname.startswith("_test"):
@@ -418,13 +418,14 @@ class TestContainer(object):
         if main_repo:
             if dependency:
                 condition = (
-                    'tags' in data or 'branch' in data
+                    'base' in data
+                    and ('tags' in data or 'branch' in data)
                     or ('sha256' in data
                         and ('url' not in data
                              or data['url'].startswith('http://')))
                 )
                 self.assertTrue(condition,
-                                'A release must have a "tags" key or "branch" key '
+                                'A release must have a "base" and a "tags" or "branch" key '
                                 'if it is in the main repository. For custom '
                                 'releases, a custom repository.json file must be '
                                 'hosted elsewhere. The only exception to this rule '

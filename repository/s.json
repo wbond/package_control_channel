@@ -161,13 +161,17 @@
 		},
 		{
 			"name": "Sass",
-			"details": "https://github.com/nathos/sass-textmate-bundle/tree/sublime",
+			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
+			"previous_names": ["Syntax Highlighting for Sass"],
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"base": "https://github.com/nathos/sass-textmate-bundle",
-					"branch": "sublime"
+					"sublime_text": "<3103",
+					"branch": "ST2"
+				},
+				{
+					"sublime_text": ">=3103",
+					"tags": true
 				}
 			]
 		},
@@ -1224,7 +1228,7 @@
 			"author": "gwenzek",
 			"releases": [
 				{
-					"platforms": "linux",
+					"platforms": ["linux", "windows"],
 					"sublime_text": ">=3000",
 					"tags": true
 				}
@@ -1548,7 +1552,7 @@
 			"previous_names": ["SxS Settings"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2041,6 +2045,17 @@
 			]
 		},
 		{
+			"name": "SkoolkitZ80",
+			"details": "https://github.com/mrcook/SkoolkitZ80",
+			"labels": ["language syntax", "z80", "assembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SLAB",
 			"details": "https://github.com/increpare/slab-markup-sublime",
 			"labels": ["language syntax"],
@@ -2482,6 +2497,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Snowball Syntax",
+			"description": "Syntax Highlighting for Snowball framwork destinated to stemming",
+			"details": "https://github.com/assem-ch/snowball-sublime-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -3294,6 +3321,18 @@
 			"details": "https://github.com/UnknownX7/Sublime-Starbound-Lua-Syntax",
 			"labels": ["language syntax"],
 			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Startup Files",
+			"details": "https://github.com/voltavidTony/Startup-Files",
+			"labels": ["file", "open", "startup"],
+			"releases":
+			[
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -4931,6 +4970,18 @@
 			]
 		},
 		{
+			"name": "Swift Autocomplete",
+			"details": "https://github.com/Dan2552/SublimeTextSwiftAutocomplete",
+			"labels": ["auto-complete", "completions", "documentation", "swift"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Swift Completion",
 			"details": "https://github.com/tushortz/Swift-Completion",
 			"labels": ["completions", "snippets", "completion", "Completion"],
@@ -5062,6 +5113,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SwitchPanel",
+			"description": "Switch which ouput panel to display",
+			"details": "https://github.com/stoivo/sublime_switch_panel",
+			"issues": "https://github.com/stoivo/sublime_switch_panel/issues",
+			"labels": ["panel"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -5203,6 +5267,16 @@
 			]
 		},
 		{
+			"name": "Synesthesia",
+			"details": "https://github.com/dariusf/synesthesia",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Syntax gRally",
 			"details": "https://github.com/ghiboz/syntax-gRally",
 			"labels": ["language syntax"],
@@ -5220,21 +5294,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Syntax Highlighting for Sass",
-			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3103",
-					"branch": "ST2"
-				},
-				{
-					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]

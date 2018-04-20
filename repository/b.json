@@ -46,8 +46,9 @@
 			]
 		},
 		{
-			"name": "Backbone Baguette",
-			"details": "https://github.com/spacenick/SublimeText2-BackboneBaguette-package",
+			"name": "Backbone",
+			"details": "https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package",
+			"previous_names": ["Backbone.js"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -56,8 +57,8 @@
 			]
 		},
 		{
-			"name": "Backbone.js",
-			"details": "https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package",
+			"name": "Backbone Baguette",
+			"details": "https://github.com/spacenick/SublimeText2-BackboneBaguette-package",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -695,6 +696,20 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "bioSyntax",
+			"details": "https://github.com/bioSyntax/bioSyntax-sublime",
+			"homepage": "http://bioSyntax.org",
+			"readme": "https://raw.githubusercontent.com/bioSyntax/bioSyntax/master/README.md",
+			"issues": "https://github.com/bioSyntax/bioSyntax/issues",
+			"labels": [ "science", "bioinformatics", "biology", "language syntax" ],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1466,6 +1481,17 @@
 			"name": "Business Catalyst Liquid Snippets",
 			"details": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BYOND",
+			"details": "https://github.com/Wirewraith/sublime-byond",
+			"labels": ["language syntax", "build system", "Dream Maker", "Dream Seeker", "Dream Daemon"],
 			"releases": [
 				{
 					"sublime_text": "*",

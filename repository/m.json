@@ -34,6 +34,19 @@
 			]
 		},
 		{
+			"name": "MacDictionary",
+			"details": "https://github.com/gh640/SublimeMacDictionary",
+			"author": "Goto Hayato",
+			"labels": ["mac", "dictionary"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MacDown App Menu",
 			"details": "https://github.com/diimdeep/sublime-text-macdown-app-menu",
 			"labels": ["markdown", "preview", "editor", "macdown.app"],
@@ -171,6 +184,17 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Make Automatic Variables",
+			"details": "https://github.com/roperzh/sublime-make-auto-vars",
+			"labels": ["snippets", "makefile"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -470,6 +494,16 @@
 			]
 		},
 		{
+			"name": "MarkdownComplements",
+			"details": "https://github.com/junShimoji/MarkdownComplements",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MarkdownEditing",
 			"details": "https://github.com/SublimeText-Markdown/MarkdownEditing",
 			"labels": ["markdown", "github markdown", "gfm", "multimarkdown", "color scheme"],
@@ -527,7 +561,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -592,6 +626,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Marshal Command Code",
+			"previous_names": ["MinecraftCommandCode"],
+			"details": "https://github.com/42iscool42/MCC",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags":true
 				}
 			]
 		},
@@ -918,18 +963,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "MBXTools",
-			"details": "https://github.com/daverosoff/mbxtools",
-			"author": "Dave Rosoff",
-			"labels": ["mbx", "mathbook xml", "language syntax", "auto-complete"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1330,16 +1363,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "MinecraftCommandCode",
-			"details": "https://github.com/42iscool42/MCC",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags":true
 				}
 			]
 		},
@@ -1954,7 +1977,7 @@
 					"branch": "master"
 				}
 			]
-		},		
+		},
 		{
 			"name": "Monokai Gray",
 			"details": "https://github.com/IanWold/MonokaiGray",
@@ -2277,6 +2300,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MThuy Local Sync",
+			"details": "https://github.com/hoanglan87/mthuy-local-sync",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
