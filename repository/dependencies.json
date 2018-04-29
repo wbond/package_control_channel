@@ -621,6 +621,20 @@
 			]
 		},
 		{
+			"name": "pyserial",
+			"author": "pyserial",
+			"load_order": "1",
+			"description": "Python serial port access library",
+			"issues": "https://github.com/pyserial/pyserial/issues",
+			"releases": [
+				{
+					"base": "https://github.com/pyserial/pyserial",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "python-jinja2",
 			"load_order": "51",
 			"description": "Python Jinja2 module",
