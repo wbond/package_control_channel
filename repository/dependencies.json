@@ -818,6 +818,20 @@
 			]
 		},
 		{
+			"name": "serial",
+			"author": "pyserial",
+			"load_order": "50",
+			"description": "Python serial port access library",
+			"issues": "https://github.com/pyserial/pyserial/issues",
+			"releases": [
+				{
+					"base": "https://github.com/pyserial/pyserial",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "shellenv",
 			"load_order": "10",
 			"description": "Access a user's environmental variables as defined in their shell",
