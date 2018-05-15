@@ -516,7 +516,11 @@
 			"previous_names": ["SublimeJEDI", "Jedi - Python autocompetion"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
