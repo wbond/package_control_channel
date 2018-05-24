@@ -2,18 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "C Complete",
-			"details": "https://github.com/ibensw/CComplete",
-			"labels": ["auto-complete"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["linux"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "C Improved",
 			"details": "https://github.com/abusalimov/SublimeCImproved",
 			"labels": ["language syntax"],
@@ -104,10 +92,10 @@
 			"details": "https://github.com/glymehrvrd/CppYCM",
 			"labels": ["c++", "code completion", "syntax check"],
 			"releases": [
-			{
-				"sublime_text": ">=3000",
-				"tags": true
-			}
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
 			]
 		},
 		{
@@ -143,6 +131,28 @@
 			]
 		},
 		{
+			"name": "Caddyfile Syntax",
+			"details": "https://github.com/caddyserver/sublimetext",
+			"labels": ["language syntax", "syntax highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Caffe Prototxt Syntax",
+			"details": "https://github.com/zironycho/sublime-caffe-prototxt-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CakePHP (Native)",
 			"details": "https://github.com/josegonzalez/sublimetext-cakephp",
 			"releases": [
@@ -164,6 +174,16 @@
 			]
 		},
 		{
+			"name": "Calamity",
+			"details": "https://github.com/Pustur/calamity-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Calculate Relative Path",
 			"details": "https://github.com/TonyHYK/CalculateRelativePath",
 			"releases": [
@@ -179,15 +199,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeGit/CanISwitchToSublimeText3",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -286,6 +297,17 @@
 			]
 		},
 		{
+			"name": "Carbon",
+			"details": "https://github.com/molnarmark/carbonsublime",
+			"labels": ["Carbon", "Carbon Enhanced", "Carbon Now", "Carbon Now Sh"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Carto",
 			"details": "https://github.com/yohanboniface/Carto-sublime",
 			"labels": ["Carto", "CartoCSS", "Mapnik", "OpenStreetMap", "language syntax"],
@@ -327,6 +349,17 @@
 			]
 		},
 		{
+			"name": "Catkin Builder",
+			"details": "https://github.com/ZacharyTaylor/Catkin-Builder",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CBP Syntax Highlighter",
 			"details": "https://github.com/destruc7i0n/CBP_Sublime",
 			"labels": ["minecraft", "language syntax"],
@@ -338,12 +371,47 @@
 			]
 		},
 		{
+			"name": "CCL Tools",
+			"details": "https://github.com/daftscience/ccl_tools",
+			"labels": ["Cerner", "CCL", "DVDev", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CComplete",
+			"details": "https://github.com/ibensw/CComplete",
+			"labels": ["auto-complete"],
+			"previous_names": ["C Complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "cdnjs",
 			"details": "https://github.com/dafrancis/Sublime-Text--cdnjs",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CDNUpdates",
+			"details": "https://github.com/HorlogeSkynet/CDNUpdates",
+			"labels": ["CDN", "updates", "web development"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -373,6 +441,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cert Tools",
+			"details": "https://github.com/Gui13/sublime-certtools",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -441,6 +520,18 @@
 			]
 		},
 		{
+			"name": "CFile",
+			"details": "https://github.com/leoxnidas/CFile",
+			"labels": ["C", "C++"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CFML",
 			"details": "https://github.com/jcberquist/sublimetext-cfml",
 			"labels": ["language syntax", "cfml", "coldfusion", "lucee"],
@@ -499,7 +590,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -510,6 +601,26 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Chains",
+			"details": "https://github.com/hc-12/chains",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChaiScript",
+			"details": "https://github.com/ChaiScript/sublimetext-chaiscript",
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
 				}
 			]
 		},
@@ -554,7 +665,7 @@
 				}
 			]
 		},
-				{
+		{
 			"name": "Charcoal",
 			"details": "https://github.com/Dnld/charcoal-color-scheme",
 			"labels": ["color scheme"],
@@ -566,9 +677,22 @@
 			]
 		},
 		{
-			"name": "Chatscript Syntax",
-			"details": "https://github.com/joshuasnowball/chatscript-tmlanguage",
+			"name": "Charmci",
+			"details": "https://github.com/matthiasdiener/Charmci-Sublime-Syntax",
+			"description" : "Syntax highlighting for Charm++ .ci files",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChatScript Syntax",
+			"details": "https://github.com/kuzyn/chatscript-tmlanguage",
+			"labels": ["language syntax"],
+			"previous_names": ["Chatscript Syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -613,7 +737,6 @@
 			"author": "Victor Rachieru",
 			"description" : "Quick reference for those pesky little details that just won't stay in your head.",
 			"details": "https://github.com/vrachieru/cheatsheet",
-			"issues": "https://github.com/vrachieru/cheatsheet/issues",
 			"labels": ["cheatsheet", "documentation", "snippets", "utilities"],
 			"releases": [
 				{
@@ -709,8 +832,30 @@
 			]
 		},
 		{
-			"name": "ChineseLocalization",
-			"details": "https://github.com/rexdf/Chinese-Localization",
+			"name": "Chick",
+			"details": "https://github.com/Satoh-D/Chick",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Chinese-English Bilingual Dictionary",
+			"details": "https://github.com/divinites/cndict",
+			"previous_names": ["Cndict", "Youdao English-Chinese Translate"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChineseLocalizations",
+			"previous_names": ["ChineseLocalization"],
+			"details": "https://github.com/rexdf/ChineseLocalization",
 			"labels": ["localization", "chinese", "中文", "japanese", "日本語"],
 			"releases": [
 				{
@@ -756,6 +901,28 @@
 			]
 		},
 		{
+			"name": "Chipper",
+			"details": "https://github.com/andymaster01/chipper_syntax_sublime_text",
+			"labels": ["chipper", "chip8"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChipseaAssembly",
+			"details": "https://github.com/junglefive/ChipseaAssembly",
+			"labels": ["chipsea", "csAssembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chmod",
 			"details": "https://github.com/kristoformaynard/SublimeChmod",
 			"releases": [
@@ -777,13 +944,12 @@
 			]
 		},
 		{
-			"name": "Chopstick Autocompletion",
-			"details": "https://github.com/getchopstick/chopstick-completion",
-			"labels": ["scss", "chopstick", "framework", "auto-complete"],
+			"name": "choo snippets",
+			"details": "https://github.com/kareniel/sublime-choo-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -820,6 +986,18 @@
 			]
 		},
 		{
+			"name": "Chrome Color Scheme",
+			"description" : "Syntax theme mimicking Chrome Developer Tools",
+			"details": "https://github.com/mapsiter/Chrome-Color-Scheme",
+			"labels": ["color scheme", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chrome Snippets",
 			"details": "https://github.com/ismnoiet/ChromeSnippets",
 			"releases": [
@@ -835,6 +1013,40 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChromeREPL",
+			"details": "https://github.com/acarabott/ChromeREPL",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChromiumTodoView",
+			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ChromiumXRefs",
+			"previous_names": ["Chromium X-Refs"],
+			"author": "Josh Karlin",
+			"description": "Shows Chromium code cross-references from cs.chromium.org",
+			"details": "https://github.com/karlinjf/ChromiumXRefs",
+			"labels": ["chrome", "chromium", "cross reference", "references", "code search", "call graph"],
+			"releases": [
+				{
+					"sublime_text": ">=3118",
 					"tags": true
 				}
 			]
@@ -862,6 +1074,20 @@
 			]
 		},
 		{
+			"name": "Chunks",
+			"author": "Tony Ennis",
+			"description" : "Send text to an API & insert a snippet in it's place.",
+			"details": "https://github.com/tonyennis145/chunks-sublime",
+			"labels": ["snippets", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ciapre Color Scheme",
 			"details": "https://github.com/vinhnx/Ciapre.tmTheme",
 			"labels": ["color scheme"],
@@ -869,6 +1095,29 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Ciapre Mod",
+			"author": "Jztsaurabh",
+			"description" : "Started with Ciapre but it's gone a long way and hugely changed",
+			"details": "https://github.com/jztsaurabh/CiapreMod-Sublime-Text",
+			"labels": ["colorscheme", "ciapre", "dark colorscheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CircleCi Status",
+			"details": "https://github.com/drazisil/sublime-circleci/",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -915,12 +1164,23 @@
 			]
 		},
 		{
+			"name": "Civic Color Scheme",
+			"details": "https://github.com/AntoineBoulanger/civic",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CJSX Syntax",
 			"details": "https://github.com/Guidebook/sublime-cjsx",
 			"labels": ["CJSX", "syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -983,8 +1243,30 @@
 			]
 		},
 		{
+			"name": "Class Navigator",
+			"details": "https://github.com/malexer/SublimeClassNavigator",
+			"labels": ["code navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ClassName",
-			"details": "https://github.com/lite3/Sublime-ClassName",
+			"details": "https://github.com/litefeel/Sublime-ClassName",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Claudinho",
+			"details": "https://github.com/gkal19/claudinho",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1024,8 +1306,38 @@
 			]
 		},
 		{
+			"name": "ClearConsole",
+			"details": "https://github.com/saadq/ClearConsole",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Click",
 			"details": "https://github.com/drbarrett/click-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Click To Partial",
+			"details": "https://github.com/alvesjtiago/click-to-partial",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Clickability Velocity",
+			"details": "https://bitbucket.org/jwetmore/clickability-velocity",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1039,6 +1351,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ClickableRequires",
+			"details": "https://github.com/hajnalben/ClickableRequires",
+			"labels": ["require", "node", "javascript", "js"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1155,23 +1478,34 @@
 			]
 		},
 		{
+			"name": "CloseMinimapOnMultiView",
+			"details": "https://github.com/alkuzad/CloseMinimapOnMultiView",
+			"labels": ["code navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CloseOtherWindows",
 			"details": "https://github.com/werkzeugh/CloseOtherWindows_SublimePlugin",
 			"releases": [
-			{
-				"sublime_text": "*",
-				"tags": true
-			}
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
 			]
 		},
 		{
 			"name": "CloseTabsLeft",
 			"details":"https://github.com/deXterbed/CloseTabsLeft",
 			"releases": [
-			{
-				"sublime_text": "<3000",
-				"tags": true
-			}
+				{
+					"sublime_text": "<3000",
+					"tags": true
+				}
 			]
 		},
 		{
@@ -1196,6 +1530,17 @@
 			]
 		},
 		{
+			"name": "CMakeBuilder",
+			"details": "https://github.com/rwols/CMakeBuilder",
+			"labels": ["workflow", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CMakeEditor",
 			"details": "https://github.com/thenewvu/SublimeCMakeEditor",
 			"labels": ["language syntax", "auto-complete", "documentation"],
@@ -1207,12 +1552,43 @@
 			]
 		},
 		{
+			"name": "CMakeFormat",
+			"details": "https://github.com/jasjuang/sublime_cmake_format",
+			"labels": ["Format", "Beautifier", "Formatter", "CMake"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CMakeSnippets",
 			"details": "https://bitbucket.org/sevas/sublime_cmake_snippets",
 			"labels": ["snippets", "completion", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CMB snippets",
+			"details": "https://github.com/lubusonline/CMB-sublime-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "cmd-caller",
+			"details": "https://github.com/esphas/cmd-caller",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1240,12 +1616,23 @@
 			]
 		},
 		{
-			"name": "Cndict",
-			"details": "https://github.com/divinites/cndict",
-			"previous_names": ["Youdao English-Chinese Translate"],
+			"name": "CNC BoschRexroth MTX",
+			"details": "https://github.com/deathaxe/sublime-mtx",
+			"labels": ["language syntax", "snippets", "completion"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CNC SINUMERIK 840D language support",
+			"details": "https://github.com/deathaxe/sublime-s840d",
+			"labels": ["language syntax", "snippets", "completion"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1254,6 +1641,26 @@
 			"name": "coala",
 			"details": "https://github.com/coala-analyzer/coala-sublime",
 			"labels": ["linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cobalt2 Flat Theme",
+			"details": "https://github.com/r3volution11/cobalt2-flat-theme",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CoberturaCoverage",
+			"details": "https://github.com/jeffrand/CoberturaCoverage",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1298,6 +1705,17 @@
 			"name": "Coconut",
 			"details": "https://github.com/evhub/sublime-coconut",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cocos Creator Snippet",
+			"details": "https://github.com/lyzz0612/Cocos-Creator-Snippet",
+			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1354,6 +1772,17 @@
 			"name": "Code Cast",
 			"details": "https://github.com/mraiur/CodeCast",
 			"labels": ["code", "cast", "share", "codecast"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Code Champion",
+			"details": "https://github.com/Atbox/CodeChampion",
+			"labels": ["utilities", "utils", "utility"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1457,13 +1886,41 @@
 			]
 		},
 		{
+			"name": "CodeDrafts",
+			"details": "https://github.com/subeeshb/codedrafts_sublime_plugin",
+			"labels": ["code sharing", "utilities", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Codeforces Util",
+			"details": "https://github.com/shankhs/CodeforcesUtil",
+			"homepage": "http://www.shankhs.com",
+			"author": "shankhs",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeFormatter",
 			"details": "https://github.com/akalongman/sublimetext-codeformatter",
 			"labels": ["formatting", "utilities", "php", "css", "javascript", "html", "python", "automation", "indent"],
 			"author": "Avtandil Kikabidze aka LONGMAN",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1550,12 +2007,33 @@
 			]
 		},
 		{
+			"name": "CodeMap",
+			"details": "https://github.com/oleg-shilo/sublime-codemap",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Codepad.org Paste Plugin",
 			"details": "https://github.com/dangelov/Paste-Codepad.org",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CodePresenter",
+			"details": "https://github.com/fwph/codepresenter",
+			"labels":["presentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1581,12 +2059,46 @@
 			]
 		},
 		{
+			"name": "CodeStats",
+			"details": "https://github.com/code-stats/code-stats-sublime",
+			"labels": ["analytics", "statistics"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CodeStory",
+			"details": "https://github.com/dperetti/sublime-codestory",
+			"releases": [
+				{
+					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeTestSwitcher",
 			"details": "https://github.com/maltize/sublime-text-code-test-switcher",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CodeTimeTracker",
+			"details": "https://github.com/victoreduardobarreto/CodeTimeTracker",
+			"author": "Victor Eduardo Barreto",
+			"labels": ["Time Tracker"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["linux","osx","windows"],
+					"tags": true
 				}
 			]
 		},
@@ -1693,6 +2205,17 @@
 			]
 		},
 		{
+			"name": "CoffeeScript Ddry Snippets",
+			"details": "https://github.com/ddry/ddry-sublime-coffee-snippets",
+			"labels": [ "snippets" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CoffeeScript Function Finder",
 			"details": "https://github.com/edubkendo/sublime-coffeescript-function-finder",
 			"releases": [
@@ -1743,12 +2266,54 @@
 			]
 		},
 		{
+			"name": "CollaBroText",
+			"details": "https://github.com/shantanu3637/CollaBroText",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"platforms": ["linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Collider Snippets",
+			"details": "https://github.com/simonsinclair/collider-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ColobotSyntaxHighlighting",
+			"details": "https://github.com/MrSimbax/sublime-colobot-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Convert",
+			"details": "https://github.com/zhouyuexie/ColorConvert",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Highlighter",
 			"details": "https://github.com/Monnoroch/ColorHighlighter",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1808,6 +2373,18 @@
 			]
 		},
 		{
+			"name": "Color Scheme - Eazy Light",
+			"details": "https://github.com/txdm/Eazy-Light",
+			"labels": ["color scheme"],
+			"previous_names": ["Eazy Light"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - Eggplant Parm",
 			"details": "https://github.com/mimshwright/sublime-eggplant-parm",
 			"labels": ["color scheme"],
@@ -1854,6 +2431,17 @@
 			]
 		},
 		{
+			"name": "Color Scheme - Legacy",
+			"details": "https://github.com/SublimeText/LegacyColorSchemes",
+			"labels": ["color scheme", "legacy"],
+			"releases": [
+				{
+					"sublime_text": ">3131",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - Nice Blue Soda",
 			"details": "https://bitbucket.org/DanielSiepmann/color-scheme-nice-blue-soda",
 			"author": "Daniel Siepmann",
@@ -1862,6 +2450,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "default"
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Pastels UI",
+			"author": "E1ectroN",
+			"details": "https://github.com/e1ectron/sublime-pastels-ui",
+			"labels": [ "color scheme" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1944,6 +2544,17 @@
 			]
 		},
 		{
+			"name": "Color Schemes - Wicked Schemes by b0xw00d",
+			"details": "https://github.com/b0xw00d/wicked_color_schemes",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Schemes by carlcalderon",
 			"details": "https://github.com/carlcalderon/sublime-color-schemes",
 			"labels": ["color scheme"],
@@ -2008,6 +2619,18 @@
 			]
 		},
 		{
+			"name": "ColorSchemeUnit",
+			"details": "https://github.com/gerardroche/sublime-color-scheme-unit",
+			"labels": ["color scheme", "testing"],
+			"previous_names": ["color_scheme_unit"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Colorsublime",
 			"details": "https://github.com/Colorsublime/Colorsublime-Plugin",
 			"labels": ["color scheme"],
@@ -2015,6 +2638,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "colorToVal",
+			"details": "https://github.com/yh418807968/colorToVal",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2062,7 +2695,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2098,11 +2731,41 @@
 			]
 		},
 		{
+			"name": "Combiner",
+			"details": "https://github.com/bite-your-idols/Combiner",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Combyne",
 			"details": "https://github.com/kadamwhite/Sublime-Combyne",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ComicSansToggle",
+			"details": "https://github.com/seangoedecke/sublime-comic-sans-toggle/",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Commandbox",
+			"details": "https://github.com/Ortus-Solutions/sublime-commandbox",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2211,12 +2874,35 @@
 			]
 		},
 		{
+			"name": "Compass",
+			"details": "https://github.com/whatwedo/sublime-text-compass",
+			"author": "whatwedo",
+			"labels": ["compass", "scss", "sass", "css", "precompiler", "build", "watch", "css3", "build system", "minification"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Competitive Programming",
 			"details": "https://github.com/egtoneyUK/CompetitiveProgramming/",
 			"author": "egtoneyUK",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Compile Jasper Template",
+			"details": "https://github.com/MettleUp/CompileJasperTemplate",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -2232,12 +2918,48 @@
 			]
 		},
 		{
+			"name": "CompletePHP",
+			"details": "https://github.com/desean1625/CompletePHP",
+			"author": "Desean1625",
+			"labels": ["completions","php","documentation","auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ComplexBuild",
+			"details": "https://github.com/lucteo/ComplexBuild",
+			"author": "lucteo",
+			"labels": ["build system","workflow"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Composer",
 			"details": "https://github.com/francodacosta/composer-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ComposerPackageInfo",
+			"details": "https://github.com/gh640/SublimeComposerPackageInfo",
+			"author": "Goto Hayato",
+			"labels": ["php", "composer"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
 				}
 			]
 		},
@@ -2260,6 +2982,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Conda",
+			"details": "https://github.com/mandeep/sublime-text-conda",
+			"labels": ["snippets", "build system", "utilities", "python", "search", "anaconda", "miniconda", "conda"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Conditional ColorSchemes",
+			"details": "https://github.com/Enteleform/ST_ConditionalColorSchemes",
+			"labels": ["color scheme", "automation", "automate"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2308,6 +3052,16 @@
 			]
 		},
 		{
+			"name": "CoNLL-U",
+			"details": "https://github.com/stephsamson/CoNLL-U.tmLanguage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Console Exec",
 			"details": "https://github.com/joeyespo/sublimetext-console-exec",
 			"author": "Joe Esposito",
@@ -2320,10 +3074,31 @@
 			]
 		},
 		{
-			"name": "Console Wrap for js",
+			"name": "Console Wrap",
 			"details": "https://github.com/unknownuser88/consolewrap",
 			"author": "David Bekoyan",
-			"labels": ["completion", "auto-complete"],
+			"labels": ["logs", "debug", "console", "output", "javascript", "completion", "auto-complete"],
+			"previous_names": ["Console Wrap for js"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/abathur/constellation",
+			"releases": [
+				{
+					"sublime_text": ">=3161",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Contao Front-End Snippets",
+			"details": "https://github.com/marcobiedermann/sublime-contao-front-end-snippets",
+			"labels": ["cms", "contao", "snippets", "css", "less", "sass", "scss", "stylus"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2383,6 +3158,17 @@
 			]
 		},
 		{
+			"name": "ConvertFullHalfWidth",
+			"details": "https://github.com/naoyukik/SublimeConvertFullHalfWidth",
+			"labels": ["japanese", "zenkaku", "hankaku"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ConvertJaZenHan",
 			"details": "https://github.com/Satoh-D/ConvertJaZenHan",
 			"releases": [
@@ -2419,6 +3205,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Copy as HTML",
+			"details": "https://github.com/liulex/CopyAsHtml",
+			"labels": ["copy", "html", "clipboard"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -2601,6 +3399,17 @@
 			]
 		},
 		{
+			"name": "Core dna snippets",
+			"details": "https://github.com/bwiredagency/core_dna_snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CoreBuilder",
 			"details": "https://github.com/digoangeline/CoreBuilder_SublimeText",
 			"labels": ["language syntax"],
@@ -2654,11 +3463,43 @@
 			]
 		},
 		{
+			"name": "cp2k-syntax",
+			"details": "https://github.com/nholmber/cp2k-syntax",
+			"labels": ["language syntax", "linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "CPP Competitive Programming Snippets",
+			"details": "https://github.com/MeghaSharma21/CPP_Competitive_Programming_Sublime_Snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CppBuilder",
 			"details": "https://github.com/Sharlock93/CppBuilder",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CppFastOlympicCoding",
+			"details": "https://github.com/Jatana/FastOlympicCoding",
+			"labels": ["cpp", "testing", "linting", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2705,6 +3546,17 @@
 			]
 		},
 		{
+			"name": "CrafterSama Scheme",
+			"details": "https://github.com/CrafterSama/CrafterSama-Scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Create Backup Copy",
 			"details": "https://github.com/glutanimate/sublime-create-backup-copy",
 			"labels": ["backup", "file creation"],
@@ -2737,6 +3589,27 @@
 			]
 		},
 		{
+			"name": "CreativeCrocodile",
+			"details": "https://github.com/Abban/CreativeCrocodile",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Creeper Reverse Polish Language",
+			"details": "https://github.com/KubeRoot/Sublime-CRPL",
+			"labels": ["language syntax", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/Siddley/Creole",
 			"labels": ["language syntax"],
 			"releases": [
@@ -2753,6 +3626,39 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Criollo Color Scheme",
+			"labels": ["color scheme"],
+			"details": "https://github.com/aranajhonny/criollo",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cristina Color Scheme",
+			"details": "https://github.com/edgarMejia/Cristina-ColorScheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Crollow",
+			"details": "https://github.com/purefan/crollow",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true,
+					"platforms": ["osx", "windows", "linux"]
 				}
 			]
 		},
@@ -2789,12 +3695,48 @@
 			]
 		},
 		{
+			"name": "CS-Script",
+			"details": "https://github.com/oleg-shilo/cs-script-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Cscope",
 			"details": "https://github.com/ameyp/CscopeSublime",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "cslint",
+			"details": "https://github.com/cslint/sublime-cslint",
+			"labels": ["linting", "formatting", "code style"],
+			"author": "molee1905",
+			"readme": "https://raw.githubusercontent.com/cslint/sublime-cslint/master/README.md",
+			"issues": "https://github.com/cslint/sublime-cslint/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CSON Converter",
+			"details": "https://github.com/idleberg/sublime-cson-converter",
+			"labels": ["converter", "cson", "json"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2884,6 +3826,17 @@
 			]
 		},
 		{
+			"name": "CSS Grid Snippets",
+			"details": "https://github.com/antenando/css-grid-sublime-snippets",
+			"labels": ["css", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CSS Less(ish)",
 			"details": "https://github.com/kizza/CSS-Less-ish",
 			"labels": ["css", "formatting", "precompiler"],
@@ -2948,6 +3901,16 @@
 			]
 		},
 		{
+			"name": "CSS Table of Contents",
+			"details": "https://github.com/dingo-d/CSS-Table-of-Contents",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CSS To SASS And Stylus Converter",
 			"details": "https://github.com/lnikell/css-converter",
 			"releases": [
@@ -2985,16 +3948,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "CSS3_Syntax",
-			"details": "https://github.com/y0ssar1an/CSS3_Syntax",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -3086,6 +4039,16 @@
 		{
 			"name": "Cssnext",
 			"details": "https://github.com/zhouwenbin/sublime-cssnext",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CSSO",
+			"details": "https://github.com/1000ch/Sublime-csso",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3214,6 +4177,16 @@
 			]
 		},
 		{
+			"name": "Cucumber Snippets e Highlight em Inglês",
+			"details": "https://github.com/RobertoPegoraro/cucumber-snippets-highlight-english",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Cucumber Snippets e Highlight em Português",
 			"details": "https://github.com/RobertoPegoraro/cucumber-snippets-highlight-portugues",
 			"releases": [
@@ -3267,6 +4240,16 @@
 			]
 		},
 		{
+			"name": "Cup",
+			"details": "https://github.com/alin23/Cup",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Curly Syntax Definition",
 			"details": "https://github.com/medcat/CurlySyntaxDefinition",
 			"releases": [
@@ -3283,6 +4266,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Curry Syntax Highlighting",
+			"details": "https://github.com/jpsikorra/curry_syntax_highlight",
+			"labels": ["curry", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -3352,6 +4346,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CWL Syntax Highlighting",
+			"details": "https://github.com/manabuishii/sublime-cwl-syntax",
+			"labels": ["language syntax", "syntax highlighting", "cwl"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

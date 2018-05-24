@@ -2,6 +2,28 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "Z",
+			"details": "https://github.com/externl/sublime-z",
+			"labels": ["z", "z jump", "directory", "open directory"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Z80 Assembly",
+			"details": "https://github.com/mrcook/Z80Assembly",
+			"labels": ["language syntax", "z80", "assembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/abraly/zap-gremlins",
 			"releases": [
 				{
@@ -75,6 +97,17 @@
 			]
 		},
 		{
+			"name": "ZenScript",
+			"details": "https://github.com/way2muchnoise/ZenScript-Highlighter",
+			"labels": ["language syntax", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Zephir",
 			"details": "https://github.com/phalcon/zephir-sublime",
 			"author": "The Phalcon Team",
@@ -87,9 +120,31 @@
 			]
 		},
 		{
+			"name": "zero-dark",
+			"details": "https://github.com/jrvieira/zero-dark",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Zeus",
 			"details": "https://github.com/zaynali53/Zeus-Theme",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Zig Language",
+			"details": "https://github.com/zig-lang/sublime-zig-language",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -134,7 +189,6 @@
 		{
 			"name": "Znuny4OTRS",
 			"details": "https://github.com/znuny/Znuny4OTRS-Sublime",
-			"issues": "https://github.com/znuny/Znuny4OTRS-Sublime/issues",
 			"author": "Znuny GmbH",
 			"labels": ["znuny4otrs", "znuny", "otrs", "snippets"],
 			"releases": [
@@ -180,6 +234,19 @@
 			]
 		},
 		{
+			"name": "ZSH",
+			"details": "https://github.com/molovo/sublime-zsh",
+			"description": "Native ZSH autocompletion and snippets for sublime text",
+			"labels": ["auto-complete", "snippets"],
+			"author": "James Dinsdale",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Zucchini",
 			"details": "https://github.com/zucchini-src/zucchini.tmbundle",
 			"labels": ["language syntax", "snippets"],
@@ -187,6 +254,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Zurb Foundation",
+			"details": "https://github.com/rony09/Sublime-Foundation",
+			"labels": ["automation", "utils"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -209,6 +287,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Zxx",
+			"details": "https://github.com/ZxxLang/ZxxSublime",
+			"labels": ["zxx"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		}
