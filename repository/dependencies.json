@@ -822,12 +822,13 @@
 			"author": "pyserial",
 			"load_order": "50",
 			"description": "Python serial port access library",
-			"issues": "https://github.com/pyserial/pyserial/issues",
+			"issues": "https://github.com/bisguzar/sublime-serial/issues",
 			"releases": [
 				{
-					"base": "https://github.com/pyserial/pyserial",
+					"base": "https://github.com/bisguzar/sublime-serial",
 					"tags": true,
-					"sublime_text": ">=3000"
+					"sublime_text": ">=3000",
+					"platforms": ["*"]
 				}
 			]
 		},
