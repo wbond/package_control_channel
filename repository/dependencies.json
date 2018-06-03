@@ -678,6 +678,20 @@
 			]
 		},
 		{
+			"name": "python-six",
+			"load_order": "01",
+			"description": "Python six library https://github.com/benjaminp/six",
+			"author": "jcoc611",
+			"issues": "https://github.com/jcoc611/sublime-six/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jcoc611/sublime-six",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pytz",
 			"load_order": "50",
 			"description": "Python pytz module",
@@ -1009,6 +1023,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/vovkkk/sublime-watchdog",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "websocket-client",
+			"load_order": "10",
+			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
+			"author": "jcoc611",
+			"issues": "https://github.com/jcoc611/sublime-websocket-client/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jcoc611/sublime-websocket-client",
 					"tags": true,
 					"sublime_text": "*"
 				}
