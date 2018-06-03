@@ -847,6 +847,20 @@
 			]
 		},
 		{
+			"name": "six",
+			"load_order": "01",
+			"description": "Python six library https://github.com/benjaminp/six",
+			"author": "jcoc611",
+			"issues": "https://github.com/jcoc611/sublime-six/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jcoc611/sublime-six",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "speg",
 			"load_order": "50",
 			"description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg",
@@ -1015,7 +1029,7 @@
 		},
 		{
 			"name": "websocket-client",
-			"load_order": "01",
+			"load_order": "10",
 			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
 			"author": "jcoc611",
 			"issues": "https://github.com/jcoc611/sublime-websocket-client/issues",
