@@ -807,8 +807,12 @@
 			"labels": ["fullscreen", "distraction-free"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
