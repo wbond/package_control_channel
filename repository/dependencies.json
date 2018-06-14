@@ -578,6 +578,20 @@
 			]
 		},
 		{
+			"name": "ptyprocess",
+			"load_order": "40",
+			"description": "Python ptyprocess module",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/ptyprocess/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/packagecontrol/ptyprocess",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
