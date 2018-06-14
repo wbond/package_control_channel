@@ -1072,6 +1072,20 @@
 			]
 		},
 		{
+			"name": "wcwidth",
+			"author": "randy3k",
+			"load_order": "10",
+			"description": "Python wcwidth module",
+			"issues": "https://github.com/packagecontrol/wcwidth/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/wcwidth",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "websocket-client",
 			"load_order": "10",
 			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
