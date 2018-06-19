@@ -263,6 +263,20 @@
 			]
 		},
 		{
+			"name": "gateone-terminal",
+			"load_order": "50",
+			"description": "GateOne terminal",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/gateone-terminal/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/packagecontrol/gateone-terminal",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "gntp",
 			"author": "facelessuser",
 			"load_order": "50",
@@ -578,6 +592,20 @@
 			]
 		},
 		{
+			"name": "ptyprocess",
+			"load_order": "40",
+			"description": "Python ptyprocess module",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/ptyprocess/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/packagecontrol/ptyprocess",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
@@ -629,6 +657,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-pymdownx",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "pyte",
+			"author": "randy3k",
+			"load_order": "50",
+			"description": "Python pyte module",
+			"issues": "https://github.com/packagecontrol/pyte/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pyte",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -702,6 +744,21 @@
 					"base": "https://github.com/packagecontrol/pytz",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pywinpty",
+			"author": "randy3k",
+			"load_order": "40",
+			"description": "Python winpty module",
+			"issues": "https://github.com/packagecontrol/pywinpty/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pywinpty",
+					"platforms": ["windows"],
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
@@ -1025,6 +1082,20 @@
 					"base": "https://github.com/vovkkk/sublime-watchdog",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "wcwidth",
+			"author": "randy3k",
+			"load_order": "10",
+			"description": "Python wcwidth module",
+			"issues": "https://github.com/packagecontrol/wcwidth/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/wcwidth",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
