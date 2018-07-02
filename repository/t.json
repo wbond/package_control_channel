@@ -209,6 +209,17 @@
 			]
 		},
 		{
+			"name": "Tailwind CSS Docs",
+			"details": "https://github.com/austenc/sublime-tailwind-docs",
+			"author": "Austen Cameron",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Takana",
 			"details": "https://github.com/mechio/takana-sublime",
 			"releases": [
@@ -317,6 +328,17 @@
 			]
 		},
 		{
+			"name": "TeaCode Helper",
+			"details": "https://github.com/Apptorium/TeaCode-Sublime-Helper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true,
+					"platforms": ["osx"]
+				}
+			]
+		},
+		{
 			"name": "Teaspoon",
 			"details": "https://github.com/emn178/sublime-text-2-teaspoon",
 			"releases": [
@@ -362,6 +384,18 @@
 			"details": "https://github.com/znuny/TemplateToolkit-sublime",
 			"author": "Znuny GmbH",
 			"labels": ["TemplateToolkit", "Template Toolkit", "syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tempo Theme",
+			"details": "https://github.com/tempo-theme/tempo-theme-sublimetext",
+			"author": "Tempo Theme",
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -716,6 +750,17 @@
 			]
 		},
 		{
+			"name": "Theme - Arc",
+			"details": "https://github.com/aIRisius/sublime-arc-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]   
+		},
+		{
 			"name": "Theme - Argonaut",
 			"details": "https://github.com/pwaleczek/Argonaut",
 			"labels": ["theme"],
@@ -841,6 +886,19 @@
 			"details": "https://github.com/allanhortle/Centurion",
 			"labels": ["theme"],
 			"previous_names": ["Theme - Centurion Blue"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - City Lights",
+			"details": "https://github.com/Yummygum/city-lights-sublime",
+			"homepage": "http://citylights.xyz/",
+			"labels": ["theme", "color scheme", "City Lights", "syntax"],
+			"author": "Yummygum",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1175,18 +1233,6 @@
 			"details": "https://github.com/radioreve/Honeykoa-theme",
 			"author": "Radioreve",
 			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - Hsiang",
-			"details": "https://github.com/xianghongai/Theme-Hsiang",
-			"labels": ["theme", "color scheme"],
-			"author": "xianghongai",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1553,6 +1599,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Theme - Pure",
+			"previous_names": ["Theme - Hsiang"],
+			"details": "https://github.com/xianghongai/Theme-Pure",
+			"labels": ["theme", "color scheme"],
+			"author": "xianghongai",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2035,6 +2094,21 @@
 			]
 		},
 		{
+			"name": "Timestamp converter",
+			"details": "https://github.com/Zlitus/sublime-text-timestamp",
+			"labels": [
+				"utilities",
+				"productivity",
+				"text manipulation"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TimeTracker",
 			"details": "https://github.com/Schepotin/SublimeTimeTracker",
 			"releases": [
@@ -2170,19 +2244,8 @@
 			]
 		},
 		{
-			"name": "Tmux Syntax Highlight",
-			"previous_names": ["Tmux"],
-			"details": "https://github.com/keqh/sublime-tmux-syntax-highlight",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "tmux_open",
+			"name": "tmux",
+			"previous_names": ["tmux_open"],
 			"details": "https://github.com/huntie/sublime-tmux",
 			"labels": ["tmux", "terminal"],
 			"releases": [
@@ -2190,6 +2253,17 @@
 					"sublime_text": ">=3000",
 					"platforms": ["linux", "osx"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tmux Syntax Highlight",
+			"details": "https://github.com/kei-q/sublime-tmux-syntax-highlight",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -2244,17 +2318,6 @@
 			]
 		},
 		{
-			"name": "Todo.txt Syntax",
-			"details": "https://github.com/dertuxmalwieder/SublimeTodoTxt",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ToDone",
 			"details": "https://github.com/tiffon/sublime-to-done",
 			"labels": ["todo", "productivity", "tasks"],
@@ -2275,6 +2338,18 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TodoTxt Syntax",
+			"previous_names": ["Todo.txt Syntax"],
+			"details": "https://github.com/dertuxmalwieder/SublimeTodoTxt",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -2632,6 +2707,18 @@
 			]
 		},
 		{
+			"name": "Tower",
+			"details": "https://github.com/tedmiston/sublime_tower_plugin",
+			"labels": ["git", "tower", "vcs"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Tpl",
 			"details": "https://github.com/fewspider/Tpl",
 			"labels": ["javascript", "covert template", "tpl"],
@@ -2771,7 +2858,7 @@
 		},
 		{
 			"name": "Transparency",
-			"details": "https://github.com/rexdf/SublimeTextTrans",
+			"details": "https://github.com/vhanla/SublimeTextTrans",
 			"author": "vhanla",
 			"labels": ["theme"],
 			"description": "Make the windows transparency",
@@ -2919,8 +3006,7 @@
 			"labels": ["SQL Server", "T-SQL", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["windows", "linux"],
+					"sublime_text": ">=3114",
 					"tags": true
 				}
 			]

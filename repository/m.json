@@ -34,6 +34,19 @@
 			]
 		},
 		{
+			"name": "MacDictionary",
+			"details": "https://github.com/gh640/SublimeMacDictionary",
+			"author": "Goto Hayato",
+			"labels": ["mac", "dictionary"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MacDown App Menu",
 			"details": "https://github.com/diimdeep/sublime-text-macdown-app-menu",
 			"labels": ["markdown", "preview", "editor", "macdown.app"],
@@ -171,6 +184,17 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Make Automatic Variables",
+			"details": "https://github.com/roperzh/sublime-make-auto-vars",
+			"labels": ["snippets", "makefile"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -397,17 +421,6 @@
 			]
 		},
 		{
-			"name": "Markdown Preview",
-			"details": "https://github.com/revolunet/sublimetext-markdown-preview",
-			"labels": ["markdown", "preview", "build"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Markdown Slideshow",
 			"details": "https://github.com/ogom/sublimetext-markdown-slideshow",
 			"releases": [
@@ -470,6 +483,16 @@
 			]
 		},
 		{
+			"name": "MarkdownComplements",
+			"details": "https://github.com/junShimoji/MarkdownComplements",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MarkdownEditing",
 			"details": "https://github.com/SublimeText-Markdown/MarkdownEditing",
 			"labels": ["markdown", "github markdown", "gfm", "multimarkdown", "color scheme"],
@@ -487,16 +510,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/braver/MarkdownHighlighting",
-			"labels": ["markdown", "language syntax", "gfm"],
-			"releases": [
-				{
-					"sublime_text": ">3100",
 					"tags": true
 				}
 			]
@@ -522,12 +535,24 @@
 			]
 		},
 		{
+			"name": "MarkdownPreview",
+			"details": "https://github.com/facelessuser/MarkdownPreview",
+			"labels": ["markdown", "preview", "build"],
+			"previous_names": ["Markdown Preview"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/naokazuterada/MarkdownTOC",
 			"labels": ["markdown", "toc", "table of contents"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -592,6 +617,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Marshal Command Code",
+			"previous_names": ["MinecraftCommandCode"],
+			"details": "https://github.com/42iscool42/MCC",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags":true
 				}
 			]
 		},
@@ -918,18 +954,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "MBXTools",
-			"details": "https://github.com/daverosoff/mbxtools",
-			"author": "Dave Rosoff",
-			"labels": ["mbx", "mathbook xml", "language syntax", "auto-complete"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1293,6 +1317,28 @@
 			]
 		},
 		{
+			"name": "MicroPython Tools",
+			"details": "https://github.com/bisguzar/st3-micropython-tools",
+			"labels": ["micropython"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Mika",
+			"details": "https://github.com/kyoto-shift/Mika",
+			"labels": ["mika", "language", "syntax", "highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MikrotikScript",
 			"details": "https://github.com/Kentzo/MikrotikScript",
 			"releases": [
@@ -1330,16 +1376,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "MinecraftCommandCode",
-			"details": "https://github.com/42iscool42/MCC",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags":true
 				}
 			]
 		},
@@ -1460,6 +1496,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "mIRC Scripting Language (Highlighting and Autocomplete)",
+			"details": "https://github.com/eneerge/mIRC-Scripting-Language-for-Sublime-Text",
+			"labels": ["language syntax", "auto-complete"],
+			"author": "Evan Greene",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1954,7 +2002,7 @@
 					"branch": "master"
 				}
 			]
-		},		
+		},
 		{
 			"name": "Monokai Gray",
 			"details": "https://github.com/IanWold/MonokaiGray",
@@ -2258,6 +2306,18 @@
 			]
 		},
 		{
+			"name": "MRL syntax highlighting",
+			"details": "https://github.com/Bushikot/mrl-sublime-syntax",
+			"author": "Denis Koshechkin",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MSBuild selector",
 			"details": "https://github.com/jbaltie/MSBuildSelector",
 			"author": "Johan Baltié",
@@ -2277,6 +2337,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MThuy Local Sync",
+			"details": "https://github.com/hoanglan87/mthuy-local-sync",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2505,6 +2575,16 @@
 			"name": "Myrkur Color Scheme",
 			"details": "https://github.com/superjan/myrkur",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MySFTP",
+			"details": "https://github.com/icjmaa/MySFTP",
 			"releases": [
 				{
 					"sublime_text": "*",

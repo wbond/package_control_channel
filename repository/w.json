@@ -154,6 +154,17 @@
 			]
 		},
 		{
+			"name": "WebAssembly Text Syntax",
+			"details": "https://github.com/bathos/wast-sublime-syntax",
+			"labels": [ "WASM", "WAST", "WAT", "Web Assembly", "language syntax" ],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WebBuilder ST",
 			"details": "https://github.com/Houfeng/WebBuilder-ST",
 			"releases": [
@@ -169,6 +180,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WebDevShell",
+			"details": "https://github.com/TheDoctor0/WebDevShell",
+			"labels": ["web", "dev", "shell", "laravel", "npm", "artisan", "yarn", "composer", "symfony"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -269,11 +291,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/catalinc/WebSearch",
+			"name": "WebSearch",
+			"details": "https://github.com/kallookoo/WebSearch",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -538,6 +561,17 @@
 			]
 		},
 		{
+			"name": "With Python",
+			"details": "https://github.com/nneonneo/sublime-replace-with-python",
+			"labels": ["text manipulation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WLST",
 			"details": "https://github.com/Joelith/sublime-wlst",
 			"releases": [
@@ -745,6 +779,16 @@
 			]
 		},
 		{
+			"name": "WordPress Internationalization (i18n)",
+			"details": "https://github.com/maheshwaghmare/sublime-wp-i18n",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WordPress Readme to Markdown",
 			"details": "https://github.com/claudiosmweb/wordpress-readme-to-markdown",
 			"releases": [
@@ -819,12 +863,13 @@
 			]
 		},
 		{
-			"name": "WoW Development",
-			"details": "https://github.com/frodzet/SublimeWoWDevelopment",
+			"name": "WoWDevelopment",
+			"previous_names": ["WoW Development"],
+			"details": "https://github.com/Resike/WoWDevelopment",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -859,9 +904,9 @@
 			]
 		},
 		{
-			"name": "wpseek.com WordPress Developer Assistant",
+			"name": "wpseek WordPress Developer Assistant",
 			"details": "https://github.com/wpseek/sublime-text-2-wpseek",
-			"previous_names": ["wpseek.com WordPress Function Lookup"],
+			"previous_names": ["wpseek.com WordPress Developer Assistant", "wpseek.com WordPress Function Lookup"],
 			"releases": [
 				{
 					"sublime_text": "*",

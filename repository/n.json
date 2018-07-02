@@ -520,6 +520,17 @@
 			]
 		},
 		{
+			"name": "Niji",
+			"details": "https://github.com/umazi/Niji",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NimLime",
 			"details": "https://github.com/Varriount/NimLime",
 			"labels": ["nimrod", "language syntax", "completions"],
@@ -546,6 +557,17 @@
 			"name": "NinjaBuild",
 			"details": "https://github.com/JohanBaltie/NinjaBuild",
 			"labels": ["ninja", "build system"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Nintendo Switch Dark Scheme",
+			"details": "https://github.com/argyleink/NintendoSwitch.tmTheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -741,8 +763,12 @@
 			"labels": ["color scheme", "notepad++"],
 			"releases": [
 				{
-					"sublime_text": ">=3114",
+					"sublime_text": ">3144",
 					"tags": true
+				},
+				{
+					"sublime_text": "<=3144",
+					"tags": "build3144support-"
 				}
 			]
 		},
@@ -1005,6 +1031,17 @@
 			]
 		},
 		{
+			"name": "NumberFormatter",
+			"details": "https://github.com/ilyakam/NumberFormatter",
+			"labels": ["format numbers", "unformat numbers", "thousands separator", "decimal separator"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Numix Theme",
 			"details": "https://github.com/nauzethc/sublime-text-numix",
 			"labels": ["numix", "theme"],
@@ -1033,6 +1070,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NX Sublime Coverage",
+			"details": "https://github.com/raynode/NXSublimeCoverage",
+			"author": "Tobias Kopelke",
+			"labels": ["code coverage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]

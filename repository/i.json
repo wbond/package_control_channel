@@ -245,7 +245,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms":"windows",
+					"platforms":["windows", "linux"],
 					"tags": true
 				}
 			]
@@ -548,11 +548,32 @@
 			]
 		},
 		{
+			"name": "industrial coding theme",
+			"details": "https://github.com/zaizupro/industrial-coding-theme",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Infinidat Plugin",
 			"details": "https://github.com/Infinidat/sublime-infinidat",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Inform 6",
+			"details": "https://github.com/yandexx/sublime-inform6",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

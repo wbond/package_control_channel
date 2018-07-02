@@ -198,6 +198,18 @@
 			]
 		},
 		{
+			"name": "UnicodeNormalizer",
+			"details": "https://github.com/gh640/SublimeUnicodeNormalizer",
+			"author": "Goto Hayato",
+			"labels": ["text manipulation", "unicode", "utf8"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UnicodeTeX",
 			"details": "https://github.com/neilanderson/UnicodeTeX",
 			"releases": [
@@ -265,6 +277,20 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UnitTesting",
+			"details": "https://github.com/SublimeText/UnitTesting",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -472,6 +498,8 @@
 		{
 			"name": "UrlConverter",
 			"details": "https://github.com/gh640/SublimeUrlConverter",
+			"author": "Goto Hayato",
+			"labels": ["url", "link", "html", "markdown", "restructuredtext"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

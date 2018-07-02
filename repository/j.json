@@ -109,6 +109,17 @@
 			]
 		},
 		{
+			"name": "JapaneseWordSeparator",
+			"details": "https://github.com/ASHIJANKEN/JapaneseWordSeparator",
+			"labels": ["Japanese", "separator"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmin JVM Assembler",
 			"details": "https://github.com/atmarksharp/jasmin-sublime",
 			"releases": [
@@ -323,6 +334,28 @@
 			]
 		},
 		{
+			"name": "JavaScript Enhancements",
+			"details": "https://github.com/pichillilorenzo/JavaScriptEnhancements",
+			"labels": ["auto-complete", "linting", "autocomplete", "completions", "javascript", "javascript completions", "flow", "flow-typed", "javascript tools", "project management", "javascript project", "ide", "javascript ide"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JavaScript Log Snippets",
+			"details": "https://github.com/Vall3y/sublimeJavascriptLogSnippets",
+			"labels": ["snippets", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JavaScript Multiline",
 			"details": "https://github.com/metatribal/sublime-jsmultiline",
 			"releases": [
@@ -494,7 +527,11 @@
 			"previous_names": ["SublimeJEDI", "Jedi - Python autocompetion"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -667,6 +704,28 @@
 			]
 		},
 		{
+			"name": "Joy",
+			"details": "https://github.com/homobel/sublime-joy",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JQ Syntax",
+			"details": "https://github.com/zogwarg/SublimeJQ",
+			"labels": ["language syntax", "jq", "stedolan"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/jQuery",
 			"releases": [
 				{
@@ -676,8 +735,9 @@
 			]
 		},
 		{
-			"name": "jQuery Mobile 1.4 Snippets",
+			"name": "jQuery Mobile 14 Snippets",
 			"details": "https://github.com/MobPro/Sublime-jQuery-Mobile-Snippets",
+			"previous_names": ["jQuery Mobile 1.4 Snippets"],
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -839,6 +899,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSCustom",
+			"details": "https://github.com/Thom1729/Sublime-JS-Custom",
+			"labels": ["javascript", "syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1060,6 +1131,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "jsonnet formatter",
+			"details": "https://github.com/ankushagarwal/jsonnet-fmt",
+			"labels": ["jsonnet", "libsonnet" ,"formatting", "formatter"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
