@@ -2,23 +2,23 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "D-Laravel alias",
-			"details": "https://github.com/deviny/Dlaravel-Alias",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux"],
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "D Programming Language",
 			"details": "https://github.com/alexrp/st2-d",
 			"previous_names": ["D"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "D-Laravel alias",
+			"details": "https://github.com/deviny/Dlaravel-Alias",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
 					"branch": "master"
 				}
 			]
