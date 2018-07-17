@@ -766,9 +766,10 @@
 			]
 		},
 		{
-			"name": "Amxx Pawn",
-			"details": "https://github.com/evandrocoan/SublimeAmxxPawn",
-			"labels": ["language syntax", "amxmodx", "amx mod x"],
+			"name": "AmxxEditor",
+			"details": "https://github.com/evandrocoan/AmxxEditor",
+			"labels": ["autocompletion", "auto-complete", "amxmodx", "amx mod x", "amxx", "pawn", "build system"],
+			"previous_names": ["Amxmodx"],
 			"releases": [
 				{
 					"sublime_text": ">=3114",
@@ -777,10 +778,10 @@
 			]
 		},
 		{
-			"name": "AmxxEditor",
-			"details": "https://github.com/evandrocoan/AmxxEditor",
-			"labels": ["autocompletion", "auto-complete", "amxmodx", "amx mod x", "amxx", "pawn", "build system"],
-			"previous_names": ["Amxmodx"],
+			"name": "AmxxPawn",
+			"details": "https://github.com/evandrocoan/SublimeAmxxPawn",
+			"previous_names": ["Amxx Pawn"],
+			"labels": ["language syntax", "amxmodx", "amx mod x"],
 			"releases": [
 				{
 					"sublime_text": ">=3114",
