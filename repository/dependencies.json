@@ -335,6 +335,21 @@
 			]
 		},
 		{
+			"name": "lzma",
+			"load_order": "50",
+			"description": "Python lzma module",
+			"author": "ehamiter",
+			"issues": "https://github.com/ehamiter/sublime-lzma/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ehamiter/sublime-lzma",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64"]
+				}
+			]
+		},
+		{
 			"name": "markupsafe",
 			"load_order": "50",
 			"description": "Python MarkupSafe module",
