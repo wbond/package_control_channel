@@ -3733,18 +3733,14 @@
 		},
 		{
 			"name": "StylelintAutoFix",
-			"description": "Stylelint Auto fix with global stylelint command.",
-			"author": "paleite",
-			"homepage": "https://github.com/paleite",
-			"last_modified": "2018-8-03",
-			"platforms": {
-				"*": [
-					{
-						"version": "1.0.3",
-						"url": "https://github.com/paleite/stylelintAutoFix.git"
-					}
-				]
-			}
+			"details": "https://github.com/paleite/stylelintAutoFix",
+			"labels": ["style", "stylelint", "autoFix", "formatter"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "StyleSorter",
