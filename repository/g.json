@@ -145,7 +145,11 @@
 			"labels": ["language syntax", "color scheme", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3084",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -166,6 +170,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gekko",
+			"details": "https://github.com/MartinBonde/gekko_sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -203,6 +219,16 @@
 			]
 		},
 		{
+			"name": "GenerateProjects",
+			"details": "https://github.com/drmonkeyninja/sublime-text-generate-projects",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/GenerateUUID",
 			"releases": [
 				{
@@ -217,7 +243,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3084",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -246,6 +276,17 @@
 			"name":"Gengojs",
 			"details":"https://github.com/iwatakeshi/gengojs-sublime-snippets",
 			"labels":["i18n","snippets", "l10n"],
+			"releases":[
+				{
+					"sublime_text":"*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name":"Georgify",
+			"details":"https://github.com/shividhar/Georgify",
+			"labels":["correctness proofs", "uwaterloo"],
 			"releases":[
 				{
 					"sublime_text":"*",
@@ -350,6 +391,16 @@
 		{
 			"name": "GISDK",
 			"details": "https://github.com/Caliper-Corporation/GISDK-SublimeText",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "gislacks",
+			"details": "https://github.com/tanaikech/gislacks",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -534,6 +585,18 @@
 		{
 			"name": "GitHub Markdown Snippets",
 			"details": "https://github.com/praveenpuglia/github_markdown_snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Github Notifications",
+			"details": "https://github.com/unknownuser88/github-notifications",
+			"author": "David Bekoyan",
+			"labels": ["status bar", "github", "info", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -976,6 +1039,17 @@
 			]
 		},
 		{
+			"name": "GoDebug",
+			"details": "https://github.com/dishmaev/GoDebug",
+			"labels": ["go", "golang", "debug"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Godef",
 			"details": "https://github.com/buaazp/Godef",
 			"labels": ["go"],
@@ -1100,6 +1174,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Golite",
+			"details": "https://github.com/wy-z/Golite",
+			"labels": ["golang", "go", "gocode", "godef", "linting", "gorename", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1245,6 +1330,18 @@
 			]
 		},
 		{
+			"name": "Gopher sauce syntax and static completions",
+			"author": "Cheikh Seck",
+			"details": "https://github.com/cheikhshift/gopher-sauce-sublime",
+			"labels": ["go","language syntax","snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GoRazor",
 			"details": "https://github.com/sipin/GoRazorSublime",
 			"releases": [
@@ -1282,8 +1379,8 @@
 			"labels": ["go"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1350,9 +1447,30 @@
 			]
 		},
 		{
+			"name": "Goto Selection",
+			"details": "https://github.com/fgb/goto_selection",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Goto Usage",
 			"details": "https://github.com/syko/SublimeGotoUsage",
 			"labels": ["javascript", "coffeescript"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Goto With Common Suffix",
+			"details": "https://github.com/ivantsepp/goto-with-common-suffix",
+			"labels": ["file navigation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1467,6 +1585,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},{
+			"name": "GotoLastModified",
+			"details": "https://github.com/Wuage-FE/GotoLast",
+			"donate": "https://raw.githubusercontent.com/Wuage-FE/GotoLast/master/README.md",
+			"labels": ["goto", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
 				}
 			]
 		},
@@ -1635,6 +1764,18 @@
 			]
 		},
 		{
+			"name": "Grammalecte",
+			"details": "https://github.com/procsynth/GrammalecteST3",
+			"readme": "https://raw.githubusercontent.com/procsynth/GrammalecteST3/master/README.md",
+			"labels": ["gramma", "french", "spelling", "text"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Grammatical Framework",
 			"details": "https://github.com/saludes/sublime-GF",
 			"releases": [
@@ -1669,11 +1810,33 @@
 			]
 		},
 		{
+			"name": "Graphvizer",
+			"details": "https://github.com/hao-lee/Graphvizer",
+			"author": "Hao Lee",
+			"labels": ["graphviz", "dot", "visualization"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GraphvizPreview",
 			"details": "https://github.com/munro/SublimeGraphvizPreview",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Graql Syntax",
+			"details": "https://github.com/graknlabs/graql_syntax_sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1845,6 +2008,17 @@
 			]
 		},
 		{
+			"name": "Grun Colour Scheme",
+			"details": "https://github.com/SimonImbrogno/Grun",
+			"labels": ["colour scheme", "dark", "dim", "green"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Grunt",
 			"details": "https://github.com/tvooo/sublime-grunt",
 			"releases": [
@@ -1957,6 +2131,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Guna",
+			"details": "https://github.com/poucotm/Guna",
+			"labels": ["theme", "color scheme", "clock", "weather"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

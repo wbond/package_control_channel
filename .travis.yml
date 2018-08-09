@@ -1,10 +1,8 @@
 sudo: false
 language: python
 python:
-  - "3.4"
-
-install:
-  - pip install --upgrade pip
+  - "3.3"
 
 script:
-  - python tests/ci.py
+  - python -m unittest
+  - curl -X POST https://packagecontrol.io/test_pr/$TRAVIS_PULL_REQUEST.json

@@ -22,11 +22,15 @@
 			]
 		},
 		{
-			"details": "https://github.com/frankban/UbuntuPaste",
+			"details": "https://github.com/3v1n0/UbuntuPaste",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -141,6 +145,18 @@
 			]
 		},
 		{
+			"name": "Undo Close Tab",
+			"details": "https://github.com/scriptburn/sublimetext-undoclosetabs",
+			"author": "Rajneesh kumar ojha",
+			"labels": ["undo","tab"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Unicode Character Highlighter",
 			"details": "https://github.com/possan/sublime_unicode_nbsp",
 			"releases": [
@@ -178,6 +194,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UnicodeNormalizer",
+			"details": "https://github.com/gh640/SublimeUnicodeNormalizer",
+			"author": "Goto Hayato",
+			"labels": ["text manipulation", "unicode", "utf8"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -249,6 +277,20 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UnitTesting",
+			"details": "https://github.com/SublimeText/UnitTesting",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -454,6 +496,18 @@
 			]
 		},
 		{
+			"name": "UrlConverter",
+			"details": "https://github.com/gh640/SublimeUrlConverter",
+			"author": "Goto Hayato",
+			"labels": ["url", "link", "html", "markdown", "restructuredtext"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/mastahyeti/URLEncode",
 			"releases": [
 				{
@@ -480,6 +534,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UXCore",
+			"details": "https://github.com/recore/uxcore-plugin-for-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}
