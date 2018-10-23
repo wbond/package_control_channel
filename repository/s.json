@@ -3253,10 +3253,15 @@
 		{
 			"name": "SSH Config",
 			"details": "https://github.com/robballou/sublimetext-sshconfig",
+			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
