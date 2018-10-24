@@ -2040,6 +2040,17 @@
 			]
 		},
 		{
+			"name": "Skeleton Snippet",
+			"details": "https://github.com/rodrigoiii/skeleton-snippet",
+			"labels": ["auto complete", "snippet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Sketch.js",
 			"details": "https://github.com/dmnsgn/sublime-sketchjs",
 			"labels": ["auto-complete", "snippets"],
@@ -3151,6 +3162,16 @@
 			]
 		},
 		{
+			"name": "sql-formatter",
+			"details": "https://github.com/kufii/sublime-sql-formatter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SqlBeautifier",
 			"details": "https://github.com/zsong/SqlBeautifier",
 			"labels": ["sql", "formatting", "formatter"],
@@ -3253,10 +3274,15 @@
 		{
 			"name": "SSH Config",
 			"details": "https://github.com/robballou/sublimetext-sshconfig",
+			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -3495,6 +3521,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "StatusBarSymbols",
+			"details": "https://github.com/OdinTech3/StatusBarSymbols",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

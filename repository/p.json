@@ -23,6 +23,18 @@
 			]
 		},
 		{
+			"name": "P4Explorer",
+			"details": "https://github.com/ymengesha/P4Explorer",
+			"labels": ["vcs", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": ["windows"]
+				}
+			]
+		},
+		{
 			"name": "P4Gutter",
 			"details": "https://github.com/daumiller/P4Gutter",
 			"releases": [
@@ -1367,9 +1379,10 @@
 			]
 		},
 		{
-			"name": "phpunitkit",
+			"name": "PHPUnitKit",
 			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["phpunit", "php", "testing", "tdd"],
+			"labels": ["php", "phpunit", "testing", "tdd"],
+			"previous_names": ["phpunitkit"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2080,6 +2093,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Prismatic Color Scheme",
+			"details": "https://github.com/huijing/Prismatic",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

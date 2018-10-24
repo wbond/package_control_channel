@@ -256,6 +256,18 @@
 			]
 		},
 		{
+			"name": "Bear App",
+			"details": "https://github.com/malexer/SublimeBear",
+			"labels": ["bear", "bear app", "bear-writer", "note", "notes"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Beau",
 			"details": "https://github.com/Seich/sublime-beau",
 			"labels": ["http", "rest client"],
@@ -1211,9 +1223,10 @@
 		{
 			"name": "Brackets Color Scheme",
 			"details": "https://github.com/jwortmann/brackets-color-scheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
@@ -1304,6 +1317,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Brittany",
+			"details": "https://github.com/eddiejessup/SublimeBrittany",
+			"author": "Elliot Marsden",
+			"labels": ["format", "haskell"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
