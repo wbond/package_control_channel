@@ -1074,6 +1074,20 @@
 			]
 		},
 		{
+			"name": "toml library",
+			"load_order": "01",
+			"description": "Python lib for TOML",
+			"author": "Jimmy Girardet",
+			"issues": "https://github.com/jgirardet/sublime-toml/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jgirardet/sublime-toml",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},		
+		{
 			"name": "typing",
 			"load_order": "50",
 			"description": "Python typing module",
