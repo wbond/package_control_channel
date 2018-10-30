@@ -161,16 +161,11 @@
 		},
 		{
 			"name": "Sass",
-			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
-			"previous_names": ["Syntax Highlighting for Sass"],
-			"labels": ["language syntax"],
+			"details": "https://github.com/braver/SublimeSass",
+			"labels": ["language syntax", "scss", "sass", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3103",
-					"branch": "ST2"
-				},
-				{
-					"sublime_text": ">=3103",
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]
@@ -5433,6 +5428,21 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Syntax Highlighting for Sass",
+			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "<3103",
+					"branch": "ST2"
+				},
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
