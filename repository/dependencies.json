@@ -750,6 +750,20 @@
 			]
 		},
 		{
+			"name": "python-toml",
+			"load_order": "01",
+			"description": "Python lib for TOML",
+			"author": "Jimmy Girardet",
+			"issues": "https://github.com/jgirardet/sublime-toml/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jgirardet/sublime-toml",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},	
+		{
 			"name": "pytz",
 			"load_order": "50",
 			"description": "Python pytz module",
@@ -1072,21 +1086,7 @@
 					"sublime_text": ">3092"
 				}
 			]
-		},
-		{
-			"name": "toml library",
-			"load_order": "01",
-			"description": "Python lib for TOML",
-			"author": "Jimmy Girardet",
-			"issues": "https://github.com/jgirardet/sublime-toml/issues",
-			"releases": [
-				{
-					"base": "https://github.com/jgirardet/sublime-toml",
-					"tags": true,
-					"sublime_text": ">=3000"
-				}
-			]
-		},		
+		},	
 		{
 			"name": "typing",
 			"load_order": "50",
