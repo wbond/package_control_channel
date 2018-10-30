@@ -1119,11 +1119,12 @@
 		{
 			"name": "Bow Tintin",
 			"details": "https://github.com/papac/bow-tintin-sbt3",
-			"labels": ["php", "Bow", "Tintin", "language syntax"],
+			"labels": ["php", "Bow", "Tintin", "language syntax", "Bow Tintin"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": ">=3103",
+					"platforms": ["linux","osx","windows"],
+					"branch": "master"
 				}
 			]
 		},
@@ -1132,7 +1133,8 @@
 			"details": "https://github.com/benschwarz/sublime-bower",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
+					"platforms": ["linux","osx","windows"],
 					"branch": "master"
 				}
 			]
