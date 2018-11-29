@@ -2,6 +2,18 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "C Base Converter",
+			"details": "https://github.com/flau/c-base-converter",
+			"author": ["Daniel Connolly"],
+			"labels": ["C", "C++", "formatting", "text manipulation", "base", "hex"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "C Improved",
 			"details": "https://github.com/abusalimov/SublimeCImproved",
 			"labels": ["language syntax"],
@@ -761,6 +773,16 @@
 		{
 			"name": "Cheat Sheets",
 			"details": "https://github.com/dmikalova/sublime-cheat-sheets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "cheat_sh",
+			"details": "https://github.com/gauravk-in/cheat.sh-sublime-plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3558,6 +3580,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cosmos Scope",
+			"details": "https://github.com/KristianHolsheimer/cosmos_scope_sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

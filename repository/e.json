@@ -79,9 +79,26 @@
 		{
 			"name": "EasyClangComplete",
 			"details": "https://github.com/niosus/EasyClangComplete",
+			"homepage": "https://niosus.github.io/EasyClangComplete",
 			"readme": "https://raw.githubusercontent.com/niosus/EasyClangComplete/master/docs/pc_readme.md",
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QLY7J4Q944HS",
-			"labels": ["auto-complete", "linting", "language syntax"],
+			"labels": [
+				"auto-complete",
+				"autocompletion",
+				"clang",
+				"ide",
+				"intellisense",
+				"completion",
+				"Completion",
+				"completions",
+				"linting",
+				"c",
+				"c++",
+				"C",
+				"C++",
+				"cmake",
+				"language syntax"
+			],
 			"releases": [
 				{
 					"sublime_text": ">=3070",
@@ -1166,6 +1183,17 @@
 			]
 		},
 		{
+			"name": "esoftplay",
+			"details": "https://github.com/esoftplay/sublimetext-snippets",
+			"labels":["snippets", "esoftplay inc", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ESOLua",
 			"details": "https://bitbucket.org/Cpsgames/sublime-3-esolua",
 			"releases": [
@@ -1662,6 +1690,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ExtJs Snippets",
+			"details": "https://github.com/je-poy/extjs-sublime-snippets",
+			"labels": ["utilities", "utils", "utility", "snippets", "commands"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

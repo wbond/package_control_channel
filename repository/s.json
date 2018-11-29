@@ -161,16 +161,12 @@
 		},
 		{
 			"name": "Sass",
-			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
-			"previous_names": ["Syntax Highlighting for Sass"],
-			"labels": ["language syntax"],
+			"details": "https://github.com/braver/SublimeSass",
+			"donate": "https://paypal.me/pools/c/89Rf8xJKlw",
+			"labels": ["language syntax", "scss", "sass", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3103",
-					"branch": "ST2"
-				},
-				{
-					"sublime_text": ">=3103",
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]
@@ -820,11 +816,11 @@
 		},
 		{
 			"name": "Seeing Is Believing",
-			"details": "https://github.com/JoshCheek/sublime-text-2-seeing-is-believing",
+			"details": "https://github.com/JoshCheek/sublime-text-2-and-3-seeing-is-believing",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": ">=2000",
+					"tags": true
 				}
 			]
 		},
@@ -1233,6 +1229,17 @@
 				{
 					"platforms": ["linux", "windows"],
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SEWL",
+			"details": "https://github.com/SpotonNet/sublime-sewl",
+			"labels" : ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2036,6 +2043,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Skeleton Snippet",
+			"details": "https://github.com/rodrigoiii/skeleton-snippet",
+			"labels": ["auto complete", "snippet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -3151,6 +3169,16 @@
 			]
 		},
 		{
+			"name": "sql-formatter",
+			"details": "https://github.com/kufii/sublime-sql-formatter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SqlBeautifier",
 			"details": "https://github.com/zsong/SqlBeautifier",
 			"labels": ["sql", "formatting", "formatter"],
@@ -3253,10 +3281,15 @@
 		{
 			"name": "SSH Config",
 			"details": "https://github.com/robballou/sublimetext-sshconfig",
+			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -5407,6 +5440,21 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Syntax Highlighting for Sass",
+			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "<3103",
+					"branch": "ST2"
+				},
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
