@@ -89,6 +89,20 @@
 			]
 		},
 		{
+			"name": "channelmanager",
+			"author": "evandrocoan",
+			"load_order": "30",
+			"description": "Manages packages installed as git submodules",
+			"issues": "https://github.com/evandrocoan/channelmanager/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/channelmanager",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "chardet",
 			"load_order": "50",
 			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
