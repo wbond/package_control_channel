@@ -1,0 +1,916 @@
+%YAML 1.2
+---
+
+# Issues:
+#
+# * directives and packages are mixed;
+# * meta-data replaces array-expr' statements when
+#   appropriate;
+# * E4X isn't valid (also deprecated and such),
+#   but `CDATA` markups are going fine!
+
+name: ActionScript Enh.
+file_extensions: [as, as3]
+scope: source.as
+
+variables:
+  eol: '[\n\r\x{2028}\x{2029}]'
+
+  id: '{{id_start}}{{id_part}}*'
+  id_start: '[\p{L}\p{Nl}$_]'
+  id_part: '[\p{L}\p{Nd}\p{Nl}\p{Mc}\p{Mn}\p{Pc}$_]'
+  id_prefix: (?<!{{id_start}})
+  id_break: '(?!{{id_part}})'
+  dollar_id: '\${{id_start}}*{{id_break}}'
+
+  hex_digit: '[0-9A-Fa-f]'
+
+  reserved_id: >-
+    (?x) (as | break
+    | c(ase|atch|lass|onst|ontinue)
+    | d(efault|elete|o|lse|xtends)
+    | f(alse|inally|or|unction)
+    | i(f|mplements|mport|n|nstanceof|nterface|nternal|s)
+    | n(ative|ew|ull)
+    | p(ackage|rivate|rotected|ublic)
+    | return
+    | s(uper|witch)
+    | t(his|hrow|o|rue|ry|ypeof)
+    | use
+    | v(ar|oid)
+    | w(hile|ith)
+    ) {{id_break}}
+
+  decimal_literal: >-
+    (?x) # Trailling zeroes aren't invalidated,
+         # but they won't parse.
+         (\d+(\.\d*)?|\.\d+)([Ee][+-]?\d+)?
+
+contexts:
+  main:
+    - include: directive
+    - match: '\}'
+      scope: invalid.as
+
+  directive:
+    - include: definition
+    - include: statement
+    - match: 'import{{id_break}}'
+      scope: keyword.control.import.as
+      push: import_directive
+    - match: 'use{{id_break}}'
+      scope: keyword.control.flow.as
+      push: use_namespace_directive
+    - match: 'include{{id_break}}'
+      scope: keyword.control.flow.as
+    - match: 'package{{id_break}}'
+      scope: keyword.control.as
+      push: package_definition
+
+    - include: keyword_expression
+
+    # A definition (such as `class` or `var`) preceded
+    # by something like `public` or `usr_ns`.
+    - include: modified_definition
+
+    # Two attributes (like `static public`) will
+    # consume subsequent ones too, leading to
+    # `after_2_modifiers`.
+    - match: '({{id}})\s+({{id}})'
+      captures:
+        1: storage.modifier.as
+        2: storage.modifier.as
+      push: after_2_modifiers
+
+    # Type annotation from a variable definition.
+    - match: ':(?!:)'
+      scope: keyword.control.flow.as
+      push: qual_id_type
+
+    - include: meta_data
+    - include: expression
+
+  statement:
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      push: block_statement
+    - match: >-
+        (?x) (
+            if | else | return | throw
+          | break | continue | delete | do | while
+          | with
+        ){{id_break}}
+      scope: keyword.control.as
+    - match: 'try{{id_break}}'
+      scope: keyword.control.as
+      push:
+        - include: ws
+        - match: '{'
+          scope: punctuation.section.block.begin.as
+          set: try_block
+        - match: '(?<!{{eol}})'
+          pop: true
+    - match: 'for{{id_break}}'
+      scope: keyword.control.as
+      push:
+        - include: ws
+        - match: 'each{{id_break}}'
+          scope: keyword.control.as
+          set: for_each_s0
+        - match: '\('
+          scope: punctuation.section.parens.begin.as
+          set: for_s0
+        - match: '(?<!{{eol}})'
+          pop: true
+    - match: 'switch{{id_break}}'
+      scope: keyword.control.as
+      push:
+        - include: ws
+        - match: '\('
+          scope: punctuation.section.parens.begin.as
+          set:
+            - match: \)
+              scope: punctuation.section.parens.end.as
+              set: switch_after_discriminant
+            - include: expression
+        - match: '(?<!{{eol}})'
+          pop: true
+
+  switch_after_discriminant:
+    - include: ws
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      set:
+        - match: 'case{{id_break}}'
+          scope: keyword.control.flow.as
+          push:
+            - match: '{{eol}}'
+              pop: true
+            - include: ws
+            - match: '\:'
+              pop: true
+            - include: expression
+        - match: 'default{{id_break}}'
+          scope: keyword.control.flow.as
+          push:
+            - match: '{{eol}}'
+              pop: true
+            - include: ws
+            - match: '\:'
+              pop: true
+        - match: '\}'
+          scope: punctuation.section.block.end.as
+          pop: true
+        - include: directive
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  # For loops are a bit boring since they
+  # may contain comments between and are
+  # either `in` or traditional.
+
+  for_s0:
+    - include: ws
+    - match: '(var|const){{id_break}}'
+      scope: keyword.control.as
+      set: for_after_varkw
+    - match: '{{id}}(\s*\.\s*{{id}})*'
+      set: for_kind
+    - match: '(?<!{{eol}})' 
+      set: for_manual
+
+  for_after_varkw:
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      set:
+        - include: ws
+        - match: ':'
+          scope: keyword.control.flow.as
+          push: qual_id_type
+        - include: for_kind
+        - match: '(?<!{{eol}})'
+          set: paren_expression
+    - match: '(?<!{{eol}})'
+      set: paren_expression
+
+  for_kind:
+    - include: ws
+    - match: 'in{{id_break}}'
+      scope: keyword.control.flow.as
+      set: paren_expression
+    - match: '(?<!{{eol}})'
+      set: for_manual
+
+  for_manual:
+    - include: ws
+    - match: '\;'
+    - match: \)
+      scope: punctuation.section.parens.end.as
+      pop: true
+    - include: expression
+
+  for_each_s0:
+    - include: ws
+    - match: \(
+      scope: punctuation.section.parens.begin.as
+      set: for_each_s1
+    - match: \)
+      scope: punctuation.section.parens.end.as
+      pop: true
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  for_each_s1:
+    - include: ws
+    - match: '(var|const){{id_break}}'
+      scope: keyword.control.as
+      set: for_each_after_varkw
+    - match: '{{id}}(\s*\.\s*{{id}})*'
+      set: for_each_l0
+    - match: \)
+      scope: punctuation.section.parens.end.as
+      pop: true
+    - match: '(?<!{{eol}})'
+      set: paren_expression
+
+  for_each_after_varkw:
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      set:
+        - include: ws
+        - match: ':'
+          scope: keyword.control.flow.as
+          push: qual_id_type
+        - include: for_each_middle
+        - match: '(?<!{{eol}})'
+          set: paren_expression
+    - match: '(?<!{{eol}})'
+      set: paren_expression
+
+  for_each_l0:
+    - include: ws
+    - include: for_each_middle
+    - match: '(?<!{{eol}})'
+      set: paren_expression
+
+  for_each_middle:
+    - match: 'in{{id_break}}'
+      scope: keyword.control.as
+      set: paren_expression
+
+  try_block:
+    - meta_scope: meta.block.as
+    - match: '\}'
+      scope: punctuation.section.block.end.as
+      set:
+        - include: ws
+        - match: 'catch{{id_break}}'
+          scope: keyword.control.flow.as
+          push:
+            - include: ws
+            - match: \(
+              scope: punctuation.section.parens.begin.as
+              set: catch_err
+            - match: '(?<!{{eol}})'
+              pop: true
+        - match: 'finally{{id_break}}'
+          scope: keyword.control.flow.as
+          pop: true
+        - match: '\{'
+          scope: punctuation.section.block.begin.as
+          push: block_statement
+        - match: '(?<!{{eol}})'
+          pop: true
+    - include: directive
+
+  catch_err:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: '\)'
+      scope: punctuation.section.parens.end.as
+      pop: true
+    - match: '{{id}}'
+      push:
+        - include: ws
+        - match: ':'
+          scope: keyword.control.flow.as
+          set: qual_id_type
+        - match: '(?<!{{eol}})'
+          pop: true
+    - match: ':'
+    - match: ''
+      pop: true
+
+  block_statement:
+    - meta_scope: meta.block.as
+    - match: '\}'
+      scope: punctuation.section.block.end.as
+      pop: true
+    - include: directive
+
+  expression:
+    - include: ws
+    - include: keyword_expression
+    - match: '({{id}})\s*(\()'
+      captures:
+        1: variable.function.as
+        2: punctuation.section.parens.begin.as
+      push: paren_expression
+    - match: '{{id}}'
+      scope: variable.as
+      push: ambiguable_operator
+    - include: string_literal
+    - match: \(
+      scope: punctuation.section.parens.begin.as
+      push: paren_expression
+    - match: \[
+      scope: punctuation.section.brackets.begin.as
+      push: brackets_expression
+    - match: \{
+      scope: punctuation.section.braces.begin.as
+      push: object_expression
+
+    - match: '<!\[CDATA\['
+      push:
+        - meta_scope: string.other.as
+        - match: '\]\]>'
+          pop: true
+
+    # #### Punc-based ops
+    #
+    # Both '..' and '..=' are valid as they may
+    # come in a future AS version to replace the
+    # obsolete-E4X descendants operator.
+    #
+    - match: >-
+        (?x) ==?=? |
+            (\+[+=]?) | (\-[-=]?)
+          | (\*(\*\=?|\=)?) # Mul and ES's pow-op (** / **=)
+          | %=?
+          | ~      | (\|(\|=?|=?)?) | (&(&=?|=?)?)
+          | (\^=?) | (<(<=?|=?))    | (>(>(>=?|=?)|=?))
+          | !=?=?
+          | \.\.=?
+      scope: keyword.operator.as
+
+    - match: '\?'
+      scope: keyword.operator.as
+      push:
+        - match: '\:'
+          scope: keyword.operator.as
+          pop: true
+        - include: expression
+        - match: '(?<!{{eol}})'
+          pop: true
+
+    - match: '@|\.\s*\('
+      scope: invalid.deprecated.as
+
+    - match: >-
+        (?x)  0[Xx]{{hex_digit}}+
+            | {{decimal_literal}}
+      scope: constant.numeric.as
+      push: ambiguable_operator
+
+    - match: '\.\s*<'
+      scope: keyword.operator.as
+
+    - match: '\.'
+      scope: punctuation.accessor.dot.as
+
+    - match: '::'
+      scope: punctuation.accessor.double-colon.as
+
+    - match: '/'
+      push: regexp_literal
+
+    - match: '[\)\]]'
+      scope: invalid.as
+
+  keyword_expression:
+    - match: '(null|false|true){{id_break}}'
+      scope: constant.language.as
+      push: ambiguable_operator
+    - match: 'this{{id_break}}'
+      scope: variable.language.as
+      push: ambiguable_operator
+    - match: 'super{{id_break}}'
+      scope: keyword.control.as
+    - match: '(new|void|i(n(stanceof)?|s)|typeof|as){{id_break}}'
+      scope: keyword.operator.as
+    - match: '({{id}})\s+((as|i(n(stanceof)?|s)){{id_break}})'
+      captures:
+        2: keyword.operator.as
+    - match: 'function{{id_break}}'
+      scope: storage.type.as
+      push: fn_name
+
+  ambiguable_operator:
+    - match: \s+
+    - match: '/=|/(?![/\*])'
+      scope: keyword.operator.as
+      pop: true
+    - match: '\['
+      scope: punctuation.section.brackets.begin.as
+      set: brackets_expression
+    - match: ''
+      pop: true
+
+  paren_expression:
+    - match: \)
+      scope: punctuation.section.parens.end.as
+      set: ambiguable_operator
+    - include: expression
+
+  brackets_expression:
+    - match: \]
+      scope: punctuation.section.brackets.end.as
+      set: ambiguable_operator
+    - include: expression
+
+  object_expression:
+    - match: \}
+      scope: punctuation.section.braces.end.as
+      pop: true
+    - include: expression
+
+  ws:
+    - match: '[\x20\x09\x0B\x0C\p{Zs}]'
+    - match: '{{eol}}'
+    - match: '(//)(.*$)'
+      scope: comment.line.as
+    - match: '/\*'
+      push:
+        - meta_scope: comment.block.as
+        - match: '\*/'
+          pop: true
+
+  # Directives
+
+  # `import` should only be line-split with dots, i.e.:
+  #
+  #     import longpackagenamepppppppppppppp
+  #       .seepppppppp.Plusªªªªªªªªªªªªªªªªªªªªªªªªª
+  #
+  import_directive:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+      set: import_directive_dot
+    - match: '{{id}}'
+      scope: entity.name.namespace.as
+      set: import_directive_dot
+    - match: '\*'
+      scope: entity.name.namespace.as
+      pop: true
+
+  import_directive_dot:
+    - include: ws
+    - match: '\.'
+      scope: entity.name.namespace.as
+      set: import_directive
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  use_namespace_directive:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: 'namespace{{id_break}}'
+      scope: keyword.control.flow.as
+      pop: true
+
+  # Attribute combination
+
+  ### Consume all attributes after something like
+  ### `public final` until a definition like `class`,
+  ### `function`, whatever.
+  after_2_modifiers:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - include: meta_data
+    - include: modified_definition_redir
+    - match: '{{id}}'
+      scope: storage.modifier.as
+    - match: ''
+      pop: true
+
+  meta_data:
+    - match: '(\[)[ \t]*({{id}})'
+      captures:
+        1: punctuation.section.brackets.begin.as
+        2: variable.annotation.as
+      push: in_meta_data
+
+  in_meta_data:
+    - include: ws
+    - match: '\('
+      scope: punctuation.section.group.begin.as
+      push: in_meta_data_group
+    - match: '\]'
+      scope: punctuation.section.brackets.end.as
+      pop: true
+    - match: '\)'
+      scope: invalid.as
+
+  in_meta_data_group:
+    - include: ws
+    - include: string_literal
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      scope: variable.parameter.as
+    - match: '[=,]'
+      scope: punctuation.separator.sequence.as
+    - match: '\)'
+      scope: punctuation.separator.group.end.as
+      pop: true
+    - match: '\]'
+      scope: invalid.as
+
+  # Definitions
+
+  definition:
+    - match: 'class{{id_break}}'
+      scope: storage.type.as
+      push: class_definition
+    - match: 'interface{{id_break}}'
+      scope: storage.type.as
+      push: interface_definition
+    - match: '(var|const){{id_break}}'
+      scope: keyword.control.as
+      push: var_definition
+    - match: '(function){{id_break}}'
+      scope: storage.type.as
+      push: fndef_name
+    - match: 'namespace{{id_break}}'
+      scope: storage.type.as
+      push: namespace_definition
+
+  # Modified version of `definition` for
+  # targetting cases like `host_ns class A { ... }`.
+  #
+  # Normally `host_ns` could be matched separately,
+  # but then it'd be highlighted the wrong way
+  # (e.g., it'd appear to be an expression).
+  #
+  modified_definition:
+    - match: '({{id}})\s*(class){{id_break}}'
+      captures:
+        1: storage.modifier.as
+        2: storage.type.as
+      push: class_definition
+    - match: '({{id}})\s*(interface){{id_break}}'
+      captures:
+        1: storage.modifier.as
+        2: storage.type.as
+      push: interface_definition
+    - match: '({{id}})\s*(var|const){{id_break}}'
+      captures:
+        1: storage.modifier.as
+        2: keyword.control.as
+      push: var_definition
+    - match: '({{id}})\s*(function){{id_break}}'
+      captures:
+        1: storage.modifier.as
+        2: storage.type.as
+      push: fndef_name
+    - match: '({{id}})\s*(namespace){{id_break}}'
+      captures:
+        1: storage.modifier.as
+        2: storage.type.as
+      push: namespace_definition
+
+  # Modified version of `definition` that
+  # uses `set` instead of `push`. This is tipically
+  # preceded by a modifier.
+  #
+  modified_definition_redir:
+    - match: 'class{{id_break}}'
+      scope: storage.type.as
+      set: class_definition
+    - match: 'interface{{id_break}}'
+      scope: storage.type.as
+      set: interface_definition
+    - match: '(var|const){{id_break}}'
+      scope: keyword.control.as
+      set: var_definition
+    - match: '(function){{id_break}}'
+      scope: storage.type.as
+      set: fndef_name
+    - match: 'namespace{{id_break}}'
+      scope: storage.type.as
+      set: namespace_definition
+
+  namespace_definition:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      scope: entity.name.namespace.as
+      pop: true
+    - match: ''
+      pop: true
+
+  interface_definition:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+      set: itrfc_ext
+    - match: '{{id}}'
+      scope: entity.name.interface.as
+      set: itrfc_ext
+    - match: ''
+      pop: true
+
+  itrfc_ext:
+    - include: ws
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      set: block_statement
+    - match: 'extends{{id_break}}'
+      scope: keyword.declaration.extends.as
+      set: extending_types
+    - match: '{{eol}}'
+      pop: true
+
+  class_definition:
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+      set: class_ext_or_impls
+    - match: '{{id}}'
+      scope: entity.name.class.as
+      set: class_ext_or_impls
+    - match: ''
+      pop: true
+
+  class_ext_or_impls:
+    - include: ws
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      set: block_statement
+    - match: 'extends{{id_break}}'
+      scope: keyword.declaration.extends.as
+      set: class_extends_ls
+    - match: 'implements{{id_break}}'
+      scope: keyword.declaration.extends.as
+      set: extending_types
+    - match: '{{eol}}'
+      pop: true
+
+  class_extends_ls:
+    - include: ws
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      set: block_statement
+    - match: 'implements{{id_break}}'
+      scope: keyword.declaration.extends.as
+      set: extending_types
+    - match: '{{id}}'
+      scope: entity.other.inherited-class.as
+    - match: '\.|::?'
+      scope: punctuation.accessor.as
+    - match: \,
+      scope: punctuation.separator.sequence.as
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  extending_types:
+    - include: ws
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      set: block_statement
+    - match: '{{id}}'
+      scope: entity.other.inherited-class.as
+    - match: '\.|::?'
+      scope: punctuation.accessor.as
+    - match: \,
+      scope: punctuation.separator.sequence.as
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  var_definition:
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+      pop: true
+    - match: '{{id}}|$'
+      pop: true
+
+  fndef_name:
+    - include: ws
+    - match: '(get|set)\s+({{reserved_id}})'
+      captures:
+        1: storage.type.as
+        2: invalid.as
+      set: fn_params
+    - match: '(get|set)\s+({{id}})'
+      captures:
+        1: storage.type.as
+        2: entity.name.function.as
+      set: fn_params
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      scope: entity.name.function.as
+      set: fn_params
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  fn_name:
+    - include: ws
+    - match: \(
+      scope: punctuation.section.parens.begin.as
+      set: in_fn_params
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+      set: fn_params
+    - match: '{{id}}'
+      scope: entity.name.function.as
+      set: fn_params
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  fn_params:
+    - include: ws
+    - match: \(
+      scope: punctuation.section.parens.begin.as
+      set: in_fn_params
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  in_fn_params:
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      scope: variable.parameter.as
+      push:
+        - include: ws
+        - match: ':'
+          scope: keyword.control.flow.as
+          set: qual_id_type
+        - match: '(?<!{{eol}})'
+          pop: true
+    - match: \,
+      scope: punctuation.separator.sequence.as
+    - match: \.{3}
+      scope: keyword.operator.as
+    - match: =
+      scope: keyword.operator.assignment.as
+      push:
+        - match: \,
+          scope: punctuation.separator.sequence.as
+          pop: true
+        - match: '(?=\))'
+          scope: punctuation.section.parens.end.as
+          pop: true
+        - include: expression
+        - match: '(?<!{{eol}})'
+          pop: true
+    - match: \)
+      scope: punctuation.section.parens.end.as
+      set:
+        - include: ws
+        - match: ':'
+          scope: keyword.control.flow.as
+          push: qual_id_type
+        - match: '{'
+          scope: punctuation.section.block.begin.as
+          set: block_statement
+        - match: '(?<!{{eol}})'
+          pop: true
+    - match: '(?<!{{eol}})'
+      pop: true
+
+  package_definition:
+    - meta_scope: meta.namespace.as
+    - match: '{{eol}}'
+      pop: true
+    - include: ws
+    - match: '{{reserved_id}}'
+      scope: invalid.as
+    - match: '{{id}}'
+      scope: entity.name.namespace.as
+    - match: '\{'
+      scope: punctuation.section.block.begin.as
+      set: block_statement
+    - match: \.
+      scope: entity.name.namespace.as
+
+  # Literals
+
+  string_literal:
+    - match: \"
+      scope: punctuation.definition.string.begin.as
+      push:
+        - meta_scope: string.quoted.double.c
+        - include: escape_sequence
+        - match: \"
+          scope: punctuation.definition.string.end.as
+          pop: true
+        - match: '{{eol}}'
+          pop: true
+    - match: \'
+      scope: punctuation.definition.string.begin.as
+      push:
+        - meta_scope: string.quoted.single.c
+        - include: escape_sequence
+        - match: \'
+          scope: punctuation.definition.string.end.as
+          pop: true
+        - match: '{{eol}}'
+          pop: true
+
+  escape_sequence:
+    - match: >-
+        (?x) \\ ([0nrvftb\\\x{22}\x{27}]
+                | u{{hex_digit}}{4}
+                | x{{hex_digit}}{2} )
+      scope: constant.character.escape.as
+    - match: '(\\){{eol}}'
+      captures:
+        1: constant.character.escape.as
+    - match: '(\\)(.)'
+      captures:
+        1: constant.character.escape.as
+        2: invalid.as
+
+  regexp_literal:
+    - meta_scope: string.regexp.as
+    - match: '/({{id_part}}*)'
+      captures:
+        1: keyword.control.flow.as
+      set: ambiguable_operator
+    - match: >-
+        (?x) \\ (
+            x{{hex_digit}}{2}
+          | u{{hex_digit}}{4}
+          | {{decimal_literal}}
+          | (?<!{{id_part}})(?<!u{{hex_digit}}{4}).
+          | [dDsSwW]
+          | [fnrtv]
+          | c[A-Za-z]
+        )
+      scope: constant.character.escape.as
+    - match: '\\\.'
+      scope: invalid.as
+
+  # Misc.
+
+  qual_id_type:
+    - match: '(\s*|{{eol}})*'
+    - match: '{{id}}'
+      scope: storage.type.as 
+      set:
+        # Something like this:
+        #
+        # for (var a: E in fifo)
+        #
+        # shouldn't have `in` as storage.type,
+        # thus this extra check.
+        #
+        - match: '\s*'
+        - match: '(?={{id_start}})'
+          pop: true
+        - match: '(?!\s)'
+          set: qual_id_type
+    - match: '\.\s*<'
+      scope: storage.type.as
+      push: qual_id_type_gen
+    - match: '(\.|::)'
+      scope: punctuation.accessor.double-colon.as
+    - match: '\*'
+      scope: keyword.control.as
+      pop: true
+    - match: ''
+      pop: true
+
+  qual_id_type_gen:
+    - include: ws
+    - match: '>'
+      scope: storage.type.as
+      pop: true
+    - match: '{{id}}'
+      scope: storage.type.as 
+    - match: '\.\s*<'
+      scope: storage.type.as
+      push: qual_id_type_gen
+    - match: '(\.|::)'
+      scope: punctuation.accessor.double-colon.as
+    - match: '(?<!{{eol}})'
+      pop: true
