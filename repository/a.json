@@ -4,8 +4,8 @@
 		{
 			"name": "A File Icon",
 			"previous_names": ["File Icons Extended", "zz File Icons"],
-			"details": "https://github.com/ihodev/a-file-icon",
-			"author": "ihodev",
+			"details": "https://github.com/SublimeText/AFileIcon",
+			"author": ["ihodev", "DeathAxe"],
 			"labels": ["theme", "file", "icons"],
 			"releases": [
 				{
@@ -521,6 +521,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Alabaster Color Scheme",
+			"details": "https://github.com/tonsky/sublime-scheme-alabaster",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
@@ -1068,6 +1080,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AnonymousFile",
+			"details": "https://github.com/nchauhan890/anonymous-file",
+			"labels": ["file creation", "testing"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1827,7 +1850,18 @@
 				}
 			]
 		},
+		{
+			"name": "Assembly 6809 and 6309 Syntax Highlighting",
+			"details": "https://github.com/dougmasten/sublime-assembly-6809",
+			"labels": ["language syntax"],
+			"releases": [
 				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Assorted Gutter Themes",
 			"details": "https://github.com/TruJared/assorted_gutter_themes",
 			"labels": ["gutter", "themes", "sl", "theme", "SublimeLinter"],

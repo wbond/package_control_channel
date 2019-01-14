@@ -84,6 +84,19 @@
 			]
 		},
 		{
+			"name": "SAMB",
+			"description" : "SAMB (server assembly framework) syntax and snippets",
+			"details": "https://github.com/cheikhshift/samb-sublime",
+			"issues": "https://github.com/cheikhshift/samb-sublime/issues",
+			"labels": ["SAMB syntax highlight", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "San Syntax Highlight",
 			"details": "https://github.com/kekee000/san-sublime",
 			"labels": ["san syntax highlight", "snippets"],
@@ -428,6 +441,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Schnapsum",
+			"details": "https://github.com/airqz/schnapsum-sublime-text",
+			"labels": ["keyword.control"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1031,7 +1055,7 @@
 			"details": "https://github.com/cb109/sublime3dsmax",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -1526,6 +1550,17 @@
 			]
 		},
 		{
+			"name": "ShowDefinitionEx",
+			"description": "Visually showing definition",
+			"details": "https://github.com/jk4837/ShowDefinitionEx",
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/grapegravity/ShowEncoding",
 			"releases": [
 				{
@@ -1772,18 +1807,6 @@
 				{
 					"sublime_text": ">=3106",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Simple MVC Framework Snippets",
-			"details": "https://github.com/simple-mvc-framework/SMVC-Snippets",
-			"labels": ["snippets"],
-			"previous_names": ["SMVC-Snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -2507,6 +2530,17 @@
 			]
 		},
 		{
+			"name": "SnippetSkydragon",
+			"details": "https://github.com/wghust/snippetSkydragon",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SnippetX",
 			"details": "https://github.com/ColinRyan/SnippetX",
 			"labels": ["text manipulation", "snippets"],
@@ -2583,6 +2617,7 @@
 		{
 			"name": "Solarized Color Scheme",
 			"details": "https://github.com/braver/Solarized",
+			"donate": "https://paypal.me/pools/c/8aniLejX25",
 			"labels": ["color scheme"],
 			"releases": [
 				{

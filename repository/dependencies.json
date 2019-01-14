@@ -89,6 +89,20 @@
 			]
 		},
 		{
+			"name": "channelmanager",
+			"author": "evandrocoan",
+			"load_order": "30",
+			"description": "Manages packages installed as git submodules",
+			"issues": "https://github.com/evandrocoan/channelmanager/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/channelmanager",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "chardet",
 			"load_order": "50",
 			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
@@ -636,6 +650,20 @@
 			]
 		},
 		{
+			"name": "pushdownparser",
+			"author": "evandrocoan",
+			"load_order": "09",
+			"description": "A modern parsing library for Python, implementing Earley & LALR(1) and an easy interface",
+			"issues": "https://github.com/evandrocoan/pushdownparser/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/pushdownparser",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"load_order": "50",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
@@ -776,7 +804,7 @@
 					"sublime_text": ">=3000"
 				}
 			]
-		},	
+		},
 		{
 			"name": "pytz",
 			"load_order": "50",
@@ -1114,7 +1142,7 @@
 					"sublime_text": ">3092"
 				}
 			]
-		},	
+		},
 		{
 			"name": "typing",
 			"load_order": "50",
