@@ -2,7 +2,6 @@
 
 The `channel.json`, `repository.json` and `repository/*.json` files contain a
 list of repositories and packages for use with
-
 [Package Control](https://packagecontrol.io).
 
 The `channel.json` file is published at https://packagecontrol.io/channel_v3.json
