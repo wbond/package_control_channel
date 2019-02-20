@@ -60,6 +60,18 @@
 			]
 		},
 		{
+			"name": "TabNine",
+			"details": "https://github.com/zxqfl/tabnine-sublime",
+			"author": "Jacob Jackson",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TabNukerNuker",
 			"details": "https://github.com/jnvsor/TabNukerNuker",
 			"author": "Jonathan Vollebregt",
@@ -199,12 +211,34 @@
 			]
 		},
 		{
+			"name": "TAGML",
+			"labels": ["language syntax"],
+			"details": "https://github.com/HuygensING/tagml-sublime-syntax",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TagWrapper",
 			"details": "https://github.com/ignacysokolowski/SublimeTagWrapper",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Tailwind CSS Autocomplete",
+			"details": "https://github.com/danklammer/tailwind-sublime-autocomplete",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -220,6 +254,18 @@
 			]
 		},
 		{
+			"name": "TailwindCSSAutocomplete",
+			"details": "https://github.com/bradlc/sublime-tailwindcss",
+			"labels": ["tailwind", "auto-complete"],
+			"author": "Brad Cornes",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Takana",
 			"details": "https://github.com/mechio/takana-sublime",
 			"releases": [
@@ -230,13 +276,13 @@
 			]
 		},
 		{
-			"name": "TamarinAssist",
-			"details": "https://github.com/lordqwerty/TamarinAssist",
+			"name": "TamarinProver",
+			"previous_names": ["TamarinAssist"],
+			"details": "https://github.com/tamarin-prover/editor-sublime",
 			"labels": ["Tamarin Prover", "spthy", "Language Syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
-					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -456,6 +502,17 @@
 			]
 		},
 		{
+			"name": "Terminal-command",
+			"details": "https://github.com/looking-for-a-job/sublime-terminal-command",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": "osx",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Terminality",
 			"details": "https://github.com/spywhere/Terminality",
 			"labels": ["console", "repl", "terminal", "utilities", "utils"],
@@ -516,6 +573,17 @@
 		{
 			"name": "TernJS",
 			"details": "https://github.com/emmetio/sublime-tern",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Terrafmt",
+			"details": "https://github.com/p3lim/sublime-terrafmt",
+			"labels": ["Terraform"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -769,7 +837,7 @@
 					"sublime_text": ">=3000",
 					"tags": true
 				}
-			]   
+			]
 		},
 		{
 			"name": "Theme - Argonaut",
@@ -1535,6 +1603,18 @@
 			]
 		},
 		{
+			"name": "Theme - Outlined",
+			"details": "https://github.com/aziis98/theme-outlined",
+			"author": "aziis98",
+			"labels": ["theme", "adaptive"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Pacific",
 			"details": "https://github.com/hrsetyono/theme_pacific",
 			"labels": ["theme"],
@@ -1916,6 +1996,17 @@
 			]
 		},
 		{
+			"name": "Theme - zero-dark",
+			"details": "https://github.com/jrvieira/zero-dark-st3",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ThemeAutomator",
 			"details": "https://github.com/vitto/sublime-theme-automator",
 			"releases": [
@@ -2034,12 +2125,14 @@
 			]
 		},
 		{
-			"name": "Three.js Autocomplete",
-			"details": "https://github.com/blackjk3/threejs-sublime",
+			"name": "Threejs Autocomplete",
+			"previous_names": ["Three.js Autocomplete"],
+			"details": "https://github.com/wrbing728/threejs-sublime",
+			"author": "wrbing728",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2342,7 +2435,7 @@
 		},
 		{
 			"name": "TodoReview",
-			"details": "https://github.com/jonathandelgado/SublimeTodoReview",
+			"details": "https://github.com/jonathanrdelgado/SublimeTodoReview",
 			"labels": ["todo", "search", "review", "comments", "tasks"],
 			"previous_names": ["SublimeTODO"],
 			"releases": [
@@ -3002,13 +3095,12 @@
 		},
 		{
 			"name": "Tryton Snippets",
-			"details": "https://bitbucket.org/nantic/sublimetext-tryton-snippets",
+			"details": "https://bitbucket.org/datalife_sco/sublimetext-tryton-snippets",
 			"labels": ["tryton", "snippets"],
-			"author": ["angelnan", "guillemnan"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "default"
+					"tags": true
 				}
 			]
 		},
