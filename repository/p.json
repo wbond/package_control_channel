@@ -23,6 +23,18 @@
 			]
 		},
 		{
+			"name": "P4Explorer",
+			"details": "https://github.com/ymengesha/P4Explorer",
+			"labels": ["vcs", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": ["windows"]
+				}
+			]
+		},
+		{
 			"name": "P4Gutter",
 			"details": "https://github.com/daumiller/P4Gutter",
 			"releases": [
@@ -185,6 +197,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Pandoc Converter",
+			"details": "https://github.com/klmp200/Pandoc-Converter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -396,6 +418,17 @@
 			]
 		},
 		{
+			"name": "Pass Manager",
+			"details": "https://github.com/degami/PassManager",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Paste Anywhere",
 			"details": "https://github.com/FMCorz/PasteAnywhere",
 			"releases": [
@@ -462,6 +495,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PasteAhead",
+			"details": "https://github.com/mattst/PasteAhead",
+			"labels": ["paste"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -818,6 +862,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Pest Syntax",
+			"details": "https://github.com/dten/pest-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1367,9 +1421,10 @@
 			]
 		},
 		{
-			"name": "phpunitkit",
+			"name": "PHPUnitKit",
 			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["phpunit", "php", "testing", "tdd"],
+			"labels": ["php", "phpunit", "testing", "tdd"],
+			"previous_names": ["phpunitkit"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1409,6 +1464,16 @@
 			]
 		},
 		{
+			"name": "PipenvPath",
+			"details": "https://github.com/dhelonious/PipenvPath",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PixarUSD",
 			"details": "https://github.com/davidlatwe/PixarUSD-Sublime",
 			"releases": [
@@ -1437,6 +1502,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PL1 PLI Syntax",
+			"details": "https://github.com/guija/pl1",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1590,6 +1665,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "poetry",
+			"details": "https://github.com/jgirardet/sublime-poetry",
+			"author": "jgirardet",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2084,6 +2170,17 @@
 			]
 		},
 		{
+			"name": "Prismatic Color Scheme",
+			"details": "https://github.com/huijing/Prismatic",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Procapy",
 			"details": "https://github.com/thomasthorsen/SublimeProcapy",
 			"releases": [
@@ -2322,6 +2419,16 @@
 			]
 		},
 		{
+			"name": "Pseudo Block Mode",
+			"details": "https://github.com/guija/pseudo_block_mode",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PSLHighlight",
 			"details": "https://github.com/jewelzqiu/PSLHighlight",
 			"releases": [
@@ -2508,6 +2615,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PyenvEnv",
+			"details": "https://github.com/jkr78/PyenvEnv",
+			"labels": ["python", "pyenv", "env", "virtualenv", "venv"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]
