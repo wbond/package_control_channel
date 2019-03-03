@@ -2,6 +2,16 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "S-Expressions Syntax",
+			"details": "https://github.com/whitequark/Sublime-S-Expressions",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/ayonix/sablecc-syntax",
 			"releases": [
 				{
@@ -84,6 +94,19 @@
 			]
 		},
 		{
+			"name": "SAMB",
+			"description" : "SAMB (server assembly framework) syntax and snippets",
+			"details": "https://github.com/cheikhshift/samb-sublime",
+			"issues": "https://github.com/cheikhshift/samb-sublime/issues",
+			"labels": ["SAMB syntax highlight", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "San Syntax Highlight",
 			"details": "https://github.com/kekee000/san-sublime",
 			"labels": ["san syntax highlight", "snippets"],
@@ -161,16 +184,12 @@
 		},
 		{
 			"name": "Sass",
-			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
-			"previous_names": ["Syntax Highlighting for Sass"],
-			"labels": ["language syntax"],
+			"details": "https://github.com/braver/SublimeSass",
+			"donate": "https://paypal.me/pools/c/89Rf8xJKlw",
+			"labels": ["language syntax", "scss", "sass", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3103",
-					"branch": "ST2"
-				},
-				{
-					"sublime_text": ">=3103",
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]
@@ -233,6 +252,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SasSubmit",
+			"details": "https://github.com/sjiangDA/SasSubmit",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -312,6 +342,17 @@
 		{
 			"name": "Scalafmt",
 			"details": "https://github.com/fedragon/sublime-scalafmt",
+			"labels": ["scala", "format", "formatting", "formatter", "scalafmt"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ScalafmtEnhanced",
+			"details": "https://github.com/nitrotm/st3-scalafmt",
 			"labels": ["scala", "format", "formatting", "formatter", "scalafmt"],
 			"releases": [
 				{
@@ -421,6 +462,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Schnapsum",
+			"details": "https://github.com/airqz/schnapsum-sublime-text",
+			"labels": ["keyword.control"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -809,11 +861,11 @@
 		},
 		{
 			"name": "Seeing Is Believing",
-			"details": "https://github.com/JoshCheek/sublime-text-2-seeing-is-believing",
+			"details": "https://github.com/JoshCheek/sublime-text-2-and-3-seeing-is-believing",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": ">=2000",
+					"tags": true
 				}
 			]
 		},
@@ -1024,7 +1076,7 @@
 			"details": "https://github.com/cb109/sublime3dsmax",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -1079,6 +1131,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SEPath",
+			"details": "https://github.com/eudorokhov/SEPath",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1222,6 +1284,17 @@
 				{
 					"platforms": ["linux", "windows"],
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SEWL",
+			"details": "https://github.com/SpotonNet/sublime-sewl",
+			"labels" : ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1508,6 +1581,17 @@
 			]
 		},
 		{
+			"name": "ShowDefinitionEx",
+			"description": "Visually showing definition",
+			"details": "https://github.com/jk4837/ShowDefinitionEx",
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/grapegravity/ShowEncoding",
 			"releases": [
 				{
@@ -1758,18 +1842,6 @@
 			]
 		},
 		{
-			"name": "Simple MVC Framework Snippets",
-			"details": "https://github.com/simple-mvc-framework/SMVC-Snippets",
-			"labels": ["snippets"],
-			"previous_names": ["SMVC-Snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Simple Print Function",
 			"details": "https://github.com/svenax/SublimePrint",
 			"labels": ["printing"],
@@ -1907,7 +1979,7 @@
 		},
 		{
 			"name": "SimpleSyntax",
-			"details": "https://github.com/budRich/SimpleSyntax",
+			"details": "https://github.com/budlabs/SimpleSyntax",
 			"description": "Comment syntax for config files",
 			"author": "Nils Kvist",
 			"labels": ["configfile", "syntax"],
@@ -2025,6 +2097,32 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Sk-ST3",
+			"description": "Skript Language Modern Syntax Highlighting. Skript is a Minecraft plugin that allows you to write codes with plain english and use it as plugins",
+			"details": "https://github.com/AyhamAl-Ali/sk-st3",
+			"homepage": "https://forums.skunity.com/resources/sk-st3-syntax-highlighting-open-source.710/",
+			"issues": "https://github.com/AyhamAl-Ali/sk-st3/issues",
+			"labels": ["language syntax", "color scheme"],
+			"author": "Ayham Al-Ali",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Skeleton Snippet",
+			"details": "https://github.com/rodrigoiii/skeleton-snippet",
+			"labels": ["auto complete", "snippet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2478,6 +2576,17 @@
 			]
 		},
 		{
+			"name": "SnippetSkydragon",
+			"details": "https://github.com/wghust/snippetSkydragon",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SnippetX",
 			"details": "https://github.com/ColinRyan/SnippetX",
 			"labels": ["text manipulation", "snippets"],
@@ -2543,11 +2652,12 @@
 		{
 			"name": "Solarized Color Scheme",
 			"details": "https://github.com/braver/Solarized",
+			"donate": "https://paypal.me/pools/c/8aniLejX25",
 			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -3129,6 +3239,16 @@
 			]
 		},
 		{
+			"name": "sql-formatter",
+			"details": "https://github.com/kufii/sublime-sql-formatter",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SqlBeautifier",
 			"details": "https://github.com/zsong/SqlBeautifier",
 			"labels": ["sql", "formatting", "formatter"],
@@ -3231,10 +3351,15 @@
 		{
 			"name": "SSH Config",
 			"details": "https://github.com/robballou/sublimetext-sshconfig",
+			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -3477,6 +3602,16 @@
 			]
 		},
 		{
+			"name": "StatusBarSymbols",
+			"details": "https://github.com/OdinTech3/StatusBarSymbols",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "StatusMessage",
 			"details": "https://github.com/shagabutdinov/sublime-status-message",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -3688,6 +3823,16 @@
 			]
 		},
 		{
+			"name": "STVenvWrapper",
+			"details": "https://github.com/nvanwitt/STVenvWrapper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Stylefmt",
 			"previous_names": ["CSSfmt"],
 			"details": "https://github.com/dmnsgn/sublime-stylefmt",
@@ -3809,6 +3954,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "sublack",
+			"details": "https://github.com/jgirardet/sublack",
+			"author": "jgirardet",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -3955,6 +4111,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Sublime wxapp",
+			"details": "https://github.com/springlong/Sublime-wxapp",
+			"homepage": "https://github.com/springlong/Sublime-wxapp",
+			"author": "sprintlong",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -4594,6 +4762,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "subryan",
+			"details": "https://github.com/evercyan/subryan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]
@@ -5342,6 +5521,21 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Syntax Highlighting for Sass",
+			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "<3103",
+					"branch": "ST2"
+				},
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]

@@ -131,6 +131,18 @@
 			]
 		},
 		{
+			"name": "BAROC syntax highlighting",
+			"details": "https://github.com/Bushikot/baroc-sublime-syntax",
+			"author": "Denis Koshechkin",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BART",
 			"details": "https://github.com/ganemone/SublimeBart",
 			"releases": [
@@ -205,11 +217,12 @@
 			]
 		},
 		{
-			"name": "Bats (Bash Automated Testing System)",
-			"details": "https://github.com/jverdeyen/sublime-bats",
+			"name": "Bats",
+			"previous_names": ["Bats (Bash Automated Testing System)"],
+			"details": "https://github.com/sptndc/sublime-bats",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -218,7 +231,6 @@
 			"name": "BBCode Syntax",
 			"details": "https://github.com/chipotle/BBCode",
 			"labels": ["language syntax"],
-			"previous_names": ["BBCode"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -252,6 +264,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bear App",
+			"details": "https://github.com/malexer/SublimeBear",
+			"labels": ["bear", "bear app", "bear-writer", "note", "notes"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]
@@ -830,6 +854,16 @@
 			]
 		},
 		{
+			"name": "Blame Explorer",
+			"details": "https://github.com/gatopeich/sublame",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BlameHighlighter",
 			"details": "https://github.com/skyronic/BlameHighlighter",
 			"releases": [
@@ -1106,6 +1140,17 @@
 			]
 		},
 		{
+			"name": "Bow Tintin",
+			"details": "https://github.com/papac/bow-tintin-sbt3",
+			"labels": ["php", "Bow", "Tintin", "language syntax", "Bow Tintin"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bower",
 			"details": "https://github.com/benschwarz/sublime-bower",
 			"releases": [
@@ -1212,9 +1257,10 @@
 		{
 			"name": "Brackets Color Scheme",
 			"details": "https://github.com/jwortmann/brackets-color-scheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
@@ -1272,6 +1318,18 @@
 			]
 		},
 		{
+			"name": "BreakLines",
+			"details": "https://github.com/Moojuiceman/BreakLines",
+			"issues": "https://github.com/Moojuiceman/BreakLines/issues",
+			"labels": ["break", "group", "split", "separate", "lines"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BridleNSIS",
 			"details": "https://github.com/idleberg/BridleNSIS-Sublime-Text",
 			"labels": ["language syntax", "auto-complete", "nsis"],
@@ -1293,6 +1351,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Brittany",
+			"details": "https://github.com/eddiejessup/SublimeBrittany",
+			"author": "Elliot Marsden",
+			"labels": ["format", "haskell"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1428,6 +1498,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Build System Input",
+			"details": "https://github.com/dhelonious/BuildSystemInput",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

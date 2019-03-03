@@ -4,11 +4,21 @@
 		{
 			"name": "D Programming Language",
 			"details": "https://github.com/alexrp/st2-d",
-			"previous_names": ["D"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "D-Laravel alias",
+			"details": "https://github.com/deviny/Dlaravel-Alias",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -62,6 +72,19 @@
 			"name": "Dafny",
 			"details": "https://github.com/tvi/sublime-dafny",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Dank Neon",
+			"details": "https://github.com/DankNeon/sublime",
+			"author": ["jpetrucciani", "wuz"],
+			"labels": ["color scheme"],
+			"description": "A danker, more neon theme for sublime text.",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -177,6 +200,16 @@
 			]
 		},
 		{
+			"name": "Data Wrangler",
+			"details": "https://github.com/AlexLamson/DataWrangler",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "DataConverter",
 			"details": "https://github.com/fitnr/SublimeDataConverter",
 			"releases": [
@@ -196,6 +229,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Datalife Engine snippets",
+			"details": "https://github.com/jyarali/datalife-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -387,7 +430,7 @@
 			"details": "https://github.com/artkorsun/DelphiStyleBookmarks",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -480,6 +523,16 @@
 			]
 		},
 		{
+			"name": "Detect Invalid Devangari",
+			"details": "https://github.com/alchemi5t/devanagari_invalid_grammar_detect",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Devastate",
 			"details": "https://github.com/vlakarados/devastate",
 			"labels": ["theme", "color scheme"],
@@ -515,6 +568,16 @@
 		{
 			"name": "DevDocs offline",
 			"details": "https://github.com/hectorqin/sublime-devdocs",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "devebkit",
+			"details": "https://github.com/bisguzar/st3-devebkit",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -585,6 +648,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Dhall",
+			"details": "https://github.com/SQbQxeKd3JHD8/SublimeDhall",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -721,7 +795,7 @@
 		},
 		{
 			"name": "dired",
-			"details": "https://github.com/mkleehammer/dired",
+			"details": "https://github.com/kublaios/dired",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -787,8 +861,12 @@
 			"labels": ["fullscreen", "distraction-free"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -944,6 +1022,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DMT",
+			"details": "https://github.com/uniqpath/SublimeDMT",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

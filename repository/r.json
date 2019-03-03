@@ -54,6 +54,17 @@
 			]
 		},
 		{
+			"name": "Rails Completions",
+			"details": "https://github.com/mjeffrey18/rails-completions",
+			"labels": ["Ruby on Rails", "snippets", "auto-complete", "Autocomplete", "Rails", "ruby"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Rails Developer Snippets",
 			"details": "https://github.com/j10io/railsdev-sublime-snippets",
 			"labels": ["snippets"],
@@ -377,6 +388,17 @@
 		{
 			"name": "Rant",
 			"details": "https://github.com/RantLang/Sublime-Rant",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RAPID Syntax Highlighting",
+			"details": "https://github.com/mfrench1989/RAPID-Syntax-Highlighting",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -875,6 +897,16 @@
 			]
 		},
 		{
+			"name": "Regex Escape",
+			"details": "https://github.com/Jonnymcc/sublime_regex_escape",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RegexExplainTip",
 			"details": "https://github.com/rubikonx9/SublimeRegexExplainTip",
 			"labels": ["utilities"],
@@ -1006,6 +1038,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RemoteDiff-BCompare",
+			"details": "https://github.com/Rain7232/RemoteDiff-BCompare",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -1492,8 +1535,9 @@
 			]
 		},
 		{
-			"name": "Robot Framework Assistant",
+			"name": "RobotFrameworkAssistant",
 			"details": "https://github.com/andriyko/sublime-robot-framework-assistant",
+			"previous_names": ["Robot Framework Assistant"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1548,6 +1592,18 @@
 			]
 		},
 		{
+			"name": "Rockstar Syntax Highlighter",
+			"details": "https://github.com/paxromana96/sublime-rockstar-syntax",
+			"readme": "https://raw.githubusercontent.com/paxromana96/sublime-rockstar-syntax/master/README.md",
+			"labels": ["syntax-highlight", "rockstar", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Rohingya Dark color scheme",
 			"details": "https://github.com/rybtech/Rohingya-dark-sublime-text-3-color-scheme",
 			"readme": "https://github.com/rybtech/Rohingya-dark-sublime-text-3-color-scheme/blob/master/README.md",
@@ -1566,6 +1622,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RON",
+			"description": "Rusty Object Notation syntax scheme",
+			"author": "kvark",
+			"details": "https://github.com/ron-rs/sublime-ron",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1770,8 +1838,12 @@
 			]
 		},
 		{
-			"name": "RtagsComplete",
-			"details": "https://github.com/rampage644/sublime-rtags",
+			"name": "RTagsComplete",
+			"details": "https://github.com/tillt/rtagscomplete",
+			"labels": ["auto-complete", "linting", "language syntax", "code navigation", "file navigation", "search"],
+			"readme": "https://raw.githubusercontent.com/tillt/RTagsComplete/master/site/package_readme.md",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AY5UC3W9NDUGL",
+			"previous_names": ["RtagsComplete", "sublime-rtags", "SublimeRtags"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2132,6 +2204,16 @@
 		{
 			"name": "RustAutoComplete",
 			"details": "https://github.com/defuz/RustAutoComplete",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RustAutoImport",
+			"details": "https://github.com/trishume/SublimeRustAutoImport",
 			"releases": [
 				{
 					"sublime_text": ">=3000",

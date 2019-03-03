@@ -4,8 +4,8 @@
 		{
 			"name": "A File Icon",
 			"previous_names": ["File Icons Extended", "zz File Icons"],
-			"details": "https://github.com/ihodev/a-file-icon",
-			"author": "ihodev",
+			"details": "https://github.com/SublimeText/AFileIcon",
+			"author": ["ihodev", "DeathAxe"],
 			"labels": ["theme", "file", "icons"],
 			"releases": [
 				{
@@ -109,6 +109,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AccuTermClient",
+			"details": "https://github.com/ianharper/AccuTermClient",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": ["windows"]
 				}
 			]
 		},
@@ -322,6 +333,17 @@
 			]
 		},
 		{
+			"name": "AddToFile",
+			"details": "https://github.com/nchauhan890/AddToFile",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Adianti Snippets for PHP",
 			"details": "https://github.com/dmonteirosouza/adianti-snippets",
 			"releases": [
@@ -499,6 +521,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Alabaster Color Scheme",
+			"details": "https://github.com/tonsky/sublime-scheme-alabaster",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
@@ -724,6 +758,16 @@
 			]
 		},
 		{
+			"name": "AMP Snippets",
+			"details": "https://github.com/teamwethrift/amp-snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AmpersandJS Snippets",
 			"details": "https://github.com/HSH/AmpersandJS-Sublime-Text-Snippets",
 			"releases": [
@@ -766,10 +810,10 @@
 			]
 		},
 		{
-			"name": "Amxmodx",
+			"name": "AmxxEditor",
 			"details": "https://github.com/evandrocoan/AmxxEditor",
 			"labels": ["autocompletion", "auto-complete", "amxmodx", "amx mod x", "amxx", "pawn", "build system"],
-			"previous_names": ["amxmodx"],
+			"previous_names": ["Amxmodx"],
 			"releases": [
 				{
 					"sublime_text": ">=3114",
@@ -778,8 +822,9 @@
 			]
 		},
 		{
-			"name": "Amxx Pawn",
+			"name": "AmxxPawn",
 			"details": "https://github.com/evandrocoan/SublimeAmxxPawn",
+			"previous_names": ["Amxx Pawn"],
 			"labels": ["language syntax", "amxmodx", "amx mod x"],
 			"releases": [
 				{
@@ -1040,6 +1085,17 @@
 			]
 		},
 		{
+			"name": "AnonymousFile",
+			"details": "https://github.com/nchauhan890/anonymous-file",
+			"labels": ["file creation", "testing"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ansible",
 			"details": "https://github.com/clifford-github/sublime-ansible",
 			"labels": ["language syntax"],
@@ -1283,17 +1339,6 @@
 			]
 		},
 		{
-			"name": "APICloudPackage",
-			"details": "https://github.com/APICloud-com/Sublime-APICloud-Package",
-			"labels": ["android", "apicloud"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "APICloudSnippets",
 			"details": "https://github.com/APICloud-com/Sublime-APICloud-Snippet",
 			"labels": ["javascript", "snippets"],
@@ -1425,6 +1470,17 @@
 			"name": "AppendSemiColon",
 			"details": "https://github.com/MauriceZ/AppendSemiColon",
 			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Apple II BASIC",
+			"details": "https://github.com/ksherlock/BASIC.tmbundle",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1742,6 +1798,18 @@
 			]
 		},
 		{
+			"name": "ASL Syntax Highlight",
+			"details": "https://github.com/Fansaly/ASL-Syntax-Highlight",
+			"author": "Fansaly",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3143",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ASP Snippets",
 			"details": "https://github.com/marcosisocram/asp-snippets",
 			"author": "Marcos Paulo",
@@ -1782,7 +1850,18 @@
 				}
 			]
 		},
+		{
+			"name": "Assembly 6809 and 6309 Syntax Highlighting",
+			"details": "https://github.com/dougmasten/sublime-assembly-6809",
+			"labels": ["language syntax"],
+			"releases": [
 				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Assorted Gutter Themes",
 			"details": "https://github.com/TruJared/assorted_gutter_themes",
 			"labels": ["gutter", "themes", "sl", "theme", "SublimeLinter"],

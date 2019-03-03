@@ -620,11 +620,25 @@
 		{
 			"name": "FileIcons",
 			"details": "https://github.com/braver/FileIcons",
+			"donate": "https://www.paypal.com/pools/c/8aninMZJ3D",
 			"labels": ["file", "icons"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
+					"tags": "color-"
+				}
+			]
+		},
+		{
+			"name": "FileIcons Mono",
+			"details": "https://github.com/braver/FileIcons",
+			"readme": "https://raw.githubusercontent.com/braver/FileIcons/mono/README.md",
+			"donate": "https://www.paypal.com/pools/c/8aninMZJ3D",
+			"labels": ["file", "icons"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": "mono-"
 				}
 			]
 		},
@@ -828,6 +842,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Find PHP Vulnerabilities",
+			"details": "https://github.com/WangYihang/Find-PHP-Vulnerabilities",
+			"labels": ["php", "securiy", "bug", "vulnerability"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1219,6 +1244,16 @@
 			]
 		},
 		{
+			"name": "FlowTree",
+			"details": "https://github.com/maxwelljohn/FlowTree",
+			"releases": [
+				{
+					"sublime_text": ">=3176",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FlowType",
 			"details": "https://github.com/Pegase745/sublime-flowtype",
 			"labels": ["formatting", "auto-complete", "linting", "coverage", "flow", "javascript"],
@@ -1439,6 +1474,28 @@
 			]
 		},
 		{
+			"name": "Foremark",
+			"details": "https://github.com/Foremark/Sublime-Foremark",
+			"labels": ["language syntax", "Foremark"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Format Apex Log",
+			"details": "https://github.com/jdrbc/format-apex-log",
+			"labels": ["apex", "salesforce", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Format JSDoc @params",
 			"details": "https://bitbucket.org/finitewisdom/sublime-jsdocparam",
 			"labels": ["jsdoc", "javascript", "formatting"],
@@ -1460,6 +1517,17 @@
 			]
 		},
 		{
+			"name": "Formatter",
+			"details": "https://github.com/bitst0rm-pub/Formatter",
+			"labels": ["formatting", "beautify", "minify", "css", "scss", "sass", "less", "html", "xml", "javascript", "json", "markdown", "perl", "php", "python", "ruby", "bash", "c", "c++", "c#", "d", "objc", "java"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fortify Highlighter",
 			"details": "https://github.com/pwntester/FortifyHighlighter",
 			"releases": [
@@ -1475,6 +1543,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FosterNeko",
+			"details": "https://github.com/shellbotx/foster-neko",
+			"releases": [
+				{
+					"sublime_text": ">=3149",
 					"tags": true
 				}
 			]

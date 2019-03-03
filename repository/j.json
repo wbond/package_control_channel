@@ -109,6 +109,17 @@
 			]
 		},
 		{
+			"name": "JapaneseWordSeparator",
+			"details": "https://github.com/ASHIJANKEN/JapaneseWordSeparator",
+			"labels": ["Japanese", "separator"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmin JVM Assembler",
 			"details": "https://github.com/atmarksharp/jasmin-sublime",
 			"releases": [
@@ -432,6 +443,17 @@
 			]
 		},
 		{
+			"name": "JavaScriptExtractFunction",
+			"details": "https://github.com/tricinel/JavascriptExtractFunction",
+			"labels": ["javascript", "javascript refactor", "javascript extract", "javascript tools"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JavaScriptFunctionDefinition",
 			"details": "https://github.com/asdf23/JavaScriptFunctionDefinition",
 			"labels": ["javascript", "autocomplete"],
@@ -450,6 +472,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JavaScriptTemplateLiteralEnhancements",
+			"details": "https://github.com/phts/JavaScriptTemplateLiteralEnhancements",
+			"labels": ["javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -506,6 +539,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JEB Script Development Helper",
+			"details": "https://github.com/pnfsoftware/jeb_scriptdev_helper",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -935,7 +978,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/jdc0589/JsFormat",
+			"details": "https://github.com/jdavisclark/JsFormat",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1017,6 +1060,17 @@
 			]
 		},
 		{
+			"name": "JsModules",
+			"details": "https://github.com/luwes/SublimeJsModules",
+			"labels": ["javascript", "convert", "cjs", "es6"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSON Key-Value",
 			"details": "https://github.com/aurule/json-kv",
 			"labels": ["language syntax", "json"],
@@ -1091,18 +1145,6 @@
 			]
 		},
 		{
-			"name": "JSON2Go",
-			"details": "https://github.com/everCyan/JSON2Go",
-			"labels": ["json", "urllib.parse"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "JSONComma",
 			"details": "https://github.com/math2001/JSONComma",
 			"labels": ["JSON", "comma", "text manipulation", "formatting", "formatter", "trailing"],
@@ -1120,6 +1162,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "jsonnet formatter",
+			"details": "https://github.com/ankushagarwal/jsonnet-fmt",
+			"labels": ["jsonnet", "libsonnet" ,"formatting", "formatter"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},

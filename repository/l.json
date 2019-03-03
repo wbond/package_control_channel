@@ -57,7 +57,7 @@
 		},
 		{
 			"name": "Language 1C (BSL)",
-			"details": "https://github.com/xDrivenDevelopment/sublime-language-1c-bsl",
+			"details": "https://github.com/1c-syntax/sublime-language-1c-bsl",
 			"labels": ["language syntax", "highlighting"],
 			"releases": [
 				{
@@ -368,6 +368,16 @@
 			]
 		},
 		{
+			"name": "Latest Migration",
+			"details": "https://github.com/zaidakram/latest-migration",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LaTeX Accents",
 			"details": "https://github.com/kpym/SublimeLaTeXAccents",
 			"releases": [
@@ -670,10 +680,11 @@
 		{
 			"name": "LESS",
 			"details": "https://github.com/danro/LESS-sublime",
+			"donate": "https://paypal.me/pools/c/89Rcz97pIQ",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1491,6 +1502,16 @@
 			]
 		},
 		{
+			"name": "Louk",
+			"details": "https://github.com/louk-lang/louk-editor-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LPC",
 			"details": "https://github.com/abathur/SublimeLPC",
 			"labels": ["language syntax"],
@@ -1619,6 +1640,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaFormatter",
+			"details": "https://github.com/Koihik/sublime-lua-format",
+			"labels": ["lua", "beautify", "format", "formatting", "formatter", "codeformatter"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

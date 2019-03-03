@@ -88,6 +88,18 @@
 			]
 		},
 		{
+			"name": "gamY",
+			"details": "https://github.com/MartinBonde/gamY_sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GAS-x86 (or x64) highlighting scheme",
 			"details": "https://github.com/calculuswhiz/Assembly-Syntax-Definition",
 			"labels": ["language syntax", "x86", "x64", "x86_64", "AT&T", "GAS"],
@@ -219,6 +231,16 @@
 			]
 		},
 		{
+			"name": "GenerateProjects",
+			"details": "https://github.com/drmonkeyninja/sublime-text-generate-projects",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/GenerateUUID",
 			"releases": [
 				{
@@ -280,6 +302,29 @@
 			"releases":[
 				{
 					"sublime_text":"*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GetCode",
+			"author": "salil03",
+			"details": "https://github.com/Salil03/GetCode",
+			"labels": ["competitive-programming"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gettext",
+			"details": "https://github.com/idleberg/sublime-gettext",
+			"labels": ["language syntax", "snippets", "gettext", "i18n","l10n"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -528,6 +573,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GitDiffView",
+			"details": "https://github.com/predragnikolic/sublime-git-diff-view",
+			"labels": ["git", "diff"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -811,6 +868,17 @@
 				"templates",
 				"templating"
 			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Glot",
+			"details": "https://github.com/hyrious/glot",
+			"labels": ["code sharing"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1179,6 +1247,17 @@
 			]
 		},
 		{
+			"name": "Gomod",
+			"details": "https://github.com/Mitranim/sublime-gomod",
+			"labels": ["golang", "go", "syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Google Apps Scripts",
 			"details": "https://github.com/revolunet/sublimetext-google-apps-scripts",
 			"labels": ["google", "scripts", "drive", "javascript"],
@@ -1289,6 +1368,18 @@
 			]
 		},
 		{
+			"name": "Googler",
+			"author": "ashishg-qburst",
+			"details": "https://github.com/ashishg-qburst/googler",
+			"labels": ["google", "google-search"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/GoogleTesting",
 			"releases": [
 				{
@@ -1370,7 +1461,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
+					"tags": "unsupported-"
 				}
 			]
 		},
@@ -1978,6 +2069,17 @@
 			]
 		},
 		{
+			"name": "GROQ Syntax Highlighting",
+			"details": "https://github.com/alevroub/groq-syntax-highlighting",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Groupie",
 			"details": "https://github.com/noct/sublime-groupie",
 			"releases": [
@@ -2010,7 +2112,7 @@
 		},
 		{
 			"name": "Grunt",
-			"details": "https://github.com/tvooo/sublime-grunt",
+			"details": "https://github.com/sptndc/sublime-grunt",
 			"releases": [
 				{
 					"sublime_text": "*",

@@ -79,9 +79,26 @@
 		{
 			"name": "EasyClangComplete",
 			"details": "https://github.com/niosus/EasyClangComplete",
+			"homepage": "https://niosus.github.io/EasyClangComplete",
 			"readme": "https://raw.githubusercontent.com/niosus/EasyClangComplete/master/docs/pc_readme.md",
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QLY7J4Q944HS",
-			"labels": ["auto-complete", "linting", "language syntax"],
+			"labels": [
+				"auto-complete",
+				"autocompletion",
+				"clang",
+				"ide",
+				"intellisense",
+				"completion",
+				"Completion",
+				"completions",
+				"linting",
+				"c",
+				"c++",
+				"C",
+				"C++",
+				"cmake",
+				"language syntax"
+			],
 			"releases": [
 				{
 					"sublime_text": ">=3070",
@@ -198,7 +215,7 @@
 		{
 			"name": "Ecmascript Syntax",
 			"details": "https://github.com/bathos/Ecmascript-Sublime",
-			"labels": [ "Javascript", "ES6", "ES2105" ],
+			"labels": [ "Javascript", "ES6", "ES2015", "language syntax" ],
 			"releases": [
 				{
 					"sublime_text": ">=3084",
@@ -739,6 +756,18 @@
 			]
 		},
 		{
+			"name": "EML Syntax",
+			"labels": ["eml", "email", "mail", "e-mail", "RFC5322"],
+			"details": "https://github.com/jacobmovingfwd/eml-syntax",
+			"author": "Jacob Lee",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Emmet",
 			"details": "https://github.com/sergeche/emmet-sublime",
 			"releases": [
@@ -892,6 +921,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "eno",
+			"details": "https://github.com/eno-lang/sublime-eno",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1113,6 +1152,16 @@
 			]
 		},
 		{
+			"name": "ESLint Fix",
+			"details": "https://github.com/kufii/Sublime-ESLint-Fix",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ESLint-Formatter",
 			"details": "https://github.com/TheSavior/ESLint-Formatter",
 			"releases": [
@@ -1126,6 +1175,17 @@
 			"name": "ESLintAutoFix",
 			"details": "https://github.com/a324539017/eslintAutoFix",
 			"labels": ["javascript", "eslint", "autoFix", "formatter"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "esoftplay",
+			"details": "https://github.com/esoftplay/sublimetext-snippets",
+			"labels":["snippets", "esoftplay inc", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1351,6 +1411,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "exercism",
+			"previous_names": ["STexercism"],
+			"details": "https://github.com/thosgood/STexercism",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1619,6 +1690,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ExtJs Snippets",
+			"details": "https://github.com/je-poy/extjs-sublime-snippets",
+			"labels": ["utilities", "utils", "utility", "snippets", "commands"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
