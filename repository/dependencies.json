@@ -31,6 +31,21 @@
 			]
 		},
 		{
+			"name": "backports.lzma",
+			"author": "dvhh",
+			"load_order": "50",
+			"description": "lzma modules for sublime text 2 and 3",
+			"issues": "https://github.com/dvhh/sublime-backports.lzma/issues",
+			"releases": [
+				{
+					"base": "https://github.com/dvhh/sublime-backports.lzma",
+					"tags": true,
+					"platforms": ["windows"],
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "boto3",
 			"load_order": "02",
 			"description": "Python boto3 module for Amazon Web Services",
