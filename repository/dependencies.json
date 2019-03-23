@@ -17,6 +17,21 @@
 			]
 		},
 		{
+			"name": "backports_lzma",
+			"author": "dvhh",
+			"load_order": "50",
+			"description": "lzma modules for sublime text 2 and 3",
+			"issues": "https://github.com/dvhh/sublime-backports.lzma/issues",
+			"releases": [
+				{
+					"base": "https://github.com/dvhh/sublime-backports.lzma",
+					"tags": true,
+					"platforms": ["windows"],
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "backrefs",
 			"author": "facelessuser",
 			"load_order": "50",
