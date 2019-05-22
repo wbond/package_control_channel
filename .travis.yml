@@ -5,4 +5,4 @@ python:
 
 script:
   - python -m unittest
-  - curl -X POST https://packagecontrol.io/test_pr/$TRAVIS_PULL_REQUEST.json
+  - curl -X POST https://packagecontrol.io/test_pr/$TRAVIS_PULL_REQUEST.json || true
