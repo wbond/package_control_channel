@@ -1914,6 +1914,17 @@
 			]
 		},
 		{
+			"name": "RubocopDaemon",
+			"details": "https://github.com/Lichtbit/sublime_rubocop_daemon",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"tags": "v"
+				}
+			]
+		},
+		{
 			"name": "Ruby Block Converter",
 			"details": "https://github.com/irohiroki/RubyBlockConverter",
 			"labels": ["formatting"],
@@ -2189,6 +2200,17 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Run Task",
+			"details": "https://github.com/mgutski/sublime-run-task",
+			"labels": ["tasks", "task runner", "shell"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
