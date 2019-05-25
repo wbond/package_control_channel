@@ -246,7 +246,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["windows"],
+					"platforms": ["windows","osx"],
 					"tags": true
 				}
 			]
@@ -2546,6 +2546,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Snazzy Color Scheme",
+			"details": "https://github.com/Briles/snazzy-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
