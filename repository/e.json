@@ -1164,9 +1164,20 @@
 		},
 		{
 			"name": "Eschaton Color Scheme",
-			"details": "https://github.com/jeanmichelcote/eschaton",
-			"labels": ["color scheme"],
-			"author": "Jeanmichel Cote",
+			"details": "https://github.com/polserver/sublime-escript",
+			"labels": ["color scheme", "autocompletion","tooltips","buildsystem"],
+			"author": "POL Team",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "eScript Syntax",
+			"details": "https://github.com/Stephn-R/ES6-Toolkit-for-Sublime",
+			"labels": ["javascript", "snippets", "precompiler", "es2015", "ecmascript6"],
 			"releases": [
 				{
 					"sublime_text": "*",
