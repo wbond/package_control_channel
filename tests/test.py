@@ -385,10 +385,10 @@ class TestContainer(object):
                 self.assertFalse(v.startswith('.'))
 
             elif k == 'load_order':
-                self.assertRegex(v, '^\d\d$', '"load_order" must be a two '
-                                              'digit string')
+                self.assertRegex(v, r'^\d\d$', '"load_order" must be a two '
+                                               'digit string')
         for key in ('author', 'releases', 'issues', 'description', 'load_order'):
-                self.assertIn(key, data, '%r is required for dependencies' % key)
+            self.assertIn(key, data, '%r is required for dependencies' % key)
 
     pck_release_key_types_map = {
         'base': str_cls,
@@ -495,7 +495,7 @@ class TestContainer(object):
                                  'invalid')
 
             elif k == 'sublime_text':
-                self.assertRegex(v, '^(\*|<=?\d{4}|>=?\d{4}|\d{4} - \d{4})$',
+                self.assertRegex(v, r'^(\*|<=?\d{4}|>=?\d{4}|\d{4} - \d{4})$',
                                  'sublime_text must be `*`, of the form '
                                  '`<relation><version>` '
                                  'where <relation> is one of {<, <=, >, >=} '
