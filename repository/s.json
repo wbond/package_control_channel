@@ -246,7 +246,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["windows"],
+					"platforms": ["windows","osx"],
 					"tags": true
 				}
 			]
@@ -1196,8 +1196,7 @@
 		},
 		{
 			"name": "Session Manager",
-			"details": "https://github.com/Zeeker/sublime-SessionManager",
-			"donate": "https://gratipay.com/Zeeker",
+			"details": "https://github.com/sascha-wolf/sublime-SessionManager",
 			"labels": ["workspace", "save", "window"],
 			"releases": [
 				{
@@ -2551,6 +2550,17 @@
 			]
 		},
 		{
+			"name": "Snazzy Color Scheme",
+			"details": "https://github.com/Briles/snazzy-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Snippet Destroyer",
 			"details": "https://github.com/twolfson/sublime-snippet-destroyer",
 			"labels": ["snippet", "delete", "destroy"],
@@ -2757,7 +2767,7 @@
 		},
 		{
 			"name": "Sort Lines By Selection",
-			"details": "https://github.com/Zeeker/sublime-SortLinesBySelection",
+			"details": "https://github.com/sascha-wolf/sublime-SortLinesBySelection",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -3056,6 +3066,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Sphinx Ref Helper",
+			"details": "https://github.com/intelkevinputnam/sphinx-ref-helper",
+			"labels": ["sphinx"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -4068,6 +4089,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Sublime ES7 React Redux ReactNative JS snippets",
+			"details": "https://github.com/lassegit/sublime-es7-javascript-react-snippets",
+			"labels": ["react", "es7", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -5159,6 +5191,16 @@
 			]
 		},
 		{
+			"name": "Svelte Snippets",
+			"details": "https://github.com/PierBover/svelte-snippets",
+			"releases": [
+				{
+					"sublime_text": ">=3153",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SVG Icon Snippets",
 			"details": "https://github.com/idleberg/sublime-svg-icons",
 			"labels": ["snippets", "auto-complete", "svg", "svg icons"],
@@ -5558,6 +5600,19 @@
 		{
 			"name": "Synesthesia",
 			"details": "https://github.com/dariusf/synesthesia",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Synonymizer",
+			"details": "https://github.com/A5308Y/sublime-synonymizer",
+			"issues": "https://github.com/A5308Y/sublime-synonymizer/issues",
+			"author": "A5308Y",
+			"labels": ["naming"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
