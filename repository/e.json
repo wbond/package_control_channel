@@ -603,17 +603,12 @@
 			]
 		},
 		{
-			"name": "Elm Language Support",
-			"details": "https://github.com/elm-community/SublimeElmLanguageSupport",
-			"labels": ["language syntax"],
-			"previous_names": ["Elm Syntax Highlighting"],
+			"name": "Elm Format on Save",
+			"details": "https://github.com/evancz/elm-format-on-save",
+			"labels": ["elm", "elm-format", "formatting"],
 			"releases": [
 				{
-					"sublime_text": "<3092",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -622,6 +617,18 @@
 			"name": "Elm Snippets",
 			"details": "https://github.com/rudolfb/elm_snippets",
 			"labels": ["snippets", "elm"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Elm Syntax Highlighting",
+			"details": "https://github.com/evancz/elm-syntax-highlighting",
+			"labels": ["elm", "language syntax", "highlighting"],
+			"previous_names": ["Elm Language Support"],
 			"releases": [
 				{
 					"sublime_text": "*",
