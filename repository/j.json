@@ -109,6 +109,17 @@
 			]
 		},
 		{
+			"name": "JapaneseWordSeparator",
+			"details": "https://github.com/ASHIJANKEN/JapaneseWordSeparator",
+			"labels": ["Japanese", "separator"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmin JVM Assembler",
 			"details": "https://github.com/atmarksharp/jasmin-sublime",
 			"releases": [
@@ -188,6 +199,17 @@
 			"name": "Jasmine Scaffold",
 			"details": "https://github.com/swirlycheetah/jasmine-scaffold-sublime-text",
 			"labels": ["Jasmine", "javascript", "testing", "unit test"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jasonette Completions",
+			"details": "https://github.com/barrymode/jasonette-completions",
+			"labels": ["jasonette", "completions", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -323,6 +345,28 @@
 			]
 		},
 		{
+			"name": "JavaScript Enhancements",
+			"details": "https://github.com/pichillilorenzo/JavaScriptEnhancements",
+			"labels": ["auto-complete", "linting", "autocomplete", "completions", "javascript", "javascript completions", "flow", "flow-typed", "javascript tools", "project management", "javascript project", "ide", "javascript ide"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JavaScript Log Snippets",
+			"details": "https://github.com/Vall3y/sublimeJavascriptLogSnippets",
+			"labels": ["snippets", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JavaScript Multiline",
 			"details": "https://github.com/metatribal/sublime-jsmultiline",
 			"releases": [
@@ -410,6 +454,17 @@
 			]
 		},
 		{
+			"name": "JavaScriptExtractFunction",
+			"details": "https://github.com/tricinel/JavascriptExtractFunction",
+			"labels": ["javascript", "javascript refactor", "javascript extract", "javascript tools"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JavaScriptFunctionDefinition",
 			"details": "https://github.com/asdf23/JavaScriptFunctionDefinition",
 			"labels": ["javascript", "autocomplete"],
@@ -428,6 +483,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JavaScriptTemplateLiteralEnhancements",
+			"details": "https://github.com/phts/JavaScriptTemplateLiteralEnhancements",
+			"labels": ["javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -488,13 +554,27 @@
 			]
 		},
 		{
+			"name": "JEB Script Development Helper",
+			"details": "https://github.com/pnfsoftware/jeb_scriptdev_helper",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jedi - Python autocompletion",
 			"details": "https://github.com/srusskih/SublimeJEDI",
 			"labels": ["auto-complete", "code navigation"],
 			"previous_names": ["SublimeJEDI", "Jedi - Python autocompetion"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -548,6 +628,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jenkinsfile",
+			"details": "https://github.com/june07/sublime-Jenkinsfile",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -667,6 +758,28 @@
 			]
 		},
 		{
+			"name": "Joy",
+			"details": "https://github.com/homobel/sublime-joy",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JQ Syntax",
+			"details": "https://github.com/zogwarg/SublimeJQ",
+			"labels": ["language syntax", "jq", "stedolan"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/jQuery",
 			"releases": [
 				{
@@ -676,8 +789,9 @@
 			]
 		},
 		{
-			"name": "jQuery Mobile 1.4 Snippets",
+			"name": "jQuery Mobile 14 Snippets",
 			"details": "https://github.com/MobPro/Sublime-jQuery-Mobile-Snippets",
+			"previous_names": ["jQuery Mobile 1.4 Snippets"],
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -844,6 +958,17 @@
 			]
 		},
 		{
+			"name": "JSCustom",
+			"details": "https://github.com/Thom1729/Sublime-JS-Custom",
+			"labels": ["javascript", "syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSDebug",
 			"details": "https://github.com/mbladel/JSDebug",
 			"labels": ["javascript", "debug"],
@@ -875,7 +1000,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/jdc0589/JsFormat",
+			"details": "https://github.com/jdavisclark/JsFormat",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -957,6 +1082,17 @@
 			]
 		},
 		{
+			"name": "JsModules",
+			"details": "https://github.com/luwes/SublimeJsModules",
+			"labels": ["javascript", "convert", "cjs", "es6"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSON Key-Value",
 			"details": "https://github.com/aurule/json-kv",
 			"labels": ["language syntax", "json"],
@@ -981,6 +1117,16 @@
 		{
 			"name": "JSON Reindent",
 			"details": "https://github.com/ThomasKliszowski/json_reindent",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSON Stringify",
+			"details": "https://github.com/Nadock/json_stringify",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1031,18 +1177,6 @@
 			]
 		},
 		{
-			"name": "JSON2Go",
-			"details": "https://github.com/everCyan/JSON2Go",
-			"labels": ["json", "urllib.parse"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "JSONComma",
 			"details": "https://github.com/math2001/JSONComma",
 			"labels": ["JSON", "comma", "text manipulation", "formatting", "formatter", "trailing"],
@@ -1060,6 +1194,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "jsonnet formatter",
+			"details": "https://github.com/ankushagarwal/jsonnet-fmt",
+			"labels": ["jsonnet", "libsonnet" ,"formatting", "formatter"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -1148,7 +1294,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-v"
+				},
+				{
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]

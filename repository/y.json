@@ -45,6 +45,17 @@
 			]
 		},
 		{
+			"name": "YandexWiki",
+			"details": "https://github.com/anton-rudeshko/sublime-yandex-wiki",
+			"labels": ["yandex", "wiki", "language syntax", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Yang Syntax Highlighting",
 			"details": "https://github.com/apackeer/sublime-yang-syntax",
 			"labels": ["language syntax", "yang"],
@@ -62,7 +73,7 @@
 			"previous_names": ["Yara Rule"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -175,16 +186,6 @@
 			]
 		},
 		{
-			"name": "Yii Framework Docs Search",
-			"details": "https://github.com/d3th/sublime-text2-yii-docs",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Yii2 Auto-complete",
 			"details": "https://github.com/udokmeci/sublime-yii2-autocomplete",
 			"labels": ["auto-complete"],
@@ -207,12 +208,34 @@
 			]
 		},
 		{
-			"name": "YUI Compressor",
-			"details": "https://github.com/leon/YUI-Compressor",
+			"name": "Yin color scheme",
+			"details": "https://github.com/zhuoqyin/yin_colorscheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YouCompleteMe",
+			"details": "https://github.com/sublime-ycmd/sublime-ycmd",
+			"labels": ["auto-complete", "linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YUI Compressor",
+			"details": "https://github.com/gabrielgisoldo/YUI-Compressor",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

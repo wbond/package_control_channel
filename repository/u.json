@@ -55,10 +55,31 @@
 			]
 		},
 		{
+			"name": "UHM Syntax",
+			"details": "https://github.com/drzhnn/uhm-syntax-highlight",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UIkit autocomplete",
 			"details": "https://github.com/uikit/uikit-sublime",
 			"labels": ["auto-complete"],
 			"previous_names": ["UIkit class autocomplete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ultimate Dark",
+			"details": "https://github.com/rubjo/ultimate-dark",
+			"labels": ["dark", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -198,6 +219,18 @@
 			]
 		},
 		{
+			"name": "UnicodeNormalizer",
+			"details": "https://github.com/gh640/SublimeUnicodeNormalizer",
+			"author": "Goto Hayato",
+			"labels": ["text manipulation", "unicode", "utf8"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UnicodeTeX",
 			"details": "https://github.com/neilanderson/UnicodeTeX",
 			"releases": [
@@ -265,6 +298,20 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UnitTesting",
+			"details": "https://github.com/SublimeText/UnitTesting",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -472,6 +519,8 @@
 		{
 			"name": "UrlConverter",
 			"details": "https://github.com/gh640/SublimeUrlConverter",
+			"author": "Goto Hayato",
+			"labels": ["url", "link", "html", "markdown", "restructuredtext"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -495,6 +544,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "UseStrict",
+			"details": "https://github.com/phts/UseStrict",
+			"labels": ["javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

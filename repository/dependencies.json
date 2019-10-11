@@ -17,6 +17,21 @@
 			]
 		},
 		{
+			"name": "backports_lzma",
+			"author": "dvhh",
+			"load_order": "50",
+			"description": "lzma modules for sublime text 2 and 3",
+			"issues": "https://github.com/dvhh/sublime-backports.lzma/issues",
+			"releases": [
+				{
+					"base": "https://github.com/dvhh/sublime-backports.lzma",
+					"tags": true,
+					"platforms": ["windows"],
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "backrefs",
 			"author": "facelessuser",
 			"load_order": "50",
@@ -60,6 +75,21 @@
 			]
 		},
 		{
+			"name": "bson",
+			"load_order": "50",
+			"description": "Independent BSON codec for Python that doesn’t depend on MongoDB - https://github.com/py-bson/bson",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-bson/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-bson",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -69,6 +99,48 @@
 				{
 					"sublime_text": "*",
 					"base": "https://github.com/codexns/sublime-bz2",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "channelmanager",
+			"author": "evandrocoan",
+			"load_order": "30",
+			"description": "Manages packages installed as git submodules",
+			"issues": "https://github.com/evandrocoan/channelmanager/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/channelmanager",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "chardet",
+			"load_order": "50",
+			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
+			"author": "Umoxfo",
+			"issues": "https://github.com/Umoxfo/sublime-chardet/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Umoxfo/sublime-chardet",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "concurrentloghandler",
+			"author": "evandrocoan",
+			"load_order": "09",
+			"description": "An additional concurrent file log handler for Python's standard logging package",
+			"issues": "https://github.com/evandroforks/concurrentloghandler/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/concurrentloghandler",
+					"sublime_text": ">=3114",
 					"tags": true
 				}
 			]
@@ -148,6 +220,20 @@
 			]
 		},
 		{
+			"name": "debugtools",
+			"author": "evandrocoan",
+			"load_order": "10",
+			"description": "Alternate simplified logging support and general utilities functions",
+			"issues": "https://github.com/evandrocoan/debugtools/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/debugtools",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "dicttoxml",
 			"load_order": "50",
 			"description": "Converts a Python dictionary or other native data type into a valid XML string - https://github.com/idleberg/sublime-dicttoxml",
@@ -158,6 +244,20 @@
 					"base": "https://github.com/idleberg/sublime-dicttoxml",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "diffmatchpatch",
+			"author": "evandrocoan",
+			"load_order": "09",
+			"description": "Autored by Neil Fraser and others, Diff Match Patch is a high-performance library in multiple languages that manipulates plain text",
+			"issues": "https://github.com/evandroforks/diffmatchpatch/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/diffmatchpatch",
+					"sublime_text": ">=3114",
+					"tags": true
 				}
 			]
 		},
@@ -177,6 +277,20 @@
 			]
 		},
 		{
+			"name": "enum",
+			"load_order": "50",
+			"description": "Python enum module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/enum/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/enum",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "fileio",
 			"load_order": "01",
 			"description": "Python _fileio module",
@@ -188,6 +302,20 @@
 					"tags": true,
 					"sublime_text": "<3000",
 					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "gateone-terminal",
+			"load_order": "50",
+			"description": "GateOne terminal",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/gateone-terminal/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/packagecontrol/gateone-terminal",
+					"tags": true
 				}
 			]
 		},
@@ -250,14 +378,29 @@
 			]
 		},
 		{
+			"name": "lzma",
+			"load_order": "50",
+			"description": "Python lzma module",
+			"author": "ehamiter",
+			"issues": "https://github.com/ehamiter/sublime-lzma/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ehamiter/sublime-lzma",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx-x64"]
+				}
+			]
+		},
+		{
 			"name": "markupsafe",
 			"load_order": "50",
 			"description": "Python MarkupSafe module",
-			"author": "teddy_beer_maniac",
-			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe/issues",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/MarkupSafe/issues",
 			"releases": [
 				{
-					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
+					"base": "https://github.com/packagecontrol/MarkupSafe",
 					"tags": true,
 					"sublime_text": "*"
 				}
@@ -301,6 +444,20 @@
 					"tags": true,
 					"sublime_text": "*",
 					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "natsort",
+			"load_order": "50",
+			"description": "Python natsort package",
+			"author": "alimony",
+			"issues": "https://github.com/alimony/sublime-natsort/issues",
+			"releases": [
+				{
+					"base": "https://github.com/alimony/sublime-natsort",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -408,6 +565,20 @@
 			]
 		},
 		{
+			"name": "pathlib",
+			"load_order": "50",
+			"description": "Python pathlib module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pathlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pathlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pathtools",
 			"load_order": "10",
 			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
@@ -418,6 +589,91 @@
 					"base": "https://github.com/vovkkk/sublime-pathtools",
 					"sublime_text": "*",
 					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pexpect",
+			"load_order": "10",
+			"description": "Python pexpect module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-pexpect/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/varp/sublime-pexpect",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "plantumlconnection",
+			"author": "evandrocoan",
+			"load_order": "50",
+			"description": "Python interface to a plantuml web service instead of having to run Java locally",
+			"issues": "https://github.com/evandrocoan/plantumlconnection/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/plantumlconnection",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "portalockerfile",
+			"author": "evandrocoan",
+			"load_order": "08",
+			"description": "An extended version of portalocker to lock files in Python using the with statement",
+			"issues": "https://github.com/evandroforks/portalockerfile/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandroforks/portalockerfile",
+					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "psutil",
+			"load_order": "10",
+			"description": "Python psutil module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-psutil/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/varp/sublime-psutil",
+					"platforms": ["osx-x64", "windows-x32", "windows-x64", "linux-x64", "linux-x32"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ptyprocess",
+			"load_order": "40",
+			"description": "Python ptyprocess module",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/ptyprocess/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/packagecontrol/ptyprocess",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pushdownparser",
+			"author": "evandrocoan",
+			"load_order": "09",
+			"description": "A modern parsing library for Python, implementing Earley & LALR(1) and an easy interface",
+			"issues": "https://github.com/evandrocoan/pushdownparser/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/pushdownparser",
+					"sublime_text": ">=3114",
 					"tags": true
 				}
 			]
@@ -480,14 +736,28 @@
 			]
 		},
 		{
+			"name": "pyte",
+			"author": "randy3k",
+			"load_order": "50",
+			"description": "Python pyte module",
+			"issues": "https://github.com/packagecontrol/pyte/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pyte",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "python-jinja2",
 			"load_order": "51",
 			"description": "Python Jinja2 module",
-			"author": "teddy_beer_maniac",
-			"issues": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2/issues",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/jinja2/issues",
 			"releases": [
 				{
-					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-jinja2",
+					"base": "https://github.com/packagecontrol/jinja2",
 					"tags": true,
 					"sublime_text": "*"
 				}
@@ -512,11 +782,39 @@
 			"author": "randy3k",
 			"load_order": "50",
 			"description": "Pywin32 module",
-			"issues": "https://github.com/randy3k/sublime-pywin32/issues",
+			"issues": "https://github.com/packagecontrol/sublime-pywin32/issues",
 			"releases": [
 				{
-					"base": "https://github.com/randy3k/sublime-pywin32",
+					"base": "https://github.com/packagecontrol/sublime-pywin32",
 					"platforms": ["windows"],
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "python-six",
+			"load_order": "01",
+			"description": "Python six library https://github.com/benjaminp/six",
+			"author": "jcoc611",
+			"issues": "https://github.com/jcoc611/sublime-six/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jcoc611/sublime-six",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "python-toml",
+			"load_order": "01",
+			"description": "Python lib for TOML",
+			"author": "Jimmy Girardet",
+			"issues": "https://github.com/jgirardet/sublime-toml/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jgirardet/sublime-toml",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -533,6 +831,21 @@
 					"base": "https://github.com/packagecontrol/pytz",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "pywinpty",
+			"author": "randy3k",
+			"load_order": "40",
+			"description": "Python winpty module",
+			"issues": "https://github.com/packagecontrol/pywinpty/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pywinpty",
+					"platforms": ["windows"],
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
@@ -555,10 +868,10 @@
 			"load_order": "50",
 			"description": "Python ZMQ module",
 			"author": "randy3k",
-			"issues": "https://github.com/randy3k/sublime-pyzmq/issues",
+			"issues": "https://github.com/packagecontrol/sublime-pyzmq/issues",
 			"releases": [
 				{
-					"base": "https://github.com/randy3k/sublime-pyzmq",
+					"base": "https://github.com/packagecontrol/sublime-pyzmq",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -601,6 +914,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests-oauthlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "resumeback",
+			"load_order": "50",
+			"description": "Python resumeback module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/resumeback/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/resumeback",
 					"tags": true,
 					"sublime_text": "*"
 				}
@@ -659,6 +986,21 @@
 					"sublime_text": "*",
 					"base": "https://github.com/codexns/sublime-select-windows",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "serial",
+			"author": "pyserial",
+			"load_order": "50",
+			"description": "Python serial port access library",
+			"issues": "https://github.com/bisguzar/sublime-serial/issues",
+			"releases": [
+				{
+					"base": "https://github.com/bisguzar/sublime-serial",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["*"]
 				}
 			]
 		},
@@ -760,6 +1102,20 @@
 			]
 		},
 		{
+			"name": "sublime_lib",
+			"load_order": "01",
+			"description": "Utility library for frequently used functionality in Sublime Text library and convenience functions or classes",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/SublimeText/sublime_lib/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/SublimeText/sublime_lib",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SublimeP4Python",
 			"load_order": "51",
 			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
@@ -789,6 +1145,34 @@
 			]
 		},
 		{
+			"name": "TM1py",
+			"load_order": "99",
+			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
+			"author": "MariusWirtz",
+			"issues": "https://github.com/ajmyers/TM1py/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ajmyers/TM1py",
+					"tags": true,
+					"sublime_text": ">3092"
+				}
+			]
+		},
+		{
+			"name": "typing",
+			"load_order": "50",
+			"description": "Python typing module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/typing/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/typing",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "watchdog",
 			"load_order": "20",
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
@@ -797,6 +1181,34 @@
 			"releases": [
 				{
 					"base": "https://github.com/vovkkk/sublime-watchdog",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "wcwidth",
+			"author": "randy3k",
+			"load_order": "10",
+			"description": "Python wcwidth module",
+			"issues": "https://github.com/packagecontrol/wcwidth/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/wcwidth",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "websocket-client",
+			"load_order": "10",
+			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
+			"author": "jcoc611",
+			"issues": "https://github.com/jcoc611/sublime-websocket-client/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jcoc611/sublime-websocket-client",
 					"tags": true,
 					"sublime_text": "*"
 				}
@@ -828,6 +1240,20 @@
 					"base": "https://github.com/idleberg/sublime-xmltodict",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "yaml_macros_engine",
+			"load_order": "50",
+			"description": "Engine for YAML Macros",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/Thom1729/yaml-macros-engine/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Thom1729/yaml-macros-engine",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		}

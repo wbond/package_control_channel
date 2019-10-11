@@ -2,6 +2,39 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "Z",
+			"details": "https://github.com/externl/sublime-z",
+			"labels": ["z", "z jump", "directory", "open directory"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Z80 Assembly",
+			"details": "https://github.com/mrcook/Z80Assembly",
+			"labels": ["language syntax", "z80", "assembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Z80 Assembly (RGBDS)",
+			"details": "https://github.com/shinmai/sublime_z80_rgbds",
+			"labels": ["language syntax", "z80", "assembly"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/abraly/zap-gremlins",
 			"releases": [
 				{
@@ -18,6 +51,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Zeek Language",
+			"details": "https://github.com/zeek/zeek-sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -98,8 +142,8 @@
 			]
 		},
 		{
-			"name": "zero-dark",
-			"details": "https://github.com/jrvieira/zero-dark",
+			"name": "Zeus",
+			"details": "https://github.com/zaynali53/Zeus-Theme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -109,9 +153,9 @@
 			]
 		},
 		{
-			"name": "Zeus",
-			"details": "https://github.com/zaynali53/Zeus-Theme",
-			"labels": ["color scheme"],
+			"name": "Zig Language",
+			"details": "https://github.com/zig-lang/sublime-zig-language",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
