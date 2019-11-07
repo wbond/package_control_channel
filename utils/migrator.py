@@ -240,7 +240,6 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'Diagram',
                 'Japanize',
                 'SimpleClone',
-                'MacTerminal',
                 'rsub',
                 'Pman',
                 'Gist'
@@ -732,6 +731,10 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
             repositories.append(repository)
 
 
+def dump(data, f):
+    json.dump(data, f, indent="\t", separators=(',', ': '))
+
+
 includes = []
 
 if not os.path.exists(new_repository_subfolder_path):
@@ -750,17 +753,17 @@ for letter in names:
             ('packages', [])
         ])
         data['packages'] = sorted_packages
-        json.dump(data, f, indent="\t")
+        dump(data, f)
 
 with open(new_channel_path, 'w', encoding='utf-8') as f:
     data = OrderedDict()
     data['schema_version'] = '2.0'
     data['repositories'] = repositories
-    json.dump(data, f, indent="\t")
+    dump(data, f)
 
 with open(new_repository_path, 'w', encoding='utf-8') as f:
     data = OrderedDict()
     data['schema_version'] = '2.0'
     data['packages'] = []
     data['includes'] = sorted(includes)
-    json.dump(data, f, indent="\t")
+    dump(data, f)
