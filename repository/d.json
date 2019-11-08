@@ -56,19 +56,6 @@
 			]
 		},
 		{
-			"name": "DA CS",
-			"details": "https://github.com/ihodev/sublime-da-cs",
-			"labels": ["popular", "customizable", "color scheme"],
-			"readme": "https://raw.githubusercontent.com/ihodev/sublime-da-cs/master/pkgctrl/README.md",
-			"issues": "https://github.com/ihodev/sublime-da-ui/issues",
-			"releases": [
-				{
-					"sublime_text": ">=3143",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Dafny",
 			"details": "https://github.com/tvi/sublime-dafny",
 			"labels": ["language syntax"],
@@ -175,7 +162,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true 
+					"tags": true
 				}
 			]
 		},
@@ -185,7 +172,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true 
+					"tags": true
 				}
 			]
 		},
@@ -333,6 +320,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Debugger",
+			"details": "https://github.com/daveleroy/sublime_debugger",
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
 				}
 			]
 		},
@@ -1408,6 +1405,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DreamMaker Language Client",
+			"details": "https://github.com/SpaceManiac/sublime-dm-langclient",
+			"labels": ["language syntax", "linting", "auto-complete", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

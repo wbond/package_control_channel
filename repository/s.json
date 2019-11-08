@@ -723,7 +723,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1347,6 +1347,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Shadowenv",
+			"details": "https://github.com/Shopify/sublime-shadowenv",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2267,7 +2277,7 @@
 		},
 		{
 			"name": "SlideNav",
-			"details": "https://github.com/Enteleform/ST_SlideNav",
+			"details": "https://github.com/enteleform-releases/SublimeText--SlideNav",
 			"labels": ["presentation", "lightning talk", "slide", "slides", "slideshow", "navigation", "code navigation", "file manager", "launcher", "file launcher", "open files", "remote control"],
 			"releases": [
 				{
@@ -2556,6 +2566,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Snappy",
+			"details": "https://github.com/chenditc/sublime-snappy",
+			"labels": ["snappy"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]

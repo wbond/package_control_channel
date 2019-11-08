@@ -264,6 +264,18 @@
 			]
 		},
 		{
+			"name": "MakeTargets",
+			"details": "https://github.com/dusk125/sublime-maketargets",
+			"labels": ["make", "makefile", "target"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Mako",
 			"details": "https://github.com/marconi/mako-tmbundle",
 			"releases": [
@@ -651,6 +663,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MarkSearch",
+			"details": "https://github.com/robertcollier4/MarkSearch",
+			"labels": ["search", "find", "mark"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1117,9 +1140,9 @@
 			]
 		},
 		{
-			"name": "Meetio",
-			"details": "https://github.com/mauroreisvieira/meetio",
-			"labels": ["theme", "color scheme"],
+			"name": "Meetio Theme",
+			"details": "https://github.com/meetio-theme/sublime-meetio-theme",
+			"labels": ["theme", "scheme", "light", "dark"],
 			"releases": [
 				{
 					"sublime_text": ">=3179",
@@ -2505,6 +2528,17 @@
 			]
 		},
 		{
+			"name": "Multicommand",
+			"details": "https://github.com/dvcrn/sublime-multicommand",
+			"labels": ["keybinding"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MultiEditUtils",
 			"details": "https://github.com/philippotto/Sublime-MultiEditUtils",
 			"labels": ["text manipulation", "code navigation", "text selection"],
@@ -2679,6 +2713,24 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MypyReveal",
+			"details": "https://github.com/fortana-co/sublime-mypy-reveal",
+			"labels": [
+				"mypy",
+				"python",
+				"type",
+				"check",
+				"lint"
+			],
+			"author": "kylebebak",
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
 				}
 			]
 		},

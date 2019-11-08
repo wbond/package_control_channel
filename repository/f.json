@@ -66,6 +66,17 @@
 			]
 		},
 		{
+			"name": "Facility API",
+			"details": "https://github.com/FacilityApi/FacilitySublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Factor",
 			"details": "https://github.com/rkoeninger/sublime-factor",
 			"readme": "https://raw.githubusercontent.com/rkoeninger/sublime-factor/master/README.md",
@@ -178,6 +189,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Fancy CSS Comments",
+			"details": "https://github.com/dennohpeter/Fancy-Comments",
+			"author": "Dennis Peterson",
+			"labels": ["css", "comments", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1001,8 +1024,12 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -1283,6 +1310,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FlutterEnhancements",
+			"details": "https://github.com/yusdacra/FlutterEnhancements",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
 					"tags": true
 				}
 			]

@@ -464,6 +464,16 @@
 			]
 		},
 		{
+			"name": "Git badges like VS Code",
+			"details": "https://github.com/arxeiss/Sublime-GitBadgesLikeVSCode",
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Git blame",
 			"details": "https://github.com/frou/st3-gitblame",
 			"labels": ["git", "blame"],
@@ -604,7 +614,11 @@
 			"previous_names": ["Git Gutter", "GitGutter-Edge"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3176",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3176",
 					"tags": true
 				}
 			]
@@ -766,7 +780,7 @@
 		},
 		{
 			"name": "GitSavvy",
-			"details": "https://github.com/divmain/GitSavvy",
+			"details": "https://github.com/timbrel/GitSavvy",
 			"labels": [
 				"git",
 				"dashboard",
@@ -774,7 +788,7 @@
 				"stage",
 				"patch"
 			],
-			"readme": "https://raw.githubusercontent.com/divmain/GitSavvy/master/README.md",
+			"readme": "https://raw.githubusercontent.com/timbrel/GitSavvy/master/README.md",
 			"author": "divmain",
 			"releases": [
 				{
@@ -1187,6 +1201,19 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Golang",
+			"description": "An opinionated plugin for Go",
+			"details": "https://github.com/yields/sublime-go",
+			"author": ["yields"],
+			"labels": ["go", "golang", "test", "lint", "auto-complete", "format"],
+			"releases": [
+				{
+					"sublime_text": ">=3207",
+					"tags": true
 				}
 			]
 		},
