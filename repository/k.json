@@ -47,21 +47,19 @@
 			]
 		},
 		{
-			"name": "Kaneva API (KPI) Completions",
-			"details": "https://github.com/FracturedShader/kpiCompletions",
-			"labels": ["completions", "Kaneva", "Lua"],
-			"previous_names": ["Kaneva API (KPI) Snippets"],
+			"name": "KarmaRunner",
+			"details": "https://github.com/knee-cola/KarmaRunner",
+			"labels": ["Karma", "Jasmine"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
-			"name": "KarmaRunner",
-			"details": "https://github.com/knee-cola/KarmaRunner",
-			"labels": ["Karma", "Jasmine"],
+			"name": "Kattis",
+			"details": "https://github.com/matys18/sublime_kattis",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -92,6 +90,17 @@
 			]
 		},
 		{
+			"name": "Keep Lines With Word",
+			"details": "https://github.com/qianhk/KeepLinesWithWord",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Keep Open On Last Tab Close",
 			"details": "https://github.com/vprimachenko/Sublime2KeepOpen",
 			"releases": [
@@ -109,6 +118,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Keras",
+			"details": "https://github.com/MartinThoma/SublimeKeras",
+			"author": "Martin Thoma",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -137,8 +157,9 @@
 			]
 		},
 		{
-			"name": "KeyboardSelection",
-			"details": "https://github.com/robertcollier4/keyboardSelectionSublime",
+			"name": "KeyboardNavigation",
+			"previous_names": ["KeyboardSelection"],
+			"details": "https://github.com/robertcollier4/KeyboardNavigation",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -195,7 +216,7 @@
 			"labels": ["language syntax", "build system", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -226,6 +247,17 @@
 			"name": "Kirby2 CMS Snippets",
 			"details": "https://github.com/mauricerenck/sublime-kirby2",
 			"labels": ["completions", "php", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Kirikae",
+			"details": "https://github.com/dvcrn/sublime-kirikae",
+			"labels": ["tab"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -433,6 +465,16 @@
 			]
 		},
 		{
+			"name": "Kubernetes Manifest autocomplete",
+			"details": "https://github.com/xr1337/sublime-kubernetes-autocomplete",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Kulture",
 			"details": "https://github.com/OmniSharp/Kulture",
 			"previous_names": ["vNext"],
@@ -440,6 +482,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "release"
+				}
+			]
+		},
+		{
+			"name": "Kung Fury",
+			"details": "https://github.com/argyleink/Kung-Fury-Theme",
+			"previous_names": [],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

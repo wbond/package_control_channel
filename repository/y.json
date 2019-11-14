@@ -22,6 +22,17 @@
 			]
 		},
 		{
+			"name": "YAMLMacros",
+			"previous_names": ["YAML Macros"],
+			"details": "https://github.com/Thom1729/YAML-Macros",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "YandexTranslate",
 			"details": "https://github.com/pafnuty/sublime-yandex-translate",
 			"labels": ["translate", "yandex"],
@@ -30,6 +41,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "YandexWiki",
+			"details": "https://github.com/anton-rudeshko/sublime-yandex-wiki",
+			"labels": ["yandex", "wiki", "language syntax", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -51,7 +73,7 @@
 			"previous_names": ["Yara Rule"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -80,6 +102,17 @@
 			"name": "yasi-indenter",
 			"details": "https://github.com/nkmathew/sublime-yasi",
 			"labels": ["lisp", "format", "indent", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YASMJinja2",
+			"details": "https://github.com/m-messiah/yasm-jinja2",
+			"labels": ["yasm", "jinja2", "yandex", "formatting", "syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -130,6 +163,17 @@
 			]
 		},
 		{
+			"name": "Yet Another Launcher",
+			"details": "https://github.com/dahanbn/Yet-Another-Launcher",
+			"labels": ["utilities", "file open"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "YetAnotherCodeSearch",
 			"details": "https://github.com/pope/SublimeYetAnotherCodeSearch",
 			"labels": ["search"],
@@ -145,16 +189,6 @@
 			"previous_names": ["Yii Framework Snippets"],
 			"details": "https://github.com/david-soyez/sublime-yii-snippets",
 			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Yii Framework Docs Search",
-			"details": "https://github.com/d3th/sublime-text2-yii-docs",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -185,12 +219,34 @@
 			]
 		},
 		{
-			"name": "YUI Compressor",
-			"details": "https://github.com/leon/YUI-Compressor",
+			"name": "Yin color scheme",
+			"details": "https://github.com/zhuoqyin/yin_colorscheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YouCompleteMe",
+			"details": "https://github.com/sublime-ycmd/sublime-ycmd",
+			"labels": ["auto-complete", "linting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YUI Compressor",
+			"details": "https://github.com/gabrielgisoldo/YUI-Compressor",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
