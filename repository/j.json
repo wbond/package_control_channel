@@ -1305,11 +1305,15 @@
 		},
 		{
 			"name": "Julia",
-			"details": "https://github.com/epitron/Julia-sublime",
+			"details": "https://github.com/JuliaEditorSupport/Julia-sublime",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4000",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
