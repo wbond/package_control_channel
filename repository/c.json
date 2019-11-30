@@ -4019,13 +4019,21 @@
 		},
 		{
 			"name": "Crontab",
-			"details": "https://github.com/michaelblyons/CrontabSublime",
+			"details": "https://github.com/michaelblyons/SublimeSyntax-Crontab",
 			"previous_names": ["Crontab Syntax"],
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "version/st2/"
+				},
+				{
+					"sublime_text": "3000 - 3155",
+					"tags": "version/st3.0/"
+				},
+				{
+					"sublime_text": ">=3156",
+					"tags": "version/st3/"
 				}
 			]
 		},
