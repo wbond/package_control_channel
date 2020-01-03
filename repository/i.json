@@ -237,19 +237,6 @@
 			]
 		},
 		{
-			"name": "ImagePreview",
-			"previous_names": ["Hover Image Preview"],
-			"description": "The Sublime Text image previewing plugin",
-			"labels": ["image", "preview", "file", "url"],
-			"details": "https://github.com/alvesjtiago/hover-preview",
-			"releases": [
-				{
-					"sublime_text": ">=3124",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Image2Base64",
 			"details": "https://github.com/tm-minty/sublime-text-2-image2base64",
 			"labels": ["image manipulation", "base64", "image", "converting"],
@@ -290,6 +277,19 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms":["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ImagePreview",
+			"previous_names": ["Hover Image Preview"],
+			"description": "The Sublime Text image previewing plugin",
+			"labels": ["hover", "image", "preview", "file", "url"],
+			"details": "https://github.com/alvesjtiago/hover-preview",
+			"releases": [
+				{
+					"sublime_text": ">=3124",
 					"tags": true
 				}
 			]
