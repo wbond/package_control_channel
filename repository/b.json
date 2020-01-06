@@ -675,8 +675,8 @@
 			]
 		},
 		{
-			"name": "Bibtex Bibliography Sort",
-			"details": "https://github.com/wolfposd/Sublime-Bibtex-Sort",
+			"name": "Bible Tools",
+			"details": "https://github.com/perffection/BibleToolsAleluya",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -684,6 +684,16 @@
 				}
 			]
 		},
+        {
+            "name": "Bibtex Bibliography Sort",
+            "details": "https://github.com/wolfposd/Sublime-Bibtex-Sort",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "tags": true
+                }
+            ]
+        },
 		{
 			"name": "Bidirectional text support",
 			"details": "https://github.com/praveenvijayan/Sublime-Text-2-BIDI",
@@ -1090,7 +1100,7 @@
 		},
 		{
 			"name": "Bootstrap 4 Snippets",
-			"details": "https://github.com/mdegoo/sublime-bootstrap4",
+			"details": "https://github.com/alexanderankin/sublime-bootstrap4",
 			"labels": ["snippets","Bootstrap","Bootstrap4"],
 			"releases": [
 				{
@@ -1116,7 +1126,8 @@
 			"name": "Bootstrap 4x Snippets",
 			"previous_names": ["Bootstrap 4.3 Snippets"],
 			"details": "https://github.com/proficientdesigners/sublime-text-bs4-snippets",
-			"labels": ["snippets", "Bootstrap", "Bootstrap 4.3", "Bootstrap 4.3.1"],
+			"author": "Proficient Designers",
+			"labels": ["snippets", "Bootstrap Snippets", "Bootstrap 4.3 Snippets", "Bootstrap 4.3.1 Snippets"],
 			"releases": [
 				{
 					"sublime_text": ">3000",
@@ -1535,6 +1546,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "build2",
+			"details": "https://github.com/build2/build2-sublime-text",
+			"labels": ["syntax highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
