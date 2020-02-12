@@ -1656,10 +1656,15 @@
 		{
 			"name": "LSP",
 			"details": "https://github.com/sublimelsp/LSP",
+			"labels": ["auto-complete", "linting", "formatting", "code navigation", "intellisense"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
-					"tags": true
+					"sublime_text": "3092 - 4065",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4065",
+					"tags": "st4-"
 				}
 			]
 		},
