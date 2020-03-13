@@ -2354,18 +2354,6 @@
 			]
 		},
 		{
-			"name": "ProjectEnvironment",
-			"previous_names": ["Project Environment", "Environment Settings"],
-			"details": "https://bitbucket.org/daniele-niero/sublimeprojectenvironment",
-			"labels": ["environment", "variables", "project"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Project PHP ClassBrowser",
 			"details": "https://github.com/degami/ProjectPHPClassBrowser",
 			"releases": [
@@ -2434,6 +2422,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ProjectEnvironment",
+			"previous_names": ["Project Environment", "Environment Settings"],
+			"details": "https://bitbucket.org/daniele-niero/sublimeprojectenvironment",
+			"labels": ["environment", "variables", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
