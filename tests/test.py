@@ -307,6 +307,9 @@ class TestContainer(object):
     def _test_package(self, include, data):
         name = get_package_name(data)
 
+        with _open("repository/labels.json") as labels_file:
+            labels_list = json.loads(labels_file.read().decode("utf-8", "strict"), encoding="utf-8")
+
         for k, v in data.items():
             self.enforce_key_types_map(k, v, self.package_key_types_map)
 
@@ -329,7 +332,19 @@ class TestContainer(object):
                     #                  "Label name must be lowercase")
 
                 self.assertCountEqual(v, list(set(v)),
-                                      "Specifying the same label multiple times is redundant")
+                                      "Specifying the same label multiple times"
+                                      "is redundant")
+
+                # If there wasn't labels list:
+                # self.assertCountEqual(list(map(str.lower, v)), list(set(map(str.lower, v))),
+                #                       "The same labels are written several times"
+                #                       "in different cases.")
+
+                # And with it, we can just check if label name is in this list
+                for label in v:
+                    self.assertTrue(label in labels_list,
+                                    "Label \"{}\" not found in \"repository/labels.json\". "
+                                    "Check if the name is correct, or add a new one in label.json".format(label))
 
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
