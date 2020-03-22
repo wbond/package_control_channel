@@ -236,6 +236,16 @@
 			]
 		},
 		{
+			"name": "ActivityWatch Watcher",
+			"details": "https://github.com/kostasdizas/aw-watcher-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ActualVim",
 			"details": "https://github.com/lunixbochs/actualvim",
 			"labels": ["input", "vim"],
@@ -392,6 +402,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Advanced PLSQL",
+			"previous_names": ["Oracle PL SQL"],
+			"details": "https://github.com/TheEggi/Advanced-PLSQL",
+			"labels": ["snippets", "plsql", "oracle", "build"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -613,14 +635,14 @@
 		},
 		{
 			"name": "Alive Snippets",
-			"details": "https://github.com/alivevietnam/alive-sublime-snippets",
-			"author": "Alive Vietnam ",
-			"labels": ["snippets", "autocomplete", "php", "css", "scss", "javascript", "html"],
+			"details": "https://github.com/alivevietnam/Alive-Snippets",
+			"author": "Alive Vietnam",
+			"labels": ["snippets", "autocomplete", "php", "css", "scss", "javascript", "html", "shortcut"],
 			"homepage": "https://alive-web.vn/",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
+					"sublime_text": "*",
+					"platforms": ["osx", "windows"],
 					"tags": true
 				}
 			]
@@ -1238,6 +1260,16 @@
 			]
 		},
 		{
+			"name": "AnySwap",
+			"details": "https://github.com/wolray/AnySwap",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},		
+		{
 			"name": "Anyword completion",
 			"details": "https://github.com/Shagabutdinov/sublime-anyword-completion",
 			"releases": [
@@ -1706,6 +1738,18 @@
 			]
 		},
 		{
+			"name": "Arturo Programming Language",
+			"details": "https://github.com/arturo-lang/art-sublimetext-package",
+			"author": "drkameleon",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AsAbove",
 			"details": "https://github.com/spadgos/sublime-AsAbove",
 			"releases": [
@@ -2155,6 +2199,17 @@
 			]
 		},
 		{
+			"name": "AutoCloseEmptyGroup",
+			"details": "https://github.com/math2001/AutoCloseEmptyGroup",
+			"labels": ["utilities", "layout"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Autocomplete Javascript with Method Signature",
 			"details": "https://github.com/eladyarkoni/MySignaturePlugin",
 			"releases": [
@@ -2350,7 +2405,7 @@
 			"details": "https://github.com/jfcherng/Sublime-AutoSetSyntax",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
@@ -2463,7 +2518,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"sublime_text": "*",
 					"branch": "master"
 				}

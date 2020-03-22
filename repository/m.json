@@ -34,6 +34,19 @@
 			]
 		},
 		{
+			"name": "MAC-1 Syntax",
+			"author": "David Holton",
+			"description": "Provides MAC-1 syntax support for Sublime Text 3.",
+			"details": "https://github.com/davidholton/mac1-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MacDictionary",
 			"details": "https://github.com/gh640/SublimeMacDictionary",
 			"author": "Goto Hayato",
@@ -122,6 +135,17 @@
 			]
 		},
 		{
+			"name": "MagentoWorkflow",
+			"details": "https://github.com/vovayatsyuk/MagentoWorkflow",
+			"labels": ["magento", "magento automation", "docker magento", "magento cache clean"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MagerunCommander",
 			"details": "https://github.com/nhduy1985/sublime_mageruncommander",
 			"author": "Dustin Tran",
@@ -183,6 +207,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Magpie",
+			"details": "https://github.com/Silectis/sublime-magpie",
+			"labels": ["language syntax", "magpie"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -259,6 +294,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MakeTargets",
+			"details": "https://github.com/dusk125/sublime-maketargets",
+			"labels": ["make", "makefile", "target"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
 					"tags": true
 				}
 			]
@@ -432,6 +479,16 @@
 			]
 		},
 		{
+			"name": "Markdown Images",
+			"details": "https://github.com/xsleonard/sublime-MarkdownImages",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Markdown Numbered Headers",
 			"details": "https://github.com/weituotian/md_numbered_headers",
 			"labels": ["markdown", "headers", "numbered headers"],
@@ -538,6 +595,17 @@
 		},
 		{
 			"details": "https://github.com/sekogan/MarkdownLight",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MarkdownLink",
+			"details": "https://github.com/unlight/sublime-markdown-link",
+			"labels": ["markdown", "links", "urls"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -655,6 +723,17 @@
 			]
 		},
 		{
+			"name": "MarkSearch",
+			"details": "https://github.com/robertcollier4/MarkSearch",
+			"labels": ["search", "find", "mark"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Marshal Command Code",
 			"previous_names": ["MinecraftCommandCode"],
 			"description": "Syntax highlighting for Minecraft Commands",
@@ -737,7 +816,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -1029,6 +1108,17 @@
 			]
 		},
 		{
+			"name": "MCore Syntax Highlighting",
+			"details": "https://github.com/johnwikman/mcore-sublime-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MCS_Syntax",
 			"details": "https://github.com/bmpenuelas/MCS_Syntax",
 			"labels": ["language syntax", "mcs", "xilinx", "fpga"],
@@ -1117,9 +1207,9 @@
 			]
 		},
 		{
-			"name": "Meetio",
-			"details": "https://github.com/mauroreisvieira/meetio",
-			"labels": ["theme", "color scheme"],
+			"name": "Meetio Theme",
+			"details": "https://github.com/meetio-theme/sublime-meetio-theme",
+			"labels": ["theme", "scheme", "light", "dark"],
 			"releases": [
 				{
 					"sublime_text": ">=3179",
@@ -1418,6 +1508,17 @@
 			]
 		},
 		{
+			"name": "Microsoft Power Query Syntax",
+			"details": "https://github.com/dannysummerlin/PowerQuerySublimeSyntax",
+			"labels": ["language","syntax","highlighting","query","excel","powerbi","microsoft","ms"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags":true
+				}
+			]
+		},
+		{
 			"name": "Mika",
 			"details": "https://github.com/kyoto-shift/Mika",
 			"labels": ["mika", "language", "syntax", "highlighting"],
@@ -1542,6 +1643,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Minitest Buddy",
+			"details": "https://github.com/glaucocustodio/minitest-buddy-for-sublime-text",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2500,6 +2612,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Multicommand",
+			"details": "https://github.com/dvcrn/sublime-multicommand",
+			"labels": ["keybinding"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

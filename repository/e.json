@@ -115,7 +115,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3070",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -396,6 +396,21 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Editmode",
+			"author": "Tony Ennis",
+			"description" : "Send text to the editmode API & insert a snippet in its place.",
+			"details": "https://github.com/tonyennis145/editmode-sublime",
+			"issues": "https://github.com/tonyennis145/editmode-sublime/issues",
+			"labels": ["snippets", "utilities"],
+			"previous_names": ["Chunks"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1032,17 +1047,6 @@
 			]
 		},
 		{
-			"name": "Environment Settings",
-			"details": "https://bitbucket.org/daniele-niero/environmentsettings",
-			"labels": ["environment", "variables", "project"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "EnvSwitcher",
 			"details": "https://github.com/SaschaMzH/EnvSwitcher",
 			"labels": ["environment", "project"],
@@ -1177,6 +1181,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "eScript Syntax",
+			"details": "https://github.com/polserver/sublime-escript",
+			"author": "POL Team",
+			"labels": ["color scheme", "autocompletion","tooltips","buildsystem"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1410,7 +1426,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"],
+					"platforms": ["osx-x64", "linux-x64", "windows"],
 					"tags": true
 				}
 			]

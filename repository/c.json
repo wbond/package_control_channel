@@ -597,7 +597,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -1165,20 +1165,6 @@
 			]
 		},
 		{
-			"name": "Chunks",
-			"author": "Tony Ennis",
-			"description" : "Send text to an API & insert a snippet in it's place.",
-			"details": "https://github.com/tonyennis145/chunks-sublime",
-			"labels": ["snippets", "utilities"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Ciapre Color Scheme",
 			"details": "https://github.com/vinhnx/Ciapre.tmTheme",
 			"labels": ["color scheme"],
@@ -1195,6 +1181,16 @@
 			"description" : "Started with Ciapre but it's gone a long way and hugely changed",
 			"details": "https://github.com/jztsaurabh/CiapreMod-Sublime-Text",
 			"labels": ["colorscheme", "ciapre", "dark colorscheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CIDR Convert",
+			"details": "https://github.com/shenanigans123/cidr_convert",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1272,7 +1268,7 @@
 			"author": "Alexander K.",
 			"releases": [
 				{
-					"platforms": ["osx", "linux"],
+					"platforms": ["*"],
 					"sublime_text": ">=3000",
 					"tags": true
 				}
@@ -1431,6 +1427,16 @@
 			]
 		},
 		{
+			"name": "ClearCursorsCarets",
+			"details": "https://github.com/evandrocoan/ClearCursorsCarets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Click",
 			"details": "https://github.com/drbarrett/click-sublime",
 			"releases": [
@@ -1549,6 +1555,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Close All Untouched Files",
+			"details": "https://github.com/frame/CloseAllUntouchedFiles-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1709,6 +1725,16 @@
 		{
 			"name": "cmd-caller",
 			"details": "https://github.com/esphas/cmd-caller",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cmder",
+			"details": "https://github.com/exiahuang/Cmder",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1902,6 +1928,16 @@
 			]
 		},
 		{
+			"name": "Codam Headers",
+			"details": "https://github.com/vincentvis/Sublime-Text-Codam-Headers",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Code Cast",
 			"details": "https://github.com/mraiur/CodeCast",
 			"labels": ["code", "cast", "share", "codecast"],
@@ -2039,6 +2075,19 @@
 			]
 		},
 		{
+			"name": "CodeCounter",
+			"details": "https://github.com/absop/CodeCounter",
+			"labels": ["analytics", "statistics", "status bar", "utilities"],
+			"author": "absop",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeDrafts",
 			"details": "https://github.com/subeeshb/codedrafts_sublime_plugin",
 			"labels": ["code sharing", "utilities", "snippets"],
@@ -2057,7 +2106,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -2086,6 +2135,28 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CodeIgniter 3 Snippets",
+			"details": "https://github.com/agoenks29D/Codeigniter-3-Sublime-Snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CodeIgniter 4 Snippets",
+			"details": "https://github.com/mpmont/ci4-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2272,7 +2343,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["linux","osx","windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -2777,6 +2848,17 @@
 			]
 		},
 		{
+			"name": "Colored Comments",
+			"details": "https://github.com/TheSecEng/ColoredComments",
+			"labels": ["colorization", "formatting", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/ColorHelper",
 			"releases": [
 				{
@@ -3101,7 +3183,7 @@
 		},
 		{
 			"name": "Compare Side-By-Side",
-			"details": "https://github.com/DougTy/sublime-compare-side-by-side",
+			"details": "https://bitbucket.org/dougty/sublime-compare-side-by-side",
 			"author": "Doug Ty",
 			"labels": ["diff", "compare", "comparison"],
 			"releases": [
@@ -3848,6 +3930,16 @@
 			]
 		},
 		{
+			"name": "Crackshell",
+			"details": "https://github.com/Crackshell/sublime-text",
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Craft Development Snippets",
 			"details": "https://github.com/alecritson/Craft-Sublime-Snippets",
 			"releases": [
@@ -3874,6 +3966,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Crates",
+			"details": "https://github.com/Kerollmops/sublime-crates",
+			"labels": ["completions", "rust"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -3980,29 +4083,27 @@
 				{
 					"sublime_text": "*",
 					"tags": true,
-					"platforms": ["osx", "windows", "linux"]
+					"platforms": "*"
 				}
 			]
 		},
 		{
 			"name": "Crontab",
-			"details": "https://github.com/michaelblyons/CrontabSublime",
-			"labels": ["language syntax"],
+			"details": "https://github.com/michaelblyons/SublimeSyntax-Crontab",
+			"previous_names": ["Crontab Syntax"],
+			"labels": ["language syntax", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Crontab Syntax",
-			"details": "https://github.com/clarkewd/SublimeCrontab",
-			"labels": ["language syntax"],
-			"releases": [
+					"sublime_text": "<3000",
+					"tags": "version/st2/"
+				},
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "3000 - 3155",
+					"tags": "version/st3.0/"
+				},
+				{
+					"sublime_text": ">=3156",
+					"tags": "version/st3/"
 				}
 			]
 		},

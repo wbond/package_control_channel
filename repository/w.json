@@ -105,7 +105,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -187,7 +187,9 @@
 		{
 			"name": "WebDevShell",
 			"details": "https://github.com/TheDoctor0/WebDevShell",
-			"labels": ["web", "dev", "shell", "laravel", "npm", "artisan", "yarn", "composer", "symfony"],
+			"labels": ["web", "dev", "shell", "composer", "laravel", "artisan", "npm", "yarn", "php", "phpstan", "psalm", "eslint", "python"],
+			"author": "Dawid Janik",
+			"description": "Execute shell commands related to web apps development: Laravel Artisan, Composer, NPM, Yarn, Python, PHP, PHPStan, Psalm, ESLint and more!",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -323,7 +325,7 @@
 		},
 		{
 			"name": "WEOML Syntax",
-			"details": "https://github.com/damky/WEOML",
+			"details": "https://github.com/weo-media/WEOML",
 			"labels": ["weo", "keys", "syntax"],
 			"releases": [
 				{
@@ -1094,6 +1096,21 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Wux Weapp Snippets",
+			"description": "Wux Weapp Snippets Plugin for Sublime Text 2/3.",
+			"details": "https://github.com/wux-weapp/wux-weapp-sublime-snippets",
+			"issues" : "https://github.com/wux-weapp/wux-weapp-sublime-snippets/issues",
+			"readme" : "https://raw.githubusercontent.com/wux-weapp/wux-weapp-sublime-snippets/master/README.md",
+			"author": "skyvow",
+			"labels": ["weapp", "wxml", "snippet"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

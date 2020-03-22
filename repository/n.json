@@ -105,7 +105,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -372,6 +372,17 @@
 			]
 		},
 		{
+			"name": "NetYCE syntax highlighting",
+			"details": "https://github.com/bartdorlandt/netyce_sublime_syntax",
+			"labels": [ "color scheme", "language syntax", "netyce"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "NEURON",
 			"details": "https://github.com/jordan-g/NEURON-for-Sublime-Text",
 			"releases": [
@@ -453,6 +464,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Nftables",
+			"details": "https://github.com/HorlogeSkynet/Nftables",
+			"labels": ["firewall"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -733,7 +755,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -786,6 +808,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Nord",
+			"details": "https://github.com/arcticicestudio/nord-sublime-text",
+			"author": ["Arctic Ice Studio"],
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
 					"tags": true
 				}
 			]

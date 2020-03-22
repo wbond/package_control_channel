@@ -1199,6 +1199,16 @@
 			]
 		},
 		{
+			"name": "Render Tree",
+			"details": "https://github.com/cpeccei/RenderTree",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Renpy Language",
 			"details": "https://github.com/koroshiya/Sublime-Renpy",
 			"releases": [
@@ -1461,6 +1471,19 @@
 			]
 		},
 		{
+			"name": "RGBDS",
+			"details": "https://github.com/ISSOtm/sublime-RGBDS",
+			"labels": ["language syntax", "game boy", "rgbds"],
+			"previous_names": ["Z80 Assembly (RGBDS)"],
+			"author": "Eldred Habert",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RhetosDSL",
 			"details": "https://github.com/Hugibeer/RhetosDSLSyntax",
 			"labels": ["language syntax"],
@@ -1671,6 +1694,16 @@
 			]
 		},
 		{
+			"name": "ROS msg syntax highlight",
+			"details": "https://github.com/Binpord/sublime-rosmsg",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ros Snippets",
 			"details": "https://github.com/ckrooss/ros_snippets",
 			"labels": ["snippets", "build system", "language syntax"],
@@ -1712,6 +1745,18 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+		"name": "RPGMaker MV Add-On Snippets",
+		"details": "https://github.com/jomarcenter-mjm/RMMVSublimeSnippet",
+		"labels": ["snippets", "RPGMaker MV", "Javascript", "RPG Maker", "RPGMaker"],
+		"author": "jomarcenter-mjm/MJM Creative Works and Ideas",
+		"releases": [
+				{
+				"sublime_text": "*",
+				"tags": true
 				}
 			]
 		},
@@ -1864,7 +1909,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]

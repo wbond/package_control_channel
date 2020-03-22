@@ -325,6 +325,12 @@ class TestContainer(object):
                                      "Multiple labels should not be in the "
                                      "same string")
 
+                    # self.assertEqual(label, label.lower(),
+                    #                  "Label name must be lowercase")
+
+                self.assertCountEqual(v, list(set(v)),
+                                      "Specifying the same label multiple times is redundant")
+
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
                 for prev_name in v:
@@ -508,6 +514,17 @@ class TestContainer(object):
                 for plat in v:
                     self.assertRegex(plat,
                                      r"^(\*|(osx|linux|windows)(-x(32|64))?)$")
+
+                self.assertCountEqual(v, list(set(v)),
+                                      "Specifying the same platform multiple times is redundant")
+
+                if (("osx-x32" in v and "osx-x64" in v) or
+                    ("windows-x32" in v and "windows-x64" in v) or
+                    ("linux-x32" in v and "linux-x64" in v)):
+                    self.fail("Specifying both x32 and x64 architectures is redundant")
+
+                self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
+                                 '"osx, windows, linux" are similar to (and should be replaced by) "*"')
 
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")

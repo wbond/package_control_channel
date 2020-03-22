@@ -68,11 +68,12 @@
 			]
 		},
 		{
-			"name": "Jai",
-			"details": "https://github.com/GreenLightning/sublime-jai",
+			"name": "JaiTools",
+			"previous_names": ["Jai"],
+			"details": "https://github.com/RobinWragg/JaiTools",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -258,7 +259,7 @@
 		{
 			"name": "JavaIME",
 			"details": "https://github.com/tushortz/JavaIME",
-			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet", "completion"],
+			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1050,6 +1051,16 @@
 			]
 		},
 		{
+			"name": "JSKit",
+			"details": "https://github.com/breakside/sublime-jskit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSLint",
 			"details": "https://github.com/73rhodes/Sublime-JSLint",
 			"labels": ["linting"],
@@ -1178,11 +1189,11 @@
 		},
 		{
 			"name": "JSONComma",
-			"details": "https://github.com/math2001/JSONComma",
+			"details": "https://github.com/jsoncomma/sublime-jsoncomma",
 			"labels": ["JSON", "comma", "text manipulation", "formatting", "formatter", "trailing"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1305,11 +1316,15 @@
 		},
 		{
 			"name": "Julia",
-			"details": "https://github.com/epitron/Julia-sublime",
+			"details": "https://github.com/JuliaEditorSupport/Julia-sublime",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4000",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},

@@ -46,6 +46,20 @@
 			]
 		},
 		{
+			"name": "better_settings",
+			"load_order": "01",
+			"description": "Easily implement OS, Host and OS/Host-level settings aside the normal user-level settings for any plugin.",
+			"author": "KuttKatrea",
+			"issues": "https://github.com/KuttKatrea/sublime-better-settings/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/KuttKatrea/sublime-better-settings",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "boto3",
 			"load_order": "02",
 			"description": "Python boto3 module for Amazon Web Services",
@@ -363,6 +377,20 @@
 			]
 		},
 		{
+			"name": "lsp_utils",
+			"load_order": "10",
+			"description": "Module with LSP-related utilities",
+			"author": "rchl",
+			"issues": "https://github.com/sublimelsp/lsp_utils/issues",
+			"releases": [
+				{
+					"base": "https://github.com/sublimelsp/lsp_utils",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "lxml",
 			"load_order": "10",
 			"description": "lxml",
@@ -373,7 +401,7 @@
 					"base": "https://github.com/eerohele/sublime-lxml",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "linux-x32", "windows-x64", "windows-x32"]
+					"platforms": ["osx-x64", "linux", "windows"]
 				}
 			]
 		},
@@ -639,13 +667,13 @@
 			"name": "psutil",
 			"load_order": "10",
 			"description": "Python psutil module",
-			"author": "varp",
-			"issues": "https://github.com/varp/sublime-psutil/issues",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/psutil/issues",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"base": "https://github.com/varp/sublime-psutil",
-					"platforms": ["osx-x64", "windows-x32", "windows-x64", "linux-x64", "linux-x32"],
+					"base": "https://github.com/packagecontrol/psutil",
+					"platforms": ["osx-x64", "windows", "linux"],
 					"tags": true
 				}
 			]
@@ -744,6 +772,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyte",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "python-docx",
+			"load_order": "20",
+			"description": "Python DOCX Module",
+			"author": "WriteML",
+			"issues": "https://github.com/writeml/sublime-docx/issues",
+			"releases": [
+				{
+					"base": "https://github.com/writeml/sublime-docx",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}

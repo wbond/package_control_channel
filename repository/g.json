@@ -479,7 +479,7 @@
 			"labels": ["git", "blame"],
 			"releases": [
 				{
-					"sublime_text": ">=3124",
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
@@ -1201,6 +1201,19 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Golang",
+			"description": "An opinionated plugin for Go",
+			"details": "https://github.com/yields/sublime-go",
+			"author": ["yields"],
+			"labels": ["go", "golang", "test", "lint", "auto-complete", "format"],
+			"releases": [
+				{
+					"sublime_text": ">=3207",
+					"tags": true
 				}
 			]
 		},

@@ -870,6 +870,16 @@
 			]
 		},
 		{
+			"name": "Persistent Status Bar Line Number",
+			"details": "https://github.com/ryanpcmcquen/sublime_text_persistent_status_bar_line_number",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/skuroda/PersistentRegexHighlight",
 			"releases": [
 				{
@@ -1152,6 +1162,16 @@
 			]
 		},
 		{
+			"name": "PHP Snippets",
+			"details": "https://github.com/Mombuyish/sublime-fast-snippets-with-php",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PHP Source",
 			"details": "https://github.com/mjkaufer/PHP-Source",
 			"labels": ["php", "utilities", "utils"],
@@ -1294,7 +1314,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -1715,6 +1735,17 @@
 			]
 		},
 		{
+			"name": "Pmccabe",
+			"details": "https://github.com/mremallin/sublime-pmccabe",
+			"labels": ["linting", "C", "c", "C++", "c++"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "poetry",
 			"details": "https://github.com/jgirardet/sublime-poetry",
 			"author": "jgirardet",
@@ -2118,10 +2149,10 @@
 		{
 			"name": "Preside CMS",
 			"details": "https://github.com/pixl8-brayden/preside-sublime-text-3",
-			"readme": "https://github.com/pixl8-brayden/preside-sublime-text-3/blob/stable/README.md",
+			"readme": "https://raw.githubusercontent.com/pixl8-brayden/preside-sublime-text-3/stable/README.md",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2161,12 +2192,33 @@
 			]
 		},
 		{
+			"name": "Pretty Shell",
+			"details": "https://github.com/aerobounce/Sublime-Pretty-Shell",
+			"labels": ["shell", "sh", "posix", "bash", "formatting", "pretty", "minify"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pretty YAML",
 			"details": "https://github.com/aukaost/SublimePrettyYAML",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pretty YAML Node",
+			"details": "https://github.com/Lichtbit/sublime_pretty_yaml_node",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "v"
 				}
 			]
 		},
@@ -2375,6 +2427,18 @@
 			]
 		},
 		{
+			"name": "ProjectEnvironment",
+			"previous_names": ["Project Environment", "Environment Settings"],
+			"details": "https://bitbucket.org/daniele-niero/sublimeprojectenvironment",
+			"labels": ["environment", "variables", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ProjectFiles",
 			"details": "https://github.com/shagabutdinov/sublime-project-files",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -2383,6 +2447,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ProjectMaker",
+			"details": "https://github.com/bit101/ProjectMaker",
+			"labels": ["project", "template", "project-templates", "cookiecutter", "jinja2"],
+			"previous_names" : ["STProjectMaker"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -3123,6 +3199,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PythonVoiceCodingPlugin",
+			"details":"https://github.com/mpourmpoulis/PythonVoiceCodingPlugin",
+			"labels":["voice coding","accessibility","syntax tree","python","grammar","high level"],
+			"releases":[
+				{
+					"sublime_text":">=3000",
+					"tags":true
 				}
 			]
 		},

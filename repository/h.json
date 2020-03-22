@@ -374,21 +374,22 @@
 			]
 		},
 		{
+			"name": "Helium",
+			"details": "https://github.com/pykong/Helium",
+			"previous_names": ["Hermes"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/damien-biasotto/Help",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Hermes",
-			"details": "https://github.com/ngr-t/SublimeHermes",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -665,6 +666,17 @@
 			]
 		},
 		{
+			"name": "Hivacruz Color Scheme",
+			"details": "https://github.com/kinoute/hivacruz-sublime-theme",
+			"labels": ["color scheme", "theme", "hivacruz", "dark"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "HIVE Log File",
 			"details": "https://github.com/digitalinblue/SublimeHIVELogHighlighter",
 			"releases": [
@@ -906,9 +918,10 @@
 			"details": "https://github.com/tijn/hosts.tmLanguage",
 			"labels": ["language syntax"],
 			"previous_names": ["hosts"],
+			"author": ["tijn", "michaelblyons"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -936,16 +949,6 @@
 		{
 			"name": "Hound Search",
 			"details": "https://github.com/bgreenlee/SublimeHound",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Hover Image Preview",
-			"details": "https://github.com/alvesjtiago/hover-preview",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1340,6 +1343,18 @@
 			]
 		},
 		{
+			"name": "HTTP Headers Reindent",
+			"details": "https://github.com/T0nyX1ang/HttpHeadersReindent",
+			"author": "Tony Xiang",
+			"description": "A tool to reindent http header file from Fiddler to Python dictionary format",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Http Requester",
 			"details": "https://github.com/braindamageinc/SublimeHttpRequester",
 			"releases": [
@@ -1386,6 +1401,17 @@
 			]
 		},
 		{
+			"name": "HttpUnit",
+			"details": "https://github.com/gaohuia/HttpUnit",
+			"issues" : "https://github.com/gaohuia/HttpUnit/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Huely Palette Extractor",
 			"details": "https://github.com/Jeloi/huely-sublime-plugin",
 			"releases": [
@@ -1427,12 +1453,12 @@
 			]
 		},
 		{
-			"name": "Hybris Impex Syntax",
-			"details": "https://github.com/Blumed/Impex_Highlighting",
-			"labels": ["syntax", "hybris", "impex"],
+			"name": "Hybris Impex",
+			"details": "https://github.com/vladkanash/sublime-impex",
+			"labels": ["language syntax", "hybris", "impex", "sap"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3084",
 					"tags": true
 				}
 			]
