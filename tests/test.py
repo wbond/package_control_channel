@@ -198,6 +198,9 @@ class TestContainer(object):
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)
 
+    with _open("repository/labels.json") as labels_file:
+        labels_list = json.loads(labels_file.read().decode("utf-8", "strict"), encoding="utf-8")
+
     def _test_repository_keys(self, include, data):
         keys = ('schema_version', 'packages', 'dependencies', 'includes')
         self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
@@ -307,9 +310,6 @@ class TestContainer(object):
     def _test_package(self, include, data):
         name = get_package_name(data)
 
-        with _open("repository/labels.json") as labels_file:
-            labels_list = json.loads(labels_file.read().decode("utf-8", "strict"), encoding="utf-8")
-
         for k, v in data.items():
             self.enforce_key_types_map(k, v, self.package_key_types_map)
 
@@ -342,9 +342,9 @@ class TestContainer(object):
 
                 # And with it, we can just check if label name is in this list
                 for label in v:
-                    self.assertTrue(label in labels_list,
+                    self.assertTrue(label in self.labels_list,
                                     "Label \"{}\" not found in \"repository/labels.json\". "
-                                    "Check if the name is correct, or add a new one in label.json".format(label))
+                                    "Check if the name is correct, or add a new one in labels.json".format(label))
 
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
@@ -535,7 +535,7 @@ class TestContainer(object):
 
                 if (("osx-x32" in v and "osx-x64" in v) or
                     ("windows-x32" in v and "windows-x64" in v) or
-                    ("linux-x32" in v and "linux-x64" in v)):
+                        ("linux-x32" in v and "linux-x64" in v)):
                     self.fail("Specifying both x32 and x64 architectures is redundant")
 
                 self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
