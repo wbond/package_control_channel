@@ -198,8 +198,11 @@ class TestContainer(object):
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)
 
-    with _open("repository/labels.json") as labels_file:
-        labels_list = json.loads(labels_file.read().decode("utf-8", "strict"), encoding="utf-8")
+    with _open("repository/labels.txt") as labels_file:
+        labels_list = []
+        for line in labels_file:
+            if line.decode("utf-8", "strict").strip():
+                labels_list.append(line.decode("utf-8", "strict").strip())
 
     def _test_repository_keys(self, include, data):
         keys = ('schema_version', 'packages', 'dependencies', 'includes')
