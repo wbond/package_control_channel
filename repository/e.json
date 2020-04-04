@@ -34,6 +34,18 @@
 			]
 		},
 		{
+			"name": "Easy CP",
+			"details": "https://github.com/RohitMazumder/EasyCP",
+			"labels" : ["competitive-programming","test","cp","web-scrapping","java","python","c++"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Easy Digital Downloads",
 			"details": "https://github.com/cklosowski/EasyDigitalDownloadsSublimeText2",
 			"labels": ["auto-complete", "php", "wordpress"],
@@ -115,7 +127,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3070",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -1426,7 +1438,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"],
+					"platforms": ["osx-x64", "linux-x64", "windows"],
 					"tags": true
 				}
 			]
@@ -1541,6 +1553,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Expand Selection to Line Upwards",
+			"details": "https://github.com/aafulei/sublime-expand-selection-to-line-upwards",
+			"author": "Aaron Fu Lei",
+			"labels": ["expand selection", "text selection"],
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

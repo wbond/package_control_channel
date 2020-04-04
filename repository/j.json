@@ -259,7 +259,7 @@
 		{
 			"name": "JavaIME",
 			"details": "https://github.com/tushortz/JavaIME",
-			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet", "completion"],
+			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1051,6 +1051,16 @@
 			]
 		},
 		{
+			"name": "JSKit",
+			"details": "https://github.com/breakside/sublime-jskit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSLint",
 			"details": "https://github.com/73rhodes/Sublime-JSLint",
 			"labels": ["linting"],
@@ -1331,11 +1341,12 @@
 		},
 		{
 			"name": "JumpTo",
-			"details": "https://github.com/JonasPf/JumpTo",
+			"details": "https://github.com/SublimeText/JumpTo",
+			"author": ["JonasPf", "FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},

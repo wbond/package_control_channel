@@ -46,6 +46,20 @@
 			]
 		},
 		{
+			"name": "better_settings",
+			"load_order": "01",
+			"description": "Easily implement OS, Host and OS/Host-level settings aside the normal user-level settings for any plugin.",
+			"author": "KuttKatrea",
+			"issues": "https://github.com/KuttKatrea/sublime-better-settings/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/KuttKatrea/sublime-better-settings",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "boto3",
 			"load_order": "02",
 			"description": "Python boto3 module for Amazon Web Services",
@@ -55,6 +69,20 @@
 				{
 					"sublime_text": "*",
 					"base": "https://github.com/revmischa/sublime-boto3",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "bracex",
+			"load_order": "50",
+			"description": "Bracex creates arbitrary strings via brace expansion much like Bash's.",
+			"author": "facelessuser",
+			"issues": "https://github.com/facelessuser/sublime-bracex/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/facelessuser/sublime-bracex",
 					"tags": true
 				}
 			]
@@ -363,6 +391,20 @@
 			]
 		},
 		{
+			"name": "lsp_utils",
+			"load_order": "10",
+			"description": "Module with LSP-related utilities",
+			"author": "rchl",
+			"issues": "https://github.com/sublimelsp/lsp_utils/issues",
+			"releases": [
+				{
+					"base": "https://github.com/sublimelsp/lsp_utils",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "lxml",
 			"load_order": "10",
 			"description": "lxml",
@@ -373,7 +415,7 @@
 					"base": "https://github.com/eerohele/sublime-lxml",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "linux-x32", "windows-x64", "windows-x32"]
+					"platforms": ["osx-x64", "linux", "windows"]
 				}
 			]
 		},
@@ -645,7 +687,7 @@
 				{
 					"sublime_text": ">=3000",
 					"base": "https://github.com/packagecontrol/psutil",
-					"platforms": ["osx-x64", "windows-x32", "windows-x64", "linux-x64", "linux-x32"],
+					"platforms": ["osx-x64", "windows", "linux"],
 					"tags": true
 				}
 			]
@@ -811,10 +853,10 @@
 			"load_order": "01",
 			"description": "Python six library https://github.com/benjaminp/six",
 			"author": "jcoc611",
-			"issues": "https://github.com/jcoc611/sublime-six/issues",
+			"issues": "https://github.com/packagecontrol/sublime-six/issues",
 			"releases": [
 				{
-					"base": "https://github.com/jcoc611/sublime-six",
+					"base": "https://github.com/packagecontrol/sublime-six",
 					"tags": true,
 					"sublime_text": "*"
 				}
@@ -1219,10 +1261,10 @@
 			"load_order": "10",
 			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
 			"author": "jcoc611",
-			"issues": "https://github.com/jcoc611/sublime-websocket-client/issues",
+			"issues": "https://github.com/packagecontrol/sublime-websocket-client/issues",
 			"releases": [
 				{
-					"base": "https://github.com/jcoc611/sublime-websocket-client",
+					"base": "https://github.com/packagecontrol/sublime-websocket-client",
 					"tags": true,
 					"sublime_text": "*"
 				}

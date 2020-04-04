@@ -374,21 +374,22 @@
 			]
 		},
 		{
+			"name": "Helium",
+			"details": "https://github.com/pykong/Helium",
+			"previous_names": ["Hermes"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/damien-biasotto/Help",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Hermes",
-			"details": "https://github.com/pykong/Helium",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -917,9 +918,10 @@
 			"details": "https://github.com/tijn/hosts.tmLanguage",
 			"labels": ["language syntax"],
 			"previous_names": ["hosts"],
+			"author": ["tijn", "michaelblyons"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

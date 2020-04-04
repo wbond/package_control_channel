@@ -1679,6 +1679,16 @@
 			]
 		},
 		{
+			"name": "LSP-eslint",
+			"details": "https://github.com/sublimelsp/LSP-eslint",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LSP-html",
 			"details": "https://github.com/sublimelsp/LSP-html",
 			"releases": [
@@ -1721,6 +1731,16 @@
 		{
 			"name": "LSP-serenata",
 			"details": "https://github.com/Cloudstek/LSP-serenata",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LSP-typescript",
+			"details": "https://github.com/sublimelsp/LSP-typescript",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1848,7 +1868,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms":["windows", "linux", "osx"],
+					"platforms": "*",
 					"tags": true
 				}
 			]

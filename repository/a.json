@@ -236,6 +236,16 @@
 			]
 		},
 		{
+			"name": "ActivityWatch Watcher",
+			"details": "https://github.com/kostasdizas/aw-watcher-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ActualVim",
 			"details": "https://github.com/lunixbochs/actualvim",
 			"labels": ["input", "vim"],
@@ -2508,7 +2518,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"sublime_text": "*",
 					"branch": "master"
 				}

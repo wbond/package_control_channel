@@ -78,6 +78,17 @@
 			]
 		},
 		{
+			"name": "naomi-syntax",
+			"details": "https://github.com/foisonocean/naomi-syntax",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nasl",
 			"details": "https://github.com/mr6r4y/Nasl",
 			"releases": [
@@ -105,7 +116,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -469,6 +480,17 @@
 			]
 		},
 		{
+			"name": "Nftables",
+			"details": "https://github.com/HorlogeSkynet/Nftables",
+			"labels": ["firewall"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ng-annotate Buildsystem",
 			"details": "https://github.com/ctf0/ng-annotate_Buildsystem",
 			"labels": ["build system"],
@@ -744,7 +766,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
