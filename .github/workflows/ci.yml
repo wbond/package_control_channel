@@ -15,9 +15,6 @@ jobs:
 
       - name: Run repository tests
         run: python -m unittest
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.x
 
   trigger-review:
     needs: tests
