@@ -12,8 +12,9 @@ Follow the instructions provided, if necessary.
 You can speed up the process
 by [running some tests locally](https://packagecontrol.io/docs/submitting_a_package#Step_7).
 
-You can trigger @packagecontrol-bot to re-evaluate your pull request
-by pushing a commit or closing and reopening your pull request.
+You can request a review from @packagecontrol-bot
+to manually trigger an automated review
+if you don't need to push a new commit.
 Do **NOT** open a new pull request!
 
 In general, make sure you:
