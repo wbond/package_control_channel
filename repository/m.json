@@ -1119,17 +1119,6 @@
 			]
 		},
 		{
-			"name": "MCore Syntax Highlighting",
-			"details": "https://github.com/johnwikman/mcore-sublime-syntax",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "MCS_Syntax",
 			"details": "https://github.com/bmpenuelas/MCS_Syntax",
 			"labels": ["language syntax", "mcs", "xilinx", "fpga"],
@@ -1533,6 +1522,18 @@
 			"name": "Mika",
 			"details": "https://github.com/kyoto-shift/Mika",
 			"labels": ["mika", "language", "syntax", "highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Miking Syntax Highlighting",
+			"previous_names": ["MCore Syntax Highlighting"],
+			"details": "https://github.com/miking-lang/miking-sublime-text",
+			"labels": ["mcore", "miking", "language", "syntax", "highlighting"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
