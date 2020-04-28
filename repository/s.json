@@ -5937,11 +5937,15 @@
 			"details": "https://github.com/TheClams/SystemVerilog",
 			"homepage": "http://sv-doc.readthedocs.org/en/latest",
 			"issues": "https://github.com/TheClams/SystemVerilog/issues",
-			"labels": ["language syntax", "snippets"],
+			"labels": ["language syntax", "snippets", "completion"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": ">=4000",
+					"tags": "st4-"
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
 				}
 			]
 		}
