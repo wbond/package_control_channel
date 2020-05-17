@@ -130,12 +130,17 @@
 		},
 		{
 			"name": "SaneSnippets",
-			"details": "https://github.com/bobthecow/sublime-sane-snippets",
+			"details": "https://github.com/SublimeText/SaneSnippets",
+			"author": ["bobthecow", "FichteFoll"],
 			"labels": ["snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-v"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
