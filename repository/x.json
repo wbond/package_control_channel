@@ -23,13 +23,14 @@
 			]
 		},
 		{
-			"name": "X86 and X86_64 assembly",
+			"name": "x86 and x86_64 Assembly",
+			"previous_names": ["X86 and X86_64 assembly"],
 			"details": "https://github.com/13xforever/x86-assembly-textmate-bundle",
-			"labels": ["syntax", "at&t", "gas"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -40,6 +41,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Xcode Colors",
+			"details": "https://github.com/braver/XcodeColors",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">3174",
+					"tags": true
 				}
 			]
 		},
@@ -60,7 +72,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Xkcd",
+			"details": "https://github.com/EivindArvesen/xkcd",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -71,6 +93,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xmake",
+			"details": "https://github.com/xmake-io/xmake-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -128,11 +160,15 @@
 		{
 			"name": "xpath",
 			"details": "https://github.com/rosshadden/sublime-xpath",
-			"labels": ["clipboard", "preview"],
+			"labels": ["xml", "xpath", "xquery", "clipboard", "preview"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "v"
 				}
 			]
 		},
@@ -147,12 +183,33 @@
 			]
 		},
 		{
+			"name": "XPX",
+			"details": "https://github.com/infocosme/sublime_xpx",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "XQuery",
 			"details": "https://github.com/PogiNate/XQuery-Sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "XSL",
+			"details": "https://github.com/packagecontrol/XSL",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3083",
+					"tags": true
 				}
 			]
 		},
@@ -178,9 +235,19 @@
 			]
 		},
 		{
+			"name": "XssEncode",
+			"description": "Converts characters from one encoding to another using a transformation.",
+			"details": "https://github.com/medicean/SublimeXssEncode",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xtemplate",
-			"details": "https://github.com/noyobo/sublime-xtemplate-snippets",
-			"description": "KISSY Xtemplate syntax highlight & snippets",
+			"details": "https://github.com/noyobo/sublime-xtemplate",
 			"labels": ["snippets", "language syntax"],
 			"releases": [
 				{
@@ -195,6 +262,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XUL and XBL",
+			"details": "https://github.com/thomcc/sublime-xul-xbl",
+			"labels": ["language syntax", "gecko"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

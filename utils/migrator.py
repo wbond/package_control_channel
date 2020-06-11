@@ -240,7 +240,6 @@ with open(old_repositories_json_path, encoding='utf-8') as of:
                 'Diagram',
                 'Japanize',
                 'SimpleClone',
-                'MacTerminal',
                 'rsub',
                 'Pman',
                 'Gist'
