@@ -69,14 +69,18 @@
 			"name": "PackageDev",
 			"details": "https://github.com/SublimeText/PackageDev",
 			"previous_names": ["AAAPackageDev"],
-			"author": ["guillermooo", "FichteFoll"],
+			"author": ["FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": "<3154",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3154",
+					"sublime_text": "<4084",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4084",
 					"tags": true
 				}
 			]
