@@ -570,7 +570,11 @@
 			"labels": ["language syntax", "cfml", "coldfusion", "lucee"],
 			"releases": [
 				{
-					"sublime_text": ">=3083",
+					"sublime_text": "<4084",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4084",
 					"tags": true
 				}
 			]
