@@ -69,14 +69,18 @@
 			"name": "PackageDev",
 			"details": "https://github.com/SublimeText/PackageDev",
 			"previous_names": ["AAAPackageDev"],
-			"author": ["guillermooo", "FichteFoll"],
+			"author": ["FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": "<3154",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3154",
+					"sublime_text": "<4084",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4084",
 					"tags": true
 				}
 			]
@@ -305,15 +309,6 @@
 			]
 		},
 		{
-			"details": "https://bitbucket.org/bgs_public/papyrus",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
-				}
-			]
-		},
-		{
 			"name": "Papyrus Assembly",
 			"details": "https://github.com/Cipscis/Papyrus_Assembly",
 			"releases": [
@@ -453,28 +448,8 @@
 			]
 		},
 		{
-			"name": "Paste as Column",
-			"details": "https://bitbucket.org/Clams/sublimepastecolumn",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "default"
-				}
-			]
-		},
-		{
 			"name": "Paste as One Line",
 			"details": "https://github.com/joshdavenport/PasteAsOneLine",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Paste Laravel",
-			"details": "https://github.com/RobinMalfait/Laravel-paste",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -576,20 +551,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "PasteSelOnClick",
-			"details": "https://bitbucket.org/Clams/pasteselonclick",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
-				},
-				{
-					"sublime_text": ">=3000",
-					"branch": "st3"
 				}
 			]
 		},
@@ -1277,17 +1238,6 @@
 			]
 		},
 		{
-			"name": "PhpDebugHelper",
-			"details": "https://github.com/yangxikun/sublime-phpdebughelper",
-			"labels": ["php debug"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/PhpDoc",
 			"releases": [
 				{
@@ -1571,17 +1521,6 @@
 			]
 		},
 		{
-			"name": "PKs Color Scheme",
-			"details": "https://github.com/mjs7231/sublime-pkstheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "PL1 PLI Syntax",
 			"details": "https://github.com/guija/pl1",
 			"releases": [
@@ -1603,16 +1542,6 @@
 		},
 		{
 			"details": "https://github.com/mrmartineau/Placeholders",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Placester",
-			"details": "https://github.com/Placester/placester-st2-plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1991,17 +1920,6 @@
 			]
 		},
 		{
-			"name": "Powder Sublime",
-			"details": "https://github.com/CasperLaiTW/powder-sublime",
-			"labels": ["pow", "powder", "ruby", "rvm"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "PowerCursors",
 			"details": "https://github.com/MaokaiLin/PowerCursors",
 			"releases": [
@@ -2067,16 +1985,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "pqmarkup",
-			"details": "https://bitbucket.org/pqmarkup/sublime_pqmarkup",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2266,16 +2174,6 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Primitive Filler",
-			"details": "https://github.com/francolam/primitivefiller",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -2559,17 +2457,6 @@
 		{
 			"name": "Protocol Buffer Syntax",
 			"details": "https://github.com/vihangm/sublime-protobuf-syntax",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Prototypo Syntax Highlighting",
-			"details": "https://github.com/byte-foundry/prototypo-sublimetext",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -3115,16 +3002,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Python PEP8 Autoformat",
-			"details": "https://bitbucket.org/StephaneBunel/pythonpep8autoformat",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "default"
 				}
 			]
 		},

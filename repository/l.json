@@ -442,16 +442,6 @@
 			]
 		},
 		{
-			"name": "LaTeX Track Changes",
-			"details": "https://github.com/rioderaca/LaTeX-Track-Changes",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "LaTeX Word Count",
 			"details": "https://github.com/kevinstadler/SublimeLaTeXWordCount",
 			"releases": [
@@ -683,6 +673,16 @@
 			]
 		},
 		{
+			"name": "LedgerTools",
+			"details": "https://github.com/etienne-monier/LedgerTools",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LeekScript Syntax",
 			"details": "https://github.com/GuimDev/LeekScript-Sublime",
 			"releases": [
@@ -785,33 +785,12 @@
 			]
 		},
 		{
-			"name": "lestle",
-			"details": "https://github.com/lewislepton/lestle.tmTheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Levels",
 			"details": "https://github.com/mazurov/sublime-levels",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "LFA (LearnForward Author) Package",
-			"details": "https://github.com/learnfwd/LFA-Package",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -1011,17 +990,6 @@
 			"name": "LineJumper",
 			"details": "https://github.com/hypebeast/LineJumper",
 			"labels": ["editor"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LineMessages",
-			"details": "https://github.com/nfaggian/SublimeLineMessages",
-			"labels": ["linting", "tool execution"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1258,16 +1226,6 @@
 			]
 		},
 		{
-			"name": "LiveStamps",
-			"details": "https://github.com/TundraTech/LiveStamps/",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "LiveStyle",
 			"details": "https://github.com/livestyle/sublime-text",
 			"releases": [
@@ -1372,19 +1330,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Locate",
-			"details": "https://github.com/sergey-kucher/SublimeLocate",
-			"author": "sergey-kucher",
-			"labels": ["locate", "updatedb", "quick file open"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
-					"tags": true
 				}
 			]
 		},
@@ -1669,6 +1614,16 @@
 			]
 		},
 		{
+			"name": "LSP-angular",
+			"details": "https://github.com/sublimelsp/LSP-angular",
+			"releases": [
+				{
+					"sublime_text": ">=3154",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LSP-bash",
 			"details": "https://github.com/sublimelsp/LSP-bash",
 			"releases": [
@@ -1774,10 +1729,24 @@
 		},
 		{
 			"name": "LSP-promql",
-			"details": "https://github.com/nevill/LSP-promql",
+			"details": "https://github.com/prometheus-community/sublimelsp-promql",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LSP-pyright",
+			"details": "https://github.com/sublimelsp/LSP-pyright",
+			"releases": [
+				{
+					"sublime_text": "3154 - 4069",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4070",
 					"tags": true
 				}
 			]
@@ -1803,11 +1772,32 @@
 			]
 		},
 		{
+			"name": "LSP-svelte",
+			"details": "https://github.com/sublimelsp/LSP-svelte",
+			"releases": [
+				{
+					"sublime_text": ">=3154",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LSP-tagml",
 			"details": "https://github.com/HuygensING/LSP-tagml",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LSP-TexLab",
+			"details": "https://github.com/sublimelsp/LSP-TexLab",
+			"releases": [
+				{
+					"sublime_text": ">=4070",
+					"platforms": ["windows-x64", "osx-x64", "linux-x64"],
 					"tags": true
 				}
 			]

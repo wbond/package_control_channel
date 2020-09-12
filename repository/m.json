@@ -418,6 +418,16 @@
 			]
 		},
 		{
+			"name": "MapPreview",
+			"details": "https://github.com/doneill/MapPreview",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MapTool Syntax",
 			"details": "https://github.com/wwmoraes/Sublime-MapTool-Syntax",
 			"releases": [
@@ -444,15 +454,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/phyllisstein/Markboard",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1106,18 +1107,6 @@
 			]
 		},
 		{
-			"name": "MB Warband API",
-			"details": "https://bitbucket.org/Shcherbyna/mb-warband-api",
-			"author": "Oleg Shcherbyna",
-			"labels": ["warband", "language syntax", "snippets", "build system", "auto-complete"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "MCA Language",
 			"details": "https://github.com/toxic-spanner/MCA.tmLanguage",
 			"author": "mrfishie",
@@ -1197,17 +1186,6 @@
 			]
 		},
 		{
-			"name": "Meav",
-			"details": "https://github.com/linlymatsumura/Meav",
-			"labels": ["css", "html", "formatting", "text manipulation"],
-			"releases": [
-				{
-					"sublime_text": ">2999",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "MediaPlayer",
 			"details": "https://github.com/Monnoroch/SublimePlayer",
 			"labels": ["media"],
@@ -1260,12 +1238,12 @@
 			]
 		},
 		{
-			"name": "MelonJS Completions",
-			"details": "https://github.com/swmuron/melonjs-sublime-completions",
+			"name": "Mem.dev Snippet Saver",
+			"details": "https://github.com/mem-dev/st_plugin",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "*", 
+					"tags": true
 				}
 			]
 		},
@@ -1292,22 +1270,6 @@
 					"sublime_text": "<3000",
 					"base": "https://github.com/SublimeText/SublimeHg",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/DanielSiepmann/mercurial-for-sublime",
-			"author": "Daniel Siepmann",
-			"labels": ["vcs", "hg"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				},
-				{
-					"sublime_text": "<3000",
-					"base": "https://bitbucket.org/DanielSiepmann/mercurial-for-sublime-text-2",
-					"tags": true
 				}
 			]
 		},
@@ -1356,19 +1318,6 @@
 		{
 			"name": "Mermaid",
 			"details": "https://github.com/hlfcoding/sublime-mermaid",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Meson",
-			"description": "Meson Build syntax",
-			"author": "Salamandar (Félix Piédallu)",
-			"details": "https://github.com/salamandar/SublimeMeson",
-			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1479,16 +1428,6 @@
 			"details": "https://github.com/shagabutdinov/sublime-method",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
 			"labels": ["sublime-enhanced", "text navigation", "text selection", "text manipulation"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "MFScript",
-			"details": "https://github.com/tpayne84/MFScript",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1641,6 +1580,18 @@
 			"details": "https://github.com/eltonvs/sublime-minify-on-save",
 			"author": "eltonvs",
 			"labels": ["automatization", "minification"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Minimal Tabs",
+			"details": "https://github.com/rosvik/sublime-minimal-tabs",
+			"author": "rosvik",
+			"labels": ["theme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2143,17 +2094,6 @@
 			]
 		},
 		{
-			"name": "Mongoose CoffeeScript",
-			"details": "https://github.com/PranavSathy/sublime-mongoose-coffeescript",
-			"labels": ["sublime", "coffeescript", "mongoose"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Monkberry",
 			"details": "https://github.com/monkberry/language-monkberry",
 			"releases": [
@@ -2284,6 +2224,17 @@
 			]
 		},
 		{
+			"name": "Monokai Soft",
+			"details": "https://github.com/ThePythonGuy3/Monokai-Soft",
+			"description": "Light coloured dark Monokai color scheme",
+			"releases": [
+			{
+				"sublime_text": ">=3149",
+				"tags": true
+			}
+			]
+		},
+		{
 			"name": "Monokai++",
 			"details": "https://github.com/dcasella/monokai-plusplus",
 			"labels": ["monokai", "color scheme"],
@@ -2409,17 +2360,6 @@
 			]
 		},
 		{
-			"name": "Moscow ML",
-			"details": "https://github.com/mradam/MoscowML",
-			"previous_names": ["MoscowML"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/Mote",
 			"releases": [
 				{
@@ -2436,17 +2376,6 @@
 					"sublime_text": "*",
 					"platforms": ["windows", "linux"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Mou Markdown App (OSX)",
-			"details": "https://github.com/rwoody/mou-markdown-sublime",
-			"previous_names": ["Mou.app Markdown"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -2853,17 +2782,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3084",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Myrkur Color Scheme",
-			"details": "https://github.com/superjan/myrkur",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
