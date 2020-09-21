@@ -658,11 +658,17 @@
 		},
 		{
 			"name": "INI",
-			"details": "https://github.com/clintberry/sublime-text-2-ini",
+			"details": "https://github.com/jwortmann/ini-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/clintberry/sublime-text-2-ini",
+					"sublime_text": "<3092",
 					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
