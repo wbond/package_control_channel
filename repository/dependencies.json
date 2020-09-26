@@ -377,6 +377,20 @@
 			]
 		},
 		{
+			"name": "jieba",
+			"load_order": "50",
+			"description": "A Chinese text segementation lib.",
+			"author": "Jack Cherng",
+			"issues": "https://github.com/jfcherng-sublime/ST-jieba/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jfcherng-sublime/ST-jieba",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "jsonschema",
 			"load_order": "55",
 			"description": "An(other) implementation of JSON Schema for Python",
