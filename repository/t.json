@@ -3264,11 +3264,17 @@
 		},
 		{
 			"name": "Twig",
-			"details": "https://github.com/purplefish32/sublime-text-2-twig",
+			"details": "https://github.com/Sublime-Instincts/BetterTwig",
+			"labels": ["Twig", "templates", "PHP", "syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/purplefish32/sublime-text-2-twig",
+					"sublime_text": "<3092",
 					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
