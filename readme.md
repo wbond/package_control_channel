@@ -1,4 +1,5 @@
 # Package Control Default Channel
+# Package
 
 The `channel.json`, `repository.json` and `repository/*.json` files contain a
 list of repositories and packages for use with
