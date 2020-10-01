@@ -917,9 +917,9 @@
 			]
 		},
 		{
-			"name": "ChineseTranslator",
-			"details": "https://github.com/toaol/sublime-translate",
-			"labels": ["中文", "翻译", "translate"],
+			"name": "ChineseTokenizer",
+			"details": "https://github.com/absop/ChineseTokenizer",
+			"labels": ["中文", "分词", "tokenizer"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -927,6 +927,17 @@
 				}
 			]
 		},
+        {
+            "name": "ChineseTranslator",
+            "details": "https://github.com/toaol/sublime-translate",
+            "labels": ["中文", "翻译", "translate"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
 		{
 			"name": "Chipper",
 			"details": "https://github.com/andymaster01/chipper_syntax_sublime_text",
@@ -2001,7 +2012,7 @@
 			]
 		},
 		{
-			"name": "CodeFall Color Scheme", 
+			"name": "CodeFall Color Scheme",
 			"details": "https://github.com/EncryptEx/CodeFall",
 			"labels": ["color scheme"],
 			"releases": [
