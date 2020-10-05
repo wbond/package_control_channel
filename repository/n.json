@@ -2,16 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "Naetech - Pomodoro Timer Plug-in",
-			"details": "https://github.com/naetech/NaetechPomodoroSublimeText",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Nakama Autocomplete",
 			"details": "https://github.com/Superxwolf/Nakama-Sublime",
 			"labels": ["auto-complete"],
@@ -78,6 +68,17 @@
 			]
 		},
 		{
+			"name": "naomi-syntax",
+			"details": "https://github.com/foisonocean/naomi-syntax",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nasl",
 			"details": "https://github.com/mr6r4y/Nasl",
 			"releases": [
@@ -105,7 +106,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -322,16 +323,6 @@
 			]
 		},
 		{
-			"name": "NetSuite Bundle",
-			"details": "https://github.com/ththev/NetSuite-Bundle-for-Sublime",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "NetSuite SDF",
 			"details": "https://github.com/limebox/sublime-sdf",
 			"releases": [
@@ -394,7 +385,7 @@
 		},
 		{
 			"name": "Neutron",
-			"details": "https://github.com/ale110/SublimeText-Neutron-Syntax",
+			"details": "https://github.com/notpushkin/SublimeText-Neutron-Syntax",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -549,7 +540,11 @@
 			"labels": ["language syntax", "angular"],
 			"releases": [
 				{
-					"sublime_text": ">=3156",
+					"sublime_text": "3156 - 4076",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4077",
 					"tags": true
 				}
 			]
@@ -599,6 +594,7 @@
 		{
 			"name": "Nightfall color scheme",
 			"details": "https://github.com/alexeyneu/nightfall",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">3000",
@@ -641,6 +637,17 @@
 			]
 		},
 		{
+			"name": "Nimpretty",
+			"details": "https://github.com/pitr/sublime-nimpretty",
+			"labels": ["nim", "nimpretty"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Ninja",
 			"details": "https://github.com/pope/SublimeNinja",
 			"labels": ["ninja", "language syntax"],
@@ -675,7 +682,7 @@
 		},
 		{
 			"name": "Nirum",
-			"details" : "https://github.com/spoqa/sublime-nirum",
+			"details" : "https://github.com/nirum-lang/sublime-nirum",
 			"labels": ["language syntax", "nirum"],
 			"releases" : [
 				{
@@ -755,7 +762,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -879,7 +886,7 @@
 		},
 		{
 			"name": "Notepad++ Color Scheme",
-			"details": "https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme",
+			"details": "https://github.com/evandrocoan/NotepadPlusPlusColorScheme",
 			"labels": ["color scheme", "notepad++"],
 			"releases": [
 				{
@@ -889,6 +896,17 @@
 				{
 					"sublime_text": "<=3144",
 					"tags": "build3144support-"
+				}
+			]
+		},
+		{
+			"name": "Notepad++ Tab Context",
+			"details": "https://github.com/josephmorrill/SublimeNppTabContextPlugin",
+			"labels": ["tab context", "notepad++"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -926,17 +944,6 @@
 			]
 		},
 		{
-			"name": "NoTutorial",
-			"details": "https://github.com/chadnewbry/NoTutorial",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["osx"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Nova Framework Snippets",
 			"details": "https://github.com/nova-framework/Nova-Framework-Snippets",
 			"labels": ["snippets"],
@@ -955,29 +962,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Nova Theme",
-			"details": "https://github.com/driesvints/nova-sublime-text",
-			"labels": ["nova", "theme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "NP-Complete",
-			"labels": ["completions"],
-			"details": "https://github.com/Nax/sublime-np-complete",
-			"releases": [
-				{
-					"platforms": ["osx", "linux"],
-					"sublime_text": ">3000",
 					"tags": true
 				}
 			]
@@ -1198,8 +1182,8 @@
 		},
 		{
 			"name": "Nunjucks Syntax",
-			"details": "https://github.com/mogga/sublime-nunjucks",
-			"labels": ["language syntax"],
+			"details": "https://github.com/jeremyfourna/sublime-nunjucks/",
+			"labels": ["language syntax", "Nunjucks"],
 			"releases": [
 				{
 					"sublime_text": "*",

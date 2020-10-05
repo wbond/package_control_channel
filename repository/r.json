@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "R-snippets",
-			"details": "https://github.com/jvcasill/R-snippets",
+			"details": "https://github.com/jvcasillas/R-snippets",
 			"labels": ["snippets", "R", "statistics"],
 			"releases": [
 				{
@@ -34,12 +34,13 @@
 			]
 		},
 		{
-			"name": "RabbitVCS",
-			"details": "https://github.com/lerous/sublime-RabbitVCS",
+			"name": "Ra Spring",
+			"details": "https://github.com/vbasky/RaSpring",
+			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -61,17 +62,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Rails Developer Snippets",
-			"details": "https://github.com/j10io/railsdev-sublime-snippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -161,7 +151,7 @@
 		},
 		{
 			"name": "Rails Status Snippets",
-			"details": "https://github.com/tuvistavie/sublime-rails-status-snippets",
+			"details": "https://github.com/danhper/sublime-rails-status-snippets",
 			"labels": ["ruby on rails", "snippets"],
 			"releases": [
 				{
@@ -194,7 +184,7 @@
 		},
 		{
 			"name": "Railscasts Extended",
-			"details": "https://github.com/jevzee/sublime-railscasts-extended",
+			"details": "https://github.com/jayzelenkov/sublime-railscasts-extended",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -328,7 +318,7 @@
 		},
 		{
 			"name": "RAML Syntax Highlighter",
-			"details": "https://github.com/mulesoft/raml-sublime-plugin",
+			"details": "https://github.com/mulesoft-labs/raml-sublime-plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -348,7 +338,7 @@
 		},
 		{
 			"name": "Random HEX Color",
-			"details": "https://github.com/Ndushi/RandomHEXColor",
+			"details": "https://github.com/lindskogen/RandomHEXColor",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -397,17 +387,6 @@
 			]
 		},
 		{
-			"name": "Rant",
-			"details": "https://github.com/RantLang/Sublime-Rant",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "RAPID Syntax Highlighting",
 			"details": "https://github.com/mfrench1989/RAPID-Syntax-Highlighting",
 			"labels": ["language syntax"],
@@ -439,9 +418,8 @@
 			]
 		},
 		{
-			"name": "Raydric - Color Scheme",
-			"details": "https://github.com/raydric/raydric-color-scheme",
-			"labels": ["color scheme"],
+			"name": "Razor",
+			"details": "https://github.com/joseph-turner/Razor",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -450,12 +428,14 @@
 			]
 		},
 		{
-			"name": "Razor",
-			"details": "https://github.com/joseph-turner/Razor",
+			"name": "Razor C# Syntax",
+			"details": "https://github.com/LoneBoco/razor-sublime",
+			"description": "Razor C# .cshtml language syntax for Sublime Text 4.",
+			"labels": ["language syntax", "razor", "c#", "cshtml"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -516,6 +496,17 @@
 			"name": "React Coffee Snippets",
 			"details": "https://github.com/monstersintokyo/react-coffee-sublime-snippets",
 			"labels": ["snippets", "cjsx", "coffee", "coffeescript", "react"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "React Create Component",
+			"details": "https://github.com/acsands13/sublime-react-create-component",
+			"labels": ["react", "es6", "sidebar"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -613,7 +604,7 @@
 		},
 		{
 			"name": "ReactJS",
-			"details": "https://github.com/reactjs/sublime-react",
+			"details": "https://github.com/facebookarchive/sublime-react",
 			"labels": ["language syntax", "snippets", "JSX"],
 			"releases": [
 				{
@@ -855,7 +846,7 @@
 		},
 		{
 			"name": "Redux Snippets",
-			"details": "https://github.com/kimonothemes/redux_snippets",
+			"details": "https://github.com/reduxframework/snippets_sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -910,6 +901,16 @@
 		{
 			"name": "Regex Escape",
 			"details": "https://github.com/Jonnymcc/sublime_regex_escape",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Regex Portfolio",
+			"details": "https://github.com/KaminoU/regex_portfolio",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1190,7 +1191,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/frozenice-/RenameTab",
+			"details": "https://github.com/frozenice/RenameTab",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1252,7 +1253,7 @@
 		},
 		{
 			"name": "ReqsLang",
-			"details": "https://github.com/petarslovic/sublime-reqs-language",
+			"details": "https://github.com/petarjs/sublime-reqs-language",
 			"labels": ["requirements", "todo", "language syntax"],
 			"releases": [
 				{
@@ -1315,6 +1316,16 @@
 			]
 		},
 		{
+			"name": "ReScript",
+			"details": "https://github.com/rescript-lang/rescript-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Resesif Color Scheme",
 			"details": "https://github.com/carloscuesta/resesif",
 			"labels": ["color scheme"],
@@ -1342,6 +1353,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Resolve Javascript Modules",
+			"author": "Thomas Welter",
+			"details": "https://github.com/thomaswelter/Resolve-Javascript-Modules",
+			"labels": ["auto-complete", "javascript", "browser", "js", "completions", "modules"],
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
 				}
 			]
 		},
@@ -1410,16 +1433,6 @@
 			]
 		},
 		{
-			"name": "Retrosheet Syntax",
-			"details": "https://github.com/cantpitch/Retrosheet-Syntax",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "ReverseCharacters",
 			"details": "https://github.com/alfredbez/ReverseCharacters",
 			"releases": [
@@ -1431,7 +1444,7 @@
 		},
 		{
 			"name": "Revert All Files",
-			"details": "https://github.com/iwantdavid/Sublime-Text-2-Revert-All-Files",
+			"details": "https://github.com/davis9001/Sublime-Text-2-Revert-All-Files",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1475,7 +1488,6 @@
 			"details": "https://github.com/ISSOtm/sublime-RGBDS",
 			"labels": ["language syntax", "game boy", "rgbds"],
 			"previous_names": ["Z80 Assembly (RGBDS)"],
-			"author": "Eldred Habert",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1550,8 +1562,19 @@
 			]
 		},
 		{
+			"name": "RISC OS Command Syntax",
+			"details": "https://github.com/gerph/sublimetext-riscoscommand-syntax",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+			},
+		{
 			"name": "RiveScript",
-			"details": "https://github.com/thebakeryio/rivescript-sublimetext",
+			"details": "https://github.com/bakery/rivescript-sublimetext",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1616,7 +1639,7 @@
 		},
 		{
 			"name": "RocketNative Snippets",
-			"details": "https://github.com/diego3g/rocketnative-sublime-snippets",
+			"details": "https://github.com/Rocketseat/rocketnative-sublime-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1648,7 +1671,7 @@
 		},
 		{
 			"name": "Rockstar Syntax Highlighter",
-			"details": "https://github.com/paxromana96/sublime-rockstar-syntax",
+			"details": "https://github.com/brownian-motion/sublime-rockstar-syntax",
 			"readme": "https://raw.githubusercontent.com/paxromana96/sublime-rockstar-syntax/master/README.md",
 			"labels": ["syntax-highlight", "rockstar", "language syntax"],
 			"releases": [
@@ -1689,6 +1712,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RoRvsWild Color Schemes",
+			"details": "https://github.com/BaseSecrete/rorvswild-theme-textmate-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1855,7 +1889,7 @@
 		},
 		{
 			"name": "RspecBuild",
-			"details": "https://github.com/erinata/SublimeRspecBuild",
+			"details": "https://github.com/misotomlam/SublimeRspecBuild",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1909,7 +1943,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -2158,16 +2192,6 @@
 			]
 		},
 		{
-			"name": "RubyMotion Sparrow Framework Autocomplete",
-			"details": "https://github.com/ZaBlanc/RubyMotionSparrowSublimeCompletions",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RubyMotionBuilder",
 			"details": "https://github.com/RubyMotionJP/SublimeRubyMotionBuilder",
 			"releases": [
@@ -2220,7 +2244,7 @@
 		},
 		{
 			"name": "Run",
-			"details": "https://github.com/TechMantra/Run",
+			"details": "https://github.com/glorieux/Run",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2292,7 +2316,7 @@
 		},
 		{
 			"name": "Rust Enhanced",
-			"details": "https://github.com/rust-lang/sublime-rust",
+			"details": "https://github.com/rust-lang/rust-enhanced",
 			"previous_names": ["Rust"],
 			"releases": [
 				{
@@ -2303,7 +2327,7 @@
 		},
 		{
 			"name": "Rust Share",
-			"details": "https://github.com/GravityScore/Rust-Share",
+			"details": "https://github.com/benanders/Rust-Share",
 			"releases": [
 				{
 					"sublime_text": "*",

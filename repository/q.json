@@ -196,16 +196,6 @@
 			]
 		},
 		{
-			"name": "Quick Google Anno",
-			"details": "https://github.com/meloalright/quick-google-anno",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/facelessuser/QuickCal",
 			"releases": [
 				{
@@ -222,7 +212,7 @@
 				{
 					"sublime_text": "*",
 					"tags": true,
-					"platforms": ["osx", "linux", "windows"]
+					"platforms": "*"
 				}
 			]
 		},
@@ -272,6 +262,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickPuTTY",
+			"details": "https://github.com/Nikita-Panyuhin/QuickPuTTY",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"tags": true
 				}
 			]
 		},

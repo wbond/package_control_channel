@@ -15,15 +15,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/khiltd/Abacus",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ABAP",
 			"details": "https://github.com/flaiker/abap-st3",
 			"labels": ["language syntax"],
@@ -61,6 +52,17 @@
 			"details": "https://github.com/tenforwardconsulting/abcss",
 			"author": "marknorman",
 			"labels": ["formatting", "sorting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Abella",
+			"details": "https://github.com/JimmyZJX/SublimeAbella",
+			"labels": ["language syntax", "proof assistant"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -146,7 +148,7 @@
 		},
 		{
 			"name": "ACF Snippets",
-			"details": "https://github.com/iamhexcoder/acf_snippets",
+			"details": "https://github.com/baerkins/acf_snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -216,22 +218,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Active4D",
-			"details": "https://github.com/aparajita/active4d-st3",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3100",
-					"tags": true
-				},
-				{
-					"base": "https://github.com/aparajita/active4d-sublime",
-					"sublime_text": "<3000",
-					"tags": true
 				}
 			]
 		},
@@ -334,7 +320,7 @@
 		},
 		{
 			"name": "AddRemoveFolder",
-			"details": "https://github.com/fsaad/AddRemoveFolder",
+			"details": "https://github.com/fsaad/Sublime-AddRemoveFolder",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -349,16 +335,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3114",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Adianti Snippets for PHP",
-			"details": "https://github.com/dmonteirosouza/adianti-snippets",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -420,8 +396,9 @@
 		},
 		{
 			"name": "Advanced Substation Alpha (ASS)",
-			"details": "https://github.com/jfcherng/Sublime-ASS",
+			"details": "https://github.com/jfcherng-sublime/ST-ASS",
 			"labels": ["language syntax"],
+			"author": ["jfcherng", "FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -572,7 +549,7 @@
 		},
 		{
 			"name": "Alda",
-			"details": "https://github.com/archimedespi/sublime-alda",
+			"details": "https://github.com/liamim/sublime-alda",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -596,18 +573,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "AlgoLang",
-			"details": "https://bitbucket.org/lsystems/algo-lang-sublime",
-			"labels": ["language syntax"],
-			"issues": "https://bitbucket.org/lsystems/algo-lang-sublime/issues?status=new&status=open",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -722,16 +687,6 @@
 			]
 		},
 		{
-			"name": "Amalgamate",
-			"details": "https://github.com/donteatyellowsnow/amalgamate",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "AmbientColorScheme",
 				"details": "https://github.com/vyatu/AmbientColorScheme",
 				"labels": ["color scheme", "ambient light"],
@@ -787,7 +742,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/jden/AMDtools",
+			"details": "https://github.com/junosuarez/AMDtools",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -871,7 +826,7 @@
 		},
 		{
 			"name": "AmxxPawn",
-			"details": "https://github.com/evandrocoan/SublimeAmxxPawn",
+			"details": "https://github.com/evandrocoan/AmxxPawn",
 			"previous_names": ["Amxx Pawn"],
 			"labels": ["language syntax", "amxmodx", "amx mod x"],
 			"releases": [
@@ -926,6 +881,17 @@
 			"name": "AnB (Alice and Bob Notation)",
 			"details": "https://github.com/futek/sublime-anb",
 			"labels": ["build system", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ancient Pond",
+			"details": "https://github.com/somelun/ancient-pond",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1251,7 +1217,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/PhilippSchaffrath/Anypreter",
+			"details": "https://github.com/phisch/Anypreter",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1268,10 +1234,10 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Anyword completion",
-			"details": "https://github.com/Shagabutdinov/sublime-anyword-completion",
+			"details": "https://github.com/shagabutdinov/sublime-autocompletion",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1281,7 +1247,7 @@
 		},
 		{
 			"name": "AoE2 RMS Syntax Highlighting",
-			"details": "https://github.com/mangudai/syntax-highlighting",
+			"details": "https://github.com/mangudai/sublime-text",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1387,7 +1353,7 @@
 		},
 		{
 			"name": "APICloudLoader",
-			"details": "https://github.com/APICloud-com/Sublime-APICloud-Loader",
+			"details": "https://github.com/apicloudcom/Sublime-APICloud-Loader",
 			"labels": ["android", "apicloud"],
 			"releases": [
 				{
@@ -1398,7 +1364,7 @@
 		},
 		{
 			"name": "APICloudSnippets",
-			"details": "https://github.com/APICloud-com/Sublime-APICloud-Snippet",
+			"details": "https://github.com/apicloudcom/Sublime-APICloud-Snippet",
 			"labels": ["javascript", "snippets"],
 			"releases": [
 				{
@@ -1466,16 +1432,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/mingyuanyun-open/appcloud_subl",
-			"name": "APPCloud",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -1717,17 +1673,6 @@
 			]
 		},
 		{
-			"name": "Arnold Clark Snippets for Ruby",
-			"details": "https://github.com/arnoldclark/ac-ruby-snippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Artisan",
 			"details": "https://github.com/Narven/sublime-artisan",
 			"releases": [
@@ -1761,7 +1706,7 @@
 		},
 		{
 			"name": "Ascetic color schemes",
-			"details": "https://github.com/Mendor/sublime-asceticbw",
+			"details": "https://github.com/archydragon/sublime-asceticbw",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1826,7 +1771,7 @@
 		},
 		{
 			"name": "AsciiConverter",
-			"details": "https://github.com/penginryo/AsciiConverterPlugin",
+			"details": "https://github.com/bg-k/AsciiConverterPlugin",
 			"labels": ["ASCII", "binary", "converter", "decimal", "hexadecimal"],
 			"releases": [
 				{
@@ -2063,6 +2008,17 @@
 			]
 		},
 		{
+			"name": "AttrFold",
+			"details": "https://github.com/druc/Sublime-AttrFold",
+			"labels": ["fold"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Attribute Grammar",
 			"details": "https://github.com/TiborIntelSoft/SublimeUUAGC",
 			"labels": ["language syntax"],
@@ -2092,16 +2048,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Auto Encoding for Python",
-			"details": "https://github.com/simme--/Auto-Encoding-for-Python",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2137,7 +2083,7 @@
 		},
 		{
 			"name": "Auto Refresh",
-			"details": "https://github.com/Waterflames/AutoRefresh",
+			"details": "https://github.com/Wouterdek/AutoRefresh",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2243,7 +2189,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/BoundInCode/AutoFileName",
+			"details": "https://github.com/liamcain/AutoFileName",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -2392,7 +2338,8 @@
 		},
 		{
 			"name": "AutoSetIndentation",
-			"details": "https://github.com/jfcherng/Sublime-AutoSetIndentation",
+			"details": "https://github.com/jfcherng-sublime/ST-AutoSetIndentation",
+			"author": ["jfcherng"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2402,7 +2349,8 @@
 		},
 		{
 			"name": "AutoSetSyntax",
-			"details": "https://github.com/jfcherng/Sublime-AutoSetSyntax",
+			"details": "https://github.com/jfcherng-sublime/ST-AutoSetSyntax",
+			"author": ["jfcherng"],
 			"releases": [
 				{
 					"sublime_text": ">=3084",
@@ -2472,18 +2420,7 @@
 		},
 		{
 			"name": "AVA",
-			"details": "https://github.com/sindresorhus/sublime-ava",
-			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "AVA Standard",
-			"details": "https://github.com/sotojuan/sublime-ava-standard",
+			"details": "https://github.com/avajs/sublime-ava",
 			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
 			"releases": [
 				{
@@ -2518,7 +2455,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"sublime_text": "*",
 					"branch": "master"
 				}
@@ -2561,6 +2498,18 @@
 			"name": "AWS Lambda",
 			"details": "https://github.com/revmischa/sublime-awslambda",
 			"labels": ["aws", "lambda", "amazon"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Axios Snippets",
+			"details": "https://github.com/cvhau/sublime-axios-snippets",
+			"author": ["cvhau"],
+			"labels": ["axios", "snippets", "axios snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",

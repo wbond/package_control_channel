@@ -46,6 +46,20 @@
 			]
 		},
 		{
+			"name": "better_settings",
+			"load_order": "01",
+			"description": "Easily implement OS, Host and OS/Host-level settings aside the normal user-level settings for any plugin.",
+			"author": "KuttKatrea",
+			"issues": "https://github.com/KuttKatrea/sublime-better-settings/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/KuttKatrea/sublime-better-settings",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "boto3",
 			"load_order": "02",
 			"description": "Python boto3 module for Amazon Web Services",
@@ -55,6 +69,20 @@
 				{
 					"sublime_text": "*",
 					"base": "https://github.com/revmischa/sublime-boto3",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "bracex",
+			"load_order": "50",
+			"description": "Bracex creates arbitrary strings via brace expansion much like Bash's.",
+			"author": "facelessuser",
+			"issues": "https://github.com/facelessuser/sublime-bracex/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/facelessuser/sublime-bracex",
 					"tags": true
 				}
 			]
@@ -349,6 +377,20 @@
 			]
 		},
 		{
+			"name": "jieba",
+			"load_order": "50",
+			"description": "A Chinese text segementation lib.",
+			"author": "Jack Cherng",
+			"issues": "https://github.com/jfcherng-sublime/ST-jieba/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jfcherng-sublime/ST-jieba",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "jsonschema",
 			"load_order": "55",
 			"description": "An(other) implementation of JSON Schema for Python",
@@ -373,7 +415,7 @@
 					"base": "https://github.com/eerohele/sublime-lxml",
 					"tags": true,
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "linux-x32", "windows-x64", "windows-x32"]
+					"platforms": ["osx-x64", "linux", "windows"]
 				}
 			]
 		},
@@ -539,10 +581,10 @@
 			"load_order": "01",
 			"description": "Allow final user to disable key bindings with very few changes needed from the dev",
 			"author": "math2001",
-			"issues": "https://github.com/math2001/PackageSettingContext/issues",
+			"issues": "https://github.com/math2001/package_setting_context/issues",
 			"releases": [
 				{
-					"base": "https://github.com/math2001/PackageSettingContext",
+					"base": "https://github.com/math2001/package_setting_context",
 					"sublime_text": "*",
 					"platforms": ["*"],
 					"tags": true
@@ -645,7 +687,7 @@
 				{
 					"sublime_text": ">=3000",
 					"base": "https://github.com/packagecontrol/psutil",
-					"platforms": ["osx-x64", "windows-x32", "windows-x64", "linux-x64", "linux-x32"],
+					"platforms": ["osx-x64", "windows", "linux"],
 					"tags": true
 				}
 			]
@@ -796,10 +838,10 @@
 			"author": "randy3k",
 			"load_order": "50",
 			"description": "Pywin32 module",
-			"issues": "https://github.com/packagecontrol/sublime-pywin32/issues",
+			"issues": "https://github.com/packagecontrol/pywin32/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/sublime-pywin32",
+					"base": "https://github.com/packagecontrol/pywin32",
 					"platforms": ["windows"],
 					"tags": true,
 					"sublime_text": ">=3000"
@@ -811,10 +853,10 @@
 			"load_order": "01",
 			"description": "Python six library https://github.com/benjaminp/six",
 			"author": "jcoc611",
-			"issues": "https://github.com/jcoc611/sublime-six/issues",
+			"issues": "https://github.com/packagecontrol/sublime-six/issues",
 			"releases": [
 				{
-					"base": "https://github.com/jcoc611/sublime-six",
+					"base": "https://github.com/packagecontrol/sublime-six",
 					"tags": true,
 					"sublime_text": "*"
 				}
@@ -882,10 +924,10 @@
 			"load_order": "50",
 			"description": "Python ZMQ module",
 			"author": "randy3k",
-			"issues": "https://github.com/packagecontrol/sublime-pyzmq/issues",
+			"issues": "https://github.com/packagecontrol/pyzmq/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/sublime-pyzmq",
+					"base": "https://github.com/packagecontrol/pyzmq",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -1134,13 +1176,13 @@
 			"load_order": "51",
 			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
 			"author": "mrelusive",
-			"issues": "https://github.com/MrElusive/SublimeP4Python/issues",
+			"issues": "https://github.com/claytonlemons/SublimeP4Python/issues",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true,
-					"base": "https://github.com/MrElusive/SublimeP4Python"
+					"base": "https://github.com/claytonlemons/SublimeP4Python"
 				}
 			]
 		},
@@ -1201,6 +1243,20 @@
 			]
 		},
 		{
+			"name": "wcmatch",
+			"author": "facelessuser",
+			"load_order": "55",
+			"description": "Python wcmatch module which provides enhanced file globbing and matching",
+			"issues": "https://github.com/facelessuser/sublime-wcmatch/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-wcmatch",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "wcwidth",
 			"author": "randy3k",
 			"load_order": "10",
@@ -1219,10 +1275,10 @@
 			"load_order": "10",
 			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
 			"author": "jcoc611",
-			"issues": "https://github.com/jcoc611/sublime-websocket-client/issues",
+			"issues": "https://github.com/packagecontrol/sublime-websocket-client/issues",
 			"releases": [
 				{
-					"base": "https://github.com/jcoc611/sublime-websocket-client",
+					"base": "https://github.com/packagecontrol/sublime-websocket-client",
 					"tags": true,
 					"sublime_text": "*"
 				}
