@@ -1242,7 +1242,7 @@
 			"details": "https://github.com/mem-dev/st_plugin",
 			"releases": [
 				{
-					"sublime_text": "*", 
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1253,6 +1253,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MenuPreferences (Menu By Penguin)",
+			"details": "https://github.com/Penguin98kStudio/MenuPreferences",
+			"labels": ["Preferences", "Toggle", "File Commands"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
 				}
 			]
 		},
