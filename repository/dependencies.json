@@ -1032,6 +1032,21 @@
 			]
 		},
 		{
+			"name": "screeninfo",
+			"load_order": "99",
+			"description": "Fetch location and size of physical screens - https://github.com/rr-/screeninfo",
+			"author": "ggets",
+			"issues": "https://github.com/ggets/sublime-screeninfo/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ggets/sublime-screeninfo",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "select-windows",
 			"load_order": "02",
 			"description": "Python select module for Sublime Text 2 on Windows",
