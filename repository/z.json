@@ -34,12 +34,16 @@
 		},
 		{
 			"name": "Zeal",
-			"details": "https://github.com/vaanwd/Zeal",
-			"author": "vaanwd",
+			"details": "https://github.com/SublimeText/Zeal",
+			"author": ["vaanwd", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3170",
+					"tags": "st2-v"
+				},
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
