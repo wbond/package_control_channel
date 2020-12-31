@@ -141,6 +141,17 @@
 			]
 		},
 		{
+			"name": "GCC MAP File",
+			"details": "https://github.com/abcminiuser/sublimetext-gnu-map",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GDL",
 			"details": "https://github.com/runxel/GDL-sublime",
 			"labels": ["language syntax", "color scheme", "auto-complete"],
@@ -395,6 +406,26 @@
 			"name": "GhostText",
 			"details": "https://github.com/GhostText/GhostText-for-SublimeText",
 			"previous_names": ["ChromeTextArea"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gimp Auto-Complete Python",
+			"details": "https://github.com/civAnimal/gimp_autocomplete_python",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gimp Auto-Complete Scheme",
+			"details": "https://github.com/civAnimal/gimp_autocomplete_scheme",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -683,8 +714,12 @@
 			"labels": ["theme", "scheme", "light", "dark", "github"],
 			"releases": [
 				{
-					"sublime_text": ">=3179",
-					"tags": true
+					"sublime_text": "3179 - 4069",
+					"tags": "3179-"
+				},
+				{
+					"sublime_text": ">=4070",
+					"tags": "4070-"
 				}
 			]
 		},

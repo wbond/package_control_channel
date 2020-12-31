@@ -120,6 +120,17 @@
 			]
 		},
 		{
+			"name": "Oceanic Primal Color Scheme",
+			"details": "https://github.com/barlog-m/oceanic-primal-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ocp-indent",
 			"details": "https://github.com/bluepichu/sublime-text-ocp-indent",
 			"releases": [
@@ -949,8 +960,12 @@
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -988,6 +1003,7 @@
 		{
 			"name": "Outroot Color Schemes",
 			"details": "https://github.com/kdar/color-schemes",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",

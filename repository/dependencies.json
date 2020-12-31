@@ -160,6 +160,20 @@
 			]
 		},
 		{
+			"name": "coloraide",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "A color library.",
+			"issues": "https://github.com/facelessuser/sublime-coloraide/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-coloraide",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "concurrentloghandler",
 			"author": "evandrocoan",
 			"load_order": "09",
@@ -377,6 +391,20 @@
 			]
 		},
 		{
+			"name": "jieba",
+			"load_order": "50",
+			"description": "A Chinese text segementation lib.",
+			"author": "Jack Cherng",
+			"issues": "https://github.com/jfcherng-sublime/ST-jieba/issues",
+			"releases": [
+				{
+					"base": "https://github.com/jfcherng-sublime/ST-jieba",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "jsonschema",
 			"load_order": "55",
 			"description": "An(other) implementation of JSON Schema for Python",
@@ -385,20 +413,6 @@
 			"releases": [
 				{
 					"base": "https://github.com/kylebebak/sublime-jsonschema",
-					"tags": true,
-					"sublime_text": ">=3000"
-				}
-			]
-		},
-		{
-			"name": "lsp_utils",
-			"load_order": "10",
-			"description": "Module with LSP-related utilities",
-			"author": "rchl",
-			"issues": "https://github.com/sublimelsp/lsp_utils/issues",
-			"releases": [
-				{
-					"base": "https://github.com/sublimelsp/lsp_utils",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
