@@ -475,6 +475,17 @@
 			]
 		},
 		{
+			"name": "IncrementalDiff",
+			"details": "https://github.com/AmjadHD/sublime_incremental_diff",
+			"labels": ["diff", "diff/merge"],
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Incrementor",
 			"details": "https://github.com/eBookArchitects/Incrementor",
 			"releases": [
@@ -658,11 +669,17 @@
 		},
 		{
 			"name": "INI",
-			"details": "https://github.com/clintberry/sublime-text-2-ini",
+			"details": "https://github.com/jwortmann/ini-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/clintberry/sublime-text-2-ini",
+					"sublime_text": "<3092",
 					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

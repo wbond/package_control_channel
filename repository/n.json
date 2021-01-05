@@ -594,6 +594,7 @@
 		{
 			"name": "Nightfall color scheme",
 			"details": "https://github.com/alexeyneu/nightfall",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">3000",
@@ -1180,12 +1181,13 @@
 			]
 		},
 		{
-			"name": "Nunjucks Syntax",
-			"details": "https://github.com/jeremyfourna/sublime-nunjucks/",
-			"labels": ["language syntax", "Nunjucks"],
+			"name": "Nunjucks",
+			"details": "https://github.com/alsolovyev/Nunjucks",
+			"labels": ["nunjucks", "language syntax", "snippets"],
+			"previous_names": ["Nunjucks Syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

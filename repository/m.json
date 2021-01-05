@@ -1212,8 +1212,12 @@
 			"labels": ["theme", "scheme", "light", "dark"],
 			"releases": [
 				{
-					"sublime_text": ">=3179",
-					"tags": true
+					"sublime_text": "3179 - 4069",
+					"tags": "3179-"
+				},
+				{
+					"sublime_text": ">=4070",
+					"tags": "4070-"
 				}
 			]
 		},
@@ -1812,6 +1816,16 @@
 			]
 		},
 		{
+			"name": "MKB",
+			"details": "https://github.com/KeeMeng/MKB-Syntax-Highlighting",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MLFi",
 			"details": "https://github.com/li-vu/st-mlfi",
 			"labels": ["language syntax", "mlfi", "csml"],
@@ -2227,6 +2241,7 @@
 			"name": "Monokai Soft",
 			"details": "https://github.com/ThePythonGuy3/Monokai-Soft",
 			"description": "Light coloured dark Monokai color scheme",
+			"labels": ["color scheme"],
 			"releases": [
 			{
 				"sublime_text": ">=3149",
@@ -2789,6 +2804,7 @@
 		{
 			"name": "MySFTP",
 			"details": "https://github.com/icjmaa/MySFTP",
+			"labels": ["ftp", "sftp", "ssh", "free", "open source"],
 			"releases": [
 				{
 					"sublime_text": "*",

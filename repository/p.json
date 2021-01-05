@@ -987,6 +987,18 @@
 			]
 		},
 		{
+			"name": "PHP CBF",
+			"details": "https://github.com/andremacola/sublime-PHP_CBF",
+			"issues": "https://github.com/andremacola/sublime-PHP_CBF/issues",
+			"labels": ["php", "phpcs", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PHP Codebeautifier",
 			"details": "https://github.com/Ennosuke/PHP-Codebeautifier",
 			"releases": [
@@ -1629,7 +1641,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1714,6 +1726,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pointless",
+			"details": "https://github.com/pointless-lang/pointless-sublime/",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1809,6 +1832,7 @@
 		{
 			"name": "Poppins - Color Scheme",
 			"details": "https://github.com/praveenpuglia/color_scheme_poppins",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1916,6 +1940,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Power System Tools Syntax",
+			"details":"https://github.com/dparrini/sublime_powersystems",
+			"labels": ["language syntax", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
