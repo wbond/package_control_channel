@@ -1,18 +1,6 @@
 {
 	"schema_version": "3.0.0",
-	"packages": [		
-		{
-			"name": "My C",
-			"details": "https://github.com/Haiquan-27/Sublime-MyC",
-			"labels": ["build system"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
-					"tags": true
-				}
-			]
-		},
+	"packages": [	
 		{
 			"name": "M3U Syntax",
 			"details": "https://github.com/sal0max/sublime-m3u",
@@ -79,6 +67,18 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},	
+		{
+			"name": "My C",
+			"details": "https://github.com/Haiquan-27/Sublime-MyC",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
