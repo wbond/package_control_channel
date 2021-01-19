@@ -468,6 +468,20 @@
 			]
 		},
 		{
+			"name": "Paste Plus",
+			"details": "https://github.com/ggets/Sublime_PastePlus",
+			"readme": "https://raw.githubusercontent.com/ggets/Sublime_PastePlus/main/README.md",
+			"labels": ["text manipulation", "clipboard", "paste"],
+			"author": "GGets",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Paste to friendpaste.com",
 			"details": "https://github.com/martinsam/sublime-friendpaste",
 			"releases": [
@@ -1641,7 +1655,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1940,6 +1954,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Power System Tools Syntax",
+			"details":"https://github.com/dparrini/sublime_powersystems",
+			"labels": ["language syntax", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

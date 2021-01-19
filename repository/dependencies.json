@@ -3,6 +3,20 @@
 	"packages": [],
 	"dependencies": [
 		{
+			"name": "anytree",
+			"load_order": "01",
+			"description": "Python Anytree module - https://github.com/c0fec0de/anytree",
+			"author": "c0fec0de",
+			"issues": "https://github.com/c0fec0de/anytree/issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"base": "https://github.com/nbeversl/anytree_sublime",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "arrow",
 			"load_order": "01",
 			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
@@ -154,6 +168,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/Umoxfo/sublime-chardet",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "coloraide",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "A color library.",
+			"issues": "https://github.com/facelessuser/sublime-coloraide/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-coloraide",
 					"tags": true,
 					"sublime_text": ">=3000"
 				}
@@ -1028,6 +1056,21 @@
 					"base": "https://github.com/blitzrk/sublime_sassc",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "screeninfo",
+			"load_order": "99",
+			"description": "Fetch location and size of physical screens - https://github.com/rr-/screeninfo",
+			"author": "ggets",
+			"issues": "https://github.com/ggets/sublime-screeninfo/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ggets/sublime-screeninfo",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
 				}
 			]
 		},

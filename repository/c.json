@@ -1045,6 +1045,20 @@
 			]
 		},
 		{
+			"name": "Chromeless",
+			"details": "https://github.com/ggets/Sublime_Chromeless",
+			"readme": "https://raw.githubusercontent.com/ggets/Sublime_Chromeless/main/README.md",
+			"labels": ["window manipulation", "fullscreen", "layout", "titlebar", "title bar", "chrome"],
+			"author": "GGets",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ChromeREPL",
 			"details": "https://github.com/acarabott/ChromeREPL",
 			"releases": [
@@ -1591,14 +1605,26 @@
 					"tags": true
 				}
 			]
-		},{
+		},
+		{
+			"name": "CloudWatchLogs",
+			"details": "https://github.com/rnhurt/SublimeText-CloudWatchLogs",
+			"labels": ["aws", "cloudwatch", "logs"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CMake",
 			"details": "https://github.com/zyxar/Sublime-CMakeLists",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3154",
+					"tags": true
 				}
 			]
 		},
@@ -2001,7 +2027,7 @@
 			]
 		},
 		{
-			"name": "CodeFall Color Scheme", 
+			"name": "CodeFall Color Scheme",
 			"details": "https://github.com/EncryptEx/CodeFall",
 			"labels": ["color scheme"],
 			"releases": [
@@ -3785,7 +3811,7 @@
 		},
 		{
 			"name": "CPrettify",
-			"details": "https://github.com/Gopinath001/CPrettify-Sublime-text-3",
+			"details": "https://github.com/aghontpi/CPrettify-Sublime-text-3",
 			"labels": ["c", "prettify", "cprettify"],
 			"releases": [
 				{
@@ -4578,7 +4604,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
