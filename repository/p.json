@@ -76,11 +76,11 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": "<4084",
+					"sublime_text": "<4094",
 					"tags": "st3-v"
 				},
 				{
-					"sublime_text": ">=4084",
+					"sublime_text": ">=4094",
 					"tags": true
 				}
 			]
@@ -464,6 +464,20 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Paste Plus",
+			"details": "https://github.com/ggets/Sublime_PastePlus",
+			"readme": "https://raw.githubusercontent.com/ggets/Sublime_PastePlus/main/README.md",
+			"labels": ["text manipulation", "clipboard", "paste"],
+			"author": "GGets",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
 				}
 			]
 		},
