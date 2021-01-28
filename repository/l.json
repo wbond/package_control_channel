@@ -35,9 +35,12 @@
 		{
 			"name": "Language - Latin",
 			"description": "Latin spelling dictionary for Sublime Text",
-			"author": ["fawzisal"],
-			"details": "https://github.com/fawzisal/SublimeTextLanguageLatin",
-			"labels": ["spell check", "dictionary", "latin"],
+			"labels": ["spell check", "dictionary", "latin"]
+		},
+		{
+			"name": "Language - Mongolian",
+			"details": "https://github.com/bataak/sublime-dict-mn",
+			"labels": ["mongolian", "spell check", "hunspell", "dictionary"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -313,6 +316,17 @@
 			"name": "Laravel Helper Completions",
 			"details": "https://github.com/james2doyle/laravel-helper-completions",
 			"labels": ["laravel", "helper", "snippets", "functions", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel Lang",
+			"details": "https://github.com/mariovalney/laravel-lang-for-sublime",
+			"labels": ["laravel", "helper", "snippets", "lang", "l10n", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -742,7 +756,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -954,6 +972,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Limegrass Color Scheme",
+			"details": "https://github.com/saleh49/Limegrass",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1235,6 +1264,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "LiveServer",
+			"details": "https://github.com/molnarmark/sublime-live-server",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1576,16 +1615,6 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "linux"],
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LsBookmarks",
-			"details": "https://github.com/ibensw/LsBookmarks",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]

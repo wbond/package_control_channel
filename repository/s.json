@@ -21,6 +21,17 @@
 			]
 		},
 		{
+			"name": "SACS",
+			"details": "https://github.com/ckunte/sacs_st",
+			"labels": ["language syntax", "sacs"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Sail Color Scheme",
 			"details": "https://github.com/dennistimmermann/sail-scheme",
 			"labels": ["color scheme"],
@@ -169,7 +180,11 @@
 			"labels": ["language syntax", "scss", "sass", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2722,6 +2737,17 @@
 			]
 		},
 		{
+			"name": "Snowflake",
+			"details": "https://github.com/okeeffdp/snowflake-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Soar Tools",
 			"details": "https://github.com/garfieldnate/Sublime-Soar-Tools",
 			"labels": ["language syntax", "snippets"],
@@ -3302,6 +3328,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SPWN Language",
+			"details": "https://github.com/camden314/spwn-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -5264,6 +5300,17 @@
 			]
 		},
 		{
+			"name": "SVG Viewer",
+			"details": "https://github.com/YariKartoshe4ka/sublime-svg-viewer",
+			"labels": ["svg", "view", "image"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SVG-Snippets",
 			"details": "https://github.com/jorgeatgu/SVG-Snippets",
 			"labels": ["snippets"],
@@ -5785,6 +5832,17 @@
 		{
 			"name": "SyntaxHighlighter Reloaded Color Scheme",
 			"details": "https://github.com/unitmatrix/sublime-syntaxhighlighter",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SynthWave 84 - Color Scheme",
+			"details": "https://github.com/lucasvscn/synthwave-sublime",
 			"labels": ["color scheme"],
 			"releases": [
 				{

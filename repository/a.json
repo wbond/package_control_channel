@@ -2290,6 +2290,18 @@
 			]
 		},
 		{
+			"name": "AutoMatlab",
+			"details": "https://github.com/asparc/AutoMatlab",
+			"labels": ["auto-complete", "snippets", "documentation", "build system", "matlab"],
+			"releases": [
+				{
+					"platforms": ["windows"],
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AutoPEP8",
 			"details": "https://github.com/wistful/SublimeAutoPEP8",
 			"labels": ["linting", "formatting"],
@@ -2380,6 +2392,17 @@
 		{
 			"name": "AutoSpell",
 			"details": "https://github.com/wburningham/AutoSpell",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoSplit",
+			"details": "https://github.com/egnartsms/sublime-autosplit",
+			"author": "Serhii Mozghovyi",
 			"releases": [
 				{
 					"sublime_text": ">=3000",

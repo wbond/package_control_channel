@@ -60,10 +60,43 @@
 			]
 		},
 		{
-			"name": "TabNine",
+			"name": "Tabnine",
+			"previous_names": ["TabNine"],
 			"details": "https://github.com/codota/tabnine-sublime",
-			"author": "Codota",
-			"labels": ["auto-complete", "snippets", "python", "javascript", "typescript"],
+			"author": "Tabnine",
+			"labels": ["autocomplete",
+				"javascript",
+				"typescript",
+				"php",
+				"python",
+				"snippets",
+				"ruby",
+				"java",
+				"go",
+				"golang",
+				"bash",
+				"kotlin",
+				"html",
+				"css",
+				"ocaml",
+				"perl",
+				"rust",
+				"julia",
+				"lua",
+				"haskell",
+				"c",
+				"cpp",
+				"c++",
+				"csharp",
+				"c#",
+				"react",
+				"swift",
+				"objective-c",
+				"objectivec",
+				"ai",
+				"method completion",
+				"intellicode",
+				"intellisense"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -247,6 +280,16 @@
 			"name": "Tailwind CSS Docs",
 			"details": "https://github.com/austenc/sublime-tailwind-docs",
 			"author": "Austen Cameron",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tailwind Reorder",
+			"details": "https://github.com/54nd10/Tailwind-reorder",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1619,6 +1662,21 @@
 			]
 		},
 		{
+			"name": "Theme - One",
+			"details": "https://github.com/AmjadHD/sublime_one_theme",
+			"labels": ["theme", "color scheme", "adaptive"],
+			"releases": [
+				{
+					"sublime_text": "3200 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - One Dark",
 			"details": "https://github.com/andresmichel/one-dark-theme",
 			"labels": ["theme"],
@@ -2363,6 +2421,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "TLAPlus",
+			"details": "https://github.com/Calvin-L/sublime-tlaplus",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
