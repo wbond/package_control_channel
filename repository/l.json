@@ -34,8 +34,14 @@
 		},
 		{
 			"name": "Language - Latin",
-			"description": "Latin spelling dictionary for Sublime Text",
-			"labels": ["spell check", "dictionary", "latin"]
+			"details": "https://github.com/fawzisal/SublimeTextLanguageLatin",
+			"labels": ["spell check", "dictionary", "latin"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "Language - Mongolian",
