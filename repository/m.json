@@ -1212,8 +1212,12 @@
 			"labels": ["theme", "scheme", "light", "dark"],
 			"releases": [
 				{
-					"sublime_text": ">=3179",
-					"tags": true
+					"sublime_text": "3179 - 4069",
+					"tags": "3179-"
+				},
+				{
+					"sublime_text": ">=4070",
+					"tags": "4070-"
 				}
 			]
 		},
@@ -1242,7 +1246,7 @@
 			"details": "https://github.com/mem-dev/st_plugin",
 			"releases": [
 				{
-					"sublime_text": "*", 
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1812,6 +1816,17 @@
 			]
 		},
 		{
+			"name": "MKB",
+			"details": "https://github.com/KeeMeng/MKB-Syntax-Highlighting",
+			"labels": ["mkb", "minecraft", "language syntax", "color scheme", "auto-complete", "linting", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MLFi",
 			"details": "https://github.com/li-vu/st-mlfi",
 			"labels": ["language syntax", "mlfi", "csml"],
@@ -1914,6 +1929,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ModernFortran",
+			"details": "https://github.com/eirik-kjonstad/modern-fortran-syntax",
+			"labels": ["language syntax", "fortran"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -2314,6 +2340,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "MOOS",
+			"details": "https://github.com/oviquezr/sublime-moos",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

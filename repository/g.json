@@ -557,6 +557,17 @@
 			]
 		},
 		{
+			"name": "Git Extensions",
+			"details": "https://github.com/LinuxDevon/sublime-gitextensions",
+			"labels": ["gitextensions", "git"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Git Message Auto Save",
 			"previous_names": ["Git Commit Message Auto Save"],
 			"details": "https://github.com/franciscolourenco/sublime-git-message-auto-save",
@@ -714,8 +725,12 @@
 			"labels": ["theme", "scheme", "light", "dark", "github"],
 			"releases": [
 				{
-					"sublime_text": ">=3179",
-					"tags": true
+					"sublime_text": "3179 - 4069",
+					"tags": "3179-"
+				},
+				{
+					"sublime_text": ">=4070",
+					"tags": "4070-"
 				}
 			]
 		},
@@ -916,6 +931,17 @@
 			]
 		},
 		{
+			"name": "GLanguage",
+			"details": "https://github.com/JoseCarlosSkar/sublime-glanguage",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GlassIt",
 			"details": "https://github.com/ivellioscolin/sublime-plugin-glassit",
 			"previous_names": ["Glass It"],
@@ -923,6 +949,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": "windows",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gleam",
+			"details": "https://github.com/itsgreggreg/sublime-text-gleam",
+			"labels": ["gleam", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

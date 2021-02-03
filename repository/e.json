@@ -21,11 +21,23 @@
 			]
 		},
 		{
-			"name": "EarthboundThemes",
-			"details": "https://github.com/benbusby/earthbound-themes",
-			"readme": "https://raw.githubusercontent.com/benbusby/earthbound-themes/master/README.md",
+			"name": "Earthbound Themes",
+			"details": "https://github.com/benbusby/sublime-earthbound-themes",
+			"readme": "https://raw.githubusercontent.com/benbusby/earthbound-themes/main/README.md",
 			"author": "Ben Busby",
 			"labels": ["theme", "color scheme"],
+			"previous_names": ["EarthboundThemes"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Earthly Earthfile",
+			"details": "https://github.com/earthly/sublimetext-earthly-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -434,7 +446,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -615,7 +627,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "3092 - 4076",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4077",
 					"tags": true
 				}
 			]
@@ -922,6 +938,17 @@
 			]
 		},
 		{
+			"name": "Enaml Syntax Highlighter",
+			"details": "https://github.com/nucleic/sublime-enaml-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Energy Color Scheme",
 			"details": "https://github.com/sandralundgren/Energy-Sublime-Text-theme",
 			"labels": ["theme", "color scheme"],
@@ -1088,6 +1115,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EraBasic",
+			"details": "https://github.com/Fegelein21/sublime-erabasic",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
