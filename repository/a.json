@@ -802,18 +802,8 @@
 			]
 		},
 		{
-			"name": "AmpScript Highlighter",
-			"details": "https://github.com/seanja/ampscript-st2",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "AMPscript Syntax Highlighter",
+			"previous_names": ["AmpScript Highlighter"],
 			"details": "https://github.com/wvpv/ampscript-syntax-highlighter",
 			"labels": ["language syntax"],
 			"releases": [
@@ -822,7 +812,8 @@
 					"tags": true
 				}
 			]
-		},		{
+		},
+		{
 			"name": "AmxxEditor",
 			"details": "https://github.com/evandrocoan/AmxxEditor",
 			"labels": ["autocompletion", "auto-complete", "amxmodx", "amx mod x", "amxx", "pawn", "build system"],
