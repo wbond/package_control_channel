@@ -262,6 +262,20 @@
 			]
 		},
 		{
+			"name": "darkdetect",
+			"load_order": "01",
+			"description": "Python Darkdetect library https://github.com/albertosottile/darkdetect",
+			"author": "danielway",
+			"issues": "https://github.com/danielway/sublime-darkdetect/issues",
+			"releases": [
+				{
+					"base": "https://github.com/danielway/sublime-darkdetect",
+					"tags": true,
+					"sublime_text": "<4096"
+				}
+			]
+		},
+		{
 			"name": "dateutil",
 			"load_order": "50",
 			"description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library",
