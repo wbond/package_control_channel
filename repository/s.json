@@ -2306,12 +2306,15 @@
 		},
 		{
 			"name": "Slyblime",
-			"description": "A rich Lisp development environment by integrating Sly's functionality.",
 			"details": "https://github.com/s-clerc/slyblime",
 			"labels": ["lisp", "auto-complete", "REPL", "references"],
 			"releases": [
 				{
-					"sublime_text": ">=4079",
+					"sublime_text": ">=4099",
+					"tags": "ST-"
+				},
+				{
+					"sublime_text": "<4099",
 					"tags": true
 				}
 			]
