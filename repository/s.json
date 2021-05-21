@@ -2836,10 +2836,20 @@
 		{
 			"name": "SortBy",
 			"details": "https://github.com/Doi9t/SortBy",
+			"description": "A Sublime Text plugin that allows you to sort lines with methods that are not present by default",
+			"labels": ["sort", "sorting"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4000",
+					"tags": "st4-"
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
