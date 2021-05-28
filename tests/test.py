@@ -184,6 +184,7 @@ class TestContainer(object):
 
     rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
                       |https:// bitbucket\.org/ [^/]+/ [^/]+
+                      |https:// gitlab\.com/ [^/]+/ [^/]+
                       ) $'''
     # Strip multilines for better debug info on failures
     rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
@@ -194,6 +195,8 @@ class TestContainer(object):
                       |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
                                                              |\#tags
                                                              |/)?
+                      |https:// gitlab\.com/ [^/]+/ [^/]+ (/-/tree/ .+ (?<!/)
+                                                          |/)? (?<!\.git)
                       ) $'''
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)
@@ -324,6 +327,12 @@ class TestContainer(object):
                     self.assertNotIn(",", label,
                                      "Multiple labels should not be in the "
                                      "same string")
+
+                    # self.assertEqual(label, label.lower(),
+                    #                  "Label name must be lowercase")
+
+                self.assertCountEqual(v, list(set(v)),
+                                      "Specifying the same label multiple times is redundant")
 
             elif k == 'previous_names':
                 # Test if name is unique, against names and previous_names.
@@ -508,6 +517,17 @@ class TestContainer(object):
                 for plat in v:
                     self.assertRegex(plat,
                                      r"^(\*|(osx|linux|windows)(-x(32|64))?)$")
+
+                self.assertCountEqual(v, list(set(v)),
+                                      "Specifying the same platform multiple times is redundant")
+
+                if (("osx-x32" in v and "osx-x64" in v) or
+                    ("windows-x32" in v and "windows-x64" in v) or
+                    ("linux-x32" in v and "linux-x64" in v)):
+                    self.fail("Specifying both x32 and x64 architectures is redundant")
+
+                self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
+                                 '"osx, windows, linux" are similar to (and should be replaced by) "*"')
 
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")

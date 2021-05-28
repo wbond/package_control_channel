@@ -25,6 +25,18 @@
 			]
 		},
 		{
+			"name": "QColor",
+			"details": "https://github.com/raphaelquintao/QColor",
+			"labels": ["color", "highlight", "highlighter", "converter", "picker", "hex", "rgb","rgba", "hsla", "hsl"],
+			"author": "Raphael Quintao",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Qiita for Sublime",
 			"details": "https://github.com/blueplanet/sublime-qiita",
 			"releases": [
@@ -196,16 +208,6 @@
 			]
 		},
 		{
-			"name": "Quick Google Anno",
-			"details": "https://github.com/meloalright/quick-google-anno",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/facelessuser/QuickCal",
 			"releases": [
 				{
@@ -222,7 +224,7 @@
 				{
 					"sublime_text": "*",
 					"tags": true,
-					"platforms": ["osx", "linux", "windows"]
+					"platforms": "*"
 				}
 			]
 		},
@@ -272,6 +274,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickPuTTY",
+			"details": "https://github.com/Nikita-Panyuhin/QuickPuTTY",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -351,6 +364,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickView",
+			"details": "https://github.com/jwortmann/quick-view",
+			"labels": ["color", "image", "preview"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},

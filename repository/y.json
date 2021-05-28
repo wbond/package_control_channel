@@ -84,7 +84,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "default"
+					"branch": "master"
 				}
 			]
 		},
@@ -102,6 +102,17 @@
 			"name": "yasi-indenter",
 			"details": "https://github.com/nkmathew/sublime-yasi",
 			"labels": ["lisp", "format", "indent", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "YASMJinja2",
+			"details": "https://github.com/m-messiah/yasm-jinja2",
+			"labels": ["yasm", "jinja2", "yandex", "formatting", "syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -138,16 +149,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Yesod",
-			"details": "https://bitbucket.org/dpwiz/sublime-yesod",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "default"
 				}
 			]
 		},
@@ -219,22 +220,23 @@
 			]
 		},
 		{
+			"name": "Yosys",
+			"details": "https://github.com/YosysHQ/Sublime-Yosys",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "YouCompleteMe",
 			"details": "https://github.com/sublime-ycmd/sublime-ycmd",
 			"labels": ["auto-complete", "linting"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "YUI Compressor",
-			"details": "https://github.com/gabrielgisoldo/YUI-Compressor",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
