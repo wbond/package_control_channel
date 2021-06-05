@@ -1036,13 +1036,17 @@
 		{
 			"name": "Chromeless",
 			"details": "https://github.com/ggets/Sublime_Chromeless",
-			"readme": "https://raw.githubusercontent.com/ggets/Sublime_Chromeless/main/README.md",
 			"labels": ["window manipulation", "fullscreen", "layout", "titlebar", "title bar", "chrome"],
 			"author": "GGets",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows", "linux"],
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4096",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
