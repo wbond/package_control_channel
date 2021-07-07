@@ -950,12 +950,13 @@
 			]
 		},
 		{
-			"name": "Choice Script",
-			"details": "https://github.com/mrsonord/choicescript",
+			"name": "ChoiceScript",
+			"details": "https://github.com/fawkesy/choicescript-syntax",
+			"previous_names": ["Choice Script"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1718,12 +1719,19 @@
 			]
 		},
 		{
-			"name": "CNC SINUMERIK 840D language support",
+			"name": "CNC Sinumerik",
+			"previous_names": [
+				"CNC SINUMERIK 840D language support"
+			],
 			"details": "https://github.com/deathaxe/sublime-s840d",
 			"labels": ["language syntax", "snippets", "completion"],
 			"releases": [
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "3153 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
