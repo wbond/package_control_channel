@@ -22,11 +22,26 @@
 			]
 		},
 		{
-			"details": "https://github.com/frankban/UbuntuPaste",
+			"details": "https://github.com/3v1n0/UbuntuPaste",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "UCFHighlighter",
+			"details": "https://github.com/LDprg/UCFHighlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -51,10 +66,42 @@
 			]
 		},
 		{
+			"name": "UHM Syntax",
+			"details": "https://github.com/drzhnn/uhm-syntax-highlight",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UIkit autocomplete",
 			"details": "https://github.com/uikit/uikit-sublime",
 			"labels": ["auto-complete"],
 			"previous_names": ["UIkit class autocomplete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ultimate Dark",
+			"details": "https://github.com/rubjo/ultimate-dark",
+			"labels": ["dark", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ultimate Dark Neo",
+			"details": "https://github.com/rubjo/ultimate-dark-neo",
+			"labels": ["dark", "theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -141,6 +188,18 @@
 			]
 		},
 		{
+			"name": "Undo Close Tab",
+			"details": "https://github.com/scriptburn/sublimetext-undoclosetabs",
+			"author": "Rajneesh kumar ojha",
+			"labels": ["undo","tab"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Unicode Character Highlighter",
 			"details": "https://github.com/possan/sublime_unicode_nbsp",
 			"releases": [
@@ -182,11 +241,13 @@
 			]
 		},
 		{
-			"name": "UnicodeTeX",
-			"details": "https://github.com/neilanderson/UnicodeTeX",
+			"name": "UnicodeNormalizer",
+			"details": "https://github.com/gh640/SublimeUnicodeNormalizer",
+			"author": "Goto Hayato",
+			"labels": ["text manipulation", "unicode", "utf8"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -194,7 +255,7 @@
 		{
 			"name": "UNIFA",
 			"previous_names": ["UFA Syntax"],
-			"details": "https://github.com/msal/sublime-unifa",
+			"details": "https://github.com/sal0max/sublime-unifa",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -214,6 +275,16 @@
 		{
 			"name": "UniqueWindow",
 			"details": "https://github.com/Julow/Sublime-UniqueWindow",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unit Test File Toggler",
+			"details": "https://github.com/mjj2000/SublimeUnitTestFileToggler",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -243,13 +314,16 @@
 			]
 		},
 		{
-			"name": "Unity C# Snippets",
-			"details": "https://github.com/michelmcbride/UnitySublimeTextSnippets",
-			"labels": ["snippets"],
+			"name": "UnitTesting",
+			"details": "https://github.com/SublimeText/UnitTesting",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -271,6 +345,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unity Shader",
+			"details": "https://github.com/waqiju/unity_shader_st3",
+			"labels": ["language syntax", "auto-complete", "shader"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -332,7 +417,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -349,17 +434,41 @@
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/UnofficialDocs",
+			"name": "Unnatural",
+			"details": "https://github.com/andref/Unnatural-Sublime-Package",
+			"labels": ["language syntax", "snippets", "auto-complete" ],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Unquote",
 			"details": "https://github.com/mradamh/sublime-unquote",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unreal Shader",
+			"details": "https://github.com/hellokenlee/SublimeUnrealShader",
+			"labels": ["Shader","language syntax", "goto file", "Unreal", "UE4"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unreal Snippets",
+			"details": "https://github.com/awforsythe/sublime-unreal-snippets",
+			"labels": ["snippets", "Unreal", "UE4"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -402,12 +511,33 @@
 			"name": "Unyson Snippets",
 			"details": "https://github.com/XeCreators/Unyson-Snippets-Sublime",
 			"homepage": "http://unyson.io/",
-			"issues": "https://github.com/XeCreators/Unyson-Snippets-Sublime/issues",
 			"labels": ["snippets"],
 			"author": "xecreators",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "url-utils",
+			"details": "https://github.com/ulasozguler/sublime-url-utils",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "UrlConverter",
+			"details": "https://github.com/gh640/SublimeUrlConverter",
+			"author": "Goto Hayato",
+			"labels": ["url", "link", "html", "markdown", "restructuredtext"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -422,12 +552,77 @@
 			]
 		},
 		{
+			"name": "uroboroSQL Formatter",
+			"details": "https://github.com/future-architect/Sublime-uroboroSQL-formatter",
+			"labels": ["sql", "formatting", "formatter"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+			{
+			"name": "Urtext",
+			"details": "https://github.com/nbeversl/urtext_sublime",
+			"labels": ["plaintext","notes","writing"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "userinterface.js Snippets",
+			"details": "https://github.com/thoughtsunificator/userinterface.js-snippets-sublime",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "UseStrict",
+			"details": "https://github.com/phts/UseStrict",
+			"labels": ["javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "USFOS",
+			"details": "https://github.com/ckunte/usfos_st",
+			"labels": ["language syntax", "usfos"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "UWSC",
 			"details": "https://github.com/stuncloud/Sublime_UWSC",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "UXCore",
+			"details": "https://github.com/recurrying/uxcore-plugin-for-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		}

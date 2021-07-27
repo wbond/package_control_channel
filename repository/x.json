@@ -45,6 +45,17 @@
 			]
 		},
 		{
+			"name": "Xcode Colors",
+			"details": "https://github.com/braver/XcodeColors",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">3174",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xdebug",
 			"details": "https://github.com/Kindari/SublimeXdebug",
 			"releases": [
@@ -61,13 +72,13 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Xkcd",
-			"details": "https://github.com/eivind88/xkcd",
+			"details": "https://github.com/EivindArvesen/xkcd",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -82,6 +93,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xmake",
+			"details": "https://github.com/xmake-io/xmake-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -117,16 +138,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/Lunatrius/xmllint",
-			"labels": ["linting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "XMPFilter",
 			"details": "https://github.com/kassi/sublime-text-2-xmpfilter",
 			"releases": [
@@ -152,12 +163,12 @@
 			]
 		},
 		{
-			"name": "XpressEngine",
-			"details": "https://github.com/bnu/sublime-xpressengine",
+			"name": "XPX",
+			"details": "https://github.com/infocosme/sublime_xpx",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -231,6 +242,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XUL and XBL",
+			"details": "https://github.com/thomcc/sublime-xul-xbl",
+			"labels": ["language syntax", "gecko"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
