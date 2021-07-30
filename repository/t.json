@@ -7,7 +7,15 @@
 			"author": "Robin Malburn",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3000 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -387,6 +395,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Taskfile",
+			"details": "https://github.com/biozz/sublime-taskfile",
+			"releases": [
+				{
+					"sublime_text": ">4000",
+					"tags": true,
+					"platforms": "*"
 				}
 			]
 		},
@@ -1048,6 +1067,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Brackets",
+			"details": "https://github.com/jwortmann/brackets-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -2602,6 +2632,19 @@
 			]
 		},
 		{
+			"name": "Toggle Dark Mode",
+			"details": "https://github.com/ElMassimo/sublime-toggle-dark-mode",
+			"author": "Maximo Mussini (elmassimo)",
+			"donate": "https://paypal.me/maximomussini",
+			"labels": ["toggle", "color scheme", "dark mode", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=4096",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Toggle Delphi File",
 			"details": "https://github.com/alefragnani/toggle-delphi-file",
 			"releases": [
@@ -3247,6 +3290,17 @@
 			]
 		},
 		{
+			"name": "Trusted Coding",
+			"details": "https://bitbucket.org/madnext/trustedcodingsublime",
+			"labels": ["security", "static", "analysis", "code"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TSL Text Scraping Language",
 			"author": "Dan Borufka",
 			"details": "https://github.com/polygoat/TSL",
@@ -3542,18 +3596,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "TypeShort",
-			"details": "https://github.com/jfcherng-sublime/ST-TypeShort",
-			"author": ["jfcherng"],
-			"labels": ["snippets", "text manipulation"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

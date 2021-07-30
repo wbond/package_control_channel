@@ -869,6 +869,17 @@
 			]
 		},
 		{
+			"name": "Chinese Words Cutter",
+			"details": "https://github.com/absop/ChineseTokenizer",
+			"labels": ["chinese", "中文", "分词", "选词"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chinese-English Bilingual Dictionary",
 			"details": "https://github.com/divinites/cndict",
 			"previous_names": ["Cndict", "Youdao English-Chinese Translate"],
@@ -950,12 +961,13 @@
 			]
 		},
 		{
-			"name": "Choice Script",
-			"details": "https://github.com/mrsonord/choicescript",
+			"name": "ChoiceScript",
+			"details": "https://github.com/fawkesy/choicescript-syntax",
+			"previous_names": ["Choice Script"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1718,12 +1730,19 @@
 			]
 		},
 		{
-			"name": "CNC SINUMERIK 840D language support",
+			"name": "CNC Sinumerik",
+			"previous_names": [
+				"CNC SINUMERIK 840D language support"
+			],
 			"details": "https://github.com/deathaxe/sublime-s840d",
 			"labels": ["language syntax", "snippets", "completion"],
 			"releases": [
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "3153 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -3694,6 +3713,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Cottle",
+			"details": "https://github.com/SublimeText/Cottle",
+			"labels": ["completions", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3143",
+					"tags": "3143-"
 				}
 			]
 		},

@@ -178,6 +178,17 @@
 			]
 		},
 		{
+			"name": "Acme",
+			"details": "https://github.com/multiversecoder/Acme",
+			"labels": ["color scheme", "theme", "acme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Acme Color Scheme",
 			"details": "https://github.com/zaynali53/acme-color-scheme",
 			"labels": ["color scheme", "javascript"],
@@ -387,18 +398,6 @@
 			"previous_names": ["Oracle PL SQL"],
 			"details": "https://github.com/TheEggi/Advanced-PLSQL",
 			"labels": ["snippets", "plsql", "oracle", "build"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Advanced Substation Alpha (ASS)",
-			"details": "https://github.com/jfcherng-sublime/ST-ASS",
-			"labels": ["language syntax"],
-			"author": ["jfcherng", "FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -2369,28 +2368,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "AutoSetIndentation",
-			"details": "https://github.com/jfcherng-sublime/ST-AutoSetIndentation",
-			"author": ["jfcherng"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "AutoSetSyntax",
-			"details": "https://github.com/jfcherng-sublime/ST-AutoSetSyntax",
-			"author": ["jfcherng"],
-			"releases": [
-				{
-					"sublime_text": ">=3084",
-					"tags": true
 				}
 			]
 		},
