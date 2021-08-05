@@ -654,16 +654,6 @@
 			]
 		},
 		{
-			"name": "Peeko",
-			"details": "https://github.com/anxor/Peeko",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "PEG.js",
 			"details": "https://github.com/alexstrat/PEGjs.tmbundle",
 			"releases": [
@@ -983,6 +973,17 @@
 		{
 			"name": "Phoenix Beagle",
 			"details": "https://github.com/noma4i/sublime-phoenix-beagle",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Phoenix LiveView Snippets",
+			"details": "https://github.com/sardaukar/phoenix_liveview_snippets",
+			"labels": ["elixir", "phoenix", "liveview", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1958,6 +1959,17 @@
 			]
 		},
 		{
+			"name": "PovRay",
+			"details": "https://github.com/leoheck/sublime-povray",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Power System Tools Syntax",
 			"details":"https://github.com/dparrini/sublime_powersystems",
 			"labels": ["language syntax", "auto-complete"],
@@ -1999,11 +2011,17 @@
 			]
 		},
 		{
+			"name": "PowerShell",
 			"details": "https://github.com/SublimeText/PowerShell",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3156",
+					"tags": "version/st3155/"
+				},
+				{
+					"sublime_text": ">=3156",
+					"tags": "version/st/"
 				}
 			]
 		},
@@ -2328,6 +2346,31 @@
 			]
 		},
 		{
+			"name": "Profile Switcher",
+			"details": "https://github.com/tonsky/sublime-profiles",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["preferences"],
+			"previous_names": ["Switch Settings"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Programmatic Key Bindings",
+			"details": "https://github.com/VonHeikemen/sublime-pro-key-bindings",
+			"donate": "https://www.buymeacoffee.com/vonheikemen",
+			"labels": ["keymap"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Project PHP ClassBrowser",
 			"details": "https://github.com/degami/ProjectPHPClassBrowser",
 			"releases": [
@@ -2576,7 +2619,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Puppet",
 			"details": "https://github.com/russCloak/SublimePuppet",
@@ -3049,8 +3092,8 @@
 			"previous_names": ["Python Package to Clipboard"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -3092,6 +3135,19 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "python-black",
+			"details": "https://github.com/thep0y/python-black",
+			"labels": [
+				"formatter"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},

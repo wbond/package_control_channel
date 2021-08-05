@@ -760,6 +760,17 @@
 			]
 		},
 		{
+			"name": "Jq",
+			"details": "https://gitlab.com/jiehong/sublime_jq",
+			"labels": ["interactive", "jq"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JQ Syntax",
 			"details": "https://github.com/zogwarg/SublimeJQ",
 			"labels": ["language syntax", "jq", "stedolan"],
@@ -934,7 +945,11 @@
 			"labels": ["javascript", "syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]

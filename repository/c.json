@@ -869,6 +869,17 @@
 			]
 		},
 		{
+			"name": "Chinese Words Cutter",
+			"details": "https://github.com/absop/ChineseTokenizer",
+			"labels": ["chinese", "中文", "分词", "选词"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Chinese-English Bilingual Dictionary",
 			"details": "https://github.com/divinites/cndict",
 			"previous_names": ["Cndict", "Youdao English-Chinese Translate"],
@@ -917,17 +928,6 @@
 			]
 		},
 		{
-			"name": "ChineseTranslator",
-			"details": "https://github.com/toaol/sublime-translate",
-			"labels": ["中文", "翻译", "translate"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Chipper",
 			"details": "https://github.com/andymaster01/chipper_syntax_sublime_text",
 			"labels": ["chipper", "chip8"],
@@ -961,12 +961,13 @@
 			]
 		},
 		{
-			"name": "Choice Script",
-			"details": "https://github.com/mrsonord/choicescript",
+			"name": "ChoiceScript",
+			"details": "https://github.com/fawkesy/choicescript-syntax",
+			"previous_names": ["Choice Script"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1047,13 +1048,17 @@
 		{
 			"name": "Chromeless",
 			"details": "https://github.com/ggets/Sublime_Chromeless",
-			"readme": "https://raw.githubusercontent.com/ggets/Sublime_Chromeless/main/README.md",
 			"labels": ["window manipulation", "fullscreen", "layout", "titlebar", "title bar", "chrome"],
 			"author": "GGets",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows", "linux"],
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4096",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -1128,16 +1133,6 @@
 		{
 			"name": "CIDR Convert",
 			"details": "https://github.com/shenanigans123/cidr_convert",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "CircleCi Status",
-			"details": "https://github.com/drazisil/sublime-circleci/",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1735,12 +1730,19 @@
 			]
 		},
 		{
-			"name": "CNC SINUMERIK 840D language support",
+			"name": "CNC Sinumerik",
+			"previous_names": [
+				"CNC SINUMERIK 840D language support"
+			],
 			"details": "https://github.com/deathaxe/sublime-s840d",
 			"labels": ["language syntax", "snippets", "completion"],
 			"releases": [
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "3153 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -2494,17 +2496,6 @@
 			]
 		},
 		{
-			"name": "Color Scheme - AmyCable",
-			"details": "https://github.com/jolleyjoe/sublime-amycable-theme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Color Scheme - Baara Dark",
 			"details": "https://github.com/jobedom/sublime-baara-dark",
 			"labels": ["color scheme"],
@@ -2607,17 +2598,6 @@
 			]
 		},
 		{
-			"name": "Color Scheme - JustBeforeDawn",
-			"details": "https://github.com/jolleyjoe/sublime-justBeforeDawn-theme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Color Scheme - Legacy",
 			"details": "https://github.com/SublimeText/LegacyColorSchemes",
 			"labels": ["color scheme", "legacy"],
@@ -2649,17 +2629,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Color Scheme - saulhudson",
-			"details": "https://github.com/saulhudson/saulhudson-color-schemes",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -3684,6 +3653,17 @@
 			]
 		},
 		{
+			"name": "Coreboot syntax",
+			"details": "https://github.com/coreboot/sublime-text-coreboot-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CoreBuilder",
 			"details": "https://github.com/rodrigoangeline/CoreBuilder_SublimeText",
 			"labels": ["language syntax"],
@@ -3733,6 +3713,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Cottle",
+			"details": "https://github.com/SublimeText/Cottle",
+			"labels": ["completions", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3143",
+					"tags": "3143-"
 				}
 			]
 		},

@@ -131,6 +131,18 @@
 			]
 		},
 		{
+			"name": "webAgent",
+			"previous_names": ["WebAgent"],
+			"details": "https://github.com/seanfagan/webagent_syntax",
+			"labels": ["webagent", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WebAssembly Text Syntax",
 			"details": "https://github.com/bathos/wast-sublime-syntax",
 			"labels": [ "WASM", "WAST", "WAT", "Web Assembly", "language syntax" ],
@@ -1039,6 +1051,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Writer Color Scheme",
+			"details": "https://github.com/tonsky/sublime-scheme-writer",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

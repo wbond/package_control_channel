@@ -230,6 +230,16 @@
 			]
 		},
 		{
+			"name": "Data Wizard",
+			"details": "https://github.com/nickklaskala/DataWizard",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},		
+		{
 			"name": "Data Wrangler",
 			"details": "https://github.com/AlexLamson/DataWrangler",
 			"releases": [
@@ -378,6 +388,28 @@
 				{
 					"sublime_text": ">=4000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Debugger - 3ds Max",
+			"details": "https://github.com/blurstudio/sublime_debugger-3dsMax",
+			"releases": [
+				{
+					"sublime_text": "<4000",
+					"platforms": ["windows"],
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "Debugger - Maya",
+			"details": "https://github.com/blurstudio/sublime_debugger-maya",
+			"releases": [
+				{
+					"sublime_text": "<4000",
+					"platforms": ["windows"],
+					"tags": "st3-"
 				}
 			]
 		},
@@ -670,6 +702,16 @@
 		{
 			"name": "devebkit",
 			"details": "https://github.com/bisguzar/st3-devebkit",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Devhelp",
+			"details": "https://github.com/amezin/sublime-devhelp",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1174,17 +1216,6 @@
 			]
 		},
 		{
-			"name": "DMT",
-			"details": "https://github.com/uniqpath/SublimeDMT",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "DNS Lookups",
 			"details": "https://github.com/rcaldwel/DNS",
 			"releases": [
@@ -1321,11 +1352,6 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
-					"base": "https://github.com/mulander/DogEars",
 					"branch": "master"
 				}
 			]
@@ -1524,16 +1550,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "dpaster",
-			"details": "https://github.com/adder46/dpaster-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
