@@ -12,17 +12,6 @@
 			]
 		},
 		{
-			"name": "Vala",
-			"details": "https://github.com/Chipcius/ValaForSublime",
-			"labels": ["language syntax", "Vala"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Vala-TMBundle",
 			"details": "https://github.com/technosophos/Vala-TMBundle",
 			"labels": ["language syntax", "Vala"],
@@ -35,7 +24,7 @@
 		},
 		{
 			"name": "Vale",
-			"details": "https://github.com/ValeLint/SubVale",
+			"details": "https://github.com/errata-ai/SubVale",
 			"labels": ["linting", "prose"],
 			"releases": [
 				{
@@ -77,6 +66,17 @@
 			]
 		},
 		{
+			"name": "Vaporwave",
+			"details": "https://github.com/ishanray/Vaporwave",
+			"labels": ["color scheme", "vapor", "vaporwave"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Var Type",
 			"details": "https://github.com/mohammad6006/var-type",
 			"releases": [
@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "Varicolor",
-			"details": "https://github.com/iasEnvy/varicolor",
+			"details": "https://github.com/evan-erdos/varicolor",
 			"labels": ["highlighting","tmLanguage","sublime-syntax"],
 			"releases": [
 				{
@@ -203,16 +203,6 @@
 			]
 		},
 		{
-			"name": "Ver",
-			"details": "https://github.com/nyx-platform/ver-tmbundle",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Verbose",
 			"details": "https://github.com/Starli0n/SublimeVerbose",
 			"releases": [
@@ -276,7 +266,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/splatzgud/VGR-Assistant",
+			"details": "https://github.com/mhilborn/VGR-Assistant",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -307,6 +297,18 @@
 			]
 		},
 		{
+			"name": "View Bookmarks",
+			"details": "https://github.com/adam-zethraeus/SublimeViewBookmarks",
+			"labels": ["bookmarks", "file navigation"],
+			"previous_names": ["LsBookmarks"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "View In Browser",
 			"details": "https://github.com/adampresley/sublime-view-in-browser",
 			"releases": [
@@ -323,6 +325,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ViewSetting",
+			"details": "https://github.com/fsaad/Sublime-ViewSetting",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -361,6 +373,17 @@
 			]
 		},
 		{
+			"name": "Vimprov",
+			"details": "https://github.com/TeaUponTweed/Vimprov",
+			"labels": ["vim"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Vintage Escape",
 			"details": "https://github.com/tonymagro/VintageEscape",
 			"releases": [
@@ -371,12 +394,13 @@
 			]
 		},
 		{
-			"name": "Vintage Numbers",
-			"details": "https://github.com/ignacysokolowski/SublimeVintageNumbers",
+			"name": "Vintage Relative Lines",
+			"details": "https://github.com/bicarlsen/vintage_relnums",
+			"labels": [ "vintage", "line numbers" ],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -538,6 +562,31 @@
 			]
 		},
 		{
+			"name": "Visual studio code",
+			"description": "Open visual studio code from sublime, light integration",
+			"details": "https://github.com/stoivo/sublime-open-in-vscode",
+			"issues": "https://github.com/stoivo/sublime-open-in-vscode/issues",
+			"labels": ["vscode", "visual studio code"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Visual Studio Code Plus Scheme",
+			"details": "https://github.com/vbasky/sublime-vscode-plus",
+			"issues": "https://github.com/vbasky/sublime-vscode-plus/issues",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Visual Studio Dark",
 			"details": "https://github.com/nikeee/visual-studio-dark",
 			"labels": ["color scheme"],
@@ -561,7 +610,7 @@
 		},
 		{
 			"name": "Visualforce",
-			"details": "https://github.com/brucardoso2/sublime-visualforce",
+			"details": "https://github.com/brnrc/sublime-visualforce",
 			"author": "Bruno Cardoso",
 			"labels": ["language syntax", "auto-complete"],
 			"releases": [
@@ -605,7 +654,7 @@
 		},
 		{
 			"name": "Vn Ime",
-			"details": "https://github.com/yehnkay/VN_IME",
+			"details": "https://github.com/glmanhtu/VN_IME",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -636,10 +685,9 @@
 			]
 		},
 		{
-			"name": "Vorhees",
-			"details": "https://github.com/frankjonen/vorhees/",
-			"labels": ["color scheme", "formatting", "language syntax"],
-			"readme": "https://raw.githubusercontent.com/frankjonen/vorhees/master/README.md",
+			"name": "Voxa Framework Snippets",
+			"details": "https://github.com/wuelcas/sublime-voxa-framework-snippets",
+			"labels": ["snippets", "voxa", "alexa", "skills", "echo"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -648,9 +696,10 @@
 			]
 		},
 		{
-			"name": "Voxa Framework Snippets",
-			"details": "https://github.com/wuelcas/sublime-voxa-framework-snippets",
-			"labels": ["snippets", "voxa", "alexa", "skills", "echo"],
+			"name": "VPC Script",
+			"details": "https://github.com/GitSparTV/VPCSyntaxHighlighting",
+			"author": "Spar",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -690,7 +739,7 @@
 		},
 		{
 			"name": "Vtex Snippets",
-			"details": "https://github.com/ricardodantas/Vtex-Snippets",
+			"details": "https://github.com/ricardodantas/sublime-vtex-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -717,8 +766,12 @@
 					"tags": "oldsyntax-"
 				},
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "3153 - 3999",
 					"tags": "newsyntax-"
+				},
+				{
+					"sublime_text": ">4000",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -756,16 +809,6 @@
 		{
 			"name": "Vuejs Snippets Airbnb",
 			"details": "https://github.com/kavalcante/vuejs-snippets-airbnb-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Vuetify",
-			"details": "https://github.com/vuetifyjs/vuetify-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
