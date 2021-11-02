@@ -1,8 +1,0 @@
-sudo: false
-language: python
-python:
-  - "3.6"
-
-script:
-  - python -m unittest
-  - curl -X POST https://packagecontrol.io/test_pr/$TRAVIS_PULL_REQUEST.json || true

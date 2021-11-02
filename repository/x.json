@@ -45,12 +45,45 @@
 			]
 		},
 		{
+			"name": "Xcode Build Configuration",
+			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xcode Colors",
 			"details": "https://github.com/braver/XcodeColors",
 			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">3174",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Xcode Project",
+			"details": "https://github.com/peterthomashorn/xcode-project-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Xcode Strings",
+			"details": "https://github.com/peterthomashorn/xcode-strings-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]
@@ -78,7 +111,7 @@
 		},
 		{
 			"name": "Xkcd",
-			"details": "https://github.com/eivind88/xkcd",
+			"details": "https://github.com/EivindArvesen/xkcd",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -98,7 +131,7 @@
 		},
 		{
 			"name": "xmake",
-			"details": "https://github.com/tboox/xmake-sublime",
+			"details": "https://github.com/xmake-io/xmake-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -138,22 +171,23 @@
 			]
 		},
 		{
-			"details": "https://github.com/Lunatrius/xmllint",
-			"labels": ["linting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "XMPFilter",
 			"details": "https://github.com/kassi/sublime-text-2-xmpfilter",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xonsh",
+			"details": "https://github.com/eugenesvk/sublime-xonsh",
+			"labels": ["xonsh", "python", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -169,16 +203,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "v"
-				}
-			]
-		},
-		{
-			"name": "XpressEngine",
-			"details": "https://github.com/bnu/sublime-xpressengine",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
