@@ -5252,7 +5252,11 @@
 			"details": "https://github.com/corneliusio/svelte-sublime",
 			"releases": [
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "<4000",
+					"branch": "v3"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
