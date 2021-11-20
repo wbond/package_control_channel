@@ -473,7 +473,7 @@
 		{
 			"name": "Nftables",
 			"details": "https://github.com/HorlogeSkynet/Nftables",
-			"labels": ["firewall"],
+			"labels": ["firewall", "language syntax", "netfilter"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1145,6 +1145,18 @@
 				{
 					"sublime_text": ">=3103",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "NukeToolsST",
+			"details": "https://github.com/sisoe24/Nuke-Tools-ST",
+			"author": "virgilsisoe",
+			"labels": ["nuke", "thefoundry", "blink", "blinkscript", "python" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
