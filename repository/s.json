@@ -3474,7 +3474,12 @@
 			"labels": ["language", "syntax", "snippets", "completions", "squirrel"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/iAmRoland/Sublime-Squirrel",
+					"sublime_text": "<3092",
+					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
