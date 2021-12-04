@@ -23,6 +23,6 @@ jobs:
     steps:
       - name: Trigger package review
         # continue-on-error: true
-        run: curl -X POST https://packagecontrol.io/test_pr/$PR_NUM.json
+        run: curl --http1.1 -X POST https://packagecontrol.io/test_pr/$PR_NUM.json
         env:
           PR_NUM: ${{ github.event.pull_request.number }}
