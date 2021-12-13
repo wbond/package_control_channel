@@ -15,7 +15,7 @@ In general, make sure you:
  6. Don't ship a color scheme with our syntax. We have hundreds of
     color schemes for a reason, and plenty of scopes to make your
     syntax work.
- 7. Use `.gitattributes` to c files from your package,
+ 7. Use `.gitattributes` to exclude files from your package,
     like images, test files, sublime-project/workspace files.
     
 The manual review may take several days or weeks,
