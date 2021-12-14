@@ -29,7 +29,9 @@ My package is similar to ... However it should still be added because ...
 
 
 <!-- 
-*)   Unless it definitely really needs them and their visibility is conditional.
+*)   Unless it definitely really needs them,
+     they apply to the cursor's context
+     and their visibility is conditional.
      Space in this menu is limited!
 **)  There aren't enough keys for all packages,
      you'd risk overriding those of other packages.
