@@ -680,10 +680,15 @@
 		},
 		{
 			"name": "Jinja2",
-			"details": "https://github.com/kudago/jinja2-tmbundle",
+			"details": "https://github.com/Sublime-Instincts/BetterJinja",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/kudago/jinja2-tmbundle",
+					"sublime_text": "<4107",
+					"tags": true
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
