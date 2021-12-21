@@ -97,7 +97,7 @@
 		},
 		{
 			"name": "SAMB",
-			"description": "SAMB (server assembly framework) syntax and snippets",
+			"description" : "SAMB (server assembly framework) syntax and snippets",
 			"details": "https://github.com/cheikhshift/samb-sublime",
 			"issues": "https://github.com/cheikhshift/samb-sublime/issues",
 			"labels": ["SAMB syntax highlight", "snippets"],
@@ -161,7 +161,7 @@
 		},
 		{
 			"name": "SAS Syntax and Theme",
-			"description": "A Sublime Text 3 package for SAS syntax highlighting and the corresponding SAS Theme",
+			"description": "A Sublime Text 3 package for SAS syntax highlighting and the corresponding SAS Theme" ,
 			"details": "https://github.com/77QingLiu/SAS-Syntax-and-Theme",
 			"homepage": "https://github.com/77QingLiu/SAS-Syntax-and-Theme",
 			"labels": ["language syntax", "Theme", "build-system", "snippets"],
@@ -248,7 +248,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["windows", "osx"],
+					"platforms": ["windows","osx"],
 					"tags": true
 				}
 			]
@@ -1192,15 +1192,7 @@
 		{
 			"name": "Sesame",
 			"details": "https://github.com/gerardroche/sublime-sesame",
-			"labels": [
-				"open folders",
-				"open projects",
-				"power user",
-				"project",
-				"project management",
-				"window",
-				"workspace"
-			],
+			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
 			"previous_names": ["open-sesame"],
 			"releases": [
 				{
@@ -1279,7 +1271,7 @@
 		{
 			"name": "SEWL",
 			"details": "https://github.com/SpotonNet/sublime-sewl",
-			"labels": ["language syntax", "snippets"],
+			"labels" : ["language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1449,7 +1441,7 @@
 				}
 			]
 		},
-		{
+				{
 			"name": "ShellVE",
 			"details": "https://github.com/pykong/ShellVE",
 			"labels": ["terminal", "python", "Virtualenv"],
@@ -1686,14 +1678,7 @@
 			"name": "SideBarMenuAdvanced",
 			"details": "https://github.com/wisdman/SideBarMenuAdvanced",
 			"donate": "https://www.paypal.me/wisdman",
-			"labels": [
-				"sidebar",
-				"clipboard",
-				"utilities",
-				"folder",
-				"directory",
-				"file"
-			],
+			"labels": ["sidebar", "clipboard", "utilities", "folder", "directory", "file"],
 			"releases": [
 				{
 					"sublime_text": ">=3100",
@@ -1737,16 +1722,7 @@
 		{
 			"details": "https://github.com/321hendrik/SikuliTools",
 			"author": "Hendrik Elsner (321hendrik@gmail.com)",
-			"labels": [
-				"sikuli",
-				"gui",
-				"test",
-				"automation",
-				"app",
-				"web",
-				"image",
-				"capture"
-			],
+			"labels": ["sikuli", "gui", "test", "automation", "app", "web", "image", "capture"],
 			"releases": [
 				{
 					"platforms": ["osx"],
@@ -1814,12 +1790,10 @@
 			"author": "Adelyte Company (Taylor Zane Glaeser)",
 			"details": "https://github.com/adelyte/simpl-plus-syntax-highlight",
 			"labels": ["crestron", "simpl", "simpl plus", "splus"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
+			"releases": [{
+				"sublime_text": ">=3092",
+				"tags": true
+			}]
 		},
 		{
 			"name": "Simplates",
@@ -2120,15 +2094,7 @@
 			"buy": "http://www.sublimesix.com/buy.html",
 			"details": "https://github.com/guillermooo/six",
 			"readme": "https://raw.githubusercontent.com/guillermooo/Six/master/README.md",
-			"labels": [
-				"vim",
-				"vi",
-				"vintage",
-				"vintageous",
-				"emulation",
-				"emulator",
-				"editor emulation"
-			],
+			"labels": ["vim", "vi", "vintage", "vintageous", "emulation", "emulator", "editor emulation"],
 			"releases": [
 				{
 					"sublime_text": ">=3124",
@@ -2296,20 +2262,7 @@
 		{
 			"name": "SlideNav",
 			"details": "https://github.com/enteleform-releases/SublimeText--SlideNav",
-			"labels": [
-				"presentation",
-				"lightning talk",
-				"slide",
-				"slides",
-				"slideshow",
-				"navigation",
-				"code navigation",
-				"file manager",
-				"launcher",
-				"file launcher",
-				"open files",
-				"remote control"
-			],
+			"labels": ["presentation", "lightning talk", "slide", "slides", "slideshow", "navigation", "code navigation", "file manager", "launcher", "file launcher", "open files", "remote control"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2763,8 +2716,8 @@
 			"name": "SnipTeX",
 			"description": "A collection of 90+ LaTeX snippets",
 			"details": "https://github.com/CharbelAD/SnipTeX",
-			"labels": ["latex", "snippets"],
-			"releases": [
+			"labels": ["latex","snippets"],
+			"releases" :[
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -3188,7 +3141,7 @@
 		{
 			"name": "SpectreCSS Snippets",
 			"details": "https://github.com/code-reaper08/SpectreCSS-Sublime-Snippets",
-			"labels": ["SpectreCSS", "snippets", "snippet", "CSS"],
+			"labels": ["SpectreCSS","snippets","snippet","CSS"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3712,7 +3665,8 @@
 			"name": "Startup Files",
 			"details": "https://github.com/voltavidTony/Startup-Files",
 			"labels": ["file", "open", "startup"],
-			"releases": [
+			"releases":
+			[
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -3952,16 +3906,9 @@
 			"name": "StrapdownJS Boilerplate",
 			"details": "https://github.com/sonokamome/StrapdownJS-Boilerplate",
 			"homepage": "https://github.com/sonokamome/StrapdownJS-Boilerplate",
-			"issues": "https://github.com/sonokamome/StrapdownJS-Boilerplate/issues",
-			"readme": "https://raw.githubusercontent.com/sonokamome/StrapdownJS-Boilerplate/master/README.md",
-			"labels": [
-				"markdown",
-				"Markdown",
-				"StrapdownJS",
-				"boilerplate",
-				"snippet",
-				"snippets"
-			],
+			"issues" : "https://github.com/sonokamome/StrapdownJS-Boilerplate/issues",
+			"readme" : "https://raw.githubusercontent.com/sonokamome/StrapdownJS-Boilerplate/master/README.md",
+			"labels" : ["markdown", "Markdown", "StrapdownJS", "boilerplate", "snippet", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -4532,16 +4479,7 @@
 			"details": "https://github.com/SublimeCodeIntel/SublimeCodeIntel",
 			"homepage": "https://sublimecodeintel.github.io/",
 			"donate": "https://sublimecodeintel.github.io/donate.html",
-			"labels": [
-				"codeintel",
-				"intellisense",
-				"autocomplete",
-				"code-intel",
-				"intelli-sense",
-				"auto-complete",
-				"code navigation",
-				"snippets"
-			],
+			"labels": ["codeintel", "intellisense", "autocomplete", "code-intel", "intelli-sense", "auto-complete", "code navigation", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -5499,14 +5437,7 @@
 		{
 			"name": "Swift Format",
 			"details": "https://github.com/aerobounce/Sublime-Swift-Format",
-			"labels": [
-				"swift",
-				"format",
-				"formatting",
-				"formatter",
-				"pretty",
-				"prettify"
-			],
+			"labels": ["swift", "format", "formatting", "formatter", "pretty", "prettify"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
