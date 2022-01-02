@@ -7,7 +7,15 @@
 			"author": "Robin Malburn",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3000 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -60,10 +68,55 @@
 			]
 		},
 		{
-			"name": "TabNine",
+			"name": "TabNav",
+			"details": "https://github.com/mitchvm/tabnav",
+			"author": "Mitch Valdmanis-Miller",
+			"labels": ["text navigation", "text selection", "text", "markdown", "org mode", "textile", "csv"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tabnine",
+			"previous_names": ["TabNine"],
 			"details": "https://github.com/codota/tabnine-sublime",
-			"author": "Codota",
-			"labels": ["auto-complete", "snippets", "python", "javascript", "typescript"],
+			"author": "Tabnine",
+			"labels": ["autocomplete",
+				"javascript",
+				"typescript",
+				"php",
+				"python",
+				"snippets",
+				"ruby",
+				"java",
+				"go",
+				"golang",
+				"bash",
+				"kotlin",
+				"html",
+				"css",
+				"ocaml",
+				"perl",
+				"rust",
+				"julia",
+				"lua",
+				"haskell",
+				"c",
+				"cpp",
+				"c++",
+				"csharp",
+				"c#",
+				"react",
+				"swift",
+				"objective-c",
+				"objectivec",
+				"ai",
+				"method completion",
+				"intellicode",
+				"intellisense"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -233,6 +286,17 @@
 			]
 		},
 		{
+			"name": "Tailwind CSS",
+			"details": "https://github.com/SublimeText/TailwindCSS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4092",
+					"tags": "4092-"
+				}
+			]
+		},
+		{
 			"name": "Tailwind CSS Autocomplete",
 			"details": "https://github.com/danklammer/tailwind-sublime-autocomplete",
 			"labels": ["auto-complete"],
@@ -247,6 +311,16 @@
 			"name": "Tailwind CSS Docs",
 			"details": "https://github.com/austenc/sublime-tailwind-docs",
 			"author": "Austen Cameron",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tailwind Reorder",
+			"details": "https://github.com/54nd10/Tailwind-reorder",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -321,6 +395,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Taskfile",
+			"details": "https://github.com/biozz/sublime-taskfile",
+			"releases": [
+				{
+					"sublime_text": ">4000",
+					"tags": true,
+					"platforms": "*"
 				}
 			]
 		},
@@ -665,7 +750,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -982,6 +1067,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Brackets",
+			"details": "https://github.com/jwortmann/brackets-theme",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -1614,6 +1710,21 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - One",
+			"details": "https://github.com/AmjadHD/sublime_one_theme",
+			"labels": ["theme", "color scheme", "adaptive"],
+			"releases": [
+				{
+					"sublime_text": "3200 - 3300",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2282,6 +2393,18 @@
 			]
 		},
 		{
+			"name": "TinyCodeCounter",
+			"details": "https://github.com/gkpotter/Sublime-TinyCodeCounter",
+			"author": "Greyson Potter",
+			"labels": ["tinycode", "twitter", "p5", "p5js", "processing", "character counter"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TinyScheme Auto-Complete",
 			"details": "https://github.com/civAnimal/tinyscheme_autocomplete",
 			"releases": [
@@ -2509,6 +2632,19 @@
 			]
 		},
 		{
+			"name": "Toggle Dark Mode",
+			"details": "https://github.com/ElMassimo/sublime-toggle-dark-mode",
+			"author": "Maximo Mussini (elmassimo)",
+			"donate": "https://paypal.me/maximomussini",
+			"labels": ["toggle", "color scheme", "dark mode", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=4096",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Toggle Delphi File",
 			"details": "https://github.com/alefragnani/toggle-delphi-file",
 			"releases": [
@@ -2575,7 +2711,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2733,6 +2869,18 @@
 			"name": "Toned Color Scheme",
 			"details": "https://github.com/mariusz-kowalski/toned",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tony Water",
+			"details": "https://github.com/evercyan/tony-water",
+			"previous_names": ["subryan"],
+			"labels": ["json", "utils"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3142,6 +3290,17 @@
 			]
 		},
 		{
+			"name": "Trusted Coding",
+			"details": "https://bitbucket.org/madnext/trustedcodingsublime",
+			"labels": ["security", "static", "analysis", "code"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TSL Text Scraping Language",
 			"author": "Dan Borufka",
 			"details": "https://github.com/polygoat/TSL",
@@ -3244,8 +3403,7 @@
 		{
 			"name": "Tutkain",
 			"details": "https://github.com/eerohele/Tutkain",
-			"labels": ["clojure", "nrepl", "repl"],
-			"description": "A Sublime Text package for writing Clojure, powered by nREPL",
+			"labels": ["clojure", "repl"],
 			"releases": [
 				{
 					"sublime_text": ">=4000",
@@ -3294,7 +3452,11 @@
 					"branch": "master"
 				},
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4107",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -3438,18 +3600,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "TypeShort",
-			"details": "https://github.com/jfcherng-sublime/ST-TypeShort",
-			"author": ["jfcherng"],
-			"labels": ["snippets", "text manipulation"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

@@ -21,11 +21,23 @@
 			]
 		},
 		{
-			"name": "EarthboundThemes",
-			"details": "https://github.com/benbusby/earthbound-themes",
-			"readme": "https://raw.githubusercontent.com/benbusby/earthbound-themes/master/README.md",
+			"name": "Earthbound Themes",
+			"details": "https://github.com/benbusby/sublime-earthbound-themes",
+			"readme": "https://raw.githubusercontent.com/benbusby/earthbound-themes/main/README.md",
 			"author": "Ben Busby",
 			"labels": ["theme", "color scheme"],
+			"previous_names": ["EarthboundThemes"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Earthly Earthfile",
+			"details": "https://github.com/earthly/sublimetext-earthly-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -301,14 +313,15 @@
 			]
 		},
 		{
-			"name": "Edge Syntax Highliter",
-			"details": "https://github.com/poppinss/edge-sublime-syntax",
+			"name": "Edge templates extension",
+			"details": "https://github.com/edge-js/edge-sublime",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
 					"tags": true
 				}
-			]
+			],
+			"previous_names": ["Edge Syntax Highliter"]
 		},
 		{
 			"name": "Edge Theme",
@@ -434,7 +447,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -580,8 +593,20 @@
 			]
 		},
 		{
+			"name": "ElixirDocs",
+			"details": "https://github.com/reisub/sublime-elixir-docs",
+			"labels": ["elixir", "documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3154",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ElixirFormatter",
-			"details": "https://github.com/karolsluszniak/elixir-formatter-sublime",
+			"details": "https://github.com/myskoach/sublime-elixir-formatter",
+			"labels": ["elixir", "formatting", "mix"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -611,7 +636,7 @@
 		},
 		{
 			"name": "ElixirSyntax",
-			"details": "https://github.com/princemaple/elixir-sublime-syntax",
+			"details": "https://github.com/elixir-sublime/elixir-sublime-syntax",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1302,6 +1327,17 @@
 			]
 		},
 		{
+			"name": "Estomato",
+			"details": "https://github.com/rakibulhaq/Estomato",
+			"labels": ["text manipulation", "text selection", "aggregation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Esuna Framework Snippets",
 			"details": "https://github.com/Idered/esuna-snippets",
 			"labels": ["snippets"],
@@ -1337,16 +1373,6 @@
 			"name": "ETPL",
 			"details": "https://github.com/ecomfe/sublime-etpl",
 			"labels": ["snippets", "language", "syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Eval",
-			"details": "https://github.com/ViktorQvarfordt/Sublime-Eval",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1417,6 +1443,18 @@
 			]
 		},
 		{
+			"name": "Exact Quick Find",
+			"details": "https://github.com/aafulei/sublime-exact-quick-find",
+			"author": "Aaron Fu Lei",
+			"labels": ["search", "text navigation", "text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Exalt",
 			"details": "https://github.com/eerohele/exalt",
 			"labels": ["xml", "html", "xslt", "validation", "formatting"],
@@ -1435,6 +1473,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "EXAPUNKS",
+			"details": "https://github.com/cafuneandchill/exapunks-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1493,6 +1541,18 @@
 			"name": "exercism",
 			"previous_names": ["STexercism"],
 			"details": "https://github.com/thosgood/STexercism",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Expand and Edit",
+			"details": "https://github.com/aafulei/sublime-expand-and-edit",
+			"author": "Aaron Fu Lei",
+			"labels": ["cursors manipulation", "text manipulation", "text selection"],
 			"releases": [
 				{
 					"sublime_text": "*",

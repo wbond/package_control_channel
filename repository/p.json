@@ -76,11 +76,11 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": "<4084",
+					"sublime_text": "<4094",
 					"tags": "st3-v"
 				},
 				{
-					"sublime_text": ">=4084",
+					"sublime_text": ">=4094",
 					"tags": true
 				}
 			]
@@ -468,6 +468,20 @@
 			]
 		},
 		{
+			"name": "Paste Plus",
+			"details": "https://github.com/ggets/Sublime_PastePlus",
+			"readme": "https://raw.githubusercontent.com/ggets/Sublime_PastePlus/main/README.md",
+			"labels": ["text manipulation", "clipboard", "paste"],
+			"author": "GGets",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Paste to friendpaste.com",
 			"details": "https://github.com/martinsam/sublime-friendpaste",
 			"releases": [
@@ -630,22 +644,23 @@
 			]
 		},
 		{
+			"name": "PDML",
+			"details": "https://github.com/tajmone/Sublime-PDML",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pebble",
 			"details": "https://github.com/jbrooksuk/Sublime-Pebble",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Peeko",
-			"details": "https://github.com/anxor/Peeko",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -969,6 +984,17 @@
 		{
 			"name": "Phoenix Beagle",
 			"details": "https://github.com/noma4i/sublime-phoenix-beagle",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Phoenix LiveView Snippets",
+			"details": "https://github.com/sardaukar/phoenix_liveview_snippets",
+			"labels": ["elixir", "phoenix", "liveview", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1481,6 +1507,17 @@
 			]
 		},
 		{
+			"name": "Pieces",
+			"details": "https://bitbucket.org/cristion-pieces/plugin_sublime",
+			"labels": ["pieces", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pine",
 			"details": "https://github.com/gerardroche/sublime-pine",
 			"labels": ["language syntax"],
@@ -1944,6 +1981,17 @@
 			]
 		},
 		{
+			"name": "PovRay",
+			"details": "https://github.com/leoheck/sublime-povray",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Power System Tools Syntax",
 			"details":"https://github.com/dparrini/sublime_powersystems",
 			"labels": ["language syntax", "auto-complete"],
@@ -1985,11 +2033,17 @@
 			]
 		},
 		{
+			"name": "PowerShell",
 			"details": "https://github.com/SublimeText/PowerShell",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3156",
+					"tags": "version/st3155/"
+				},
+				{
+					"sublime_text": ">=3156",
+					"tags": "version/st/"
 				}
 			]
 		},
@@ -2230,6 +2284,17 @@
 			]
 		},
 		{
+			"name": "PrintDebugger",
+			"details": "https://github.com/futureprogrammer360/PrintDebugger",
+			"labels": ["debug", "print", "output", "log", "logs", "console"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Prisma",
 			"details": "https://github.com/prisma/sublimeText3",
 			"releases": [
@@ -2309,6 +2374,42 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Profile Switcher",
+			"details": "https://github.com/tonsky/sublime-profiles",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["preferences"],
+			"previous_names": ["Switch Settings"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Programmatic Key Bindings",
+			"details": "https://github.com/VonHeikemen/sublime-pro-key-bindings",
+			"donate": "https://www.buymeacoffee.com/vonheikemen",
+			"labels": ["keymap"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Project And Workspace Management",
+			"details": "https://github.com/tshrpl/ProjectAndWorkspaceManagement",
+			"author": "Tushar Paul",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2562,7 +2663,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Puppet",
 			"details": "https://github.com/russCloak/SublimePuppet",
@@ -2581,6 +2682,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PureBasic",
+			"details": "https://github.com/peterthomashorn/purebasic-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
 				}
 			]
 		},
@@ -2937,6 +3049,17 @@
 			]
 		},
 		{
+			"name": "Python Data Science Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Data-Science-Snippets",
+			"labels": ["snippets", "python", "data science", "auto-complete", "autocomplete", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Python Debugger",
 			"details": "https://github.com/matiasmorant/SublimeDebugger",
 			"releases": [
@@ -3035,8 +3158,8 @@
 			"previous_names": ["Python Package to Clipboard"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -3078,6 +3201,19 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "python-black",
+			"details": "https://github.com/thep0y/python-black",
+			"labels": [
+				"formatter"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},

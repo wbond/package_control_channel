@@ -178,6 +178,17 @@
 			]
 		},
 		{
+			"name": "Acme",
+			"details": "https://github.com/multiversecoder/Acme",
+			"labels": ["color scheme", "theme", "acme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Acme Color Scheme",
 			"details": "https://github.com/zaynali53/acme-color-scheme",
 			"labels": ["color scheme", "javascript"],
@@ -395,18 +406,6 @@
 			]
 		},
 		{
-			"name": "Advanced Substation Alpha (ASS)",
-			"details": "https://github.com/jfcherng-sublime/ST-ASS",
-			"labels": ["language syntax"],
-			"author": ["jfcherng", "FichteFoll"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "AdvancedNewFile",
 			"details": "https://github.com/skuroda/Sublime-AdvancedNewFile",
 			"releases": [
@@ -578,6 +577,17 @@
 			]
 		},
 		{
+			"name": "Algo2-TADs",
+			"details": "https://github.com/Sponja-/Algo2-Sintaxis-TAD-st3",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Align Arguments",
 			"details": "https://github.com/denniskempin/align-arguments",
 			"labels": ["formatting"],
@@ -624,6 +634,17 @@
 			]
 		},
 		{
+			"name": "Alpen Color Scheme",
+			"details": "https://github.com/luxelego/alpen_color_scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Alphanumeric Markdown Footnote",
 			"details": "https://github.com/TehShrike/Sublime-AlphanumericMarkdownFootnote",
 			"releases": [
@@ -642,7 +663,7 @@
 					"branch": "master"
 				}
 			]
-		},
+		},	
 		{
 			"name": "Alrighty Snippets",
 			"details": "https://github.com/alrighty/alrighty-snippets-sublime",
@@ -802,13 +823,14 @@
 			]
 		},
 		{
-			"name": "AmpScript Highlighter",
-			"details": "https://github.com/seanja/ampscript-st2",
+			"name": "AMPscript Syntax Highlighter",
+			"previous_names": ["AmpScript Highlighter"],
+			"details": "https://github.com/wvpv/ampscript-syntax-highlighter",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1566,6 +1588,17 @@
 			]
 		},
 		{
+			"name": "Architect",
+			"details": "https://github.com/architect/sublime-package",
+			"labels": ["language syntax", "architect"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ArcticTypescript",
 			"details": "https://github.com/Phaiax/ArcticTypescript",
 			"releases": [
@@ -1846,11 +1879,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/danielsd/ASPComment",
+			"details": "https://github.com/daniel-dara/ASPComment",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1902,6 +1935,17 @@
 			"name": "Asterisk Extended Language",
 			"details": "https://github.com/shakvaal/AEL_syntax",
 			"labels": ["language syntax", "asterisk", "AEL"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Astro",
+			"details": "https://github.com/Destiner/sublime-astro",
+			"labels": ["language syntax", "astro"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2022,6 +2066,18 @@
 			"name": "Attribute Grammar",
 			"details": "https://github.com/TiborIntelSoft/SublimeUUAGC",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Auro Color Scheme",
+			"previous_names": ["Auro Color scheme"],
+			"details": "https://github.com/Ryan-da-ghost/Auro-theme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2245,6 +2301,17 @@
 			]
 		},
 		{
+			"name": "AutoIt Plys",
+			"details": "https://github.com/NSUSpray/AutoItPlysSublime",
+			"labels": ["auto-complete", "build system", "language syntax", "snippets", "autoit"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AutoItScript",
 			"details": "https://github.com/AutoIt/SublimeAutoItScript",
 			"releases": [
@@ -2335,7 +2402,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2345,28 +2412,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "AutoSetIndentation",
-			"details": "https://github.com/jfcherng-sublime/ST-AutoSetIndentation",
-			"author": ["jfcherng"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "AutoSetSyntax",
-			"details": "https://github.com/jfcherng-sublime/ST-AutoSetSyntax",
-			"author": ["jfcherng"],
-			"releases": [
-				{
-					"sublime_text": ">=3084",
-					"tags": true
 				}
 			]
 		},
@@ -2392,6 +2437,17 @@
 		{
 			"name": "AutoSpell",
 			"details": "https://github.com/wburningham/AutoSpell",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoSplit",
+			"details": "https://github.com/egnartsms/sublime-autosplit",
+			"author": "Serhii Mozghovyi",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2457,6 +2513,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Avrae Utilities",
+			"details": "https://github.com/Croebh/avrae-sublime",
+			"labels": ["avrae", "language syntax", "utilities"],
+			"author": "Joseph Keen (Croebh)",
+			"donate": "https://ko-fi.com/croebh",
+			"releases": [
+				{
+					"sublime_text": ">=3093",
 					"tags": true
 				}
 			]

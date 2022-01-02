@@ -30,7 +30,11 @@
 			"labels": ["language syntax", "javascript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -260,6 +264,17 @@
 				"snippets",
 				"language syntax"
 			],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BBC BASIC Syntax",
+			"details": "https://github.com/gerph/sublimetext-bbcbasic-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -600,7 +615,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"branch": "main"
 				}
 			]
 		},
@@ -724,6 +739,17 @@
 			]
 		},
 		{
+			"name": "Bicep",
+			"details": "https://github.com/rwols/sublime-bicep",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bidirectional text support",
 			"details": "https://github.com/praveenvijayan/Sublime-Text-2-BIDI",
 			"releases": [
@@ -781,6 +807,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "BinViewer",
+			"details": "https://github.com/AetelFinch/BinViewer",
+			"labels": ["binary notation", "bin"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -950,6 +987,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "blif_sis",
+			"details": "https://github.com/mario33881/sublime-blif_sis",
+			"labels": ["auto-complete", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1581,6 +1629,17 @@
 			]
 		},
 		{
+			"name": "Buildview",
+			"previous_names": ["sublime-text-2-buildview", "sublime-text-buildview"],
+			"details": "https://github.com/rctay/sublime-text-buildview",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BuildX",
 			"details": "https://github.com/cj1128/sublime-buildx",
 			"releases": [
@@ -1619,6 +1678,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bunch",
+			"details": "https://github.com/ttscoff/Sublime-Bunch",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]

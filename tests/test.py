@@ -184,6 +184,7 @@ class TestContainer(object):
 
     rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
                       |https:// bitbucket\.org/ [^/]+/ [^/]+
+                      |https:// gitlab\.com/ [^/]+/ [^/]+
                       ) $'''
     # Strip multilines for better debug info on failures
     rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
@@ -194,6 +195,8 @@ class TestContainer(object):
                       |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
                                                              |\#tags
                                                              |/)?
+                      |https:// gitlab\.com/ [^/]+/ [^/]+ (/-/tree/ .+ (?<!/)
+                                                          |/)? (?<!\.git)
                       ) $'''
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)

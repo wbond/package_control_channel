@@ -45,12 +45,34 @@
 			]
 		},
 		{
+			"name": "Xcode Build Configuration",
+			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xcode Colors",
 			"details": "https://github.com/braver/XcodeColors",
 			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">3174",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Xcode Project",
+			"details": "https://github.com/peterthomashorn/xcode-project-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]
@@ -144,6 +166,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xonsh",
+			"details": "https://github.com/eugenesvk/sublime-xonsh",
+			"labels": ["xonsh", "python", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},

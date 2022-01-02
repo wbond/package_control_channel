@@ -215,6 +215,17 @@
 			]
 		},
 		{
+			"name": "Nelua",
+			"details": "https://github.com/edubart/nelua-sublime",
+			"labels": ["nelua", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nemerle",
 			"details": "https://github.com/xeno-by/sublime-nemerle",
 			"releases": [
@@ -440,7 +451,7 @@
 		},
 		{
 			"name": "nextflow",
-			"details": "https://github.com/peterk87/sublime-nextflow",
+			"details": "https://github.com/nf-core/sublime",
 			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
@@ -462,7 +473,7 @@
 		{
 			"name": "Nftables",
 			"details": "https://github.com/HorlogeSkynet/Nftables",
-			"labels": ["firewall"],
+			"labels": ["firewall", "language syntax", "netfilter"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -626,8 +637,8 @@
 		},
 		{
 			"name": "NimLime",
-			"details": "https://github.com/Varriount/NimLime",
-			"labels": ["nimrod", "language syntax", "completions"],
+			"details": "https://github.com/nim-lang/NimLime",
+			"labels": ["nim", "language syntax", "completions"],
 			"previous_names": ["Nimrod"],
 			"releases": [
 				{
@@ -1138,6 +1149,18 @@
 			]
 		},
 		{
+			"name": "NukeToolsST",
+			"details": "https://github.com/sisoe24/Nuke-Tools-ST",
+			"author": "virgilsisoe",
+			"labels": ["nuke", "thefoundry", "blink", "blinkscript", "python" ],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Number King",
 			"details": "https://github.com/hktonylee/SublimeNumberKing",
 			"labels": ["number manipulation", "batch processing", "spreadsheet", "big data", "mathematical operations"],
@@ -1181,12 +1204,13 @@
 			]
 		},
 		{
-			"name": "Nunjucks Syntax",
-			"details": "https://github.com/jeremyfourna/sublime-nunjucks/",
-			"labels": ["language syntax", "Nunjucks"],
+			"name": "Nunjucks",
+			"details": "https://github.com/alsolovyev/Nunjucks",
+			"labels": ["nunjucks", "language syntax", "snippets"],
+			"previous_names": ["Nunjucks Syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
