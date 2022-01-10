@@ -2363,8 +2363,13 @@
 			"releases": [
 				{
 					"platforms": ["windows"],
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
 					"tags": true
+				},
+				{
+					"platforms": ["windows"],
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},
