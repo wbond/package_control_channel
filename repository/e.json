@@ -21,14 +21,38 @@
 			]
 		},
 		{
-			"name": "EarthboundThemes",
-			"details": "https://github.com/benbusby/earthbound-themes",
-			"readme": "https://raw.githubusercontent.com/benbusby/earthbound-themes/master/README.md",
+			"name": "Earthbound Themes",
+			"details": "https://github.com/benbusby/sublime-earthbound-themes",
+			"readme": "https://raw.githubusercontent.com/benbusby/earthbound-themes/main/README.md",
 			"author": "Ben Busby",
 			"labels": ["theme", "color scheme"],
+			"previous_names": ["EarthboundThemes"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Earthly Earthfile",
+			"details": "https://github.com/earthly/sublimetext-earthly-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Easy CP",
+			"details": "https://github.com/RohitMazumder/EasyCP",
+			"labels" : ["competitive-programming","test","cp","web-scrapping","java","python","c++"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -69,7 +93,7 @@
 		},
 		{
 			"name": "Easy Siebel",
-			"details": "https://github.com/ouzklcn/Easy-Siebel",
+			"details": "https://github.com/oguzkilcan/Easy-Siebel",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
@@ -115,7 +139,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3070",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -146,16 +170,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Easygit",
-			"details": "https://github.com/Ivanca/easygit",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -195,6 +209,17 @@
 			]
 		},
 		{
+			"name": "EasyWinPath",
+			"details": "https://github.com/DeusDeorum1/EasyWinPath",
+			"labels": ["win", "files", "path", "escape", "backslash"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EasyWorkspace",
 			"details": "https://github.com/jmooney/EasyWorkspace-sublime",
 			"labels": ["workspace", "files", "project"],
@@ -228,7 +253,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/phildopus/EclipseJavaFormatter",
+			"details": "https://github.com/i-am-a-paull/EclipseJavaFormatter",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -288,14 +313,15 @@
 			]
 		},
 		{
-			"name": "Edge Syntax Highliter",
-			"details": "https://github.com/poppinss/edge-sublime-syntax",
+			"name": "Edge templates extension",
+			"details": "https://github.com/edge-js/edge-sublime",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
 					"tags": true
 				}
-			]
+			],
+			"previous_names": ["Edge Syntax Highliter"]
 		},
 		{
 			"name": "Edge Theme",
@@ -400,13 +426,28 @@
 			]
 		},
 		{
+			"name": "Editmode",
+			"author": "Tony Ennis",
+			"description" : "Send text to the editmode API & insert a snippet in its place.",
+			"details": "https://github.com/tonyennis145/editmode-sublime",
+			"issues": "https://github.com/tonyennis145/editmode-sublime/issues",
+			"labels": ["snippets", "utilities"],
+			"previous_names": ["Chunks"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EditorConfig",
 			"details": "https://github.com/sindresorhus/editorconfig-sublime",
 			"labels": ["linting", "text manipulation", "formatting", "code style", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -543,7 +584,7 @@
 		},
 		{
 			"name": "Elixir",
-			"details": "https://github.com/elixir-lang/elixir-tmbundle",
+			"details": "https://github.com/elixir-editors/elixir-tmbundle",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -552,8 +593,20 @@
 			]
 		},
 		{
+			"name": "ElixirDocs",
+			"details": "https://github.com/reisub/sublime-elixir-docs",
+			"labels": ["elixir", "documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3154",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ElixirFormatter",
-			"details": "https://github.com/karolsluszniak/elixir-formatter-sublime",
+			"details": "https://github.com/myskoach/sublime-elixir-formatter",
+			"labels": ["elixir", "formatting", "mix"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -583,11 +636,15 @@
 		},
 		{
 			"name": "ElixirSyntax",
-			"details": "https://github.com/princemaple/elixir-sublime-syntax",
+			"details": "https://github.com/elixir-sublime/elixir-sublime-syntax",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "3092 - 4076",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4077",
 					"tags": true
 				}
 			]
@@ -819,16 +876,6 @@
 			]
 		},
 		{
-			"name": "Emmet",
-			"details": "https://github.com/sergeche/emmet-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Emmet Css Snippets",
 			"details": "https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2",
 			"labels": ["snippets"],
@@ -900,6 +947,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Enaml Syntax Highlighter",
+			"details": "https://github.com/nucleic/sublime-enaml-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1010,17 +1068,6 @@
 			]
 		},
 		{
-			"name": "Entropy",
-			"details": "https://bitbucket.org/demandware/entropy",
-			"labels": ["demandware"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Entypo Completions",
 			"details": "https://github.com/jbrooksuk/SublimeEntypoCompletions",
 			"labels": ["auto-complete"],
@@ -1028,17 +1075,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Environment Settings",
-			"details": "https://bitbucket.org/daniele-niero/environmentsettings",
-			"labels": ["environment", "variables", "project"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -1087,21 +1123,22 @@
 			]
 		},
 		{
-			"name": "EPM",
-			"details": "https://github.com/ethereum-package-manager/epm-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Equalize",
 			"details": "https://github.com/mycelo1/equalize",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EraBasic",
+			"details": "https://github.com/Fegelein21/sublime-erabasic",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1160,7 +1197,7 @@
 		},
 		{
 			"name": "ES6-Toolkit",
-			"details": "https://github.com/Stephn-R/ES6-Toolkit-for-Sublime",
+			"details": "https://github.com/stephnr/es6-toolkit-for-sublime",
 			"labels": ["javascript", "snippets", "precompiler", "es2015", "ecmascript6"],
 			"releases": [
 				{
@@ -1236,7 +1273,7 @@
 		},
 		{
 			"name": "ESLintAutoFix",
-			"details": "https://github.com/a324539017/eslintAutoFix",
+			"details": "https://github.com/alex-mm/eslintAutoFix",
 			"labels": ["javascript", "eslint", "autoFix", "formatter"],
 			"releases": [
 				{
@@ -1290,6 +1327,17 @@
 			]
 		},
 		{
+			"name": "Estomato",
+			"details": "https://github.com/rakibulhaq/Estomato",
+			"labels": ["text manipulation", "text selection", "aggregation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Esuna Framework Snippets",
 			"details": "https://github.com/Idered/esuna-snippets",
 			"labels": ["snippets"],
@@ -1325,16 +1373,6 @@
 			"name": "ETPL",
 			"details": "https://github.com/ecomfe/sublime-etpl",
 			"labels": ["snippets", "language", "syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Eval",
-			"details": "https://github.com/ViktorQvarfordt/Sublime-Eval",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1384,17 +1422,6 @@
 			]
 		},
 		{
-			"name": "EvercodeLab Sublime Snippets",
-			"details": "https://github.com/EvercodeLab/evercodelab-sublime-snippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Evernote",
 			"details": "https://github.com/bordaigorl/sublime-evernote",
 			"labels": ["evernote", "markdown"],
@@ -1416,13 +1443,25 @@
 			]
 		},
 		{
+			"name": "Exact Quick Find",
+			"details": "https://github.com/aafulei/sublime-exact-quick-find",
+			"author": "Aaron Fu Lei",
+			"labels": ["search", "text navigation", "text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Exalt",
 			"details": "https://github.com/eerohele/exalt",
 			"labels": ["xml", "html", "xslt", "validation", "formatting"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"],
+					"platforms": ["osx-x64", "linux-x64", "windows"],
 					"tags": true
 				}
 			]
@@ -1434,6 +1473,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "EXAPUNKS",
+			"details": "https://github.com/cafuneandchill/exapunks-syntax",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1500,6 +1549,18 @@
 			]
 		},
 		{
+			"name": "Expand and Edit",
+			"details": "https://github.com/aafulei/sublime-expand-and-edit",
+			"author": "Aaron Fu Lei",
+			"labels": ["cursors manipulation", "text manipulation", "text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Expand Group",
 			"details": "https://github.com/evanliomain/sublime-ExpandGroup",
 			"labels": ["coding", "group", "expand"],
@@ -1537,6 +1598,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Expand Selection to Line Upwards",
+			"details": "https://github.com/aafulei/sublime-expand-selection-to-line-upwards",
+			"author": "Aaron Fu Lei",
+			"labels": ["expand selection", "text selection"],
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

@@ -24,17 +24,6 @@
 			]
 		},
 		{
-			"name": "Z80 Assembly (RGBDS)",
-			"details": "https://github.com/shinmai/sublime_z80_rgbds",
-			"labels": ["language syntax", "z80", "assembly"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://bitbucket.org/abraly/zap-gremlins",
 			"releases": [
 				{
@@ -45,12 +34,16 @@
 		},
 		{
 			"name": "Zeal",
-			"details": "https://github.com/vaanwd/Zeal",
-			"author": "vaanwd",
+			"details": "https://github.com/SublimeText/Zeal",
+			"author": ["vaanwd", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3170",
+					"tags": "st2-v"
+				},
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
@@ -111,11 +104,13 @@
 			]
 		},
 		{
-			"details": "https://github.com/mimopo/ZenGarden",
+			"name": "Zenburn Color Scheme",
+			"details": "https://github.com/ryanolsonx/sublimetext-zenburn-theme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -142,7 +137,7 @@
 		},
 		{
 			"name": "Zephir",
-			"details": "https://github.com/phalcon/zephir-sublime",
+			"details": "https://github.com/zephir-lang/zephir-sublime",
 			"author": "The Phalcon Team",
 			"labels": ["language syntax"],
 			"releases": [
@@ -165,7 +160,7 @@
 		},
 		{
 			"name": "Zig Language",
-			"details": "https://github.com/zig-lang/sublime-zig-language",
+			"details": "https://github.com/ziglang/sublime-zig-language",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -181,6 +176,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ZipContents",
+			"details": "https://github.com/mawelborn/ZipContents",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -269,19 +274,8 @@
 			]
 		},
 		{
-			"name": "Zucchini",
-			"details": "https://github.com/zucchini-src/zucchini.tmbundle",
-			"labels": ["language syntax", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Zurb Foundation",
-			"details": "https://github.com/rony09/Sublime-Foundation",
+			"details": "https://github.com/ronydebnath/Sublime-Foundation",
 			"labels": ["automation", "utils"],
 			"releases": [
 				{
