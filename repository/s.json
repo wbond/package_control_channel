@@ -2550,6 +2550,17 @@
 			]
 		},
 		{
+			"name": "SMPL",
+			"details": "https://github.com/ofekih/smpl-sublime",
+			"labels": ["smpl", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Snake",
 			"details": "https://github.com/jonfinerty/sublime-snake",
 			"releases": [
@@ -3932,6 +3943,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Strings Resource File",
+			"previous_names": ["Xcode Strings"],
+			"details": "https://github.com/peterthomashorn/strings-resource-file-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
 					"tags": true
 				}
 			]

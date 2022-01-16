@@ -1353,7 +1353,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
+					"platforms": ["windows", "osx"],
 					"tags": true
 				}
 			]
@@ -1841,6 +1841,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FullwidthTabSpaces",
+			"details": "https://github.com/woodmix/FullwidthTabSpaces",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
