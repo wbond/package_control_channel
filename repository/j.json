@@ -657,6 +657,17 @@
 			]
 		},
 		{
+			"name": "Jester",
+			"details": "https://github.com/absszero/sublime_jester",
+			"labels": ["JavaScript", "jest", "testing", "tdd"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JetJet Color Scheme",
 			"details": "https://github.com/JetJet13/jetjet_theme_sublime",
 			"labels": [ "color scheme" ],
@@ -680,10 +691,15 @@
 		},
 		{
 			"name": "Jinja2",
-			"details": "https://github.com/kudago/jinja2-tmbundle",
+			"details": "https://github.com/Sublime-Instincts/BetterJinja",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/kudago/jinja2-tmbundle",
+					"sublime_text": "<4107",
+					"tags": true
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]

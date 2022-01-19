@@ -78,6 +78,17 @@
 			]
 		},
 		{
+			"name": "DailyOrganizer",
+			"details": "https://github.com/mremallin/DailyOrganizer",
+			"labels": ["productivity"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dank Neon",
 			"details": "https://github.com/DankNeon/sublime",
 			"author": ["jpetrucciani", "wuz"],
@@ -808,6 +819,17 @@
 			]
 		},
 		{
+			"name": "Dictionary",
+			"details": "https://github.com/futureprogrammer360/Dictionary",
+			"labels": ["dictionary"],
+			"releases": [
+				{
+					"sublime_text": ">=3080",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/Zinggi/DictionaryAutoComplete",
 			"releases": [
 				{
@@ -915,10 +937,11 @@
 		},
 		{
 			"name": "Direnv",
-			"details": "https://github.com/zchee/sublime-direnv",
+			"details": "https://github.com/misuzu/direnv-subl",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3155",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
