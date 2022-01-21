@@ -131,6 +131,18 @@
 			]
 		},
 		{
+			"name": "webAgent",
+			"previous_names": ["WebAgent"],
+			"details": "https://github.com/seanfagan/webagent_syntax",
+			"labels": ["webagent", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WebAssembly Text Syntax",
 			"details": "https://github.com/bathos/wast-sublime-syntax",
 			"labels": [ "WASM", "WAST", "WAT", "Web Assembly", "language syntax" ],
@@ -656,7 +668,7 @@
 		},
 		{
 			"name": "WolframLanguage",
-			"details": "https://github.com/ViktorQvarfordt/Sublime-WolframLanguage",
+			"details": "https://github.com/WolframResearch/Sublime-WolframLanguage",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -954,6 +966,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Wrap",
+			"details": "https://github.com/futureprogrammer360/Wrap",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

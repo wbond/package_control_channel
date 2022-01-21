@@ -2,6 +2,17 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "V",
+			"details": "https://github.com/elliotchance/vlang-sublime",
+			"labels": ["language syntax", "v", "vlang"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Vagrant",
 			"details": "https://github.com/Stubbs/sublime-vagrant",
 			"releases": [
@@ -394,6 +405,17 @@
 			]
 		},
 		{
+			"name": "Vintage Relative Lines",
+			"details": "https://github.com/bicarlsen/vintage_relnums",
+			"labels": [ "vintage", "line numbers" ],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Vintage Solid Caret",
 			"details": "https://github.com/muffinmad/VintageSolidCaret",
 			"author": "muffinmad",
@@ -621,17 +643,6 @@
 			]
 		},
 		{
-			"name": "VisualizeZeroWidthChars",
-			"details": "https://github.com/jfcherng-sublime/ST-VisualizeZeroWidthChars",
-			"author": ["jfcherng"],
-			"releases": [
-				{
-					"sublime_text": ">=3118",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Vlt",
 			"details": "https://github.com/tomalec/Sublime-Text-2-Vlt-Plugin",
 			"releases": [
@@ -688,6 +699,18 @@
 			"name": "Voxa Framework Snippets",
 			"details": "https://github.com/wuelcas/sublime-voxa-framework-snippets",
 			"labels": ["snippets", "voxa", "alexa", "skills", "echo"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "VPC Script",
+			"details": "https://github.com/GitSparTV/VPCSyntaxHighlighting",
+			"author": "Spar",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -754,8 +777,12 @@
 					"tags": "oldsyntax-"
 				},
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "3153 - 3999",
 					"tags": "newsyntax-"
+				},
+				{
+					"sublime_text": ">4000",
+					"tags": "st4-"
 				}
 			]
 		},

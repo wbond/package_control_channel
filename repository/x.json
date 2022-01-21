@@ -45,6 +45,18 @@
 			]
 		},
 		{
+			"name": "Xcode Build Configuration and Project Syntax Definitions",
+			"previous_names": ["Xcode Build Configuration", "Xcode Project"],
+			"details": "https://github.com/peterthomashorn/xcode-languages-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xcode Colors",
 			"details": "https://github.com/braver/XcodeColors",
 			"labels": ["color scheme"],
@@ -144,6 +156,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xonsh",
+			"details": "https://github.com/eugenesvk/sublime-xonsh",
+			"labels": ["xonsh", "python", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},

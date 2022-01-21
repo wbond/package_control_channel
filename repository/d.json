@@ -78,6 +78,17 @@
 			]
 		},
 		{
+			"name": "DailyOrganizer",
+			"details": "https://github.com/mremallin/DailyOrganizer",
+			"labels": ["productivity"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dank Neon",
 			"details": "https://github.com/DankNeon/sublime",
 			"author": ["jpetrucciani", "wuz"],
@@ -226,6 +237,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Data Wizard",
+			"details": "https://github.com/nickklaskala/DataWizard",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -444,19 +465,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "DeepCodeAI",
-			"details": "https://github.com/DeepCodeAI/sublime-plugin",
-			"labels": ["code analysis", "security", "typescript", "javascript", "java", "python", "c/cpp"],
-			"homepage": "https://www.deepcode.ai",
-			"donate": null,
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -700,6 +708,16 @@
 			]
 		},
 		{
+			"name": "Devhelp",
+			"details": "https://github.com/amezin/sublime-devhelp",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Devicetree DTS Highlighting",
 			"details": "https://github.com/fallrisk/devicetree-highlighter",
 			"donate": "https://paypal.me/jwatson5",
@@ -796,6 +814,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Dictionary",
+			"details": "https://github.com/futureprogrammer360/Dictionary",
+			"labels": ["dictionary"],
+			"releases": [
+				{
+					"sublime_text": ">=3080",
 					"tags": true
 				}
 			]
@@ -908,10 +937,11 @@
 		},
 		{
 			"name": "Direnv",
-			"details": "https://github.com/zchee/sublime-direnv",
+			"details": "https://github.com/misuzu/direnv-subl",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3155",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]

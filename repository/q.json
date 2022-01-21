@@ -279,7 +279,8 @@
 		},
 		{
 			"name": "QuickPuTTY",
-			"details": "https://github.com/Nikita-Panyuhin/QuickPuTTY",
+			"details": "https://github.com/npanuhin/QuickPuTTY",
+			"labels": ["ssh", "putty"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -359,11 +360,33 @@
 			]
 		},
 		{
+			"name": "QuickTemplate (Go)",
+			"details": "https://github.com/SharanSharathi/sublime_qtpl",
+			"labels": ["template", "go", "qtpl", "syntax", "auto-complete", "build-system"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/chrislongo/QuickThemes",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickView",
+			"details": "https://github.com/jwortmann/quick-view",
+			"labels": ["color", "image", "preview"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
