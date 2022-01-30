@@ -414,12 +414,13 @@
 		},
 		{
 			"name": "Scheme",
-			"details": "https://github.com/egrachev/sublime-scheme",
-			"labels": ["language syntax", "snippets"],
+			"details": "https://github.com/absop/ST-Scheme",
+			"labels": ["language syntax", "snippets", "formatting", "formatter", "code navigation", "build system", "lisp"],
+			"author": ["absop", "jfcherng"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4099",
+					"tags": true
 				}
 			]
 		},
