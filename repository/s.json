@@ -414,12 +414,13 @@
 		},
 		{
 			"name": "Scheme",
-			"details": "https://github.com/egrachev/sublime-scheme",
-			"labels": ["language syntax", "snippets"],
+			"details": "https://github.com/absop/ST-Scheme",
+			"labels": ["language syntax", "snippets", "formatting", "formatter", "code navigation", "build system", "lisp"],
+			"author": ["absop", "jfcherng"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4099",
+					"tags": true
 				}
 			]
 		},
@@ -3491,12 +3492,12 @@
 		},
 		{
 			"name": "Squirrel",
-			"details": "https://github.com/iAmRoland/Sublime-Squirrel",
-			"author": ["micheg", "Roland Piirsoo"],
+			"details": "https://github.com/Enduriel/Sublime-Squirrel",
+			"author": ["Enduriel", "micheg", "Roland Piirsoo"],
 			"labels": ["language", "syntax", "snippets", "completions", "squirrel"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
