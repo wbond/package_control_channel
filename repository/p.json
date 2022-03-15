@@ -2319,12 +2319,17 @@
 		},
 		{
 			"name": "Prisma",
-			"details": "https://github.com/prisma/sublimeText3",
+			"details": "https://github.com/Sublime-Instincts/PrismaHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/prisma/sublimeText3",
+					"sublime_text": "<4126"
+				},
+				{
+					"sublime_text": ">=4126",
 					"tags": true
-				}]
+				}
+			]
 		},
 		{
 			"name": "Prismatic Color Scheme",
