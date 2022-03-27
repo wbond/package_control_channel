@@ -45,24 +45,35 @@
 			]
 		},
 		{
-			"name": "Xcode Build Configuration and Project Syntax Definitions",
-			"previous_names": ["Xcode Build Configuration", "Xcode Project"],
-			"details": "https://github.com/peterthomashorn/xcode-languages-for-sublime-text",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Xcode Colors",
 			"details": "https://github.com/braver/XcodeColors",
 			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">3174",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Xcode Configuration Settings",
+			"previous_names": ["Xcode Build Configuration", "Xcode Build Configuration and Project Syntax Definitions", "Xcode Project"],
+			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">4107",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XDC",
+			"details": "https://github.com/LDprg/XDC",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
