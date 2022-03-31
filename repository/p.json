@@ -634,6 +634,17 @@
 			]
 		},
 		{
+			"name": "PathBox",
+			"details": "https://github.com/budlime/PathBox",
+			"labels": ["tabcompletion"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pawn syntax",
 			"details": "https://github.com/Southclaws/pawn-sublime-language",
 			"labels": ["language syntax", "auto-complete"],
@@ -2204,6 +2215,17 @@
 			]
 		},
 		{
+			"name": "Pretty Lua",
+			"details": "https://github.com/aerobounce/Sublime-Pretty-Lua",
+			"labels": ["lua", "formatting", "pretty"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pretty Protobuf",
 			"previous_names": ["Pretty Proto"],
 			"details": "https://github.com/hanfezh/pretty-protobuf",
@@ -2319,12 +2341,18 @@
 		},
 		{
 			"name": "Prisma",
-			"details": "https://github.com/prisma/sublimeText3",
+			"details": "https://github.com/Sublime-Instincts/PrismaHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/prisma/sublimeText3",
+					"sublime_text": "<4126",
 					"tags": true
-				}]
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "Prismatic Color Scheme",
@@ -2334,6 +2362,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Prismic.io snippets",
+			"details": "https://github.com/prismicio/prismic-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "v"
 				}
 			]
 		},
