@@ -1258,6 +1258,19 @@
 			]
 		},
 		{
+			"name": "AnyTest",
+			"details": "https://github.com/timfjord/AnyTest",
+			"labels": [
+				"jest", "rspec", "pytest", "testing", "exunit", "minitest", "espec", "pyunit"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Anyword completion",
 			"details": "https://github.com/shagabutdinov/sublime-autocompletion",
 			"releases": [
@@ -2009,6 +2022,16 @@
 			]
 		},
 		{
+			"name": "Atomic Soft Tab Nav",
+			"details": "https://github.com/ruiokada/sublime-text-atomic-soft-tab-nav",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Atomizr",
 			"details": "https://github.com/idleberg/sublime-atomizr",
 			"releases": [
@@ -2103,6 +2126,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Auto Close Panel",
+			"details": "https://github.com/aerobounce/Sublime-AutoClosePanel",
+			"labels": ["auto", "close", "panel"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2363,8 +2397,13 @@
 			"releases": [
 				{
 					"platforms": ["windows"],
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
 					"tags": true
+				},
+				{
+					"platforms": ["windows"],
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},

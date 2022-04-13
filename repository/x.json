@@ -45,17 +45,6 @@
 			]
 		},
 		{
-			"name": "Xcode Build Configuration",
-			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Xcode Colors",
 			"details": "https://github.com/braver/XcodeColors",
 			"labels": ["color scheme"],
@@ -67,12 +56,24 @@
 			]
 		},
 		{
-			"name": "Xcode Project",
-			"details": "https://github.com/peterthomashorn/xcode-project-language-for-sublime-text",
+			"name": "Xcode Configuration Settings",
+			"previous_names": ["Xcode Build Configuration", "Xcode Build Configuration and Project Syntax Definitions", "Xcode Project"],
+			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">3092",
+					"sublime_text": ">4107",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XDC",
+			"details": "https://github.com/LDprg/XDC",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -94,6 +95,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "xit!",
+			"details": "https://github.com/jotaen/xit-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

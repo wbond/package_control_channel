@@ -184,7 +184,11 @@
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4000",
+					"sublime_text": "4000 - 4128",
+					"tags": "v2-"
+				},
+				{
+					"sublime_text": ">=4129",
 					"tags": true
 				}
 			]
@@ -414,12 +418,13 @@
 		},
 		{
 			"name": "Scheme",
-			"details": "https://github.com/egrachev/sublime-scheme",
-			"labels": ["language syntax", "snippets"],
+			"details": "https://github.com/absop/ST-Scheme",
+			"labels": ["language syntax", "snippets", "formatting", "formatter", "code navigation", "build system", "lisp"],
+			"author": ["absop", "jfcherng"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4099",
+					"tags": true
 				}
 			]
 		},
@@ -2550,6 +2555,17 @@
 			]
 		},
 		{
+			"name": "SMPL",
+			"details": "https://github.com/ofekih/smpl-sublime",
+			"labels": ["smpl", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Snake",
 			"details": "https://github.com/jonfinerty/sublime-snake",
 			"releases": [
@@ -2808,6 +2824,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Sophia",
+			"details": "https://github.com/aeternity/sublime-sophia",
+			"labels": ["blockchain", "contracts", "aeternity"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -3160,6 +3187,17 @@
 			]
 		},
 		{
+			"name": "SphinxRefmate",
+			"details": "https://github.com/phughes3866/SphinxRefmate",
+			"labels": ["sphinx"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SPICE Circuit Simulator",
 			"details": "https://github.com/leoheck/sublime-spice",
 			"labels": ["circuit simulator"],
@@ -3480,12 +3518,12 @@
 		},
 		{
 			"name": "Squirrel",
-			"details": "https://github.com/iAmRoland/Sublime-Squirrel",
-			"author": ["micheg", "Roland Piirsoo"],
+			"details": "https://github.com/Enduriel/Sublime-Squirrel",
+			"author": ["Enduriel", "micheg", "Roland Piirsoo"],
 			"labels": ["language", "syntax", "snippets", "completions", "squirrel"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -5895,6 +5933,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SystemRDL",
+			"details": "https://github.com/deanMaker/sublime-language-systemrdl",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
