@@ -2,12 +2,12 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "SibaValidador",
+			"name": "SibaValidator",
 			"details": "https://github.com/mmuriel/SibaValidator",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["windows","linux"],
 					"branch": "master"
 				}
 			]
