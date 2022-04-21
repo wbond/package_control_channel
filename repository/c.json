@@ -1340,6 +1340,17 @@
 			]
 		},
 		{
+			"name": "clean-css",
+			"details": "https://github.com/1000ch/Sublime-clean-css",
+			"labels": ["css", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CleanCSS",
 			"details": "https://github.com/stolksdorf/CleanCSS",
 			"releases": [
@@ -1476,6 +1487,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Clojure Sublimed",
+			"details": "https://github.com/tonsky/Clojure-Sublimed",
+			"labels": ["clojure", "repl", "nrepl"],
+			"donate": "https://www.patreon.com/tonsky",
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -2015,19 +2038,6 @@
 			]
 		},
 		{
-			"name": "CodeCounter",
-			"details": "https://github.com/absop/CodeCounter",
-			"labels": ["analytics", "statistics", "status bar", "utilities"],
-			"author": "absop",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"platforms": ["linux", "windows"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "CodeDrafts",
 			"details": "https://github.com/subeeshb/codedrafts_sublime_plugin",
 			"labels": ["code sharing", "utilities", "snippets"],
@@ -2182,6 +2192,19 @@
 			]
 		},
 		{
+			"name": "CodeLines",
+			"details": "https://github.com/absop/ST-CodeLines",
+			"previous_names": ["CodeCounter"],
+			"labels": ["analytics", "statistics", "status bar", "utilities"],
+			"author": "absop",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeMap",
 			"details": "https://github.com/oleg-shilo/sublime-codemap",
 			"releases": [
@@ -2296,6 +2319,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "main"
+				}
+			]
+		},
+		{
+			"name": "CodexAI",
+			"details": "https://github.com/necarlson97/codex-ai-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
+					"tags": true
 				}
 			]
 		},
@@ -2986,6 +3020,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=4121",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Comment Marks",
+			"details": "https://github.com/maegul/comment_marks",
+			"labels": ["comments", "code navigation"],
+			"author": "maegul",
+			"releases": [
+				{
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
