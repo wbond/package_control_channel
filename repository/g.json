@@ -2,16 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "G-code Syntax Highlighting",
-			"details": "https://github.com/themachinist/gcode-syntax-highlighting",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/Gaelyk",
 			"releases": [
 				{
@@ -152,6 +142,17 @@
 			]
 		},
 		{
+			"name": "gcode",
+			"details": "https://github.com/ElectricRCAircraftGuy/sublime_gcode",
+			"previous_names": ["G-code Syntax Highlighting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GDL",
 			"details": "https://github.com/runxel/GDL-sublime",
 			"labels": ["language syntax", "color scheme", "auto-complete"],
@@ -206,6 +207,16 @@
 					"sublime_text": "*",
 					"base": "https://github.com/NaN1488/sublime-gem-browser",
 					"branch": "stable"
+				}
+			]
+		},
+		{
+			"name": "Gemini",
+			"details": "https://github.com/printfn/gemini-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -767,11 +778,11 @@
 		},
 		{
 			"name": "Gitignore",
-			"details": "https://github.com/kevinxucs/Sublime-Gitignore",
+			"details": "https://github.com/vilhelmen/Sublime-Gitignore",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1948,6 +1959,18 @@
 				{
 					"sublime_text": "<3092",
 					"base": "https://github.com/dncrews/GraphQL-SublimeText2",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GraphQL Playground",
+			"details": "https://github.com/kapitanluffy/sublime-graphql-playground",
+			"donate": "https://www.patreon.com/kapitanluffy",
+			"labels": ["editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
