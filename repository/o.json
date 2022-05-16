@@ -649,12 +649,16 @@
 			"labels": ["open folders", "open files", "shortcut", "power user", "web search", "url"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				},
 				{
-					"sublime_text": "<3000",
-					"branch": "st2"
+					"sublime_text": "3000 - 4049",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": true
 				}
 			]
 		},
