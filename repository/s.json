@@ -2,17 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "SibaValidator",
-			"details": "https://github.com/mmuriel/SibaValidator",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows","linux"],
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "S-Expressions Syntax",
 			"details": "https://github.com/whitequark/Sublime-S-Expressions",
 			"releases": [
@@ -1639,6 +1628,16 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SibaValidator",
+			"details": "https://github.com/mmuriel/SibaValidator",
+			"releases": [
+				{
+					"sublime_text": ">=4126",
+					"branch": "master"
 				}
 			]
 		},
