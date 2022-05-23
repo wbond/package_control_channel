@@ -237,18 +237,6 @@
 			]
 		},
 		{
-			"name": "iLorem",
-			"details": "https://github.com/imasood/iLorem",
-			"labels": ["lorem", "ilorem", "loremipsum", "farsi(persian)", "english", "italian", "spanish", "polski"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Image2Base64",
 			"details": "https://github.com/tm-minty/sublime-text-2-image2base64",
 			"labels": ["image manipulation", "base64", "image", "converting"],
@@ -307,6 +295,17 @@
 			]
 		},
 		{
+			"name": "Imaginarium",
+			"details": "https://github.com/ethanrobison/imaginarium_sublimesyntax",
+			"description": "Syntax highlighting for Imaginarium",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Imba",
 			"details": "https://github.com/somebee/sublime-imba",
 			"releases": [
@@ -360,6 +359,16 @@
 			]
 		},
 		{
+			"name": "ImportFileNames",
+			"details": "https://github.com/felixcatto/ImportFileNames",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ImportHelper",
 			"details": "https://github.com/unlight/sublime-import-helper",
 			"releases": [
@@ -375,7 +384,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -444,7 +453,7 @@
 		},
 		{
 			"name": "Incomprehensible Ex",
-			"details": "https://github.com/victoreduardobarreto/Incomprehensible-ex",
+			"details": "https://github.com/barretov/Incomprehensible-ex",
 			"author": "Victor Eduardo Barreto",
 			"labels": ["extension", "convert", "txt", "doc", "docx", "xlsx", "pdf", "epub"],
 			"releases": [
@@ -472,6 +481,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "IncrementalDiff",
+			"details": "https://github.com/AmjadHD/sublime_incremental_diff",
+			"labels": ["diff", "diff/merge"],
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
 				}
 			]
 		},
@@ -659,11 +679,17 @@
 		},
 		{
 			"name": "INI",
-			"details": "https://github.com/clintberry/sublime-text-2-ini",
+			"details": "https://github.com/jwortmann/ini-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/clintberry/sublime-text-2-ini",
+					"sublime_text": "<3092",
 					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -770,16 +796,6 @@
 			]
 		},
 		{
-			"name": "Insert Filepath",
-			"details": "https://github.com/Bakke/Insert-Filepath",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Insert Nums",
 			"author": ["jbrooksuk", "FichteFoll"],
 			"details": "https://github.com/jbrooksuk/InsertNums",
@@ -815,19 +831,8 @@
 			]
 		},
 		{
-			"name": "Inspr",
-			"details": "https://github.com/wzhix/inspr",
-			"labels": ["translate", "chinese", "naming"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Instacode",
-			"details": "https://github.com/Ndushi/InstacodeSublime",
+			"details": "https://github.com/lindskogen/InstacodeSublime",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -836,17 +841,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "st2"
-				}
-			]
-		},
-		{
-			"name": "InstaGoogling",
-			"details": "https://github.com/Ivanca/InstaGoogling",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
-					"tags": true
 				}
 			]
 		},
@@ -891,6 +885,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "INTENS Language",
+			"details": "https://github.com/anticultist/sublime-intenslang",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -979,7 +984,7 @@
 		},
 		{
 			"name": "Invisible Tabs Spaces Switcher",
-			"details": "https://github.com/isar0se/InvisibleTabsSpacesSwitcher",
+			"details": "https://github.com/iynere/InvisibleTabsSpacesSwitcher",
 			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
@@ -1000,12 +1005,12 @@
 			]
 		},
 		{
-			"name": "io Node Framework",
-			"details": "https://github.com/justind000/ionode_sublime_plugin",
+			"name": "Ion Syntax",
+			"details": "https://github.com/SevenO2/ion-sublime-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["windows", "linux"],
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1045,7 +1050,7 @@
 		},
 		{
 			"name": "Ionic Snippets",
-			"details": "https://github.com/PixelDropInc/ionic-snippets-sublime-plugin",
+			"details": "https://github.com/TenthGeek/ionic-snippets-sublime-plugin",
 			"labels": ["snippets", "markup"],
 			"releases": [
 				{
@@ -1122,13 +1127,12 @@
 			]
 		},
 		{
-			"name": "iReset",
-			"details": "https://github.com/imasood/iReset",
-			"labels": ["css reset", "css", "ireset", "normalize", "html5doctor"],
+			"name": "IRC Syntax",
+			"details": "https://github.com/barnumbirr/sublime-irc",
+			"labels": ["language syntax", "IRC"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1168,7 +1172,7 @@
 		},
 		{
 			"name": "Ironman Color Scheme",
-			"details": "https://github.com/firerishi/ironman-color-scheme",
+			"details": "https://github.com/sri-ni/ironman-color-scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1220,7 +1224,7 @@
 		},
 		{
 			"name": "ITDCHelper",
-			"details": "https://github.com/akalongman/sublimetext-itdchelper",
+			"details": "https://github.com/itdc/sublimetext-itdchelper",
 			"author": "Avtandil Kikabidze",
 			"releases": [
 				{

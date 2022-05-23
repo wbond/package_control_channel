@@ -24,17 +24,6 @@
 			]
 		},
 		{
-			"name": "objc .strings syntax language",
-			"details": "https://github.com/PaNaVTEC/Objc-Strings-Syntax-Language",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ObjC2RubyMotion",
 			"details": "https://github.com/kyamaguchi/SublimeObjC2RubyMotion",
 			"releases": [
@@ -121,7 +110,18 @@
 		},
 		{
 			"name": "Oceanic Next Italic Color Scheme",
-			"details": "https://github.com/SintrumIT/oceanic-next-italic",
+			"details": "https://github.com/Bloemert/oceanic-next-italic",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Oceanic Primal Color Scheme",
+			"details": "https://github.com/barlog-m/oceanic-primal-sublime",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -202,8 +202,19 @@
 			]
 		},
 		{
+			"name": "Odhin Color Scheme",
+			"details": "https://gitlab.com/odhin-themes/sublime",
+			"labels": ["color scheme", "odhin"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Odin",
-			"details": "https://github.com/gingerBill/sublime-odin",
+			"details": "https://github.com/odin-lang/sublime-odin",
 			"labels": ["odin", "language syntax"],
 			"releases": [
 				{
@@ -214,7 +225,7 @@
 		},
 		{
 			"name": "Odoo Snippets",
-			"details": "https://github.com/odoo-jarsa/Sublime-Odoo",
+			"details": "https://github.com/Jarsa/Sublime-Odoo",
 			"labels": ["odoo", "snippets"],
 			"releases": [
 				{
@@ -263,6 +274,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3153",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Old-Style ASCII Property Lists",
+			"details": "https://github.com/peterthomashorn/ascii-property-lists-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">4107",
 					"tags": true
 				}
 			]
@@ -344,19 +366,8 @@
 			]
 		},
 		{
-			"name": "One Dark Color Scheme",
-			"details": "https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "One Dark Material - Theme",
-			"details": "https://github.com/rafamds/OneDarkMaterial",
+			"details": "https://github.com/huszerldani/OneDarkMaterial",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -425,6 +436,16 @@
 			"name": "Open",
 			"details": "https://github.com/danielfrg/sublime-open",
 			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open DOI",
+			"details": "https://github.com/crazytexer/open_doi",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -628,12 +649,16 @@
 			"labels": ["open folders", "open files", "shortcut", "power user", "web search", "url"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				},
 				{
-					"sublime_text": "<3000",
-					"branch": "st2"
+					"sublime_text": "3000 - 4049",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": true
 				}
 			]
 		},
@@ -731,16 +756,6 @@
 				{
 					"sublime_text": ">3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "OpenEdge ABL",
-			"details": "https://github.com/fator7/OpenEdge-ABL",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -880,17 +895,6 @@
 			]
 		},
 		{
-			"name": "OpenUri",
-			"details": "https://github.com/jfcherng/Sublime-OpenUri",
-			"labels": ["shortcut", "url", "uri", "browser"],
-			"releases": [
-				{
-					"sublime_text": ">=3118",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "OpenVPN",
 			"details": "https://github.com/idleberg/sublime-openvpn",
 			"labels": ["language syntax", "snippets", "build system"],
@@ -930,17 +934,6 @@
 				{
 					"sublime_text": ">=3092",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Oracle PL SQL",
-			"details": "https://github.com/mulander/oracle.tmbundle",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -988,11 +981,27 @@
 			]
 		},
 		{
+			"name": "OrgExtended",
+			"details": "https://github.com/ihdavids/orgextended",
+			"author": "Ian Davids",
+			"labels": ["org mode", "notes", "note taking", "authoring", "todo", "tasks"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1002,17 +1011,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "OSX Font Chooser",
-			"details": "https://github.com/jolleyjoe/OSX-Font-Chooser",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"platforms": "osx",
 					"branch": "master"
 				}
 			]
@@ -1030,6 +1028,7 @@
 		{
 			"name": "Outroot Color Schemes",
 			"details": "https://github.com/kdar/color-schemes",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1061,16 +1060,6 @@
 		{
 			"name": "OVH UI-Kit Snippets",
 			"details": "https://github.com/antleblanc/sublime-ovh-ui-kit-snippets",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Owl Color Scheme",
-			"details": "https://github.com/omnus/owl_color_scheme/",
 			"releases": [
 				{
 					"sublime_text": "*",

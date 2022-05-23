@@ -56,9 +56,31 @@
 			]
 		},
 		{
+			"name": "DA CS Color Schemes (Recovered)",
+			"details": "https://github.com/gobijan/da-cs",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dafny",
 			"details": "https://github.com/tvi/sublime-dafny",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DailyOrganizer",
+			"details": "https://github.com/mremallin/DailyOrganizer",
+			"labels": ["productivity"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -92,7 +114,7 @@
 		},
 		{
 			"name": "Dark Fusion Color Scheme",
-			"details": "https://github.com/paradox41/dark-fusion-syntax",
+			"details": "https://github.com/willsoto/dark-fusion-syntax",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -103,7 +125,7 @@
 		},
 		{
 			"name": "Dark Knight Color Scheme",
-			"details": "https://github.com/AmjadHD/dark_night",
+			"details": "https://github.com/AmjadHD/dark_knight",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -131,6 +153,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DarkDonut Color Schemes",
+			"previous_names": ["DarkDonut Forest Coders"],
+			"details": "https://github.com/DarkDonut-theme/DarDonut_sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -179,7 +212,7 @@
 		},
 		{
 			"name": "Dartlight",
-			"details": "https://github.com/LiteKat/Dartlight",
+			"details": "https://github.com/LiteCatDev/Dartlight",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -204,6 +237,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Data Wizard",
+			"details": "https://github.com/nickklaskala/DataWizard",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -325,6 +368,17 @@
 			]
 		},
 		{
+			"name": "Debian Syntax",
+			"details": "https://github.com/barnumbirr/sublime-debian",
+			"labels": ["language syntax", "Debian"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Debug Killer",
 			"details": "https://github.com/adampresley/sublime-debugkiller",
 			"releases": [
@@ -339,8 +393,34 @@
 			"details": "https://github.com/daveleroy/sublime_debugger",
 			"releases": [
 				{
-					"sublime_text": ">=3124",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Debugger - 3ds Max",
+			"details": "https://github.com/blurstudio/sublime_debugger-3dsMax",
+			"releases": [
+				{
+					"sublime_text": "<4000",
+					"platforms": ["windows"],
+					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "Debugger - Maya",
+			"details": "https://github.com/blurstudio/sublime_debugger-maya",
+			"releases": [
+				{
+					"sublime_text": "<4000",
+					"platforms": ["windows"],
+					"tags": "st3-"
 				}
 			]
 		},
@@ -361,7 +441,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -433,7 +513,7 @@
 		},
 		{
 			"name": "Delete on Error Color Scheme",
-			"details": "https://github.com/skat-delayed/subl-deleteOnError-cs",
+			"details": "https://github.com/iamsilvio/subl-deleteOnError-cs",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -499,7 +579,7 @@
 		},
 		{
 			"name": "Dependents",
-			"details": "https://github.com/mrjoelkemp/Dependents",
+			"details": "https://github.com/dependents/Dependents",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -544,6 +624,7 @@
 		{
 			"name": "Desert Night Color Scheme",
 			"details": "https://github.com/fgb/desert_night",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -553,7 +634,7 @@
 		},
 		{
 			"name": "Detect Invalid Devangari",
-			"details": "https://github.com/alchemi5t/devanagari_invalid_grammar_detect",
+			"details": "https://github.com/alchemi5t/Devanagari-validator",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -627,6 +708,16 @@
 			]
 		},
 		{
+			"name": "Devhelp",
+			"details": "https://github.com/amezin/sublime-devhelp",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Devicetree DTS Highlighting",
 			"details": "https://github.com/fallrisk/devicetree-highlighter",
 			"donate": "https://paypal.me/jwatson5",
@@ -648,16 +739,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Devrabbit Paste",
-			"details": "https://github.com/RobinMalfait/Devrabbit-Paste-Sublime-Text-2",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -689,17 +770,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Dhall",
-			"details": "https://github.com/SQbQxeKd3JHD8/SublimeDhall",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -744,6 +814,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Dictionary",
+			"details": "https://github.com/futureprogrammer360/Dictionary",
+			"labels": ["dictionary"],
+			"releases": [
+				{
+					"sublime_text": ">=3080",
 					"tags": true
 				}
 			]
@@ -845,16 +926,6 @@
 			]
 		},
 		{
-			"name": "Directory Settings",
-			"details": "https://github.com/davepeck/DirectorySettings",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "dired",
 			"details": "https://github.com/kublaios/dired",
 			"releases": [
@@ -866,10 +937,11 @@
 		},
 		{
 			"name": "Direnv",
-			"details": "https://github.com/fainder/sublime-direnv",
+			"details": "https://github.com/misuzu/direnv-subl",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3155",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -908,7 +980,7 @@
 		},
 		{
 			"name": "Display Functions (Java)",
-			"details": "https://github.com/BoundInCode/Display-Functions",
+			"details": "https://github.com/liamcain/Display-Functions",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -974,7 +1046,7 @@
 		},
 		{
 			"name": "Django Click",
-			"details": "https://github.com/Proyecto513/sublime-django-click",
+			"details": "https://github.com/mxdevmanuel/sublime-django-click",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1054,7 +1126,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -1066,7 +1138,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -1086,6 +1158,39 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "DlangAutoFileName",
+			"details": "https://github.com/vitalfadeev/SublimeDlangAutoFileName",
+			"labels": ["dlang", "d", "productivity"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DlangAutoImport",
+			"details": "https://github.com/vitalfadeev/SublimeDlangAutoImport",
+			"labels": ["auto-complete", "autocomplete", "completions", "dlang", "d", "productivity"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "DlangAutoModuleName",
+			"details": "https://github.com/vitalfadeev/SublimeDlangAutoModuleName",
+			"labels": ["auto-complete", "autocomplete", "completions", "dlang", "d", "productivity"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1116,17 +1221,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "DMT",
-			"details": "https://github.com/uniqpath/SublimeDMT",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1269,11 +1363,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
-					"base": "https://github.com/mulander/DogEars",
-					"branch": "master"
 				}
 			]
 		},
@@ -1305,6 +1394,17 @@
 			"releases": [
 				{
 					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "domodel Snippets",
+			"details": "https://github.com/thoughtsunificator/domodel-snippets-sublime",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1387,7 +1487,7 @@
 		},
 		{
 			"name": "doTjs Template Syntax Highlighting",
-			"details": "https://github.com/ZombieHippie/dotjs.tmLanguage",
+			"details": "https://github.com/colelawrence/dotjs.tmLanguage",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1419,6 +1519,18 @@
 			]
 		},
 		{
+			"name": "dotsyntax",
+			"author": "Sean Morris <dotsyntax@seanmorr.is>",
+			"details": "https://github.com/seanmorris/dotsyntax-sublime",
+			"labels": ["syntax", "hightlight", "config", "per-project", "dotfile"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Download Source",
 			"details": "https://github.com/socsieng/sublime-download-source",
 			"labels": ["download", "source"],
@@ -1442,7 +1554,7 @@
 		},
 		{
 			"name": "Dpaste Sublime",
-			"details": "https://github.com/H25/dpaste-sublime",
+			"details": "https://github.com/hieuh25/dpaste-sublime",
 			"previous_names": ["sublime-dpaste"],
 			"releases": [
 				{
@@ -1519,7 +1631,7 @@
 		},
 		{
 			"name": "Drunken NSIS",
-			"details": "https://github.com/idleberg/Drunken-NSIS",
+			"details": "https://github.com/idleberg/sublime-drunken-nsis",
 			"labels": ["auto-complete", "nsis"],
 			"releases": [
 				{
@@ -1530,7 +1642,7 @@
 		},
 		{
 			"name": "Drunken PHP",
-			"details": "https://github.com/idleberg/Drunken-PHP",
+			"details": "https://github.com/idleberg/sublime-drunken-php",
 			"labels": ["auto-complete", "php"],
 			"releases": [
 				{
@@ -1556,6 +1668,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Drupal Hooks",
+			"details": "https://github.com/nkoporec/drupal-hooks",
+			"labels": ["snippets", "drupal", "php"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1658,16 +1781,6 @@
 		{
 			"name": "DumperWrap",
 			"details": "https://github.com/barkonar/dumperwrap",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Duotone Dark Red",
-			"details": "https://github.com/DJgamer98/Duotone-Dark-Red-Sublime",
 			"releases": [
 				{
 					"sublime_text": "*",

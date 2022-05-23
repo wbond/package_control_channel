@@ -56,6 +56,29 @@
 			]
 		},
 		{
+			"name": "Xcode Configuration Settings",
+			"previous_names": ["Xcode Build Configuration", "Xcode Build Configuration and Project Syntax Definitions", "Xcode Project"],
+			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">4107",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "XDC",
+			"details": "https://github.com/LDprg/XDC",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Xdebug",
 			"details": "https://github.com/Kindari/SublimeXdebug",
 			"releases": [
@@ -72,6 +95,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "xit!",
+			"details": "https://github.com/jotaen/xit-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -98,7 +131,7 @@
 		},
 		{
 			"name": "xmake",
-			"details": "https://github.com/tboox/xmake-sublime",
+			"details": "https://github.com/xmake-io/xmake-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -138,22 +171,23 @@
 			]
 		},
 		{
-			"details": "https://github.com/Lunatrius/xmllint",
-			"labels": ["linting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "XMPFilter",
 			"details": "https://github.com/kassi/sublime-text-2-xmpfilter",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "xonsh",
+			"details": "https://github.com/eugenesvk/sublime-xonsh",
+			"labels": ["xonsh", "python", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -169,16 +203,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "v"
-				}
-			]
-		},
-		{
-			"name": "XpressEngine",
-			"details": "https://github.com/bnu/sublime-xpressengine",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
