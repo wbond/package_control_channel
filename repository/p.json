@@ -448,6 +448,17 @@
 			]
 		},
 		{
+			"name": "Paste As Column",
+			"details": "https://github.com/TheClams/PasteAsColumn",
+			"labels": ["text manipulation", "clipboard", "paste"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Paste as One Line",
 			"details": "https://github.com/joshdavenport/PasteAsOneLine",
 			"releases": [
@@ -623,6 +634,17 @@
 			]
 		},
 		{
+			"name": "PathBox",
+			"details": "https://github.com/budlime/PathBox",
+			"labels": ["tabcompletion"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pawn syntax",
 			"details": "https://github.com/Southclaws/pawn-sublime-language",
 			"labels": ["language syntax", "auto-complete"],
@@ -639,6 +661,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PDML",
+			"details": "https://github.com/tajmone/Sublime-PDML",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2182,6 +2215,29 @@
 			]
 		},
 		{
+			"name": "Pretty Lua",
+			"details": "https://github.com/aerobounce/Sublime-Pretty-Lua",
+			"labels": ["lua", "formatting", "pretty"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pretty Protobuf",
+			"previous_names": ["Pretty Proto"],
+			"details": "https://github.com/hanfezh/pretty-protobuf",
+			"labels": ["pretty", "format", "protobuf", "debug"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pretty Ruby",
 			"details": "https://github.com/gbaptista/sublime-3-pretty-ruby",
 			"releases": [
@@ -2285,12 +2341,18 @@
 		},
 		{
 			"name": "Prisma",
-			"details": "https://github.com/prisma/sublimeText3",
+			"details": "https://github.com/Sublime-Instincts/PrismaHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/prisma/sublimeText3",
+					"sublime_text": "<4126",
 					"tags": true
-				}]
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "Prismatic Color Scheme",
@@ -2300,6 +2362,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Prismic.io snippets",
+			"details": "https://github.com/prismicio/prismic-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "v"
 				}
 			]
 		},
@@ -2388,6 +2461,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Project And Workspace Management",
+			"details": "https://github.com/tshrpl/ProjectAndWorkspaceManagement",
+			"author": "Tushar Paul",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2660,6 +2744,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PureBasic",
+			"details": "https://github.com/peterthomashorn/purebasic-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">4107",
+					"tags": true
 				}
 			]
 		},
@@ -3008,6 +3103,17 @@
 		{
 			"name": "Python Create Package",
 			"details": "https://github.com/curaloucura/SublimePythonPackage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Python Data Science Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Data-Science-Snippets",
+			"labels": ["snippets", "python", "data science", "auto-complete", "autocomplete", "completions"],
 			"releases": [
 				{
 					"sublime_text": "*",

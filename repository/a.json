@@ -407,7 +407,7 @@
 		},
 		{
 			"name": "AdvancedNewFile",
-			"details": "https://github.com/skuroda/Sublime-AdvancedNewFile",
+			"details": "https://github.com/SublimeText/AdvancedNewFile",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -572,6 +572,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Algo2-TADs",
+			"details": "https://github.com/Sponja-/Algo2-Sintaxis-TAD-st3",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1247,6 +1258,19 @@
 			]
 		},
 		{
+			"name": "AnyTest",
+			"details": "https://github.com/timfjord/AnyTest",
+			"labels": [
+				"elixir", "espec", "exunit", "javascript", "jest", "minitest", "pytest", "python", "pyunit", "rspec", "ruby", "rust", "testing"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Anyword completion",
 			"details": "https://github.com/shagabutdinov/sublime-autocompletion",
 			"releases": [
@@ -1868,11 +1892,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/danielsd/ASPComment",
+			"details": "https://github.com/daniel-dara/ASPComment",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1932,6 +1956,17 @@
 			]
 		},
 		{
+			"name": "Astro",
+			"details": "https://github.com/Destiner/sublime-astro",
+			"labels": ["language syntax", "astro"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Async Mindset Snippets",
 			"details": "https://github.com/punkave/sublime-async-mindset",
 			"labels": ["snippets"],
@@ -1982,6 +2017,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Atomic Soft Tab Nav",
+			"details": "https://github.com/ruiokada/sublime-text-atomic-soft-tab-nav",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2081,6 +2126,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Auto Close Panel",
+			"details": "https://github.com/aerobounce/Sublime-AutoClosePanel",
+			"labels": ["auto", "close", "panel"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2279,6 +2335,17 @@
 			]
 		},
 		{
+			"name": "AutoIt Plys",
+			"details": "https://github.com/NSUSpray/AutoItPlysSublime",
+			"labels": ["auto-complete", "build system", "language syntax", "snippets", "autoit"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AutoItScript",
 			"details": "https://github.com/AutoIt/SublimeAutoItScript",
 			"releases": [
@@ -2330,8 +2397,13 @@
 			"releases": [
 				{
 					"platforms": ["windows"],
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
 					"tags": true
+				},
+				{
+					"platforms": ["windows"],
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},

@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger package review
-        run: curl -X POST https://packagecontrol.io/test_pr/$PR_NUM.json
+        run: curl --http1.1 -X POST https://packagecontrol.io/test_pr/$PR_NUM.json
         env:
           PR_NUM: ${{ github.event.pull_request.number }}

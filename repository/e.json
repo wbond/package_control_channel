@@ -636,7 +636,7 @@
 		},
 		{
 			"name": "ElixirSyntax",
-			"details": "https://github.com/princemaple/elixir-sublime-syntax",
+			"details": "https://github.com/elixir-sublime/elixir-sublime-syntax",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1351,7 +1351,7 @@
 		{
 			"name": "Ethereum",
 			"details": "https://github.com/davidhq/SublimeEthereum",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "solidity", "vyper", "smart contracts", "blockchain", "cairo", "starknet"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1541,6 +1541,18 @@
 			"name": "exercism",
 			"previous_names": ["STexercism"],
 			"details": "https://github.com/thosgood/STexercism",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Expand and Edit",
+			"details": "https://github.com/aafulei/sublime-expand-and-edit",
+			"author": "Aaron Fu Lei",
+			"labels": ["cursors manipulation", "text manipulation", "text selection"],
 			"releases": [
 				{
 					"sublime_text": "*",

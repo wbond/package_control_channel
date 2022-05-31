@@ -2711,7 +2711,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2775,6 +2775,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Toit",
+			"details": "https://github.com/snxx-lppxx/toit-sublime",
+			"author": "snxx",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -3452,7 +3464,11 @@
 					"branch": "master"
 				},
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4107",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -3471,6 +3487,18 @@
 			"name": "Twilight+",
 			"details": "https://github.com/xy2z/SublimeTwilight",
 			"labels": ["twilight", "markdown", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TwilightBright",
+			"details": "https://github.com/sepisoad/sublime-twilight-bright-color",
+			"author": "Sepehr Aryani",
+			"labels": [ "color scheme", "light", "twilight"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3563,7 +3591,7 @@
 			"labels": ["auto-complete", "code navigation", "formatting", "language syntax", "snippets", "typescript", "javascript"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
 					"tags": true
 				}
 			]
@@ -3583,7 +3611,7 @@
 			"details": "https://github.com/braver/TypeScriptSyntax",
 			"releases": [
 				{
-					"sublime_text": ">3000",
+					"sublime_text": "3000 - 4107",
 					"tags": true
 				}
 			]
@@ -3622,6 +3650,18 @@
 				},
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TYPO3 Fluid Snippets",
+			"details": "https://github.com/kitzberger/SublimeTypo3FluidSnippets",
+			"author": ["Daniel Siepmann", "Philipp Kitzberger"],
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
