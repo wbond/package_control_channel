@@ -184,7 +184,11 @@
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4000",
+					"sublime_text": "4000 - 4128",
+					"tags": "v2-"
+				},
+				{
+					"sublime_text": ">=4129",
 					"tags": true
 				}
 			]
@@ -414,12 +418,13 @@
 		},
 		{
 			"name": "Scheme",
-			"details": "https://github.com/egrachev/sublime-scheme",
-			"labels": ["language syntax", "snippets"],
+			"details": "https://github.com/absop/ST-Scheme",
+			"labels": ["language syntax", "snippets", "formatting", "formatter", "code navigation", "build system", "lisp"],
+			"author": ["absop", "jfcherng"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4099",
+					"tags": true
 				}
 			]
 		},
@@ -2824,6 +2829,17 @@
 			]
 		},
 		{
+			"name": "Sophia",
+			"details": "https://github.com/aeternity/sublime-sophia",
+			"labels": ["blockchain", "contracts", "aeternity"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Sort JavaScript Imports",
 			"details": "https://github.com/insin/sublime-sort-javascript-imports",
 			"releases": [
@@ -3065,6 +3081,17 @@
 			]
 		},
 		{
+			"name": "SpaceDuck Color Scheme",
+			"details": "https://github.com/ZhongXiLu/SpaceDuck-SublimeText",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SpaceSnippets",
 			"details": "https://github.com/shagabutdinov/sublime-space-snippets",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -3162,6 +3189,17 @@
 		{
 			"name": "Sphinx Ref Helper",
 			"details": "https://github.com/intelkevinputnam/sphinx-ref-helper",
+			"labels": ["sphinx"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SphinxRefmate",
+			"details": "https://github.com/phughes3866/SphinxRefmate",
 			"labels": ["sphinx"],
 			"releases": [
 				{
@@ -3491,12 +3529,12 @@
 		},
 		{
 			"name": "Squirrel",
-			"details": "https://github.com/iAmRoland/Sublime-Squirrel",
-			"author": ["micheg", "Roland Piirsoo"],
+			"details": "https://github.com/Enduriel/Sublime-Squirrel",
+			"author": ["Enduriel", "micheg", "Roland Piirsoo"],
 			"labels": ["language", "syntax", "snippets", "completions", "squirrel"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -3542,6 +3580,19 @@
 				{
 					"sublime_text": ">=3156",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "SSH-Panel",
+			"details": "https://github.com/Haiquan-27/SSH-Panel",
+			"author": "Haiquan",
+			"labels": ["file navigation", "file creation", "remote"],
+			"releases": [
+				{
+					"sublime_text": ">=3211",
+					"platforms": ["windows", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -5286,8 +5337,12 @@
 			"details": "https://github.com/corneliusio/svelte-sublime",
 			"releases": [
 				{
-					"sublime_text": ">=3153",
-					"tags": true
+					"sublime_text": ">=4000",
+					"tags": "st4-"
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -5906,6 +5961,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SystemRDL",
+			"details": "https://github.com/deanMaker/sublime-language-systemrdl",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
