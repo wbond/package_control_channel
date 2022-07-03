@@ -2375,19 +2375,23 @@
 			]
 		},
 		{
-			"name": "Tint",
-			"details": "https://github.com/yyyc514/Tint",
-			"author": "jgoebel",
+			"name": "Tint Terminal",
+			"previous_names": ["Tint"],
+			"details": "https://github.com/joshgoebel/sublime-tint-terminal",
+			"author": "Josh Goebel",
 			"labels": [
-				"utilities",
 				"terminal",
+				"shell",
+				"bash",
+				"zsh",
+				"utilities",
 				"console",
 				"command line"
 			],
 			"releases": [
 				{
 					"platforms": ["osx", "linux"],
-					"sublime_text": ">3000",
+					"sublime_text": ">=4126",
 					"tags": true
 				}
 			]
