@@ -892,8 +892,12 @@
 			"details": "https://github.com/skuroda/PersistentRegexHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				}
 			]
 		},
