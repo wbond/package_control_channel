@@ -892,8 +892,12 @@
 			"details": "https://github.com/skuroda/PersistentRegexHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3155",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3155",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -3130,6 +3134,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Python Computer Vision Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Computer-Vision-Snippets",
+			"labels": ["snippets", "python", "computer vision", "auto-complete", "autocomplete", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
