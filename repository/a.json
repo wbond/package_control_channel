@@ -1149,10 +1149,14 @@
 		{
 			"name": "Ansible",
 			"details": "https://github.com/clifford-github/sublime-ansible",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "ansible", "syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
