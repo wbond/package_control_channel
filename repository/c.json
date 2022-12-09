@@ -405,6 +405,17 @@
 			]
 		},
 		{
+			"name": "Cataracted Dark Color Scheme",
+			"details": "https://github.com/betraying/cataracted-dark-sublime-text",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Catkin Builder",
 			"details": "https://github.com/ZacharyTaylor/Catkin-Builder",
 			"labels": ["build system"],
@@ -423,6 +434,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+    {
+			"name": "Catppuccin color schemes", 
+			"details": "https://github.com/catppuccin/sublime-text",
+			"author": ["Catppuccin"],
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3100",
 					"tags": true
 				}
 			]
@@ -472,12 +495,17 @@
 				}
 			]
 		},
-		{
+		{	
+			"name": "Ceedling",
 			"details": "https://github.com/SublimeText/Ceedling",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1443,6 +1471,16 @@
 			]
 		},
 		{
+			"name": "Clickable WSDL",
+			"details": "https://github.com/lwilli/ClickableWSDL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ClickableRequires",
 			"details": "https://github.com/hajnalben/ClickableRequires",
 			"labels": ["require", "node", "javascript", "js"],
@@ -1919,6 +1957,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Coddy Colour Scheme",
+			"labels": ["Color Scheme"],
+			"details": "https://github.com/codetickdev/coddy",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2554,6 +2603,17 @@
 		{
 			"name": "Color Scheme - Baara Dark",
 			"details": "https://github.com/jobedom/sublime-baara-dark",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Bass",
+			"details": "https://github.com/53v3n3d4/Color-Scheme-Bass",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -3473,7 +3533,7 @@
 		},
 		{
 			"name": "ConvertChineseCharacters",
-			"details": "https://github.com/thunkli/ConvertChineseCharacters",
+			"details": "https://github.com/leibnizli/ConvertChineseCharacters",
 			"releases": [
 				{
 					"sublime_text": ">3000",
