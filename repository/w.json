@@ -750,23 +750,23 @@
 			]
 		},
 		{
-			"name": "WordCount",
-			"details": "https://github.com/philipbelesky/WordCount",
-			"homepage": "https://github.com/titoBouzout/WordCount",
-			"author": "titoBouzout",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/WordHighlight",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordingStatus",
+			"details": "https://github.com/evandrocoan/WordingStatus",
+			"previous_names": ["WordCount"],
+			"author": ["titoBouzout", "evandrocoan"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
