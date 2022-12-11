@@ -2,17 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "Nim-lang",
-			"details": "https://github.com/vanyle/SublimeNim",
-			"labels": ["nim", "language syntax", "auto-complete", "snippets"],
-			"releases": [
-				{
-					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Nakama Autocomplete",
 			"details": "https://github.com/Superxwolf/Nakama-Sublime",
 			"labels": ["auto-complete"],
@@ -653,6 +642,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Nim-lang",
+			"details": "https://github.com/vanyle/SublimeNim",
+			"labels": ["nim", "language syntax", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
