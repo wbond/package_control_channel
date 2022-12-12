@@ -647,17 +647,6 @@
 			]
 		},
 		{
-			"name": "Nim-lang",
-			"details": "https://github.com/vanyle/SublimeNim",
-			"labels": ["nim", "language syntax", "auto-complete", "snippets"],
-			"releases": [
-				{
-					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "NimLime",
 			"details": "https://github.com/nim-lang/NimLime",
 			"labels": ["nim", "language syntax", "completions"],
@@ -665,6 +654,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NimPlus",
+			"details": "https://github.com/vanyle/SublimeNim",
+			"labels": ["nim", "language syntax", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
