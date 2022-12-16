@@ -113,6 +113,17 @@
 			]
 		},
 		{
+			"name": "Dark Crayon Color Scheme",
+			"details": "https://github.com/Fernando2603/DarkCrayon",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dark Fusion Color Scheme",
 			"details": "https://github.com/willsoto/dark-fusion-syntax",
 			"labels": ["color scheme"],
@@ -153,6 +164,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Dark PRO Color Schemes",
+			"details": "https://github.com/draganmilenkovic/DarkPRO",
+			"labels": ["color scheme"],
+			"donate": "https://www.patreon.com/monden",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -391,11 +414,8 @@
 		{
 			"name": "Debugger",
 			"details": "https://github.com/daveleroy/sublime_debugger",
+			"labels": ["lldb", "gdb", "javascript", "node", "pyton", "php", "ruby", "go", "lua", "elixir"],
 			"releases": [
-				{
-					"sublime_text": "<4000",
-					"tags": "st3-"
-				},
 				{
 					"sublime_text": ">=4000",
 					"tags": true
@@ -475,6 +495,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Define Parser",
+			"details": "https://github.com/ukyouz/SublimeText-DefineParser",
+			"releases": [
+				{
+					"sublime_text": ">=4126",
+					"tags": true
 				}
 			]
 		},
@@ -1261,11 +1291,10 @@
 		},
 		{
 			"name": "DocBlockr_Python",
-			"details": "https://github.com/adambullmer/sublime_docblockr_python",
+			"details": "https://github.com/thep0y/python-docblockr",
 			"releases": [
 				{
-					"platforms": "*",
-					"sublime_text": ">=3000",
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			],

@@ -2534,6 +2534,20 @@
 			]
 		},
 		{
+			"name": "Smithy",
+			"description": "Syntax Support for Smithy IDL.",
+			"homepage": "https://github.com/albe-rosado/sublime-smithy",
+			"issues": "https://github.com/albe-rosado/sublime-smithy/issues",
+			"details": "https://github.com/albe-rosado/sublime-smithy",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SML (Standard ML)",
 			"details": "https://github.com/seanjames777/SML-Language-Definition",
 			"labels": ["language syntax"],
@@ -2779,6 +2793,17 @@
 			"name": "Solarized Color Scheme",
 			"details": "https://github.com/braver/Solarized",
 			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Solarized OKLab Color Scheme",
+			"details": "https://github.com/Rayraegah/solarized-lab",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -3073,6 +3098,17 @@
 			"name": "Soy",
 			"details": "https://github.com/Medium/soy-sublime",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SpaceDuck Color Scheme",
+			"details": "https://github.com/ZhongXiLu/SpaceDuck-SublimeText",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3573,6 +3609,19 @@
 			]
 		},
 		{
+			"name": "SSH-Panel",
+			"details": "https://github.com/Haiquan-27/SSH-Panel",
+			"author": "Haiquan",
+			"labels": ["file navigation", "file creation", "remote"],
+			"releases": [
+				{
+					"sublime_text": ">=3211",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/bmc/ST2SyntaxFromFileName",
 			"releases": [
 				{
@@ -3762,8 +3811,31 @@
 			]
 		},
 		{
+			"name": "Status Bar Clock",
+			"details": "https://github.com/lukstep/StatusBarClock",
+			"labels": ["status bar", "clock"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Status Bar File Size",
 			"details": "https://github.com/SublimeText/StatusBarFileSize",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Status Bar JsonPath",
+			"details": "https://github.com/akirk/StatusBarJsonPath",
+			"author": "Alex Kirk",
+			"labels": ["status bar", "json", "jsonpath"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

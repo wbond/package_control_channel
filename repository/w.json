@@ -223,7 +223,7 @@
 			"details": "https://github.com/WebFont/webfont",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -345,11 +345,32 @@
 			]
 		},
 		{
+			"name": "WGSL",
+			"details": "https://github.com/relrelb/sublime-wgsl",
+			"labels": ["wgsl", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/matiaspub/WheelChanger",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Whiley",
+			"details": "https://github.com/Whiley/WhileySyntaxBundle",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -729,23 +750,23 @@
 			]
 		},
 		{
-			"name": "WordCount",
-			"details": "https://github.com/philipbelesky/WordCount",
-			"homepage": "https://github.com/titoBouzout/WordCount",
-			"author": "titoBouzout",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/WordHighlight",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordingStatus",
+			"details": "https://github.com/evandrocoan/WordingStatus",
+			"previous_names": ["WordCount"],
+			"author": ["titoBouzout", "evandrocoan"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
