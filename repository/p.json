@@ -398,8 +398,7 @@
 			"labels": ["parquet"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1735,6 +1734,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PluginLogger",
+			"details": "https://github.com/kapitanluffy/sublime-plugin-logger",
+			"donate": "https://github.com/sponsors/kapitanluffy",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
