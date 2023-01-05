@@ -2265,12 +2265,20 @@
 		},
 		{
 			"name": "Ruby Slim",
-			"details": "https://github.com/slim-template/ruby-slim.tmbundle",
+			"details": "https://github.com/SublimeText/Slim",
 			"previous_names": ["ruby-slim.tmbundle", "ruby-slim"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4107",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "4107 - 4130",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4131",
+					"tags": "4131-"
 				}
 			]
 		},
