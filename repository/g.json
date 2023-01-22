@@ -852,18 +852,13 @@
 		{
 			"name": "GitSavvy",
 			"details": "https://github.com/timbrel/GitSavvy",
-			"labels": [
-				"git",
-				"dashboard",
-				"inline",
-				"stage",
-				"patch"
-			],
-			"readme": "https://raw.githubusercontent.com/timbrel/GitSavvy/master/README.md",
-			"author": "divmain",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
