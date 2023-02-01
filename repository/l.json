@@ -1148,6 +1148,16 @@
 			]
 		},
 		{
+			"name": "LionDocs",
+			"details": "https://github.com/liondocs/liondocs-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "lioshiTheme",
 			"previous_names": ["lioshi Color Scheme"],
 			"details": "https://github.com/lioshi/lioshiScheme",
@@ -1171,12 +1181,20 @@
 		},
 		{
 			"name": "Liquid",
-			"details": "https://github.com/braver/sublime-liquid",
+			"details": "https://github.com/SublimeText/Liquid",
 			"labels": ["liquid", "shopify", "front matter", "jekyll", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">3000",
-					"tags": true
+					"sublime_text": "3176 - 4125",
+					"tags": "3176-"
+				},
+				{
+					"sublime_text": "4126 - 4133",
+					"tags": "4126-"
+				},
+				{
+					"sublime_text": ">=4134",
+					"tags": "4134-"
 				}
 			]
 		},

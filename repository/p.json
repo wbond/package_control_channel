@@ -398,8 +398,7 @@
 			"labels": ["parquet"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -451,6 +450,7 @@
 			"name": "Paste As Column",
 			"details": "https://github.com/TheClams/PasteAsColumn",
 			"labels": ["text manipulation", "clipboard", "paste"],
+			"previous_names": ["Paste as Column"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -744,6 +744,16 @@
 			]
 		},
 		{
+			"name": "Pep",
+			"details": "https://github.com/pedrorgirardi/Pep",
+			"releases": [
+				{
+					"sublime_text": ">=4094",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PEPE Assembly",
 			"details": "https://github.com/patriq/Sublime-PEPE-Assembly",
 			"labels": ["language syntax", "snippets"],
@@ -881,8 +891,12 @@
 			"details": "https://github.com/skuroda/PersistentRegexHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3155",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3155",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -1720,6 +1734,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PluginLogger",
+			"details": "https://github.com/kapitanluffy/sublime-plugin-logger",
+			"donate": "https://github.com/sponsors/kapitanluffy",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2586,6 +2611,17 @@
 			]
 		},
 		{
+			"name": "ProjectNotes",
+			"details": "https://github.com/budlime/ProjectNotes",
+			"labels": ["project", "notes", "todo"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ProjectTreeTemplater",
 			"details": "https://github.com/julianxhokaxhiu/sublime-projecttreetemplater",
 			"releases": [
@@ -2679,6 +2715,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PSS",
+			"details": "https://github.com/blutsvente/PSS-DSL-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3187",
 					"tags": true
 				}
 			]
@@ -3004,6 +3051,17 @@
 			]
 		},
 		{
+			"name": "PyScript",
+			"details": "https://github.com/Sublime-Instincts/PyScript",
+			"labels": ["syntax highlight", "python", "pyscript", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PySide",
 			"details": "https://github.com/DamnWidget/SublimePySide",
 			"releases": [
@@ -3097,6 +3155,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Python Computer Vision Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Computer-Vision-Snippets",
+			"labels": ["snippets", "python", "computer vision", "auto-complete", "autocomplete", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

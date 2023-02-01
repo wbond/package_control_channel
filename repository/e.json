@@ -231,6 +231,17 @@
 			]
 		},
 		{
+			"name": "Ebitengine Kage",
+			"details": "https://github.com/sedyh/ebitengine-kage-sublime",
+			"labels": ["kage", "ebitengine", "syntax highlight", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Echo Evaluator",
 			"details": "https://github.com/Monnoroch/EchoEvaluator",
 			"releases": [
@@ -636,13 +647,9 @@
 		},
 		{
 			"name": "ElixirSyntax",
-			"details": "https://github.com/elixir-sublime/elixir-sublime-syntax",
+			"details": "https://github.com/elixir-editors/elixir-sublime-syntax",
 			"labels": ["language syntax"],
 			"releases": [
-				{
-					"sublime_text": "3092 - 4076",
-					"tags": "st3-"
-				},
 				{
 					"sublime_text": ">=4077",
 					"tags": true
@@ -666,6 +673,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Elm Query",
+			"details": "https://github.com/gacallea/elm-query",
+			"labels": ["elm", "search"],
+			"releases": [
+				{
+					"sublime_text": ">=4083",
 					"tags": true
 				}
 			]
@@ -1535,6 +1553,18 @@
 					"sublime_text": ">=3176",
 					"tags": true
 				}
+			]
+		},
+		{
+			"name": "Executor",
+			"details": "https://github.com/tonsky/Sublime-Executor",
+			"labels": ["build system"],
+			"releases": [
+			{
+				"sublime_text": ">=4081",
+				"platforms": ["osx", "linux"],
+				"tags": true
+			}
 			]
 		},
 		{

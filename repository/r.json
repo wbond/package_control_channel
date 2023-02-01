@@ -952,6 +952,16 @@
 			]
 		},
 		{
+			"name": "RegexMatch",
+			"details": "https://github.com/mercurykd/RegexMatch",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RegexPortfolio",
 			"previous_names": ["Regex Portfolio"],
 			"details": "https://github.com/KaminoU/regex_portfolio",
@@ -1144,6 +1154,16 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RemoveComments",
+			"details": "https://github.com/mejunliu/RemoveComments",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1694,6 +1714,17 @@
 			]
 		},
 		{
+			"name": "RmlUi Lua",
+			"details": "https://github.com/LoneBoco/rmlui-sublime",
+			"labels": ["language syntax", "rmlui", "rml", "rcss"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ROBLOXLua",
 			"details": "https://github.com/MemoryPenguin/RBXLua-SublimeText",
 			"releases": [
@@ -1801,6 +1832,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Rome Formatter",
+				"labels": ["javascript", "typescript", "formatting", "format"],
+				"details": "https://github.com/marekpiechut/sublime-rome-formatter",
+				"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2223,12 +2265,20 @@
 		},
 		{
 			"name": "Ruby Slim",
-			"details": "https://github.com/slim-template/ruby-slim.tmbundle",
+			"details": "https://github.com/SublimeText/Slim",
 			"previous_names": ["ruby-slim.tmbundle", "ruby-slim"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4107",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "4107 - 4130",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4131",
+					"tags": "4131-"
 				}
 			]
 		},
