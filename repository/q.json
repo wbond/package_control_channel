@@ -69,11 +69,11 @@
 		},
 		{
 			"name": "QML",
-			"details": "https://github.com/skozlovf/Sublime-QML",
+			"details": "https://github.com/SublimeText/QML",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -125,6 +125,17 @@
 			"name": "Quake3 Script",
 			"details": "https://github.com/isRyven/Sublime-Text-Q3Script",
 			"labels": ["quake3", "script", "shader", "language syntax", "snippet", "completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Quarto",
+			"details": "https://github.com/quarto-dev/quarto-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -225,6 +236,19 @@
 					"sublime_text": "*",
 					"tags": true,
 					"platforms": "*"
+				}
+			]
+		},
+		{
+			"name": "Quickfix List",
+			"details": "https://github.com/cibinmathew/sublime_quickfix_list",
+			"author": "Cibin Mathew",
+			"labels": ["navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -356,6 +380,17 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "QuickTemplate (Go)",
+			"details": "https://github.com/SharanSharathi/sublime_qtpl",
+			"labels": ["template", "go", "qtpl", "syntax", "auto-complete", "build-system"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

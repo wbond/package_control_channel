@@ -405,12 +405,47 @@
 			]
 		},
 		{
+			"name": "Cataracted Dark Color Scheme",
+			"details": "https://github.com/betraying/cataracted-dark-sublime-text",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Catkin Builder",
 			"details": "https://github.com/ZacharyTaylor/Catkin-Builder",
 			"labels": ["build system"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Catppuccin color schemes",
+			"details": "https://github.com/catppuccin/sublime-text",
+			"author": ["Catppuccin"],
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3100",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cattleya Color Scheme",
+			"previous_names": ["Orchid Color Scheme"],
+			"details": "https://github.com/patrickfatrick/cattleya-theme-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -461,11 +496,16 @@
 			]
 		},
 		{
+			"name": "Ceedling",
 			"details": "https://github.com/SublimeText/Ceedling",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -824,7 +864,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1340,6 +1380,17 @@
 			]
 		},
 		{
+			"name": "clean-css",
+			"details": "https://github.com/1000ch/Sublime-clean-css",
+			"labels": ["css", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CleanCSS",
 			"details": "https://github.com/stolksdorf/CleanCSS",
 			"releases": [
@@ -1420,6 +1471,16 @@
 			]
 		},
 		{
+			"name": "Clickable WSDL",
+			"details": "https://github.com/lwilli/ClickableWSDL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ClickableRequires",
 			"details": "https://github.com/hajnalben/ClickableRequires",
 			"labels": ["require", "node", "javascript", "js"],
@@ -1476,6 +1537,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Clojure Sublimed",
+			"details": "https://github.com/tonsky/Clojure-Sublimed",
+			"labels": ["clojure", "repl", "nrepl"],
+			"donate": "https://www.patreon.com/tonsky",
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -1889,6 +1962,17 @@
 			]
 		},
 		{
+			"name": "Coddy Colour Scheme",
+			"labels": ["Color Scheme"],
+			"details": "https://github.com/codetickdev/coddy",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Code Cast",
 			"details": "https://github.com/mraiur/CodeCast",
 			"labels": ["code", "cast", "share", "codecast"],
@@ -2011,19 +2095,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "CodeCounter",
-			"details": "https://github.com/absop/CodeCounter",
-			"labels": ["analytics", "statistics", "status bar", "utilities"],
-			"author": "absop",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"platforms": ["linux", "windows"],
-					"tags": true
 				}
 			]
 		},
@@ -2178,6 +2249,19 @@
 					"sublime_text": "*",
 					"platforms": "osx",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CodeLines",
+			"details": "https://github.com/absop/ST-CodeLines",
+			"previous_names": ["CodeCounter"],
+			"labels": ["analytics", "statistics", "status bar", "utilities"],
+			"author": "absop",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -2528,8 +2612,30 @@
 			]
 		},
 		{
+			"name": "Color Scheme - Bass",
+			"details": "https://github.com/53v3n3d4/Color-Scheme-Bass",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - Chromodynamics",
 			"details": "https://github.com/MagicStack/Chromodynamics",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - CoderPad",
+			"details": "https://github.com/marwan37/CoderPad-Color-Scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -2764,7 +2870,7 @@
 			"details": "https://github.com/facelessuser/ColorHelper",
 			"releases": [
 				{
-					"sublime_text": ">=3080",
+					"sublime_text": ">=3170",
 					"tags": "st3-"
 				}
 			]
@@ -2991,6 +3097,29 @@
 			]
 		},
 		{
+			"name": "CommandsBrowser",
+			"details": "https://github.com/Sublime-Instincts/CommandsBrowser",
+			"labels": ["commands", "plugin/package commands", "browser"],
+			"releases": [
+				{
+					"sublime_text": ">=4121",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Comment Marks",
+			"details": "https://github.com/maegul/comment_marks",
+			"labels": ["comments", "code navigation"],
+			"author": "maegul",
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/ajayexpert/comment-snippet",
 			"labels": ["snippets"],
 			"releases": [
@@ -3096,6 +3225,17 @@
 			]
 		},
 		{
+			"details": "https://github.com/nexional/CompareBuff",
+			"author": "VK",
+			"labels": ["compare", "comparison", "beyond compare", "diff", "buffer"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Compass",
 			"details": "https://github.com/whatwedo/sublime-text-compass",
 			"author": "whatwedo",
@@ -3111,6 +3251,27 @@
 			"name": "Competitive Programming",
 			"details": "https://github.com/egtoney/CompetitiveProgramming",
 			"author": "egtoneyUK",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Competitive Programming Lite",
+			"details": "https://github.com/JameelKaisar/Competitive-Programming-Lite",
+			"labels": ["competitive programming", "competitive coding"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CompetitiveProgrammingParser",
+			"details": "https://github.com/codeuniverse101/CompetitiveProgrammingParser",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3383,7 +3544,7 @@
 		},
 		{
 			"name": "ConvertChineseCharacters",
-			"details": "https://github.com/thunkli/ConvertChineseCharacters",
+			"details": "https://github.com/leibnizli/ConvertChineseCharacters",
 			"releases": [
 				{
 					"sublime_text": ">3000",
@@ -3438,6 +3599,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cool & Clear - Color Scheme",
+			"previous_names": ["Cool & Clear"],
+			"details": "https://github.com/Doodpants/Cool-and-Clear-Color-Scheme",
+			"author": "Karl von Laudermann",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
@@ -3941,6 +4115,18 @@
 		{
 			"name": "Create Save Prompt",
 			"details": "https://github.com/cellis/CreateSavePrompt",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"author": "Tomas Barry",
+			"name": "Create WebP Image",
+			"labels": ["WebP", "cwebp"],
+			"details": "https://github.com/TomasBarry/Sublime-create-webp-image",
 			"releases": [
 				{
 					"sublime_text": "*",

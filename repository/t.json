@@ -2037,7 +2037,7 @@
 		},
 		{
 			"name": "Theme - Spacegray",
-			"details": "https://github.com/kkga/spacegray",
+			"details": "https://github.com/SublimeText/Spacegray",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -2105,6 +2105,17 @@
 			"previous_names": ["Toxin Color Scheme"],
 			"details": "https://github.com/p3lim/sublime-toxin",
 			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Treble",
+			"details": "https://github.com/53v3n3d4/Theme-Treble",
+			"labels": ["theme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2375,19 +2386,23 @@
 			]
 		},
 		{
-			"name": "Tint",
-			"details": "https://github.com/yyyc514/Tint",
-			"author": "jgoebel",
+			"name": "Tint Terminal",
+			"previous_names": ["Tint"],
+			"details": "https://github.com/joshgoebel/sublime-tint-terminal",
+			"author": "Josh Goebel",
 			"labels": [
-				"utilities",
 				"terminal",
+				"shell",
+				"bash",
+				"zsh",
+				"utilities",
 				"console",
 				"command line"
 			],
 			"releases": [
 				{
 					"platforms": ["osx", "linux"],
-					"sublime_text": ">3000",
+					"sublime_text": ">=4126",
 					"tags": true
 				}
 			]
@@ -2422,6 +2437,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Tips",
+			"details": "https://github.com/kapitanluffy/sublime-tips",
+			"donate": "https://www.patreon.com/kapitanluffy",
+			"labels": ["documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
 				}
 			]
 		},
@@ -2711,7 +2738,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2775,6 +2802,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Toit",
+			"details": "https://github.com/snxx-lppxx/toit.tmbundle",
+			"author": "snxx",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -3452,7 +3491,11 @@
 					"branch": "master"
 				},
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4107",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -3471,6 +3514,18 @@
 			"name": "Twilight+",
 			"details": "https://github.com/xy2z/SublimeTwilight",
 			"labels": ["twilight", "markdown", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TwilightBright",
+			"details": "https://github.com/sepisoad/sublime-twilight-bright-color",
+			"author": "Sepehr Aryani",
+			"labels": [ "color scheme", "light", "twilight"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3563,7 +3618,7 @@
 			"labels": ["auto-complete", "code navigation", "formatting", "language syntax", "snippets", "typescript", "javascript"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
 					"tags": true
 				}
 			]
@@ -3583,7 +3638,7 @@
 			"details": "https://github.com/braver/TypeScriptSyntax",
 			"releases": [
 				{
-					"sublime_text": ">3000",
+					"sublime_text": "3000 - 4107",
 					"tags": true
 				}
 			]
@@ -3622,6 +3677,18 @@
 				},
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TYPO3 Fluid Snippets",
+			"details": "https://github.com/kitzberger/SublimeTypo3FluidSnippets",
+			"author": ["Daniel Siepmann", "Philipp Kitzberger"],
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
