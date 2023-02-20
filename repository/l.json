@@ -984,6 +984,17 @@
 			]
 		},
 		{
+			"name": "LightSearch",
+			"details": "https://github.com/prokopchukdim/light-search",
+			"labels": ["productivity"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LikeGit",
 			"details": "https://github.com/poucotm/LikeGit",
 			"labels": ["git", "graph"],
@@ -1083,6 +1094,17 @@
 			]
 		},
 		{
+			"name": "Linguist Syntax",
+			"details": "https://github.com/hronro/sublime-linguist-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LinkerScript",
 			"details": "https://github.com/jbw3/SublimeTextLinkerSyntax",
 			"labels": ["language syntax"],
@@ -1126,6 +1148,16 @@
 			]
 		},
 		{
+			"name": "LionDocs",
+			"details": "https://github.com/liondocs/liondocs-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "lioshiTheme",
 			"previous_names": ["lioshi Color Scheme"],
 			"details": "https://github.com/lioshi/lioshiScheme",
@@ -1149,12 +1181,20 @@
 		},
 		{
 			"name": "Liquid",
-			"details": "https://github.com/braver/sublime-liquid",
+			"details": "https://github.com/SublimeText/Liquid",
 			"labels": ["liquid", "shopify", "front matter", "jekyll", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">3000",
-					"tags": true
+					"sublime_text": "3176 - 4125",
+					"tags": "3176-"
+				},
+				{
+					"sublime_text": "4126 - 4133",
+					"tags": "4126-"
+				},
+				{
+					"sublime_text": ">=4134",
+					"tags": "4134-"
 				}
 			]
 		},
@@ -1395,6 +1435,17 @@
 			"name": "LocalizedMenu",
 			"details": "https://github.com/zam1024t/LocalizedMenu",
 			"labels": ["localize", "tool", "menu"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Localpod",
+			"details": "https://github.com/ijoyc/Localpod",
+			"labels": ["CocoaPods", "Development Pods", "iOS"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1867,7 +1918,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
+					"platforms": ["windows", "linux"],
 					"branch": "master"
 				}
 			]
@@ -1890,6 +1941,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Lumi",
+			"details": "https://github.com/smadeja/lumi",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
