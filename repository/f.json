@@ -170,6 +170,17 @@
 			]
 		},
 		{
+			"name": "Fall Syntax Colorscheme",
+			"details": "https://github.com/imnotril/fall-syntax-sublime-text",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Famous",
 			"details": "https://github.com/AlessandroAnnini/famousst",
 			"author": "Alessandro Filippo Annini",
@@ -930,6 +941,17 @@
 			]
 		},
 		{
+			"name":"Firebase Rules Syntax",
+			"details":"https://github.com/jingyuexing/Sublime-Firebase-Syntax",
+			"labels":["language syntax","syntax"],
+			"releases":[
+				{
+					"sublime_text":"*",
+					"tags":true
+				}
+			]
+		},
+		{
 			"name": "Firebase Snippets",
 			"details": "https://github.com/dhcar/firebaseSnippets",
 			"labels": ["snippets"],
@@ -985,8 +1007,12 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 3999",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -1342,7 +1368,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
+					"platforms": ["windows", "osx"],
 					"tags": true
 				}
 			]
@@ -1480,6 +1506,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Font Size Per View",
+			"details": "https://github.com/m-bartlett/SublimeFontSizePerView",
+			"labels": ["font", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1672,6 +1709,17 @@
 			]
 		},
 		{
+			"name": "Freedom Colour Scheme",
+			"details": "https://github.com/frithrah/freedom-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FreeMarker",
 			"details": "https://github.com/briancavalier/textmate-freemarker-bundle",
 			"releases": [
@@ -1819,6 +1867,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FullwidthTabSpaces",
+			"details": "https://github.com/woodmix/FullwidthTabSpaces",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

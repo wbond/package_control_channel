@@ -475,6 +475,10 @@ class TestContainer(object):
         self.assertIn('sublime_text', data,
                       'A sublime text version selector is required')
 
+        if dependency:
+            self.assertIn('platforms', data,
+                          'A platforms selector is required for dependencies')
+
         self.assertFalse(('tags' in data and 'branch' in data),
                          'A release must have only one of the "tags" or '
                          '"branch" keys.')
@@ -516,7 +520,7 @@ class TestContainer(object):
                     v = [v]
                 for plat in v:
                     self.assertRegex(plat,
-                                     r"^(\*|(osx|linux|windows)(-x(32|64))?)$")
+                                     r"^(\*|(osx|linux|windows)(-(x(32|64))|arm64)?)$")
 
                 self.assertCountEqual(v, list(set(v)),
                                       "Specifying the same platform multiple times is redundant")

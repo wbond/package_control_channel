@@ -398,8 +398,7 @@
 			"labels": ["parquet"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -444,6 +443,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Paste As Column",
+			"details": "https://github.com/TheClams/PasteAsColumn",
+			"labels": ["text manipulation", "clipboard", "paste"],
+			"previous_names": ["Paste as Column"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -623,6 +634,17 @@
 			]
 		},
 		{
+			"name": "PathBox",
+			"details": "https://github.com/budlime/PathBox",
+			"labels": ["tabcompletion"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pawn syntax",
 			"details": "https://github.com/Southclaws/pawn-sublime-language",
 			"labels": ["language syntax", "auto-complete"],
@@ -639,6 +661,17 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PDML",
+			"details": "https://github.com/tajmone/Sublime-PDML",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -706,6 +739,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pep",
+			"details": "https://github.com/pedrorgirardi/Pep",
+			"releases": [
+				{
+					"sublime_text": ">=4094",
 					"tags": true
 				}
 			]
@@ -848,8 +891,12 @@
 			"details": "https://github.com/skuroda/PersistentRegexHighlight",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3155",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3155",
+					"tags": "st2-"
 				}
 			]
 		},
@@ -1496,6 +1543,17 @@
 			]
 		},
 		{
+			"name": "Pieces",
+			"details": "https://bitbucket.org/cristion-pieces/plugin_sublime",
+			"labels": ["pieces", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pine",
 			"details": "https://github.com/gerardroche/sublime-pine",
 			"labels": ["language syntax"],
@@ -1676,6 +1734,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PluginLogger",
+			"details": "https://github.com/kapitanluffy/sublime-plugin-logger",
+			"donate": "https://github.com/sponsors/kapitanluffy",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2171,6 +2240,29 @@
 			]
 		},
 		{
+			"name": "Pretty Lua",
+			"details": "https://github.com/aerobounce/Sublime-Pretty-Lua",
+			"labels": ["lua", "formatting", "pretty"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pretty Protobuf",
+			"previous_names": ["Pretty Proto"],
+			"details": "https://github.com/hanfezh/pretty-protobuf",
+			"labels": ["pretty", "format", "protobuf", "debug"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pretty Ruby",
 			"details": "https://github.com/gbaptista/sublime-3-pretty-ruby",
 			"releases": [
@@ -2262,13 +2354,30 @@
 			]
 		},
 		{
-			"name": "Prisma",
-			"details": "https://github.com/prisma/sublimeText3",
+			"name": "PrintDebugger",
+			"details": "https://github.com/futureprogrammer360/PrintDebugger",
+			"labels": ["debug", "print", "output", "log", "logs", "console"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
-				}]
+				}
+			]
+		},
+		{
+			"name": "Prisma",
+			"details": "https://github.com/Sublime-Instincts/PrismaHighlight",
+			"releases": [
+				{
+					"base": "https://github.com/prisma/sublimeText3",
+					"sublime_text": "<4126",
+					"tags": true
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "Prismatic Color Scheme",
@@ -2278,6 +2387,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Prismic.io snippets",
+			"details": "https://github.com/prismicio/prismic-snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "v"
 				}
 			]
 		},
@@ -2366,6 +2486,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Project And Workspace Management",
+			"details": "https://github.com/tshrpl/ProjectAndWorkspaceManagement",
+			"author": "Tushar Paul",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2480,6 +2611,17 @@
 			]
 		},
 		{
+			"name": "ProjectNotes",
+			"details": "https://github.com/budlime/ProjectNotes",
+			"labels": ["project", "notes", "todo"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ProjectTreeTemplater",
 			"details": "https://github.com/julianxhokaxhiu/sublime-projecttreetemplater",
 			"releases": [
@@ -2578,6 +2720,17 @@
 			]
 		},
 		{
+			"name": "PSS",
+			"details": "https://github.com/blutsvente/PSS-DSL-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3187",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pue Syntax Highlight",
 			"details": "https://github.com/QingWei-Li/pue-syntax-highlight",
 			"releases": [
@@ -2638,6 +2791,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PureBasic",
+			"details": "https://github.com/peterthomashorn/purebasic-language-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">4107",
+					"tags": true
 				}
 			]
 		},
@@ -2887,6 +3051,17 @@
 			]
 		},
 		{
+			"name": "PyScript",
+			"details": "https://github.com/Sublime-Instincts/PyScript",
+			"labels": ["syntax highlight", "python", "pyscript", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PySide",
 			"details": "https://github.com/DamnWidget/SublimePySide",
 			"releases": [
@@ -2984,8 +3159,30 @@
 			]
 		},
 		{
+			"name": "Python Computer Vision Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Computer-Vision-Snippets",
+			"labels": ["snippets", "python", "computer vision", "auto-complete", "autocomplete", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Python Create Package",
 			"details": "https://github.com/curaloucura/SublimePythonPackage",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Python Data Science Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Data-Science-Snippets",
+			"labels": ["snippets", "python", "data science", "auto-complete", "autocomplete", "completions"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3135,6 +3332,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Python Web Scraping Snippets",
+			"details": "https://github.com/futureprogrammer360/Python-Web-Scraping-Snippets",
+			"labels": ["snippets", "python", "web scraping", "auto-complete", "autocomplete", "completions"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

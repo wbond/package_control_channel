@@ -79,6 +79,17 @@
 			]
 		},
 		{
+			"name": "JamfLog",
+			"details": "https://github.com/jorks/sublime-jamflog",
+			"labels": ["jamf","log","highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jamon",
 			"details": "https://github.com/drhayes/SublimeJamon",
 			"releases": [
@@ -629,7 +640,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -641,6 +651,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jester",
+			"details": "https://github.com/absszero/sublime_jester",
+			"labels": ["JavaScript", "jest", "testing", "tdd"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -669,10 +690,15 @@
 		},
 		{
 			"name": "Jinja2",
-			"details": "https://github.com/kudago/jinja2-tmbundle",
+			"details": "https://github.com/Sublime-Instincts/BetterJinja",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/kudago/jinja2-tmbundle",
+					"sublime_text": "<4107",
+					"tags": true
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -762,7 +788,9 @@
 		{
 			"name": "Jq",
 			"details": "https://gitlab.com/jiehong/sublime_jq",
-			"labels": ["interactive", "jq"],
+			"readme": "https://gitlab.com/jiehong/sublime_jq/-/raw/master/README.md",
+			"issues": "https://gitlab.com/jiehong/sublime_jq/-/issues",
+			"labels": ["interactive", "jq", "json"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1379,6 +1407,17 @@
 			]
 		},
 		{
+			"name": "Just",
+			"details": "https://github.com/nk9/just_sublime",
+			"labels": ["language syntax", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Just Paste",
 			"details": "https://github.com/jcldavid/JustPaste",
 			"releases": [
@@ -1396,6 +1435,16 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JWT Decode",
+			"details" : "https://github.com/Xiangjiaox/jwt-sublime-text",
+			"releases": [
+				{
+				"sublime_text": "*",
+				"tags": true
 				}
 			]
 		},
