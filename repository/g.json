@@ -1,5 +1,5 @@
 {
-	"schema_version": "3.0.0",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"details": "https://github.com/SublimeText/Gaelyk",
@@ -95,16 +95,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "GBK Encoding Support",
-			"details": "https://github.com/akira-cn/sublime-gbk",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -341,16 +331,6 @@
 			]
 		},
 		{
-			"name": "Ggu",
-			"details": "https://github.com/hardikj/GGU-SL",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Gherkin (Cucumber) Formatter",
 			"details": "https://github.com/waynemoore/sublime-gherkin-formatter",
 			"releases": [
@@ -379,16 +359,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/inflation/Gherkin-highlight-sublimetext",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -647,16 +617,6 @@
 					"sublime_text": ">=3092",
 					"platforms": ["osx", "linux"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "GitGrep",
-			"details": "https://github.com/jugyo/SublimeGitGrep",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1133,17 +1093,6 @@
 			]
 		},
 		{
-			"name": "Go Build",
-			"details": "https://github.com/cthackers/SublimeGoBuild",
-			"labels": ["go"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Go Coverage",
 			"details": "https://github.com/MendelGusmao/SublimeGoCoverage",
 			"labels": ["go"],
@@ -1162,16 +1111,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Go To Node Module Homepage",
-			"details": "https://github.com/jfromaniello/sublime-goto-node-module",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1233,16 +1172,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/Manrich121/goFindCallers",
-			"labels": ["go"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Gofmt",
 			"details": "https://github.com/noonat/sublime-gofmt",
 			"labels": ["go"],
@@ -1262,10 +1191,6 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "Sublime-Text-2"
 				}
 			]
 		},
@@ -1384,17 +1309,6 @@
 			]
 		},
 		{
-			"name": "Google Apps Scripts",
-			"details": "https://github.com/revolunet/sublimetext-google-apps-scripts",
-			"labels": ["google", "scripts", "drive", "javascript"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Google Closure Library snippets",
 			"details": "https://github.com/closureplease/sublime-google-closure-snippets",
 			"labels": ["snippets"],
@@ -1428,16 +1342,6 @@
 			]
 		},
 		{
-			"name": "Google Reader",
-			"details": "https://github.com/speg/SublimeGReader",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Google Scholar",
 			"details": "https://github.com/SaudAljaloud/GoogleScholar",
 			"labels": ["google", "research", "scholar", "latex"],
@@ -1466,10 +1370,6 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "st3"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
@@ -1479,16 +1379,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Google Translate",
-			"details": "https://github.com/lfont/Sublime-Text-2-GoogleTranslate-Plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1699,16 +1589,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/jtdeng/GoToDoc",
-			"previous_names": ["Goto Golang Document"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GotoDocumentation",
 			"details": "https://github.com/kemayo/sublime-text-2-goto-documentation",
 			"labels": ["search", "documentation"],
@@ -1728,16 +1608,6 @@
 				{
 					"sublime_text": ">3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "GoToFile",
-			"details": "https://github.com/gs/sublime-text-go-to-file",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1797,15 +1667,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/paccator/GotoRecent",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GotoRowCol",
 			"details": "https://github.com/bstidham/sublimetext2-GotoRowCol",
 			"releases": [
@@ -1852,15 +1713,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/giampierod/GPD",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -2061,16 +1913,6 @@
 			]
 		},
 		{
-			"name": "Grep Code Search",
-			"details": "https://github.com/topikachu/sublime-text-2-GrepCodeSearch",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Grepmark",
 			"details": "https://github.com/dusk125/sublime-grepmark",
 			"labels": ["grep", "search", "bookmark"],
@@ -2242,16 +2084,6 @@
 			]
 		},
 		{
-			"name": "GTags",
-			"details": "https://github.com/koko1000ban/SublimeGtags",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GTKDarkThemeVariantSetter",
 			"details": "https://github.com/p-e-w/GTKDarkThemeVariantSetter",
 			"releases": [
@@ -2268,16 +2100,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "GuardHelpers",
-			"details": "https://github.com/kassi/sublime-text-2-guard-helpers",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]

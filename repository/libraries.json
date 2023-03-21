@@ -1,17 +1,17 @@
 {
-	"schema_version": "3.0.0",
+	"schema_version": "4.0.0",
 	"packages": [],
-	"dependencies": [
+	"libraries": [
 		{
 			"name": "anytree",
 			"description": "Python Anytree module - https://github.com/c0fec0de/anytree",
 			"author": "c0fec0de",
 			"issues": "https://github.com/c0fec0de/anytree/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/nbeversl/anytree_sublime",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -22,11 +22,11 @@
 			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
 			"author": "douglas-vaz",
 			"issues": "https://github.com/douglas-vaz/arrow/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/douglas-vaz/arrow",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -37,11 +37,11 @@
 			"description": "lzma modules for sublime text 2 and 3",
 			"author": "dvhh",
 			"issues": "https://github.com/dvhh/sublime-backports.lzma/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/dvhh/sublime-backports.lzma",
 					"platforms": ["windows"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -52,12 +52,12 @@
 			"description": "Backrefs regular expression wrapper.",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-backrefs/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-backrefs",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -67,12 +67,12 @@
 			"description": "Easily implement OS, Host and OS/Host-level settings aside the normal user-level settings for any plugin.",
 			"author": "KuttKatrea",
 			"issues": "https://github.com/KuttKatrea/sublime-better-settings/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/KuttKatrea/sublime-better-settings",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -82,11 +82,11 @@
 			"description": "Python boto3 module for Amazon Web Services",
 			"author": "revmischa",
 			"issues": "https://github.com/revmischa/sublime-boto3/issues",
-			"load_order": "02",
 			"releases": [
 				{
 					"base": "https://github.com/revmischa/sublime-boto3",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -97,12 +97,12 @@
 			"description": "Bracex creates arbitrary strings via brace expansion much like Bash's.",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-bracex/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-bracex",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -112,12 +112,12 @@
 			"description": "Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/",
 			"author": "jlegewie",
 			"issues": "https://github.com/jlegewie/sublime-beautifulsoup4/issues",
-			"load_order": "51",
 			"releases": [
 				{
 					"base": "https://github.com/jlegewie/sublime-beautifulsoup4",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -127,11 +127,11 @@
 			"description": "Independent BSON codec for Python that doesn’t depend on MongoDB - https://github.com/py-bson/bson",
 			"author": "idleberg",
 			"issues": "https://github.com/idleberg/sublime-bson/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-bson",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -142,11 +142,11 @@
 			"description": "Python bz2 module",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/sublime-bz2/issues",
-			"load_order": "02",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-bz2",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -157,12 +157,12 @@
 			"description": "Manages packages installed as git submodules",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandrocoan/channelmanager/issues",
-			"load_order": "30",
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/channelmanager",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -172,12 +172,12 @@
 			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
 			"author": "Umoxfo",
 			"issues": "https://github.com/Umoxfo/sublime-chardet/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/Umoxfo/sublime-chardet",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -187,12 +187,12 @@
 			"description": "A color library.",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-coloraide/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-coloraide",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -202,12 +202,12 @@
 			"description": "An additional concurrent file log handler for Python's standard logging package",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandroforks/concurrentloghandler/issues",
-			"load_order": "09",
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/concurrentloghandler",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -217,11 +217,11 @@
 			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/sublime-coverage/issues",
-			"load_order": "15",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-coverage",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -232,11 +232,11 @@
 			"description": "Python crypt module",
 			"author": "adnanyaqoobvirk",
 			"issues": "https://github.com/adnanyaqoobvirk/sublime-crypt/issues",
-			"load_order": "02",
 			"releases": [
 				{
 					"base": "https://github.com/adnanyaqoobvirk/sublime-crypt",
 					"platforms": ["linux"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -247,27 +247,12 @@
 			"description": "A Coffescript Object Notation (CSON) parser for Python - https://github.com/avakar/pycson",
 			"author": "idleberg",
 			"issues": "https://github.com/idleberg/sublime-cson/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-cson",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ctypes",
-			"description": "Python _ctypes module",
-			"author": "wbond",
-			"issues": "https://github.com/codexns/sublime-ctypes/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"base": "https://github.com/codexns/sublime-ctypes",
-					"platforms": ["linux"],
-					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -277,11 +262,11 @@
 			"description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library",
 			"author": "vovkkk",
 			"issues": "https://github.com/vovkkk/sublime-dateutil/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/vovkkk/sublime-dateutil",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -292,12 +277,12 @@
 			"description": "Alternate simplified logging support and general utilities functions",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandrocoan/debugtools/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/debugtools",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -307,11 +292,11 @@
 			"description": "Converts a Python dictionary or other native data type into a valid XML string - https://github.com/idleberg/sublime-dicttoxml",
 			"author": "idleberg",
 			"issues": "https://github.com/idleberg/sublime-dicttoxml/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-dicttoxml",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -322,12 +307,12 @@
 			"description": "Autored by Neil Fraser and others, Diff Match Patch is a high-performance library in multiple languages that manipulates plain text",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandroforks/diffmatchpatch/issues",
-			"load_order": "09",
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/diffmatchpatch",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -337,12 +322,12 @@
 			"description": "A library for using Unicode emoji annotations - https://github.com/kcsaff/emojitations",
 			"author": "idleberg",
 			"issues": "https://github.com/idleberg/sublime-emojitations/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-emojitations",
 					"platforms": ["*"],
-					"sublime_text": ">3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -352,27 +337,12 @@
 			"description": "Python enum module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/enum/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/enum",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "fileio",
-			"description": "Python _fileio module",
-			"author": "wbond",
-			"issues": "https://github.com/codexns/sublime-fileio/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"base": "https://github.com/codexns/sublime-fileio",
-					"platforms": ["linux"],
-					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -382,12 +352,12 @@
 			"description": "GateOne terminal",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/gateone-terminal/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/gateone-terminal",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -397,11 +367,11 @@
 			"description": "Growl Notification Transport Protocol library.",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-gntp/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-gntp",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -412,11 +382,11 @@
 			"description": "A library for Go environment configuration",
 			"author": "Go Authors",
 			"issues": "https://github.com/golang/sublime-config/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/golang/sublime-config",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -427,12 +397,12 @@
 			"description": "An(other) implementation of JSON Schema for Python",
 			"author": "kylebebak",
 			"issues": "https://github.com/kylebebak/sublime-jsonschema/issues",
-			"load_order": "55",
 			"releases": [
 				{
 					"base": "https://github.com/kylebebak/sublime-jsonschema",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -442,12 +412,12 @@
 			"description": "lxml",
 			"author": "eerohele",
 			"issues": "https://github.com/eerohele/sublime-lxml/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/eerohele/sublime-lxml",
 					"platforms": ["osx-x64","linux","windows"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -457,12 +427,12 @@
 			"description": "Python lzma module",
 			"author": "ehamiter",
 			"issues": "https://github.com/ehamiter/sublime-lzma/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/ehamiter/sublime-lzma",
 					"platforms": ["osx-x64"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -472,11 +442,11 @@
 			"description": "Python MarkupSafe module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/MarkupSafe/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/MarkupSafe",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -487,38 +457,11 @@
 			"description": "Markdown Popups for Sublime",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-markdown-popups/issues",
-			"load_order": "55",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
 					"platforms": ["*"],
-					"sublime_text": ">=3124",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "multiprocessing",
-			"description": "Python _multiprocessing module",
-			"author": "wbond",
-			"issues": "https://github.com/codexns/sublime-multiprocessing/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"base": "https://github.com/codexns/sublime-multiprocessing",
-					"platforms": ["windows"],
-					"sublime_text": "<3000",
-					"tags": true
-				},
-				{
-					"base": "https://github.com/codexns/sublime-multiprocessing",
-					"platforms": ["osx"],
-					"sublime_text": ">=3000",
-					"tags": true
-				},
-				{
-					"base": "https://github.com/codexns/sublime-multiprocessing",
-					"platforms": ["linux"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -529,11 +472,11 @@
 			"description": "Python natsort package",
 			"author": "alimony",
 			"issues": "https://github.com/alimony/sublime-natsort/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/alimony/sublime-natsort",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -544,11 +487,11 @@
 			"description": "Open a terminal to a specific folder and optionally set environment variables",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/newterm/issues",
-			"load_order": "20",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/newterm",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -559,12 +502,12 @@
 			"description": "Python numpy module",
 			"author": "komsit37",
 			"issues": "https://github.com/komsit37/sublime-numpy/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/komsit37/sublime-numpy",
 					"platforms": ["windows-x64","osx-x64","linux-x64"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -574,27 +517,12 @@
 			"description": "Python oauthlib module",
 			"author": "csch0",
 			"issues": "https://github.com/packagecontrol/oauthlib/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/oauthlib",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ordereddict",
-			"description": "Python ordereddict module",
-			"author": "FichteFoll",
-			"issues": "https://github.com/packagecontrol/ordereddict/issues",
-			"load_order": "50",
-			"releases": [
-				{
-					"base": "https://github.com/packagecontrol/ordereddict",
-					"platforms": ["*"],
-					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -604,11 +532,11 @@
 			"description": "Allows Sublime Text packages to emit and listen for events",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/package_events/issues",
-			"load_order": "20",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/package_events",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -619,11 +547,11 @@
 			"description": "Allow final user to disable key bindings with very few changes needed from the dev",
 			"author": "math2001",
 			"issues": "https://github.com/math2001/package_setting_context/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/math2001/package_setting_context",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -634,12 +562,12 @@
 			"description": "Python implementation of the SSHv2 protocol - http://paramiko-www.readthedocs.org/en/latest/index.html",
 			"author": "jlegewie",
 			"issues": "https://github.com/jlegewie/sublime-paramiko/issues",
-			"load_order": "51",
 			"releases": [
 				{
 					"base": "https://github.com/jlegewie/sublime-paramiko",
 					"platforms": ["osx"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -649,11 +577,11 @@
 			"description": "Python pathlib module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/pathlib/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pathlib",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -664,11 +592,11 @@
 			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
 			"author": "vovkkk",
 			"issues": "https://github.com/vovkkk/sublime-pathtools/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/vovkkk/sublime-pathtools",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -679,12 +607,12 @@
 			"description": "Python pexpect module",
 			"author": "varp",
 			"issues": "https://github.com/varp/sublime-pexpect/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/varp/sublime-pexpect",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -694,12 +622,12 @@
 			"description": "Python interface to a plantuml web service instead of having to run Java locally",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandrocoan/plantumlconnection/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/plantumlconnection",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -709,12 +637,12 @@
 			"description": "An extended version of portalocker to lock files in Python using the with statement",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandroforks/portalockerfile/issues",
-			"load_order": "08",
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/portalockerfile",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -724,12 +652,12 @@
 			"description": "Python psutil module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/psutil/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/psutil",
 					"platforms": ["osx-x64","windows","linux"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -739,12 +667,12 @@
 			"description": "Python ptyprocess module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/ptyprocess/issues",
-			"load_order": "40",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/ptyprocess",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -754,12 +682,12 @@
 			"description": "A modern parsing library for Python, implementing Earley & LALR(1) and an easy interface",
 			"author": "evandrocoan",
 			"issues": "https://github.com/evandrocoan/pushdownparser/issues",
-			"load_order": "09",
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/pushdownparser",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -769,12 +697,12 @@
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
 			"author": "jlegewie",
 			"issues": "https://github.com/jlegewie/sublime-PyCrypto/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/jlegewie/sublime-PyCrypto",
 					"platforms": ["osx-x64"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -784,11 +712,11 @@
 			"description": " Python FIS MTM/PIP SQL/RPC Interface",
 			"author": "fopina",
 			"issues": "https://github.com/fopina/sublime-pyfispip/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/fopina/sublime-pyfispip",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -799,11 +727,11 @@
 			"description": "Python pygments module",
 			"author": "AndreasBackx",
 			"issues": "https://github.com/packagecontrol/pygments/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pygments",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -814,12 +742,12 @@
 			"description": "PyMdown Extensions for Python Markdown",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-pymdownx/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-pymdownx",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -829,12 +757,12 @@
 			"description": "Python pyte module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/pyte/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyte",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -844,12 +772,12 @@
 			"description": "Python DOCX Module",
 			"author": "WriteML",
 			"issues": "https://github.com/writeml/sublime-docx/issues",
-			"load_order": "20",
 			"releases": [
 				{
 					"base": "https://github.com/writeml/sublime-docx",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -859,11 +787,11 @@
 			"description": "Python Jinja2 module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/jinja2/issues",
-			"load_order": "51",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/jinja2",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -874,12 +802,12 @@
 			"description": "Python Markdown module",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-markdown/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -889,12 +817,12 @@
 			"description": "Pywin32 module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/pywin32/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pywin32",
 					"platforms": ["windows"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -904,11 +832,11 @@
 			"description": "Python six library https://github.com/benjaminp/six",
 			"author": "jcoc611",
 			"issues": "https://github.com/packagecontrol/sublime-six/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/sublime-six",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -919,12 +847,12 @@
 			"description": "Python lib for TOML",
 			"author": "Jimmy Girardet",
 			"issues": "https://github.com/jgirardet/sublime-toml/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/jgirardet/sublime-toml",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -934,11 +862,11 @@
 			"description": "Python pytz module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/pytz/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pytz",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -949,12 +877,12 @@
 			"description": "Python winpty module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/pywinpty/issues",
-			"load_order": "40",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pywinpty",
 					"platforms": ["windows"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -964,11 +892,11 @@
 			"description": "Python PyYAML module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/pyyaml/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyyaml",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -979,12 +907,12 @@
 			"description": "Python ZMQ module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/pyzmq/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyzmq",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -994,12 +922,12 @@
 			"description": "Regex Module",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-regex/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-regex",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1009,11 +937,11 @@
 			"description": "Python requests module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/requests/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1024,11 +952,11 @@
 			"description": "Python requests-oauthlib module",
 			"author": "csch0",
 			"issues": "https://github.com/packagecontrol/requests-oauthlib/issues",
-			"load_order": "51",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests-oauthlib",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1039,11 +967,11 @@
 			"description": "Python resumeback module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/resumeback/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/resumeback",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1054,12 +982,12 @@
 			"description": "Python ruamel.yaml module",
 			"author": "Thomas Smith",
 			"issues": "https://github.com/Thom1729/sublime-ruamel/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/Thom1729/sublime-ruamel",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1069,12 +997,12 @@
 			"description": "Reactive extensions for Python",
 			"author": "guillermooo",
 			"issues": "https://github.com/guillermooo/rxpyst/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/guillermooo/rxpyst",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1084,11 +1012,11 @@
 			"description": "Sassc binaries",
 			"author": "blitzrk",
 			"issues": "https://github.com/blitzrk/sublime_sassc/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/blitzrk/sublime_sassc",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1099,11 +1027,11 @@
 			"description": "Fetch location and size of physical screens - https://github.com/rr-/screeninfo",
 			"author": "ggets",
 			"issues": "https://github.com/ggets/sublime-screeninfo/issues",
-			"load_order": "99",
 			"releases": [
 				{
 					"base": "https://github.com/ggets/sublime-screeninfo",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1114,11 +1042,11 @@
 			"description": "Python select module for Sublime Text 2 on Windows",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/sublime-select-windows/issues",
-			"load_order": "02",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-select-windows",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1129,12 +1057,12 @@
 			"description": "Python serial port access library",
 			"author": "pyserial",
 			"issues": "https://github.com/bisguzar/sublime-serial/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/bisguzar/sublime-serial",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1144,11 +1072,11 @@
 			"description": "Access a user's environmental variables as defined in their shell",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/shellenv/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/shellenv",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1159,11 +1087,11 @@
 			"description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg",
 			"author": "idleberg",
 			"issues": "https://github.com/idleberg/sublime-speg/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-speg",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1174,51 +1102,20 @@
 			"description": "Python _sqlite3 module",
 			"author": "wbond",
 			"issues": "https://github.com/codexns/sublime-sqlite3/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-sqlite3",
 					"platforms": ["windows","linux"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				},
 				{
 					"base": "https://github.com/codexns/sublime-sqlite3",
 					"platforms": ["osx"],
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ssl-linux",
-			"description": "Python _ssl module for Linux",
-			"author": "wbond",
-			"issues": "https://github.com/codexns/sublime-ssl-linux/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"url": "http://packagecontrol.io/ssl/1.0.2/ssl-linux.sublime-package",
-					"sha256": "23f35f64458a0a14c99b1bb1bbc3cb04794c7361c4940e0a638d40f038acd377",
-					"platforms": ["linux"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
-					"version": "1.0.2"
-				}
-			]
-		},
-		{
-			"name": "ssl-windows",
-			"description": "Python _ssl module for Sublime Text 2 on Windows",
-			"author": "wbond",
-			"issues": "https://github.com/codexns/sublime-ssl-windows/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"url": "http://packagecontrol.io/ssl/1.0.0/ssl-windows.sublime-package",
-					"sha256": "efe25e3bdf2e8f791d86327978aabe093c9597a6ceb8c2fb5438c1d810e02bea",
-					"platforms": ["windows"],
-					"sublime_text": "<3000",
-					"version": "1.0.0"
+					"tags": true
 				}
 			]
 		},
@@ -1227,12 +1124,12 @@
 			"description": "Pyton module for Sublime Text to automatically style popups based on active color scheme.",
 			"author": "huot25",
 			"issues": "https://github.com/huot25/StyledPopup/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/huot25/StyledPopup",
 					"platforms": ["*"],
-					"sublime_text": ">=3070",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1242,12 +1139,12 @@
 			"description": "Utility library for frequently used functionality in Sublime Text library and convenience functions or classes",
 			"author": "Thomas Smith",
 			"issues": "https://github.com/SublimeText/sublime_lib/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/SublimeText/sublime_lib",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1257,11 +1154,12 @@
 			"description": "Python module for the Perforce API, extracted from https://pypi.python.org/pypi/P4Python.",
 			"author": "mrelusive",
 			"issues": "https://github.com/claytonlemons/SublimeP4Python/issues",
-			"load_order": "51",
 			"releases": [
 				{
 					"base": "https://github.com/claytonlemons/SublimeP4Python",
 					"platforms": ["windows"],
+					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1272,11 +1170,11 @@
 			"description": "Python tabulate module",
 			"author": "csch0",
 			"issues": "https://github.com/packagecontrol/tabulate/issues",
-			"load_order": "01",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/tabulate",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1287,12 +1185,12 @@
 			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
 			"author": "MariusWirtz",
 			"issues": "https://github.com/ajmyers/TM1py/issues",
-			"load_order": "99",
 			"releases": [
 				{
 					"base": "https://github.com/ajmyers/TM1py",
 					"platforms": ["*"],
-					"sublime_text": ">3092",
+					"python_versions": ["3.3"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1302,11 +1200,11 @@
 			"description": "Python typing module",
 			"author": "FichteFoll",
 			"issues": "https://github.com/packagecontrol/typing/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/typing",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1317,11 +1215,11 @@
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
 			"author": "vovkkk",
 			"issues": "https://github.com/vovkkk/sublime-watchdog/issues",
-			"load_order": "20",
 			"releases": [
 				{
 					"base": "https://github.com/vovkkk/sublime-watchdog",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1332,12 +1230,12 @@
 			"description": "Python wcmatch module which provides enhanced file globbing and matching",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/sublime-wcmatch/issues",
-			"load_order": "55",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-wcmatch",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1347,12 +1245,12 @@
 			"description": "Python wcwidth module",
 			"author": "randy3k",
 			"issues": "https://github.com/packagecontrol/wcwidth/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/wcwidth",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1362,11 +1260,11 @@
 			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
 			"author": "jcoc611",
 			"issues": "https://github.com/packagecontrol/sublime-websocket-client/issues",
-			"load_order": "10",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/sublime-websocket-client",
 					"platforms": ["*"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1377,11 +1275,11 @@
 			"description": "Automation tool on Linux",
 			"author": "randy3k",
 			"issues": "https://github.com/randy3k/sublime-xdotool/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/randy3k/sublime-xdotool",
 					"platforms": ["linux"],
+					"python_versions": ["3.3"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1392,11 +1290,11 @@
 			"description": "Makes working with XML feel like you are working with JSON - https://github.com/martinblech/xmltodict",
 			"author": "idleberg",
 			"issues": "https://github.com/idleberg/sublime-xmltodict/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-xmltodict",
 					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
@@ -1407,12 +1305,12 @@
 			"description": "Engine for YAML Macros",
 			"author": "Thomas Smith",
 			"issues": "https://github.com/Thom1729/yaml-macros-engine/issues",
-			"load_order": "50",
 			"releases": [
 				{
 					"base": "https://github.com/Thom1729/yaml-macros-engine",
 					"platforms": ["*"],
-					"sublime_text": ">=3000",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
