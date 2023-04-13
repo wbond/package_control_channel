@@ -691,6 +691,17 @@
 			]
 		},
 		{
+			"name": "AlpineJS",
+			"details": "https://github.com/SublimeText/AlpineJS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				}
+			]
+		},
+		{
 			"name": "Alrighty Snippets",
 			"details": "https://github.com/alrighty/alrighty-snippets-sublime",
 			"labels": ["snippets", "react", "jsx", "es6"],
@@ -1291,7 +1302,7 @@
 			"name": "AnyTest",
 			"details": "https://github.com/timfjord/AnyTest",
 			"labels": [
-				"cucumber", "elixir", "espec", "exunit", "javascript", "jest", "m", "minitest", "mocha", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest"
+				"cucumber", "delve", "elixir", "espec", "exunit", "ginkgo", "go", "java", "javascript", "jest", "junit", "m", "minitest", "mocha", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest", "xctest"
 			],
 			"releases": [
 				{
@@ -1970,6 +1981,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AssistantAI",
+			"details": "https://github.com/kanutron/AssistantAI",
+			"labels": ["assistant", "completion", "chat", "ai", "gpt", "python"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

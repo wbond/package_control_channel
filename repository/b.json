@@ -245,12 +245,22 @@
 		{
 			"name": "Bats",
 			"previous_names": ["Bats (Bash Automated Testing System)"],
-			"details": "https://github.com/sptndc/sublime-bats",
+			"details": "https://github.com/SublimeText/bash-automated-testing-system",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
+			],
+			"labels": [
+				"bash",
+				"syntax",
+				"snippets",
+				"language syntax"
 			]
 		},
 		{

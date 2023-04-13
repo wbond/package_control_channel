@@ -1343,7 +1343,7 @@
 		},
 		{
 			"name": "phpfmt",
-			"details": "https://github.com/nanch/phpfmt_stable",
+			"details": "https://github.com/driade/phpfmt8",
 			"labels": ["language syntax", "formatter", "php", "formatting"],
 			"releases": [
 				{
@@ -2220,6 +2220,19 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pretty EDN",
+			"details": "https://github.com/oakmac/sublime-pretty-edn",
+			"author": "Chris Oakman",
+			"labels": ["edn", "clojure", "clojurescript", "babashka", "clj", "cljs", "pretty", "lint", "minify", "validate"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
