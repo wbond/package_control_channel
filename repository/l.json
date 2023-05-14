@@ -769,17 +769,21 @@
 		},
 		{
 			"name": "LESS",
-			"details": "https://github.com/danro/LESS-sublime",
+			"details": "https://github.com/SublimeText/LESS",
 			"donate": "https://paypal.me/koenlageveen",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "<4000",
-					"tags": "st3-"
+					"sublime_text": "3143 - 4106",
+					"tags": "st3143-"
 				},
 				{
-					"sublime_text": ">=4000",
-					"tags": true
+					"sublime_text": "4107 - 4148",
+					"tags": "st4107-"
+				},
+				{
+					"sublime_text": ">=4149",
+					"tags": "st4149-"
 				}
 			]
 		},
