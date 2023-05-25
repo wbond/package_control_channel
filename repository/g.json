@@ -644,7 +644,12 @@
 			"labels": ["git", "diff"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"platforms": ["osx", "linux"],
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
