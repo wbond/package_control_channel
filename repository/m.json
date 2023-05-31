@@ -2364,11 +2364,15 @@
 		{
 			"name": "MonokaiFree",
 			"details": "https://github.com/gerardroche/sublime-monokai-free",
-			"labels": ["color scheme"],
+			"labels": ["monokai", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=4000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
 				}
 			]
 		},
