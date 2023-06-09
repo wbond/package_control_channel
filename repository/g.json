@@ -252,6 +252,17 @@
 			]
 		},
 		{
+			"name": "GenerateSyntaxTestAssertions",
+			"details": "https://github.com/gerardroche/sublime-generate-syntax-test-assertions",
+			"labels": ["generator", "syntax", "testing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/GenerateUUID",
 			"releases": [
 				{
@@ -644,7 +655,12 @@
 			"labels": ["git", "diff"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"platforms": ["osx", "linux"],
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -785,6 +801,17 @@
 		{
 			"name": "Gitignore",
 			"details": "https://github.com/vilhelmen/Sublime-Gitignore",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gitignore Extended",
+			"details": "https://github.com/Isaac-the-Man/Sublime-Gitignore-Extended",
+			"labels": ["vcs"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1709,6 +1736,17 @@
 			]
 		},
 		{
+			"name": "GotoDefinitionSplit",
+			"details": "https://github.com/gerardroche/sublime-goto-definition-split",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/jtdeng/GoToDoc",
 			"previous_names": ["Goto Golang Document"],
 			"releases": [
@@ -1792,6 +1830,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3067",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GotoPhpManual",
+			"details": "https://github.com/gerardroche/sublime-goto-php-manual",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
