@@ -291,8 +291,12 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=4092",
+					"sublime_text": "4092 - 4148",
 					"tags": "4092-"
+				},
+				{
+					"sublime_text": ">=4149",
+					"tags": "4149-"
 				}
 			]
 		},
@@ -592,6 +596,18 @@
 		{
 			"name": "Term Presenter",
 			"details": "https://github.com/fd/term-presenter-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Terminal",
+			"author": "Will Bond (wbond)",
+			"details": "https://github.com/SublimeText/Terminal",
+			"labels": ["terminal"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2766,6 +2782,17 @@
 			]
 		},
 		{
+			"name": "ToggleDebugMode",
+			"details": "https://github.com/gerardroche/sublime-toggle-debug-mode",
+			"labels": ["debug"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ToggleExclude",
 			"details": "https://github.com/henvic/ToggleExclude",
 			"releases": [
@@ -2782,17 +2809,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "ToggleNeoVintageous",
-			"details": "https://github.com/NeoVintageous/ToggleNeoVintageous",
-			"labels": ["toggle", "vim", "vi", "vintage", "vintageous", "neovintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -3148,7 +3164,11 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3148",
+					"sublime_text": "3148 - 4106",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -3770,6 +3790,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Typst",
+			"details": "https://github.com/hyrious/typst-syntax-highlight",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]

@@ -252,6 +252,17 @@
 			]
 		},
 		{
+			"name": "GenerateSyntaxTestAssertions",
+			"details": "https://github.com/gerardroche/sublime-generate-syntax-test-assertions",
+			"labels": ["generator", "syntax", "testing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/GenerateUUID",
 			"releases": [
 				{
@@ -644,7 +655,12 @@
 			"labels": ["git", "diff"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"platforms": ["osx", "linux"],
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -793,6 +809,17 @@
 			]
 		},
 		{
+			"name": "Gitignore Extended",
+			"details": "https://github.com/Isaac-the-Man/Sublime-Gitignore-Extended",
+			"labels": ["vcs"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Gitignored File Excluder",
 			"details": "https://github.com/ExplodingCabbage/sublime-gitignorer",
 			"releases": [
@@ -831,6 +858,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GitOpen",
+			"details": "https://github.com/gerardroche/sublime-git-open",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1690,11 +1727,22 @@
 			]
 		},
 		{
-			"details": "https://github.com/lazyguru/GoToClass",
+			"details": "https://github.com/vovayatsyuk/GoToClass",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GotoDefinitionSplit",
+			"details": "https://github.com/gerardroche/sublime-goto-definition-split",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1782,6 +1830,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3067",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GotoPhpManual",
+			"details": "https://github.com/gerardroche/sublime-goto-php-manual",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
