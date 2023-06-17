@@ -1104,7 +1104,7 @@
 		{
 			"name": "PHP Completions Kit",
 			"details": "https://github.com/gerardroche/sublime-phpck",
-			"labels": ["php", "auto-complete", "completions"],
+			"labels": ["php", "completions", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1366,9 +1366,9 @@
 		},
 		{
 			"name": "PHPGrammar",
-			"details": "https://github.com/gerardroche/sublime-php-grammar",
-			"labels": ["php", "auto-completion", "completions", "text manipulation", "formatting"],
 			"previous_names": ["php-grammar"],
+			"details": "https://github.com/gerardroche/sublime-php-grammar",
+			"labels": ["php", "completions", "auto-complete", "formatting"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1439,9 +1439,9 @@
 		},
 		{
 			"name": "PHPSnippets",
+			"previous_names": ["php-snippets"],
 			"details": "https://github.com/gerardroche/sublime-php-snippets",
 			"labels": ["php", "snippets"],
-			"previous_names": ["php-snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1522,9 +1522,9 @@
 		},
 		{
 			"name": "PHPUnitKit",
-			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["php", "phpunit", "testing", "tdd"],
 			"previous_names": ["phpunitkit"],
+			"details": "https://github.com/gerardroche/sublime-phpunit",
+			"labels": ["php", "phpunit", "testing"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
