@@ -752,7 +752,7 @@
 		{
 			"name": "Test",
 			"details": "https://github.com/gerardroche/sublime-test",
-			"labels": ["testing", "tdd"],
+			"labels": ["testing"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -3376,6 +3376,17 @@
 			"name": "Trusted Coding",
 			"details": "https://bitbucket.org/madnext/trustedcodingsublime",
 			"labels": ["security", "static", "analysis", "code"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tryton Snippets",
+			"details": "https://gitlab.com/datalifeit/sublimetext-tryton-snippets",
+			"labels": ["tryton", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
