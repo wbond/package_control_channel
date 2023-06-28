@@ -245,12 +245,22 @@
 		{
 			"name": "Bats",
 			"previous_names": ["Bats (Bash Automated Testing System)"],
-			"details": "https://github.com/sptndc/sublime-bats",
+			"details": "https://github.com/SublimeText/bash-automated-testing-system",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
+			],
+			"labels": [
+				"bash",
+				"syntax",
+				"snippets",
+				"language syntax"
 			]
 		},
 		{
@@ -499,6 +509,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Berry Color Scheme",
+			"details": "https://github.com/patoui/berry",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -1276,8 +1297,8 @@
 		},
 		{
 			"name": "Bow Tintin",
-			"details": "https://github.com/papac/bow-tintin-sbt3",
-			"labels": ["php", "Bow", "Tintin", "language syntax", "Bow Tintin"],
+			"details": "https://github.com/bowphp/sublimetext-extension",
+			"labels": ["php", "bow", "bowphp", "Tintin", "language syntax", "Bow Tintin"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",

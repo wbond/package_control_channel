@@ -405,12 +405,47 @@
 			]
 		},
 		{
+			"name": "Cataracted Dark Color Scheme",
+			"details": "https://github.com/betraying/cataracted-dark-sublime-text",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Catkin Builder",
 			"details": "https://github.com/ZacharyTaylor/Catkin-Builder",
 			"labels": ["build system"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Catppuccin color schemes",
+			"details": "https://github.com/catppuccin/sublime-text",
+			"author": ["Catppuccin"],
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3100",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cattleya Color Scheme",
+			"previous_names": ["Orchid Color Scheme"],
+			"details": "https://github.com/patrickfatrick/cattleya-theme-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -461,11 +496,16 @@
 			]
 		},
 		{
+			"name": "Ceedling",
 			"details": "https://github.com/SublimeText/Ceedling",
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -824,7 +864,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1431,6 +1471,16 @@
 			]
 		},
 		{
+			"name": "Clickable WSDL",
+			"details": "https://github.com/lwilli/ClickableWSDL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ClickableRequires",
 			"details": "https://github.com/hajnalben/ClickableRequires",
 			"labels": ["require", "node", "javascript", "js"],
@@ -1530,6 +1580,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Close All without Confirmation",
+			"details": "https://github.com/ddbln/CloseAllNoConfirm",
+			"labels": ["file navigation", "files", "close files", "file close", "commands", "productivity", "utilities", "refactoring"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1907,6 +1968,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Coddy Colour Scheme",
+			"labels": ["Color Scheme"],
+			"details": "https://github.com/codetickdev/coddy",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2328,7 +2400,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["linux"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -2447,8 +2519,8 @@
 		},
 		{
 			"name": "ColdBox Platform",
-			"details": "https://github.com/lmajano/cbox-coldbox-sublime",
-			"labels": ["ColdBox", "WireBox", "MockBox", "LogBox", "TestBox", "ColdFusion"],
+			"details": "https://github.com/ColdBox/coldbox-sublime",
+			"labels": ["ColdBox", "WireBox", "MockBox", "LogBox", "TestBox", "ColdFusion", "CFML"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2551,8 +2623,30 @@
 			]
 		},
 		{
+			"name": "Color Scheme - Bass",
+			"details": "https://github.com/53v3n3d4/Color-Scheme-Bass",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Scheme - Chromodynamics",
 			"details": "https://github.com/MagicStack/Chromodynamics",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - CoderPad",
+			"details": "https://github.com/marwan37/CoderPad-Color-Scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -2833,9 +2927,9 @@
 		},
 		{
 			"name": "ColorSchemeUnit",
+			"previous_names": ["color_scheme_unit"],
 			"details": "https://github.com/gerardroche/sublime-color-scheme-unit",
 			"labels": ["color scheme", "testing"],
-			"previous_names": ["color_scheme_unit"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -3451,6 +3545,17 @@
 			]
 		},
 		{
+			"name": "Continuous Merge",
+			"details": "https://github.com/vim-zz/sublime-cm-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/gipsy-king/ControlScroll",
 			"releases": [
 				{
@@ -3461,7 +3566,7 @@
 		},
 		{
 			"name": "ConvertChineseCharacters",
-			"details": "https://github.com/thunkli/ConvertChineseCharacters",
+			"details": "https://github.com/leibnizli/ConvertChineseCharacters",
 			"releases": [
 				{
 					"sublime_text": ">3000",
@@ -3516,6 +3621,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Cool & Clear - Color Scheme",
+			"previous_names": ["Cool & Clear"],
+			"details": "https://github.com/Doodpants/Cool-and-Clear-Color-Scheme",
+			"author": "Karl von Laudermann",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
@@ -3672,7 +3790,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -4170,6 +4288,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CSharpier",
+			"details": "https://github.com/mkonstapel/sublime-text-csharpier-plugin",
+			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

@@ -100,6 +100,17 @@
 			]
 		},
 		{
+			"name": "Janet",
+			"details": "https://github.com/archydragon/sublime-janet",
+			"labels": ["janet", "language syntax", "build"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Japanese Word Jump",
 			"details": "https://github.com/ngr-t/SublimeJapaneseWordJump",
 			"releases": [
@@ -640,7 +651,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -925,6 +935,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JS Template String Converter",
+			"details": "https://github.com/predragnikolic/JS-Template-String-Converter",
+			"labels": ["javascript", "typescript", "jsx", "vue", "svelte"],
+			"releases": [
+				{
+					"sublime_text": ">=4070",
+					"tags": true
 				}
 			]
 		},
@@ -1404,6 +1425,21 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Just",
+			"details": "https://github.com/nk9/just_sublime",
+			"labels": ["language syntax", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">=4148",
+					"tags": "4148-"
+				},
+				{
+					"sublime_text": "4075 - 4147",
+					"tags": "4075-"
 				}
 			]
 		},

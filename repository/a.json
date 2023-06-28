@@ -351,6 +351,17 @@
 			]
 		},
 		{
+			"name": "Adept",
+			"details": "https://github.com/AdeptLanguage/AdeptSublimeText",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name" : "ADOdb library snippets for PHP",
 			"details": "https://github.com/madhs/ADOdb_snippets",
 			"labels": ["snippets", "php", "adodb", "database"],
@@ -365,6 +376,17 @@
 			"name": "AdonisJs",
 			"details": "https://github.com/ctf0/adonis-sublime",
 			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Advanced Ansible Snippets",
+			"details": "https://github.com/memoryleak/AdvancedAnsibleSnippets",
+			"labels": ["auto-complete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -624,6 +646,17 @@
 			]
 		},
 		{
+			"name": "Alignment",
+			"author": "Will Bond (wbond)",
+			"details": "https://github.com/wbond/sublime_alignment",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Alive Snippets",
 			"details": "https://github.com/alivevietnam/Alive-Snippets",
 			"author": "Alive Vietnam",
@@ -680,6 +713,17 @@
 			]
 		},
 		{
+			"name": "AlpineJS",
+			"details": "https://github.com/SublimeText/AlpineJS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				}
+			]
+		},
+		{
 			"name": "Alrighty Snippets",
 			"details": "https://github.com/alrighty/alrighty-snippets-sublime",
 			"labels": ["snippets", "react", "jsx", "es6"],
@@ -691,6 +735,19 @@
 				}
 			]
 		},
+		{
+			"name": "Alter Text",
+			"details": "https://github.com/cibinmathew/sublime-alter-text",
+			"author": "Cibin Mathew",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},		
 		{
 			"name": "Alternate VIM Navigation",
 			"details": "https://github.com/bohdon/sublimeAlternateVIMNavigation",
@@ -1149,10 +1206,14 @@
 		{
 			"name": "Ansible",
 			"details": "https://github.com/clifford-github/sublime-ansible",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "ansible", "syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1276,7 +1337,7 @@
 			"name": "AnyTest",
 			"details": "https://github.com/timfjord/AnyTest",
 			"labels": [
-				"cucumber", "elixir", "espec", "exunit", "javascript", "jest", "m", "minitest", "mocha", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "test_bench", "testing", "vitest"
+				"cucumber", "delve", "elixir", "espec", "exunit", "ginkgo", "go", "java", "javascript", "jest", "junit", "m", "minitest", "mocha", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest", "xctest"
 			],
 			"releases": [
 				{
@@ -1482,6 +1543,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AppArmor",
+			"details": "https://github.com/HorlogeSkynet/AppArmor",
+			"labels": ["apparmor", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -1874,6 +1946,17 @@
 			]
 		},
 		{
+			"name": "AskCodi",
+			"details": "https://github.com/AskCodi/Sublime-AskCodi",
+			"author": "Assistiv AI",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ASL Syntax Highlight",
 			"details": "https://github.com/Fansaly/ASL-Syntax-Highlight",
 			"author": "Fansaly",
@@ -1933,6 +2016,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AssistantAI",
+			"details": "https://github.com/kanutron/AssistantAI",
+			"labels": ["assistant", "completion", "chat", "ai", "gpt", "python"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

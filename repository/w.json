@@ -294,16 +294,6 @@
 			]
 		},
 		{
-			"name": "WebSearch",
-			"details": "https://github.com/kallookoo/WebSearch",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "WebSuite",
 			"details": "https://github.com/bthorben/WebSuite",
 			"releases": [
@@ -340,6 +330,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WGSL",
+			"details": "https://github.com/relrelb/sublime-wgsl",
+			"labels": ["wgsl", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -739,23 +740,23 @@
 			]
 		},
 		{
-			"name": "WordCount",
-			"details": "https://github.com/philipbelesky/WordCount",
-			"homepage": "https://github.com/titoBouzout/WordCount",
-			"author": "titoBouzout",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/WordHighlight",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordingStatus",
+			"details": "https://github.com/evandrocoan/WordingStatus",
+			"previous_names": ["WordCount"],
+			"author": ["titoBouzout", "evandrocoan"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -783,16 +784,6 @@
 		{
 			"name": "WordPress Code Reference",
 			"details": "https://github.com/maheshwaghmare/sublime-wordpress-code-reference",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "WordPress Completions",
-			"details": "https://github.com/kallookoo/sublime-text-wordpress",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1108,6 +1099,19 @@
 			]
 		},
 		{
+			"name": "WslBuild",
+			"details": "https://github.com/SublimeText/WslBuild",
+			"author": ["existentialmutt" , "DeathAxe"],
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3176",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Wux Weapp Snippets",
 			"description": "Wux Weapp Snippets Plugin for Sublime Text 2/3.",
 			"details": "https://github.com/wux-weapp/wux-weapp-sublime-snippets",
@@ -1118,6 +1122,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WWB",
+			"details": "https://github.com/rusiv/WWB",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

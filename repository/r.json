@@ -462,6 +462,17 @@
 			]
 		},
 		{
+			"name": "RBS",
+			"details": "https://github.com/soutaro/sublime-rbs-plugin",
+			"labels": ["ruby", "rbs"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RDate Editor",
 			"details": "https://bitbucket.org/SergeyEg/date-editor",
 			"releases": [
@@ -898,6 +909,16 @@
 			]
 		},
 		{
+			"name": "Refraction",
+			"details": "https://github.com/beskar-co/sublime-refraction",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Refresh File and Folders",
 			"details": "https://github.com/codebicycle/refresh-file-and-folders",
 			"labels": ["remote"],
@@ -947,6 +968,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RegexMatch",
+			"details": "https://github.com/mercurykd/RegexMatch",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1144,6 +1175,16 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RemoveComments",
+			"details": "https://github.com/mejunliu/RemoveComments",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1694,6 +1735,17 @@
 			]
 		},
 		{
+			"name": "RmlUi Lua",
+			"details": "https://github.com/LoneBoco/rmlui-sublime",
+			"labels": ["language syntax", "rmlui", "rml", "rcss"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ROBLOXLua",
 			"details": "https://github.com/MemoryPenguin/RBXLua-SublimeText",
 			"releases": [
@@ -1801,6 +1853,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Rome Formatter",
+				"labels": ["javascript", "typescript", "formatting", "format"],
+				"details": "https://github.com/marekpiechut/sublime-rome-formatter",
+				"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2223,12 +2286,20 @@
 		},
 		{
 			"name": "Ruby Slim",
-			"details": "https://github.com/slim-template/ruby-slim.tmbundle",
+			"details": "https://github.com/SublimeText/Slim",
 			"previous_names": ["ruby-slim.tmbundle", "ruby-slim"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4107",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "4107 - 4130",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4131",
+					"tags": "4131-"
 				}
 			]
 		},

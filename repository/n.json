@@ -35,6 +35,17 @@
 			]
 		},
 		{
+			"name": "Nano Bots",
+			"details": "https://github.com/icebaker/sublime-nano-bots",
+			"labels": ["assistant", "ai", "openai", "chatgpt", "copilot"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nano RC Syntax",
 			"details": "https://github.com/gerph/sublimetext-nanorc-syntax",
 			"labels": ["syntax"],
@@ -107,6 +118,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NativeScript Core XML Syntax",
+			"details": "https://github.com/CatchABus/sublime-nativescript-xml-syntax",
+			"labels": ["nativescript", "syntax", "highlight"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -271,7 +293,52 @@
 		{
 			"name": "NeoVintageous",
 			"details": "https://github.com/NeoVintageous/NeoVintageous",
-			"labels": ["vim", "vi", "vintage", "vintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
+			"labels": ["vim", "vi", "vintage", "vintageous", "emulation", "emulator", "editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousFiles",
+			"details": "https://github.com/gerardroche/NeoVintageousFiles",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousHighlightLine",
+			"details": "https://github.com/gerardroche/NeoVintageousHighlightLine",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=4074",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousLineNumbers",
+			"details": "https://github.com/gerardroche/NeoVintageousLineNumbers",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousToggle",
+			"previous_names": ["ToggleNeoVintageous"],
+			"details": "https://github.com/NeoVintageous/NeoVintageousToggle",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -643,6 +710,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NimPlus",
+			"details": "https://github.com/vanyle/NimPlus",
+			"labels": ["nim", "language syntax", "auto-complete", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1222,6 +1300,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Nushell",
+			"details": "https://github.com/stevenxxiu/sublime_text_nushell",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
