@@ -35,6 +35,17 @@
 			]
 		},
 		{
+			"name": "Nano Bots",
+			"details": "https://github.com/icebaker/sublime-nano-bots",
+			"labels": ["assistant", "ai", "openai", "chatgpt", "copilot"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nano RC Syntax",
 			"details": "https://github.com/gerph/sublimetext-nanorc-syntax",
 			"labels": ["syntax"],
@@ -282,7 +293,29 @@
 		{
 			"name": "NeoVintageous",
 			"details": "https://github.com/NeoVintageous/NeoVintageous",
-			"labels": ["vim", "vi", "vintage", "vintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
+			"labels": ["vim", "vi", "vintage", "vintageous", "emulation", "emulator", "editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousColemak",
+			"details": "https://github.com/gerardroche/NeoVintageousColemak",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousDvorak",
+			"details": "https://github.com/gerardroche/NeoVintageousDvorak",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -304,7 +337,7 @@
 		{
 			"name": "NeoVintageousHighlightLine",
 			"details": "https://github.com/gerardroche/NeoVintageousHighlightLine",
-			"labels": ["neovintageous", "vim", "vi", "vintage", "vintageous", "neovim", "nvim"],
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
 			"releases": [
 				{
 					"sublime_text": ">=4074",
@@ -327,7 +360,7 @@
 			"name": "NeoVintageousToggle",
 			"previous_names": ["ToggleNeoVintageous"],
 			"details": "https://github.com/NeoVintageous/NeoVintageousToggle",
-			"labels": ["neovintageous", "toggle", "vim", "vi", "vintage", "vintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

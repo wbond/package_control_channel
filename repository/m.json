@@ -1367,11 +1367,16 @@
 		},
 		{
 			"name": "Mermaid",
-			"details": "https://github.com/hlfcoding/sublime-mermaid",
+			"details": "https://github.com/SublimeText/Mermaid",
+			"labels": ["build system", "language_syntax", "graph"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
-					"tags": true
+					"sublime_text": "3092 - 4049",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -2367,11 +2372,11 @@
 			"labels": ["monokai", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=4000",
+					"sublime_text": ">=3211",
 					"tags": true
 				},
 				{
-					"sublime_text": "<4000",
+					"sublime_text": "<3211",
 					"tags": "st3-"
 				}
 			]

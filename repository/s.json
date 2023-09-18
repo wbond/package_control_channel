@@ -406,6 +406,17 @@
 			]
 		},
 		{
+			"name": "Scenic",
+			"details": "https://github.com/UCSCFormalMethods/Scenic-tmLanguage",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Schema Validator",
 			"details": "https://github.com/ligershark/SchemaValidator",
 			"releases": [
@@ -1207,9 +1218,9 @@
 		},
 		{
 			"name": "Sesame",
-			"details": "https://github.com/gerardroche/sublime-sesame",
-			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
 			"previous_names": ["open-sesame"],
+			"details": "https://github.com/gerardroche/sublime-sesame",
+			"labels": ["project", "file navigation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -4910,7 +4921,7 @@
 		{
 			"name": "SublimeTextAPICompletions",
 			"details": "https://github.com/gerardroche/sublime-api-completions",
-			"labels": ["completions"],
+			"labels": ["completions", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -5808,8 +5819,12 @@
 			"details": "https://github.com/TheSpyder/SyncedSideBar",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4050",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": true
 				}
 			]
 		},
