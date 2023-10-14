@@ -153,7 +153,7 @@ class TestContainer(object):
     @classmethod
     def setUpClass(cls):
         cls.package_names = CaseInsensitiveDict()
-        cls.dependency_names = CaseInsensitiveDict()
+        cls.library_names = CaseInsensitiveDict()
         # tuple of (prev_name, include, name); prev_name for case sensitivity
         cls.previous_package_names = CaseInsensitiveDict()
 
@@ -191,12 +191,12 @@ class TestContainer(object):
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
-        keys = ('schema_version', 'packages', 'dependencies', 'includes')
+        keys = ('$schema', 'schema_version', 'packages', 'libraries', 'includes')
         self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
         self.assertIn('schema_version', data)
-        self.assertEqual(data['schema_version'], '3.0.0')
+        self.assertEqual(data['schema_version'], '4.0.0')
 
-        listkeys = [k for k in ('packages', 'dependencies', 'includes')
+        listkeys = [k for k in ('packages', 'libraries', 'includes')
                     if k in data]
         self.assertGreater(len(listkeys), 0, "Must contain something")
         for k in listkeys:
@@ -205,31 +205,44 @@ class TestContainer(object):
         for k in data:
             self.assertIn(k, keys, "Unexpected key")
 
-    def _test_dependency_names(self, include, data):
-        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
+    def _test_library_names(self, include, data):
+        # some dependencies have been renamed to avoid naming conflicts
+        # when installing from official wheel files. New libraries must
+        # not be named like that.
+        invalid_legacy_names = (
+            "bs4",
+            "python-docx",
+            "python-jinja2",
+            "python-markdown",
+            "python-pywin32",
+            "python-six",
+            "python-toml",
+            "ruamel-yaml",
+            "serial",
+        )
+
+        m = re.search(r"(?:^|/)(0-9|[a-z]|libraries)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
 
-        repo_dependency_names = []
-        for pdata in data['dependencies']:
+        repo_library_names = []
+        for pdata in data['libraries']:
             name = get_package_name(pdata)
-            if name in self.dependency_names:
-                self.fail("Dependency names must be unique: " + name)
+            if name in self.library_names:
+                self.fail("Library names must be unique: " + name)
+            if name in invalid_legacy_names:
+                self.fail("Library names must not be: " + name)
             else:
-                self.dependency_names[name] = include
-                repo_dependency_names.append(name)
-            if name in self.package_names:
-                self.fail("Dependency and package names must be unique: %s, "
-                          "previously occured in %s"
-                          % (name, self.package_names[name]))
+                self.library_names[name] = include
+                repo_library_names.append(name)
 
         # Check package order
-        self.assertEqual(repo_dependency_names,
-                         sorted(repo_dependency_names, key=str.lower),
-                         "Dependencies must be sorted alphabetically")
+        self.assertEqual(repo_library_names,
+                         sorted(repo_library_names, key=str.lower),
+                         "Libraries must be sorted alphabetically")
 
     def _test_repository_package_names(self, include, data):
-        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
+        m = re.search(r"(?:^|/)(0-9|[a-z]|libraries)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
         letter = m.group(1)
@@ -254,10 +267,6 @@ class TestContainer(object):
                           "previous_name in %s: %s"
                           % (pname, self.previous_package_names[pname][1],
                              self.previous_package_names[pname][2]))
-            elif pname in self.dependency_names:
-                self.fail("Dependency and package names must be unique: %s, "
-                          "previously occured in %s"
-                          % (pname, self.dependency_names[pname]))
             else:
                 self.package_names[pname] = include
                 repo_package_names.append(pname)
@@ -360,18 +369,17 @@ class TestContainer(object):
                 self.assertIn(key, data, '%r is required if no "details" URL '
                                          'provided' % key)
 
-    dependency_key_types_map = {
+    library_key_types_map = {
         'name': str,
         'description': str,
         'releases': list,
         'issues': str,
-        'load_order': str,
         'author': str
     }
 
-    def _test_dependency(self, include, data):
+    def _test_library(self, include, data):
         for k, v in data.items():
-            self.enforce_key_types_map(k, v, self.dependency_key_types_map)
+            self.enforce_key_types_map(k, v, self.library_key_types_map)
 
             if k == 'issues':
                 self.assertRegex(v, '^https?://')
@@ -382,11 +390,8 @@ class TestContainer(object):
                 self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
                 self.assertFalse(v.startswith('.'))
 
-            elif k == 'load_order':
-                self.assertRegex(v, r'^\d\d$', '"load_order" must be a two '
-                                               'digit string')
-        for key in ('author', 'releases', 'issues', 'description', 'load_order'):
-            self.assertIn(key, data, '%r is required for dependencies' % key)
+        for key in ('author', 'releases', 'issues', 'description'):
+            self.assertIn(key, data, '%r is required for libraries' % key)
 
     pck_release_key_types_map = {
         'base': str,
@@ -394,7 +399,8 @@ class TestContainer(object):
         'branch': str,
         'sublime_text': str,
         'platforms': (list, str),
-        'dependencies': (list, str),
+        'python_versions': list,
+        'libraries': (list, str),
         'version': str,
         'date': str,
         'url': str
@@ -406,15 +412,17 @@ class TestContainer(object):
         'branch': str,
         'sublime_text': str,
         'platforms': (list, str),
+        'python_versions': list,
+        'libraries': (list, str),
         'version': str,
         'sha256': str,
         'url': str
     }
 
-    def _test_release(self, package_name, data, dependency, main_repo=True):
+    def _test_release(self, package_name, data, library, main_repo=True):
         # Test for required keys (and fail early)
         if main_repo:
-            if dependency:
+            if library:
                 condition = (
                     'base' in data
                     and ('tags' in data or 'branch' in data)
@@ -443,7 +451,7 @@ class TestContainer(object):
                                      'request would be necessary for every release')
 
         elif 'tags' not in data and 'branch' not in data:
-            if dependency:
+            if library:
                 for key in ('url', 'version'):
                     self.assertIn(key, data,
                                   'A release must provide "url" and "version" '
@@ -461,29 +469,22 @@ class TestContainer(object):
                                  'The key "%s" is redundant when "tags" or '
                                  '"branch" is specified' % key)
 
-        self.assertIn('sublime_text', data,
-                      'A sublime text version selector is required')
-
-        if dependency:
-            self.assertIn('platforms', data,
-                          'A platforms selector is required for dependencies')
-
         self.assertFalse(('tags' in data and 'branch' in data),
                          'A release must have only one of the "tags" or '
                          '"branch" keys.')
 
         # Test keys values
-        self.check_release_key_values(data, dependency)
+        self.check_release_key_values(data, library)
 
-    def check_release_key_values(self, data, dependency):
+    def check_release_key_values(self, data, library):
         """Check the key-value pairs of a release for validity."""
-        release_key_types_map = (self.dep_release_key_types_map if dependency
+        release_key_types_map = (self.dep_release_key_types_map if library
                                  else self.pck_release_key_types_map)
         for k, v in data.items():
             self.enforce_key_types_map(k, v, release_key_types_map)
 
             if k == 'url':
-                if dependency:
+                if library:
                     if 'sha256' not in data:
                         self.assertRegex(v, r'^https://')
                     else:
@@ -521,6 +522,10 @@ class TestContainer(object):
 
                 self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
                                  '"osx, windows, linux" are similar to (and should be replaced by) "*"')
+
+            elif k == 'python_versions':
+                for pyv in v:
+                    self.assertIn(pyv, ('3.3', '3.8'), 'Supported python_versions are "3.3" or "3.8"')
 
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
@@ -639,7 +644,7 @@ class TestContainer(object):
                 yield cls._fail("No schema_version found in %s" % path)
                 return
             schema = data['schema_version']
-            if schema != '3.0.0' and float(schema) not in (1.0, 1.1, 1.2, 2.0):
+            if schema not in ('3.0.0', '4.0.0') and float(schema) not in (1.0, 1.1, 1.2, 2.0):
                 yield cls._fail("Unrecognized schema version %s in %s"
                                 % (schema, path))
                 return
@@ -647,7 +652,7 @@ class TestContainer(object):
             success = True
 
             # Do not generate 1000 failing tests for not yet updated repos
-            if schema != '3.0.0':
+            if schema != '4.0.0':
                 stream.write("skipping (schema version %s)"
                              % data['schema_version'])
                 cls.skipped_repositories[schema] += 1
@@ -731,9 +736,9 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
 
     def test_channel_keys(self):
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['repositories', 'schema_version'])
+        self.assertEqual(keys, ['$schema', 'repositories', 'schema_version'])
 
-        self.assertEqual(self.j['schema_version'], '3.0.0')
+        self.assertEqual(self.j['schema_version'], '4.0.0')
         self.assertIsInstance(self.j['repositories'], list)
 
         for repo in self.j['repositories']:
@@ -791,12 +796,12 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
 
     def test_repository_keys(self):
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['dependencies', 'includes', 'packages',
-                                'schema_version'])
+        self.assertEqual(keys, ['$schema', 'includes', 'libraries', 'packages',
+                                'schema_version', ])
 
-        self.assertEqual(self.j['schema_version'], '3.0.0')
+        self.assertEqual(self.j['schema_version'], '4.0.0')
         self.assertEqual(self.j['packages'], [])
-        self.assertEqual(self.j['dependencies'], [])
+        self.assertEqual(self.j['libraries'], [])
         self.assertIsInstance(self.j['includes'], list)
 
         for include in self.j['includes']:
@@ -833,18 +838,18 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                              release,
                              False))
 
-            if 'dependencies' in data:
-                yield cls._test_dependency_names, (include, data)
+            if 'libraries' in data:
+                yield cls._test_library_names, (include, data)
 
-                for dependency in data['dependencies']:
-                    yield cls._test_dependency, (include, dependency)
+                for library in data['libraries']:
+                    yield cls._test_library, (include, library)
 
-                    dependency_name = get_package_name(dependency)
+                    library_name = get_package_name(library)
 
-                    if 'releases' in dependency:
-                        for release in dependency['releases']:
+                    if 'releases' in library:
+                        for release in library['releases']:
                             (yield cls._test_release,
-                                ("%s (%s)" % (dependency_name, include),
+                                ("%s (%s)" % (library_name, include),
                                  release,
                                  True))
 
