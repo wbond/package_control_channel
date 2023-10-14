@@ -761,20 +761,6 @@
 			]
 		},
 		{
-			"name": "python-pywin32",
-			"description": "Pywin32 module",
-			"author": "randy3k",
-			"issues": "https://github.com/packagecontrol/pywin32/issues",
-			"releases": [
-				{
-					"base": "https://github.com/packagecontrol/pywin32",
-					"platforms": ["windows"],
-					"python_versions": ["3.3"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "pytz",
 			"description": "Python pytz module",
 			"author": "FichteFoll",
@@ -784,6 +770,20 @@
 					"base": "https://github.com/packagecontrol/pytz",
 					"platforms": ["*"],
 					"python_versions": ["3.3", "3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pywin32",
+			"description": "Pywin32 module",
+			"author": "randy3k",
+			"issues": "https://github.com/packagecontrol/pywin32/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pywin32",
+					"platforms": ["windows"],
+					"python_versions": ["3.3"],
 					"tags": true
 				}
 			]
