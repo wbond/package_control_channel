@@ -775,20 +775,6 @@
 			]
 		},
 		{
-			"name": "python-six",
-			"description": "Python six library https://github.com/benjaminp/six",
-			"author": "jcoc611",
-			"issues": "https://github.com/packagecontrol/sublime-six/issues",
-			"releases": [
-				{
-					"base": "https://github.com/packagecontrol/sublime-six",
-					"platforms": ["*"],
-					"python_versions": ["3.3"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "python-toml",
 			"description": "Python lib for TOML",
 			"author": "Jimmy Girardet",
@@ -1008,6 +994,20 @@
 					"base": "https://github.com/codexns/shellenv",
 					"platforms": ["*"],
 					"python_versions": ["3.3"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "six",
+			"description": "Python six library https://github.com/benjaminp/six",
+			"author": "jcoc611",
+			"issues": "https://github.com/packagecontrol/sublime-six/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/sublime-six",
+					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
 					"tags": true
 				}
 			]
