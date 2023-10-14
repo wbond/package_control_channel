@@ -747,6 +747,20 @@
 			]
 		},
 		{
+			"name": "pyserial",
+			"description": "Python serial port access library",
+			"author": "pyserial",
+			"issues": "https://github.com/bisguzar/sublime-serial/issues",
+			"releases": [
+				{
+					"base": "https://github.com/bisguzar/sublime-serial",
+					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "pyte",
 			"description": "Python pyte module",
 			"author": "randy3k",
@@ -950,20 +964,6 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-select-windows",
-					"platforms": ["*"],
-					"python_versions": ["3.3"],
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "serial",
-			"description": "Python serial port access library",
-			"author": "pyserial",
-			"issues": "https://github.com/bisguzar/sublime-serial/issues",
-			"releases": [
-				{
-					"base": "https://github.com/bisguzar/sublime-serial",
 					"platforms": ["*"],
 					"python_versions": ["3.3"],
 					"tags": true
