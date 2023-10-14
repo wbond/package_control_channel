@@ -383,6 +383,20 @@
 			]
 		},
 		{
+			"name": "Jinja2",
+			"description": "Python Jinja2 module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/jinja2/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/jinja2",
+					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "jsonschema",
 			"description": "An(other) implementation of JSON Schema for Python",
 			"author": "kylebebak",
@@ -726,20 +740,6 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyte",
-					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "python-jinja2",
-			"description": "Python Jinja2 module",
-			"author": "FichteFoll",
-			"issues": "https://github.com/packagecontrol/jinja2/issues",
-			"releases": [
-				{
-					"base": "https://github.com/packagecontrol/jinja2",
 					"platforms": ["*"],
 					"python_versions": ["3.3", "3.8"],
 					"tags": true
