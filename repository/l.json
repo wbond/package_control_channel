@@ -300,6 +300,16 @@
 			]
 		},
 		{
+			"name": "Laravel Filament",
+			"details": "https://github.com/PyaeSoneAungRgn/sublime-laravel-filament",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Laravel Forms Bootstrap Snippets",
 			"details": "https://github.com/redgluten/laravel_forms_boostrap_snippets",
 			"labels": ["snippets"],
@@ -379,6 +389,17 @@
 		{
 			"name": "LaravelDumpMan",
 			"details": "https://github.com/k-meissonnier/LaravelDumpMan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LaravelTestingCompletions",
+			"details": "https://github.com/gerardroche/sublime-laravel-testing-completions",
+			"labels": ["laravel", "completions", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -745,18 +766,22 @@
 			]
 		},
 		{
-			"name": "LESS",
-			"details": "https://github.com/danro/LESS-sublime",
-			"donate": "https://paypal.me/koenlageveen",
-			"labels": ["language syntax"],
+			"name": "Less",
+			"details": "https://github.com/SublimeText/Less",
+			"labels": ["language syntax", "auto-complete"],
+			"previous_names": ["LESS", "LessImproved"],
 			"releases": [
 				{
-					"sublime_text": "<4000",
-					"tags": "st3-"
+					"sublime_text": "3143 - 4106",
+					"tags": "3143-"
 				},
 				{
-					"sublime_text": ">=4000",
-					"tags": true
+					"sublime_text": "4107 - 4148",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4149",
+					"tags": "4149-"
 				}
 			]
 		},
@@ -1160,8 +1185,12 @@
 					"tags": "4126-"
 				},
 				{
-					"sublime_text": ">=4134",
+					"sublime_text": "4134 - 4148",
 					"tags": "4134-"
+				},
+				{
+					"sublime_text": ">=4149",
+					"tags": "4149-"
 				}
 			]
 		},
@@ -1508,6 +1537,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Logs Colorize",
+			"author": "Uoc Nguyen",
+			"homepage": "https://github.com/uocnb/SublimeText2-Logs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},

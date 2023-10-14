@@ -563,6 +563,17 @@
 			]
 		},
 		{
+			"name": "Pawn Kit",
+			"details": "https://github.com/punkochel/pawn-openmp-sublime-kit",
+			"labels": ["language syntax", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pawn syntax",
 			"details": "https://github.com/Southclaws/pawn-sublime-language",
 			"labels": ["language syntax", "auto-complete"],
@@ -802,6 +813,17 @@
 			]
 		},
 		{
+			"name": "Pest PHP Snippets",
+			"details": "https://github.com/geneowak/Pest-PHP-Sublime-Text-Snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pest Syntax",
 			"details": "https://github.com/dten/pest-sublime",
 			"releases": [
@@ -973,7 +995,7 @@
 		{
 			"name": "PHP Completions Kit",
 			"details": "https://github.com/gerardroche/sublime-phpck",
-			"labels": ["php", "auto-complete", "completions"],
+			"labels": ["php", "completions", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1183,7 +1205,7 @@
 		},
 		{
 			"name": "phpfmt",
-			"details": "https://github.com/nanch/phpfmt_stable",
+			"details": "https://github.com/driade/phpfmt8",
 			"labels": ["language syntax", "formatter", "php", "formatting"],
 			"releases": [
 				{
@@ -1195,9 +1217,9 @@
 		},
 		{
 			"name": "PHPGrammar",
-			"details": "https://github.com/gerardroche/sublime-php-grammar",
-			"labels": ["php", "auto-completion", "completions", "text manipulation", "formatting"],
 			"previous_names": ["php-grammar"],
+			"details": "https://github.com/gerardroche/sublime-php-grammar",
+			"labels": ["php", "completions", "auto-complete", "formatting"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1260,9 +1282,9 @@
 		},
 		{
 			"name": "PHPSnippets",
+			"previous_names": ["php-snippets"],
 			"details": "https://github.com/gerardroche/sublime-php-snippets",
 			"labels": ["php", "snippets"],
-			"previous_names": ["php-snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1333,9 +1355,9 @@
 		},
 		{
 			"name": "PHPUnitKit",
-			"details": "https://github.com/gerardroche/sublime-phpunit",
-			"labels": ["php", "phpunit", "testing", "tdd"],
 			"previous_names": ["phpunitkit"],
+			"details": "https://github.com/gerardroche/sublime-phpunit",
+			"labels": ["php", "phpunit", "testing"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1542,6 +1564,17 @@
 			]
 		},
 		{
+			"name": "Pluto",
+			"details": "https://github.com/PlutoLang/Syntax-Highlighting",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PM2-Snippets",
 			"details": "https://github.com/riyadhalnur/PM2-Snippets",
 			"releases": [
@@ -1624,17 +1657,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "polyfill",
-			"details": "https://github.com/gerardroche/sublime-polyfill",
-			"labels": ["commands", "ctrlp", "file open", "navigation", "nerdtree", "sidebar", "toggles", "vim"],
-			"releases": [
-				{
-					"sublime_text": ">=3083",
 					"tags": true
 				}
 			]
@@ -1984,6 +2006,19 @@
 			]
 		},
 		{
+			"name": "Pretty EDN",
+			"details": "https://github.com/oakmac/sublime-pretty-edn",
+			"author": "Chris Oakman",
+			"labels": ["edn", "clojure", "clojurescript", "babashka", "clj", "cljs", "pretty", "lint", "minify", "validate"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pretty JSON",
 			"details": "https://github.com/dzhibas/SublimePrettyJson",
 			"labels": ["json", "pretty", "lint", "minify", "validate", "query", "json2xml"],
@@ -2326,6 +2361,19 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Projectionist",
+			"details": "https://github.com/timfjord/Projectionist",
+			"labels": [
+				"project"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2734,6 +2782,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PyRock",
+			"details": "https://github.com/abhishek72850/pyrock",
+			"author": "Abhishek Kumar",
+			"labels": ["python", "import", "python-import", "import-statement", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
+					"tags": true
 				}
 			]
 		},

@@ -501,7 +501,11 @@
 			"labels": ["language syntax", "snippets", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3098",
+					"sublime_text": "3098 - 4074",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4075",
 					"tags": true
 				}
 			]
@@ -1416,6 +1420,16 @@
 			]
 		},
 		{
+			"name": "Excel formula",
+			"details": "https://github.com/axemonk/Excel-formula",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Exclude Paths",
 			"details": "https://github.com/kemayo/sublime-text-exclude-paths",
 			"labels": ["project", "indexing", "exclude", "paths"],
@@ -1564,6 +1578,19 @@
 			"name": "ExpandRegion",
 			"details": "https://github.com/aronwoost/sublime-expand-region",
 			"labels": ["text selection", "expand selection", "snippets", "code navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ExpandSelectionToComments",
+			"details": "https://github.com/timfjord/ExpandSelectionToComments",
+			"labels": [
+				"expand", "selection", "comment"
+			],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

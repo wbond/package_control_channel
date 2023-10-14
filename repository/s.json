@@ -373,6 +373,17 @@
 			]
 		},
 		{
+			"name": "Scenic",
+			"details": "https://github.com/UCSCFormalMethods/Scenic-tmLanguage",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Schema Validator",
 			"details": "https://github.com/ligershark/SchemaValidator",
 			"releases": [
@@ -1086,9 +1097,9 @@
 		},
 		{
 			"name": "Sesame",
-			"details": "https://github.com/gerardroche/sublime-sesame",
-			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
 			"previous_names": ["open-sesame"],
+			"details": "https://github.com/gerardroche/sublime-sesame",
+			"labels": ["project", "file navigation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1964,21 +1975,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Sk-ST3",
-			"description": "Skript Language Modern Syntax Highlighting. Skript is a Minecraft plugin that allows you to write codes with plain english and use it as plugins",
-			"details": "https://github.com/AyhamAl-Ali/sk-st3",
-			"homepage": "https://forums.skunity.com/resources/sk-st3-syntax-highlighting-open-source.710/",
-			"issues": "https://github.com/AyhamAl-Ali/sk-st3/issues",
-			"labels": ["language syntax", "color scheme"],
-			"author": "Ayham Al-Ali",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -3722,6 +3718,17 @@
 			]
 		},
 		{
+			"name": "Streamlit",
+			"details": "https://github.com/futureprogrammer360/Sublime-Streamlit",
+			"labels": ["snippets", "auto-complete", "build system", "completions", "python", "documentation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "String 2 Lower Hyphen",
 			"details": "https://github.com/jielimanyili/sublime_string2_lower_hyphen",
 			"releases": [
@@ -4394,7 +4401,7 @@
 		{
 			"name": "SublimeTextAPICompletions",
 			"details": "https://github.com/gerardroche/sublime-api-completions",
-			"labels": ["completions"],
+			"labels": ["completions", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -4437,6 +4444,17 @@
 					"sublime_text": ">=3000",
 					"tags": true,
 					"platforms": ["osx", "linux"]
+				}
+			]
+		},
+		{
+			"name": "Sublitesse Color Scheme",
+			"details": "https://github.com/hhofner/sublitesse",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3100",
+					"tags": true
 				}
 			]
 		},
@@ -4644,6 +4662,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Super Templates",
+			"details": "https://github.com/WiseLibs/super-templates-syntax",
+			"labels": ["language syntax", "HTML", "template"],
+			"releases": [
+				{
+					"sublime_text": ">=3211",
+					"tags": true
 				}
 			]
 		},
@@ -5081,6 +5110,16 @@
 			]
 		},
 		{
+			"name": "SymbolBalloon",
+			"details": "https://github.com/matsukido/SymbolBalloon",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Symfony2 Override",
 			"details": "https://github.com/igormukhingmailcom/sublimetext3-symfony2-override-package",
 			"releases": [
@@ -5150,8 +5189,12 @@
 			"details": "https://github.com/TheSpyder/SyncedSideBar",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4050",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": true
 				}
 			]
 		},
