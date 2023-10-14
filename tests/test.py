@@ -161,13 +161,14 @@ class TestContainer(object):
     # except for Pascal and Rust
     # which only ship in ST3
     default_packages = (
-        'ActionScript', 'AppleScript', 'ASP', 'Batch File',
-        'C#', 'C++', 'Clojure', 'Color Scheme - Default', 'CSS', 'D', 'Default',
-        'Diff', 'Erlang', 'Go', 'Graphviz', 'Groovy', 'Haskell', 'HTML', 'Java',
-        'JavaScript', 'Language - English', 'LaTeX', 'Lisp', 'Lua', 'Makefile',
-        'Markdown', 'Matlab', 'Objective-C', 'OCaml', 'Pascal', 'Perl', 'PHP',
-        'Python', 'R', 'Rails', 'Regular Expressions', 'RestructuredText',
-        'Ruby', 'Rust', 'Scala', 'ShellScript', 'SQL', 'TCL', 'Text', 'Textile',
+        'ActionScript', 'AppleScript', 'ASP', 'Batch File', 'Binary', 'C#',
+        'C++', 'Clojure', 'Color Scheme - Default', 'CSS', 'D', 'Default',
+        'Diff', 'Erlang', 'Git Formats', 'Go', 'Graphviz', 'Groovy',
+        'Haskell', 'HTML', 'Java', 'JavaScript', 'Language - English',
+        'LaTeX', 'Lisp', 'Lua', 'Makefile', 'Markdown', 'Matlab',
+        'Objective-C', 'OCaml', 'Pascal', 'Perl', 'PHP', 'Python', 'R',
+        'Rails', 'Regular Expressions', 'RestructuredText', 'Ruby', 'Rust',
+        'Scala', 'ShellScript', 'SQL', 'TCL', 'Text', 'Textile',
         'Theme - Default', 'Vintage', 'XML', 'YAML'
     )
 
