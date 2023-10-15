@@ -28,7 +28,7 @@ generator_method_type = 'method'
 
 if hasattr(sys, 'argv'):
     arglist = ['--test-repositories']
-    # Exctract used arguments form the commandline an strip them for
+    # Extract used arguments from commandline an strip them for
     # unittest.main
     userargs = [arg for arg in sys.argv if arg in arglist]
     for arg in userargs:
