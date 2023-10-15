@@ -172,21 +172,20 @@ class TestContainer(object):
         'Theme - Default', 'Vintage', 'XML', 'YAML'
     )
 
-    rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+
-                      |https:// gitlab\.com/ [^/]+/ [^/]+
+    rel_b_reg = r'''^ ( https:// bitbucket\.org / [^/#?]+ / [^/#?]+
+                      | https:// github\.com / [^/#?]+ / [^/#?]+
+                      | https:// gitlab\.com / [^/#?]+ / [^/#?]+
                       ) $'''
     # Strip multilines for better debug info on failures
     rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
     release_base_regex = re.compile(rel_b_reg, re.X)
 
-    pac_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
-                                                          |/)? (?<!\.git)
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
-                                                             |\#tags
-                                                             |/)?
-                      |https:// gitlab\.com/ [^/]+/ [^/]+ (/-/tree/ .+ (?<!/)
-                                                          |/)? (?<!\.git)
+    pac_d_reg = r'''^ ( https:// bitbucket\.org/ [^/#?]+/ [^/#?]+
+                        ( /src/ [^#?]*[^/#?] | \#tags | / )?
+                      | https:// github\.com/ [^/#?]+/ [^/#?]+
+                        (?<!\.git) ( /tree/ [^#?]*[^/#?] | / )?
+                      | https:// gitlab\.com/ [^/#?]+/ [^/#?]+
+                        (?<!\.git) ( /-/tree/ [^#?]*[^/#?] | / )?
                       ) $'''
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)
