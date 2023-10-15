@@ -191,8 +191,8 @@ class TestContainer(object):
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
-        keys = ('schema_version', 'packages', 'dependencies', 'includes')
-        self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
+        keys = ("$schema", 'schema_version', 'packages', 'dependencies', 'includes')
+        self.assertTrue(2 <= len(data) <= len(keys), "Unexpected number of keys")
         self.assertIn('schema_version', data)
         self.assertEqual(data['schema_version'], '3.0.0')
 
@@ -730,10 +730,18 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             print("Repositories skipped: %s" % dict(cls.skipped_repositories))
 
     def test_channel_keys(self):
+        allowed_keys = ("$schema", 'repositories', 'schema_version')
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['repositories', 'schema_version'])
 
+        self.assertTrue(2 <= len(keys) <= len(allowed_keys), "Unexpected number of keys")
+
+        for k in keys:
+            self.assertIn(k, allowed_keys, "Unexpected key")
+
+        self.assertIn('schema_version', keys)
         self.assertEqual(self.j['schema_version'], '3.0.0')
+
+        self.assertIn('repositories', keys)
         self.assertIsInstance(self.j['repositories'], list)
 
         for repo in self.j['repositories']:
