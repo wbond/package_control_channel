@@ -514,10 +514,10 @@ class TestContainer(object):
                 self.assertCountEqual(v, list(set(v)),
                                       "Specifying the same platform multiple times is redundant")
 
-                if (("osx-x32" in v and "osx-x64" in v) or
-                    ("windows-x32" in v and "windows-x64" in v) or
-                    ("linux-x32" in v and "linux-x64" in v)):
-                    self.fail("Specifying both x32 and x64 architectures is redundant")
+                if (("osx-x32" in v and "osx-x64" in v and "osx-arm64" in v) or
+                    ("windows-x32" in v and "windows-x64" in v and "windows-arm64" in v) or
+                    ("linux-x32" in v and "linux-x64" in v and "linux-arm64" in v)):
+                    self.fail("Specifying all of x32, x64 and arm64 architectures is redundant")
 
                 self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
                                  '"osx, windows, linux" are similar to (and should be replaced by) "*"')
