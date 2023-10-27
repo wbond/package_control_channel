@@ -2281,6 +2281,19 @@
 			]
 		},
 		{
+			"name": "Auto Dark mode for Linux",
+			"details": "https://github.com/smac89/autodark-sublime-plugin",
+			"labels": ["color scheme", "theme", "xdg-desktop-portal"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true,
+					"dependencies": ["sublime_lib"],
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
 			"name": "Auto Encoding for Ruby",
 			"details": "https://github.com/elomarns/auto-encoding-for-ruby",
 			"releases": [
