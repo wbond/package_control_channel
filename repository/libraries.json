@@ -210,6 +210,89 @@
 					"platforms": ["*"],
 					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-win_amd64.whl",
+					"tags": true,
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-win32.whl",
+					"tags": true,
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-manylinux_2_17_aarch64*.whl",
+					"tags": true,
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-manylinux_2_5_x86_64*.whl",
+					"tags": true,
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-manylinux_2_5_i686*.whl",
+					"tags": true,
+					"platforms": ["linux-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-macosx_11_0_arm64.whl",
+					"tags": true,
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp38-cp38-macosx_10_9_x86_64.whl",
+					"tags": true,
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp33-cp33m-manylinux1_i686.whl",
+					"tags": true,
+					"platforms": ["linux-x32"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp33-cp33m-manylinux1_x86_64.whl",
+					"tags": true,
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp33-cp33m-macosx_10_10_x86_64.whl",
+					"tags": true,
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp33-cp33m-win32.whl",
+					"tags": true,
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/coverage",
+					"asset": "coverage-*-cp33-cp33m-win_amd64.whl",
+					"tags": true,
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.3"]
 				}
 			]
 		},
@@ -812,6 +895,12 @@
 					"platforms": ["windows"],
 					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/pywinpty",
+					"asset": "pywinpty-*-cp38-*-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
