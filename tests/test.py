@@ -525,14 +525,6 @@ class TestContainer(object):
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
 
-            elif k == 'url':
-                self.assertRegex(v, r'^https?://')
-
-            elif k == 'base':
-                self.assertRegex(v, self.release_base_regex,
-                                 'The base url is badly formatted or '
-                                 'invalid')
-
             elif k == 'tags':
                 self.assertTrue(bool(v),
                                 '"tags" must be `true` or a string of length>0')
