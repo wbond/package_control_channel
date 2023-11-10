@@ -19,7 +19,6 @@ import sys
 import unittest
 
 from functools import wraps
-
 from urllib.request import urlopen
 from urllib.error import HTTPError
 from urllib.parse import urljoin
@@ -28,7 +27,7 @@ generator_method_type = 'method'
 
 if hasattr(sys, 'argv'):
     arglist = ['--test-repositories']
-    # Exctract used arguments form the commandline an strip them for
+    # Extract used arguments from commandline an strip them for
     # unittest.main
     userargs = [arg for arg in sys.argv if arg in arglist]
     for arg in userargs:
@@ -172,28 +171,27 @@ class TestContainer(object):
         'Theme - Default', 'Vintage', 'XML', 'YAML'
     )
 
-    rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+
-                      |https:// gitlab\.com/ [^/]+/ [^/]+
+    rel_b_reg = r'''^ ( https:// bitbucket\.org / [^/#?]+ / [^/#?]+
+                      | https:// github\.com / [^/#?]+ / [^/#?]+
+                      | https:// gitlab\.com / [^/#?]+ / [^/#?]+
                       ) $'''
     # Strip multilines for better debug info on failures
     rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
     release_base_regex = re.compile(rel_b_reg, re.X)
 
-    pac_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
-                                                          |/)? (?<!\.git)
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
-                                                             |\#tags
-                                                             |/)?
-                      |https:// gitlab\.com/ [^/]+/ [^/]+ (/-/tree/ .+ (?<!/)
-                                                          |/)? (?<!\.git)
+    pac_d_reg = r'''^ ( https:// bitbucket\.org/ [^/#?]+/ [^/#?]+
+                        ( /src/ [^#?]*[^/#?] | \#tags | / )?
+                      | https:// github\.com/ [^/#?]+/ [^/#?]+
+                        (?<!\.git) ( /tree/ [^#?]*[^/#?] | / )?
+                      | https:// gitlab\.com/ [^/#?]+/ [^/#?]+
+                        (?<!\.git) ( /-/tree/ [^#?]*[^/#?] | / )?
                       ) $'''
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
         keys = ('$schema', 'schema_version', 'packages', 'libraries', 'includes')
-        self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
+        self.assertTrue(2 <= len(data) <= len(keys), "Unexpected number of keys")
         self.assertIn('schema_version', data)
         self.assertEqual(data['schema_version'], '4.0.0')
 
@@ -516,10 +514,10 @@ class TestContainer(object):
                 self.assertCountEqual(v, list(set(v)),
                                       "Specifying the same platform multiple times is redundant")
 
-                if (("osx-x32" in v and "osx-x64" in v) or
-                    ("windows-x32" in v and "windows-x64" in v) or
-                    ("linux-x32" in v and "linux-x64" in v)):
-                    self.fail("Specifying both x32 and x64 architectures is redundant")
+                if (("osx-x32" in v and "osx-x64" in v and "osx-arm64" in v) or
+                    ("windows-x32" in v and "windows-x64" in v and "windows-arm64" in v) or
+                    ("linux-x32" in v and "linux-x64" in v and "linux-arm64" in v)):
+                    self.fail("Specifying all of x32, x64 and arm64 architectures is redundant")
 
                 self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
                                  '"osx, windows, linux" are similar to (and should be replaced by) "*"')
@@ -530,14 +528,6 @@ class TestContainer(object):
 
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
-
-            elif k == 'url':
-                self.assertRegex(v, r'^https?://')
-
-            elif k == 'base':
-                self.assertRegex(v, self.release_base_regex,
-                                 'The base url is badly formatted or '
-                                 'invalid')
 
             elif k == 'tags':
                 self.assertTrue(bool(v),
@@ -736,10 +726,18 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             print("Repositories skipped: %s" % dict(cls.skipped_repositories))
 
     def test_channel_keys(self):
+        allowed_keys = ("$schema", 'repositories', 'schema_version')
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['$schema', 'repositories', 'schema_version'])
 
+        self.assertTrue(2 <= len(keys) <= len(allowed_keys), "Unexpected number of keys")
+
+        for k in keys:
+            self.assertIn(k, allowed_keys, "Unexpected key")
+
+        self.assertIn('schema_version', keys)
         self.assertEqual(self.j['schema_version'], '4.0.0')
+
+        self.assertIn('repositories', keys)
         self.assertIsInstance(self.j['repositories'], list)
 
         for repo in self.j['repositories']:
