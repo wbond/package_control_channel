@@ -509,7 +509,7 @@ class TestContainer(object):
                     v = [v]
                 for plat in v:
                     self.assertRegex(plat,
-                                     r"^(\*|(osx|linux|windows)(-(x(32|64))|arm64)?)$")
+                                     r"^(\*|(osx|linux|windows)(-(x(32|64)|arm64))?)$")
 
                 self.assertCountEqual(v, list(set(v)),
                                       "Specifying the same platform multiple times is redundant")
