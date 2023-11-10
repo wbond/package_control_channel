@@ -174,10 +174,19 @@ class TestContainer(object):
     rel_b_reg = r'''^ ( https:// bitbucket\.org / [^/#?]+ / [^/#?]+
                       | https:// github\.com / [^/#?]+ / [^/#?]+
                       | https:// gitlab\.com / [^/#?]+ / [^/#?]+
+                      | https:// pypi\.org / project / [^/#?]+ (?:/ [^/#?]+ )?
                       ) $'''
     # Strip multilines for better debug info on failures
     rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
-    release_base_regex = re.compile(rel_b_reg, re.X)
+    library_release_base_regex = re.compile(rel_b_reg, re.X)
+
+    rel_b_reg = r'''^ ( https:// bitbucket\.org / [^/#?]+ / [^/#?]+
+                      | https:// github\.com / [^/#?]+ / [^/#?]+
+                      | https:// gitlab\.com / [^/#?]+ / [^/#?]+
+                      ) $'''
+    # Strip multilines for better debug info on failures
+    rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
+    package_release_base_regex = re.compile(rel_b_reg, re.X)
 
     pac_d_reg = r'''^ ( https:// bitbucket\.org/ [^/#?]+/ [^/#?]+
                         ( /src/ [^#?]*[^/#?] | \#tags | / )?
@@ -492,7 +501,8 @@ class TestContainer(object):
                     self.assertRegex(v, r'^https?://')
 
             elif k == 'base':
-                self.assertRegex(v, self.release_base_regex,
+                pattern = self.library_release_base_regex if library else self.package_release_base_regex
+                self.assertRegex(v, pattern,
                                  'The base url is badly formatted or '
                                  'invalid')
 
