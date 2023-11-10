@@ -403,6 +403,7 @@ class TestContainer(object):
 
     pck_release_key_types_map = {
         'base': str,
+        'asset': str,
         'tags': (bool, str),
         'branch': str,
         'sublime_text': str,
@@ -416,6 +417,7 @@ class TestContainer(object):
 
     dep_release_key_types_map = {
         'base': str,
+        'asset': str,
         'tags': (bool, str),
         'branch': str,
         'sublime_text': str,
@@ -433,13 +435,13 @@ class TestContainer(object):
             if library:
                 condition = (
                     'base' in data
-                    and ('tags' in data or 'branch' in data)
+                    and any(d in data for d in ('asset', 'tags', 'branch'))
                     or ('sha256' in data
                         and ('url' not in data
                              or data['url'].startswith('http://')))
                 )
                 self.assertTrue(condition,
-                                'A release must have a "base" and a "tags" or "branch" key '
+                                'A release must have a "base" and an "asset", "tags" or "branch" key '
                                 'if it is in the main repository. For custom '
                                 'releases, a custom repository.json file must be '
                                 'hosted elsewhere. The only exception to this rule '
@@ -447,8 +449,8 @@ class TestContainer(object):
                                 'since they help bootstrap proper secure HTTP '
                                 'support for Sublime Text.')
             else:
-                self.assertTrue(('tags' in data or 'branch' in data),
-                                'A release must have a "tags" key or "branch" key '
+                self.assertTrue(any(d in data for d in ('asset', 'tags', 'branch')),
+                                'A release must have an "asset", "tags" or "branch" key '
                                 'if it is in the main repository. For custom '
                                 'releases, a custom repository.json file must be '
                                 'hosted elsewhere.')
@@ -458,7 +460,7 @@ class TestContainer(object):
                                      'used in the main repository since a pull '
                                      'request would be necessary for every release')
 
-        elif 'tags' not in data and 'branch' not in data:
+        elif not any(d in data for d in ('asset', 'tags', 'branch')):
             if library:
                 for key in ('url', 'version'):
                     self.assertIn(key, data,
@@ -479,6 +481,10 @@ class TestContainer(object):
 
         self.assertFalse(('tags' in data and 'branch' in data),
                          'A release must have only one of the "tags" or '
+                         '"branch" keys.')
+
+        self.assertFalse(('asset' in data and 'branch' in data),
+                         'A release must have only one of the "asset" or '
                          '"branch" keys.')
 
         # Test keys values
