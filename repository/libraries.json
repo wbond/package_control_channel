@@ -201,96 +201,79 @@
 		},
 		{
 			"name": "coverage",
-			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
-			"author": "wbond",
+			"description": "Code coverage testing for Python",
+			"author": "Ned Batchelder and 96 others",
 			"issues": "https://github.com/codexns/sublime-coverage/issues",
 			"releases": [
 				{
-					"base": "https://github.com/codexns/sublime-coverage",
-					"platforms": ["*"],
-					"python_versions": ["3.3"],
-					"tags": true
-				},
-				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-win_amd64.whl",
-					"tags": true,
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-win32.whl",
-					"tags": true,
 					"platforms": ["windows-x32"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-manylinux_2_17_aarch64*.whl",
-					"tags": true,
 					"platforms": ["linux-arm64"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-manylinux_2_5_x86_64*.whl",
-					"tags": true,
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-manylinux_2_5_i686*.whl",
-					"tags": true,
 					"platforms": ["linux-x32"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-macosx_11_0_arm64.whl",
-					"tags": true,
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.8"]
-				},				{
+				},
+				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-macosx_10_9_x86_64.whl",
-					"tags": true,
 					"platforms": ["osx-x64"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp33-cp33m-manylinux1_i686.whl",
-					"tags": true,
 					"platforms": ["linux-x32"],
 					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp33-cp33m-manylinux1_x86_64.whl",
-					"tags": true,
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp33-cp33m-macosx_10_10_x86_64.whl",
-					"tags": true,
 					"platforms": ["osx-x64"],
 					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp33-cp33m-win32.whl",
-					"tags": true,
 					"platforms": ["windows-x32"],
 					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp33-cp33m-win_amd64.whl",
-					"tags": true,
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.3"]
 				}
@@ -493,6 +476,26 @@
 			]
 		},
 		{
+			"name": "lsp_utils",
+			"author": "rchl",
+			"description": "Module with LSP-related utilities",
+			"issues": "https://github.com/sublimelsp/lsp_utils/issues",
+			"releases": [
+				{
+					"base": "https://github.com/sublimelsp/lsp_utils",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "3154 - 4069",
+					"tags": "st3-v"
+				},
+				{
+					"base": "https://github.com/sublimelsp/lsp_utils",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": ">=4070",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "lxml",
 			"description": "lxml",
 			"author": "eerohele",
@@ -503,6 +506,36 @@
 					"platforms": ["osx-x64","linux","windows"],
 					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/lxml",
+					"asset": "lxml-*-cp38-cp38-macosx_10_15_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/lxml",
+					"asset": "lxml-*-cp38-cp38-manylinux_2_17_x86_64*.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/lxml",
+					"asset": "lxml-*-cp38-cp38-manylinux_2_17_aarch64*.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/lxml",
+					"asset": "lxml-*-cp38-cp38-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/lxml",
+					"asset": "lxml-*-cp38-cp38-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
@@ -881,6 +914,12 @@
 					"platforms": ["windows"],
 					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/pywin32",
+					"asset": "pywinpty-*-cp38-none-win_amd64.whl",
+					"platforms": ["windows"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
