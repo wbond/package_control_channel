@@ -2043,18 +2043,6 @@
 			]
 		},
 		{
-			"name": "Auto Dark mode for Linux",
-			"details": "https://github.com/smac89/autodark-sublime-plugin",
-			"labels": ["color scheme", "theme", "xdg-desktop-portal"],
-			"releases": [
-				{
-					"sublime_text": ">=4050",
-					"tags": true,
-					"platforms": ["linux"]
-				}
-			]
-		},
-		{
 			"name": "Auto Fold",
 			"details": "https://github.com/fermads/sublime-autofold",
 			"releases": [
@@ -2167,6 +2155,19 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutoDarkLinux",
+			"details": "https://github.com/smac89/autodark-sublime-plugin",
+			"labels": ["color scheme", "theme", "xdg-desktop-portal"],
+			"previous_names": ["Auto Dark mode for Linux"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true,
+					"platforms": ["linux"]
 				}
 			]
 		},
@@ -2321,6 +2322,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoProjects",
+			"details": "https://github.com/SublimeText/AutoProjects",
+			"labels": ["folder", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
