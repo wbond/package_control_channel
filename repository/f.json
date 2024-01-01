@@ -1439,10 +1439,15 @@
 		},
 		{
 			"name": "Folder Aliaser",
-			"details": "https://github.com/tmelot2/folder-aliaser",
+			"details": "https://github.com/SublimeText/FolderAliaser",
+			"previous_names": ["FolderAlias Rename Tool"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1464,16 +1469,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "FolderAlias Rename Tool",
-			"details": "https://bitbucket.org/rablador/folderalias",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "develop"
 				}
 			]
 		},
