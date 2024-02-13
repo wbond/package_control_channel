@@ -1084,19 +1084,6 @@
 			]
 		},
 		{
-			"name": "Angular CLI",
-			"details": "https://github.com/4ern/angular-cli-for-sublime-text",
-			"homepage": "http://4ern.de",
-			"author": "4ern",
-			"labels": ["angular", "cli", "angular2"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Angular Material Snippets",
 			"details": "https://github.com/devotis/sublime-angular-material-snippets",
 			"labels": ["snippets"],
@@ -1167,17 +1154,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "AngularZen",
-			"details": "https://github.com/IlanFrumer/angular-zen",
-			"labels": ["javascript", "coffeescript", "angular.js", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -1470,39 +1446,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "APICloudLoader",
-			"details": "https://github.com/apicloudcom/Sublime-APICloud-Loader",
-			"labels": ["android", "apicloud"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "APICloudSnippets",
-			"details": "https://github.com/apicloudcom/Sublime-APICloud-Snippet",
-			"labels": ["javascript", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "APICloudWifiSync",
-			"details": "https://github.com/apicloudcom/Sublime-APICloud-WifiSync",
-			"labels": ["android", "apicloud"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -2043,17 +1986,6 @@
 			]
 		},
 		{
-			"name": "Assorted Gutter Themes",
-			"details": "https://github.com/TruJared/assorted_gutter_themes",
-			"labels": ["gutter", "themes", "sl", "theme", "SublimeLinter"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Asterisk Config",
 			"details": "https://github.com/pnlarsson/SublimeAsteriskConfig",
 			"labels": ["language syntax"],
@@ -2236,18 +2168,6 @@
 			]
 		},
 		{
-			"name": "Auro Color Scheme",
-			"previous_names": ["Auro Color scheme"],
-			"details": "https://github.com/Ryan-da-ghost/Auro-theme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Aurora Color Scheme",
 			"details": "https://github.com/expalmer/aurora-theme",
 			"labels": ["color scheme"],
@@ -2407,6 +2327,19 @@
 			]
 		},
 		{
+			"name": "AutoDarkLinux",
+			"details": "https://github.com/smac89/autodark-sublime-plugin",
+			"labels": ["color scheme", "theme", "xdg-desktop-portal"],
+			"previous_names": ["Auto Dark mode for Linux"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true,
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
 			"name": "AutoDocstring",
 			"details": "https://github.com/KristoforMaynard/SublimeAutoDocstring",
 			"labels": ["documentation", "formatting", "python"],
@@ -2561,7 +2494,6 @@
 			"details": "https://github.com/wistful/SublimeAutoPEP8",
 			"labels": ["linting", "formatting"],
 			"readme": "https://raw.githubusercontent.com/wistful/SublimeAutoPEP8/master/Readme.md",
-			"issues": "https://github.com/wistful/SublimeAutoPEP8/issues",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2590,6 +2522,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoProjects",
+			"details": "https://github.com/SublimeText/AutoProjects",
+			"labels": ["folder", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
