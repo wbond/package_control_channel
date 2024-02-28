@@ -3146,12 +3146,15 @@
 		},
 		{
 			"name": "Compare Side-By-Side",
-			"details": "https://bitbucket.org/dougty/sublime-compare-side-by-side",
-			"author": "Doug Ty",
+			"details": "https://github.com/kaste/Compare-Side-By-Side",
 			"labels": ["diff", "compare", "comparison"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
