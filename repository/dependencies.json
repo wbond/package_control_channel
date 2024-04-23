@@ -498,22 +498,6 @@
 			]
 		},
 		{
-			"name": "vision",
-			"description": "Vision is a minihtml generation library for Sublime Text that enforces minihtml restrictions for tags, styles and attrivutes",
-			"author": "terminalfi",
-			"issues": "https://github.com/terminalfi/vision/issues",
-			"load_order": "50",
-			"releases": [
-				{
-					"base": "https://github.com/terminalfi/vision",
-					"platforms": ["*"],
-					"python_versions": ["3.8"],
-					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "multiprocessing",
 			"description": "Python _multiprocessing module",
 			"author": "wbond",
@@ -1324,6 +1308,22 @@
 					"base": "https://github.com/packagecontrol/typing",
 					"platforms": ["*"],
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "vision",
+			"description": "Vision is a minihtml generation library for Sublime Text that enforces minihtml restrictions for tags, styles and attrivutes",
+			"author": "terminalfi",
+			"issues": "https://github.com/terminalfi/vision/issues",
+			"load_order": "50",
+			"releases": [
+				{
+					"base": "https://github.com/terminalfi/vision",
+					"platforms": ["*"],
+					"python_versions": ["3.8"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
