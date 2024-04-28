@@ -755,6 +755,17 @@
 			]
 		},
 		{
+			"name": "FileWatcher",
+			"details": "https://github.com/kapitanluffy/sublime-file-watcher",
+			"donate": "https://github.com/sponsors/kapitanluffy",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FileZilla",
 			"details": "https://github.com/thecotne/sublime-filezilla",
 			"releases": [
@@ -1371,10 +1382,15 @@
 		},
 		{
 			"name": "Folder Aliaser",
-			"details": "https://github.com/tmelot2/folder-aliaser",
+			"details": "https://github.com/SublimeText/FolderAliaser",
+			"previous_names": ["FolderAlias Rename Tool"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1386,16 +1402,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "FolderAlias Rename Tool",
-			"details": "https://bitbucket.org/rablador/folderalias",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "develop"
 				}
 			]
 		},
@@ -1521,6 +1527,7 @@
 		{
 			"name": "Formatter",
 			"details": "https://github.com/bitst0rm-pub/Formatter",
+			"author": "bitst0rm",
 			"labels": ["formatting", "beautify", "minify", "css", "scss", "sass", "less", "html", "xml", "javascript", "json", "markdown", "perl", "php", "python", "ruby", "bash", "c", "c++", "c#", "d", "objc", "java"],
 			"releases": [
 				{

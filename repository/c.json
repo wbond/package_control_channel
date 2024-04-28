@@ -342,6 +342,17 @@
 			]
 		},
 		{
+			"name": "Carbon Programming Language",
+			"details": "https://github.com/RohanVashisht1234/sublime_text_carbon_syntax_highlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Carto",
 			"details": "https://github.com/yohanboniface/Carto-sublime",
 			"labels": ["Carto", "CartoCSS", "Mapnik", "OpenStreetMap", "language syntax"],
@@ -2565,6 +2576,16 @@
 			]
 		},
 		{
+			"name": "Color Scheme Categorizer",
+			"details": "https://github.com/maxim/ColorSchemeCategorizer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Color Schemes by carlcalderon",
 			"details": "https://github.com/carlcalderon/sublime-color-schemes",
 			"labels": ["color scheme"],
@@ -2893,6 +2914,17 @@
 			]
 		},
 		{
+			"name": "Comments-only Color Scheme",
+			"details": "https://github.com/cyevgeniy/sublime-comments-only",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Commitment",
 			"details": "https://github.com/janraasch/sublimetext-commitment",
 			"labels": ["vcs", "git", "fun"],
@@ -2917,12 +2949,15 @@
 		},
 		{
 			"name": "Compare Side-By-Side",
-			"details": "https://bitbucket.org/dougty/sublime-compare-side-by-side",
-			"author": "Doug Ty",
+			"details": "https://github.com/kaste/Compare-Side-By-Side",
 			"labels": ["diff", "compare", "comparison"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -3617,6 +3652,17 @@
 		{
 			"name": "Cowsay",
 			"details": "https://github.com/adamchainz/SublimeCowsay",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CP Parser",
+			"details": "https://github.com/hritikchaudhary/CPParser",
+			"labels": ["competitive-programming", "parser"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -4400,6 +4446,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CUE",
+			"details": "https://gitlab.com/patopest/Sublime-Text-Cuelang-Syntax",
+			"labels": ["language syntax"],
+			"author": "patopesto",
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]

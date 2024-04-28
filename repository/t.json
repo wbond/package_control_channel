@@ -899,6 +899,17 @@
 			]
 		},
 		{
+			"name": "Theme - AquaSoda",
+			"details": "https://github.com/Astramata/Theme-AquaSoda",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Arc",
 			"details": "https://github.com/aIRisius/sublime-arc-theme",
 			"labels": ["theme"],
@@ -1746,6 +1757,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Rose Pine",
+			"details": "https://github.com/rose-pine/sublime-text",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3054,6 +3076,24 @@
 			]
 		},
 		{
+			"name": "TreeSitter",
+			"details": "https://github.com/sublime-treesitter/TreeSitter",
+			"labels": [
+				"tree-sitter",
+				"navigation",
+				"selection",
+				"symbols",
+				"parsers"
+			],
+			"author": "kylebebak",
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TreeTop",
 			"details": "https://github.com/royvandewater/Sublime2-TreeTop",
 			"releases": [
@@ -3276,7 +3316,11 @@
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4107",
+					"sublime_text": "4107 - 4141",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4142",
 					"tags": true
 				}
 			]

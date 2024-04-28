@@ -1378,6 +1378,18 @@
 			]
 		},
 		{
+			"name": "PIO",
+			"details": "https://gitlab.com/patopest/Sublime-Text-PIO-Syntax",
+			"labels": ["language syntax"],
+			"author": "patopesto",
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PipenvPath",
 			"details": "https://github.com/dhelonious/PipenvPath",
 			"releases": [
@@ -1404,6 +1416,18 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": "linux",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pkl (Pickle)",
+			"details": "https://github.com/serjan-nasredin/pkl.tmbundle",
+			"author": "snxx",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2460,6 +2484,17 @@
 			]
 		},
 		{
+			"name": "PRQL",
+			"details": "https://github.com/PRQL/sublime-prql",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pseudo Block Mode",
 			"details": "https://github.com/guija/pseudo_block_mode",
 			"releases": [
@@ -2828,7 +2863,11 @@
 			"labels": ["python", "pytest", "testing"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]

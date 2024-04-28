@@ -627,12 +627,12 @@
 		},
 		{
 			"name": "OpenAI completion",
-			"labels": ["code completion", "openai"],
+			"labels": ["code completion", "openai", "chatgpt", "llm"],
 			"details": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text",
 			"donate": "https://github.com/sponsors/yaroslavyaroslav",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]

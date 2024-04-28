@@ -170,21 +170,24 @@
 		},
 		{
 			"name": "Sass",
-			"details": "https://github.com/braver/SublimeSass",
-			"donate": "https://paypal.me/koenlageveen",
+			"details": "https://github.com/SublimeText/Sass",
 			"labels": ["language syntax", "scss", "sass", "completions", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "<4000",
+					"sublime_text": "<4107",
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": "4000 - 4128",
-					"tags": "v2-"
+					"sublime_text": "4107 - 4133",
+					"tags": "4107-"
 				},
 				{
-					"sublime_text": ">=4129",
-					"tags": true
+					"sublime_text": "4134 - 4168",
+					"tags": "4134-"
+				},
+				{
+					"sublime_text": ">=4169",
+					"tags": "4169-"
 				}
 			]
 		},
@@ -5002,6 +5005,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Swift Next",
+			"details": "https://github.com/Swift-Next/Swift-Next",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]

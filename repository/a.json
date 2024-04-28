@@ -1225,7 +1225,7 @@
 			"name": "AnyTest",
 			"details": "https://github.com/timfjord/AnyTest",
 			"labels": [
-				"cucumber", "delve", "elixir", "espec", "exunit", "ginkgo", "go", "java", "javascript", "jest", "junit", "m", "minitest", "mocha", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest", "xctest"
+				"behave", "cucumber", "delve", "django", "elixir", "espec", "exunit", "ginkgo", "go", "java", "javascript", "jest", "junit", "m", "mamba", "minitest", "mocha", "nose", "nose2", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest", "xctest", "zig"
 			],
 			"releases": [
 				{
@@ -2484,6 +2484,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},		
+		{
+			"name": "AWS Helper",
+			"details": "https://github.com/cibinmathew/sublime-aws-helper",
+			"labels": ["aws", "awscli", "amazon"],
+			"author": "Cibin Mathew",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
