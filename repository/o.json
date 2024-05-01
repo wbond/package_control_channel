@@ -202,6 +202,17 @@
 			]
 		},
 		{
+			"name": "Odhin Color Scheme",
+			"details": "https://gitlab.com/odhin-themes/sublime",
+			"labels": ["color scheme", "odhin"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Odin",
 			"details": "https://github.com/odin-lang/sublime-odin",
 			"labels": ["odin", "language syntax"],
@@ -263,6 +274,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3153",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Old-Style ASCII Property Lists",
+			"details": "https://github.com/p4t5h3/ascii-property-lists-for-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">4107",
 					"tags": true
 				}
 			]
@@ -627,12 +649,16 @@
 			"labels": ["open folders", "open files", "shortcut", "power user", "web search", "url"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"tags": true
+					"sublime_text": "<3000",
+					"tags": "st2-"
 				},
 				{
-					"sublime_text": "<3000",
-					"branch": "st2"
+					"sublime_text": "3000 - 4049",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": true
 				}
 			]
 		},
@@ -649,6 +675,18 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OpenAI completion",
+			"labels": ["code completion", "openai", "chatgpt", "llm"],
+			"details": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text",
+			"donate": "https://github.com/sponsors/yaroslavyaroslav",
+			"releases": [
+				{
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
@@ -933,17 +971,6 @@
 			]
 		},
 		{
-			"name": "Orchid Color Scheme",
-			"details": "https://github.com/patrickfatrick/orchid-theme-sublime",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "org_agenda",
 			"details": "https://github.com/robinchenyu/org_calendar",
 			"author": "robinchenyu",
@@ -995,6 +1022,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Outline Notes Publisher",
+			"details": "https://github.com/gnat/sublime-outline-notes-publisher",
+			"labels": ["html", "notes", "note taking", "authoring", "todo", "outline", "outliner", "list", "research", "indentation", "zettlekasten", "publishing", "export", "markdown", "wiki"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]

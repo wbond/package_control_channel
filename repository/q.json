@@ -69,11 +69,11 @@
 		},
 		{
 			"name": "QML",
-			"details": "https://github.com/skozlovf/Sublime-QML",
+			"details": "https://github.com/SublimeText/QML",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -101,16 +101,6 @@
 			]
 		},
 		{
-			"name": "QSwitch",
-			"details": "https://github.com/mintyPT/QSwitch",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Qt Completions for C++",
 			"details": "https://github.com/tushortz/Qt-Completions-for-Cpp",
 			"labels": ["c++","completions", "auto-complete", "completion", "autocomplete", "snippet", "Completion"],
@@ -125,6 +115,17 @@
 			"name": "Quake3 Script",
 			"details": "https://github.com/isRyven/Sublime-Text-Q3Script",
 			"labels": ["quake3", "script", "shader", "language syntax", "snippet", "completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Quarto",
+			"details": "https://github.com/quarto-dev/quarto-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -225,6 +226,19 @@
 					"sublime_text": "*",
 					"tags": true,
 					"platforms": "*"
+				}
+			]
+		},
+		{
+			"name": "Quickfix List",
+			"details": "https://github.com/cibinmathew/sublime_quickfix_list",
+			"author": "Cibin Mathew",
+			"labels": ["navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -417,6 +431,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Quote With Marker",
+			"author": "Denny Korsukéwitz",
+			"details": "https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker",
+			"labels": ["quote", "workflow", "codemarker", "marker", "markers", "comment", "commentline", "patch", "patcher", "diff", "compare", "helper"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

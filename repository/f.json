@@ -44,6 +44,17 @@
 			]
 		},
 		{
+			"name": "FabricEngine",
+			"details": "https://github.com/stepcg/SublimeFabricEngineSyntax",
+			"labels": ["VOSS", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Facebook Material Theme",
 			"details": "https://github.com/ridewn/material-theme",
 			"labels": ["theme", "color scheme", "material", "facebook"],
@@ -170,6 +181,17 @@
 			]
 		},
 		{
+			"name": "Fall Syntax Colorscheme",
+			"details": "https://github.com/imnotril/fall-syntax-sublime-text",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Famous",
 			"details": "https://github.com/AlessandroAnnini/famousst",
 			"author": "Alessandro Filippo Annini",
@@ -253,6 +275,18 @@
 		{
 			"name": "Fast Header",
 			"details": "https://github.com/olive007/FastHeader",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FASTA",
+			"details": "https://github.com/SilentGene/sublime-fasta-syntax",
+			"labels": ["fasta", "language syntax", "bioinformatics"],
+			"author": "Heyu Lin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -730,6 +764,17 @@
 			]
 		},
 		{
+			"name": "FileWatcher",
+			"details": "https://github.com/kapitanluffy/sublime-file-watcher",
+			"donate": "https://github.com/sponsors/kapitanluffy",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FileZilla",
 			"details": "https://github.com/thecotne/sublime-filezilla",
 			"releases": [
@@ -965,17 +1010,6 @@
 			]
 		},
 		{
-			"name": "Firewatch Color Scheme",
-			"details": "https://github.com/willsoto/firewatch-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Fis",
 			"details": "https://github.com/pianist829/fis-sublime-command",
 			"releases": [
@@ -996,8 +1030,12 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 3999",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -1154,6 +1192,17 @@
 			]
 		},
 		{
+			"name": "Flexoki Color Scheme",
+			"details": "https://github.com/kepano/flexoki-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Flight JS Snippets",
 			"details": "https://github.com/cameronhunter/flight-js-snippets",
 			"labels": ["snippets"],
@@ -1278,7 +1327,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["linux"],
+					"platforms": ["linux", "osx"],
 					"tags": true
 				}
 			]
@@ -1401,10 +1450,15 @@
 		},
 		{
 			"name": "Folder Aliaser",
-			"details": "https://github.com/tmelot2/folder-aliaser",
+			"details": "https://github.com/SublimeText/FolderAliaser",
+			"previous_names": ["FolderAlias Rename Tool"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1426,16 +1480,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "FolderAlias Rename Tool",
-			"details": "https://bitbucket.org/rablador/folderalias",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "develop"
 				}
 			]
 		},
@@ -1491,6 +1535,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Font Size Per View",
+			"details": "https://github.com/m-bartlett/SublimeFontSizePerView",
+			"labels": ["font", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1560,6 +1615,7 @@
 		{
 			"name": "Formatter",
 			"details": "https://github.com/bitst0rm-pub/Formatter",
+			"author": "bitst0rm",
 			"labels": ["formatting", "beautify", "minify", "css", "scss", "sass", "less", "html", "xml", "javascript", "json", "markdown", "perl", "php", "python", "ruby", "bash", "c", "c++", "c#", "d", "objc", "java"],
 			"releases": [
 				{

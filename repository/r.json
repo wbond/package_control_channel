@@ -205,16 +205,12 @@
 		},
 		{
 			"name": "RailsGoToSpec",
-			"details": "https://github.com/sporto/rails_go_to_spec",
+			"details": "https://github.com/sporto/rails-go-to-spec-sublime",
 			"previous_names": ["rails_go_to_spec", "Rails Go To Spec"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -458,6 +454,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "RBS",
+			"details": "https://github.com/soutaro/sublime-rbs-plugin",
+			"labels": ["ruby", "rbs"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
 				}
 			]
 		},
@@ -812,16 +819,6 @@
 			]
 		},
 		{
-			"name": "Redacted",
-			"details": "https://github.com/nickgravelyn/redacted",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RedBeanPHP ORM Snippets",
 			"details": "https://github.com/zewa666/RedBean_SublimeTextSnippets",
 			"labels": ["snippets"],
@@ -898,6 +895,16 @@
 			]
 		},
 		{
+			"name": "Refraction",
+			"details": "https://github.com/Twistag/sublime-refraction",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Refresh File and Folders",
 			"details": "https://github.com/codebicycle/refresh-file-and-folders",
 			"labels": ["remote"],
@@ -947,6 +954,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RegexMatch",
+			"details": "https://github.com/mercurykd/RegexMatch",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1149,6 +1166,16 @@
 			]
 		},
 		{
+			"name": "RemoveComments",
+			"details": "https://github.com/mejunliu/RemoveComments",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RemoveDuplicateCharacters",
 			"details": "https://github.com/xianghongai/RemoveDuplicateCharacters",
 			"releases": [
@@ -1317,7 +1344,11 @@
 			"author": "kylebebak",
 			"releases": [
 				{
-					"sublime_text": ">=3084",
+					"sublime_text": "3084 - 4106",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -1422,6 +1453,16 @@
 			]
 		},
 		{
+			"name": "REST Client",
+			"details": "https://github.com/yeraydiazdiaz/sublime-rest-client",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Restart",
 			"details": "https://github.com/yedderson/SublimeRestart",
 			"releases": [
@@ -1510,6 +1551,30 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Reviw",
+			"details": "https://github.com/livrasand/Reviw",
+			"labels": ["jwpub", "reviw", "jw library", "jw", "snippets"],
+			"author": "Livrädo Sandoval",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ReviwTools",
+			"details": "https://github.com/livrasand/ReviwTools",
+			"labels": ["jwpub", "reviw", "jw library", "jw", "snippets"],
+			"author": "Livrädo Sandoval",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1680,6 +1745,17 @@
 			]
 		},
 		{
+			"name": "RmlUi Lua",
+			"details": "https://github.com/LoneBoco/rmlui-sublime",
+			"labels": ["language syntax", "rmlui", "rml", "rcss"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ROBLOXLua",
 			"details": "https://github.com/MemoryPenguin/RBXLua-SublimeText",
 			"releases": [
@@ -1787,6 +1863,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Rome Formatter",
+				"labels": ["javascript", "typescript", "formatting", "format"],
+				"details": "https://github.com/marekpiechut/sublime-rome-formatter",
+				"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2209,12 +2296,20 @@
 		},
 		{
 			"name": "Ruby Slim",
-			"details": "https://github.com/slim-template/ruby-slim.tmbundle",
+			"details": "https://github.com/SublimeText/Slim",
 			"previous_names": ["ruby-slim.tmbundle", "ruby-slim"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4107",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "4107 - 4130",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4131",
+					"tags": "4131-"
 				}
 			]
 		},

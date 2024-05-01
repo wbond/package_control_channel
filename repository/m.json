@@ -158,6 +158,18 @@
 			]
 		},
 		{
+			"name": "MagicComment",
+			"details": "https://github.com/eiskrenkov/MagicComment",
+			"author": "Egor Iskrenkov",
+			"labels": ["text manipulation", "ruby", "frozen string"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MagiclessQuotes",
 			"details": "https://github.com/daryltucker/MagiclessQuotes",
 			"releases": [
@@ -173,7 +185,7 @@
 			"labels": ["language syntax", "python"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
 					"tags": true
 				}
 			]
@@ -218,18 +230,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Mahou Caret Display Server",
-			"details": "https://github.com/BladeMight/MahouCaretDisplayServer",
-			"labels": ["language_display", "mahou"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -335,17 +335,6 @@
 			"name": "Man Page Support",
 			"details": "https://github.com/carsonoid/sublime_man_page_support",
 			"labels": ["language syntax", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Mandarin Peacock Color Scheme",
-			"details": "https://github.com/willsoto/mandarin-peacock",
-			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -540,6 +529,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Markdown Table Creator",
+			"details": "https://github.com/yusufb/MarkdownTableCreator",
+			"labels": ["markdown"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -788,6 +788,18 @@
 			]
 		},
 		{
+			"name": "MarLant",
+			"details": "https://github.com/retifrav/marlant",
+			"labels": ["subrip", "srt", "subtitles", "language syntax"],
+			"author": "retif",
+			"releases": [
+				{
+					"sublime_text": ">=4099",
+					"tags": "v"
+				}
+			]
+		},
+		{
 			"name": "Marshal Command Code",
 			"previous_names": ["MinecraftCommandCode"],
 			"description": "Syntax highlighting for Minecraft Commands",
@@ -900,33 +912,12 @@
 		},
 		{
 			"name": "Material Theme",
-			"details": "https://github.com/equinusocio/material-theme",
+			"author": ["equinusocio", "material-theme", "SublimeText"],
+			"details": "https://github.com/SublimeText/material-theme",
 			"labels": ["theme", "color scheme", "material"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Material Theme - Appbar",
-			"details": "https://github.com/equinusocio/material-theme-appbar",
-			"labels": ["theme", "material design", "material theme"],
-			"releases": [
-				{
-					"sublime_text": ">=3103",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Material Theme - White Panels",
-			"details": "https://github.com/equinusocio/material-theme-white-panels",
-			"labels": ["theme", "color scheme", "material design"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1150,6 +1141,17 @@
 			]
 		},
 		{
+			"name": "MCNP",
+			"details": "https://github.com/SublimeText/MCNP",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MCS_Syntax",
 			"details": "https://github.com/bmpenuelas/MCS_Syntax",
 			"labels": ["language syntax", "mcs", "xilinx", "fpga"],
@@ -1194,14 +1196,26 @@
 			]
 		},
 		{
-			"name": "MDX Syntax Highlighting",
-			"details": "https://github.com/jonsuh/mdx-sublime",
-			"description": "Syntax highlighting for MDX, JSX in Markdown",
+			"name": "MDX",
+			"details": "https://github.com/SublimeText/MDX",
 			"labels": ["jsx", "language syntax", "markdown", "mdx"],
+			"previous_names": ["MDX Syntax Highlighting"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
-					"tags": true
+					"sublime_text": "3143 - 3211",
+					"tags": "3143-"
+				},
+				{
+					"sublime_text": "4107 - 4125",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": "4126 - 4142",
+					"tags": "4126-"
+				},
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
 				}
 			]
 		},
@@ -1341,10 +1355,26 @@
 		},
 		{
 			"name": "Mermaid",
-			"details": "https://github.com/hlfcoding/sublime-mermaid",
+			"details": "https://github.com/SublimeText/Mermaid",
+			"labels": ["build system", "language_syntax", "graph"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "3092 - 4049",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": "st4-v"
+				}
+			]
+		},
+		{
+			"name": "Meson",
+			"details": "https://github.com/Monochrome-Sauce/sublime-meson",
+			"labels": ["build system", "language_syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4095",
 					"tags": true
 				}
 			]
@@ -1554,6 +1584,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Mindustry Assembly",
+			"details": "https://github.com/gigamicro/Mindustry4Sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2005,16 +2045,6 @@
 			]
 		},
 		{
-			"name": "ModoPluginBuilder",
-			"details" : "https://github.com/boredstiff/ModoPluginBuilder",
-			"releases":[
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Modula-2 Language Syntax",
 			"details": "https://github.com/harogaston/Sublime-Modula-2",
 			"labels": ["language syntax", "snippets", "auto complete"],
@@ -2029,17 +2059,6 @@
 			"name": "MODX Placeholder Snippets",
 			"details": "https://github.com/mkay/MODX-Placeholders",
 			"labels": ["snippets", "system settings", "resource fields", "placeholders", "language strings"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "MODx Revolution Snippets",
-			"details": "https://github.com/silentworks/modx-sublimetext-2",
-			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2317,11 +2336,15 @@
 		{
 			"name": "MonokaiFree",
 			"details": "https://github.com/gerardroche/sublime-monokai-free",
-			"labels": ["color scheme"],
+			"labels": ["monokai", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3211",
 					"tags": true
+				},
+				{
+					"sublime_text": "<3211",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -2350,6 +2373,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Moonlight",
+			"details": "https://github.com/mauroreisvieira/moonlight-sublime-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=4070",
 					"tags": true
 				}
 			]
@@ -2514,8 +2548,12 @@
 			"details": "https://github.com/SublimeText/MoveTab",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4000",
+					"tags": true
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-v"
 				}
 			]
 		},

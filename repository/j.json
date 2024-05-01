@@ -100,6 +100,17 @@
 			]
 		},
 		{
+			"name": "Janet",
+			"details": "https://github.com/archydragon/sublime-janet",
+			"labels": ["janet", "language syntax", "build"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Japanese Word Jump",
 			"details": "https://github.com/ngr-t/SublimeJapaneseWordJump",
 			"releases": [
@@ -211,17 +222,6 @@
 			"name": "Jasmine Scaffold",
 			"details": "https://github.com/chrisdwheatley/jasmine-scaffold-sublime-text",
 			"labels": ["Jasmine", "javascript", "testing", "unit test"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Jasonette Completions",
-			"details": "https://github.com/BarryMode/sublime-jasonette-snippets",
-			"labels": ["jasonette", "completions", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -640,7 +640,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -790,7 +789,6 @@
 			"name": "Jq",
 			"details": "https://gitlab.com/jiehong/sublime_jq",
 			"readme": "https://gitlab.com/jiehong/sublime_jq/-/raw/master/README.md",
-			"issues": "https://gitlab.com/jiehong/sublime_jq/-/issues",
 			"labels": ["interactive", "jq", "json"],
 			"releases": [
 				{
@@ -925,6 +923,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JS Template String Converter",
+			"details": "https://github.com/predragnikolic/JS-Template-String-Converter",
+			"labels": ["javascript", "typescript", "jsx", "vue", "svelte"],
+			"releases": [
+				{
+					"sublime_text": ">=4070",
+					"tags": true
 				}
 			]
 		},
@@ -1118,6 +1127,17 @@
 			]
 		},
 		{
+			"name": "Json Colors And Navigation",
+			"details": "https://github.com/Monox18/JsonColorsAndNavigation/",
+			"labels": ["json", "code navigation", "formatting", "color scheme", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSON Key-Value",
 			"details": "https://github.com/aurule/json-kv",
 			"labels": ["language syntax", "json"],
@@ -1219,18 +1239,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "jsonnet formatter",
-			"details": "https://github.com/ankushagarwal/jsonnet-fmt",
-			"labels": ["jsonnet", "libsonnet" ,"formatting", "formatter"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"platforms": ["osx", "linux"],
-					"tags": true
 				}
 			]
 		},
@@ -1397,6 +1405,17 @@
 			]
 		},
 		{
+			"name": "JunLang", 
+			"details": "https://github.com/Jun-Software/JunLang_package",
+			"labels": ["JunLang", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Junos",
 			"details": "https://github.com/nprintz/junos-sublime-pkg",
 			"labels": ["language syntax"],
@@ -1404,6 +1423,21 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Just",
+			"details": "https://github.com/nk9/just_sublime",
+			"labels": ["language syntax", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">=4148",
+					"tags": "4148-"
+				},
+				{
+					"sublime_text": "4075 - 4147",
+					"tags": "4075-"
 				}
 			]
 		},
@@ -1425,6 +1459,16 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JWT Decode",
+			"details" : "https://github.com/Xiangjiaox/jwt-sublime-text",
+			"releases": [
+				{
+				"sublime_text": "*",
+				"tags": true
 				}
 			]
 		},

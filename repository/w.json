@@ -24,18 +24,6 @@
 			]
 		},
 		{
-			"name": "WAI-ARIA",
-			"previous_names": ["ARIA attributes and roles"],
-			"details": "https://github.com/indrekpaas/sublime-wai-aria",
-			"labels": ["a11y", "accessibility", "auto-complete", "html", "snippets", "wai-aria"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
 			"labels": ["time tracking", "coding", "utilities", "productivity"],
@@ -223,7 +211,7 @@
 			"details": "https://github.com/WebFont/webfont",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -252,8 +240,8 @@
 		},
 		{
 			"name": "WebIDL",
-			"details": "https://github.com/vinyldarkscratch/WebIDL-Sublime",
-			"readme": "https://raw.githubusercontent.com/vinyldarkscratch/WebIDL-Sublime/main/README.md",
+			"details": "https://github.com/queengooborg/WebIDL-Sublime",
+			"labels": ["language syntax", "webidl"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -289,16 +277,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "WebSearch",
-			"details": "https://github.com/kallookoo/WebSearch",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -345,11 +323,32 @@
 			]
 		},
 		{
+			"name": "WGSL",
+			"details": "https://github.com/relrelb/sublime-wgsl",
+			"labels": ["wgsl", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/matiaspub/WheelChanger",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Whiley",
+			"details": "https://github.com/Whiley/WhileySyntaxBundle",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -515,16 +514,6 @@
 			]
 		},
 		{
-			"name": "Windsor",
-			"details": "https://github.com/windsorio/windsor-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/WinMerge",
 			"releases": [
 				{
@@ -625,16 +614,6 @@
 			]
 		},
 		{
-			"name": "Wok",
-			"details": "https://github.com/abbgrade/sublime-wok",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Wolf Theme",
 			"details": "https://github.com/wolf-theme/sublime",
 			"labels": ["color scheme"],
@@ -719,20 +698,18 @@
 			]
 		},
 		{
-			"name": "WordCompletion",
-			"details": "https://github.com/schmave/Sublime-Word-Completion",
+			"name": "Word Count",
+			"details": "https://github.com/shadax1/word_count",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
 		},
 		{
-			"name": "WordCount",
-			"details": "https://github.com/philipbelesky/WordCount",
-			"homepage": "https://github.com/titoBouzout/WordCount",
-			"author": "titoBouzout",
+			"name": "WordCompletion",
+			"details": "https://github.com/schmave/Sublime-Word-Completion",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -746,6 +723,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WordingStatus",
+			"details": "https://github.com/evandrocoan/WordingStatus",
+			"previous_names": ["WordCount"],
+			"author": "evandrocoan",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -773,16 +762,6 @@
 		{
 			"name": "WordPress Code Reference",
 			"details": "https://github.com/maheshwaghmare/sublime-wordpress-code-reference",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "WordPress Completions",
-			"details": "https://github.com/kallookoo/sublime-text-wordpress",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1098,6 +1077,19 @@
 			]
 		},
 		{
+			"name": "WslBuild",
+			"details": "https://github.com/SublimeText/WslBuild",
+			"author": ["existentialmutt" , "DeathAxe"],
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3176",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Wux Weapp Snippets",
 			"description": "Wux Weapp Snippets Plugin for Sublime Text 2/3.",
 			"details": "https://github.com/wux-weapp/wux-weapp-sublime-snippets",
@@ -1108,6 +1100,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "WWB",
+			"details": "https://github.com/rusiv/WWB",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

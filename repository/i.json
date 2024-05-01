@@ -205,16 +205,6 @@
 			]
 		},
 		{
-			"name": "Ignore Words",
-			"details": "https://github.com/zcold/ignore_words",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Iifefy",
 			"details": "https://github.com/erquhart/sublime-iifefy",
 			"labels": ["javascript", "utilities"],
@@ -233,6 +223,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Image Link Insertion",
+			"details": "https://github.com/jtojnar/sublime-image-link-insertion",
+			"author": "Jan Tojnar",
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -715,11 +716,11 @@
 			]
 		},
 		{
-			"name": "Inline Google Translate",
-			"details": "https://github.com/MTimer/SublimeText-Google-Translate-Plugin",
+			"name": "Inline Fold",
+			"details": "https://github.com/predragnikolic/InlineFold",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4070",
 					"tags": true
 				}
 			]
@@ -798,7 +799,7 @@
 		{
 			"name": "Insert Nums",
 			"author": ["jbrooksuk", "FichteFoll"],
-			"details": "https://github.com/jbrooksuk/InsertNums",
+			"details": "https://github.com/SublimeText/InsertNums",
 			"labels": ["automation", "utils", "text manipulation"],
 			"previous_names": ["Insert Sequences", "InsertNums"],
 			"releases": [
@@ -962,11 +963,12 @@
 			]
 		},
 		{
-			"name": "Invert Current Color Scheme",
-			"details": "https://github.com/CJEdgerton/sublime-invert-current-color-scheme",
+			"name": "Invader Zim Color Scheme",
+			"details": "https://github.com/gnat/sublime-invader-zim",
+			"labels": ["color scheme", "colour scheme", "dark", "theme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1084,6 +1086,17 @@
 			"name": "IPS Package Manifest Syntax",
 			"details": "https://github.com/carsonoid/IPS-Pkg-Syntax",
 			"labels": ["language syntax", "markup"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ipynb Preview as Markdown",
+			"details": "https://github.com/valentinbarral/IpynbPreviewAsMarkdown",
+			"labels": ["text manipulation", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1215,6 +1228,17 @@
 		{
 			"name": "isort",
 			"details": "https://github.com/asfaltboy/sublime-text-isort-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "isorted",
+			"details": "https://github.com/rimvaliulin/isorted",
+			"previous_names": ["Isorted"],
 			"releases": [
 				{
 					"sublime_text": "*",

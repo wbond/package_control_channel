@@ -277,7 +277,6 @@
 		{
 			"name": "Laravel Colour Scheme",
 			"details": "https://github.com/michaeldyrynda/Laravel.tmTheme",
-			"issues": "https://github.com/michaeldyrynda/Laravel.tmTheme/issues",
 			"homepage": "https://dyrynda.com.au",
 			"author": "michaeldyrynda",
 			"labels": ["color scheme", "light color scheme", "laravel", "laravel docs", "laravel color scheme"],
@@ -294,6 +293,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel Filament",
+			"details": "https://github.com/PyaeSoneAungRgn/sublime-laravel-filament",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -388,6 +397,17 @@
 		{
 			"name": "LaravelDumpMan",
 			"details": "https://github.com/k-meissonnier/LaravelDumpMan",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LaravelTestingCompletions",
+			"details": "https://github.com/gerardroche/sublime-laravel-testing-completions",
+			"labels": ["laravel", "completions", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -768,18 +788,22 @@
 			]
 		},
 		{
-			"name": "LESS",
-			"details": "https://github.com/danro/LESS-sublime",
-			"donate": "https://paypal.me/koenlageveen",
-			"labels": ["language syntax"],
+			"name": "Less",
+			"details": "https://github.com/SublimeText/Less",
+			"labels": ["language syntax", "auto-complete"],
+			"previous_names": ["LESS", "LessImproved"],
 			"releases": [
 				{
-					"sublime_text": "<4000",
-					"tags": "st3-"
+					"sublime_text": "3143 - 4106",
+					"tags": "3143-"
 				},
 				{
-					"sublime_text": ">=4000",
-					"tags": true
+					"sublime_text": "4107 - 4148",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4149",
+					"tags": "4149-"
 				}
 			]
 		},
@@ -984,6 +1008,17 @@
 			]
 		},
 		{
+			"name": "LightSearch",
+			"details": "https://github.com/prokopchukdim/light-search",
+			"labels": ["productivity"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LikeGit",
 			"details": "https://github.com/poucotm/LikeGit",
 			"labels": ["git", "graph"],
@@ -1137,6 +1172,16 @@
 			]
 		},
 		{
+			"name": "LionDocs",
+			"details": "https://github.com/liondocs/liondocs-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "lioshiTheme",
 			"previous_names": ["lioshi Color Scheme"],
 			"details": "https://github.com/lioshi/lioshiScheme",
@@ -1160,12 +1205,24 @@
 		},
 		{
 			"name": "Liquid",
-			"details": "https://github.com/braver/sublime-liquid",
+			"details": "https://github.com/SublimeText/Liquid",
 			"labels": ["liquid", "shopify", "front matter", "jekyll", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">3000",
-					"tags": true
+					"sublime_text": "3176 - 4125",
+					"tags": "3176-"
+				},
+				{
+					"sublime_text": "4126 - 4133",
+					"tags": "4126-"
+				},
+				{
+					"sublime_text": "4134 - 4148",
+					"tags": "4134-"
+				},
+				{
+					"sublime_text": ">=4149",
+					"tags": "4149-"
 				}
 			]
 		},
@@ -1414,6 +1471,17 @@
 			]
 		},
 		{
+			"name": "Localpod",
+			"details": "https://github.com/ijoyc/Localpod",
+			"labels": ["CocoaPods", "Development Pods", "iOS"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LocalVariable",
 			"details": "https://github.com/shagabutdinov/sublime-local-variable",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -1492,6 +1560,18 @@
 			]
 		},
 		{
+			"name": "LogbackJsonLogViewer",
+			"author": "Nenad Nenadović",
+			"details": "https://github.com/neno--/LogbackJsonLogViewer",
+			"labels": ["logback", "json", "log", "logging"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Logger Snippets",
 			"details": "https://github.com/ssrihari/sublime-logger-snippets",
 			"labels": ["snippets"],
@@ -1532,6 +1612,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Logs Colorize",
+			"author": "Uoc Nguyen",
+			"details": "https://github.com/uocnb/SublimeText2-Logs",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		},
@@ -1818,16 +1909,6 @@
 			]
 		},
 		{
-			"name": "LuaSmartTips",
-			"details": "https://github.com/haoyue90/LuaSmartTips",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "LuaVEXT",
 			"details": "https://github.com/MajorVictory/LuaVEXT",
 			"labels": [
@@ -1878,7 +1959,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
+					"platforms": ["windows", "linux"],
 					"branch": "master"
 				}
 			]
