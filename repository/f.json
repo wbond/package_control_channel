@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "F#",
@@ -563,17 +564,7 @@
 				{
 					"sublime_text": "*",
 					"tags": true,
-					"dependencies": ["package_events", "pathtools", "watchdog"]
-				}
-			]
-		},
-		{
-			"name": "FileCleanup",
-			"details": "https://github.com/GerjanOnline/SublimeFileCleanup",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"libraries": ["package_events", "pathtools", "watchdog"]
 				}
 			]
 		},
@@ -795,31 +786,11 @@
 			]
 		},
 		{
-			"name": "FilezillaImport",
-			"details": "https://github.com/doublerebel/filezilla_import",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Fill CF Query",
 			"details": "https://github.com/adampresley/sublime-fillcfquery",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Fillerati",
-			"details": "https://github.com/madeingnecca/sublime-fillerati",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -840,10 +811,6 @@
 			"labels": ["search"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
 				}
@@ -857,17 +824,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Find Function Definition",
-			"details": "https://github.com/timdouglas/sublime-find-function-definition",
-			"previous_names": ["Find Function Definiton"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1010,25 +966,11 @@
 			]
 		},
 		{
-			"name": "Fis",
-			"details": "https://github.com/pianist829/fis-sublime-command",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "fish",
 			"previous_names": ["fish-shell"],
 			"details": "https://github.com/Phidica/sublime-fish",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": "3000 - 3999",
 					"tags": "st3-"
@@ -1090,16 +1032,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Flashback",
-			"details": "https://github.com/apiad/sublime-flashback",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1464,16 +1396,6 @@
 			]
 		},
 		{
-			"name": "Folder List",
-			"details": "https://github.com/sheldon/sublime-text-2-folder-list",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Folder2Project",
 			"details": "https://github.com/divinites/folder2project",
 			"releases": [
@@ -1525,16 +1447,6 @@
 				{
 					"sublime_text": ">=3126",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Follow Function PHP",
-			"details": "https://github.com/draffter/FollowFunctionPHP",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1996,10 +1908,6 @@
 			"details": "https://github.com/sagold/FuzzyFilePath",
 			"labels": ["filename", "filepath", "auto-complete"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
