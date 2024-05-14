@@ -571,17 +571,6 @@
 			]
 		},
 		{
-			"name": "ng-annotate Buildsystem",
-			"details": "https://github.com/ctf0/ng-annotate_Buildsystem",
-			"labels": ["build system"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "ng-snippets",
 			"details": "https://github.com/alsfurlan/ng-snippets",
 			"releases": [
@@ -725,13 +714,13 @@
 			]
 		},
 		{
-			"name": "NimLime",
+			"name": "Nim",
 			"details": "https://github.com/nim-lang/NimLime",
-			"labels": ["nim", "language syntax", "completions"],
-			"previous_names": ["Nimrod"],
+			"labels": ["nim", "language syntax", "snippets"],
+			"previous_names": ["NimLime", "Nimrod"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

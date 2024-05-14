@@ -185,7 +185,7 @@
 			"labels": ["language syntax", "python"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
 					"tags": true
 				}
 			]
@@ -230,18 +230,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Mahou Caret Display Server",
-			"details": "https://github.com/BladeMight/MahouCaretDisplayServer",
-			"labels": ["language_display", "mahou"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -347,17 +335,6 @@
 			"name": "Man Page Support",
 			"details": "https://github.com/carsonoid/sublime_man_page_support",
 			"labels": ["language syntax", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Mandarin Peacock Color Scheme",
-			"details": "https://github.com/willsoto/mandarin-peacock",
-			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1164,6 +1141,17 @@
 			]
 		},
 		{
+			"name": "MCNP",
+			"details": "https://github.com/SublimeText/MCNP",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MCS_Syntax",
 			"details": "https://github.com/bmpenuelas/MCS_Syntax",
 			"labels": ["language syntax", "mcs", "xilinx", "fpga"],
@@ -1376,7 +1364,7 @@
 				},
 				{
 					"sublime_text": ">=4050",
-					"tags": "st4-"
+					"tags": "st4-v"
 				}
 			]
 		},
@@ -2057,16 +2045,6 @@
 			]
 		},
 		{
-			"name": "ModoPluginBuilder",
-			"details" : "https://github.com/boredstiff/ModoPluginBuilder",
-			"releases":[
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Modula-2 Language Syntax",
 			"details": "https://github.com/harogaston/Sublime-Modula-2",
 			"labels": ["language syntax", "snippets", "auto complete"],
@@ -2081,17 +2059,6 @@
 			"name": "MODX Placeholder Snippets",
 			"details": "https://github.com/mkay/MODX-Placeholders",
 			"labels": ["snippets", "system settings", "resource fields", "placeholders", "language strings"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "MODx Revolution Snippets",
-			"details": "https://github.com/silentworks/modx-sublimetext-2",
-			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2581,8 +2548,12 @@
 			"details": "https://github.com/SublimeText/MoveTab",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4000",
+					"tags": true
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-v"
 				}
 			]
 		},
