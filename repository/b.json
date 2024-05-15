@@ -571,16 +571,16 @@
 		},
 		{
 			"name": "Better CoffeeScript",
-			"details": "https://github.com/aponxi/sublime-better-coffeescript",
+			"details": "https://github.com/SublimeText/BetterCoffeeScript",
 			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"tags": "3000-"
 				},
 				{
 					"sublime_text": "<3000",
-					"branch": "st2"
+					"tags": true
 				}
 			]
 		},
