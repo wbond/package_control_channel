@@ -1528,17 +1528,20 @@
 			"labels": ["color scheme", "editor emulation", "language syntax", "snippets", "build system"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Pieces",
-			"details": "https://bitbucket.org/cristion-pieces/plugin_sublime",
-			"labels": ["pieces", "snippets"],
+			"details": "https://github.com/pieces-app/plugin_sublime/",
+			"homepage": "https://pieces.app/",
+			"labels": ["pieces", "snippets","ai","autocomplete"],
+			"author":"Pieces",
 			"releases": [
 				{
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "*",
 					"tags": true
 				}
