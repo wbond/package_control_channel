@@ -230,17 +230,6 @@
 			]
 		},
 		{
-			"name": "Jasonette Completions",
-			"details": "https://github.com/BarryMode/sublime-jasonette-snippets",
-			"labels": ["jasonette", "completions", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Java Bytecode",
 			"details": "https://github.com/xdrop/Java-Bytecode",
 			"labels": ["java","bytecode","syntax","highlighting"],
@@ -709,8 +698,12 @@
 					"tags": true
 				},
 				{
-					"sublime_text": ">=4107",
-					"tags": true
+					"sublime_text": "4107 - 4151",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4152",
+					"tags": "4152-"
 				}
 			]
 		},
@@ -800,7 +793,6 @@
 			"name": "Jq",
 			"details": "https://gitlab.com/jiehong/sublime_jq",
 			"readme": "https://gitlab.com/jiehong/sublime_jq/-/raw/master/README.md",
-			"issues": "https://gitlab.com/jiehong/sublime_jq/-/issues",
 			"labels": ["interactive", "jq", "json"],
 			"releases": [
 				{
@@ -1139,6 +1131,17 @@
 			]
 		},
 		{
+			"name": "Json Colors And Navigation",
+			"details": "https://github.com/Monox18/JsonColorsAndNavigation/",
+			"labels": ["json", "code navigation", "formatting", "color scheme", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSON Key-Value",
 			"details": "https://github.com/aurule/json-kv",
 			"labels": ["language syntax", "json"],
@@ -1240,18 +1243,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "jsonnet formatter",
-			"details": "https://github.com/ankushagarwal/jsonnet-fmt",
-			"labels": ["jsonnet", "libsonnet" ,"formatting", "formatter"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"platforms": ["osx", "linux"],
-					"tags": true
 				}
 			]
 		},
@@ -1410,6 +1401,17 @@
 			"name": "JUnit Completions",
 			"details": "https://github.com/tushortz/JUnit-Completions",
 			"labels": ["Java", "completions", "completion"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JunLang", 
+			"details": "https://github.com/Jun-Software/JunLang_package",
+			"labels": ["JunLang", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",

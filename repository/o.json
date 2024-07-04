@@ -280,7 +280,7 @@
 		},
 		{
 			"name": "Old-Style ASCII Property Lists",
-			"details": "https://github.com/peterthomashorn/ascii-property-lists-for-sublime-text",
+			"details": "https://github.com/p4t5h3/ascii-property-lists-for-sublime-text",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -681,11 +681,12 @@
 		},
 		{
 			"name": "OpenAI completion",
-			"labels": ["code completion", "openai"],
+			"labels": ["code completion", "openai", "chatgpt", "llm"],
 			"details": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text",
+			"donate": "https://github.com/sponsors/yaroslavyaroslav",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
@@ -778,6 +779,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OpenFileOverSSH",
+			"details": "https://github.com/AncientRoman/SublimeOpenFileOverSSH",
+			"labels": ["files", "file navigation", "file open", "remote", "ssh"],
+			"releases": [
+				{
+					"sublime_text": ">=4095",
+					"tags": true
 				}
 			]
 		},
@@ -912,6 +924,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OpenWrt",
+			"details": "https://github.com/xyu/sublime-openwrt",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

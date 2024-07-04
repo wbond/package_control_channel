@@ -243,6 +243,19 @@
 			]
 		},
 		{
+			"name": "Tact",
+			"details": "https://github.com/tact-lang/tact-sublime",
+			"description": "All-in-one package for Tact programming language",
+			"author": "Novus Nota",
+			"labels": ["tact", "auto-complete", "build system", "code navigation", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3210",
+					"tags": "v"
+				}
+			]
+		},
+		{
 			"name": "TADS3",
 			"details": "https://github.com/VoidPhantom/sublime-tads3",
 			"labels": ["language syntax"],
@@ -752,7 +765,7 @@
 		{
 			"name": "Test",
 			"details": "https://github.com/gerardroche/sublime-test",
-			"labels": ["testing", "tdd"],
+			"labels": ["testing"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1011,6 +1024,17 @@
 			]
 		},
 		{
+			"name": "Theme - AquaSoda",
+			"details": "https://github.com/Astramata/Theme-AquaSoda",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Arc",
 			"details": "https://github.com/aIRisius/sublime-arc-theme",
 			"labels": ["theme"],
@@ -1035,17 +1059,6 @@
 		{
 			"name": "Theme - Aristocat",
 			"details": "https://github.com/ddeville/aristocat-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - Arzy",
-			"details": "https://github.com/rzProjects/arzy",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -1449,17 +1462,6 @@
 			]
 		},
 		{
-			"name": "Theme - GaganSoda",
-			"details": "https://github.com/gj1118/soda-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Theme - Glacier",
 			"details": "https://github.com/shovelandsandbox/glacier-theme",
 			"labels": ["theme", "color scheme"],
@@ -1768,17 +1770,6 @@
 			]
 		},
 		{
-			"name": "Theme - Onlywsx",
-			"details": "https://github.com/onlywsx/Theme---Onlywsx",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Theme - Orchis",
 			"details": "https://github.com/aldomann/sublime-orchis",
 			"author": "Alfredo Hernández",
@@ -1936,6 +1927,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Theme - Rose Pine",
+			"details": "https://github.com/rose-pine/sublime-text",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -2377,6 +2379,17 @@
 			]
 		},
 		{
+			"name": "TimeNotify",
+			"details": "https://github.com/halfmoonvic/TimeNotify",
+			"labels": ["status bar"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Timenow",
 			"details": "https://github.com/filipelinhares/timenow-sublime",
 			"releases": [
@@ -2738,6 +2751,16 @@
 				}
 			]
 		},
+		{
+			"name": "Toggle Sidebar Focus",
+			"details": "https://github.com/educbraga/ToggleSidebarFocus",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},	
 		{
 			"name": "Toggle Symbol to String",
 			"details": "https://github.com/zoomix/SublimeToggleSymbol",
@@ -3308,6 +3331,24 @@
 			]
 		},
 		{
+			"name": "TreeSitter",
+			"details": "https://github.com/sublime-treesitter/TreeSitter",
+			"labels": [
+				"tree-sitter",
+				"navigation",
+				"selection",
+				"symbols",
+				"parsers"
+			],
+			"author": "kylebebak",
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TreeTop",
 			"details": "https://github.com/royvandewater/Sublime2-TreeTop",
 			"releases": [
@@ -3334,16 +3375,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Tritium",
-			"details": "https://github.com/jeffpatzer/Tritium.tmbundle",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -3385,7 +3416,7 @@
 		},
 		{
 			"name": "Tryton Snippets",
-			"details": "https://gitlab.com/datalifeit/sublimetext-tryton-snippets",
+			"details": "https://github.com/datalifeit/sublimetext-tryton-snippets",
 			"labels": ["tryton", "snippets"],
 			"releases": [
 				{
@@ -3550,7 +3581,11 @@
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4107",
+					"sublime_text": "4107 - 4141",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4142",
 					"tags": true
 				}
 			]

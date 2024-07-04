@@ -153,17 +153,6 @@
 			]
 		},
 		{
-			"name": "Yellow Blog Extensions",
-			"details": "https://github.com/nashv/YellowBlogExtensions",
-			"labels": ["Yellow", "Blog"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Yet Another Launcher",
 			"details": "https://github.com/dahanbn/Yet-Another-Launcher",
 			"labels": ["utilities", "file open", "utils", "productivity"],
@@ -231,6 +220,20 @@
 			]
 		},
 		{
+			"name": "Yollama",
+			"details": "https://gitlab.com/mwwaa/yollama",
+			"labels": ["ai", "assistant"],
+			"author": "mwa",
+			"homepage": "https://maxime.walzberg.fr/articles/yollama",
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Yosys",
 			"details": "https://github.com/YosysHQ/Sublime-Yosys",
 			"labels": ["syntax"],
@@ -248,6 +251,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ytt",
+			"details": "https://github.com/Vasfed/sublime_ytt",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

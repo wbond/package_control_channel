@@ -24,13 +24,12 @@
 			]
 		},
 		{
-			"name": "WAI-ARIA",
-			"previous_names": ["ARIA attributes and roles"],
-			"details": "https://github.com/indrekpaas/sublime-wai-aria",
-			"labels": ["a11y", "accessibility", "auto-complete", "html", "snippets", "wai-aria"],
+			"name": "Wakame Color Scheme",
+			"details": "https://github.com/toshimaru/sublime-wakame",
+			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3170",
 					"tags": true
 				}
 			]
@@ -65,6 +64,21 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WASM Interface Type",
+			"details": "https://github.com/SublimeText/WasmInterfaceType",
+			"labels": ["language syntax", "wasm", "wit"],
+			"releases": [
+				{
+					"sublime_text": "4107 - 4142",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
 				}
 			]
 		},
@@ -252,8 +266,8 @@
 		},
 		{
 			"name": "WebIDL",
-			"details": "https://github.com/vinyldarkscratch/WebIDL-Sublime",
-			"readme": "https://raw.githubusercontent.com/vinyldarkscratch/WebIDL-Sublime/main/README.md",
+			"details": "https://github.com/queengooborg/WebIDL-Sublime",
+			"labels": ["language syntax", "webidl"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -526,16 +540,6 @@
 			]
 		},
 		{
-			"name": "Windsor",
-			"details": "https://github.com/windsorio/windsor-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeText/WinMerge",
 			"releases": [
 				{
@@ -636,16 +640,6 @@
 			]
 		},
 		{
-			"name": "Wok",
-			"details": "https://github.com/abbgrade/sublime-wok",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Wolf Theme",
 			"details": "https://github.com/wolf-theme/sublime",
 			"labels": ["color scheme"],
@@ -730,6 +724,16 @@
 			]
 		},
 		{
+			"name": "Word Count",
+			"details": "https://github.com/shadax1/word_count",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WordCompletion",
 			"details": "https://github.com/schmave/Sublime-Word-Completion",
 			"releases": [
@@ -752,7 +756,7 @@
 			"name": "WordingStatus",
 			"details": "https://github.com/evandrocoan/WordingStatus",
 			"previous_names": ["WordCount"],
-			"author": ["titoBouzout", "evandrocoan"],
+			"author": "evandrocoan",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
