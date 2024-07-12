@@ -1953,12 +1953,19 @@
 			"name": "Simplenote",
 			"details": "https://github.com/RedAtman/simplenote",
 			"author": "redatman",
-			"labels": ["simplenote", "note", "markdown", "todo"],
+			"labels": ["simplenote", "note", "markdown", "todo", "php", "html", "quote"],
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": ">=3000",
-					"branch": "master",
-					"platforms": ["*"]
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},
