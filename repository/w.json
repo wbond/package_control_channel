@@ -25,6 +25,17 @@
 			]
 		},
 		{
+			"name": "Wakame Color Scheme",
+			"details": "https://github.com/toshimaru/sublime-wakame",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "WakaTime",
 			"details": "https://github.com/wakatime/sublime-wakatime",
 			"labels": ["time tracking", "coding", "utilities", "productivity"],
@@ -54,6 +65,21 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "WASM Interface Type",
+			"details": "https://github.com/SublimeText/WasmInterfaceType",
+			"labels": ["language syntax", "wasm", "wit"],
+			"releases": [
+				{
+					"sublime_text": "4107 - 4142",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
 				}
 			]
 		},
@@ -797,13 +823,14 @@
 			]
 		},
 		{
-			"name": "World of Warcraft TOC file Syntax",
-			"details": "https://github.com/AndrielChaoti/wowtoc-syntax",
+			"name": "World of Warcraft TOC",
+			"previous_names": ["World of Warcraft TOC file Syntax"],
+			"details": "https://github.com/p3lim/sublime-toc",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},

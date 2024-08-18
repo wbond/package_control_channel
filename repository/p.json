@@ -1357,11 +1357,13 @@
 		},
 		{
 			"name": "Pieces",
-			"details": "https://bitbucket.org/cristion-pieces/plugin_sublime",
-			"labels": ["pieces", "snippets"],
+			"details": "https://github.com/pieces-app/plugin_sublime/",
+			"homepage": "https://pieces.app/",
+			"labels": ["pieces", "snippets","ai"],
+			"author":"Pieces for Developers",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2816,8 +2818,9 @@
 		{
 			"name": "PyRock",
 			"details": "https://github.com/abhishek72850/pyrock",
+			"homepage": "https://github.com/abhishek72850/pyrock",
 			"author": "Abhishek Kumar",
-			"labels": ["python", "import", "python-import", "import-statement", "auto-complete"],
+			"labels": ["python", "import", "python-import", "auto-complete", "python-test", "pytest", "django-test"],
 			"releases": [
 				{
 					"sublime_text": ">4000",

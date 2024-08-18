@@ -506,6 +506,17 @@
 			]
 		},
 		{
+			"name": "Bend",
+			"details": "https://github.com/RohanVashisht1234/bend-syntax-highlighter-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Berry Color Scheme",
 			"details": "https://github.com/patoui/berry",
 			"labels": ["color scheme"],
@@ -552,12 +563,12 @@
 		},
 		{
 			"name": "Better CoffeeScript",
-			"details": "https://github.com/aponxi/sublime-better-coffeescript",
+			"details": "https://github.com/SublimeText/BetterCoffeeScript",
 			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": "3000-"
 				}
 			]
 		},
@@ -975,6 +986,17 @@
 			]
 		},
 		{
+			"name": "BlitzSearch",
+			"details": "https://github.com/Natestah/BlitzSt",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},		
+		{
 			"name": "Block Cursor Everywhere",
 			"details": "https://github.com/karlhorky/BlockCursorEverywhere",
 			"releases": [
@@ -1001,6 +1023,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Blossom Theme",
+			"details": "https://github.com/BlossomTheme/Sublime-Text",
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

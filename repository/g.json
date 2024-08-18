@@ -743,16 +743,6 @@
 			]
 		},
 		{
-			"name": "Github Tools",
-			"details": "https://github.com/temochka/sublime-text-2-github-tools",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "GithubEmoji",
 			"details": "https://github.com/akatopo/GithubEmoji",
 			"labels": ["emoji", "github", "markdown"],
@@ -779,6 +769,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GitHubTools",
+			"previous_names": ["Github Tools"],
+			"details": "https://github.com/braver/GitHubTools",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1778,6 +1779,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GotoRubyGem",
+			"details": "https://github.com/ZainIftikhar7vals/GotoRubyGem",
+			"labels": ["code navigation", "ruby gems", "ruby"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]

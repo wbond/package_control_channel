@@ -1786,6 +1786,26 @@
 			]
 		},
 		{
+			"name": "Simplenote",
+			"details": "https://github.com/RedAtman/simplenote",
+			"author": "redatman",
+			"labels": ["simplenote", "note", "markdown", "todo", "php", "html", "quote"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": "st4-"
+				}
+			]
+		},
+		{
 			"name": "SimplePHPSpec",
 			"details": "https://github.com/antoniofrignani/SimplePHPSpec-for-Sublime-Text",
 			"releases": [
@@ -2367,6 +2387,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SmPL (Coccinelle)",
+			"details": "https://github.com/jtojnar/Sublime-SmPL-Syntax",
+			"labels": ["smpl", "coccinelle", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3318,6 +3349,17 @@
 			]
 		},
 		{
+			"name": "SSHubl",
+			"details": "https://github.com/HorlogeSkynet/SSHubl",
+			"labels": ["forward", "remote", "ssh", "terminal"],
+			"releases": [
+				{
+					"sublime_text": ">=4081",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ST_AWK",
 			"details": "https://github.com/qiuxiafei/st_awk",
 			"releases": [
@@ -3420,6 +3462,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Starlark",
+			"details": "https://github.com/Vasfed/sublime_starlark",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
