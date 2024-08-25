@@ -2432,12 +2432,21 @@
 		},
 		{
 			"name": "CoffeeScript",
-			"details": "https://github.com/sustained/CoffeeScript-Sublime-Plugin",
-			"labels": ["language syntax"],
+			"details": "https://github.com/SublimeText/CoffeeScript",
+			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
+			"previous_names": ["Better CoffeeScript"],
 			"releases": [
 				{
+					"sublime_text": ">=3143",
+					"tags": "4143-"
+				},
+				{
+					"sublime_text": "3143 - 4142",
+					"tags": "3000-"
+				},
+				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
