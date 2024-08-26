@@ -71,15 +71,7 @@
 			"name": "TabNav",
 			"details": "https://github.com/mitchvm/tabnav",
 			"author": "Mitch Valdmanis-Miller",
-			"labels": [
-				"text navigation",
-				"text selection",
-				"text",
-				"markdown",
-				"org mode",
-				"textile",
-				"csv"
-			],
+			"labels": ["text navigation", "text selection", "text", "markdown", "org mode", "textile", "csv"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -92,8 +84,7 @@
 			"previous_names": ["TabNine"],
 			"details": "https://github.com/codota/tabnine-sublime",
 			"author": "Tabnine",
-			"labels": [
-				"autocomplete",
+			"labels": ["autocomplete",
 				"javascript",
 				"typescript",
 				"php",
@@ -125,8 +116,7 @@
 				"ai",
 				"method completion",
 				"intellicode",
-				"intellisense"
-			],
+				"intellisense"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -257,14 +247,7 @@
 			"details": "https://github.com/tact-lang/tact-sublime",
 			"description": "All-in-one package for Tact programming language",
 			"author": "Novus Nota",
-			"labels": [
-				"tact",
-				"auto-complete",
-				"build system",
-				"code navigation",
-				"language syntax",
-				"snippets"
-			],
+			"labels": ["tact", "auto-complete", "build system", "code navigation", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3210",
@@ -399,15 +382,7 @@
 		{
 			"name": "Target",
 			"details": "https://github.com/Zander-Labuschagne/target",
-			"labels": [
-				"Thrustmaster",
-				"T.A.R.G.E.T.",
-				"TARGET",
-				"Thrustmaster Advanced pRogramming Graphical EdiTor",
-				"HOTAS",
-				"autocompletion",
-				"auto-complete"
-			],
+			"labels": ["Thrustmaster", "T.A.R.G.E.T.", "TARGET", "Thrustmaster Advanced pRogramming Graphical EdiTor","HOTAS", "autocompletion", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": ">=3211",
@@ -566,18 +541,6 @@
 			]
 		},
 		{
-			"name": "Templ (go)",
-			"details": "https://github.com/papierkorp/sublime-templ",
-			"labels": ["templ", "golang", "go"],
-			"description": "Syntax highlight for the go templ Plugin",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "templatejs",
 			"details": "https://github.com/yanhaijing/template-sublime",
 			"labels": ["template.js", "templatejs", "template_js"],
@@ -668,7 +631,7 @@
 		{
 			"name": "Terminal In Packages",
 			"details": "https://github.com/mxdevmanuel/sublime-terminal-in-packages",
-			"releases": [
+			"releases":[
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -739,7 +702,7 @@
 			"homepage": "http://malinowski.be/termX",
 			"details": "https://github.com/afterdesign/termX",
 			"labels": ["terminal"],
-			"releases": [
+			"releases" : [
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "osx-x64"],
@@ -2290,7 +2253,7 @@
 		{
 			"name": "Themosis Framework Snippets",
 			"details": "https://github.com/wmarquardt/themosis-framework-snippets",
-			"author": "William Marquardt",
+			"author" : "William Marquardt",
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -2443,7 +2406,11 @@
 		{
 			"name": "Timestamp converter",
 			"details": "https://github.com/Zlitus/sublime-text-timestamp",
-			"labels": ["utilities", "productivity", "text manipulation"],
+			"labels": [
+				"utilities",
+				"productivity",
+				"text manipulation"
+			],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2488,14 +2455,7 @@
 			"name": "TinyCodeCounter",
 			"details": "https://github.com/gkpotter/Sublime-TinyCodeCounter",
 			"author": "Greyson Potter",
-			"labels": [
-				"tinycode",
-				"twitter",
-				"p5",
-				"p5js",
-				"processing",
-				"character counter"
-			],
+			"labels": ["tinycode", "twitter", "p5", "p5js", "processing", "character counter"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3025,12 +2985,10 @@
 			"name": "ToolRunner",
 			"details": "https://github.com/KuttKatrea/sublime-toolrunner",
 			"author": "Kutt Katrea",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
+			"releases": [{
+				"sublime_text": ">=3000",
+				"tags": true
+			}]
 		},
 		{
 			"name": "ToolTip-Helper",
@@ -3661,7 +3619,7 @@
 			"name": "TwilightBright",
 			"details": "https://github.com/sepisoad/sublime-twilight-bright-color",
 			"author": "Sepehr Aryani",
-			"labels": ["color scheme", "light", "twilight"],
+			"labels": [ "color scheme", "light", "twilight"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3702,7 +3660,7 @@
 				}
 			]
 		},
-		{
+				{
 			"name": "TwoColumns",
 			"details": "https://github.com/pykong/TwoColumns",
 			"labels": ["layout"],
@@ -3751,15 +3709,7 @@
 			"details": "https://github.com/Microsoft/TypeScript-Sublime-Plugin",
 			"homepage": "http://typescriptlang.org",
 			"donate": null,
-			"labels": [
-				"auto-complete",
-				"code navigation",
-				"formatting",
-				"language syntax",
-				"snippets",
-				"typescript",
-				"javascript"
-			],
+			"labels": ["auto-complete", "code navigation", "formatting", "language syntax", "snippets", "typescript", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "<4000",
