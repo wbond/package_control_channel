@@ -742,11 +742,15 @@
 		},
 		{
 			"name": "Terraform",
-			"details": "https://github.com/alexlouden/Terraform.tmLanguage",
+			"details": "https://github.com/SublimeText/Terraform",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true
+					"sublime_text": "<4169",
+					"tags": "2000-"
+				},
+				{
+					"sublime_text": ">=4169",
+					"tags": "4169-"
 				}
 			]
 		},
@@ -2067,11 +2071,15 @@
 		{
 			"name": "Theme - Spacegray",
 			"details": "https://github.com/SublimeText/Spacegray",
-			"labels": ["theme"],
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -2752,6 +2760,17 @@
 			]
 		},
 		{
+			"name": "Toggle Sidebar and Reveal Current File",
+			"details": "https://github.com/stuartelimu/toggle-sidebar-and-reveal-file",
+			"labels": ["sidebar", "toggle"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Toggle Sidebar Focus",
 			"details": "https://github.com/educbraga/ToggleSidebarFocus",
 			"releases": [
@@ -2760,7 +2779,7 @@
 					"tags": true
 				}
 			]
-		},	
+		},
 		{
 			"name": "Toggle Symbol to String",
 			"details": "https://github.com/zoomix/SublimeToggleSymbol",
@@ -2868,12 +2887,12 @@
 			]
 		},
 		{
-			"name": "TokensCounter",
-			"details": "https://github.com/yaroslavyaroslav/SublimeTokenCounter",
-			"labels": ["nlp", "tokens", "llm", "openai"],
+			"name": "Token Generator",
+			"details": "https://github.com/pxninja/token-generator",
+			"labels": ["random", "token", "string", "generator", "css"],
 			"releases": [
 				{
-					"sublime_text": ">=4000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
