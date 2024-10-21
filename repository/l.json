@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "L2U AutoComplete",
@@ -27,7 +28,7 @@
 			"labels": ["CSS", "css", "docs", "documentation", "perl", "html", "java", "javascript", "js", "language", "matlab", "python", "ruby", "snippets", "st3", "sublime", "text", "utilities"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -106,7 +107,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -116,7 +117,7 @@
 			"details": "https://github.com/Julow/LanguageInjector",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -214,7 +215,7 @@
 			"labels": ["laravel", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -282,7 +283,7 @@
 			"labels": ["color scheme", "light color scheme", "laravel", "laravel docs", "laravel color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -302,7 +303,7 @@
 			"details": "https://github.com/PyaeSoneAungRgn/sublime-laravel-filament",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -315,16 +316,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Laravel Generator",
-			"details": "https://github.com/gnarula/sublime-laravelgenerator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -368,7 +359,7 @@
 			"author": ["marceloxp"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -431,7 +422,7 @@
 			"details": "https://github.com/Fenzland/Laroute.sublime",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -442,16 +433,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "LastEdit",
-			"details": "https://github.com/SamPeng87/sublime-last-edit",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -533,7 +514,7 @@
 			"labels": ["latex"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -541,10 +522,6 @@
 		{
 			"details": "https://github.com/SublimeText/LaTeXTools",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": "3000 - 3124",
 					"tags": "st3until3125-"
@@ -561,7 +538,7 @@
 			"labels": ["launch", "execute", "run", "terminal", "open", "gui", "runner", "opener"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -592,7 +569,7 @@
 			"details": "https://github.com/loggerhead/Layout",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -613,7 +590,7 @@
 			"labels": ["Time", "tracking"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -625,7 +602,7 @@
 			"labels": ["lbnf", "bnf", "bnfc"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -722,7 +699,7 @@
 			"labels": ["lebab", "es5", "es6", "convert", "transform", "es2017"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -742,7 +719,7 @@
 			"details": "https://github.com/etienne-monier/LedgerTools",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -823,7 +800,7 @@
 			"details": "https://github.com/webArtisan/lessTabs",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1013,7 +990,7 @@
 			"labels": ["language syntax", "javascript", "lightscript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1035,7 +1012,7 @@
 			"labels": ["git", "graph"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1058,16 +1035,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Line Completion",
-			"details": "https://github.com/astropanic/Compline",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1098,7 +1065,7 @@
 			"labels": ["editor"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1123,7 +1090,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1139,7 +1106,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1161,7 +1128,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1296,26 +1263,6 @@
 			]
 		},
 		{
-			"name": "list2csv",
-			"details": "https://github.com/avinash8526/List2CSV-Sublime-Plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Listenr",
-			"details": "https://github.com/cbumgard/SublimeListenr",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ListOpenFiles",
 			"details": "https://github.com/rrg/ListOpenFiles",
 			"labels": ["File List"],
@@ -1333,7 +1280,7 @@
 			"author": "Jeremy Bernier",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1355,7 +1302,7 @@
 			"labels": ["auto-complete", "code navigation", "language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1365,7 +1312,7 @@
 			"details": "https://github.com/alepez/LiveReload-sublimetext3",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1375,7 +1322,7 @@
 			"details": "https://github.com/alepez/LiveReloadMake-sublimetext3",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -1396,7 +1343,7 @@
 			"details": "https://github.com/molnarmark/sublime-live-server",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1470,18 +1417,7 @@
 			"details": "https://github.com/spywhere/LocalPackages",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Locales",
-			"details": "https://github.com/AndorChen/sublime-locales",
-			"labels": ["i18n", "l10n"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1525,7 +1461,7 @@
 			"details": "https://github.com/DavidGerva/LockTab-Sublime-Plugin",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1593,7 +1529,7 @@
 			"labels": ["logback", "json", "log", "logging"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1681,7 +1617,7 @@
 			"labels": ["lolcode"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1693,15 +1629,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/shvva/Lookupdic",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1731,16 +1658,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "LoremPixel",
-			"details": "https://github.com/outer-edge/SublimeLoremPixel",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1793,7 +1710,7 @@
 			"details": "https://github.com/mbr/LPrint",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -1837,7 +1754,7 @@
 			"labels": ["lua"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1861,7 +1778,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1874,7 +1791,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1896,7 +1813,7 @@
 			"labels": ["lua", "beautify", "format", "formatting", "formatter", "codeformatter"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1908,7 +1825,7 @@
 			"labels": ["lua"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1943,7 +1860,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1966,17 +1883,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Lucky Link",
-			"details": "https://github.com/ishu3101/Sublime-LuckyLink",
-			"labels": ["text manipulation", "formatting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -2028,7 +1934,7 @@
 			"details": "https://bitbucket.org/dataductus/sublime-3-lux-package",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2039,7 +1945,7 @@
 			"labels": ["text manipulation", "lyric", "lrc"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
