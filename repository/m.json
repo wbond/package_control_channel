@@ -42,7 +42,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -77,7 +77,7 @@
 			"details": "https://github.com/Phillip3/mackerel_syntax_highlighting",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -220,7 +220,7 @@
 			"labels": ["language syntax", "magpie"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -329,7 +329,7 @@
 			"labels": ["language syntax", "mandoc", "man", "man page"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -402,7 +402,7 @@
 			"details": "https://github.com/wwmoraes/Sublime-MapTool-Syntax",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -935,7 +935,7 @@
 			"labels": ["language syntax", "documentation", "notes"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -946,7 +946,7 @@
 			"labels": ["language syntax", "syntax", "MathML-syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1071,7 +1071,7 @@
 			"labels": ["language syntax", "minecraft"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1093,7 +1093,7 @@
 			"labels": ["language syntax", "mcs", "xilinx", "fpga"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1449,7 +1449,7 @@
 			"labels": ["language","syntax","highlighting","query","excel","powerbi","microsoft","ms"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags":true
 				}
 			]
@@ -1460,7 +1460,7 @@
 			"labels": ["mika", "language", "syntax", "highlighting"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1472,7 +1472,7 @@
 			"labels": ["mcore", "miking", "language", "syntax", "highlighting"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1635,7 +1635,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1669,7 +1669,7 @@
 			"author": "Evan Greene",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1711,7 +1711,7 @@
 			"details": "https://github.com/Vizzle/SublimePluginForMIST",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1789,7 +1789,7 @@
 			"labels": ["mkb", "minecraft", "language syntax", "color scheme", "auto-complete", "linting", "formatting"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1877,7 +1877,7 @@
 			"labels": ["language syntax", "fortran"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2043,7 +2043,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2254,7 +2254,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2426,7 +2426,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2567,7 +2567,7 @@
 			"labels": ["language syntax", "snippets", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2578,7 +2578,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2589,17 +2589,22 @@
 			"labels": ["text syntax", "syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Mustache",
-			"details": "https://github.com/cedeber/sublime-mustache",
+			"details": "https://github.com/SublimeText/Mustache",
+			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<=4151",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4152",
 					"tags": true
 				}
 			]

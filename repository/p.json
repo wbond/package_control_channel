@@ -1031,18 +1031,8 @@
 			"details": "https://github.com/xt99/sublimetext-php-haml",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<4000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "PHP Modern",
-			"details": "https://github.com/jobedom/sublime-php-modern",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -1397,6 +1387,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Piranha",
+			"details": "https://github.com/Kostasn2/piranha-syntax-highlighting-package",
+			"labels": ["piranha", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1764,6 +1765,30 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PostCSS",
+			"details": "https://github.com/SublimeText/PostCSS",
+			"labels": ["language syntax"],
+			"previous_names": ["Syntax Highlighting for PostCSS"],
+			"releases": [
+				{
+					"sublime_text": "<=3091",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3092 - 4151",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "4152 - 4179",
+					"tags": "4152-"
+				},
+				{
+					"sublime_text": ">=4180",
+					"tags": "4180-"
 				}
 			]
 		},

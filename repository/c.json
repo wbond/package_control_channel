@@ -729,17 +729,6 @@
 			]
 		},
 		{
-			"name": "Charcoal",
-			"details": "https://github.com/Dnld/charcoal-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Charmci",
 			"details": "https://github.com/matthiasdiener/Charmci-Sublime-Syntax",
 			"description" : "Syntax highlighting for Charm++ .ci files",
@@ -2264,6 +2253,22 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "CoffeeScript",
+			"details": "https://github.com/SublimeText/CoffeeScript",
+			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
+			"previous_names": ["Better CoffeeScript"],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				},
+				{
+					"sublime_text": "<4143",
+					"tags": "3000-"
 				}
 			]
 		},

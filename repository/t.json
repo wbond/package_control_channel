@@ -750,6 +750,16 @@
 			]
 		},
 		{
+			"name": "TestExplorer",
+			"details": "https://github.com/IPWright83/sublime-TestExplorer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TestExUnit",
 			"details": "https://github.com/Dania02525/TestExUnit",
 			"author": "Dania02525 (Dania Simmons)",
@@ -1915,11 +1925,15 @@
 		{
 			"name": "Theme - Spacegray",
 			"details": "https://github.com/SublimeText/Spacegray",
-			"labels": ["theme"],
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -2547,6 +2561,17 @@
 			]
 		},
 		{
+			"name": "Toggle Sidebar and Reveal Current File",
+			"details": "https://github.com/stuartelimu/toggle-sidebar-and-reveal-file",
+			"labels": ["sidebar", "toggle"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Toggle Sidebar Focus",
 			"details": "https://github.com/educbraga/ToggleSidebarFocus",
 			"releases": [
@@ -2655,6 +2680,29 @@
 			"details": "https://github.com/snxx-lppxx/toit.tmbundle",
 			"author": "snxx",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Token Generator",
+			"details": "https://github.com/pxninja/token-generator",
+			"labels": ["random", "token", "string", "generator", "css"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TokensCounter",
+			"details": "https://github.com/yaroslavyaroslav/SublimeTokenCounter",
+			"donate": "https://github.com/sponsors/yaroslavyaroslav",
+			"labels": ["nlp", "tokens", "llm", "openai"],
 			"releases": [
 				{
 					"sublime_text": ">=4000",
