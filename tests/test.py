@@ -19,27 +19,15 @@ import sys
 import unittest
 
 from functools import wraps
+from urllib.request import urlopen
+from urllib.error import HTTPError
+from urllib.parse import urljoin
 
-if sys.version_info >= (3,):
-    from urllib.request import urlopen
-    from urllib.error import HTTPError
-    from urllib.parse import urljoin
-
-    generator_method_type = 'method'
-    str_cls = str
-else:
-    from . import unittest_compat
-    from urlparse import urljoin
-    from urllib2 import HTTPError, urlopen
-
-    unittest_compat.inject_into_unittest()
-    generator_method_type = 'instancemethod'
-    str_cls = unicode  # NOQA (obviously undefined in Py3)
-
+generator_method_type = 'method'
 
 if hasattr(sys, 'argv'):
     arglist = ['--test-repositories']
-    # Exctract used arguments form the commandline an strip them for
+    # Extract used arguments from commandline an strip them for
     # unittest.main
     userargs = [arg for arg in sys.argv if arg in arglist]
     for arg in userargs:
@@ -129,7 +117,7 @@ def generate_test_methods(cls, stream):
 class CaseInsensitiveDict(dict):
     @classmethod
     def _k(cls, key):
-        return key.lower() if isinstance(key, str_cls) else key
+        return key.lower() if isinstance(key, str) else key
 
     def __getitem__(self, key):
         return super(CaseInsensitiveDict, self).__getitem__(self._k(key))
@@ -164,7 +152,7 @@ class TestContainer(object):
     @classmethod
     def setUpClass(cls):
         cls.package_names = CaseInsensitiveDict()
-        cls.dependency_names = CaseInsensitiveDict()
+        cls.library_names = CaseInsensitiveDict()
         # tuple of (prev_name, include, name); prev_name for case sensitivity
         cls.previous_package_names = CaseInsensitiveDict()
 
@@ -172,42 +160,51 @@ class TestContainer(object):
     # except for Pascal and Rust
     # which only ship in ST3
     default_packages = (
-        'ActionScript', 'AppleScript', 'ASP', 'Batch File',
-        'C#', 'C++', 'Clojure', 'Color Scheme - Default', 'CSS', 'D', 'Default',
-        'Diff', 'Erlang', 'Go', 'Graphviz', 'Groovy', 'Haskell', 'HTML', 'Java',
-        'JavaScript', 'Language - English', 'LaTeX', 'Lisp', 'Lua', 'Makefile',
-        'Markdown', 'Matlab', 'Objective-C', 'OCaml', 'Pascal', 'Perl', 'PHP',
-        'Python', 'R', 'Rails', 'Regular Expressions', 'RestructuredText',
-        'Ruby', 'Rust', 'Scala', 'ShellScript', 'SQL', 'TCL', 'Text', 'Textile',
+        'ActionScript', 'AppleScript', 'ASP', 'Batch File', 'Binary', 'C#',
+        'C++', 'Clojure', 'Color Scheme - Default', 'CSS', 'D', 'Default',
+        'Diff', 'Erlang', 'Git Formats', 'Go', 'Graphviz', 'Groovy',
+        'Haskell', 'HTML', 'Java', 'JavaScript', 'Language - English',
+        'LaTeX', 'Lisp', 'Lua', 'Makefile', 'Markdown', 'Matlab',
+        'Objective-C', 'OCaml', 'Pascal', 'Perl', 'PHP', 'Python', 'R',
+        'Rails', 'Regular Expressions', 'RestructuredText', 'Ruby', 'Rust',
+        'Scala', 'ShellScript', 'SQL', 'TCL', 'Text', 'Textile',
         'Theme - Default', 'Vintage', 'XML', 'YAML'
     )
 
-    rel_b_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+
-                      |https:// gitlab\.com/ [^/]+/ [^/]+
+    rel_b_reg = r'''^ ( https:// bitbucket\.org / [^/#?]+ / [^/#?]+
+                      | https:// github\.com / [^/#?]+ / [^/#?]+
+                      | https:// gitlab\.com / [^/#?]+ / [^/#?]+
+                      | https:// pypi\.org / project / [^/#?]+ (?:/ [^/#?]+ )?
                       ) $'''
     # Strip multilines for better debug info on failures
     rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
-    release_base_regex = re.compile(rel_b_reg, re.X)
+    library_release_base_regex = re.compile(rel_b_reg, re.X)
 
-    pac_d_reg = r'''^ (https:// github\.com/ [^/]+/ [^/]+ (/tree/ .+ (?<!/)
-                                                          |/)? (?<!\.git)
-                      |https:// bitbucket\.org/ [^/]+/ [^/]+ (/src/ .+ (?<!/)
-                                                             |\#tags
-                                                             |/)?
-                      |https:// gitlab\.com/ [^/]+/ [^/]+ (/-/tree/ .+ (?<!/)
-                                                          |/)? (?<!\.git)
+    rel_b_reg = r'''^ ( https:// bitbucket\.org / [^/#?]+ / [^/#?]+
+                      | https:// github\.com / [^/#?]+ / [^/#?]+
+                      | https:// gitlab\.com / [^/#?]+ / [^/#?]+
+                      ) $'''
+    # Strip multilines for better debug info on failures
+    rel_b_reg = ' '.join(map(str.strip, rel_b_reg.split()))
+    package_release_base_regex = re.compile(rel_b_reg, re.X)
+
+    pac_d_reg = r'''^ ( https:// bitbucket\.org/ [^/#?]+/ [^/#?]+
+                        ( /src/ [^#?]*[^/#?] | \#tags | / )?
+                      | https:// github\.com/ [^/#?]+/ [^/#?]+
+                        (?<!\.git) ( /tree/ [^#?]*[^/#?] | / )?
+                      | https:// gitlab\.com/ [^/#?]+/ [^/#?]+
+                        (?<!\.git) ( /-/tree/ [^#?]*[^/#?] | / )?
                       ) $'''
     pac_d_reg = ' '.join(map(str.strip, pac_d_reg.split()))
     package_details_regex = re.compile(pac_d_reg, re.X)
 
     def _test_repository_keys(self, include, data):
-        keys = ('schema_version', 'packages', 'dependencies', 'includes')
-        self.assertTrue(2 <= len(data) <= 4, "Unexpected number of keys")
+        keys = ('$schema', 'schema_version', 'packages', 'libraries', 'includes')
+        self.assertTrue(2 <= len(data) <= len(keys), "Unexpected number of keys")
         self.assertIn('schema_version', data)
-        self.assertEqual(data['schema_version'], '3.0.0')
+        self.assertEqual(data['schema_version'], '4.0.0')
 
-        listkeys = [k for k in ('packages', 'dependencies', 'includes')
+        listkeys = [k for k in ('packages', 'libraries', 'includes')
                     if k in data]
         self.assertGreater(len(listkeys), 0, "Must contain something")
         for k in listkeys:
@@ -216,31 +213,44 @@ class TestContainer(object):
         for k in data:
             self.assertIn(k, keys, "Unexpected key")
 
-    def _test_dependency_names(self, include, data):
-        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
+    def _test_library_names(self, include, data):
+        # some dependencies have been renamed to avoid naming conflicts
+        # when installing from official wheel files. New libraries must
+        # not be named like that.
+        invalid_legacy_names = (
+            "bs4",
+            "python-docx",
+            "python-jinja2",
+            "python-markdown",
+            "python-pywin32",
+            "python-six",
+            "python-toml",
+            "ruamel-yaml",
+            "serial",
+        )
+
+        m = re.search(r"(?:^|/)(0-9|[a-z]|libraries)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
 
-        repo_dependency_names = []
-        for pdata in data['dependencies']:
+        repo_library_names = []
+        for pdata in data['libraries']:
             name = get_package_name(pdata)
-            if name in self.dependency_names:
-                self.fail("Dependency names must be unique: " + name)
+            if name in self.library_names:
+                self.fail("Library names must be unique: " + name)
+            if name in invalid_legacy_names:
+                self.fail("Library names must not be: " + name)
             else:
-                self.dependency_names[name] = include
-                repo_dependency_names.append(name)
-            if name in self.package_names:
-                self.fail("Dependency and package names must be unique: %s, "
-                          "previously occured in %s"
-                          % (name, self.package_names[name]))
+                self.library_names[name] = include
+                repo_library_names.append(name)
 
         # Check package order
-        self.assertEqual(repo_dependency_names,
-                         sorted(repo_dependency_names, key=str_cls.lower),
-                         "Dependencies must be sorted alphabetically")
+        self.assertEqual(repo_library_names,
+                         sorted(repo_library_names, key=str.lower),
+                         "Libraries must be sorted alphabetically")
 
     def _test_repository_package_names(self, include, data):
-        m = re.search(r"(?:^|/)(0-9|[a-z]|dependencies)\.json$", include)
+        m = re.search(r"(?:^|/)(0-9|[a-z]|libraries)\.json$", include)
         if not m:
             self.fail("Include filename does not match")
         letter = m.group(1)
@@ -265,10 +275,6 @@ class TestContainer(object):
                           "previous_name in %s: %s"
                           % (pname, self.previous_package_names[pname][1],
                              self.previous_package_names[pname][2]))
-            elif pname in self.dependency_names:
-                self.fail("Dependency and package names must be unique: %s, "
-                          "previously occured in %s"
-                          % (pname, self.dependency_names[pname]))
             else:
                 self.package_names[pname] = include
                 repo_package_names.append(pname)
@@ -284,7 +290,7 @@ class TestContainer(object):
 
         # Check package order
         self.assertEqual(repo_package_names,
-                         sorted(repo_package_names, key=str_cls.lower),
+                         sorted(repo_package_names, key=str.lower),
                          "Packages must be sorted alphabetically (by name)")
 
     def _test_indentation(self, filename, contents):
@@ -293,16 +299,16 @@ class TestContainer(object):
                              "Indent must be tabs in line %d" % (i + 1))
 
     package_key_types_map = {
-        'name': str_cls,
-        'details': str_cls,
-        'description': str_cls,
+        'name': str,
+        'details': str,
+        'description': str,
         'releases': list,
-        'homepage': str_cls,
-        'author': (str_cls, list),
-        'readme': str_cls,
-        'issues': str_cls,
-        'donate': (str_cls, type(None)),
-        'buy': str_cls,
+        'homepage': str,
+        'author': (str, list),
+        'readme': str,
+        'issues': str,
+        'donate': (str, type(None)),
+        'buy': str,
         'previous_names': list,
         'labels': list
     }
@@ -371,18 +377,17 @@ class TestContainer(object):
                 self.assertIn(key, data, '%r is required if no "details" URL '
                                          'provided' % key)
 
-    dependency_key_types_map = {
-        'name': str_cls,
-        'description': str_cls,
+    library_key_types_map = {
+        'name': str,
+        'description': str,
         'releases': list,
-        'issues': str_cls,
-        'load_order': str_cls,
-        'author': str_cls
+        'issues': str,
+        'author': str
     }
 
-    def _test_dependency(self, include, data):
+    def _test_library(self, include, data):
         for k, v in data.items():
-            self.enforce_key_types_map(k, v, self.dependency_key_types_map)
+            self.enforce_key_types_map(k, v, self.library_key_types_map)
 
             if k == 'issues':
                 self.assertRegex(v, '^https?://')
@@ -393,48 +398,50 @@ class TestContainer(object):
                 self.assertNotRegex(v, r'[/?<>\\:*|"\x00-\x19]')
                 self.assertFalse(v.startswith('.'))
 
-            elif k == 'load_order':
-                self.assertRegex(v, r'^\d\d$', '"load_order" must be a two '
-                                               'digit string')
-        for key in ('author', 'releases', 'issues', 'description', 'load_order'):
-            self.assertIn(key, data, '%r is required for dependencies' % key)
+        for key in ('author', 'releases', 'issues', 'description'):
+            self.assertIn(key, data, '%r is required for libraries' % key)
 
     pck_release_key_types_map = {
-        'base': str_cls,
-        'tags': (bool, str_cls),
-        'branch': str_cls,
-        'sublime_text': str_cls,
-        'platforms': (list, str_cls),
-        'dependencies': (list, str_cls),
-        'version': str_cls,
-        'date': str_cls,
-        'url': str_cls
+        'base': str,
+        'asset': str,
+        'tags': (bool, str),
+        'branch': str,
+        'sublime_text': str,
+        'platforms': (list, str),
+        'python_versions': list,
+        'libraries': (list, str),
+        'version': str,
+        'date': str,
+        'url': str
     }
 
     dep_release_key_types_map = {
-        'base': str_cls,
-        'tags': (bool, str_cls),
-        'branch': str_cls,
-        'sublime_text': str_cls,
-        'platforms': (list, str_cls),
-        'version': str_cls,
-        'sha256': str_cls,
-        'url': str_cls
+        'base': str,
+        'asset': str,
+        'tags': (bool, str),
+        'branch': str,
+        'sublime_text': str,
+        'platforms': (list, str),
+        'python_versions': list,
+        'libraries': (list, str),
+        'version': str,
+        'sha256': str,
+        'url': str
     }
 
-    def _test_release(self, package_name, data, dependency, main_repo=True):
+    def _test_release(self, package_name, data, library, main_repo=True):
         # Test for required keys (and fail early)
         if main_repo:
-            if dependency:
+            if library:
                 condition = (
                     'base' in data
-                    and ('tags' in data or 'branch' in data)
+                    and any(d in data for d in ('asset', 'tags', 'branch'))
                     or ('sha256' in data
                         and ('url' not in data
                              or data['url'].startswith('http://')))
                 )
                 self.assertTrue(condition,
-                                'A release must have a "base" and a "tags" or "branch" key '
+                                'A release must have a "base" and an "asset", "tags" or "branch" key '
                                 'if it is in the main repository. For custom '
                                 'releases, a custom repository.json file must be '
                                 'hosted elsewhere. The only exception to this rule '
@@ -442,8 +449,8 @@ class TestContainer(object):
                                 'since they help bootstrap proper secure HTTP '
                                 'support for Sublime Text.')
             else:
-                self.assertTrue(('tags' in data or 'branch' in data),
-                                'A release must have a "tags" key or "branch" key '
+                self.assertTrue(any(d in data for d in ('asset', 'tags', 'branch')),
+                                'A release must have an "asset", "tags" or "branch" key '
                                 'if it is in the main repository. For custom '
                                 'releases, a custom repository.json file must be '
                                 'hosted elsewhere.')
@@ -453,8 +460,8 @@ class TestContainer(object):
                                      'used in the main repository since a pull '
                                      'request would be necessary for every release')
 
-        elif 'tags' not in data and 'branch' not in data:
-            if dependency:
+        elif not any(d in data for d in ('asset', 'tags', 'branch')):
+            if library:
                 for key in ('url', 'version'):
                     self.assertIn(key, data,
                                   'A release must provide "url" and "version" '
@@ -472,29 +479,26 @@ class TestContainer(object):
                                  'The key "%s" is redundant when "tags" or '
                                  '"branch" is specified' % key)
 
-        self.assertIn('sublime_text', data,
-                      'A sublime text version selector is required')
-
-        if dependency:
-            self.assertIn('platforms', data,
-                          'A platforms selector is required for dependencies')
-
         self.assertFalse(('tags' in data and 'branch' in data),
                          'A release must have only one of the "tags" or '
                          '"branch" keys.')
 
-        # Test keys values
-        self.check_release_key_values(data, dependency)
+        self.assertFalse(('asset' in data and 'branch' in data),
+                         'A release must have only one of the "asset" or '
+                         '"branch" keys.')
 
-    def check_release_key_values(self, data, dependency):
+        # Test keys values
+        self.check_release_key_values(data, library)
+
+    def check_release_key_values(self, data, library):
         """Check the key-value pairs of a release for validity."""
-        release_key_types_map = (self.dep_release_key_types_map if dependency
+        release_key_types_map = (self.dep_release_key_types_map if library
                                  else self.pck_release_key_types_map)
         for k, v in data.items():
             self.enforce_key_types_map(k, v, release_key_types_map)
 
             if k == 'url':
-                if dependency:
+                if library:
                     if 'sha256' not in data:
                         self.assertRegex(v, r'^https://')
                     else:
@@ -503,7 +507,8 @@ class TestContainer(object):
                     self.assertRegex(v, r'^https?://')
 
             elif k == 'base':
-                self.assertRegex(v, self.release_base_regex,
+                pattern = self.library_release_base_regex if library else self.package_release_base_regex
+                self.assertRegex(v, pattern,
                                  'The base url is badly formatted or '
                                  'invalid')
 
@@ -516,38 +521,34 @@ class TestContainer(object):
                                  'or of the form `<version> - <version>`')
 
             elif k == 'platforms':
-                if isinstance(v, str_cls):
+                if isinstance(v, str):
                     v = [v]
                 for plat in v:
                     self.assertRegex(plat,
-                                     r"^(\*|(osx|linux|windows)(-(x(32|64))|arm64)?)$")
+                                     r"^(\*|(osx|linux|windows)(-(x(32|64)|arm64))?)$")
 
                 self.assertCountEqual(v, list(set(v)),
                                       "Specifying the same platform multiple times is redundant")
 
-                if (("osx-x32" in v and "osx-x64" in v) or
-                    ("windows-x32" in v and "windows-x64" in v) or
-                    ("linux-x32" in v and "linux-x64" in v)):
-                    self.fail("Specifying both x32 and x64 architectures is redundant")
+                if (("osx-x32" in v and "osx-x64" in v and "osx-arm64" in v) or
+                    ("windows-x32" in v and "windows-x64" in v and "windows-arm64" in v) or
+                    ("linux-x32" in v and "linux-x64" in v and "linux-arm64" in v)):
+                    self.fail("Specifying all of x32, x64 and arm64 architectures is redundant")
 
                 self.assertFalse(set(["osx", "windows", "linux"]) == set(v),
                                  '"osx, windows, linux" are similar to (and should be replaced by) "*"')
 
+            elif k == 'python_versions':
+                for pyv in v:
+                    self.assertIn(pyv, ('3.3', '3.8'), 'Supported python_versions are "3.3" or "3.8"')
+
             elif k == 'date':
                 self.assertRegex(v, r"^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$")
-
-            elif k == 'url':
-                self.assertRegex(v, r'^https?://')
-
-            elif k == 'base':
-                self.assertRegex(v, self.release_base_regex,
-                                 'The base url is badly formatted or '
-                                 'invalid')
 
             elif k == 'tags':
                 self.assertTrue(bool(v),
                                 '"tags" must be `true` or a string of length>0')
-                if isinstance(v, str_cls):
+                if isinstance(v, str):
                     self.assertFalse(v == "true",
                                      'It is unlikely to specify the prefix '
                                      '"true" use not the boolean `true`')
@@ -650,7 +651,7 @@ class TestContainer(object):
                 yield cls._fail("No schema_version found in %s" % path)
                 return
             schema = data['schema_version']
-            if schema != '3.0.0' and float(schema) not in (1.0, 1.1, 1.2, 2.0):
+            if schema not in ('3.0.0', '4.0.0') and float(schema) not in (1.0, 1.1, 1.2, 2.0):
                 yield cls._fail("Unrecognized schema version %s in %s"
                                 % (schema, path))
                 return
@@ -658,7 +659,7 @@ class TestContainer(object):
             success = True
 
             # Do not generate 1000 failing tests for not yet updated repos
-            if schema != '3.0.0':
+            if schema != '4.0.0':
                 stream.write("skipping (schema version %s)"
                              % data['schema_version'])
                 cls.skipped_repositories[schema] += 1
@@ -741,14 +742,22 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             print("Repositories skipped: %s" % dict(cls.skipped_repositories))
 
     def test_channel_keys(self):
+        allowed_keys = ("$schema", 'repositories', 'schema_version')
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['repositories', 'schema_version'])
 
-        self.assertEqual(self.j['schema_version'], '3.0.0')
+        self.assertTrue(2 <= len(keys) <= len(allowed_keys), "Unexpected number of keys")
+
+        for k in keys:
+            self.assertIn(k, allowed_keys, "Unexpected key")
+
+        self.assertIn('schema_version', keys)
+        self.assertEqual(self.j['schema_version'], '4.0.0')
+
+        self.assertIn('repositories', keys)
         self.assertIsInstance(self.j['repositories'], list)
 
         for repo in self.j['repositories']:
-            self.assertIsInstance(repo, str_cls)
+            self.assertIsInstance(repo, str)
 
     def test_indentation(self):
         return self._test_indentation('channel.json', self.source)
@@ -759,7 +768,7 @@ class DefaultChannelTests(TestContainer, unittest.TestCase):
             self.assertRegex(repo, r"^(\.|https://)",
                              "Repositories must be relative urls or use the "
                              "HTTPS protocol")
-        self.assertEqual(repos, sorted(repos, key=str_cls.lower),
+        self.assertEqual(repos, sorted(repos, key=str.lower),
                          "Repositories must be sorted alphabetically")
 
     @classmethod
@@ -802,16 +811,16 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
 
     def test_repository_keys(self):
         keys = sorted(self.j.keys())
-        self.assertEqual(keys, ['dependencies', 'includes', 'packages',
-                                'schema_version'])
+        self.assertEqual(keys, ['$schema', 'includes', 'libraries', 'packages',
+                                'schema_version', ])
 
-        self.assertEqual(self.j['schema_version'], '3.0.0')
+        self.assertEqual(self.j['schema_version'], '4.0.0')
         self.assertEqual(self.j['packages'], [])
-        self.assertEqual(self.j['dependencies'], [])
+        self.assertEqual(self.j['libraries'], [])
         self.assertIsInstance(self.j['includes'], list)
 
         for include in self.j['includes']:
-            self.assertIsInstance(include, str_cls)
+            self.assertIsInstance(include, str)
 
     def test_indentation(self):
         return self._test_indentation('repository.json', self.source)
@@ -844,18 +853,18 @@ class DefaultRepositoryTests(TestContainer, unittest.TestCase):
                              release,
                              False))
 
-            if 'dependencies' in data:
-                yield cls._test_dependency_names, (include, data)
+            if 'libraries' in data:
+                yield cls._test_library_names, (include, data)
 
-                for dependency in data['dependencies']:
-                    yield cls._test_dependency, (include, dependency)
+                for library in data['libraries']:
+                    yield cls._test_library, (include, library)
 
-                    dependency_name = get_package_name(dependency)
+                    library_name = get_package_name(library)
 
-                    if 'releases' in dependency:
-                        for release in dependency['releases']:
+                    if 'releases' in library:
+                        for release in library['releases']:
                             (yield cls._test_release,
-                                ("%s (%s)" % (dependency_name, include),
+                                ("%s (%s)" % (library_name, include),
                                  release,
                                  True))
 

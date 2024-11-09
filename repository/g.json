@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"details": "https://github.com/SublimeText/Gaelyk",
@@ -72,7 +73,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -100,21 +101,11 @@
 			]
 		},
 		{
-			"name": "GBK Encoding Support",
-			"details": "https://github.com/akira-cn/sublime-gbk",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GBK Support",
 			"details": "https://github.com/chengsu/sublime-gbk-support",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -125,7 +116,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -136,7 +127,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -352,16 +343,6 @@
 			]
 		},
 		{
-			"name": "Ggu",
-			"details": "https://github.com/hardikj/GGU-SL",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Gherkin (Cucumber) Formatter",
 			"details": "https://github.com/waynemoore/sublime-gherkin-formatter",
 			"releases": [
@@ -388,18 +369,8 @@
 			"labels": ["auto-complete", "language syntax", "testing", "gherkin", "cucumber"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/inflation/Gherkin-highlight-sublimetext",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -436,7 +407,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -446,7 +417,7 @@
 			"details": "https://github.com/civAnimal/gimp_autocomplete_python",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -456,7 +427,7 @@
 			"details": "https://github.com/civAnimal/gimp_autocomplete_scheme",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -613,7 +584,7 @@
 			"labels": ["git", "emacs"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -663,16 +634,6 @@
 					"sublime_text": ">=4000",
 					"platforms": ["osx", "linux"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "GitGrep",
-			"details": "https://github.com/jugyo/SublimeGitGrep",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -787,7 +748,7 @@
 			"labels": ["emoji", "github", "markdown"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -828,7 +789,7 @@
 			"details": "https://github.com/vilhelmen/Sublime-Gitignore",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -839,7 +800,7 @@
 			"labels": ["vcs"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -904,7 +865,7 @@
 			"labels": ["git"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -914,7 +875,7 @@
 			"details": "https://github.com/chrisbutcher/sublime3-gitopenchangedfiles",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -924,7 +885,7 @@
 			"details": "https://github.com/subsetpark/gitp",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -990,7 +951,7 @@
 			"labels": ["git"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "osx",
 					"tags": true
 				}
@@ -1012,7 +973,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1057,7 +1018,7 @@
 			"labels": ["code sharing"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1116,7 +1077,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1137,7 +1098,7 @@
 			"details": "https://github.com/divinites/oauth-mail",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1201,7 +1162,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1229,17 +1190,6 @@
 			]
 		},
 		{
-			"name": "Go Build",
-			"details": "https://github.com/cthackers/SublimeGoBuild",
-			"labels": ["go"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Go Coverage",
 			"details": "https://github.com/MendelGusmao/SublimeGoCoverage",
 			"labels": ["go"],
@@ -1258,16 +1208,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Go To Node Module Homepage",
-			"details": "https://github.com/jfromaniello/sublime-goto-node-module",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1300,7 +1240,7 @@
 			"labels": ["go", "golang", "debug"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1322,19 +1262,9 @@
 			"labels": ["go"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["linux"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/Manrich121/goFindCallers",
-			"labels": ["go"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1344,7 +1274,7 @@
 			"labels": ["go"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1356,12 +1286,8 @@
 			"previous_names": ["Sublime GDB Plugin For Golang"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "Sublime-Text-2"
 				}
 			]
 		},
@@ -1371,7 +1297,7 @@
 			"labels": ["go", "guru"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["*"],
 					"tags": true
 				}
@@ -1383,7 +1309,7 @@
 			"labels": ["go"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1452,7 +1378,7 @@
 			"labels": ["golang", "go", "gocode", "godef", "linting", "gorename", "formatting"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1463,19 +1389,8 @@
 			"labels": ["golang", "go", "syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Google Apps Scripts",
-			"details": "https://github.com/revolunet/sublimetext-google-apps-scripts",
-			"labels": ["google", "scripts", "drive", "javascript"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1513,16 +1428,6 @@
 			]
 		},
 		{
-			"name": "Google Reader",
-			"details": "https://github.com/speg/SublimeGReader",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Google Scholar",
 			"details": "https://github.com/SaudAljaloud/GoogleScholar",
 			"labels": ["google", "research", "scholar", "latex"],
@@ -1549,12 +1454,8 @@
 			"details": "https://github.com/noahcoad/google-spell-check",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "st3"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
@@ -1564,16 +1465,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Google Translate",
-			"details": "https://github.com/lfont/Sublime-Text-2-GoogleTranslate-Plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1608,7 +1499,7 @@
 			"labels": ["go","language syntax","snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1629,7 +1520,7 @@
 			"labels": ["go", "gorename"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["*"],
 					"tags": true
 				}
@@ -1640,7 +1531,7 @@
 			"labels": ["go"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "unsupported-"
 				}
 			]
@@ -1672,7 +1563,7 @@
 			"labels": ["theme", "color scheme", "dark"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1723,7 +1614,7 @@
 			"labels": ["javascript", "coffeescript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1734,7 +1625,7 @@
 			"labels": ["file navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1757,7 +1648,7 @@
 			"labels": ["file navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1795,16 +1686,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/jtdeng/GoToDoc",
-			"previous_names": ["Goto Golang Document"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GotoDocumentation",
 			"details": "https://github.com/kemayo/sublime-text-2-goto-documentation",
 			"labels": ["search", "documentation"],
@@ -1824,16 +1705,6 @@
 				{
 					"sublime_text": ">3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "GoToFile",
-			"details": "https://github.com/gs/sublime-text-go-to-file",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1887,7 +1758,7 @@
 			"details": "https://github.com/gerardroche/sublime-goto-php-manual",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1899,15 +1770,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/paccator/GotoRecent",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1975,20 +1837,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/giampierod/GPD",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GPG",
 			"details": "https://github.com/dmitrievav/sublime_gpg",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2043,7 +1896,7 @@
 			"labels": ["gramma", "french", "spelling", "text"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2072,7 +1925,7 @@
 			"details": "https://github.com/dncrews/GraphQL-SublimeText3",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				},
 				{
@@ -2101,7 +1954,7 @@
 			"labels": ["graphviz", "dot", "visualization"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2163,18 +2016,8 @@
 			"labels": ["unicode", "utf8"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Grep Code Search",
-			"details": "https://github.com/topikachu/sublime-text-2-GrepCodeSearch",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2184,7 +2027,7 @@
 			"labels": ["grep", "search", "bookmark"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["*"],
 					"tags": true
 				}
@@ -2215,7 +2058,7 @@
 			"details": "https://github.com/tobielf/sublime-syntax-clingo",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2247,7 +2090,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2300,7 +2143,7 @@
 			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2350,16 +2193,6 @@
 			]
 		},
 		{
-			"name": "GTags",
-			"details": "https://github.com/koko1000ban/SublimeGtags",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "GTKDarkThemeVariantSetter",
 			"details": "https://github.com/p-e-w/GTKDarkThemeVariantSetter",
 			"releases": [
@@ -2381,16 +2214,6 @@
 			]
 		},
 		{
-			"name": "GuardHelpers",
-			"details": "https://github.com/kassi/sublime-text-2-guard-helpers",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Gulp",
 			"details": "https://github.com/NicoSantangelo/sublime-gulp",
 			"previous_names": ["Gulp Snippets"],
@@ -2407,7 +2230,7 @@
 			"labels": ["theme", "color scheme", "clock", "weather"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2417,7 +2240,7 @@
 			"details": "https://github.com/ggordan/GutterColor",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2429,7 +2252,7 @@
 			"labels": ["gutter", "themes", "sl", "theme", "SublimeLinter"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

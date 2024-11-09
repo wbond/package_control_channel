@@ -1,12 +1,13 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "S-Expressions Syntax",
 			"details": "https://github.com/whitequark/Sublime-S-Expressions",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -26,7 +27,7 @@
 			"labels": ["language syntax", "sacs"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -57,7 +58,7 @@
 			"details": "https://github.com/Oblongmana/sublime-salesforce-reference",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -67,7 +68,7 @@
 			"details": "https://github.com/exiahuang/SalesforceXyTools",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -135,11 +136,7 @@
 			"labels": ["snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-v"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -152,7 +149,7 @@
 			"author": ["rpardee", "friedegg", "seemack"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -166,7 +163,7 @@
 			"author": ["Qing"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -178,11 +175,7 @@
 			"previous_names": ["SCSS", "Syntax Highlighting for Sass"],
 			"releases": [
 				{
-					"sublime_text": "<3103",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": "3103 - 4106",
+					"sublime_text": "<=4106",
 					"tags": "st3-"
 				},
 				{
@@ -257,7 +250,7 @@
 			"details": "https://github.com/sjiangDA/SasSubmit",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["windows","osx"],
 					"tags": true
 				}
@@ -280,26 +273,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "SBT Runner",
-			"details": "https://github.com/chiappone/Sublime-SBT-Runner",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Scaffolding",
-			"details": "https://github.com/balajithota85/sublime_scaffolding",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -331,7 +304,7 @@
 			"labels": ["scala", "format", "formatting", "formatter", "scalafmt"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -342,7 +315,7 @@
 			"labels": ["scala", "format", "formatting", "formatter", "scalafmt"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -353,7 +326,7 @@
 			"labels": ["scala", "automation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "osx",
 					"tags": true
 				}
@@ -375,18 +348,8 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ScalaTest",
-			"details": "https://github.com/patgannon/sublimetext-scalatest",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -395,7 +358,7 @@
 			"details": "https://github.com/pkukielka/SublimeScalex",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -406,7 +369,7 @@
 			"labels": ["language syntax", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -427,7 +390,7 @@
 			"details": "https://github.com/ligershark/SchemaValidator",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "windows"],
 					"branch": "master"
 				}
@@ -439,7 +402,7 @@
 			"labels": ["code navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -453,16 +416,6 @@
 				{
 					"sublime_text": ">=4099",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "SchemeCycler",
-			"details": "https://github.com/rrerolle/sublime-scheme-cycler",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -510,17 +463,6 @@
 			]
 		},
 		{
-			"name": "Scold",
-			"details": "https://github.com/Xion/SublimeScold",
-			"labels": ["code_sharing", "email", "remote_collaboration"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "ScopeAlways",
 			"details": "https://github.com/yaworsw/Sublime-ScopeAlways",
 			"releases": [
@@ -546,17 +488,8 @@
 			"details": "https://github.com/facelessuser/ScopeHunter",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/willurd/ScopeStatus",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -565,7 +498,7 @@
 			"details": "https://github.com/Syncrossus/Scopus-Query-Compiler",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -575,7 +508,7 @@
 			"details": "https://github.com/Syncrossus/Scopus-Syntax-Highlighter",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -630,15 +563,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/blastmann/ScriptOgrSender",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -806,41 +730,12 @@
 			]
 		},
 		{
-			"name": "Search Valve Wiki",
-			"details": "https://github.com/yogensia/SublimeValveWiki",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Search WordPress Codex",
-			"details": "https://github.com/welovewordpress/SublimeWordPressCodex",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Search WordPress Codex or QueryPosts",
 			"details": "https://github.com/tripflex/SublimeWordpressCodexQueryPosts",
 			"labels": ["st3", "wordpress", "queryposts", "codex"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/Pugsworth/SearchGmodWiki",
-			"releases": [
-				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -912,7 +807,7 @@
 			"details": "https://github.com/spywhere/SelectExact",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1000,7 +895,7 @@
 			"labels": ["text navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1022,7 +917,7 @@
 			"labels": ["text manipulation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1045,7 +940,7 @@
 			"labels": ["formatting", "javascript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx"],
 					"tags": true
 				}
@@ -1062,21 +957,11 @@
 			]
 		},
 		{
-			"name": "Send by Mail",
-			"details": "https://github.com/tdebarochez/sublime-mailto",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Send to 3ds Max",
 			"details": "https://github.com/cb109/sublime3dsmax",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -1087,7 +972,7 @@
 			"details": "https://github.com/DavidGerva/SendToSandbox-SublimePlugin",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1098,7 +983,7 @@
 			"labels": ["external", "terminal", "shell", "repl"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -1119,7 +1004,7 @@
 			"details": "https://github.com/abhishekchavan/sendtojsonblob",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1170,7 +1055,7 @@
 			"previous_names": ["PlistJsonConverter"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
 				}
 			]
@@ -1183,7 +1068,7 @@
 			"labels": ["serpent", "language-syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1195,7 +1080,7 @@
 			"labels": ["project", "file navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1206,7 +1091,7 @@
 			"labels": ["workspace", "save", "window"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1228,7 +1113,7 @@
 			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1262,7 +1147,7 @@
 			"releases": [
 				{
 					"platforms": ["linux", "windows"],
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1273,7 +1158,7 @@
 			"labels" : ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1299,7 +1184,7 @@
 			"releases": [
 				{
 					"platforms": ["osx"],
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1309,7 +1194,7 @@
 			"details": "https://github.com/leesavide/Sfortzando",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1319,7 +1204,7 @@
 			"details": "https://github.com/idleberg/sublime-sfv",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1341,7 +1226,7 @@
 			"details": "https://github.com/Shopify/sublime-shadowenv",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1369,21 +1254,11 @@
 			]
 		},
 		{
-			"name": "Shebang",
-			"details": "https://github.com/samizdatco/sublime-text-shebang",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Shell Exec",
 			"details": "https://github.com/gbaptista/sublime-3-shell-exec",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1393,11 +1268,7 @@
 			"details": "https://github.com/misfo/Shell-Turtlestein",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "sublime-text-2"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1409,7 +1280,7 @@
 			"previous_names": ["Shell Command"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1421,7 +1292,7 @@
 			"labels": ["shell", "cmd", "directory", "files"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -1445,7 +1316,7 @@
 			"labels": ["terminal", "python", "Virtualenv"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"platforms": ["linux"],
 					"tags": true
 				}
@@ -1459,7 +1330,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1469,7 +1340,7 @@
 			"details": "https://github.com/molee1905/ShenMa",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx"],
 					"tags": true
 				}
@@ -1567,7 +1438,7 @@
 			"labels": ["ascii", "unicode", "hexadecimal"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1584,15 +1455,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/ticky/ShowEncoding",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ShowTexdoc",
 			"previous_names": ["Show Texdoc"],
 			"details": "https://github.com/CareF/Show-Texdoc",
@@ -1600,16 +1462,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Shrink Whitespaces",
-			"details": "https://github.com/dacap/sublime-shrink-whitespaces",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1632,7 +1484,7 @@
 			"previous_names": ["SxS Settings"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1645,7 +1497,7 @@
 			"labels": ["sidebar", "folder", "directory", "file", "clipboard"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1690,7 +1542,7 @@
 			"labels": ["sidebar", "utilities"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1716,7 +1568,7 @@
 			"labels": ["aem", "sightly", "HTL", "HTML", "template", "language"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1793,7 +1645,7 @@
 			"details": "https://github.com/adelyte/simpl-plus-syntax-highlight",
 			"labels": ["crestron", "simpl", "simpl plus", "splus"],
 			"releases": [{
-				"sublime_text": ">=3092",
+				"sublime_text": "*",
 				"tags": true
 			}]
 		},
@@ -1803,18 +1655,8 @@
 			"labels": ["aspen", "simplates", "python simplate"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Simple Ember.js Navigator",
-			"details": "https://github.com/noklesta/SublimeEmberNav",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1824,7 +1666,7 @@
 			"labels": ["ftp"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1844,7 +1686,7 @@
 			"details": "https://github.com/rumly111/simpleifdef",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1854,7 +1696,7 @@
 			"details": "https://github.com/vinpac/sublime-simple-import",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1892,21 +1734,11 @@
 			]
 		},
 		{
-			"name": "Simple Rails Navigator",
-			"details": "https://github.com/noklesta/SublimeRailsNav",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "SimpleAdd",
 			"details": "https://github.com/fsaad/Sublime-SimpleAdd",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1927,7 +1759,7 @@
 			"labels": ["testing", "ruby"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1953,7 +1785,7 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
 				},
 				{
@@ -1967,7 +1799,7 @@
 			"details": "https://github.com/antoniofrignani/SimplePHPSpec-for-Sublime-Text",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1978,7 +1810,7 @@
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SZ6YWJUGFM9J8",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1989,7 +1821,7 @@
 			"labels": ["workspace", "save", "session", "manager", "window"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2185,7 +2017,7 @@
 			"labels": ["themes", "utilities"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2196,7 +2028,7 @@
 			"labels": ["language syntax", "z80", "assembly"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2217,7 +2049,7 @@
 			"details": "https://github.com/simion/sublime-slack-integration",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2260,7 +2092,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2271,17 +2103,7 @@
 			"labels": ["presentation", "lightning talk", "slide", "slides", "slideshow", "navigation", "code navigation", "file manager", "launcher", "file launcher", "open files", "remote control"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "SlideShow(S9)",
-			"details": "https://github.com/Seasons7/sublime-slideshow",
-			"releases": [
-				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2351,7 +2173,7 @@
 			"labels": ["text navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2412,7 +2234,7 @@
 			"details": "https://github.com/gbaptista/sublime-3-smart-region",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2435,7 +2257,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2452,20 +2274,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/iiAtlas/SmartGoogle",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "smartifdef",
 			"details": "https://github.com/robinchenyu/smartifdef",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2502,21 +2315,12 @@
 			]
 		},
 		{
-			"details": "https://bitbucket.org/do/smartmovetotheeol",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "SmartNewWindow",
 			"details": "https://github.com/maliayas/SublimeText_SmartNewWindow",
 			"labels": ["window", "workspace", "project", "sidebar"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2571,7 +2375,7 @@
 			"labels": ["smpl", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2594,16 +2398,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "snake_case",
-			"details": "https://github.com/vbali/sublime-snakecase",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2715,27 +2509,8 @@
 			"labels": ["text manipulation", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/jonasdp/Snipplr",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Snipt Snippet Fetcher",
-			"details": "https://github.com/SubZane/Sublime-Snipt-Snippet-Fetcher",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2758,7 +2533,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2770,7 +2545,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2781,7 +2556,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2804,7 +2579,7 @@
 			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2815,7 +2590,7 @@
 			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2845,7 +2620,7 @@
 			"details": "https://github.com/sey/sublime-solium-gutter",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2856,7 +2631,7 @@
 			"labels": ["music"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2867,7 +2642,7 @@
 			"labels": ["blockchain", "contracts", "aeternity"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2897,7 +2672,7 @@
 			"details": "https://github.com/sascha-wolf/sublime-SortLinesBySelection",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2908,25 +2683,12 @@
 			"labels": ["sort", "sorting"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": "3000 - 3999",
 					"tags": "st3-"
 				},
 				{
 					"sublime_text": ">=4000",
 					"tags": "st4-"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/Kentzo/SortLinesByColumn",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2967,27 +2729,17 @@
 			"releases": [
 				{
 					"platforms": "osx",
-					"sublime_text": "<3000",
-					"tags": "st2-osx-"
-				},
-				{
-					"platforms": "linux",
-					"sublime_text": "<3000",
-					"tags": "st2-linux-"
-				},
-				{
-					"platforms": "osx",
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-osx-"
 				},
 				{
 					"platforms": "linux",
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-linux-"
 				},
 				{
 					"platforms": "windows",
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-windows-"
 				}
 			]
@@ -3009,7 +2761,7 @@
 			"labels": ["go"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3022,7 +2774,7 @@
 			"labels": ["auto-complete", "build system"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3043,7 +2795,7 @@
 			"details": "https://github.com/geekpradd/sublime-sourcesharer-plugin",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3078,16 +2830,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "SourceTree.app Menu",
-			"details": "https://github.com/jocelynmallon/sublime-text-2-sourcetree",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -3225,7 +2967,7 @@
 			"labels": ["sphinx"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3236,7 +2978,7 @@
 			"labels": ["sphinx"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3298,26 +3040,6 @@
 			]
 		},
 		{
-			"name": "Split To Buffer",
-			"details": "https://github.com/berendbaas/sublime_splittobuffer",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "SplitScreen",
-			"details": "https://github.com/spadgos/sublime-SplitScreen",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Splunk Conf File Syntax Highlighting",
 			"details": "https://github.com/shakeelmohamed/sublime-splunk-conf-highlighting",
 			"author": "Shakeel Mohamed",
@@ -3370,7 +3092,7 @@
 			"labels": ["spotify", "music"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -3395,7 +3117,7 @@
 			"labels": ["spotify", "music"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "*",
 					"tags": true
 				}
@@ -3429,7 +3151,7 @@
 			"details": "https://github.com/camden314/spwn-sublime",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3491,7 +3213,7 @@
 			"details": "https://github.com/jum4/sublime-sqlexec",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -3512,7 +3234,7 @@
 			"labels": ["sql", "formatting", "formatter", "tools", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3523,7 +3245,7 @@
 			"labels": ["sql", "sqlx", "extension", "builder", "tools"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3593,10 +3315,6 @@
 			"labels": ["language syntax", "snippets", "completions"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": "3000 - 3155",
 					"tags": "st3.0-"
 				},
@@ -3626,15 +3344,6 @@
 				{
 					"sublime_text": ">=4081",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/bmc/ST2SyntaxFromFileName",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -3685,7 +3394,7 @@
 			"labels": ["ruby"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3706,7 +3415,7 @@
 			"labels": ["formatting", "javascript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "*",
 					"tags": true
 				}
@@ -3751,7 +3460,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3799,7 +3508,7 @@
 			"labels": ["stata"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "windows",
 					"tags": true
 				}
@@ -3811,7 +3520,7 @@
 			"labels": ["stata"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["linux"],
 					"tags": true
 				}
@@ -3845,7 +3554,7 @@
 			"details": "https://github.com/SublimeText/StatusBarFileSize",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3857,7 +3566,7 @@
 			"labels": ["status bar", "json", "jsonpath"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3878,7 +3587,7 @@
 			"labels": ["status bar", "weather", "info", "utilities"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3898,7 +3607,7 @@
 			"details": "https://github.com/OdinTech3/StatusBarSymbols",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3938,15 +3647,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/dhodges/StepList",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "StGitlab",
 			"details": "https://github.com/tosher/StGitlab",
 			"labels": ["Gitlab", "project", "management"],
@@ -3962,7 +3662,7 @@
 			"details": "https://github.com/UniFreak/SublimeMdSnippets",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3972,7 +3672,7 @@
 			"details": "https://github.com/vim-zz/StickySearch",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3983,7 +3683,7 @@
 			"labels": ["syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4015,7 +3715,7 @@
 			"previous_names": ["Strapdown.js Markdown Preview"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -4105,7 +3805,7 @@
 			"details": "https://github.com/p3lim/sublime-strip-whitespace-lines",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4114,7 +3814,7 @@
 			"details": "https://github.com/jbrooksuk/StripHTML",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -4166,7 +3866,7 @@
 			"details": "https://github.com/AndreasBackx/StyleSorter",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4177,16 +3877,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "StylishHaskell",
-			"details": "https://github.com/hairyhum/SublimeStylishHaskell",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -4205,7 +3895,7 @@
 			"details": "https://github.com/lnikell/stylus-clean-completions",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4234,11 +3924,7 @@
 			"details": "https://github.com/bartTC/SubDpaste",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "sublime-2-stable"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "sublime-3-stable"
 				}
 			]
@@ -4247,7 +3933,7 @@
 			"details": "https://github.com/kostajh/subDrush",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -4258,7 +3944,7 @@
 			"labels": ["vcs", "perforce", "p4"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["windows"],
 					"tags": true
 				}
@@ -4269,7 +3955,7 @@
 			"details": "https://github.com/mechio/subhub",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -4280,7 +3966,7 @@
 			"author": "jgirardet",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4299,17 +3985,8 @@
 			"details": "https://github.com/toxinu/Sublimall",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/NorthIsUp/Sublimation",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4318,12 +3995,8 @@
 			"details": "https://github.com/bollu/sublimeBookmark",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "st3"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
@@ -4374,7 +4047,7 @@
 			"details": "https://github.com/75team/SublimeJS",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -4384,7 +4057,7 @@
 			"details": "https://github.com/jugyo/SublimeTextAPIHelper",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -4406,7 +4079,7 @@
 			"details": "https://github.com/jaipandya/SublimeTutor",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "osx",
 					"tags": "osx-"
 				},
@@ -4416,7 +4089,7 @@
 					"tags": "win-"
 				},
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "linux",
 					"tags": "linux-"
 				}
@@ -4427,18 +4100,8 @@
 			"details": "https://github.com/rozboris/Sublime-Tweet",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Sublime V8",
-			"details": "https://github.com/akira-cn/sublime-v8",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4449,36 +4112,8 @@
 			"author": "sprintlong",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/rjcoelho/sublime-clearcase",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/fbzhong/sublime-closure-linter",
-			"labels": ["linting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/spadgos/sublime-csspecific",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4488,25 +4123,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/ThisIsJohnBrown/Sublime-Hhhhold",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/fbzhong/sublime-jslint",
-			"labels": ["linting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4525,15 +4141,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/oleander/sublime-split-navigation",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -4572,35 +4179,8 @@
 			"labels": ["axosoft", "ontime", "issue tracker"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeText/SublimeBlockCursor",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/minism/SublimeBufmod",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeText/SublimeCMD",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4618,11 +4198,7 @@
 					"tags": true
 				},
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-v"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-v"
 				}
 			]
@@ -4652,15 +4228,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/jamiesun/SublimeEvernote",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/quarnster/SublimeGDB",
 			"releases": [
 				{
@@ -4675,7 +4242,7 @@
 			"details": "https://github.com/borysf/SublimeGerrit",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			],
@@ -4701,20 +4268,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/remcoder/SublimeHandcraft",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/SublimeHaskell/SublimeHaskell",
 			"labels": ["haskell"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4724,11 +4282,7 @@
 			"labels": ["linting"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "st3"
 				}
 			]
@@ -4759,15 +4313,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/kliu/SublimeLogHelper",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -4816,17 +4361,8 @@
 			"details": "https://github.com/erbridge/SublimePackageSync",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "main"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/robcowie/SublimePaster",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4834,11 +4370,7 @@
 			"details": "https://github.com/jlegewie/SublimePeek",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "ST3"
 				}
 			]
@@ -4858,26 +4390,8 @@
 			"previous_names": ["Python IDE"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/ostinelli/SublimErl",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "package"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/JulianEberius/SublimeRope",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4913,21 +4427,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/jamiesun/SublimeTalkincode",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "SublimeTextAPICompletions",
 			"details": "https://github.com/gerardroche/sublime-api-completions",
 			"labels": ["completions", "auto-complete"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4942,15 +4447,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/merisanualex/SublimeTransporter",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/jbrooksuk/SublimeWebColors",
 			"releases": [
 				{
@@ -4960,34 +4456,11 @@
 			]
 		},
 		{
-			"name": "SublimeWeibo",
-			"details": "https://github.com/ivershuo/sublime-sublimeweibo",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/lunixbochs/SublimeXiki",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "st3"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/nlloyd/SubliminalCollaborator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -4996,18 +4469,9 @@
 			"details": "https://github.com/dvcrn/sublimious",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true,
 					"platforms": ["osx", "linux"]
-				}
-			]
-		},
-		{
-			"details": "https://github.com/cyrilf/Sublimipsum",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -5023,20 +4487,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/helmutgranda/sublpress",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Sublundo",
 			"details": "https://github.com/libundo/Sublundo",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5045,7 +4500,7 @@
 			"details": "https://github.com/facelessuser/SubNotify",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
 				}
 			]
@@ -5066,7 +4521,7 @@
 			"details": "https://github.com/noma4i/subred",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5076,18 +4531,8 @@
 			"details": "https://github.com/willbrazil/SubTexting",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
-				}
-			]
-		},
-		{
-			"name": "Subtitle Sync",
-			"details": "https://github.com/apiad/sublime-subtitle-sync",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -5106,7 +4551,7 @@
 			"details": "https://github.com/xiewandongqq/subversion_for_sublime_txt3",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["linux"],
 					"tags": true
 				}
@@ -5128,7 +4573,7 @@
 			"details": "https://github.com/pipe01/Sublime-SUCC",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5138,7 +4583,7 @@
 			"details": "https://github.com/fukayatsu/SublimeSuddenDeath",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -5190,7 +4635,7 @@
 			"details": "https://github.com/scrummastermind/SumoSwissKnife",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5223,7 +4668,7 @@
 			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5265,18 +4710,8 @@
 			"labels": ["text manipulation", "formatting"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "SuperCollider",
-			"details": "https://github.com/geoffroymontel/supercollider-package-for-sublime-text",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -5286,7 +4721,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5362,7 +4797,7 @@
 			"previous_names": ["Directory Settings"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5386,7 +4821,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5501,7 +4936,7 @@
 			"labels": ["svg", "view", "image"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5602,7 +5037,7 @@
 			"labels": ["swift", "format", "formatting", "formatter", "pretty", "prettify"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -5673,16 +5108,6 @@
 			]
 		},
 		{
-			"name": "Switch Script",
-			"details": "https://github.com/amireh/SwitchScript",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Switch View in Group",
 			"details": "https://github.com/adamchainz/SublimeSwitchViewInGroup",
 			"releases": [
@@ -5708,19 +5133,9 @@
 			"details": "https://github.com/Naereen/SublimeText3_SwitchDictionary",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "SwitchLanguage",
-			"details": "https://github.com/zerok/Sublime2-SwitchLanguage",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -5751,7 +5166,7 @@
 			"details": "https://github.com/igormukhingmailcom/sublimetext3-symfony2-override-package",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true,
 					"platforms": ["linux", "osx"]
 				}
@@ -5764,26 +5179,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "SymfonyCommander",
-			"details": "https://github.com/pdaether/Sublime-SymfonyCommander",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "SymfonyTools",
-			"details": "https://bitbucket.org/ralmn/symfonytools-for-sublimetext-2",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -5815,7 +5210,7 @@
 			"details": "https://github.com/mfuentesg/SyncSettings",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5849,7 +5244,7 @@
 			"details": "https://github.com/aziz/SublimeSyncedSidebarBg",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -5865,16 +5260,6 @@
 			]
 		},
 		{
-			"name": "Synchronized File Scrolling",
-			"details": "https://github.com/systembell/SublimeSynchroScroll",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Syncrow",
 			"description": "Create and Sync Snippets.",
 			"details": "https://github.com/Afzal7/syncrow",
@@ -5883,7 +5268,7 @@
 			"labels": ["syncrow", "create", "synchronize", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5893,7 +5278,7 @@
 			"details": "https://github.com/dariusf/synesthesia",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5905,7 +5290,7 @@
 			"labels": ["naming"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5937,7 +5322,7 @@
 			"details": "https://github.com/baleyko/syntax-highlighting-scopes-showroom",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -5948,18 +5333,8 @@
 			"labels": ["syntax", "syntax highlight"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Syntax Matcher",
-			"details": "https://github.com/reinteractive-open/Syntax-Matcher",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -5994,30 +5369,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/srilumpa/SyntaxChecker",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "SyntaxDefinitionHelper",
-			"details": "https://github.com/matthew-dumas/syntax_definition_helper",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "SyntaxFold",
 			"details": "https://github.com/jamalsenouci/sublimetext-syntaxfold",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -6060,7 +5416,7 @@
 			"details": "https://github.com/deanMaker/sublime-language-systemrdl",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
