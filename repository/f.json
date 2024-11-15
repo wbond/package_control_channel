@@ -579,13 +579,16 @@
 		},
 		{
 			"name": "FileBrowser",
-			"details": "https://github.com/aziz/SublimeFileBrowser",
+			"details": "https://github.com/kaste/SublimeFileBrowser",
 			"labels": ["file navigation", "file creation", "file open", "sidebar"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true,
-					"dependencies": ["package_events", "pathtools", "watchdog"]
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
