@@ -581,9 +581,11 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
+					"tags": true,
+					"platforms": ["*"]
 				}
-			]
+			],
+			"labels": ["text manipulation", "markdown"]
 		},
 		{
 			"name": "MarkdownAssistant",
