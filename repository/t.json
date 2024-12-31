@@ -290,8 +290,12 @@
 					"tags": "4092-"
 				},
 				{
-					"sublime_text": ">=4149",
+					"sublime_text": "4149 - 4173",
 					"tags": "4149-"
+				},
+				{
+					"sublime_text": ">=4174",
+					"tags": "4174-"
 				}
 			]
 		},
@@ -471,6 +475,17 @@
 		{
 			"name": "Telerik AppBuilder",
 			"details": "https://github.com/Icenium/appbuilder-sublime-package",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Templ (go)",
+			"details": "https://github.com/papierkorp/sublime-templ",
+			"labels": ["templ", "golang", "go"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3370,6 +3385,7 @@
 			"name": "Twig",
 			"details": "https://github.com/Sublime-Instincts/BetterTwig",
 			"labels": ["Twig", "templates", "PHP", "syntax"],
+			"previous_names": ["PHP-Twig"],
 			"releases": [
 				{
 					"base": "https://github.com/purplefish32/sublime-text-2-twig",
@@ -3385,7 +3401,11 @@
 					"tags": "4107-"
 				},
 				{
-					"sublime_text": ">=4142",
+					"sublime_text": "4142 - 4149",
+					"tags": "4142-"
+				},
+				{
+					"sublime_text": ">=4152",
 					"tags": true
 				}
 			]
