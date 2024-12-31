@@ -236,23 +236,21 @@
 		},
 		{
 			"name": "XSL",
-			"details": "https://github.com/packagecontrol/XSL",
-			"labels": ["language syntax"],
+			"details": "https://github.com/SublimeText/XSL",
+			"labels": ["language syntax", "snippets"],
+			"previous_names": ["XSLT Snippets"],
 			"releases": [
 				{
-					"sublime_text": ">3083",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "XSLT Snippets",
-			"details": "https://github.com/hoest/SublimeXSLT",
-			"labels": ["snippets"],
-			"releases": [
+					"sublime_text": "3083 - 4106",
+					"tags": "st3-"
+				},
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "4107 - 4125",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": "4126-"
 				}
 			]
 		},
