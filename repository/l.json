@@ -220,10 +220,19 @@
 			]
 		},
 		{
-			"name": "Laravel Blade",
+			"name": "Laravel Blade AutoComplete",
+			"details": "https://github.com/ahmedash95/sublime-laravel-blade-autocomplete",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Laravel Blade Highlighter",
 			"details": "https://github.com/SublimeText/Blade",
 			"labels": ["php", "laravel", "blade", "language syntax"],
-			"previous_names": ["Laravel Blade Highlighter"],
 			"releases": [
 				{
 					"sublime_text": "<3092",
@@ -236,16 +245,6 @@
 				{
 					"sublime_text": ">=4143",
 					"tags": "st4143-"
-				}
-			]
-		},
-		{
-			"name": "Laravel Blade AutoComplete",
-			"details": "https://github.com/ahmedash95/sublime-laravel-blade-autocomplete",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
