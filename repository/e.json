@@ -528,27 +528,26 @@
 		},
 		{
 			"name": "EJS",
-			"details": "https://github.com/samholmes/EJS.tmLanguage",
-			"labels": ["language syntax"],
+			"details": "https://github.com/SublimeText/EJS",
+			"labels": ["language syntax", "snippets"],
+			"previous_names": ["EJS 2"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/samholmes/EJS.tmLanguage",
+					"sublime_text": "<=3097",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "EJS 2",
-			"details": "https://github.com/nwoltman/sublime-ejs",
-			"labels": ["language syntax", "snippets", "color scheme"],
-			"releases": [
+				},
 				{
-					"sublime_text": "3098 - 4074",
+					"sublime_text": "3098 - 4106",
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4075",
-					"tags": true
+					"sublime_text": "4107 - 4151",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4152",
+					"tags": "4152-"
 				}
 			]
 		},
