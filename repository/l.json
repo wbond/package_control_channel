@@ -221,6 +221,26 @@
 			]
 		},
 		{
+			"name": "Laravel Blade",
+			"details": "https://github.com/SublimeText/Blade",
+			"labels": ["php", "laravel", "blade", "language syntax"],
+			"previous_names": ["Laravel Blade Highlighter"],
+			"releases": [
+				{
+					"sublime_text": "<3092",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3092 - 4142",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				}
+			]
+		},
+		{
 			"name": "Laravel Blade AutoComplete",
 			"details": "https://github.com/ahmedash95/sublime-laravel-blade-autocomplete",
 			"releases": [
@@ -523,12 +543,12 @@
 			"details": "https://github.com/SublimeText/LaTeXTools",
 			"releases": [
 				{
-					"sublime_text": "3000 - 3124",
-					"tags": "st3until3125-"
+					"sublime_text": "3143 - 4106",
+					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=3125",
-					"tags": "st3-"
+					"sublime_text": ">=4107",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -1355,6 +1375,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LiveServerPlus",
+			"details": "https://github.com/ifrederico/sublime-liveserverplus",
+			"labels": ["web development", "server", "live reload"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
 					"tags": true
 				}
 			]

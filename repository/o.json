@@ -488,6 +488,18 @@
 			]
 		},
 		{
+			"name": "Open In Cursor",
+			"details": "https://github.com/spencerchristensen/sublime-open-in-cursor",
+			"labels": ["open files", "external editor", "cursor"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Open in Default Application",
 			"details": "https://github.com/SublimeText/OpenDefaultApplication",
 			"releases": [
@@ -725,6 +737,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OpenFGA",
+			"details": "https://github.com/53v3n3d4/OpenFGA",
+			"labels": ["language syntax", "openfga", "fga"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
 				}
 			]
 		},

@@ -897,6 +897,17 @@
 			]
 		},
 		{
+			"name": "TextTree",
+			"details": "https://github.com/gbif/text-tree-sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Adaptify",
 			"details": "https://github.com/lodev09/Adaptify",
 			"labels": ["theme", "color scheme"],
@@ -3106,7 +3117,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": "windows",
+					"platforms": ["windows", "linux"],
 					"tags": true
 				}
 			]

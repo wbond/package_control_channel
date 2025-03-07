@@ -889,6 +889,18 @@
 			]
 		},
 		{
+			"name": "Selenized Color Scheme",
+			"details": "https://github.com/braver/Selenized",
+			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Semantic Highlighter",
 			"details": "https://github.com/kapitanluffy/sublime-semantic-highlighter",
 			"donate": "https://www.patreon.com/kapitanluffy",
@@ -1135,6 +1147,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SettingSwitcher",
+			"details": "https://github.com/halfmoonvic/SettingSwitcher",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -3148,6 +3170,23 @@
 			]
 		},
 		{
+			"name": "Spreadsheet Formula",
+			"details": "https://github.com/axemonk/Spreadsheet-Formula",
+			"author": ["axemonk", "michaelblyons"],
+			"labels": ["language syntax", "snippets", "completions"],
+			"previous_names": ["Excel formula"],
+			"releases": [
+				{
+					"sublime_text": "3092 - 4074",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4075",
+					"tags": "st4-"
+				}
+			]
+		},
+		{
 			"name": "SproutCore Snippets and JSHint Integration",
 			"details": "https://github.com/sproutcore/sproutcore-sublime-text-2-package",
 			"labels": ["snippets"],
@@ -3331,8 +3370,12 @@
 					"tags": "st3.0-"
 				},
 				{
-					"sublime_text": ">=3156",
+					"sublime_text": "3156 - 4074",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4075",
+					"tags": "st4-"
 				}
 			]
 		},
