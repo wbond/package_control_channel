@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "V",
@@ -50,7 +51,7 @@
 			"labels": ["language syntax", "valgrind", "c", "c++", "cpp"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -127,16 +128,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "VarScoper",
-			"details": "https://github.com/rcastagno/sublime_varscoper",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -312,7 +303,7 @@
 			"labels": ["language syntax", "snippets", "VHDL"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -351,21 +342,11 @@
 			]
 		},
 		{
-			"name": "View Movement",
-			"details": "https://github.com/danielhopkins/sublime-view-movement",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ViewSetting",
 			"details": "https://github.com/fsaad/Sublime-ViewSetting",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -399,7 +380,7 @@
 			"labels": ["vim", "indentation", "modeline", "formatting"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -410,7 +391,7 @@
 			"labels": ["vim"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -431,7 +412,7 @@
 			"labels": [ "vintage", "line numbers" ],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -442,7 +423,7 @@
 			"author": "muffinmad",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -464,7 +445,7 @@
 			"labels": ["vim", "kill ring"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -483,7 +464,7 @@
 			"details": "https://github.com/acarabott/VintageColor",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -493,17 +474,8 @@
 			"details": "https://github.com/SublimeText/Vintage-Extended-Support",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeText/VintageEx",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -521,7 +493,7 @@
 			"details": "https://github.com/guillermooo/Vintageous",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -532,7 +504,7 @@
 			"previous_names": ["Vintageous Origami"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -542,7 +514,7 @@
 			"details": "https://github.com/guillermooo/Vintageous_Plugin_Surround",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -577,7 +549,7 @@
 			"labels": ["build system"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -624,7 +596,7 @@
 			"author": "Vik Borges",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -653,16 +625,6 @@
 			]
 		},
 		{
-			"name": "Vlt",
-			"details": "https://github.com/tomalec/Sublime-Text-2-Vlt-Plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "vm4docker",
 			"details": "https://github.com/yvess/sublime_vm4docker",
 			"releases": [
@@ -678,7 +640,7 @@
 			"details": "https://github.com/glmanhtu/VN_IME",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -743,7 +705,7 @@
 			"details": "https://github.com/drew-wallace/VSCMT",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -753,7 +715,7 @@
 			"details": "https://github.com/acheronfail/VSCodeColumnSelection",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
