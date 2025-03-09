@@ -512,12 +512,34 @@
 			]
 		},
 		{
+			"name": "Fight Color Scheme",
+			"details": "https://github.com/ghyatzo/fight-color-scheme",
+			"labels": ["color-scheme", "light", "dark"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Figlet Big ASCII Text",
 			"details": "https://github.com/adamchainz/SublimeFiglet",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "main"
+				}
+			]
+		},
+		{
+			"name": "File Filter",
+			"details": "https://github.com/vsc-cnst/SublimeTextFileFilter",
+			"labels": [ "search", "logs", "utilities", "code navigation" ],
+			"releases": [
+				{
+					"sublime_text": ">4000",
+					"tags": true
 				}
 			]
 		},
@@ -557,13 +579,16 @@
 		},
 		{
 			"name": "FileBrowser",
-			"details": "https://github.com/aziz/SublimeFileBrowser",
+			"details": "https://github.com/kaste/SublimeFileBrowser",
 			"labels": ["file navigation", "file creation", "file open", "sidebar"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true,
-					"dependencies": ["package_events", "pathtools", "watchdog"]
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -942,6 +967,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FindInFiles-addon",
+			"details": "https://github.com/kaste/FindInFiles-addon",
+			"labels": ["find", "add-on"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},

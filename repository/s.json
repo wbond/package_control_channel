@@ -175,9 +175,14 @@
 			"name": "Sass",
 			"details": "https://github.com/SublimeText/Sass",
 			"labels": ["language syntax", "scss", "sass", "completions", "snippets"],
+			"previous_names": ["SCSS", "Syntax Highlighting for Sass"],
 			"releases": [
 				{
-					"sublime_text": "<4107",
+					"sublime_text": "<3103",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": "3103 - 4106",
 					"tags": "st3-"
 				},
 				{
@@ -680,18 +685,6 @@
 			]
 		},
 		{
-			"name": "SCSS",
-			"details": "https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"base": "https://github.com/MarioRicalde/SCSS.tmbundle",
-					"branch": "SublimeText2"
-				}
-			]
-		},
-		{
 			"name": "SCSS Compiler",
 			"details": "https://github.com/mattarnster/scsscompiler",
 			"releases": [
@@ -1001,6 +994,18 @@
 			]
 		},
 		{
+			"name": "Selenized Color Scheme",
+			"details": "https://github.com/braver/Selenized",
+			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Semantic Highlighter",
 			"details": "https://github.com/kapitanluffy/sublime-semantic-highlighter",
 			"donate": "https://www.patreon.com/kapitanluffy",
@@ -1257,6 +1262,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SettingSwitcher",
+			"details": "https://github.com/halfmoonvic/SettingSwitcher",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1729,6 +1744,18 @@
 			]
 		},
 		{
+			"name": "Signet Bookmarks",
+			"details": "https://github.com/cepthomas/SbotSignet",
+			"labels": ["bookmark", "navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/321hendrik/SikuliTools",
 			"author": "Hendrik Elsner (321hendrik@gmail.com)",
 			"labels": ["sikuli", "gui", "test", "automation", "app", "web", "image", "capture"],
@@ -1946,6 +1973,26 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Simplenote",
+			"details": "https://github.com/RedAtman/simplenote",
+			"author": "redatman",
+			"labels": ["simplenote", "note", "markdown", "todo", "php", "html", "quote"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -2559,6 +2606,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SmPL (Coccinelle)",
+			"details": "https://github.com/jtojnar/Sublime-SmPL-Syntax",
+			"labels": ["smpl", "coccinelle", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -3390,6 +3448,23 @@
 			]
 		},
 		{
+			"name": "Spreadsheet Formula",
+			"details": "https://github.com/axemonk/Spreadsheet-Formula",
+			"author": ["axemonk", "michaelblyons"],
+			"labels": ["language syntax", "snippets", "completions"],
+			"previous_names": ["Excel formula"],
+			"releases": [
+				{
+					"sublime_text": "3092 - 4074",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4075",
+					"tags": "st4-"
+				}
+			]
+		},
+		{
 			"name": "SproutCore Snippets and JSHint Integration",
 			"details": "https://github.com/sproutcore/sproutcore-sublime-text-2-package",
 			"labels": ["snippets"],
@@ -3577,8 +3652,12 @@
 					"tags": "st3.0-"
 				},
 				{
-					"sublime_text": ">=3156",
+					"sublime_text": "3156 - 4074",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4075",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -3590,7 +3669,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3211",
-					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SSHubl",
+			"details": "https://github.com/HorlogeSkynet/SSHubl",
+			"labels": ["forward", "remote", "ssh", "terminal"],
+			"releases": [
+				{
+					"sublime_text": ">=4081",
 					"tags": true
 				}
 			]
@@ -5394,7 +5483,11 @@
 			"details": "https://github.com/corneliusio/svelte-sublime",
 			"releases": [
 				{
-					"sublime_text": ">=4000",
+					"sublime_text": ">=4143",
+					"tags": "st4143-"
+				},
+				{
+					"sublime_text": "4000 - 4142",
 					"tags": "st4-"
 				},
 				{
@@ -5879,32 +5972,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Syntax Highlighting for PostCSS",
-			"details": "https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Syntax Highlighting for Sass",
-			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3103",
-					"branch": "ST2"
-				},
-				{
-					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]

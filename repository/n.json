@@ -624,16 +624,19 @@
 		},
 		{
 			"name": "Ngx HTML",
-			"previous_names": ["Angular2 HTML Syntax"],
 			"details": "https://github.com/princemaple/ngx-html-syntax",
 			"labels": ["language syntax", "angular"],
 			"releases": [
 				{
-					"sublime_text": "3156 - 4076",
+					"sublime_text": "3156 - 4106",
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4077",
+					"sublime_text": "4107 - 4151",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4152",
 					"tags": true
 				}
 			]
@@ -743,6 +746,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NinetyFive",
+			"details": "https://github.com/ninetyfive-gg/sublime-plugin",
+			"labels": ["completions", "ai"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1055,6 +1069,18 @@
 			]
 		},
 		{
+			"name": "Notr",
+			"details": "https://github.com/cepthomas/Notr",
+			"labels": ["note", "note taking", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nova Framework Snippets",
 			"details": "https://github.com/nova-framework/Nova-Framework-Snippets",
 			"labels": ["snippets"],
@@ -1310,7 +1336,11 @@
 			"previous_names": ["Nunjucks Syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<=4180",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4186",
 					"tags": true
 				}
 			]

@@ -221,14 +221,15 @@
 		},
 		{
 			"name": "Yollama",
+			"description": "Use AI from the comfort of Sublime Text to auto-complete code or chat with LLMs.",
 			"details": "https://gitlab.com/mwwaa/yollama",
-			"labels": ["ai", "assistant"],
+			"readme": "https://gitlab.com/mwwaa/yollama/-/raw/main/README.md",
+			"labels": ["ai", "assistant", "auto-complete"],
 			"author": "mwa",
-			"homepage": "https://maxime.walzberg.fr/articles/yollama",
+			"homepage": "https://gitlab.com/mwwaa/yollama",
 			"releases": [
 				{
 					"sublime_text": ">=4107",
-					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]

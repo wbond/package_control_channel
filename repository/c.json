@@ -742,17 +742,6 @@
 			]
 		},
 		{
-			"name": "Charcoal",
-			"details": "https://github.com/Dnld/charcoal-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Charmci",
 			"details": "https://github.com/matthiasdiener/Charmci-Sublime-Syntax",
 			"description" : "Syntax highlighting for Charm++ .ci files",
@@ -1339,6 +1328,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Claudette",
+			"details": "https://github.com/barryceelen/Claudette",
+			"labels": ["ai", "claude"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
 					"tags": true
 				}
 			]
@@ -2241,6 +2241,17 @@
 			]
 		},
 		{
+			"name": "Codemp",
+			"details": "https://github.com/hexedtech/codemp-sublime",
+			"labels": ["collaborative", "crdt", "editing"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodePresenter",
 			"details": "https://github.com/fwph/codepresenter",
 			"labels":["presentation"],
@@ -2432,12 +2443,21 @@
 		},
 		{
 			"name": "CoffeeScript",
-			"details": "https://github.com/sustained/CoffeeScript-Sublime-Plugin",
-			"labels": ["language syntax"],
+			"details": "https://github.com/SublimeText/CoffeeScript",
+			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
+			"previous_names": ["Better CoffeeScript"],
 			"releases": [
 				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				},
+				{
+					"sublime_text": "3143 - 4142",
+					"tags": "3000-"
+				},
+				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -4393,6 +4413,17 @@
 			"name": "CSS Grid Snippets",
 			"details": "https://github.com/antenando/css-grid-sublime-snippets",
 			"labels": ["css", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CSS Intellisense",
+			"details": "https://github.com/id-sakurata/CSS-Intellisense",
+			"labels": ["css", "snippets", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",

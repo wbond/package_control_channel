@@ -607,6 +607,17 @@
 			]
 		},
 		{
+			"name": "MarkdownCodeExporter",
+			"details": "https://github.com/SublimeText-Markdown/MarkdownCodeExporter",
+			"labels": ["markdown"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MarkdownComplements",
 			"details": "https://github.com/junShimoji/MarkdownComplements",
 			"releases": [
@@ -864,7 +875,7 @@
 		},
 		{
 			"name": "Material Design Lite Selectors Snippets",
-			"details": "https://github.com/operari/material-design-lite-snippets",
+			"details": "https://github.com/radzev1ch/material-design-lite-snippets",
 			"labels": ["snippets"],
 			"author": "Aliaksandr Radzevich",
 			"releases": [
@@ -1280,6 +1291,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Memorize",
+			"details": "https://github.com/ckm2k1/sublime_memorize",
+			"labels": ["call stack", "memory aid"],
+			"releases": [
+				{
+					"sublime_text": ">=4180",
 					"tags": true
 				}
 			]
@@ -2377,6 +2399,17 @@
 			]
 		},
 		{
+			"name": "MoonBit",
+			"details": "https://github.com/hyrious/moonbit-syntax-highlight",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Moonlight",
 			"details": "https://github.com/mauroreisvieira/moonlight-sublime-theme",
 			"labels": ["color scheme"],
@@ -2816,10 +2849,15 @@
 		},
 		{
 			"name": "Mustache",
-			"details": "https://github.com/cedeber/sublime-mustache",
+			"details": "https://github.com/SublimeText/Mustache",
+			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "3092 - 4151",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4152",
 					"tags": true
 				}
 			]
