@@ -44,6 +44,17 @@
 			]
 		},
 		{
+			"name": "FabricEngine",
+			"details": "https://github.com/stepcg/SublimeFabricEngineSyntax",
+			"labels": ["VOSS", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Facebook Material Theme",
 			"details": "https://github.com/ridewn/material-theme",
 			"labels": ["theme", "color scheme", "material", "facebook"],
@@ -272,6 +283,18 @@
 			]
 		},
 		{
+			"name": "FASTA",
+			"details": "https://github.com/SilentGene/sublime-fasta-syntax",
+			"labels": ["fasta", "language syntax", "bioinformatics"],
+			"author": "Heyu Lin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FASTBuild",
 			"details": "https://github.com/Manuzor/FASTBuild-Sublime",
 			"releases": [
@@ -489,12 +512,34 @@
 			]
 		},
 		{
+			"name": "Fight Color Scheme",
+			"details": "https://github.com/ghyatzo/fight-color-scheme",
+			"labels": ["color-scheme", "light", "dark"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Figlet Big ASCII Text",
 			"details": "https://github.com/adamchainz/SublimeFiglet",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "main"
+				}
+			]
+		},
+		{
+			"name": "File Filter",
+			"details": "https://github.com/vsc-cnst/SublimeTextFileFilter",
+			"labels": [ "search", "logs", "utilities", "code navigation" ],
+			"releases": [
+				{
+					"sublime_text": ">4000",
+					"tags": true
 				}
 			]
 		},
@@ -534,13 +579,16 @@
 		},
 		{
 			"name": "FileBrowser",
-			"details": "https://github.com/aziz/SublimeFileBrowser",
+			"details": "https://github.com/kaste/SublimeFileBrowser",
 			"labels": ["file navigation", "file creation", "file open", "sidebar"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"tags": true,
-					"dependencies": ["package_events", "pathtools", "watchdog"]
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -741,6 +789,17 @@
 			]
 		},
 		{
+			"name": "FileWatcher",
+			"details": "https://github.com/kapitanluffy/sublime-file-watcher",
+			"donate": "https://github.com/sponsors/kapitanluffy",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FileZilla",
 			"details": "https://github.com/thecotne/sublime-filezilla",
 			"releases": [
@@ -912,6 +971,17 @@
 			]
 		},
 		{
+			"name": "FindInFiles-addon",
+			"details": "https://github.com/kaste/FindInFiles-addon",
+			"labels": ["find", "add-on"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/skuroda/FindKeyConflicts",
 			"releases": [
 				{
@@ -972,17 +1042,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Firewatch Color Scheme",
-			"details": "https://github.com/willsoto/firewatch-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -1169,6 +1228,17 @@
 			]
 		},
 		{
+			"name": "Flexoki Color Scheme",
+			"details": "https://github.com/kepano/flexoki-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Flight JS Snippets",
 			"details": "https://github.com/cameronhunter/flight-js-snippets",
 			"labels": ["snippets"],
@@ -1293,7 +1363,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["linux"],
+					"platforms": ["linux", "osx"],
 					"tags": true
 				}
 			]
@@ -1416,10 +1486,15 @@
 		},
 		{
 			"name": "Folder Aliaser",
-			"details": "https://github.com/tmelot2/folder-aliaser",
+			"details": "https://github.com/SublimeText/FolderAliaser",
+			"previous_names": ["FolderAlias Rename Tool"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1441,16 +1516,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "FolderAlias Rename Tool",
-			"details": "https://bitbucket.org/rablador/folderalias",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "develop"
 				}
 			]
 		},
@@ -1586,6 +1651,7 @@
 		{
 			"name": "Formatter",
 			"details": "https://github.com/bitst0rm-pub/Formatter",
+			"author": "bitst0rm",
 			"labels": ["formatting", "beautify", "minify", "css", "scss", "sass", "less", "html", "xml", "javascript", "json", "markdown", "perl", "php", "python", "ruby", "bash", "c", "c++", "c#", "d", "objc", "java"],
 			"releases": [
 				{

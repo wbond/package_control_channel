@@ -153,17 +153,6 @@
 			]
 		},
 		{
-			"name": "Yellow Blog Extensions",
-			"details": "https://github.com/nashv/YellowBlogExtensions",
-			"labels": ["Yellow", "Blog"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Yet Another Launcher",
 			"details": "https://github.com/dahanbn/Yet-Another-Launcher",
 			"labels": ["utilities", "file open", "utils", "productivity"],
@@ -231,6 +220,21 @@
 			]
 		},
 		{
+			"name": "Yollama",
+			"description": "Use AI from the comfort of Sublime Text to auto-complete code or chat with LLMs.",
+			"details": "https://gitlab.com/mwwaa/yollama",
+			"readme": "https://gitlab.com/mwwaa/yollama/-/raw/main/README.md",
+			"labels": ["ai", "assistant", "auto-complete"],
+			"author": "mwa",
+			"homepage": "https://gitlab.com/mwwaa/yollama",
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Yosys",
 			"details": "https://github.com/YosysHQ/Sublime-Yosys",
 			"labels": ["syntax"],
@@ -248,6 +252,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ytt",
+			"details": "https://github.com/Vasfed/sublime_ytt",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

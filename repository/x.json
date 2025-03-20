@@ -58,7 +58,7 @@
 		{
 			"name": "Xcode Configuration Settings",
 			"previous_names": ["Xcode Build Configuration", "Xcode Build Configuration and Project Syntax Definitions", "Xcode Project"],
-			"details": "https://github.com/peterthomashorn/xcode-build-configuration-language-for-sublime-text",
+			"details": "https://github.com/p4t5h3/xcode-build-configuration-language-for-sublime-text",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -186,7 +186,11 @@
 			"labels": ["xonsh", "python", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=4075",
+					"sublime_text": "4075 - 4147",
+					"tags": "4075-4147_"
+				},
+				{
+					"sublime_text": ">=4148",
 					"tags": true
 				}
 			]
@@ -201,8 +205,12 @@
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "<4050",
 					"tags": "v"
+				},
+				{
+					"sublime_text": ">=4050",
+					"tags": "ST4-v"
 				}
 			]
 		},
@@ -228,23 +236,21 @@
 		},
 		{
 			"name": "XSL",
-			"details": "https://github.com/packagecontrol/XSL",
-			"labels": ["language syntax"],
+			"details": "https://github.com/SublimeText/XSL",
+			"labels": ["language syntax", "snippets"],
+			"previous_names": ["XSLT Snippets"],
 			"releases": [
 				{
-					"sublime_text": ">3083",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "XSLT Snippets",
-			"details": "https://github.com/hoest/SublimeXSLT",
-			"labels": ["snippets"],
-			"releases": [
+					"sublime_text": "3083 - 4106",
+					"tags": "st3-"
+				},
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "4107 - 4125",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": "4126-"
 				}
 			]
 		},

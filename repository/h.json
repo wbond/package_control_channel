@@ -90,6 +90,19 @@
 			]
 		},
 		{
+			"name": "Hadar Theme",
+			"author": "Cristian Vásquez",
+			"details": "https://github.com/cristianvasquezc/hadar-sublime-text",
+			"labels": ["theme", "color scheme", "dark", "hadar", "hadar theme"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Halcyon Theme",
 			"author": "Brittany Chiang",
 			"details": "https://github.com/bchiang7/Halcyon",
@@ -380,18 +393,6 @@
 			]
 		},
 		{
-			"name": "HDLProject",
-			"details": "https://github.com/bootsiaz/sublime-hdlproject",
-			"author": "Andrew Carter",
-			"labels": ["vhdl", "verilog", "fpga"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Header Creator",
 			"details": "https://github.com/Harryman/Arduino-header-keyword-creator",
 			"releases": [
@@ -413,7 +414,7 @@
 		},
 		{
 			"name": "Helium",
-			"details": "https://github.com/sschuhmann/Helium",
+			"details": "https://github.com/SublimeText/Helium",
 			"previous_names": ["Hermes"],
 			"releases": [
 				{
@@ -423,11 +424,13 @@
 			]
 		},
 		{
-			"details": "https://github.com/damien-biasotto/Help",
+			"name": "Heta",
+			"details": "https://github.com/hetalang/heta-highlight-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -609,6 +612,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Highlight Token",
+			"details": "https://github.com/cepthomas/SbotHighlight",
+			"labels": ["highlight"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"platforms": ["windows", "linux"],
 					"tags": true
 				}
 			]
@@ -1077,8 +1092,12 @@
 			"labels": ["language syntax", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3153",
-					"tags": true
+					"sublime_text": "3153 - 4133",
+					"tags": "version/st3153/"
+				},
+				{
+					"sublime_text": ">=4134",
+					"tags": "version/st4134/"
 				}
 			]
 		},
@@ -1390,7 +1409,6 @@
 			"name": "HTTP Headers Reindent",
 			"details": "https://github.com/T0nyX1ang/HttpHeadersReindent",
 			"author": "Tony Xiang",
-			"description": "A tool to reindent http header file from Fiddler to Python dictionary format",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1447,7 +1465,6 @@
 		{
 			"name": "HttpUnit",
 			"details": "https://github.com/gaohuia/HttpUnit",
-			"issues" : "https://github.com/gaohuia/HttpUnit/issues",
 			"releases": [
 				{
 					"sublime_text": ">=3092",

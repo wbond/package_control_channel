@@ -205,16 +205,6 @@
 			]
 		},
 		{
-			"name": "Ignore Words",
-			"details": "https://github.com/zcold/ignore_words",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Iifefy",
 			"details": "https://github.com/erquhart/sublime-iifefy",
 			"labels": ["javascript", "utilities"],
@@ -726,11 +716,11 @@
 			]
 		},
 		{
-			"name": "Inline Google Translate",
-			"details": "https://github.com/MTimer/SublimeText-Google-Translate-Plugin",
+			"name": "Inline Fold",
+			"details": "https://github.com/predragnikolic/InlineFold",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4070",
 					"tags": true
 				}
 			]
@@ -741,6 +731,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "InlineOutline",
+			"details": "https://github.com/kaste/InlineOutline",
+			"releases": [
+				{
+					"sublime_text": ">=4132",
 					"tags": true
 				}
 			]
@@ -809,7 +809,7 @@
 		{
 			"name": "Insert Nums",
 			"author": ["jbrooksuk", "FichteFoll"],
-			"details": "https://github.com/jbrooksuk/InsertNums",
+			"details": "https://github.com/SublimeText/InsertNums",
 			"labels": ["automation", "utils", "text manipulation"],
 			"previous_names": ["Insert Sequences", "InsertNums"],
 			"releases": [
@@ -922,6 +922,16 @@
 			]
 		},
 		{
+			"name": "Interactivity",
+			"details": "https://github.com/ichichikin/sublime-plugin-interactivity",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "International Keymap",
 			"details": "https://bitbucket.org/hxss/internationalkeymap",
 			"releases": [
@@ -979,16 +989,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Invert Current Color Scheme",
-			"details": "https://github.com/CJEdgerton/sublime-invert-current-color-scheme",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1093,6 +1093,18 @@
 			]
 		},
 		{
+			"name": "iOS build system",
+			"details": "https://github.com/Swift-Next/iOS-build-sublime",
+			"labels": ["build system", "swift", "objective-c", "objective-c++"],
+			"releases": [
+				{
+					"platforms": "osx",
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "IpAddress",
 			"details": "https://github.com/vovayatsyuk/sublime-ip-address",
 			"releases": [
@@ -1106,6 +1118,17 @@
 			"name": "IPS Package Manifest Syntax",
 			"details": "https://github.com/carsonoid/IPS-Pkg-Syntax",
 			"labels": ["language syntax", "markup"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ipynb Preview as Markdown",
+			"details": "https://github.com/valentinbarral/IpynbPreviewAsMarkdown",
+			"labels": ["text manipulation", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",

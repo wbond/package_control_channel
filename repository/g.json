@@ -252,6 +252,17 @@
 			]
 		},
 		{
+			"name": "GenerateSyntaxTestAssertions",
+			"details": "https://github.com/gerardroche/sublime-generate-syntax-test-assertions",
+			"labels": ["generator", "syntax", "testing"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/SublimeText/GenerateUUID",
 			"releases": [
 				{
@@ -644,7 +655,12 @@
 			"labels": ["git", "diff"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"platforms": ["osx", "linux"],
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -681,6 +697,30 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "GitHub Desktop",
+			"previous_names": ["Git​Hub.app Menu"],
+			"details": "https://github.com/braver/SublimeGitHub",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": "osx",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GitHub File Fetcher",
+			"author": "Denny Korsukéwitz",
+			"details": "https://github.com/dennykorsukewitz/Sublime-GitHubFileFetcher",
+			"labels": ["workflow", "helper", "github", "file", "files", "fetch", "fetcher", "grab", "download", "get"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -742,16 +782,6 @@
 			]
 		},
 		{
-			"name": "Github Tools",
-			"details": "https://github.com/temochka/sublime-text-2-github-tools",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "GithubEmoji",
 			"details": "https://github.com/akatopo/GithubEmoji",
 			"labels": ["emoji", "github", "markdown"],
@@ -783,6 +813,17 @@
 			]
 		},
 		{
+			"name": "GitHubTools",
+			"previous_names": ["Github Tools"],
+			"details": "https://github.com/braver/GitHubTools",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Gitignore",
 			"details": "https://github.com/vilhelmen/Sublime-Gitignore",
 			"releases": [
@@ -793,8 +834,30 @@
 			]
 		},
 		{
+			"name": "Gitignore Extended",
+			"details": "https://github.com/Isaac-the-Man/Sublime-Gitignore-Extended",
+			"labels": ["vcs"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Gitignored File Excluder",
 			"details": "https://github.com/ExplodingCabbage/sublime-gitignorer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gitk",
+			"details": "https://github.com/gerardroche/sublime-gitk",
+			"labels": ["git"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -831,6 +894,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GitOpen",
+			"details": "https://github.com/gerardroche/sublime-git-open",
+			"labels": ["git"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -951,6 +1025,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": "windows",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GLE",
+			"details": "https://github.com/vlabella/gle-sublimetext",
+			"labels": ["gle", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1106,6 +1191,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gno",
+			"details": "https://github.com/jdkato/gno-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1368,17 +1464,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Good Wolf Color Scheme",
-			"details": "https://github.com/ryanolsonx/sublimetext-goodwolf-theme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1690,11 +1775,22 @@
 			]
 		},
 		{
-			"details": "https://github.com/lazyguru/GoToClass",
+			"details": "https://github.com/vovayatsyuk/GoToClass",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GotoDefinitionSplit",
+			"details": "https://github.com/gerardroche/sublime-goto-definition-split",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1787,6 +1883,16 @@
 			]
 		},
 		{
+			"name": "GotoPhpManual",
+			"details": "https://github.com/gerardroche/sublime-goto-php-manual",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GoToPoint",
 			"details": "https://github.com/breck7/gotopoint",
 			"releases": [
@@ -1811,6 +1917,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "GotoRubyGem",
+			"details": "https://github.com/ZainIftikhar7vals/GotoRubyGem",
+			"labels": ["code navigation", "ruby gems", "ruby"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -1994,16 +2112,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Graql Syntax",
-			"details": "https://github.com/graknlabs/graql_syntax_sublime",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

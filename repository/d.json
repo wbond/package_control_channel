@@ -2,16 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "D Programming Language",
-			"details": "https://github.com/alexrp/st2-d",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "D-Laravel alias",
 			"details": "https://github.com/deviny/Dlaravel-Alias",
 			"releases": [
@@ -89,6 +79,17 @@
 			]
 		},
 		{
+			"name": "DaisyUI Autocomplete",
+			"details": "https://github.com/etoundi2nd/daisyui-autocomplete",
+			"labels": ["auto-complete", "autocomplete", "completions", "tailwind", "productivity"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dank Neon",
 			"details": "https://github.com/DankNeon/sublime",
 			"author": ["jpetrucciani", "wuz"],
@@ -113,23 +114,24 @@
 			]
 		},
 		{
+			"name": "Dark Castle Color Scheme",
+			"author": "Scott Grivner",
+			"details": "https://github.com/scottgriv/Dark-Castle-Sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dark Crayon Color Scheme",
 			"details": "https://github.com/Fernando2603/DarkCrayon",
 			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": ">=3149",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Dark Fusion Color Scheme",
-			"details": "https://github.com/willsoto/dark-fusion-syntax",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -509,6 +511,16 @@
 			]
 		},
 		{
+			"name": "Definition Preview",
+			"details": "https://github.com/nickav/DefinitionPreview",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "DelayedSaveAll",
 			"details": "https://github.com/shagabutdinov/sublime-delayed-save-all",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
@@ -805,6 +817,17 @@
 			]
 		},
 		{
+			"name": "Dhall",
+			"details": "https://github.com/kukimik/dhall-sublime-syntax-highlighting",
+			"labels": ["language syntax", "dhall"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Diagram",
 			"details": "https://github.com/jvantuyl/sublime_diagram_plugin",
 			"labels": ["diagrams", "plantuml"],
@@ -869,6 +892,18 @@
 			]
 		},
 		{
+			"name": "Diffable",
+			"details": "https://github.com/yaroslavyaroslav/Diffable",
+			"donate": "https://github.com/sponsors/yaroslavyaroslav",
+			"previous_names": ["Diffy"],
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "DiffTabs",
 			"details": "https://github.com/soandrew/DiffTabs",
 			"releases": [
@@ -885,17 +920,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Diffy",
-			"details": "https://github.com/zsong/diffy",
-			"labels": ["diff", "compare", "difference", "comparison"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1441,17 +1465,6 @@
 		{
 			"name": "Done",
 			"details": "https://github.com/snehlsen/sublime-done",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "DOS-CGA Color Scheme",
-			"details": "https://github.com/fnkt/dos-cga-theme",
-			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",

@@ -13,6 +13,17 @@
 			]
 		},
 		{
+			"name": "B2Jam",
+			"details": "https://github.com/mccann/Sublime-B2-Jam-Syntax",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">4152",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Baan",
 			"details": "https://github.com/masal/SublimeBaan",
 			"labels": ["language syntax", "formatting", "snippets"],
@@ -175,16 +186,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Base Encoder",
-			"details": "https://github.com/euphwes/base-encoder",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -514,6 +515,28 @@
 			]
 		},
 		{
+			"name": "Bend",
+			"details": "https://github.com/RohanVashisht1234/bend-syntax-highlighter-sublime-text",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Berry Color Scheme",
+			"details": "https://github.com/patoui/berry",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BetaCode",
 			"details": "https://github.com/kugland/Sublime-BetaCode",
 			"releases": [
@@ -554,21 +577,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Better CoffeeScript",
-			"details": "https://github.com/aponxi/sublime-better-coffeescript",
-			"labels": ["language syntax", "snippets", "linting", "watch", "coffeescript"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
@@ -1044,6 +1052,17 @@
 			]
 		},
 		{
+			"name": "BlitzSearch",
+			"details": "https://github.com/Natestah/BlitzSt",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},		
+		{
 			"name": "Block Cursor Everywhere",
 			"details": "https://github.com/karlhorky/BlockCursorEverywhere",
 			"releases": [
@@ -1081,6 +1100,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Blossom Theme",
+			"details": "https://github.com/BlossomTheme/Sublime-Text",
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1125,17 +1155,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Boo",
-			"details": "https://github.com/Shammah/boo-sublime",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -1286,8 +1305,8 @@
 		},
 		{
 			"name": "Bow Tintin",
-			"details": "https://github.com/papac/bow-tintin-sbt3",
-			"labels": ["php", "Bow", "Tintin", "language syntax", "Bow Tintin"],
+			"details": "https://github.com/bowphp/sublimetext-extension",
+			"labels": ["php", "bow", "bowphp", "Tintin", "language syntax", "Bow Tintin"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -1414,7 +1433,6 @@
 		{
 			"name": "BreakLines",
 			"details": "https://github.com/Moojuiceman/BreakLines",
-			"issues": "https://github.com/Moojuiceman/BreakLines/issues",
 			"labels": ["break", "group", "split", "separate", "lines"],
 			"releases": [
 				{

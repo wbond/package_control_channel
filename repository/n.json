@@ -35,6 +35,17 @@
 			]
 		},
 		{
+			"name": "Nano Bots",
+			"details": "https://github.com/icebaker/sublime-nano-bots",
+			"labels": ["assistant", "ai", "openai", "chatgpt", "copilot"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nano RC Syntax",
 			"details": "https://github.com/gerph/sublimetext-nanorc-syntax",
 			"labels": ["syntax"],
@@ -282,7 +293,74 @@
 		{
 			"name": "NeoVintageous",
 			"details": "https://github.com/NeoVintageous/NeoVintageous",
-			"labels": ["vim", "vi", "vintage", "vintageous", "neovim", "nvim", "emulation", "emulator", "editor emulation"],
+			"labels": ["vim", "vi", "vintage", "vintageous", "emulation", "emulator", "editor emulation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousColemak",
+			"details": "https://github.com/gerardroche/NeoVintageousColemak",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousDvorak",
+			"details": "https://github.com/gerardroche/NeoVintageousDvorak",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousFiles",
+			"details": "https://github.com/gerardroche/NeoVintageousFiles",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousHighlightLine",
+			"details": "https://github.com/gerardroche/NeoVintageousHighlightLine",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=4074",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousLineNumbers",
+			"details": "https://github.com/gerardroche/NeoVintageousLineNumbers",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NeoVintageousToggle",
+			"previous_names": ["ToggleNeoVintageous"],
+			"details": "https://github.com/NeoVintageous/NeoVintageousToggle",
+			"labels": ["vim", "neovintageous", "vintageous", "vintage"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -493,17 +571,6 @@
 			]
 		},
 		{
-			"name": "ng-annotate Buildsystem",
-			"details": "https://github.com/ctf0/ng-annotate_Buildsystem",
-			"labels": ["build system"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "ng-snippets",
 			"details": "https://github.com/alsfurlan/ng-snippets",
 			"releases": [
@@ -557,16 +624,19 @@
 		},
 		{
 			"name": "Ngx HTML",
-			"previous_names": ["Angular2 HTML Syntax"],
 			"details": "https://github.com/princemaple/ngx-html-syntax",
 			"labels": ["language syntax", "angular"],
 			"releases": [
 				{
-					"sublime_text": "3156 - 4076",
+					"sublime_text": "3156 - 4106",
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4077",
+					"sublime_text": "4107 - 4151",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4152",
 					"tags": true
 				}
 			]
@@ -647,13 +717,13 @@
 			]
 		},
 		{
-			"name": "NimLime",
+			"name": "Nim",
 			"details": "https://github.com/nim-lang/NimLime",
-			"labels": ["nim", "language syntax", "completions"],
-			"previous_names": ["Nimrod"],
+			"labels": ["nim", "language syntax", "snippets"],
+			"previous_names": ["NimLime", "Nimrod"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -676,6 +746,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "NinetyFive",
+			"details": "https://github.com/ninetyfive-gg/sublime-plugin",
+			"labels": ["completions", "ai"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -988,6 +1069,18 @@
 			]
 		},
 		{
+			"name": "Notr",
+			"details": "https://github.com/cepthomas/Notr",
+			"labels": ["note", "note taking", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Nova Framework Snippets",
 			"details": "https://github.com/nova-framework/Nova-Framework-Snippets",
 			"labels": ["snippets"],
@@ -1243,7 +1336,11 @@
 			"previous_names": ["Nunjucks Syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<=4180",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4186",
 					"tags": true
 				}
 			]

@@ -224,6 +224,16 @@
 			]
 		},
 		{
+			"name": "VeribleFormatterVerilog",
+			"details": "https://github.com/sxr1223/VeribleFormatterVerilog",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Verilog",
 			"details": "https://github.com/pro711/sublime-verilog",
 			"releases": [
@@ -303,6 +313,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "VHS",
+			"details": "https://github.com/patopesto/Sublime-Text-VHS-Syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -562,17 +583,6 @@
 			]
 		},
 		{
-			"name": "Visual Studio Bold Color Scheme",
-			"details": "https://github.com/Trismegistos84/visual-studio-bold",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Visual studio code",
 			"description": "Open visual studio code from sublime, light integration",
 			"details": "https://github.com/stoivo/sublime-open-in-vscode",
@@ -769,20 +779,25 @@
 			]
 		},
 		{
-			"name": "Vue Syntax Highlight",
-			"details": "https://github.com/vuejs/vue-syntax-highlight",
+			"name": "Vue",
+			"details": "https://github.com/SublimeText/Vue",
+			"previous_names": ["Vue Syntax Highlight"],
 			"releases": [
 				{
 					"sublime_text": "<3153",
 					"tags": "oldsyntax-"
 				},
 				{
-					"sublime_text": "3153 - 3999",
+					"sublime_text": "3153 - 4106",
 					"tags": "newsyntax-"
 				},
 				{
-					"sublime_text": ">4000",
-					"tags": "st4-"
+					"sublime_text": "4107 - 4125",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": "4126-"
 				}
 			]
 		},

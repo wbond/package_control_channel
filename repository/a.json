@@ -243,6 +243,17 @@
 			]
 		},
 		{
+			"name": "Acton",
+			"details": "https://github.com/actonlang/sublime-acton",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ActualVim",
 			"details": "https://github.com/lunixbochs/actualvim",
 			"labels": ["input", "vim"],
@@ -286,10 +297,12 @@
 		},
 		{
 			"name": "Add Folder To Project",
-			"details": "https://github.com/DavidGerva/AddFolderToProject-SublimePlugin",
+			"author": "Denny Korsukéwitz",
+			"details": "https://github.com/dennykorsukewitz/Sublime-AddFolderToProject",
+			"labels": ["workflow", "helper", "add", "folder", "project" ],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -346,6 +359,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Adept",
+			"details": "https://github.com/AdeptLanguage/AdeptSublimeText",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -435,6 +459,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Aethra Color Scheme",
+			"details": "https://github.com/vlasikhin/Aethra",
+			"labels": ["color scheme", "light"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -635,6 +670,17 @@
 			]
 		},
 		{
+			"name": "Alignment",
+			"author": "Will Bond (wbond)",
+			"details": "https://github.com/wbond/sublime_alignment",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Alive Snippets",
 			"details": "https://github.com/alivevietnam/Alive-Snippets",
 			"author": "Alive Vietnam",
@@ -691,6 +737,17 @@
 			]
 		},
 		{
+			"name": "AlpineJS",
+			"details": "https://github.com/SublimeText/AlpineJS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				}
+			]
+		},
+		{
 			"name": "Alrighty Snippets",
 			"details": "https://github.com/alrighty/alrighty-snippets-sublime",
 			"labels": ["snippets", "react", "jsx", "es6"],
@@ -698,6 +755,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Alter Text",
+			"details": "https://github.com/cibinmathew/sublime-alter-text",
+			"author": "Cibin Mathew",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -1038,19 +1108,6 @@
 			]
 		},
 		{
-			"name": "Angular CLI",
-			"details": "https://github.com/4ern/angular-cli-for-sublime-text",
-			"homepage": "http://4ern.de",
-			"author": "4ern",
-			"labels": ["angular", "cli", "angular2"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Angular Material Snippets",
 			"details": "https://github.com/devotis/sublime-angular-material-snippets",
 			"labels": ["snippets"],
@@ -1121,17 +1178,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "AngularZen",
-			"details": "https://github.com/IlanFrumer/angular-zen",
-			"labels": ["javascript", "coffeescript", "angular.js", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -1291,7 +1337,7 @@
 			"name": "AnyTest",
 			"details": "https://github.com/timfjord/AnyTest",
 			"labels": [
-				"cucumber", "delve", "elixir", "espec", "exunit", "ginkgo", "go", "java", "javascript", "jest", "junit", "m", "minitest", "mocha", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest", "xctest"
+				"behave", "cucumber", "delve", "django", "elixir", "espec", "exunit", "ginkgo", "go", "java", "javascript", "jest", "junit", "m", "mamba", "minitest", "mocha", "nose", "nose2", "pytest", "python", "pyunit", "rails", "rspec", "ruby", "rust", "swift", "test_bench", "testing", "vitest", "xctest", "zig"
 			],
 			"releases": [
 				{
@@ -1365,6 +1411,17 @@
 			]
 		},
 		{
+			"name": "Apex",
+			"details": "https://github.com/SublimeText/Apex",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4126",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Apex Intention Actions",
 			"details": "https://github.com/nchursin/ApexIntentionActions",
 			"labels": ["snippets", "apex", "salesforce", "intention", "autocompletion"],
@@ -1413,39 +1470,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "APICloudLoader",
-			"details": "https://github.com/apicloudcom/Sublime-APICloud-Loader",
-			"labels": ["android", "apicloud"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "APICloudSnippets",
-			"details": "https://github.com/apicloudcom/Sublime-APICloud-Snippet",
-			"labels": ["javascript", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "APICloudWifiSync",
-			"details": "https://github.com/apicloudcom/Sublime-APICloud-WifiSync",
-			"labels": ["android", "apicloud"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -1911,6 +1935,17 @@
 			]
 		},
 		{
+			"name": "AskPerplexity",
+			"details": "https://github.com/spencerchristensen/sublime-ask-perplexity",
+			"labels": ["ai", "browser", "perplexity"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ASL Syntax Highlight",
 			"details": "https://github.com/Fansaly/ASL-Syntax-Highlight",
 			"author": "Fansaly",
@@ -1975,12 +2010,12 @@
 			]
 		},
 		{
-			"name": "Assorted Gutter Themes",
-			"details": "https://github.com/TruJared/assorted_gutter_themes",
-			"labels": ["gutter", "themes", "sl", "theme", "SublimeLinter"],
+			"name": "AssistantAI",
+			"details": "https://github.com/kanutron/AssistantAI",
+			"labels": ["assistant", "completion", "chat", "ai", "gpt", "python"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2168,18 +2203,6 @@
 			]
 		},
 		{
-			"name": "Auro Color Scheme",
-			"previous_names": ["Auro Color scheme"],
-			"details": "https://github.com/Ryan-da-ghost/Auro-theme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Aurora Color Scheme",
 			"details": "https://github.com/expalmer/aurora-theme",
 			"labels": ["color scheme"],
@@ -2339,6 +2362,19 @@
 			]
 		},
 		{
+			"name": "AutoDarkLinux",
+			"details": "https://github.com/smac89/autodark-sublime-plugin",
+			"labels": ["color scheme", "theme", "xdg-desktop-portal"],
+			"previous_names": ["Auto Dark mode for Linux"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true,
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
 			"name": "AutoDocstring",
 			"details": "https://github.com/KristoforMaynard/SublimeAutoDocstring",
 			"labels": ["documentation", "formatting", "python"],
@@ -2493,7 +2529,6 @@
 			"details": "https://github.com/wistful/SublimeAutoPEP8",
 			"labels": ["linting", "formatting"],
 			"readme": "https://raw.githubusercontent.com/wistful/SublimeAutoPEP8/master/Readme.md",
-			"issues": "https://github.com/wistful/SublimeAutoPEP8/issues",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2522,6 +2557,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoProjects",
+			"details": "https://github.com/SublimeText/AutoProjects",
+			"labels": ["folder", "project"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -2571,6 +2617,26 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoTabClose",
+			"details": "https://github.com/IPWright83/sublime-AutoTabClose",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoTagMate",
+			"details": "https://github.com/baslie/AutoTagMate",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2692,6 +2758,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AWS Helper",
+			"details": "https://github.com/cibinmathew/sublime-aws-helper",
+			"labels": ["aws", "awscli", "amazon"],
+			"author": "Cibin Mathew",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
