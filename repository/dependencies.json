@@ -825,6 +825,21 @@
 			]
 		},
 		{
+			"name": "pyperclip",
+			"description": "Python module for cross-platform clipboard functions",
+			"author": "asweigart",
+			"issues": "https://github.com/asweigart/pyperclip/issues",
+			"load_order": "10",
+			"releases": [
+				{
+					"base": "https://github.com/asweigart/pyperclip",
+					"platforms": ["*"],
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "pyte",
 			"description": "Python pyte module",
 			"author": "randy3k",
