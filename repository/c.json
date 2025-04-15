@@ -2494,7 +2494,7 @@
 		{
 			"name": "ColdBox Platform",
 			"details": "https://github.com/ColdBox/coldbox-sublime",
-			"labels": ["ColdBox", "WireBox", "MockBox", "LogBox", "TestBox", "ColdFusion", "CFML"],
+			"labels": [ "ColdBox", "CacheBox", "LogBox", "TestBox", "WireBox", "BoxLang" ],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2632,6 +2632,17 @@
 		{
 			"name": "Color Scheme - Creamy",
 			"details": "https://github.com/quimcalpe/sublime-creamy-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Dracula Neue",
+			"details": "https://github.com/facelessuser/sublime-dracula-scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -4231,8 +4242,12 @@
 					"tags": "version/st3.0/"
 				},
 				{
-					"sublime_text": ">=3156",
+					"sublime_text": "3156 - 4085",
 					"tags": "version/st3/"
+				},
+				{
+					"sublime_text": ">=4086",
+					"tags": "version/st4/"
 				}
 			]
 		},
