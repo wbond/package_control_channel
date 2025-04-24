@@ -509,7 +509,7 @@
 			"name": "TemplateToolkit",
 			"details": "https://github.com/znuny/TemplateToolkit-sublime",
 			"author": "Znuny GmbH",
-			"labels": ["TemplateToolkit", "Template Toolkit", "syntax", "snippets"],
+			"labels": ["TemplateToolkit", "Template Toolkit", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -795,6 +795,23 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "TestManager",
+			"details": "https://github.com/cschreib/sublime-TestManager",
+			"author": "cshreib (Corentin Schreiber)",
+			"labels": [
+				"testing",
+				"c++",
+				"python",
+				"rust"
+			],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1099,7 +1116,7 @@
 			"name": "Theme - City Lights",
 			"details": "https://github.com/Yummygum/city-lights-sublime",
 			"homepage": "http://citylights.xyz/",
-			"labels": ["theme", "color scheme", "City Lights", "syntax"],
+			"labels": ["theme", "color scheme", "City Lights"],
 			"author": "Yummygum",
 			"releases": [
 				{
@@ -1918,6 +1935,17 @@
 			"name": "Theme - Solarized Space",
 			"details": "https://github.com/nsubiron/sublime-theme-solarized-space",
 			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Sone",
+			"details": "https://github.com/predragnikolic/Sone",
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2891,7 +2919,7 @@
 			"name": "Tornado",
 			"description": "Template syntax for Python's Tornado web framework.",
 			"details": "https://github.com/nickbaum/sublime-tornado/",
-			"labels": ["syntax highlight", "python", "html"],
+			"labels": ["language syntax", "python", "html"],
 			"releases": [
 				{
 					"sublime_text": ">=3084",
@@ -3045,7 +3073,7 @@
 			"homepage": "http://trainz-sachsen.com",
 			"readme": "https://raw.githubusercontent.com/Dangoo/trainz_config/master/README.md",
 			"author": "Daniel Gooß",
-			"labels": ["syntax highlight", "language"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3395,7 +3423,7 @@
 		{
 			"name": "Twig",
 			"details": "https://github.com/Sublime-Instincts/BetterTwig",
-			"labels": ["Twig", "templates", "PHP", "syntax"],
+			"labels": ["Twig", "templates", "PHP", "language syntax"],
 			"previous_names": ["PHP-Twig"],
 			"releases": [
 				{

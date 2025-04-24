@@ -117,7 +117,7 @@
 		{
 			"name": "C++YouCompleteMe",
 			"details": "https://github.com/glymehrvrd/CppYCM",
-			"labels": ["c++", "code completion", "syntax check"],
+			"labels": ["c++", "code completion", "linting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -171,7 +171,7 @@
 		{
 			"name": "Caddyfile Syntax",
 			"details": "https://github.com/caddyserver/sublimetext",
-			"labels": ["language syntax", "syntax highlighting"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1182,7 +1182,7 @@
 		{
 			"name": "CJSX Syntax",
 			"details": "https://github.com/Guidebook/sublime-cjsx",
-			"labels": ["CJSX", "syntax"],
+			"labels": ["CJSX", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -2317,7 +2317,7 @@
 		{
 			"name": "ColdBox Platform",
 			"details": "https://github.com/ColdBox/coldbox-sublime",
-			"labels": ["ColdBox", "WireBox", "MockBox", "LogBox", "TestBox", "ColdFusion", "CFML"],
+			"labels": [ "ColdBox", "CacheBox", "LogBox", "TestBox", "WireBox", "BoxLang" ],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2446,6 +2446,17 @@
 		{
 			"name": "Color Scheme - Creamy",
 			"details": "https://github.com/quimcalpe/sublime-creamy-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Color Scheme - Dracula Neue",
+			"details": "https://github.com/facelessuser/sublime-dracula-scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -3015,7 +3026,7 @@
 			"name": "Compass",
 			"details": "https://github.com/whatwedo/sublime-text-compass",
 			"author": "whatwedo",
-			"labels": ["compass", "scss", "sass", "css", "precompiler", "build", "watch", "css3", "build system", "minification"],
+			"labels": ["compass", "scss", "sass", "css", "precompiler", "watch", "css3", "build system", "minification"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3247,7 +3258,7 @@
 			"name": "Console Exec",
 			"details": "https://github.com/joeyespo/sublimetext-console-exec",
 			"author": "Joe Esposito",
-			"labels": ["build", "console", "terminal", "utilities"],
+			"labels": ["build system", "console", "terminal", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3583,7 +3594,7 @@
 		{
 			"name": "Coq",
 			"details": "https://github.com/whitequark/Sublime-Coq",
-			"labels": ["syntax"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3965,8 +3976,12 @@
 					"tags": "version/st3.0/"
 				},
 				{
-					"sublime_text": ">=3156",
+					"sublime_text": "3156 - 4085",
 					"tags": "version/st3/"
+				},
+				{
+					"sublime_text": ">=4086",
+					"tags": "version/st4/"
 				}
 			]
 		},
@@ -4636,7 +4651,7 @@
 		{
 			"name": "CWL Syntax Highlighting",
 			"details": "https://github.com/manabuishii/sublime-cwl-syntax",
-			"labels": ["language syntax", "syntax highlighting", "cwl"],
+			"labels": ["language syntax", "cwl"],
 			"releases": [
 				{
 					"sublime_text": "*",
