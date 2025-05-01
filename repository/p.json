@@ -564,7 +564,7 @@
 		{
 			"name": "Pawn Kit",
 			"details": "https://github.com/punkochel/pawn-openmp-sublime-kit",
-			"labels": ["language syntax", "auto-complete"],
+			"labels": ["auto-complete", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -575,7 +575,7 @@
 		{
 			"name": "Pawn syntax",
 			"details": "https://github.com/Southclaws/pawn-sublime-language",
-			"labels": ["language syntax", "auto-complete"],
+			"labels": ["auto-complete", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -972,7 +972,7 @@
 		{
 			"name": "PHP Completions Kit",
 			"details": "https://github.com/gerardroche/sublime-phpck",
-			"labels": ["php", "completions", "auto-complete"],
+			"labels": ["auto-complete", "completions", "php"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -983,7 +983,7 @@
 		{
 			"name": "PHP Constructors",
 			"details": "https://bitbucket.org/jltorresm/sublime-php-constructors",
-			"labels": ["php", "constructor", "snippets", "code generation", "auto-complete", "text manipulation"],
+			"labels": ["auto-complete", "code generation", "snippets", "text manipulation", "php"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -994,7 +994,7 @@
 		{
 			"name": "PHP CS Fixer",
 			"details": "https://github.com/adael/SublimePhpCsFixer",
-			"labels": ["php", "formatting"],
+			"labels": ["formatting", "php"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1005,7 +1005,7 @@
 		{
 			"name": "PHP Faker Completions",
 			"details": "https://github.com/james2doyle/php-faker-completions",
-			"labels": ["php", "fake", "snippets", "fzaninotto", "test", "factory", "completions"],
+			"labels": ["completions", "snippets", "php", "fake", "fzaninotto", "test", "factory"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1176,7 +1176,7 @@
 			"name": "PHPGrammar",
 			"previous_names": ["php-grammar"],
 			"details": "https://github.com/gerardroche/sublime-php-grammar",
-			"labels": ["php", "completions", "auto-complete", "formatting"],
+			"labels": ["auto-complete", "completions", "formatting", "php"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1187,7 +1187,7 @@
 		{
 			"name": "PHPIntel",
 			"details": "https://github.com/jotson/SublimePHPIntel",
-			"labels": ["php", "auto-complete", "completions"],
+			"labels": ["auto-complete", "completions", "php"],
 			"previous_names": ["MagentoIntel"],
 			"releases": [
 				{
@@ -1814,9 +1814,7 @@
 		{
 			"name": "Postfixer",
 			"details": "https://github.com/mbnuqw/sublime-postfixer",
-			"readme": "https://raw.githubusercontent.com/mbnuqw/sublime-postfixer/master/README.md",
-			"issues": "https://github.com/mbnuqw/sublime-postfixer/issues",
-			"labels": ["text manipulation", "auto-complete"],
+			"labels": ["auto-complete", "text manipulation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1882,7 +1880,7 @@
 		{
 			"name": "Power System Tools Syntax",
 			"details":"https://github.com/dparrini/sublime_powersystems",
-			"labels": ["language syntax", "auto-complete"],
+			"labels": ["auto-complete", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -2842,9 +2840,8 @@
 		{
 			"name": "PyRock",
 			"details": "https://github.com/abhishek72850/pyrock",
-			"homepage": "https://github.com/abhishek72850/pyrock",
 			"author": "Abhishek Kumar",
-			"labels": ["python", "import", "python-import", "auto-complete", "python-test", "pytest", "django-test"],
+			"labels": ["auto-complete", "imports", "python", "python-import", "python-test", "pytest", "django-test"],
 			"releases": [
 				{
 					"sublime_text": ">4000",
@@ -2866,7 +2863,7 @@
 		{
 			"name": "PyScript",
 			"details": "https://github.com/Sublime-Instincts/PyScript",
-			"labels": ["python", "pyscript", "language syntax"],
+			"labels": ["language syntax", "python", "pyscript"],
 			"releases": [
 				{
 					"sublime_text": ">=4126",
@@ -2947,7 +2944,7 @@
 			"name": "Python Completions",
 			"previous_names": ["Python Auto-Complete"],
 			"details": "https://github.com/eliquious/Python-Auto-Complete",
-			"labels": ["python", "completions"],
+			"labels": ["completions", "python"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2958,7 +2955,7 @@
 		{
 			"name": "Python Computer Vision Snippets",
 			"details": "https://github.com/futureprogrammer360/Python-Computer-Vision-Snippets",
-			"labels": ["snippets", "python", "computer vision", "auto-complete", "completions"],
+			"labels": ["auto-complete", "completions", "snippets", "computer vision", "python"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2979,7 +2976,7 @@
 		{
 			"name": "Python Data Science Snippets",
 			"details": "https://github.com/futureprogrammer360/Python-Data-Science-Snippets",
-			"labels": ["snippets", "python", "data science", "auto-complete", "completions"],
+			"labels": ["auto-complete", "completions", "snippets", "data science", "python"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3104,7 +3101,7 @@
 		{
 			"name": "Python Web Scraping Snippets",
 			"details": "https://github.com/futureprogrammer360/Python-Web-Scraping-Snippets",
-			"labels": ["snippets", "python", "web scraping", "auto-complete", "completions"],
+			"labels": ["auto-complete", "completions", "snippets", "python", "web scraping"],
 			"releases": [
 				{
 					"sublime_text": "*",
