@@ -7,10 +7,6 @@
 			"author": "Robin Malburn",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": "3000 - 3300",
 					"tags": "st3-"
 				},
@@ -38,18 +34,13 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				},
-				{
-					"sublime_text": "<3000",
-					"base": "https://github.com/amisarca/Sublime-Text-2-Table-Cleaner",
-					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Table of comments",
 			"details": "https://github.com/kizza/Table-of-comments",
-			"labels": ["comments", "documentation", "utils"],
+			"labels": ["comments", "documentation", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -86,35 +77,32 @@
 			"author": "Tabnine",
 			"labels": [
 				"auto-complete",
-				"javascript",
-				"typescript",
-				"php",
-				"python",
 				"snippets",
-				"ruby",
-				"java",
+				"ai",
+				"bash",
+				"c",
+				"c#",
+				"c++",
+				"css",
 				"go",
 				"golang",
-				"bash",
-				"kotlin",
+				"haskell",
 				"html",
-				"css",
+				"java",
+				"javascript",
+				"julia",
+				"kotlin",
+				"lua",
+				"objective-c",
 				"ocaml",
 				"perl",
-				"rust",
-				"julia",
-				"lua",
-				"haskell",
-				"c",
-				"cpp",
-				"c++",
-				"csharp",
-				"c#",
+				"php",
+				"python",
 				"react",
+				"ruby",
+				"rust",
 				"swift",
-				"objective-c",
-				"objectivec",
-				"ai"
+				"typescript"
 			],
 			"releases": [
 				{
@@ -164,16 +152,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
-				}
-			]
-		},
-		{
-			"name": "TabsLimiter",
-			"details": "https://github.com/ejoubaud/SublimeTabsLimiter",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -246,7 +224,7 @@
 			"details": "https://github.com/tact-lang/tact-sublime",
 			"description": "All-in-one package for Tact programming language",
 			"author": "Novus Nota",
-			"labels": ["tact", "auto-complete", "build system", "code navigation", "language syntax", "snippets"],
+			"labels": ["auto-complete", "build system", "code navigation", "language syntax", "snippets", "tact"],
 			"releases": [
 				{
 					"sublime_text": ">=3210",
@@ -268,7 +246,7 @@
 		{
 			"name": "Tagger Script Syntax",
 			"details": "https://github.com/phw/sublime-tagger-script-syntax",
-			"labels": ["MusicBrainz", "language syntax"],
+			"labels": ["musicbrainz", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -351,7 +329,7 @@
 		{
 			"name": "TailwindCSSAutocomplete",
 			"details": "https://github.com/bradlc/sublime-tailwindcss",
-			"labels": ["tailwind", "auto-complete"],
+			"labels": ["auto-complete", "tailwind"],
 			"author": "Brad Cornes",
 			"releases": [
 				{
@@ -374,7 +352,7 @@
 			"name": "TamarinProver",
 			"previous_names": ["TamarinAssist"],
 			"details": "https://github.com/tamarin-prover/editor-sublime",
-			"labels": ["Tamarin Prover", "spthy", "Language Syntax"],
+			"labels": ["tamarin prover", "spthy", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -385,7 +363,7 @@
 		{
 			"name": "Target",
 			"details": "https://github.com/Zander-Labuschagne/target",
-			"labels": ["Thrustmaster", "T.A.R.G.E.T.", "TARGET", "Thrustmaster Advanced pRogramming Graphical EdiTor","HOTAS", "auto-complete"],
+			"labels": ["auto-complete", "thrustmaster", "t.a.r.g.e.t.", "target"],
 			"releases": [
 				{
 					"sublime_text": ">=3211",
@@ -396,25 +374,11 @@
 		{
 			"name": "Task",
 			"details": "https://github.com/samsonw/SublimeTask",
-			"labels": ["todo", "GTD", "tasks"],
+			"labels": ["todo", "gtd", "tasks"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
-				}
-			]
-		},
-		{
-			"name": "Task Timer",
-			"details": "https://github.com/jcowgar/sublime-task-timer",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -426,16 +390,6 @@
 					"sublime_text": ">4000",
 					"tags": true,
 					"platforms": "*"
-				}
-			]
-		},
-		{
-			"name": "Taskwarrior",
-			"details": "https://github.com/kostajh/sublime-taskwarrior",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -456,16 +410,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Tau Time Tracker",
-			"details": "https://github.com/rundef/tau-time-tracker",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -498,16 +442,6 @@
 					"sublime_text": "*",
 					"tags": true,
 					"platforms": ["osx"]
-				}
-			]
-		},
-		{
-			"name": "Teaspoon",
-			"details": "https://github.com/emn178/sublime-text-2-teaspoon",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -557,7 +491,7 @@
 		{
 			"name": "templatejs",
 			"details": "https://github.com/yanhaijing/template-sublime",
-			"labels": ["template.js", "templatejs", "template_js"],
+			"labels": ["template.js", "templatejs", "template_js", "language syntax"],
 			"description": "Syntax highlight for template.js",
 			"releases": [
 				{
@@ -567,20 +501,10 @@
 			]
 		},
 		{
-			"name": "TemplateNinja",
-			"details": "https://github.com/xamado/sublime-templateninja",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "TemplateToolkit",
 			"details": "https://github.com/znuny/TemplateToolkit-sublime",
 			"author": "Znuny GmbH",
-			"labels": ["TemplateToolkit", "Template Toolkit", "language syntax", "snippets"],
+			"labels": ["language syntax", "snippets", "templatetoolkit", "template toolkit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -678,7 +602,7 @@
 		{
 			"name": "Terminality",
 			"details": "https://github.com/spywhere/Terminality",
-			"labels": ["console", "repl", "terminal", "utilities", "utils"],
+			"labels": ["console", "repl", "terminal", "utilities"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -746,7 +670,7 @@
 		{
 			"name": "Terrafmt",
 			"details": "https://github.com/p3lim/sublime-terrafmt",
-			"labels": ["Terraform"],
+			"labels": ["formatting", "terraform"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -759,12 +683,12 @@
 			"details": "https://github.com/SublimeText/Terraform",
 			"releases": [
 				{
-					"sublime_text": "<4169",
+					"sublime_text": "<4180",
 					"tags": "2000-"
 				},
 				{
-					"sublime_text": ">=4169",
-					"tags": "4169-"
+					"sublime_text": ">=4180",
+					"tags": "4180-"
 				}
 			]
 		},
@@ -832,15 +756,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/CraigWilliams/TestChooser",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -971,25 +886,6 @@
 			]
 		},
 		{
-			"name": "Text Reader",
-			"details": "https://github.com/jedy/SublimeReader",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/chaosphere2112/TextCommands",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "textract",
 			"details": "https://github.com/germtb/textract",
 			"releases": [
@@ -1064,18 +960,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - Aqua",
-			"details": "https://github.com/cafarm/aqua-theme",
-			"labels": ["theme"],
-			"previous_names": ["Theme - Soda Refined"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1227,7 +1111,7 @@
 			"name": "Theme - City Lights",
 			"details": "https://github.com/Yummygum/city-lights-sublime",
 			"homepage": "http://citylights.xyz/",
-			"labels": ["theme", "color scheme", "City Lights"],
+			"labels": ["theme", "color scheme", "city lights"],
 			"author": "Yummygum",
 			"releases": [
 				{
@@ -1918,17 +1802,6 @@
 			]
 		},
 		{
-			"name": "Theme - Pseudo OSX",
-			"details": "https://github.com/raik/st2-pseudo-osx-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Theme - Pure",
 			"previous_names": ["Theme - Hsiang"],
 			"details": "https://github.com/xianghongai/Theme-Pure",
@@ -1950,39 +1823,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - Reeder",
-			"details": "https://github.com/hyspace/st2-reeder-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Theme - Refined",
-			"details": "https://github.com/danro/refined-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Theme - Refresh",
-			"details": "https://github.com/liamcain/st2-refresh-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2354,10 +2194,6 @@
 			"previous_names": ["ThinkPHP Snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
 					"branch": "ST3"
 				}
@@ -2426,16 +2262,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "TidyHTML5",
-			"details": "https://github.com/Warin/SublimeTidyHTML",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2588,26 +2414,6 @@
 			]
 		},
 		{
-			"name": "Titanium API Document",
-			"details": "https://github.com/k0sukey/ST2-TitaniumDoc",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Titanium API Search",
-			"details": "https://github.com/joscandreu/ST2-TiSearch",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Titanium Build",
 			"details": "https://github.com/MattTuttle/sublime-ti-build",
 			"releases": [
@@ -2641,7 +2447,7 @@
 		{
 			"name": "TM1 Planning Analytics Developer Tools",
 			"details": "https://github.com/ajmyers/Sublime-TM1",
-			"labels": ["IBM", "TM1", "Turbo Integrator", "Planning Analytics"],
+			"labels": ["ibm", "tm1", "turbo integrator", "planning analytics"],
 			"releases": [
 				{
 					"sublime_text": ">3092",
@@ -2684,15 +2490,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/rodrigoflores/today",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Today Color Scheme",
 			"details": "https://github.com/juliotrigo/today-sublime-color-scheme",
 			"labels": ["color scheme"],
@@ -2709,16 +2506,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Todo Manager",
-			"details": "https://github.com/tanepiper/sublime-todomanager",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -2975,7 +2762,7 @@
 		{
 			"name": "Toks",
 			"details": "https://github.com/thomasthorsen/SublimeToks",
-			"labels": ["C", "C++", "Source Navigation"],
+			"labels": ["c", "c++", "code navigation"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2987,7 +2774,7 @@
 			"name": "Tomato Time",
 			"details": "https://github.com/floydawong/tomato_time",
 			"author": "Floyda",
-			"labels": ["tomato time", "GTD"],
+			"labels": ["tomato time", "gtd"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -3013,16 +2800,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "TomDoc+",
-			"details": "https://github.com/shell/sublime-tomdoc",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -3074,7 +2851,7 @@
 			"name": "Tony Water",
 			"details": "https://github.com/evercyan/tony-water",
 			"previous_names": ["subryan"],
-			"labels": ["json", "utils"],
+			"labels": ["json", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3116,6 +2893,7 @@
 		{
 			"name": "Topas Syntax",
 			"details": "https://github.com/davidchall/topas-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3148,7 +2926,7 @@
 		{
 			"name": "TortoiseGIT",
 			"details": "https://github.com/fyneworks/sublime-TortoiseGIT",
-			"labels": ["GIT", "Tortoise", "TortoiseGIT"],
+			"labels": ["git", "vcs", "tortoise"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3160,7 +2938,7 @@
 		{
 			"name": "TortoiseGit Context Integration",
 			"details": "https://github.com/ses4j/tgit-st3",
-			"labels": ["Git", "Tortoise", "TortoiseGit"],
+			"labels": ["git", "vcs", "tortoise"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3172,7 +2950,7 @@
 		{
 			"name": "TortoiseSVN",
 			"details": "https://github.com/dexbol/sublime-TortoiseSVN",
-			"labels": ["CVS", "SVN"],
+			"labels": ["cvs", "vcs", "svn", "tortoise"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3195,10 +2973,6 @@
 			"name": "Touch WSGI",
 			"details": "https://github.com/Nalum/Touch-WSGI",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
 				{
 					"sublime_text": ">=3000",
 					"branch": "st3"
@@ -3326,15 +3100,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/standfast/Translate",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Translate-CN",
 			"details": "https://github.com/mjd507/Sublime-Translate",
 			"releases": [
@@ -3388,16 +3153,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Traverse",
-			"details": "https://github.com/jugyo/SublimeTraverse",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -3475,7 +3230,7 @@
 		},
 		{
 			"details": "https://github.com/jonlabelle/Trimmer",
-			"labels": ["text manipulation", "formatting"],
+			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3486,7 +3241,7 @@
 		{
 			"name": "Tron Color Scheme",
 			"details": "https://github.com/bcomnes/sublime-tron-color-scheme",
-			"labels": ["color scheme", "Tron", "Legacy", "dark", "blue"],
+			"labels": ["color scheme", "tron", "legacy", "dark", "blue"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3522,7 +3277,7 @@
 		{
 			"name": "Tryton Snippets",
 			"details": "https://github.com/datalifeit/sublimetext-tryton-snippets",
-			"labels": ["tryton", "snippets"],
+			"labels": ["snippets", "tryton"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3534,7 +3289,7 @@
 			"name": "TSL Text Scraping Language",
 			"author": "Dan Borufka",
 			"details": "https://github.com/polygoat/TSL",
-			"labels": ["TSL", "scraping", "text scraping language"],
+			"labels": ["auto-complete", "completions", "language syntax", "scraping", "text scraping language", "tsl"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -3544,7 +3299,7 @@
 		},
 		{
 			"details": "https://github.com/tosher/TSQLEasy",
-			"labels": ["SQL Server", "T-SQL", "language syntax"],
+			"labels": ["language syntax", "sql", "sql server", "t-sql"],
 			"releases": [
 				{
 					"sublime_text": ">=3114",
@@ -3556,7 +3311,7 @@
 			"name": "TtcnComplete",
 			"details": "https://github.com/HuiMi24/TtcnComplete",
 			"author": "Hui Mi",
-			"labels": ["language syntax", "auto complete", "code navigation"],
+			"labels": ["auto complete", "code navigation", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3652,16 +3407,6 @@
 			]
 		},
 		{
-			"name": "TweetLine",
-			"details": "https://github.com/fukayatsu/SublimeTweetLine",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "TwelfTools",
 			"details": "https://github.com/nfeltman/TwelfTools",
 			"releases": [
@@ -3674,14 +3419,9 @@
 		{
 			"name": "Twig",
 			"details": "https://github.com/Sublime-Instincts/BetterTwig",
-			"labels": ["Twig", "templates", "PHP", "language syntax"],
+			"labels": ["twig", "templates", "php", "language syntax"],
 			"previous_names": ["PHP-Twig"],
 			"releases": [
-				{
-					"base": "https://github.com/purplefish32/sublime-text-2-twig",
-					"sublime_text": "<3092",
-					"branch": "master"
-				},
 				{
 					"sublime_text": "<4107",
 					"tags": "st3-"
@@ -3824,16 +3564,6 @@
 			]
 		},
 		{
-			"name": "TypeScript Compiler",
-			"details": "https://github.com/drivo/sublime-typescript-compiler",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "TypeScript Syntax",
 			"details": "https://github.com/braver/TypeScriptSyntax",
 			"releases": [
@@ -3846,7 +3576,7 @@
 		{
 			"name": "TypescriptCompletion",
 			"details": "https://github.com/RonanDrouglazet/TypescriptCompletion",
-			"labels": ["typescript", "auto-complete", "text manipulation"],
+			"labels": ["auto-complete", "text manipulation", "typescript"],
 			"previous_names": ["TSCompletion"],
 			"releases": [
 				{
@@ -3871,10 +3601,6 @@
 			"name": "Typewriter",
 			"details": "https://github.com/alehandrof/Typewriter",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
 				{
 					"sublime_text": ">=3000",
 					"tags": true

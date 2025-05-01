@@ -4,7 +4,7 @@
 		{
 			"name": "q KDB",
 			"details": "https://github.com/komsit37/sublime-q",
-			"labels": ["repl", "language syntax", "completions", "build system", "docs", "q", "kdb"],
+			"labels": ["build system", "completions", "language syntax", "repl", "q", "kdb"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -90,20 +90,9 @@
 			]
 		},
 		{
-			"name": "qooxdoo Tools",
-			"details": "https://github.com/danielwagner/qooxdoo-sublime",
-			"labels": ["auto-complete"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Qt Completions for C++",
 			"details": "https://github.com/tushortz/Qt-Completions-for-Cpp",
-			"labels": ["c++", "auto-complete", "completions", "snippets"],
+			"labels": ["auto-complete", "completions", "snippets", "c++"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -114,7 +103,7 @@
 		{
 			"name": "Quake3 Script",
 			"details": "https://github.com/isRyven/Sublime-Text-Q3Script",
-			"labels": ["quake3", "script", "shader", "language syntax", "completions", "snippets"],
+			"labels": ["completions", "language syntax", "snippets", "quake3", "script", "shader"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -220,7 +209,7 @@
 		{
 			"name": "QuickEdit",
 			"details": "https://github.com/gamcoh/QuickEdit",
-			"labels": ["Html", "Css", "php", "Quick", "Edition"],
+			"labels": ["html", "css", "php", "quick edition"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -283,25 +272,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/agibsonsw/QuickPrint",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/danpe/QuickRails",
-			"previous_names": ["Quick Rails"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "QuickRef Command Lookup",
 			"details": "https://bitbucket.org/rablador/quickref",
 			"previous_names": ["QuickRef"],
@@ -352,10 +322,6 @@
 			"labels": ["simplenote", "todo", "php", "html", "quote"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
 				}
@@ -364,7 +330,7 @@
 		{
 			"name": "QuickTemplate (Go)",
 			"details": "https://github.com/SharanSharathi/sublime_qtpl",
-			"labels": ["template", "go", "qtpl", "language syntax", "auto-complete", "build system"],
+			"labels": ["auto-complete", "build system", "language syntax", "template", "go", "qtpl"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",

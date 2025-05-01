@@ -226,7 +226,7 @@
 		{
 			"name": "Odoo Snippets",
 			"details": "https://github.com/Jarsa/Sublime-Odoo",
-			"labels": ["odoo", "snippets"],
+			"labels": ["snippets", "odoo"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -248,7 +248,7 @@
 		{
 			"name": "Ohdeung-eun",
 			"details": "https://github.com/luavis/Ohdeung-eun",
-			"labels": ["Lorem", "lorem", "hangul", "\\uc624\\ub4f1\\uc740"],
+			"labels": ["lorem", "hangul", "\\uc624\\ub4f1\\uc740"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -314,7 +314,7 @@
 		{
 			"name": "OmniSharp",
 			"details": "https://github.com/OmniSharp/omnisharp-sublime",
-			"labels": ["language syntax", "C#", ".net", "auto-complete"],
+			"labels": ["auto-complete", "language syntax", "c#", ".net"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -403,7 +403,7 @@
 			"name": "OnlyCss Snippets",
 			"details": "https://github.com/brunomarcel/sublime-onlycss-snippets",
 			"author": "Bruno Marcel",
-			"labels": ["library", "CSS library", "CSS Components", "Snippets"],
+			"labels": ["snippets", "library", "css library", "css components"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -418,16 +418,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Opa",
-			"details": "https://github.com/MLstate/OpaSublimeText",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -575,36 +565,6 @@
 			]
 		},
 		{
-			"name": "Open in Total Commander",
-			"details": "https://github.com/HackerBaloo/SublimeOpenInTotalCommander",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Open project path by shortcut",
-			"details": "https://github.com/Shagabutdinov/sublime-open-path",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Open Recent Files",
-			"details": "https://github.com/spadgos/sublime-OpenRecentFiles",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Open Related",
 			"details": "https://github.com/vojtajina/sublime-OpenRelated",
 			"releases": [
@@ -635,17 +595,6 @@
 			]
 		},
 		{
-			"name": "Open Shading Language",
-			"details": "https://github.com/roesti77/Sublime-Open-Shading-Language",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Open TortoiseHg",
 			"details": "https://github.com/SublimeText/OpenTortoiseHg",
 			"releases": [
@@ -660,10 +609,6 @@
 			"details": "https://github.com/noahcoad/open-url",
 			"labels": ["open folders", "open files", "shortcut", "power user", "web search", "url"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": "3000 - 4049",
 					"tags": "st3-"
@@ -693,7 +638,7 @@
 		},
 		{
 			"name": "OpenAI completion",
-			"labels": ["code completion", "openai", "chatgpt", "llm"],
+			"labels": ["auto-complete", "openai", "chatgpt", "llm"],
 			"details": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text",
 			"donate": "https://github.com/sponsors/yaroslavyaroslav",
 			"releases": [
@@ -764,7 +709,7 @@
 		{
 			"name": "OpenDSS",
 			"details":"https://github.com/dparrini/sublime_opendss",
-			"labels": ["language syntax", "auto-complete", "build system"],
+			"labels": ["auto-complete", "build system", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -786,7 +731,7 @@
 		{
 			"name": "OpenERP Snippets",
 			"details": "https://github.com/drdran/Sublime-OpenERP",
-			"labels": ["openerp", "odoo", "snippets"],
+			"labels": ["snippets", "openerp", "odoo"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -824,16 +769,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "OpenFromPath",
-			"details": "https://github.com/astronaughts/SublimeOpenFromPath",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -915,9 +850,9 @@
 			"name": "OpenSees",
 			"details": "https://github.com/bzarco/Sublime-OpenSees",
 			"labels": [
-				"language syntax",
 				"auto-complete",
 				"build system",
+				"language syntax",
 				"structures",
 				"finite element",
 				"earthquake",
@@ -943,7 +878,7 @@
 		{
 			"name": "OpenVPN",
 			"details": "https://github.com/idleberg/sublime-openvpn",
-			"labels": ["language syntax", "snippets", "build system"],
+			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -1042,10 +977,6 @@
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": ">=3000",
 					"tags": true
 				}
@@ -1129,7 +1060,7 @@
 			"details": "https://github.com/mozart/sublime-oz",
 			"readme": "https://raw.githubusercontent.com/mozart/sublime-oz/master/README.md",
 			"author": "Robert Koeninger",
-			"labels": ["build-system", "language syntax", "snippets"],
+			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",

@@ -2,19 +2,9 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "R Tools",
-			"details": "https://github.com/karthik/Rtools",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "R-snippets",
 			"details": "https://github.com/jvcasillas/R-snippets",
-			"labels": ["snippets", "R", "statistics"],
+			"labels": ["snippets", "r", "statistics"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -25,7 +15,7 @@
 		{
 			"name": "R_comments",
 			"details": "https://github.com/anasrana/R_Comments",
-			"labels": ["comment", "R", "statistics"],
+			"labels": ["comment", "r", "statistics"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -57,31 +47,11 @@
 		{
 			"name": "Rails Completions",
 			"details": "https://github.com/mjeffrey18/rails-completions",
-			"labels": ["Ruby on Rails", "snippets", "auto-complete", "Rails", "ruby"],
+			"labels": ["auto-complete", "snippets", "rails", "ruby", "ruby on rails"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Rails File Switcher",
-			"details": "https://github.com/AlexanderZaytsev/SublimeText2RailsFileSwitcher",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Rails I18n Helper",
-			"details": "https://github.com/Adeptus/rails-i18n-helper",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -142,29 +112,15 @@
 			"details": "https://github.com/wesf90/rails-partial",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
 					"sublime_text": ">=3000",
 					"branch": "st3"
 				}
 			]
 		},
 		{
-			"name": "Rails Related Files",
-			"details": "https://github.com/luqman/SublimeText2RailsRelatedFiles",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Rails Status Snippets",
 			"details": "https://github.com/danhper/sublime-rails-status-snippets",
-			"labels": ["ruby on rails", "snippets"],
+			"labels": ["snippets", "ruby on rails"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -262,7 +218,7 @@
 		{
 			"name": "Rainbowth",
 			"details": "https://github.com/whitequark/rainbowth",
-			"labels": ["lisp", "Scheme", "Clojure", "Racket", "parentheses"],
+			"labels": ["lisp", "scheme", "clojure", "racket", "parentheses"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -285,12 +241,6 @@
 			"details": "https://github.com/thatsIch/sublime-rainmeter",
 			"labels": ["rainmeter"],
 			"releases": [
-				{
-					"base": "https://github.com/merlinthered/sublime-rainmeter",
-					"sublime_text": "<3000",
-					"platforms": ["windows"],
-					"tags": true
-				},
 				{
 					"sublime_text": "<3092",
 					"platforms": ["windows"],
@@ -345,26 +295,6 @@
 			]
 		},
 		{
-			"name": "Random HEX Color",
-			"details": "https://github.com/lindskogen/RandomHEXColor",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Random Message",
-			"details": "https://github.com/kutu/RandomMessage",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Random Text",
 			"details": "https://github.com/dallbee/RandomText",
 			"labels": ["text manipulation"],
@@ -382,15 +312,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/marclar/RandomizeLogMessages",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -455,17 +376,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "rbenv",
-			"details": "https://github.com/felipeelias/sublime-text-2-rbenv",
-			"labels": ["rbenv ruby"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -591,7 +501,7 @@
 		{
 			"name": "React Native Autocomplete",
 			"details": "https://github.com/gebeto/react-native-autocomplete",
-			"labels": ["completions"],
+			"labels": ["completions", "react"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -602,7 +512,7 @@
 		{
 			"name": "React Templates",
 			"details": "https://github.com/talpor/sublime-rt",
-			"labels": ["language syntax", "RT"],
+			"labels": ["language syntax", "rt", "react"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -646,20 +556,10 @@
 		{
 			"name": "ReactJS",
 			"details": "https://github.com/facebookarchive/sublime-react",
-			"labels": ["language syntax", "snippets", "JSX"],
+			"labels": ["language syntax", "snippets", "jsx", "react"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Read Only Buffer",
-			"details": "https://github.com/crazybyte/SublimeReadOnlyBuffer",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -677,10 +577,6 @@
 		{
 			"details": "https://github.com/roadhump/ReadmePlease",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
@@ -704,16 +600,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ReadonlyWritable",
-			"details": "https://github.com/pyzhangxiang/sublimetext-2-readonly-writable",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -792,15 +678,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/mburrows/RecenterTopBottom",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RecentTabSort",
 			"details": "https://github.com/Stuk/sublime-recent-tab-sort",
 			"releases": [
@@ -857,7 +734,7 @@
 		{
 			"name": "Redlime",
 			"details": "https://github.com/tosher/Redlime",
-			"labels": ["Redmine", "Bug tracking", "Project management"],
+			"labels": ["redmine", "bug tracking", "project management"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -868,7 +745,7 @@
 		{
 			"name": "Redmine Pastie",
 			"details": "https://github.com/benoitduval/redmine-pastie",
-			"labels": ["Redmine", "paste", "pastie"],
+			"labels": ["redmine", "paste", "pastie"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1048,10 +925,6 @@
 			"details": "https://github.com/fabiokr/sublime-related-files",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "sublime2"
-				},
-				{
 					"sublime_text": ">=3000",
 					"tags": true
 				}
@@ -1213,7 +1086,7 @@
 		{
 			"name": "RemoveGreekAccents",
 			"details": "https://github.com/kyrpas/SublimeRemoveGreekAccents",
-			"labels": ["text manipulation", "greek", "formatting", "accents"],
+			"labels": ["formatting", "text manipulation", "accents", "greek"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1260,15 +1133,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/frozenice/RenameTab",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1395,10 +1259,6 @@
 			"details": "https://github.com/spadgos/sublime-require-helper",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
-				{
 					"sublime_text": ">=3000",
 					"tags": true
 				}
@@ -1426,16 +1286,6 @@
 			]
 		},
 		{
-			"name": "Resize Active Group",
-			"details": "https://github.com/FunkMonkey/SublimeResizeActiveGroup",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Resize Group with Keyboard",
 			"details": "https://github.com/VPashkov/SublimeResizeGroupWithKeyboard",
 			"releases": [
@@ -1449,7 +1299,7 @@
 			"name": "Resolve Javascript Modules",
 			"author": "Thomas Welter",
 			"details": "https://github.com/thomaswelter/Resolve-Javascript-Modules",
-			"labels": ["auto-complete", "javascript", "browser", "js", "completions", "modules"],
+			"labels": ["auto-complete", "completions", "javascript", "browser", "js", "modules"],
 			"releases": [
 				{
 					"sublime_text": ">=3200",
@@ -1584,7 +1434,7 @@
 		{
 			"name": "Reviw",
 			"details": "https://github.com/livrasand/Reviw",
-			"labels": ["jwpub", "reviw", "jw library", "jw", "snippets"],
+			"labels": ["snippets", "jwpub", "reviw", "jw library", "jw"],
 			"author": "Livrädo Sandoval",
 			"releases": [
 				{
@@ -1596,7 +1446,7 @@
 		{
 			"name": "ReviwTools",
 			"details": "https://github.com/livrasand/ReviwTools",
-			"labels": ["jwpub", "reviw", "jw library", "jw", "snippets"],
+			"labels": ["snippets", "jwpub", "reviw", "jw library", "jw"],
 			"author": "Livrädo Sandoval",
 			"releases": [
 				{
@@ -1676,7 +1526,7 @@
 		{
 			"name": "ride",
 			"details": "https://github.com/frankaemika/ride-sublime",
-			"labels": ["lf", "Lingua Franka", "language syntax"],
+			"labels": ["lf", "lingua franka", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">3092",
@@ -1771,16 +1621,6 @@
 			]
 		},
 		{
-			"name": "Rmate",
-			"details": "https://github.com/gja/sublime-rmate",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RmlUi Lua",
 			"details": "https://github.com/LoneBoco/rmlui-sublime",
 			"labels": ["language syntax", "rmlui", "rml", "rcss"],
@@ -1802,24 +1642,10 @@
 			]
 		},
 		{
-			"name": "Robot Framework",
-			"details": "https://github.com/shellderp/sublime-robot-plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RobotFrameworkAssistant",
 			"details": "https://github.com/andriyko/sublime-robot-framework-assistant",
 			"previous_names": ["Robot Framework Assistant"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
@@ -1905,7 +1731,7 @@
 		},
 		{
 			"name": "Rome Formatter",
-				"labels": ["javascript", "typescript", "formatting", "format"],
+				"labels": ["formatting", "javascript", "typescript"],
 				"details": "https://github.com/marekpiechut/sublime-rome-formatter",
 				"releases": [
 				{
@@ -1950,22 +1776,11 @@
 		{
 			"name": "Ros Snippets",
 			"details": "https://github.com/ckrooss/ros_snippets",
-			"labels": ["snippets", "build system", "language syntax"],
+			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Rosetta Code Snippets",
-			"details": "https://github.com/trishume/Sublime-Rosetta-Get",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1995,7 +1810,7 @@
 		{
 		"name": "RPGMaker MV Add-On Snippets",
 		"details": "https://github.com/jomarcenter-mjm/RMMVSublimeSnippet",
-		"labels": ["snippets", "RPGMaker MV", "Javascript", "RPG Maker", "RPGMaker"],
+		"labels": ["snippets", "rpgmaker mv", "javascript", "rpg maker", "rpgmaker", "rpg"],
 		"author": "jomarcenter-mjm/MJM Creative Works and Ideas",
 		"releases": [
 				{
@@ -2030,7 +1845,7 @@
 			"name": "RSBIDE",
 			"details": "https://github.com/mom1/RSBIDE",
 			"readme": "https://raw.githubusercontent.com/mom1/RSBIDE/master/readme.md",
-			"labels": ["ide", "r-style", "rsl", "rs-balance", "auto-complete", "build system", "language syntax", "snippets", "code navigation"],
+			"labels": ["auto-complete", "build system", "code navigation", "language syntax", "snippets", "ide", "r-style", "rsl", "rs-balance"],
 			"author": "MOM",
 			"releases": [
 				{
@@ -2043,7 +1858,7 @@
 		{
 			"name": "RSense",
 			"details": "https://github.com/rsense/SublimeRsense",
-			"labels": ["ruby", "auto-complete", "intellisense", "completions"],
+			"labels": ["auto-complete", "completions", "ruby"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2064,12 +1879,8 @@
 		{
 			"name": "RSpec",
 			"details": "https://github.com/SublimeText/RSpec",
-			"labels": ["snippets", "build system", "language syntax"],
+			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
 				{
 					"sublime_text": ">=3000",
 					"tags": true
@@ -2098,30 +1909,11 @@
 			]
 		},
 		{
-			"name": "RspecBuild",
-			"details": "https://github.com/misotomlam/SublimeRspecBuild",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RSpecNavigator",
 			"details": "https://github.com/jugyo/SublimeRSpecNavigator",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/d0ugal/RstPreview",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -2161,7 +1953,7 @@
 		{
 			"name": "RTagsComplete",
 			"details": "https://github.com/tillt/rtagscomplete",
-			"labels": ["auto-complete", "linting", "language syntax", "code navigation", "file navigation", "search"],
+			"labels": ["auto-complete", "code navigation", "file navigation", "linting", "language syntax", "search"],
 			"readme": "https://raw.githubusercontent.com/tillt/RTagsComplete/master/site/package_readme.md",
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AY5UC3W9NDUGL",
 			"previous_names": ["RtagsComplete", "sublime-rtags", "SublimeRtags"],
@@ -2238,21 +2030,11 @@
 		{
 			"name": "Ruby Completions",
 			"details": "https://github.com/tushortz/Ruby-Completions",
-			"labels": ["ruby", "completions"],
+			"labels": ["completions", "ruby"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Ruby Coverage",
-			"details": "https://github.com/integrum/SublimeRubyCoverage",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2268,33 +2050,12 @@
 			]
 		},
 		{
-			"name": "Ruby Extract Method",
-			"details": "https://github.com/pashamur/ruby-extract-method",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Ruby Hash Converter",
 			"details": "https://github.com/iltempo/sublime-text-2-hash-syntax",
 			"previous_names": ["Ruby 1.9 Hash Converter"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Ruby Hash Reverter",
-			"details": "https://github.com/kyamaguchi/sublime-text-2-revert-hash-syntax",
-			"previous_names": ["Ruby 1.9 Hash Reverter"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -2350,15 +2111,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/edgar/RubyCheckOnSave",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Rubycritic",
 			"details": "https://github.com/pedrocarmona/SublimeRubycritic",
 			"releases": [
@@ -2387,15 +2139,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/zmbacker/RubyFormat",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2513,18 +2256,9 @@
 			]
 		},
 		{
-			"details": "https://github.com/qfel/RunCommand",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Rune.js Completions",
 			"details": "https://github.com/mphstudios/rune.js-sublime-completions",
-			"labels": ["completions", "javascript", "snippets", "svg"],
+			"labels": ["completions", "snippets", "javascript", "svg"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2587,7 +2321,7 @@
 			"name": "RustCookbookSnippets",
 			"author": "Orhan Balcı",
 			"details": "https://github.com/orhanbalci/rust-cookbook-snippets",
-			"labels": ["rust", "snippets"],
+			"labels": ["snippets", "rust"],
 			"releases": [
 				{
 					"sublime_text": ">=3124",
@@ -2599,7 +2333,7 @@
 			"name": "RustFmt",
 			"author": "Nelo Mitranim",
 			"details": "https://github.com/Mitranim/sublime-rust-fmt",
-			"labels": ["rust", "fmt", "format", "beautify"],
+			"labels": ["formatting", "rust"],
 			"releases": [
 				{
 					"sublime_text": ">=3124",
@@ -2614,16 +2348,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "RVM",
-			"details": "https://github.com/jinze/sublime-rvm",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		}

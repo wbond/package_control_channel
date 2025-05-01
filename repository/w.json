@@ -135,16 +135,6 @@
 			]
 		},
 		{
-			"name": "Web Encoders",
-			"details": "https://github.com/revolunet/sublimetext-web-encoders",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "webAgent",
 			"previous_names": ["WebAgent"],
 			"details": "https://github.com/seanfagan/webagent_syntax",
@@ -159,7 +149,7 @@
 		{
 			"name": "WebAssembly Text Syntax",
 			"details": "https://github.com/bathos/wast-sublime-syntax",
-			"labels": [ "WASM", "WAST", "WAT", "Web Assembly", "language syntax" ],
+			"labels": [ "wasm", "wast", "wat", "web assembly", "language syntax" ],
 			"releases": [
 				{
 					"sublime_text": ">=3084",
@@ -276,16 +266,6 @@
 			]
 		},
 		{
-			"name": "Webloader",
-			"details": "https://github.com/rozsahegyi/sublime-webloader",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Webloc",
 			"previous_names": ["Webloc-open"],
 			"details": "https://github.com/andrewp-as-is/sublime-webloc",
@@ -304,16 +284,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "WebSuite",
-			"details": "https://github.com/bthorben/WebSuite",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -360,15 +330,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/matiaspub/WheelChanger",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Whiley",
 			"details": "https://github.com/Whiley/WhileySyntaxBundle",
 			"releases": [
@@ -402,16 +363,6 @@
 			]
 		},
 		{
-			"name": "Whitespace Diff Trim",
-			"details": "https://github.com/swenson/sublime_whitespace",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Whitespace Removal",
 			"details": "https://github.com/Melodatron/WhitespaceRemoval-Sublime",
 			"releases": [
@@ -422,19 +373,9 @@
 			]
 		},
 		{
-			"name": "Whitespaces",
-			"details": "https://github.com/gorte/ST2-Whitespaces",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "WhizzML",
 			"details": "https://github.com/whizzml/whizzml-sublime",
-			"labels": ["st-3", "auto-complete", "language syntax", "machine learning"],
+			"labels": ["auto-complete", "language syntax", "machine learning"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -460,26 +401,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Wiggle",
-			"details": "https://github.com/jarretth/Wiggle",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Wiki",
-			"details": "https://github.com/PogiNate/SublimeWiki",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -798,7 +719,7 @@
 		{
 			"name": "WordPress Customizer",
 			"details": "https://github.com/ahmadawais/Sublime-WP-Customizer",
-			"labels": ["st3", "st2", "wordpress", "customizer", "wp customizer", "wordpress customizer", "wp customize", "wordpress customize", "developer", "codex", "search", "snippets"],
+			"labels": ["snippets", "customizer", "codex", "developer", "search", "wordpress"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -809,7 +730,7 @@
 		{
 			"name": "WordPress Developer Resources",
 			"details": "https://github.com/tripflex/sublime-wp-developer-resources",
-			"labels": ["st3", "st2", "wordpress", "developer", "codex", "search"],
+			"labels": ["codex", "developer", "search", "wordpress"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -861,7 +782,7 @@
 		{
 			"name": "WordPress Snippets",
 			"details": "https://github.com/Dartui/sublime-wordpress-snippets",
-			"labels": ["st3", "st2", "wordpress", "snippets", "development"],
+			"labels": ["snippets", "wordpress"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1052,15 +973,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/WrtApp/Writeapp",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "WriteGooder",
 			"details": "https://github.com/duereg/sublime-write-gooder",
 			"releases": [
@@ -1120,10 +1032,8 @@
 			"name": "Wux Weapp Snippets",
 			"description": "Wux Weapp Snippets Plugin for Sublime Text 2/3.",
 			"details": "https://github.com/wux-weapp/wux-weapp-sublime-snippets",
-			"issues" : "https://github.com/wux-weapp/wux-weapp-sublime-snippets/issues",
-			"readme" : "https://raw.githubusercontent.com/wux-weapp/wux-weapp-sublime-snippets/master/README.md",
 			"author": "skyvow",
-			"labels": ["weapp", "wxml", "snippets"],
+			"labels": ["snippets", "weapp", "wxml"],
 			"releases": [
 				{
 					"sublime_text": "*",
