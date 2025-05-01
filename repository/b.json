@@ -26,7 +26,7 @@
 		{
 			"name": "Baan",
 			"details": "https://github.com/masal/SublimeBaan",
-			"labels": ["language syntax", "formatting", "snippets"],
+			"labels": ["formatting", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -245,8 +245,9 @@
 		},
 		{
 			"name": "Bats",
-			"previous_names": ["Bats (Bash Automated Testing System)"],
 			"details": "https://github.com/SublimeText/bash-automated-testing-system",
+			"labels": ["language syntax", "snippets", "bash"],
+			"previous_names": ["Bats (Bash Automated Testing System)"],
 			"releases": [
 				{
 					"sublime_text": "<4000",
@@ -256,12 +257,6 @@
 					"sublime_text": ">=4000",
 					"tags": true
 				}
-			],
-			"labels": [
-				"bash",
-				"syntax",
-				"snippets",
-				"language syntax"
 			]
 		},
 		{
@@ -269,12 +264,7 @@
 			"details": "https://github.com/niosus/BazelSyntax",
 			"readme": "https://raw.githubusercontent.com/niosus/BazelSyntax/master/README.md",
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QLY7J4Q944HS",
-			"labels": [
-				"bazel",
-				"syntax",
-				"snippets",
-				"language syntax"
-			],
+			"labels": ["language syntax", "snippets", "bazel"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1177,7 +1167,7 @@
 		{
 			"name": "Bottle",
 			"details": "https://github.com/eric-wieser/sublime-bottle",
-			"labels": ["snippets", "python", "language syntax"],
+			"labels": ["language syntax", "snippets", "python"],
 			"releases": [
 				{
 					"sublime_text": ">=3103",
@@ -1443,7 +1433,7 @@
 		{
 			"name": "BSScript",
 			"details": "https://github.com/rusiv/BSScript",
-			"labels": ["language syntax", "snippets", "build system", "completions"],
+			"labels": ["build system", "completions", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1609,7 +1599,7 @@
 		{
 			"name": "BYOND",
 			"details": "https://github.com/Wirewraith/sublime-byond",
-			"labels": ["language syntax", "build system", "dream maker", "dream seeker", "dream daemon"],
+			"labels": ["build system", "language syntax", "dream maker", "dream seeker", "dream daemon"],
 			"releases": [
 				{
 					"sublime_text": "*",
