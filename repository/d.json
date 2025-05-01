@@ -256,16 +256,6 @@
 			]
 		},
 		{
-			"name": "Dashed Comments",
-			"details": "https://github.com/email2vimalraj/DashedComments",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Data Wizard",
 			"details": "https://github.com/nickklaskala/DataWizard",
 			"releases": [
@@ -290,11 +280,7 @@
 			"details": "https://github.com/fitnr/SublimeDataConverter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "sublimetwo"
-				},
-				{
-					"sublime_text": ">2999",
+					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]
@@ -316,16 +302,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Date",
-			"details": "https://github.com/paulollivier/sublimetext-date",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -363,16 +339,6 @@
 			]
 		},
 		{
-			"name": "DBLP Search",
-			"details": "https://github.com/grundprinzip/sublime-dblp",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "DBpedia Lookup",
 			"details": "https://github.com/rvolz/sublime_dbpedia_lookup",
 			"labels": ["search", "dbpedia", "dbpedia-lookup"],
@@ -395,21 +361,11 @@
 		{
 			"name": "Debian Syntax",
 			"details": "https://github.com/barnumbirr/sublime-debian",
-			"labels": ["language syntax", "Debian"],
+			"labels": ["language syntax", "debian"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Debug Killer",
-			"details": "https://github.com/adampresley/sublime-debugkiller",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -568,7 +524,7 @@
 			"name": "Delphi IDE",
 			"details": "https://github.com/JeisonJHA/Delphi-IDE",
 			"previous_names": ["Delphi API"],
-			"labels": ["delphi", "IDE"],
+			"labels": ["delphi", "ide"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -926,7 +882,7 @@
 		{
 			"name": "DiffView",
 			"details": "https://github.com/CJTozer/SublimeDiffView",
-			"labels": ["Git", "git", "SVN", "svn", "bzr", "bazaar", "diff", "difference"],
+			"labels": ["git", "vcs", "svn", "bzr", "bazaar", "diff", "difference"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1043,16 +999,6 @@
 			]
 		},
 		{
-			"name": "Display Functions (Java)",
-			"details": "https://github.com/liamcain/Display-Functions",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Display numbers",
 			"previous_names": ["Highlight Number"],
 			"details": "https://github.com/nia40m/sublime-display-nums",
@@ -1068,10 +1014,6 @@
 			"details": "https://github.com/aziz/DistractionFreeWindow",
 			"labels": ["fullscreen", "distraction-free"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
@@ -1131,12 +1073,8 @@
 		{
 			"name": "Django Manage Commands",
 			"details": "https://github.com/vladimirnani/DjangoCommands",
-			"labels": ["Django", "python", "web", "management"],
+			"labels": ["django", "python", "web", "management"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
@@ -1174,16 +1112,6 @@
 			]
 		},
 		{
-			"name": "Django-DocsSearch",
-			"details": "https://github.com/saippuakauppias/sublime-text-2-Django-DocsSearch",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Django-Model-Converter",
 			"details": "https://github.com/Bernardoow/Django-Model-Converter",
 			"labels": ["text manipulation", "django", "rest"],
@@ -1204,15 +1132,6 @@
 					"sublime_text": "*",
 					"platforms": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/rcaldwel/Django-Tools",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1345,7 +1264,7 @@
 		{
 			"name": "Docker Based Build Systems",
 			"details": "https://github.com/domeide/sublime-docker",
-			"labels": ["build system","build"],
+			"labels": ["build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1415,16 +1334,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Dog Ears",
-			"details": "https://github.com/skyronic/DogEars",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1770,21 +1679,11 @@
 			"name": "DrupalSearch",
 			"details": "https://github.com/thamanameexusa/DrupalSearch",
 			"author": "Purushoṭhaman",
-			"labels": ["Drupal", "search", "change records", "Drupal 8"],
+			"labels": ["drupal", "search", "change records", "drupal 8"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Drush",
-			"details": "https://github.com/vaanwd/sublime_drush",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1807,16 +1706,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Dummy Image Generator",
-			"details": "https://github.com/SubZane/Sublime-Dummy-Image-Generator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1867,16 +1756,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Duplicate Same",
-			"details": "https://github.com/jcowgar/sublime-duplicate-same",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},

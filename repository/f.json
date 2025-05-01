@@ -14,7 +14,7 @@
 		{
 			"name": "F2J - FCore to Java",
 			"details": "https://github.com/hkuplg/sublime-f2j",
-			"labels": ["F2J", "FCore", "FCore to Java", "language syntax"],
+			"labels": ["f2j", "fcore", "fcore to java", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -46,7 +46,7 @@
 		{
 			"name": "FabricEngine",
 			"details": "https://github.com/stepcg/SublimeFabricEngineSyntax",
-			"labels": ["VOSS", "language syntax"],
+			"labels": ["voss", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -195,7 +195,7 @@
 			"name": "Famous",
 			"details": "https://github.com/AlessandroAnnini/famousst",
 			"author": "Alessandro Filippo Annini",
-			"labels": ["famous"],
+			"labels": ["famous", "snippets", "completions"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -220,7 +220,7 @@
 			"details": "https://github.com/easton042/FancyWord",
 			"homepage": "https://eastonlee.com/blog/2017/03/31/fancyword-a-sublimetext-plugin-that-improves-your-word-choice-in-english-writing/",
 			"author": "Easton Lee",
-			"labels": ["dictionary", "English", "word2vec"],
+			"labels": ["dictionary", "english", "word2vec"],
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5FBKLLDUX9KKY&lc=US&item_name=EastonLee&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
 			"releases": [
 				{
@@ -593,16 +593,6 @@
 			]
 		},
 		{
-			"name": "FileCleanup",
-			"details": "https://github.com/GerjanOnline/SublimeFileCleanup",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "FileClose",
 			"details": "https://github.com/lowerworld/SublimeFileClose",
 			"releases": [
@@ -729,7 +719,7 @@
 		{
 			"name": "FilePrompt",
 			"details": "https://github.com/loquens/subl-open-file-prompt",
-			"labels": ["file navigation", "file manipulation", "utilities", "open files", "file utils", "file suggestions"],
+			"labels": ["file navigation", "file manipulation", "utilities", "open files", "file suggestions"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -820,31 +810,11 @@
 			]
 		},
 		{
-			"name": "FilezillaImport",
-			"details": "https://github.com/doublerebel/filezilla_import",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Fill CF Query",
 			"details": "https://github.com/adampresley/sublime-fillcfquery",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Fillerati",
-			"details": "https://github.com/madeingnecca/sublime-fillerati",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -865,10 +835,6 @@
 			"labels": ["search"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
 				}
@@ -882,17 +848,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Find Function Definition",
-			"details": "https://github.com/timdouglas/sublime-find-function-definition",
-			"previous_names": ["Find Function Definiton"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1046,25 +1001,11 @@
 			]
 		},
 		{
-			"name": "Fis",
-			"details": "https://github.com/pianist829/fis-sublime-command",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "fish",
 			"previous_names": ["fish-shell"],
 			"details": "https://github.com/Phidica/sublime-fish",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": "3000 - 3999",
 					"tags": "st3-"
@@ -1126,16 +1067,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Flashback",
-			"details": "https://github.com/apiad/sublime-flashback",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1500,16 +1431,6 @@
 			]
 		},
 		{
-			"name": "Folder List",
-			"details": "https://github.com/sheldon/sublime-text-2-folder-list",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Folder2Project",
 			"details": "https://github.com/divinites/folder2project",
 			"releases": [
@@ -1565,16 +1486,6 @@
 			]
 		},
 		{
-			"name": "Follow Function PHP",
-			"details": "https://github.com/draffter/FollowFunctionPHP",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Font Size Per View",
 			"details": "https://github.com/m-bartlett/SublimeFontSizePerView",
 			"labels": ["font", "text manipulation"],
@@ -1608,7 +1519,7 @@
 		{
 			"name": "Foremark",
 			"details": "https://github.com/Foremark/Sublime-Foremark",
-			"labels": ["language syntax", "Foremark"],
+			"labels": ["language syntax", "foremark"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -2032,10 +1943,6 @@
 			"details": "https://github.com/sagold/FuzzyFilePath",
 			"labels": ["filename", "filepath", "auto-complete"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"

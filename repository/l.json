@@ -24,7 +24,7 @@
 		{
 			"name": "LangDocs",
 			"details": "https://github.com/tushortz/LangDocs",
-			"labels": ["CSS", "css", "docs", "documentation", "perl", "html", "java", "javascript", "js", "language", "matlab", "python", "ruby", "snippets", "st3", "sublime", "text", "utilities"],
+			"labels": ["css", "docs", "documentation", "perl", "html", "java", "javascript", "js", "language", "matlab", "python", "ruby", "snippets", "utilities"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -339,16 +339,6 @@
 			]
 		},
 		{
-			"name": "Laravel Generator",
-			"details": "https://github.com/gnarula/sublime-laravelgenerator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Laravel Goto",
 			"details": "https://github.com/absszero/LaravelGoto",
 			"labels": ["file navigation", "code navigation"],
@@ -467,16 +457,6 @@
 			]
 		},
 		{
-			"name": "LastEdit",
-			"details": "https://github.com/SamPeng87/sublime-last-edit",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "LastModifiedIndicator",
 			"details": "https://github.com/wag/SublimeLastModifiedIndicator",
 			"releases": [
@@ -498,6 +478,7 @@
 		},
 		{
 			"name": "LaTeX Accents",
+			"labels": ["latex"],
 			"details": "https://github.com/kpym/SublimeLaTeXAccents",
 			"releases": [
 				{
@@ -508,6 +489,7 @@
 		},
 		{
 			"name": "LaTeX Equation Preview",
+			"labels": ["latex"],
 			"details": "https://github.com/divinites/LatexEquationPreview",
 			"releases": [
 				{
@@ -519,6 +501,7 @@
 		{
 			"name": "LaTeX Snippets",
 			"details": "https://github.com/tknuth/latex-snippets",
+			"labels": ["latex", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -529,6 +512,7 @@
 		{
 			"name": "LaTeX Word Count",
 			"details": "https://github.com/kevinstadler/SublimeLaTeXWordCount",
+			"labels": ["latex"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -539,7 +523,7 @@
 		{
 			"name": "LaTeX-IPA",
 			"details": "https://github.com/jvcasillas/LaTeX-IPA",
-			"labels": ["LaTeX", "IPA", "snippets"],
+			"labels": ["latex", "ipa", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -561,10 +545,6 @@
 		{
 			"details": "https://github.com/SublimeText/LaTeXTools",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": "3143 - 4106",
 					"tags": "st3-"
@@ -630,7 +610,7 @@
 		{
 			"name": "LazyTimeTracker",
 			"details": "https://github.com/Bwata/LazyTimeTracker",
-			"labels": ["Time", "tracking"],
+			"labels": ["time", "tracking"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1093,16 +1073,6 @@
 			]
 		},
 		{
-			"name": "Line Completion",
-			"details": "https://github.com/astropanic/Compline",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Line Endings Unify",
 			"details": "https://github.com/vontio/sublime-line-endings-unify",
 			"labels": ["text manipulation", "formatting"],
@@ -1327,29 +1297,9 @@
 			]
 		},
 		{
-			"name": "list2csv",
-			"details": "https://github.com/avinash8526/List2CSV-Sublime-Plugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Listenr",
-			"details": "https://github.com/cbumgard/SublimeListenr",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ListOpenFiles",
 			"details": "https://github.com/rrg/ListOpenFiles",
-			"labels": ["File List"],
+			"labels": ["file list"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1518,17 +1468,6 @@
 			]
 		},
 		{
-			"name": "Locales",
-			"details": "https://github.com/AndorChen/sublime-locales",
-			"labels": ["i18n", "l10n"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "LocalizedMenu",
 			"details": "https://github.com/zam1024t/LocalizedMenu",
 			"labels": ["localize", "tool", "menu"],
@@ -1542,7 +1481,7 @@
 		{
 			"name": "Localpod",
 			"details": "https://github.com/ijoyc/Localpod",
-			"labels": ["CocoaPods", "Development Pods", "iOS"],
+			"labels": ["cocoapods", "development pods", "ios"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1554,7 +1493,7 @@
 			"name": "LocalVariable",
 			"details": "https://github.com/shagabutdinov/sublime-local-variable",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
-			"labels": ["sublime-enhanced", "utility", "text selection", "text manipulation"],
+			"labels": ["sublime-enhanced", "utilities", "text selection", "text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1665,7 +1604,7 @@
 		{
 			"name": "LogMagic",
 			"details": "https://github.com/syko/SublimeLogMagic",
-			"labels": ["logging", "logger", "logs", "debugging", "debug", "console", "output", "javascript", "utility"],
+			"labels": ["logging", "logger", "logs", "debugging", "debug", "console", "output", "javascript", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1740,15 +1679,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/shvva/Lookupdic",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Loom Game Engine",
 			"details": "https://github.com/ambethia/Sublime-Loom",
 			"releases": [
@@ -1773,16 +1703,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "LoremPixel",
-			"details": "https://github.com/outer-edge/SublimeLoremPixel",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -2008,17 +1928,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Lucky Link",
-			"details": "https://github.com/ishu3101/Sublime-LuckyLink",
-			"labels": ["text manipulation", "formatting"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
