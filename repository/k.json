@@ -179,6 +179,10 @@
 			"details": "https://github.com/r-stein/sublime-text-keybinding-helper",
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
 				}
@@ -214,6 +218,15 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/welefen/KeymapManager",
+			"releases": [
+				{
+					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
