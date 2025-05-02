@@ -2,6 +2,16 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "X to Y",
+			"details": "https://github.com/superguigui/xtoy",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "X10Language",
 			"details": "https://github.com/ltronky/sublime-x10",
 			"labels": ["language syntax"],
@@ -70,6 +80,16 @@
 			]
 		},
 		{
+			"name": "Xdebug",
+			"details": "https://github.com/Kindari/SublimeXdebug",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "Xdebug Client",
 			"details": "https://github.com/martomo/SublimeTextXdebug",
 			"labels": ["php", "xdebug"],
@@ -101,12 +121,32 @@
 			]
 		},
 		{
+			"name": "XLI Template Converter",
+			"details": "https://github.com/apex2060/xli-templateize",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "xmake",
 			"details": "https://github.com/xmake-io/xmake-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "xml-guesser",
+			"details": "https://github.com/CrypticTemple/sublime-xml-guesser",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -162,6 +202,10 @@
 			"labels": ["xml", "xpath", "xquery", "clipboard", "preview"],
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"tags": "st2-"
+				},
+				{
 					"sublime_text": "<4050",
 					"tags": "v"
 				},
@@ -208,6 +252,16 @@
 				{
 					"sublime_text": ">=4126",
 					"tags": "4126-"
+				}
+			]
+		},
+		{
+			"name": "XSnippet",
+			"details": "https://github.com/xsnippet/sublime-xsnippet",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
 				}
 			]
 		},

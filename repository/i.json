@@ -6,6 +6,10 @@
 			"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails",
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"branch": "st2"
+				},
+				{
 					"sublime_text": ">=3000",
 					"tags": true
 				}
@@ -178,6 +182,15 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/palaniraja/iForce",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -485,10 +498,15 @@
 		},
 		{
 			"name": "Incrementor",
-			"details": "https://github.com/born2c0de/Incrementor",
+			"details": "https://github.com/eBookArchitects/Incrementor",
 			"releases": [
 				{
+					"sublime_text": "<3000",
+					"branch": "master"
+				},
+				{
 					"sublime_text": ">=3000",
+					"base": "https://github.com/born2c0de/Incrementor",
 					"branch": "master"
 				}
 			]
@@ -569,6 +587,15 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/SublimeText/IndentGuides",
+			"releases": [
+				{
+					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -657,6 +684,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
+					"base": "https://github.com/clintberry/sublime-text-2-ini",
+					"sublime_text": "<3092",
+					"branch": "master"
+				},
+				{
 					"sublime_text": ">=3092",
 					"tags": true
 				}
@@ -670,6 +702,16 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Inline Calculator",
+			"details": "https://github.com/sahibalejandro/inline-calculator",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
 				}
 			]
 		},
@@ -806,6 +848,10 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				},
+				{
+					"sublime_text": "<3000",
+					"branch": "st2"
 				}
 			]
 		},
@@ -1097,6 +1143,10 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<3000",
+					"branch": "st2"
 				}
 			]
 		},
@@ -1140,6 +1190,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Iris Path",
+			"details": "https://github.com/angelsanchez/iris-path-sublime",
+			"labels": ["iris"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"tags": true
 				}
 			]
 		},
@@ -1236,6 +1297,16 @@
 				{
 					"sublime_text": "*",
 					"tags": "itt"
+				}
+			]
+		},
+		{
+			"name": "iTodo",
+			"details": "https://github.com/chagel/itodo",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "master"
 				}
 			]
 		},
