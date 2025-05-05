@@ -1804,24 +1804,19 @@
 			"name": "Theme - One",
 			"details": "https://github.com/AmjadHD/sublime_one_theme",
 			"labels": ["theme", "color scheme", "adaptive"],
+			"previous_names": ["Theme - One Dark"],
 			"releases": [
+				{
+					"base": "https://github.com/andresmichel/one-dark-theme",
+					"sublime_text": "<3200",
+					"tags": true
+				},
 				{
 					"sublime_text": "3200 - 3300",
 					"tags": "st3-"
 				},
 				{
 					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - One Dark",
-			"details": "https://github.com/andresmichel/one-dark-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
