@@ -19,7 +19,7 @@ feel free to remove what't not applicable.
 - [ ] Any commands are available via the command palette.
 - [ ] Preferences and keybindings (if any) are listed in the menu and the command palette, and open in split view.
 - [ ] If my package is a syntax it doesn't also add a color scheme. ***
-- [ ] If my package is a syntax it is named after the language it supports (without suffixes like "syntax" or "highlighting").
+- [ ] I have read the [style guide](https://github.com/wbond/package_control_channel/?tab=readme-ov-file#style-guide)
 - [ ] I use [.gitattributes][3] to exclude files from the package: images, test files, sublime-project/workspace.
 
 My package is ...
