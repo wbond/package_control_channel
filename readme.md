@@ -17,11 +17,20 @@ A few words towards naming conventions etc, for entries in these files:
 
 - Packages avoid having the word "Sublime" in their name (see [docs](https://packagecontrol.io/docs/submitting_a_package#Step_2)). 
 - Language support (aka "syntax" or "grammar") packages are named after the language it supports, without suffixes like "syntax" or "highlighting" (e.g. #8801).
-- Labels:
-  - Packages that introduce a [language syntax](https://www.sublimetext.com/docs/syntax.html) have the "language syntax" label (see #9088).
-  - Packages that provide (the colors for) [syntax highlighting](https://www.sublimetext.com/docs/color_schemes.html) have the "color scheme" label, whereas packages that provide [theming for the UI](https://www.sublimetext.com/docs/themes.html) have the "theme" label.
-  - Packages that introduce a [build system](https://www.sublimetext.com/docs/build_systems.html) have the "build system" label (see #9093).
-  - Packages that introduce [snippets](https://www.sublimetext.com/docs/completions.html#snippets) have the "snippets" label (see #9095).
-  - Packages that introduce [completion metadata](https://www.sublimetext.com/docs/completions.html#completion-metadata) have the "completions" label (see #9095).
-  - Packages that introduce any other kind of auto-complete have the "auto-complete" label (see #9095).
-  - Utility packages have the "utilities" label (see #9094).
+- Labels are always in lowercase.
+- Packages that provide ... 
+  - a [language syntax](https://www.sublimetext.com/docs/syntax.html) have the "language syntax" label (see #9088).
+  - (the colors for) [syntax highlighting](https://www.sublimetext.com/docs/color_schemes.html) have the "color scheme" label, whereas packages that provide [theming for the UI](https://www.sublimetext.com/docs/themes.html) have the "theme" label.
+  - a [build system](https://www.sublimetext.com/docs/build_systems.html) have the "build system" label (see #9093).
+  - [snippets](https://www.sublimetext.com/docs/completions.html#snippets) have the "snippets" label (see #9095).
+  - [completion metadata](https://www.sublimetext.com/docs/completions.html#completion-metadata) have the "completions" label (see #9095).
+  - any other kind of auto-complete have the "auto-complete" label (see #9095).
+  - formatters have the "formatting" label, and optionally "prettify" or "minify", if appropriate.
+- Utility packages have the "utilities" label (see #9094).
+
+## Other notable repositories
+
+This is the main repository of Sublime Text packages. However:
+
+- Linter packages should in most cases be submitted over at [SublimeLinter](https://github.com/SublimeLinter/package_control_channel).
+- Similarly, any language server protocol packages are managed via [SublimeLSP](https://github.com/sublimelsp/repository).
