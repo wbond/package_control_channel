@@ -15,6 +15,7 @@ package or repository go smoothly.**
 
 A few words towards naming conventions etc, for entries in these files:
 
+- Packages avoid having the word "Sublime" in their name (see [docs](https://packagecontrol.io/docs/submitting_a_package#Step_2)). 
 - Syntax packages are named after the language it supports, without suffixes like "syntax" or "highlighting" (e.g. #8801).
 - Labels:
   - Syntax packages have the "language syntax" label (see #9088).
