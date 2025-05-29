@@ -76,39 +76,35 @@
 			"previous_names": ["TabNine"],
 			"details": "https://github.com/codota/tabnine-sublime",
 			"author": "Tabnine",
-			"labels": ["autocomplete",
-				"javascript",
-				"typescript",
-				"php",
-				"python",
+			"labels": [
+				"auto-complete",
 				"snippets",
-				"ruby",
-				"java",
+				"ai",
+				"bash",
+				"c",
+				"c#",
+				"c++",
+				"css",
 				"go",
 				"golang",
-				"bash",
-				"kotlin",
+				"haskell",
 				"html",
-				"css",
+				"java",
+				"javascript",
+				"julia",
+				"kotlin",
+				"lua",
+				"objective-c",
 				"ocaml",
 				"perl",
-				"rust",
-				"julia",
-				"lua",
-				"haskell",
-				"c",
-				"cpp",
-				"c++",
-				"csharp",
-				"c#",
+				"php",
+				"python",
 				"react",
+				"ruby",
+				"rust",
 				"swift",
-				"objective-c",
-				"objectivec",
-				"ai",
-				"method completion",
-				"intellicode",
-				"intellisense"],
+				"typescript"
+			],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -229,7 +225,7 @@
 			"details": "https://github.com/tact-lang/tact-sublime",
 			"description": "All-in-one package for Tact programming language",
 			"author": "Novus Nota",
-			"labels": ["tact", "auto-complete", "build system", "code navigation", "language syntax", "snippets"],
+			"labels": ["auto-complete", "build system", "code navigation", "language syntax", "snippets", "tact"],
 			"releases": [
 				{
 					"sublime_text": ">=3210",
@@ -334,7 +330,7 @@
 		{
 			"name": "TailwindCSSAutocomplete",
 			"details": "https://github.com/bradlc/sublime-tailwindcss",
-			"labels": ["tailwind", "auto-complete"],
+			"labels": ["auto-complete", "tailwind"],
 			"author": "Brad Cornes",
 			"releases": [
 				{
@@ -368,7 +364,7 @@
 		{
 			"name": "Target",
 			"details": "https://github.com/Zander-Labuschagne/target",
-			"labels": ["thrustmaster", "t.a.r.g.e.t.", "target", "thrustmaster advanced programming graphical editor", "hotas", "autocompletion", "auto-complete"],
+			"labels": ["auto-complete", "thrustmaster", "t.a.r.g.e.t.", "target"],
 			"releases": [
 				{
 					"sublime_text": ">=3211",
@@ -509,7 +505,7 @@
 			"name": "TemplateToolkit",
 			"details": "https://github.com/znuny/TemplateToolkit-sublime",
 			"author": "Znuny GmbH",
-			"labels": ["templatetoolkit", "template toolkit", "language syntax", "snippets"],
+			"labels": ["language syntax", "snippets", "templatetoolkit", "template toolkit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -535,6 +531,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tera",
+			"details": "https://github.com/MuntasirSZN/sublime-tera",
+			"labels": ["language syntax"],
+			"author": "MuntasirSZN",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -675,7 +683,7 @@
 		{
 			"name": "Terrafmt",
 			"details": "https://github.com/p3lim/sublime-terrafmt",
-			"labels": ["terraform", "formatting"],
+			"labels": ["formatting", "terraform"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1692,24 +1700,19 @@
 			"name": "Theme - One",
 			"details": "https://github.com/AmjadHD/sublime_one_theme",
 			"labels": ["theme", "color scheme", "adaptive"],
+			"previous_names": ["Theme - One Dark"],
 			"releases": [
+				{
+					"base": "https://github.com/andresmichel/one-dark-theme",
+					"sublime_text": "<3200",
+					"tags": true
+				},
 				{
 					"sublime_text": "3200 - 3300",
 					"tags": "st3-"
 				},
 				{
 					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Theme - One Dark",
-			"details": "https://github.com/andresmichel/one-dark-theme",
-			"labels": ["theme"],
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2929,18 +2932,6 @@
 			]
 		},
 		{
-			"name": "TortoiseGIT",
-			"details": "https://github.com/fyneworks/sublime-TortoiseGIT",
-			"labels": ["git", "vcs", "tortoise"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": "windows",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "TortoiseGit Context Integration",
 			"details": "https://github.com/ses4j/tgit-st3",
 			"labels": ["git", "vcs", "tortoise"],
@@ -3235,7 +3226,7 @@
 		},
 		{
 			"details": "https://github.com/jonlabelle/Trimmer",
-			"labels": ["text manipulation", "formatting"],
+			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3282,7 +3273,7 @@
 		{
 			"name": "Tryton Snippets",
 			"details": "https://github.com/datalifeit/sublimetext-tryton-snippets",
-			"labels": ["tryton", "snippets"],
+			"labels": ["snippets", "tryton"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3294,7 +3285,7 @@
 			"name": "TSL Text Scraping Language",
 			"author": "Dan Borufka",
 			"details": "https://github.com/polygoat/TSL",
-			"labels": ["tsl", "scraping", "text scraping language", "language syntax", "completions", "auto-complete"],
+			"labels": ["auto-complete", "completions", "language syntax", "scraping", "text scraping language", "tsl"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3304,7 +3295,7 @@
 		},
 		{
 			"details": "https://github.com/tosher/TSQLEasy",
-			"labels": ["sql", "sql server", "t-sql", "language syntax"],
+			"labels": ["language syntax", "sql", "sql server", "t-sql"],
 			"releases": [
 				{
 					"sublime_text": ">=3114",
@@ -3316,7 +3307,7 @@
 			"name": "TtcnComplete",
 			"details": "https://github.com/HuiMi24/TtcnComplete",
 			"author": "Hui Mi",
-			"labels": ["language syntax", "auto complete", "code navigation"],
+			"labels": ["auto complete", "code navigation", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3581,7 +3572,7 @@
 		{
 			"name": "TypescriptCompletion",
 			"details": "https://github.com/RonanDrouglazet/TypescriptCompletion",
-			"labels": ["typescript", "auto-complete", "text manipulation"],
+			"labels": ["auto-complete", "text manipulation", "typescript"],
 			"previous_names": ["TSCompletion"],
 			"releases": [
 				{
