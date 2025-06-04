@@ -4,8 +4,15 @@ The `channel.json`, `repository.json` and `repository/*.json` files contain a
 list of repositories and packages for use with
 [Package Control](https://packagecontrol.io).
 
-The `channel.json` file is published at https://packagecontrol.io/channel_v3.json
+These source files are processed by a crawler[^io] and compiled into a single file,
+`channel_v3.json`, which serves as the primary channel used by the Package
+Control client. This compiled file is published at https://packagecontrol.io/channel_v3.json
 and is included with Package Control as the default channel.
+
+Libraries (previously named "dependencies") have their own registry at the moment.
+You can find them at https://github.com/packagecontrol/channel.
+
+[^io]: This infrastructure has its own repo at https://github.com/wbond/packagecontrol.io
 
 **Please be sure to follow the instructions at
 https://packagecontrol.io/docs/submitting_a_package to help the process of adding your
