@@ -4836,6 +4836,20 @@
 			]
 		},
 		{
+			"name": "SublimeManpage",
+			"details" : "https://github.com/apophys/SublimeManpage",
+			"releases" : [
+				{
+					"sublime_text" : "<3000",
+					"tags": true
+				},
+				{
+					"sublime_text" : ">=3000",
+					"branch": "Sublime-Text-3"
+				}
+			]
+		},
+		{
 			"name": "SublimeNFDToNFCPaste",
 			"details": "https://github.com/astronaughts/SublimeNFDToNFCPaste",
 			"labels": ["multi-byte", "strings"],
