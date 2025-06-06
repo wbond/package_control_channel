@@ -4993,21 +4993,21 @@
 			]
 		},
 		{
-			"details": "https://github.com/ostinelli/SublimErl",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "package"
-				}
-			]
-		},
-		{
 			"name": "SublimeREPL",
 			"details": "https://github.com/wuub/SublimeREPL",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/ostinelli/SublimErl",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "package"
 				}
 			]
 		},
@@ -5073,18 +5073,6 @@
 			]
 		},
 		{
-			"name": "SublimeTmpl",
-			"details": "https://github.com/kairyou/SublimeTmpl",
-			"donate": "https://www.paypal.me/kairyou",
-			"labels": ["file creation"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "SublimeTextAPICompletions",
 			"details": "https://github.com/gerardroche/sublime-api-completions",
 			"labels": ["auto-complete", "completions"],
@@ -5101,6 +5089,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SublimeTmpl",
+			"details": "https://github.com/kairyou/SublimeTmpl",
+			"donate": "https://www.paypal.me/kairyou",
+			"labels": ["file creation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
