@@ -4599,6 +4599,21 @@
 			]
 		},
 		{
+			"name": "CSScheme",
+			"details": "https://github.com/FichteFoll/CSScheme",
+			"labels": ["color scheme editing"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				},
+				{
+					"sublime_text": "<3000",
+					"tags": "st2-v"
+				}
+			]
+		},
+		{
 			"name": "CSScomb",
 			"details": "https://github.com/csscomb/sublime-csscomb",
 			"previous_names": ["CSScomb.js", "CSScomb JS"],
