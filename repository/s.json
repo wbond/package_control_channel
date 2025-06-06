@@ -320,6 +320,19 @@
 			]
 		},
 		{
+			"name": "ScalaFormat",
+			"details": "https://github.com/timonwong/ScalaFormat",
+			"homepage": "http://timonwong.github.io/ScalaFormat/",
+			"author": "timonwong",
+			"labels": ["formatting", "scala"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ScalaProjectGeneratorFacade",
 			"details": "https://github.com/lgmerek/ScalaProjectGeneratorFacade",
 			"labels": ["scala", "automation"],
@@ -2227,6 +2240,18 @@
 			]
 		},
 		{
+			"name": "smart less build",
+			"details": "https://github.com/thecotne/smart_less_build",
+			"labels": ["build system", "css", "less"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Smart Match",
 			"details": "https://github.com/ccampbell/sublime-smart-match",
 			"releases": [
@@ -2606,6 +2631,17 @@
 			"name": "Solarized OKLab Color Scheme",
 			"details": "https://github.com/Rayraegah/solarized-lab",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Solarized Toggle",
+			"details": "https://github.com/damccull/sublimetext-SolarizedToggle",
+			"labels": ["color scheme", "theme", "toggle"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3988,6 +4024,17 @@
 			]
 		},
 		{
+			"name": "subl protocol",
+			"details": "https://github.com/thecotne/subl-protocol",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "sublack",
 			"details": "https://github.com/jgirardet/sublack",
 			"author": "jgirardet",
@@ -4173,6 +4220,17 @@
 			]
 		},
 		{
+			"name": "SublimeAlternate",
+			"details": "https://github.com/timonwong/SublimeAlternate",
+			"author": "timonwong",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "SublimeAnarchy",
 			"details": "https://github.com/AnarchyTools/SublimeAnarchy",
 			"homepage": "http://anarchytools.org",
@@ -4181,7 +4239,7 @@
 			"releases": [
 				{
 					"platforms": ["osx", "linux"],
-					"sublime_text": ">=3103",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4195,7 +4253,20 @@
 			"releases": [
 				{
 					"platforms": ["osx", "linux"],
-					"sublime_text": ">=3103",
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeAStyleFormatter",
+			"details": "https://github.com/timonwong/SublimeAStyleFormatter",
+			"homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
+			"author": "timonwong",
+			"labels": ["formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -4363,6 +4434,20 @@
 			]
 		},
 		{
+			"name": "SublimeManpage",
+			"details" : "https://github.com/apophys/SublimeManpage",
+			"releases" : [
+				{
+					"sublime_text" : "<3000",
+					"tags": true
+				},
+				{
+					"sublime_text" : ">=3000",
+					"branch": "Sublime-Text-3"
+				}
+			]
+		},
+		{
 			"name": "SublimeNFDToNFCPaste",
 			"details": "https://github.com/astronaughts/SublimeNFDToNFCPaste",
 			"labels": ["multi-byte", "strings"],
@@ -4421,6 +4506,16 @@
 			]
 		},
 		{
+			"name": "SublimeREPL",
+			"details": "https://github.com/wuub/SublimeREPL",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/jarhart/SublimeSBT",
 			"labels": ["repl", "scala", "testing"],
 			"releases": [
@@ -4433,6 +4528,18 @@
 		{
 			"name": "SublimeServer",
 			"details": "https://github.com/learning/SublimeServer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SublimeSimpleSync",
+			"author": ["tnhu", "gfreezy", "kairyou"],
+			"details": "https://github.com/kairyou/SublimeSimpleSync",
+			"donate": "https://www.paypal.me/kairyou",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -4468,6 +4575,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SublimeTmpl",
+			"details": "https://github.com/kairyou/SublimeTmpl",
+			"donate": "https://www.paypal.me/kairyou",
+			"labels": ["file creation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -4832,6 +4951,18 @@
 		{
 			"name": "Surround",
 			"details": "https://github.com/jcartledge/sublime-surround",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SurroundWith",
+			"details": "https://github.com/Andr3as/Sublime-SurroundWith",
+			"homepage": "http://andrano.de/SurroundWith/",
+			"labels": ["text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
