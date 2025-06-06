@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "0x0",
@@ -35,16 +36,6 @@
 			]
 		},
 		{
-			"name": "2pdf",
-			"details": "https://github.com/fraoustin/Sublime2pdf",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "3024 Color Scheme",
 			"details": "https://github.com/idleberg/3024.tmTheme",
 			"labels": ["color scheme"],
@@ -59,7 +50,6 @@
 			"name": "3D Tool (Async Burst-Mode)",
 			"details": "https://github.com/leoheck/sublime-3d-tool/",
 			"labels": ["3d-tool", "burst-mode", "async"],
-			"previous_names": ["3D Tool Syntax Hilight"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -93,7 +83,7 @@
 			"details": "https://github.com/Globidev/Sublime-Text-42-Headers",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -115,7 +105,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

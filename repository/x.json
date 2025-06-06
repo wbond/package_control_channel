@@ -1,16 +1,7 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
-		{
-			"name": "X to Y",
-			"details": "https://github.com/superguigui/xtoy",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
 		{
 			"name": "X10Language",
 			"details": "https://github.com/ltronky/sublime-x10",
@@ -23,8 +14,19 @@
 			]
 		},
 		{
+			"name": "X3-Alpha Color Scheme",
+			"details": "https://github.com/x3ns/x3-alpha-theme",
+			"author": "x3ns <ns@nsyed.com>",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "x86 and x86_64 Assembly",
-			"previous_names": ["X86 and X86_64 assembly"],
 			"details": "https://github.com/13xforever/x86-assembly-textmate-bundle",
 			"labels": ["language syntax"],
 			"releases": [
@@ -58,7 +60,6 @@
 		},
 		{
 			"name": "Xcode Configuration Settings",
-			"previous_names": ["Xcode Build Configuration", "Xcode Build Configuration and Project Syntax Definitions", "Xcode Project"],
 			"details": "https://github.com/p4t5h3/xcode-build-configuration-language-for-sublime-text",
 			"labels": ["language syntax"],
 			"releases": [
@@ -74,18 +75,8 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Xdebug",
-			"details": "https://github.com/Kindari/SublimeXdebug",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -105,7 +96,7 @@
 			"details": "https://github.com/jotaen/xit-sublime",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -115,18 +106,8 @@
 			"details": "https://github.com/EivindArvesen/xkcd",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "XLI Template Converter",
-			"details": "https://github.com/apex2060/xli-templateize",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -137,16 +118,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "xml-guesser",
-			"details": "https://github.com/CrypticTemple/sublime-xml-guesser",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -202,10 +173,6 @@
 			"labels": ["xml", "xpath", "xquery", "clipboard", "preview"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
 					"sublime_text": "<4050",
 					"tags": "v"
 				},
@@ -220,7 +187,7 @@
 			"details": "https://github.com/infocosme/sublime_xpx",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -252,16 +219,6 @@
 				{
 					"sublime_text": ">=4126",
 					"tags": "4126-"
-				}
-			]
-		},
-		{
-			"name": "XSnippet",
-			"details": "https://github.com/xsnippet/sublime-xsnippet",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -303,7 +260,7 @@
 			"labels": ["language syntax", "gecko"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

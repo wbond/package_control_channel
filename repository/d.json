@@ -1,12 +1,13 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "D-Laravel alias",
 			"details": "https://github.com/deviny/Dlaravel-Alias",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -183,7 +184,6 @@
 		},
 		{
 			"name": "DarkDonut Color Schemes",
-			"previous_names": ["DarkDonut Forest Coders"],
 			"details": "https://github.com/DarkDonut-theme/DarDonut_sublime",
 			"releases": [
 				{
@@ -230,7 +230,7 @@
 			"details": "https://github.com/guillermooo/dart-sublime-bundle-releases",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -256,12 +256,12 @@
 			]
 		},
 		{
-			"name": "Dashed Comments",
-			"details": "https://github.com/email2vimalraj/DashedComments",
+			"name": "DashDoc",
+			"details": "https://github.com/farcaller/DashDoc",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -290,11 +290,7 @@
 			"details": "https://github.com/fitnr/SublimeDataConverter",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "sublimetwo"
-				},
-				{
-					"sublime_text": ">2999",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -304,7 +300,7 @@
 			"details": "https://github.com/jereze/DataikuSublimeText",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -327,16 +323,6 @@
 				{
 					"sublime_text": ">=4152",
 					"tags": "4152-"
-				}
-			]
-		},
-		{
-			"name": "Date",
-			"details": "https://github.com/paulollivier/sublimetext-date",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -368,18 +354,8 @@
 			"labels": ["search", "bibliography", "citations", "bibtex"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "DBLP Search",
-			"details": "https://github.com/grundprinzip/sublime-dblp",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -389,7 +365,7 @@
 			"labels": ["search", "dbpedia", "dbpedia-lookup"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -409,18 +385,8 @@
 			"labels": ["language syntax", "debian"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Debug Killer",
-			"details": "https://github.com/adampresley/sublime-debugkiller",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -485,7 +451,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -548,7 +514,7 @@
 			"details": "https://github.com/yaworsw/Sublime-DeleteCurrentFile",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -578,11 +544,10 @@
 		{
 			"name": "Delphi IDE",
 			"details": "https://github.com/JeisonJHA/Delphi-IDE",
-			"previous_names": ["Delphi API"],
 			"labels": ["delphi", "ide"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -614,7 +579,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -643,7 +608,6 @@
 		{
 			"name": "Derby",
 			"details": "https://github.com/rossedman/derby",
-			"previous_names": ["Bourbon & Neat Autocompletions", "Derby - Bourbon & Neat Autocompletions"],
 			"labels": ["auto-complete"],
 			"releases": [
 				{
@@ -690,7 +654,7 @@
 			"details": "https://github.com/alchemi5t/Devanagari-validator",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -713,8 +677,8 @@
 			"author": "Cocaine Johnsson",
 			"releases": [
 				{
-						"sublime_text": ">=3149",
-						"tags": true
+					"sublime_text": ">=3149",
+					"tags": true
 				}
 			]
 		},
@@ -745,7 +709,7 @@
 			"details": "https://github.com/hectorqin/sublime-devdocs",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -755,7 +719,7 @@
 			"details": "https://github.com/bisguzar/st3-devebkit",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -765,7 +729,7 @@
 			"details": "https://github.com/amezin/sublime-devhelp",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -784,13 +748,12 @@
 		},
 		{
 			"name": "Deviot (Arduino IDE)",
-			"previous_names": ["Deviot"],
 			"details": "https://github.com/gepd/Deviot",
 			"donate": "https://gratipay.com/~gepd/",
 			"labels": ["build system", "ide", "arduino", "iot", "platformio"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -865,7 +828,7 @@
 			"details": "https://github.com/NoaVidovic/dict-verification-template-syntax",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -940,7 +903,7 @@
 			"labels": ["git", "vcs", "svn", "bzr", "bazaar", "diff", "difference"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -992,7 +955,6 @@
 		{
 			"name": "Direct Open",
 			"details": "https://github.com/UniFreak/SublimeDirectOpen",
-			"previous_names": ["Direct Edit", "DirectEdit"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1005,7 +967,7 @@
 			"details": "https://github.com/kublaios/dired",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -1037,7 +999,7 @@
 			"author": ["Snazzah", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1054,18 +1016,7 @@
 			]
 		},
 		{
-			"name": "Display Functions (Java)",
-			"details": "https://github.com/liamcain/Display-Functions",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Display numbers",
-			"previous_names": ["Highlight Number"],
 			"details": "https://github.com/nia40m/sublime-display-nums",
 			"releases": [
 				{
@@ -1080,12 +1031,20 @@
 			"labels": ["fullscreen", "distraction-free"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
+				}
+			]
+		},
+		{
+			"name": "distractionless",
+			"details": "https://github.com/jrappen/sublime-distractionless",
+			"donate": "https://paypal.me/jrappen",
+			"labels": ["automation", "distraction-free", "fullscreen"],
+			"releases": [
+				{
+					"sublime_text": ">=4081",
+					"tags": true
 				}
 			]
 		},
@@ -1104,7 +1063,7 @@
 			"details": "https://github.com/squ1b3r/Djaneiro",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1145,11 +1104,7 @@
 			"labels": ["django", "python", "web", "management"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": "st3-"
 				}
 			]
@@ -1169,7 +1124,7 @@
 			"details": "https://github.com/willstott101/django-sublime-syntax",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1181,16 +1136,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Django-DocsSearch",
-			"details": "https://github.com/saippuakauppias/sublime-text-2-Django-DocsSearch",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1219,15 +1164,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/rcaldwel/Django-Tools",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"details": "https://github.com/dobarkod/DjangoNoseTestRunner",
 			"releases": [
 				{
@@ -1242,7 +1178,7 @@
 			"labels": ["dlang", "d", "productivity"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1253,7 +1189,7 @@
 			"labels": ["auto-complete", "completions", "productivity", "dlang", "d"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1264,7 +1200,7 @@
 			"labels": ["auto-complete", "completions", "productivity", "dlang", "d"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1295,7 +1231,7 @@
 			"details": "https://github.com/truemoid/sublime-dm-macro",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1326,7 +1262,6 @@
 			"details": "https://github.com/spadgos/sublime-jsdocs",
 			"donate": "http://pledgie.com/campaigns/16316",
 			"labels": ["documentation", "comments"],
-			"previous_names": ["JSDocs"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1382,7 +1317,7 @@
 			"labels":["document","php","manual"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags":true
 				}
 			]
@@ -1393,7 +1328,7 @@
 			"labels":["auto-complete", "formatting", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags":true
 				}
 			]
@@ -1426,16 +1361,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Dog Ears",
-			"details": "https://github.com/skyronic/DogEars",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1588,7 +1513,7 @@
 			"labels": ["language syntax", "config", "per-project", "dotfile"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1618,7 +1543,6 @@
 		{
 			"name": "Dpaste Sublime",
 			"details": "https://github.com/hieuh25/dpaste-sublime",
-			"previous_names": ["sublime-dpaste"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1665,7 +1589,7 @@
 			"labels": ["auto-complete", "build system", "language syntax", "linting"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1790,21 +1714,11 @@
 			]
 		},
 		{
-			"name": "Drush",
-			"details": "https://github.com/vaanwd/sublime_drush",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Duckyscript Syntax",
 			"details": "https://github.com/bugbone/duckyscript-st3",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1818,16 +1732,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Dummy Image Generator",
-			"details": "https://github.com/SubZane/Sublime-Dummy-Image-Generator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1882,18 +1786,7 @@
 			]
 		},
 		{
-			"name": "Duplicate Same",
-			"details": "https://github.com/jcowgar/sublime-duplicate-same",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "DustBuster",
-			"previous_names": ["Dust.js"],
 			"details": "https://github.com/zanuka/dust-buster",
 			"labels": ["auto-complete", "language syntax", "snippets", "dust"],
 			"releases": [
@@ -1925,13 +1818,13 @@
 				}
 			]
 		},
-				{
+		{
 			"name": "DXMate",
 			"details": "https://github.com/jtowers/dxmate",
 			"labels": ["salesforce", "dx", "salesforce1", "force.com", "ide", "apex", "visualforce"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
