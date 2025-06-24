@@ -308,18 +308,6 @@
 			]
 		},
 		{
-			"name": "AdDa Apex Snippets",
-			"details": "https://github.com/adashko/AdDa-Snippet",
-			"labels": ["snippets"],
-			"previous_names": ["WaveOC Apex Snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Additional PHP Snippets",
 			"details": "https://github.com/stuartherbert/sublime-phpsnippets",
 			"labels": ["snippets"],
@@ -432,7 +420,7 @@
 			"name": "Advanced PLSQL",
 			"previous_names": ["Oracle PL SQL"],
 			"details": "https://github.com/TheEggi/Advanced-PLSQL",
-			"labels": ["snippets", "plsql", "oracle", "build"],
+			"labels": ["snippets", "plsql", "oracle", "build system"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -684,7 +672,7 @@
 			"name": "Alive Snippets",
 			"details": "https://github.com/alivevietnam/Alive-Snippets",
 			"author": "Alive Vietnam",
-			"labels": ["snippets", "autocomplete", "php", "css", "scss", "javascript", "html", "shortcut"],
+			"labels": ["auto-complete", "snippets", "php", "css", "scss", "javascript", "html", "shortcut"],
 			"homepage": "https://alive-web.vn/",
 			"releases": [
 				{
@@ -805,15 +793,15 @@
 		},
 		{
 			"name": "AmbientColorScheme",
-				"details": "https://github.com/vyatu/AmbientColorScheme",
-				"labels": ["color scheme", "ambient light"],
-				"releases": [
-					{
-						"sublime_text": "*",
-						"platforms": ["osx"],
-						"tags": true
-					}
-				]
+			"details": "https://github.com/vyatu/AmbientColorScheme",
+			"labels": ["color scheme", "ambient light"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "AmbientTalk 2",
@@ -933,7 +921,7 @@
 		{
 			"name": "AmxxEditor",
 			"details": "https://github.com/evandrocoan/AmxxEditor",
-			"labels": ["autocompletion", "auto-complete", "amxmodx", "amx mod x", "amxx", "pawn", "build system"],
+			"labels": ["auto-complete", "build system", "amxmodx", "amx mod x", "amxx", "pawn"],
 			"previous_names": ["Amxmodx"],
 			"releases": [
 				{
@@ -957,7 +945,7 @@
 		{
 			"name": "Anaconda",
 			"details": "https://github.com/DamnWidget/anaconda",
-			"labels": ["linting", "auto-complete", "python"],
+			"labels": ["auto-complete", "linting", "python"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -967,7 +955,7 @@
 		},
 		{
 			"details": "https://github.com/DamnWidget/anaconda_go",
-			"labels": ["go", "golang", "linting", "auto-complete", "language syntax"],
+			"labels": ["auto-complete", "language syntax", "linting", "go", "golang"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -977,7 +965,7 @@
 		},
 		{
 			"details": "https://github.com/DamnWidget/anaconda_php",
-			"labels": ["linting", "language syntax", "php"],
+			"labels": ["language syntax", "linting", "php"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -987,7 +975,7 @@
 		},
 		{
 			"details": "https://github.com/DamnWidget/anaconda_rust",
-			"labels": ["linting", "language syntax", "auto-complete", "rust"],
+			"labels": ["auto-complete", "language syntax", "linting", "rust"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1029,7 +1017,7 @@
 		{
 			"name": "AndroidImport",
 			"details": "https://github.com/ribot/SublimeAndroidImport",
-			"labels": ["auto-complete", "android", "java", "import", "imports"],
+			"labels": ["auto-complete", "android", "java", "imports"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1040,7 +1028,7 @@
 		{
 			"name": "AndroidSnippets",
 			"details": "https://github.com/ribot/SublimeAndroidSnippets",
-			"labels": ["auto-complete", "android", "java", "snippets"],
+			"labels": ["auto-complete", "snippets", "android", "java"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1424,7 +1412,7 @@
 		{
 			"name": "Apex Intention Actions",
 			"details": "https://github.com/nchursin/ApexIntentionActions",
-			"labels": ["snippets", "apex", "salesforce", "intention", "autocompletion"],
+			"labels": ["auto-complete", "intention", "snippets", "apex", "salesforce"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1764,7 +1752,7 @@
 		{
 			"name": "ArmaBuild",
 			"details": "https://github.com/jonpas/Sublime-ArmaBuild",
-			"labels": ["build", "build system"],
+			"labels": ["build system"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1851,7 +1839,7 @@
 		{
 			"name": "ASCII Decorator",
 			"details": "https://github.com/viisual/ASCII-Decorator",
-			"labels": ["text manipulation", "formatting"],
+			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1883,7 +1871,7 @@
 		{
 			"name": "AsciiConverter",
 			"details": "https://github.com/bg-k/AsciiConverterPlugin",
-			"labels": ["ASCII", "binary", "converter", "decimal", "hexadecimal"],
+			"labels": ["ascii", "binary", "converter", "decimal", "hexadecimal"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2012,7 +2000,7 @@
 		{
 			"name": "AssistantAI",
 			"details": "https://github.com/kanutron/AssistantAI",
-			"labels": ["assistant", "completion", "chat", "ai", "gpt", "python"],
+			"labels": ["assistant", "completions", "chat", "ai", "gpt", "python"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2034,7 +2022,7 @@
 		{
 			"name": "Asterisk Extended Language",
 			"details": "https://github.com/shakvaal/AEL_syntax",
-			"labels": ["language syntax", "asterisk", "AEL"],
+			"labels": ["language syntax", "asterisk", "ael"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2064,7 +2052,7 @@
 		{
 			"name": "Asymptote",
 			"details": "https://github.com/noelmurasko/AsymptoteSyntax",
-			"labels": ["language syntax", "Asymptote"],
+			"labels": ["language syntax", "asymptote"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2108,7 +2096,7 @@
 		{
 			"name": "Atlantis VIP Language",
 			"details": "https://github.com/dziaineka/Atlantis-VIP-sublime",
-			"labels": ["Atlantis", "VIP", "language syntax", "snippets", "galaktika"],
+			"labels": ["language syntax", "snippets", "atlantis", "galaktika", "vip"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -2353,7 +2341,7 @@
 			"name": "AutocompletionFuzzy",
 			"details": "https://github.com/shagabutdinov/sublime-autocompletion",
 			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
-			"labels": ["sublime-enhanced", "text manipulation", "autocompletion"],
+			"labels": ["auto-complete", "sublime-enhanced", "text manipulation"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2510,7 +2498,7 @@
 		{
 			"name": "AutoMatlab",
 			"details": "https://github.com/asparc/AutoMatlab",
-			"labels": ["auto-complete", "snippets", "documentation", "build system", "matlab"],
+			"labels": ["auto-complete", "build system", "snippets", "documentation", "matlab"],
 			"releases": [
 				{
 					"platforms": ["windows"],
@@ -2527,7 +2515,7 @@
 		{
 			"name": "AutoPEP8",
 			"details": "https://github.com/wistful/SublimeAutoPEP8",
-			"labels": ["linting", "formatting"],
+			"labels": ["formatting", "linting"],
 			"readme": "https://raw.githubusercontent.com/wistful/SublimeAutoPEP8/master/Readme.md",
 			"releases": [
 				{
@@ -2685,7 +2673,7 @@
 		{
 			"name": "AVA",
 			"details": "https://github.com/avajs/sublime-ava",
-			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
+			"labels": ["auto-complete", "completions", "snippets", "testing", "javascript", "nodejs"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2798,7 +2786,7 @@
 			"name": "Axios Snippets",
 			"details": "https://github.com/cvhau/sublime-axios-snippets",
 			"author": ["cvhau"],
-			"labels": ["axios", "snippets", "axios snippets"],
+			"labels": ["snippets", "axios"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2809,7 +2797,7 @@
 		{
 			"name": "ayu",
 			"details": "https://github.com/dempfi/ayu",
-			"labels": ["theme", "color scheme"],
+			"labels": ["color scheme", "theme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2820,7 +2808,7 @@
 		{
 			"name": "AzureResourceManager",
 			"details": "https://github.com/GillesZunino/Sublime-AzureResourceManager",
-			"labels": ["azure", "resource manager", "language syntax", "snippets"],
+			"labels": ["language syntax", "snippets", "azure", "resource manager"],
 			"releases": [
 				{
 					"sublime_text": "*",

@@ -3,21 +3,6 @@
 	"packages": [],
 	"dependencies": [
 		{
-			"name": "anytree",
-			"description": "Python Anytree module - https://github.com/c0fec0de/anytree",
-			"author": "c0fec0de",
-			"issues": "https://github.com/c0fec0de/anytree/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"base": "https://github.com/nbeversl/anytree_sublime",
-					"platforms": ["*"],
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "arrow",
 			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
 			"author": "douglas-vaz",
@@ -550,21 +535,6 @@
 					"base": "https://github.com/codexns/newterm",
 					"platforms": ["*"],
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "numpy",
-			"description": "Python numpy module",
-			"author": "komsit37",
-			"issues": "https://github.com/komsit37/sublime-numpy/issues",
-			"load_order": "01",
-			"releases": [
-				{
-					"base": "https://github.com/komsit37/sublime-numpy",
-					"platforms": ["windows-x64","osx-x64","linux-x64"],
-					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
