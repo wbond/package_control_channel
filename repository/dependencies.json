@@ -408,6 +408,21 @@
 			]
 		},
 		{
+			"name": "jedi",
+			"description": "Awesome autocompletion, static analysis and refactoring library for python",
+			"author": "davidhalter",
+			"issues": "https://github.com/davidhalter/jedi/issues",
+			"load_order": "50",
+			"releases": [
+				{
+					"base": "https://github.com/davidhalter/jedi",
+					"platforms": ["*"],
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "jsonschema",
 			"description": "An(other) implementation of JSON Schema for Python",
 			"author": "kylebebak",
