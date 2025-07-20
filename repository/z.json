@@ -150,7 +150,7 @@
 		{
 			"name": "Zig Language",
 			"details": "https://github.com/ziglang/sublime-zig-language",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "zig"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -161,6 +161,7 @@
 		{
 			"name": "ZigUnofficial",
 			"details": "https://github.com/aidenfoxivey/sublime-zig-unofficial",
+			"labels": ["language syntax", "zig"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -197,6 +198,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Zmpl",
+			"details": "https://github.com/uzyn/zmpl-grammar",
+			"author": "U-Zyn Chua",
+			"labels": ["zmpl", "zig", "jetzig", "language syntax", "html", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -319,7 +332,7 @@
 		{
 			"name": "Zxx",
 			"details": "https://github.com/ZxxLang/ZxxSublime",
-			"labels": ["zxx"],
+			"labels": ["language syntax", "zxx"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",

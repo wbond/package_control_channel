@@ -15,6 +15,7 @@
 		{
 			"name": "P4 Syntax Highlighter",
 			"details": "https://github.com/c3m3gyanesh/p4-syntax-highlighter",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -69,6 +70,7 @@
 			"name": "PackageDev",
 			"details": "https://github.com/SublimeText/PackageDev",
 			"author": ["FichteFoll"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<3154",
@@ -210,6 +212,7 @@
 		{
 			"name": "Pandoc Academic",
 			"details": "https://github.com/larlequin/PandocAcademic",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -310,6 +313,7 @@
 		{
 			"name": "Papyrus Assembly",
 			"details": "https://github.com/Cipscis/Papyrus_Assembly",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -320,6 +324,7 @@
 		{
 			"name": "Paradox",
 			"details": "https://github.com/taw/sublime-paradox",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -696,6 +701,7 @@
 		{
 			"name": "PEG.js",
 			"details": "https://github.com/alexstrat/PEGjs.tmbundle",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -742,6 +748,7 @@
 		{
 			"name": "PeopleCodeTools",
 			"details": "https://github.com/Jatz/PeopleCodeTools",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -921,6 +928,7 @@
 		{
 			"name": "Pest Syntax",
 			"details": "https://github.com/dten/pest-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -942,6 +950,7 @@
 			"name": "PGN Support",
 			"details": "https://github.com/shreyasminocha/Sublime-PGN",
 			"description": "Portable Game Notation syntax and snippets",
+			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1142,8 +1151,21 @@
 			]
 		},
 		{
+			"name": "PHP Getters and Setters",
+			"author": "Nuno Franco da Costa",
+			"details": "https://github.com/SublimeText/PHPGettersSetters",
+			"labels": ["auto-complete", "code generation", "formatting", "snippets", "text manipulation", "php"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PHP Haml",
 			"details": "https://github.com/xt99/sublimetext-php-haml",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<4000",
@@ -1575,6 +1597,7 @@
 		{
 			"name": "PixarUSD",
 			"details": "https://github.com/davidlatwe/PixarUSD-Sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1585,6 +1608,7 @@
 		{
 			"name": "PKGBUILD",
 			"details": "https://github.com/git-commit/pkgbuild-st3",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1608,6 +1632,7 @@
 		{
 			"name": "PL1 PLI Syntax",
 			"details": "https://github.com/guija/pl1",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1637,7 +1662,7 @@
 		{
 			"name": "PlainNotes",
 			"details": "https://github.com/aziz/PlainNotes",
-			"labels": ["notes", "note taking", "authoring", "todo", "tasks"],
+			"labels": ["language syntax", "notes", "note taking", "authoring", "todo", "tasks"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1647,7 +1672,7 @@
 		},
 		{
 			"details": "https://github.com/aziz/PlainTasks",
-			"labels": ["todo", "tasks"],
+			"labels": ["language syntax", "todo", "tasks"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1658,7 +1683,7 @@
 		{
 			"name": "PlantUmlDiagrams",
 			"details": "https://github.com/evandrocoan/PlantUmlDiagrams",
-			"labels": ["uml", "plantuml"],
+			"labels": ["language syntax", "uml", "plantuml"],
 			"author": ["jvantuyl", "evandrocoan"],
 			"releases": [
 				{
@@ -1690,6 +1715,7 @@
 		{
 			"name": "Play 2.0",
 			"details": "https://github.com/guillaumebort/play2-sublimetext2",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1907,7 +1933,7 @@
 		{
 			"name": "Polymer Syntax",
 			"details": "https://github.com/jaychsu/sublime-polymer-syntax",
-			"labels": ["syntax", "polymer", "web component"],
+			"labels": ["language syntax", "polymer", "web component"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1929,6 +1955,7 @@
 		{
 			"name": "Pony Language",
 			"details": "https://github.com/ponylang/sublime-pony",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2260,7 +2287,7 @@
 			"name": "PreTeXtual",
 			"details": "https://github.com/daverosoff/PreTeXtual",
 			"author": "Dave Rosoff",
-			"labels": ["mbx", "mathbook xml", "pretext", "ptx"],
+			"labels": ["language syntax", "mbx", "mathbook xml", "pretext", "ptx"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -2435,6 +2462,7 @@
 		{
 			"name": "Prisma",
 			"details": "https://github.com/Sublime-Instincts/PrismaHighlight",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"base": "https://github.com/prisma/sublimeText3",
@@ -2482,6 +2510,7 @@
 		{
 			"name": "Processing",
 			"details": "https://github.com/b-g/processing-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2801,6 +2830,7 @@
 		{
 			"name": "PSLHighlight",
 			"details": "https://github.com/jewelzqiu/PSLHighlight",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2822,6 +2852,7 @@
 		{
 			"name": "Pue Syntax Highlight",
 			"details": "https://github.com/QingWei-Li/pue-syntax-highlight",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2865,6 +2896,7 @@
 		{
 			"name": "Puppet",
 			"details": "https://github.com/russCloak/SublimePuppet",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3044,6 +3076,7 @@
 		{
 			"name": "Pymol Language",
 			"details": "https://github.com/bbarad/pymol_syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3152,6 +3185,7 @@
 		{
 			"name": "PySide",
 			"details": "https://github.com/DamnWidget/SublimePySide",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3162,6 +3196,7 @@
 		{
 			"name": "PyTags",
 			"details": "https://github.com/qfel/sublime-pytags",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -3541,6 +3576,7 @@
 		{
 			"name": "Pyxl syntax",
 			"details": "https://github.com/yyjhao/sublime-pyxl",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
