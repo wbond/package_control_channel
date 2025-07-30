@@ -566,6 +566,20 @@
 			]
 		},
 		{
+			"name": "Element Finder",
+			"details": "https://github.com/thinkv/sublime-elfinder",
+			"description": "Search HTML files using CSS selectors",
+			"author": ["Keegan Street", "thinkV"],
+			"labels": ["file navigation", "search"],
+			"releases": [
+				{
+					"base": "https://github.com/thinkv/sublime-elfinder",
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "Element UI Snippets",
 			"details": "https://github.com/snowffer/Element-UI-Snippets-ST",
 			"labels": ["snippets"],
@@ -1180,6 +1194,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Erlyman",
+			"details": "https://github.com/Mendor/sublime-erlyman",
+			"labels": ["documentation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]

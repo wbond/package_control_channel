@@ -188,6 +188,32 @@
 			]
 		},
 		{
+			"name": "Pandoc",
+			"details": "https://github.com/tbfisher/sublimetext-Pandoc",
+			"labels": [
+				"latex",
+				"github flavored markdown",
+				"github markdown",
+				"html",
+				"markdown",
+				"markup",
+				"pandoc",
+				"reStructuredText",
+				"text manipulation",
+				"textile"
+			],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"branch": "1.x"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Pandoc Academic",
 			"details": "https://github.com/larlequin/PandocAcademic",
 			"labels": ["language syntax"],
@@ -937,6 +963,16 @@
 			"details": "https://github.com/andremacola/sublime-PHP_CBF",
 			"issues": "https://github.com/andremacola/sublime-PHP_CBF/issues",
 			"labels": ["php", "phpcs", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PHP Code Coverage",
+			"details": "https://github.com/bradfeehan/SublimePHPCoverage",
 			"releases": [
 				{
 					"sublime_text": "*",
