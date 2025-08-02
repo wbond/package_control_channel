@@ -1,16 +1,13 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "I18n Rails",
 			"details": "https://github.com/NicoSantangelo/sublime-text-i18n-rails",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "st2"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -43,7 +40,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -174,7 +171,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -191,20 +188,11 @@
 			]
 		},
 		{
-			"details": "https://github.com/palaniraja/iForce",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Ignore Unable to Open File Error",
 			"details": "https://github.com/everyonesdesign/IgnoreErrorUnableToOpenFile",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -258,7 +246,7 @@
 			"details": "https://github.com/kawasako/sublime-plugin-Image2tag",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "osx",
 					"tags": true
 				}
@@ -281,7 +269,7 @@
 			"author": "robinchenyu",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms":["windows", "linux"],
 					"tags": true
 				}
@@ -306,7 +294,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -319,6 +307,17 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "IMESupport",
+			"details": "https://github.com/chikatoike/IMESupport",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": "windows",
+					"branch": "master"
 				}
 			]
 		},
@@ -360,7 +359,7 @@
 			"labels": ["js", "npm", "webpack", "import-cost"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx", "windows"],
 					"tags": true
 				}
@@ -381,7 +380,7 @@
 			"details": "https://github.com/unlight/sublime-import-helper",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -391,7 +390,7 @@
 			"details": "https://github.com/Galooshi/sublime-import-js",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "*",
 					"tags": true
 				}
@@ -439,6 +438,18 @@
 			]
 		},
 		{
+			"name": "InactivePanes",
+			"details": "https://github.com/SublimeText/InactivePanes",
+			"author": "FichteFoll",
+			"labels": ["color scheme manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Inc-Dec-Value",
 			"details": "https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value",
 			"author": "Razumenko Maksim",
@@ -466,7 +477,7 @@
 			"labels": ["extension", "convert", "txt", "doc", "docx", "xlsx", "pdf", "epub"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -505,15 +516,10 @@
 		},
 		{
 			"name": "Incrementor",
-			"details": "https://github.com/eBookArchitects/Incrementor",
+			"details": "https://github.com/born2c0de/Incrementor",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3000",
-					"base": "https://github.com/born2c0de/Incrementor",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -581,7 +587,7 @@
 			"labels": ["indent", "tab", "size", "settings"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -594,15 +600,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://github.com/SublimeText/IndentGuides",
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -659,7 +656,7 @@
 			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -669,7 +666,7 @@
 			"details": "https://github.com/Infinidat/sublime-infinidat",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -691,12 +688,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"base": "https://github.com/clintberry/sublime-text-2-ini",
-					"sublime_text": "<3092",
-					"branch": "master"
-				},
-				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -709,16 +701,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Inline Calculator",
-			"details": "https://github.com/sahibalejandro/inline-calculator",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -737,7 +719,7 @@
 			"details": "https://github.com/apiad/Sublime-InlinePython",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -779,12 +761,26 @@
 			]
 		},
 		{
+			"name": "InputHelper",
+			"details": "https://github.com/xgenvn/InputHelper",
+			"author": "Anh Tu Nguyen <xgenvn@gmail.com>",
+			"donate": "https://www.gittip.com/xgenvn/",
+			"labels": ["text input", "input method", "ibus", "linux"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "InQlik-Tools",
 			"details": "https://github.com/inqlik/inqlik-tools",
 			"labels": ["language syntax", "build system"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -806,7 +802,7 @@
 			"labels": ["latex", "math", "markdown"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -829,7 +825,18 @@
 			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "InsertDate",
+			"details": "https://github.com/FichteFoll/InsertDate",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -840,7 +847,7 @@
 			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -850,12 +857,8 @@
 			"details": "https://github.com/lindskogen/InstacodeSublime",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
@@ -877,7 +880,7 @@
 			"author":"Taiwo Kareem",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -888,7 +891,7 @@
 			"labels": ["auto-complete", "completions", "help", "hint", "php", "python"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -931,7 +934,7 @@
 			"details": "https://github.com/ichichikin/sublime-plugin-interactivity",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -984,7 +987,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1017,7 +1020,7 @@
 			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1039,7 +1042,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1094,7 +1097,7 @@
 			"labels": ["emacs", "file open", "open path"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1116,7 +1119,7 @@
 			"details": "https://github.com/vovayatsyuk/sublime-ip-address",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1161,12 +1164,8 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
@@ -1175,7 +1174,7 @@
 			"details": "https://github.com/interlegis/sublime_ipython_pick",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1186,7 +1185,7 @@
 			"labels": ["irc"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1197,7 +1196,7 @@
 			"labels": ["language syntax", "irc"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1210,17 +1209,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Iris Path",
-			"details": "https://github.com/angelsanchez/iris-path-sublime",
-			"labels": ["iris"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": true
 				}
 			]
 		},
@@ -1252,7 +1240,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1310,23 +1298,12 @@
 			]
 		},
 		{
-			"name": "iTodo",
-			"details": "https://github.com/chagel/itodo",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "iTunes",
 			"details": "https://github.com/airtoxin/Sublime-iTunes",
 			"releases": [
 				{
 					"platforms": "osx",
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
