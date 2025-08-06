@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "W2P",
@@ -7,7 +8,7 @@
 			"labels": ["web2py"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -108,7 +109,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -136,12 +137,13 @@
 			]
 		},
 		{
-			"name": "Web Encoders",
-			"details": "https://github.com/revolunet/sublimetext-web-encoders",
+			"name": "Web Inspector",
+			"details": "https://github.com/sokolovstas/SublimeWebInspector",
+			"labels": ["debugging", "diagnostics"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -195,7 +197,7 @@
 			"description": "Execute shell commands related to web apps development: Laravel Artisan, Composer, NPM, Yarn, Python, PHP, PHPStan, Psalm, ESLint and more!",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -238,7 +240,7 @@
 			"details": "https://github.com/WebFont/webfont",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -260,7 +262,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
 					"tags": true
 				}
@@ -272,18 +274,8 @@
 			"labels": ["language syntax", "webidl"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Webloader",
-			"details": "https://github.com/rozsahegyi/sublime-webloader",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -292,18 +284,8 @@
 			"details": "https://github.com/Tenzer/WebOS",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "WebSuite",
-			"details": "https://github.com/bthorben/WebSuite",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -324,7 +306,7 @@
 			"labels": ["weo", "keys", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -334,7 +316,7 @@
 			"details": "https://github.com/Oblongmana/Sublime-Wget",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -351,21 +333,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/matiaspub/WheelChanger",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Whiley",
 			"details": "https://github.com/Whiley/WhileySyntaxBundle",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -393,16 +366,6 @@
 			]
 		},
 		{
-			"name": "Whitespace Diff Trim",
-			"details": "https://github.com/swenson/sublime_whitespace",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Whitespace Removal",
 			"details": "https://github.com/Melodatron/WhitespaceRemoval-Sublime",
 			"releases": [
@@ -413,22 +376,12 @@
 			]
 		},
 		{
-			"name": "Whitespaces",
-			"details": "https://github.com/gorte/ST2-Whitespaces",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "WhizzML",
 			"details": "https://github.com/whizzml/whizzml-sublime",
 			"labels": ["auto-complete", "language syntax", "machine learning"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -448,29 +401,8 @@
 			"details": "https://github.com/rokartnaz/WhooshSearch",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Wiggle",
-			"details": "https://github.com/jarretth/Wiggle",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Wiki",
-			"details": "https://github.com/PogiNate/SublimeWiki",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -524,7 +456,7 @@
 			"labels": ["utilities", "window", "status bar"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -624,7 +556,7 @@
 			"author": "Severin Glöckner",
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -729,7 +661,7 @@
 			"details": "https://github.com/schmave/Sublime-Word-Completion",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -749,7 +681,7 @@
 			"author": "evandrocoan",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -811,7 +743,7 @@
 			"details": "https://github.com/tatemz/WordPress-Generate-Salts",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -854,7 +786,7 @@
 			"labels": ["wordpress", "development", "cryptography"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -908,7 +840,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -971,7 +903,7 @@
 			"labels": ["language syntax", "assembly"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1023,7 +955,7 @@
 			"labels": ["text manipulation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1048,15 +980,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/WrtApp/Writeapp",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -1135,7 +1058,7 @@
 			"labels": ["build system"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

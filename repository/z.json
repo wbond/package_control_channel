@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "Z",
@@ -18,17 +19,8 @@
 			"labels": ["language syntax", "z80", "assembly"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/abraly/zap-gremlins",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -164,7 +156,7 @@
 			"labels": ["language syntax", "zig"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -185,7 +177,7 @@
 			"details": "https://github.com/mawelborn/ZipContents",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -335,7 +327,7 @@
 			"labels": ["language syntax", "zxx"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

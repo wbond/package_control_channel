@@ -1,5 +1,6 @@
 {
-	"schema_version": "3.0.0",
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
 	"packages": [
 		{
 			"name": "Oasis Theme",
@@ -39,7 +40,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -66,6 +67,18 @@
 			]
 		},
 		{
+			"name": "Obsidian Color Scheme",
+			"author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
+			"details": "https://github.com/mekwall/obsidian-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "OCaml Autocompletion",
 			"details": "https://github.com/whitequark/sublime-ocp-index",
 			"releases": [
@@ -80,7 +93,7 @@
 			"details": "https://github.com/dreki/sublime-occur",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -145,7 +158,7 @@
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -174,7 +187,18 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Octopress",
+			"details": "https://github.com/blueplanet/sublime-text-octopress",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -217,7 +241,7 @@
 			"labels": ["odin", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -311,12 +335,24 @@
 			]
 		},
 		{
+			"name": "OmniMarkupPreviewer",
+			"details": "https://github.com/timonwong/OmniMarkupPreviewer",
+			"homepage": "http://timonwong.github.io/OmniMarkupPreviewer/",
+			"author": "timonwong",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "OmniSharp",
 			"details": "https://github.com/OmniSharp/omnisharp-sublime",
 			"labels": ["auto-complete", "language syntax", "c#", ".net"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -348,7 +384,7 @@
 			"details": "https://github.com/wl879/SublimeOnSave/",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -422,16 +458,6 @@
 			]
 		},
 		{
-			"name": "Opa",
-			"details": "https://github.com/MLstate/OpaSublimeText",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Open",
 			"details": "https://github.com/danielfrg/sublime-open",
 			"labels": ["file navigation"],
@@ -475,6 +501,20 @@
 			]
 		},
 		{
+			"name": "Open Finder",
+			"details": "https://github.com/kallepersson/Sublime-Finder",
+			"description": "Provides a command for opening Finder in the current directory",
+			"author": "Kalle Persson",
+			"labels": ["file navigation", "finder"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Open Folder",
 			"details": "https://github.com/mikepfirrmann/openfolder",
 			"labels": ["file navigation"],
@@ -512,7 +552,7 @@
 			"details": "https://github.com/SublimeText/OpenDefaultApplication",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -522,7 +562,7 @@
 			"details": "https://github.com/arnellebalane/sublime-open-in-git-repository",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -533,7 +573,7 @@
 			"labels": ["file navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "linux",
 					"tags": true
 				}
@@ -545,7 +585,7 @@
 			"labels": ["file navigation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": "linux",
 					"tags": true
 				}
@@ -574,41 +614,11 @@
 			]
 		},
 		{
-			"name": "Open in Total Commander",
-			"details": "https://github.com/HackerBaloo/SublimeOpenInTotalCommander",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Open project path by shortcut",
-			"details": "https://github.com/Shagabutdinov/sublime-open-path",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Open Recent Files",
-			"details": "https://github.com/spadgos/sublime-OpenRecentFiles",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Open Related",
 			"details": "https://github.com/vojtajina/sublime-OpenRelated",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -618,7 +628,7 @@
 			"details": "https://github.com/everyonesdesign/OpenSearchInNewTab",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -634,22 +644,11 @@
 			]
 		},
 		{
-			"name": "Open Shading Language",
-			"details": "https://github.com/roesti77/Sublime-Open-Shading-Language",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Open TortoiseHg",
 			"details": "https://github.com/SublimeText/OpenTortoiseHg",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -659,10 +658,6 @@
 			"details": "https://github.com/noahcoad/open-url",
 			"labels": ["open folders", "open files", "shortcut", "power user", "web search", "url"],
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
 				{
 					"sublime_text": "3000 - 4049",
 					"tags": "st3-"
@@ -684,7 +679,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"platforms": ["osx"],
 					"tags": true
 				}
@@ -767,7 +762,7 @@
 			"labels": ["auto-complete", "build system", "language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -822,18 +817,8 @@
 			"labels": ["shortcut", "open files", "files navigation", "files", "list"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "OpenFromPath",
-			"details": "https://github.com/astronaughts/SublimeOpenFromPath",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -925,7 +910,7 @@
 			],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -991,7 +976,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1002,7 +987,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1025,7 +1010,7 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1037,7 +1022,20 @@
 			"labels": ["language syntax", "org mode", "notes", "note taking", "authoring", "todo", "tasks"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "orgmode",
+			"details": "https://github.com/danielmagnussons/orgmode",
+			"author": "Daniel Magnusson",
+			"donate": "https://www.gittip.com/danielmagnussons/",
+			"labels": ["text manipulation", "text navigation", "formatting", "todo", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1046,11 +1044,7 @@
 			"details": "https://github.com/SublimeText/Origami",
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1070,7 +1064,7 @@
 			"details": "https://github.com/warmdev/SublimeOutline",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1113,7 +1107,7 @@
 			"labels": ["language syntax", "overwatch"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1136,7 +1130,7 @@
 			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
