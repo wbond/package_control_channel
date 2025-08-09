@@ -24,7 +24,6 @@
 		},
 		{
 			"name": "x86 and x86_64 Assembly",
-			"previous_names": ["X86 and X86_64 assembly"],
 			"details": "https://github.com/13xforever/x86-assembly-textmate-bundle",
 			"labels": ["language syntax"],
 			"releases": [
@@ -58,7 +57,6 @@
 		},
 		{
 			"name": "Xcode Configuration Settings",
-			"previous_names": ["Xcode Build Configuration", "Xcode Build Configuration and Project Syntax Definitions", "Xcode Project"],
 			"details": "https://github.com/p4t5h3/xcode-build-configuration-language-for-sublime-text",
 			"labels": ["language syntax"],
 			"releases": [
@@ -101,8 +99,20 @@
 			]
 		},
 		{
+			"name": "Xeto",
+			"details": "https://github.com/mgiannini/sublime-xeto",
+			"labels": ["language syntax", "xeto"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "xit!",
 			"details": "https://github.com/jotaen/xit-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -133,6 +143,7 @@
 		{
 			"name": "xmake",
 			"details": "https://github.com/xmake-io/xmake-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -218,6 +229,7 @@
 		{
 			"name": "XPX",
 			"details": "https://github.com/infocosme/sublime_xpx",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -228,6 +240,7 @@
 		{
 			"name": "XQuery",
 			"details": "https://github.com/PogiNate/XQuery-Sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -290,6 +303,7 @@
 		{
 			"name": "Xtend",
 			"details": "https://github.com/staltz/SublimeXtend",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
