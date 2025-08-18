@@ -1,0 +1,11 @@
+name: On Push
+
+on:
+  push:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: packagecontrol/st-schema-reviewer-action@fd6e66b
