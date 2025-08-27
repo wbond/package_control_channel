@@ -6,15 +6,11 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v5
+      - uses: packagecontrol/st-schema-reviewer-action@e5fc1d30e895afc85e339207751241f212b1c1e4
         with:
-          python-version: 3.11
+          test_repositories: true
 
-      - name: Run repository tests
-        run: python -m unittest
 
   trigger-review:
     needs: tests
