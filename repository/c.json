@@ -2560,16 +2560,6 @@
 			]
 		},
 		{
-			"name": "Color Convert",
-			"details": "https://github.com/zhouyuexie/ColorConvert",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Color Highlight",
 			"details": "https://github.com/SublimeText/ColorHighlight",
 			"author": ["Kronuz"],
@@ -2850,6 +2840,24 @@
 			]
 		},
 		{
+			"details": "https://github.com/braver/ColorConverter",
+			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["css", "colors", "utilities"],
+			"previous_names": [
+				"Color Convert",
+				"CSS Color Converter",
+				"Hex to HSL Color Converter",
+				"Hex to RGB Converter",
+				"Hex-to-RGBA"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Colored Comments",
 			"details": "https://github.com/TheSecEng/ColoredComments",
 			"author": "Terminal / TheSecEng",
@@ -2876,6 +2884,8 @@
 		},
 		{
 			"details": "https://github.com/braver/ColorHints",
+			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["css", "colors", "utilities"],
 			"releases": [
 				{
 					"sublime_text": ">=3200",
@@ -4343,16 +4353,6 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "CSS Color Converter",
-			"details": "https://github.com/TheDutchCoder/ColorConvert",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
