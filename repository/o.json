@@ -692,7 +692,7 @@
 		},
 		{
 			"name": "OpenAI completion",
-			"labels": ["auto-complete", "openai", "chatgpt", "llm"],
+			"labels": ["auto-complete", "openai", "chatgpt", "llm", "agents"],
 			"details": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text",
 			"donate": "https://github.com/sponsors/yaroslavyaroslav",
 			"releases": [
@@ -1094,6 +1094,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "OverpassQL",
+			"details": "https://github.com/michaelblyons/SublimeSyntax-OverpassQL",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4077",
+					"tags": "version/st4077/"
 				}
 			]
 		},

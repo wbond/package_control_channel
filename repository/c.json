@@ -2361,12 +2361,14 @@
 			]
 		},
 		{
-			"name": "CodexAI",
-			"details": "https://github.com/necarlson97/codex-ai-sublime",
+			"name": "Codex",
+			"details": "https://github.com/yaroslavyaroslav/CodexSublime",
+			"previous_names": ["CodexAI"],
+			"labels": ["mcp", "agents", "openai", "gemini", "claude", "anthropic", "llm", "deepseek", "qwen"],
+			"donate": "https://github.com/sponsors/yaroslavyaroslav",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": "*",
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
@@ -2558,19 +2560,10 @@
 			]
 		},
 		{
-			"name": "Color Convert",
-			"details": "https://github.com/zhouyuexie/ColorConvert",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Color Highlight",
+			"details": "https://github.com/SublimeText/ColorHighlight",
+			"author": ["Kronuz"],
 			"labels": ["color", "highlight", "highlighter", "hex", "rgb", "hsl"],
-			"details": "https://github.com/Kronuz/ColorHighlight",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2847,6 +2840,24 @@
 			]
 		},
 		{
+			"details": "https://github.com/braver/ColorConverter",
+			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["css", "colors", "utilities"],
+			"previous_names": [
+				"Color Convert",
+				"CSS Color Converter",
+				"Hex to HSL Color Converter",
+				"Hex to RGB Converter",
+				"Hex-to-RGBA"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Colored Comments",
 			"details": "https://github.com/TheSecEng/ColoredComments",
 			"author": "Terminal / TheSecEng",
@@ -2873,6 +2884,8 @@
 		},
 		{
 			"details": "https://github.com/braver/ColorHints",
+			"donate": "https://paypal.me/koenlageveen",
+			"labels": ["css", "colors", "utilities"],
 			"releases": [
 				{
 					"sublime_text": ">=3200",
@@ -4236,6 +4249,17 @@
 			]
 		},
 		{
+			"name": "Cross",
+			"details": "https://github.com/chancedai/sublime-cross",
+			"author": "Chance Dai",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "Crypto",
 			"details": "https://github.com/mediaupstream/SublimeText-Crypto",
 			"releases": [
@@ -4340,16 +4364,6 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "CSS Color Converter",
-			"details": "https://github.com/TheDutchCoder/ColorConvert",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
