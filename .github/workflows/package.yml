@@ -4,7 +4,6 @@ on: [pull_request]
 
 jobs:
   package:
-    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
