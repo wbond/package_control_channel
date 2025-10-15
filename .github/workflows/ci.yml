@@ -1,24 +1,12 @@
-name: CI
+name: Schema test
 
 on: [push, pull_request]
 
 jobs:
-  tests:
+  schema:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
       - uses: packagecontrol/st-schema-reviewer-action@cad5e3795afc23ed6e2ee298d5c27b5a6a621b8d
         with:
           test_repositories: true
-
-
-  trigger-review:
-    needs: tests
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger package review
-        # continue-on-error: true
-        run: curl --http1.1 -X POST https://packagecontrol.io/test_pr/$PR_NUM.json
-        env:
-          PR_NUM: ${{ github.event.pull_request.number }}

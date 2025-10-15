@@ -1,0 +1,18 @@
+name: Package test
+
+on: [pull_request]
+
+jobs:
+  package:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+
+      - uses: packagecontrol/st-package-reviewer-action@56595c3ec739a0878711cd91733b7fb9da8d6c26
+        with:
+          base-sha: ${{ github.event.pull_request.base.sha }}
+          current-sha: ${{ github.event.pull_request.head.sha }}
