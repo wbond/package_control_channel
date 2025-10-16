@@ -11,7 +11,7 @@ jobs:
           fetch-depth: 0
           ref: refs/pull/${{ github.event.pull_request.number }}/merge
 
-      - uses: packagecontrol/st-package-reviewer-action@90d487de71b39d2ef54f4a4ce6dfb272e35fdad2
+      - uses: packagecontrol/st-package-reviewer-action@fee3977c16585bb227d631b6756bf2391ba266a5
         with:
           base-sha: ${{ github.event.pull_request.base.sha }}
           current-sha: ${{ github.event.pull_request.head.sha }}
