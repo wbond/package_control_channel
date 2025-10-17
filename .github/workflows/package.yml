@@ -28,7 +28,7 @@ jobs:
             core.setOutput('base_sha', pr.data.base.sha);
             core.setOutput('head_sha', pr.data.head.sha);
 
-      - uses: packagecontrol/st-package-reviewer-action@fee3977c16585bb227d631b6756bf2391ba266a5
+      - uses: packagecontrol/st-package-reviewer-action@81e796ba0b0ae3bb6fea8a3cf15916a6a3239dd8
         with:
           base-sha: ${{ github.event.pull_request.base.sha || steps.get_pr.outputs.base_sha }}
           current-sha: ${{ github.event.pull_request.head.sha || steps.get_pr.outputs.head_sha }}
