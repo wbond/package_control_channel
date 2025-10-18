@@ -3,7 +3,7 @@ name: Package test
 on:
   pull_request:
   issue_comment:
-    types: [created]  # comment added with just "📦"
+    types: [created]  # run when comment added with just "📦"
 
 jobs:
   package:
@@ -28,7 +28,7 @@ jobs:
             core.setOutput('base_sha', pr.data.base.sha);
             core.setOutput('head_sha', pr.data.head.sha);
 
-      - uses: packagecontrol/st-package-reviewer-action@81e796ba0b0ae3bb6fea8a3cf15916a6a3239dd8
+      - uses: packagecontrol/st-package-reviewer-action@2bf0f813c6c9734961a3d5bfde9bb096b5afaf4c
         with:
           base-sha: ${{ github.event.pull_request.base.sha || steps.get_pr.outputs.base_sha }}
           current-sha: ${{ github.event.pull_request.head.sha || steps.get_pr.outputs.head_sha }}
