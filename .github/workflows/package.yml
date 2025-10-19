@@ -28,6 +28,8 @@ jobs:
             core.setOutput('base_sha', pr.data.base.sha);
             core.setOutput('head_sha', pr.data.head.sha);
 
+      # latest version on simplify branch see #5
+      # https://github.com/packagecontrol/st-package-reviewer-action/pull/5
       - uses: packagecontrol/st-package-reviewer-action@de58167cfca93775fcbf5061cce6e452b51ce7b6
         with:
           base-sha: ${{ github.event.pull_request.base.sha || steps.get_pr.outputs.base_sha }}
