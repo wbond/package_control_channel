@@ -646,18 +646,23 @@
 			]
 		},
 		{
-			"name": "JenkinsDoc",
-			"description": "Comprehensive Jenkins Pipeline documentation and autocompletion for Sublime Text",
-			"author": "Tsahi Elkayam",
-			"homepage": "https://github.com/Tsahi-Elkayam/JenkinsDoc",
-            "issues": "https://github.com/Tsahi-Elkayam/JenkinsDoc/issues",
-            "donate": "https://github.com/sponsors/Tsahi-Elkayam",
-            "labels": ["jenkins", "groovy", "pipeline", "automation", "auto-complete", "documentation"],
-			"releases": [
-				{
-					"tags": true
-				}
-			]
+		    "name": "JenkinsDoc",
+		    "details": "https://github.com/Tsahi-Elkayam/JenkinsDoc",
+		    "releases": [
+		        {
+		            "sublime_text": ">=3000",
+		            "tags": true
+		        }
+		    ],
+		    "homepage": "https://github.com/Tsahi-Elkayam/JenkinsDoc",
+		    "author": "Tsahi Elkayam",
+		    "description": "Jenkins Pipeline documentation and autocompletion plugin for Sublime Text",
+		    "labels": [
+		        "snippets",
+		        "completions",
+		        "auto-complete",
+		        "utilities"
+		    ]
 		},
 		{
 			"name": "Jenkinsfile",
